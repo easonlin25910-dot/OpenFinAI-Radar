@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import re
 import unicodedata
+import urllib.parse
 from datetime import datetime, timezone
 from typing import Dict, Iterable, List, Sequence, Set, Tuple
 
@@ -106,6 +107,65 @@ INNOVATION_LEVELS = {
     "incremental": 2,
     "not_demonstrated": 1,
 }
+
+CONFIRMED_PRODUCT_PAGES = {
+    "ktx skills kit": "https://www.ktx.com/en/trade-skills",
+    "visa intelligent commerce": "https://global-corporate.review.visa.com/sites/visa-perspectives/newsroom/visa-intelligent-commerce-connect-ai-shopping-for-businesses.html",
+}
+
+OFFICIAL_COMPANY_SITES = {
+    "alipay": "https://www.alipay.com/",
+    "ant group": "https://www.antgroup.com/",
+    "razorpay": "https://razorpay.com/",
+    "visa": "https://www.visa.com/",
+    "mastercard": "https://www.mastercard.com/",
+    "stripe": "https://stripe.com/",
+    "paypal": "https://www.paypal.com/",
+    "plaid": "https://plaid.com/",
+    "klarna": "https://www.klarna.com/",
+    "revolut": "https://www.revolut.com/",
+    "bloomberg": "https://www.bloomberg.com/",
+    "lseg": "https://www.lseg.com/",
+    "nasdaq": "https://www.nasdaq.com/",
+    "swift": "https://www.swift.com/",
+    "jpmorgan": "https://www.jpmorgan.com/",
+    "goldman sachs": "https://www.goldmansachs.com/",
+    "morgan stanley": "https://www.morganstanley.com/",
+    "citigroup": "https://www.citigroup.com/",
+    "citi": "https://www.citi.com/",
+    "hsbc": "https://www.hsbc.com/",
+    "barclays": "https://www.barclays.com/",
+    "santander": "https://www.santander.com/",
+    "standard chartered": "https://www.sc.com/",
+    "deutsche bank": "https://www.db.com/",
+    "ubs": "https://www.ubs.com/",
+    "shinhan": "https://www.shinhangroup.com/",
+}
+
+TO_B_TERMS = (
+    "enterprise", "institution", "financial institutions", "business", "merchant", "b2b",
+    "bank", "banking operations", "employee", "internal", "advisor", "broker", "insurer",
+    "compliance", "api", "integration", "developer", "skills kit", "sme", "企业", "机构",
+    "商户", "银行", "员工", "内部", "顾问", "合规", "法人", "企業", "銀行", "法人向け",
+)
+
+TO_C_TERMS = (
+    "consumer", "personal finance", "personal loan", "retail customer", "individual",
+    "borrower", "household", "end user", "wallet assistant", "mortgage loan", "个人", "消费者",
+    "个人金融", "个人贷款", "零售客户", "借款人", "用户", "個人", "消費者", "個人向け",
+)
+
+DOMAIN_TO_PRODUCT_CATEGORY = {
+    "banking": "banking_operations",
+    "payments": "payments_wallets",
+    "lending_and_credit": "lending_financing",
+    "insurance": "insurance",
+    "wealth_and_markets": "investment_markets",
+    "risk_and_compliance": "risk_compliance_fraud",
+    "fintech": "fintech_infrastructure",
+}
+
+PRODUCT_CATEGORY_ORDER = tuple(DOMAIN_TO_PRODUCT_CATEGORY.values()) + ("other_finance",)
 
 
 def normalize_text(value: str) -> str:
@@ -300,6 +360,127 @@ def _innovation_assessment(text: str, ai_types: List[str]) -> Tuple[str, str, Li
     )
 
 
+def _trim_product_fragment(value: str) -> str:
+    value = re.split(
+        r"\s+(?:to|with|across|at|as)\s+|\s+-\s+|[,:;，：；–—]",
+        value,
+        maxsplit=1,
+        flags=re.IGNORECASE,
+    )[0]
+    value = re.sub(r"^(?:a|an|the|new|its)\s+", "", value.strip(), flags=re.IGNORECASE)
+    return value.strip(" .'")[:100]
+
+
+def _product_identity(item: RawItem) -> Tuple[str, str, str, str, str]:
+    """Return product name, name status, search URL, official URL and URL status."""
+    title = re.sub(r"\s+", " ", item.title).strip()
+    product_name = ""
+    vendor = ""
+    name_status = "undisclosed"
+
+    if item.source_kind == "mcp_registry":
+        product_name = title
+        vendor = item.publisher
+        name_status = "explicit"
+    else:
+        quoted = re.search(r"[“\"「『]([^”\"」』]{2,100})[”\"」』]", title)
+        launch = re.search(
+            r"^(.{2,70}?)\s+(?:launches|launched|unveils|unveiled|introduces|introduced|releases|released|rolls out)\s+(.+)$",
+            title,
+            flags=re.IGNORECASE,
+        )
+        chinese = re.search(r"^(.{2,50}?)(?:正式发布|正式推出|发布|推出|上线)(.+)$", title)
+        if quoted:
+            product_name = quoted.group(1).strip()
+            name_status = "explicit"
+        elif launch:
+            vendor = launch.group(1).strip()
+            fragment = _trim_product_fragment(launch.group(2))
+            product_name = f"{vendor} {fragment}" if fragment else ""
+            generic = normalize_text(fragment) in {
+                "ai platform", "ai agent", "agentic ai platform", "ai tool", "ai assistant",
+                "artificial intelligence platform", "generative ai platform",
+            }
+            has_named_token = any(
+                token[:1].isupper()
+                for token in fragment.split()
+                if token.lower() not in {"ai", "agent", "agentic"}
+            )
+            name_status = "explicit" if has_named_token and not generic else "descriptive"
+        elif chinese:
+            vendor = chinese.group(1).strip("，,：: ")
+            fragment = re.split(r"[，,；;]|联合|携手|面向", chinese.group(2), maxsplit=1)[0].strip()
+            product_name = f"{vendor} {fragment}" if fragment else ""
+            name_status = "explicit" if any(mark in title for mark in ("“", "「", "《")) else "descriptive"
+
+    if not product_name:
+        deploy = re.split(
+            r"\s+(?:deploys?|adopts?|implements?|integrates?|partners? with)\s+",
+            title,
+            maxsplit=1,
+            flags=re.IGNORECASE,
+        )[0]
+        vendor = deploy.strip() if deploy and deploy != title else item.publisher
+        capability = "Agentic AI系统" if "agent" in normalize_text(title) else "AI产品"
+        product_name = f"{vendor} 未公开名称{capability}"
+        name_status = "undisclosed"
+
+    identity_text = normalize_text(f"{product_name} {title}")
+    official_url = ""
+    official_status = "not_confirmed"
+    if item.source_kind == "mcp_registry" and item.url:
+        official_url = item.url
+        official_status = "confirmed_product_or_repository"
+    else:
+        for key, url in CONFIRMED_PRODUCT_PAGES.items():
+            if key in identity_text:
+                official_url = url
+                official_status = "confirmed_product_page"
+                break
+        if not official_url:
+            for key in sorted(OFFICIAL_COMPANY_SITES, key=len, reverse=True):
+                if key in identity_text:
+                    official_url = OFFICIAL_COMPANY_SITES[key]
+                    official_status = "official_company_homepage"
+                    break
+
+    search_terms = title if name_status == "undisclosed" else f'"{product_name}" {vendor or item.publisher}'
+    search_url = "https://www.google.com/search?q=" + urllib.parse.quote_plus(search_terms)
+    return product_name, name_status, search_url, official_url, official_status
+
+
+def _customer_type(text: str) -> Tuple[str, str]:
+    business_signals = sorted({term for term in TO_B_TERMS if term in text})
+    consumer_signals = sorted({term for term in TO_C_TERMS if term in text})
+    if business_signals and consumer_signals:
+        return (
+            "both",
+            "公开标题或摘要同时指向机构用户和个人/终端客户，暂判为TO B与TO C兼有。",
+        )
+    if business_signals:
+        return (
+            "to_b",
+            f"公开标题或摘要出现机构侧信号（{'、'.join(business_signals[:4])}），暂判为TO B。",
+        )
+    if consumer_signals:
+        return (
+            "to_c",
+            f"公开标题或摘要出现个人用户信号（{'、'.join(consumer_signals[:4])}），暂判为TO C。",
+        )
+    return "undisclosed", "现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。"
+
+
+def _product_categories(domains: Sequence[str]) -> List[str]:
+    categories = {
+        DOMAIN_TO_PRODUCT_CATEGORY[domain]
+        for domain in domains
+        if domain in DOMAIN_TO_PRODUCT_CATEGORY
+    }
+    if not categories:
+        return ["other_finance"]
+    return [category for category in PRODUCT_CATEGORY_ORDER if category in categories]
+
+
 def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
     discovered = item.fetched_at.astimezone(timezone.utc)
     combined = normalize_text(f" {item.title} {item.description} ")
@@ -330,6 +511,11 @@ def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
     status = "estimated_from_evidence" if effective.kind != "system_discovery" else "discovery_time_only"
     domains = _group_names(signals, "finance")
     ai_types = _group_names(signals, "ai")
+    product_name, product_name_status, product_search_url, official_url, official_url_status = (
+        _product_identity(item)
+    )
+    customer_type, customer_type_assessment = _customer_type(combined)
+    product_categories = _product_categories(domains)
     application_scenario, expected_value = _application_details(combined, domains, ai_types)
     innovation_level, innovation_assessment, innovation_signals = _innovation_assessment(
         combined, ai_types
@@ -366,6 +552,14 @@ def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
         relevance_score=score,
         evidence_strength=1,
         summary=summary,
+        product_name=product_name,
+        product_name_status=product_name_status,
+        product_search_url=product_search_url,
+        official_url=official_url or None,
+        official_url_status=official_url_status,
+        customer_type=customer_type,
+        customer_type_assessment=customer_type_assessment,
+        product_categories=product_categories,
         application_scenario=application_scenario,
         expected_value=expected_value,
         innovation_level=innovation_level,

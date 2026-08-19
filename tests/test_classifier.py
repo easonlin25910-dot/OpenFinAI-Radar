@@ -80,6 +80,33 @@ class ClassifierTests(unittest.TestCase):
         result = classify_item(self.make_item("Alipay launches agentic commerce platform for merchants"))
         self.assertIn("商户", result.application_scenario)
 
+    def test_product_identity_official_page_audience_and_category(self):
+        result = classify_item(
+            self.make_item(
+                "KTX Launches Skills Kit to Connect AI Agents With Trading Intelligence and Execution"
+            )
+        )
+        self.assertEqual(result.product_name, "KTX Skills Kit")
+        self.assertEqual(result.product_name_status, "explicit")
+        self.assertEqual(result.official_url_status, "confirmed_product_page")
+        self.assertEqual(result.customer_type, "to_b")
+        self.assertIn("investment_markets", result.product_categories)
+        self.assertTrue(result.product_search_url.startswith("https://www.google.com/search?q="))
+
+    def test_personal_loan_product_is_to_c_and_lending(self):
+        result = classify_item(
+            self.make_item("MoneyBuddy launches AI personal loan assistant for borrowers")
+        )
+        self.assertEqual(result.customer_type, "to_c")
+        self.assertIn("lending_financing", result.product_categories)
+
+    def test_company_homepage_is_not_presented_as_product_page(self):
+        result = classify_item(
+            self.make_item("Razorpay launches Vulcan AI model for payments")
+        )
+        self.assertEqual(result.official_url, "https://razorpay.com/")
+        self.assertEqual(result.official_url_status, "official_company_homepage")
+
 
 if __name__ == "__main__":
     unittest.main()

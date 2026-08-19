@@ -26,6 +26,22 @@ def _merge(target: Candidate, incoming: Candidate) -> None:
     target.duplicate_titles.append(incoming.title)
     target.evidence_strength = min(5, len(target.evidence_urls))
     target.relevance_score = max(target.relevance_score, incoming.relevance_score)
+    if target.product_name_status == "undisclosed" and incoming.product_name_status != "undisclosed":
+        target.product_name = incoming.product_name
+        target.product_name_status = incoming.product_name_status
+        target.product_search_url = incoming.product_search_url
+    if not target.official_url and incoming.official_url:
+        target.official_url = incoming.official_url
+        target.official_url_status = incoming.official_url_status
+    if target.customer_type == "undisclosed" and incoming.customer_type != "undisclosed":
+        target.customer_type = incoming.customer_type
+        target.customer_type_assessment = incoming.customer_type_assessment
+    elif {target.customer_type, incoming.customer_type} == {"to_b", "to_c"}:
+        target.customer_type = "both"
+        target.customer_type_assessment = "不同公开证据分别指向机构用户和个人/终端客户，暂判为TO B与TO C兼有。"
+    target.product_categories = list(
+        dict.fromkeys(target.product_categories + incoming.product_categories)
+    )
     if INNOVATION_RANK.get(incoming.innovation_level, 0) > INNOVATION_RANK.get(
         target.innovation_level, 0
     ):
@@ -135,7 +151,7 @@ def run_radar(
     ok_sources = sum(1 for item in health if item["status"] == "ok")
     source_rate = round(ok_sources / max(1, len(health)) * 100, 1)
     run: Dict[str, object] = {
-        "schema_version": 2,
+        "schema_version": 3,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "window": {"days": days, "start": window_start.isoformat(), "end": as_of.isoformat()},
         "time_policy": {

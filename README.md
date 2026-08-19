@@ -17,11 +17,13 @@
 - 合并多语言新闻和多个来源对同一事件的重复报道。
 - 同时监控新闻发现通道和官方 MCP Registry 产品货架。
 - 输出 JSON、Markdown 和无后端静态 HTML，报告包含阶段、事件、相关度和创新判断分布。
-- HTML 仪表盘支持按成熟阶段、相关度和创新判断组合筛选，并可通过网址参数保存筛选状态。
+- 提炼便于检索的产品名称，提供 Google 检索入口，并严格区分已确认产品页、机构官网与尚未确认的官方地址。
+- 标注 TO B、TO C、两者兼有或不公开，并把产品映射到可多标签的金融业务分类。
+- HTML 仪表盘支持按成熟阶段、相关度、创新判断、客户类型和产品分类组合筛选，并可通过网址参数保存筛选状态。
 - 为每条候选生成保守的应用场景、预期价值和创新性说明；没有证据时明确写“未证明有实质创新”。
 - 每日 GitHub Actions 自动运行，也支持本地一条命令运行。
 
-当前版本是 **v0.2 候选发现系统**，自动结果不等于事实核验。它追求先建立可评测的高召回基线，再通过真实使用反馈改进准确率、来源覆盖率和摘要质量。
+当前版本是 **v0.3 候选发现系统**，自动结果不等于事实核验。它追求先建立可评测的高召回基线，再通过真实使用反馈改进准确率、来源覆盖率和摘要质量。
 
 ## 快速开始
 
@@ -73,6 +75,11 @@ PYTHONPATH=src python3 -m unittest discover -s tests -v
 
 案例字段还包括：
 
+- `product_name` / `product_name_status`：提炼后的可检索名称及名称是否明确；
+- `product_search_url`：带产品名称或原始标题的 Google 检索入口；
+- `official_url` / `official_url_status`：官方地址及“产品页/代码库、机构主页、未确认”的证据等级；
+- `customer_type` / `customer_type_assessment`：TO B、TO C、两者兼有或不公开及判断依据；
+- `product_categories`：银行运营、支付、信贷、保险、投资理财与资本市场、风险合规、金融科技基础设施等多标签分类；
 - `application_scenario`：在什么业务场景下如何使用；
 - `expected_value`：预期作用、可能价值及效果证据限制；
 - `innovation_level`：实质创新、应用设计创新、增量改进或未证明创新；
@@ -113,7 +120,7 @@ PYTHONPATH=src python3 -m unittest discover -s tests -v
 
 OpenFinAI Radar is an evidence-first, time-windowed discovery radar for global financial-AI commercialization events. It keeps event time, evidence time, marketplace listing time and discovery time separate; deduplicates multilingual evidence; and produces reproducible JSON, Markdown and HTML reports.
 
-The v0.1 output is a **candidate intelligence queue**, not a verified factual database. Contributions that improve source coverage, event-time resolution, precision and recall are welcome.
+The v0.3 output is a **candidate intelligence queue**, not a verified factual database. Contributions that improve source coverage, event-time resolution, precision and recall are welcome.
 
 ## License
 

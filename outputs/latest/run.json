@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "generated_at": "2026-08-19T05:23:24.918343+00:00",
+  "schema_version": 3,
+  "generated_at": "2026-08-19T05:39:29.331655+00:00",
   "window": {
     "days": 30,
     "start": "2026-07-21",
@@ -12,12 +12,12 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 1337,
-    "items_in_window": 1153,
-    "accepted_candidates": 155,
-    "reported_candidates": 155,
-    "deduplicated_items": 71,
-    "below_threshold": 927,
+    "raw_items": 1331,
+    "items_in_window": 1149,
+    "accepted_candidates": 157,
+    "reported_candidates": 157,
+    "deduplicated_items": 69,
+    "below_threshold": 923,
     "source_success_rate": 100.0,
     "sources_ok": 7,
     "sources_total": 7
@@ -26,12 +26,12 @@
     {
       "id": "bing-news-en",
       "status": "ok",
-      "items": 54
+      "items": 46
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 635
+      "items": 637
     },
     {
       "id": "google-news-es",
@@ -41,17 +41,17 @@
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 65
+      "items": 64
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 163
+      "items": 161
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 181
+      "items": 184
     },
     {
       "id": "official-mcp-registry",
@@ -63,25 +63,25 @@
     "maturity": {
       "M3": 131,
       "M5": 3,
-      "M2": 14,
+      "M2": 16,
       "M4": 7
     },
     "event_type": {
-      "customer_deployment": 20,
-      "product_launch": 111,
+      "customer_deployment": 22,
+      "product_launch": 109,
       "scale": 3,
-      "commercial_agreement": 20,
-      "pilot": 1
+      "commercial_agreement": 21,
+      "pilot": 2
     },
     "relevance": {
-      "90-100": 13,
-      "75-89": 53,
-      "60-74": 89,
+      "90-100": 14,
+      "75-89": 52,
+      "60-74": 91,
       "<60": 0
     },
     "innovation": {
       "application_design": 12,
-      "not_demonstrated": 127,
+      "not_demonstrated": 129,
       "substantive": 11,
       "incremental": 5
     }

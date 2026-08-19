@@ -34,10 +34,17 @@ class ReportTests(unittest.TestCase):
         self.assertIn('id="stage-filter"', page)
         self.assertIn('id="relevance-filter"', page)
         self.assertIn('id="innovation-filter"', page)
+        self.assertIn('id="customer-filter"', page)
+        self.assertIn('id="category-filter"', page)
         self.assertIn('data-stage="M3"', page)
         self.assertIn('data-relevance="', page)
         self.assertIn('data-innovation="', page)
+        self.assertIn('data-customer="', page)
+        self.assertIn('data-categories="', page)
+        self.assertIn("product_name", candidate.to_dict())
+        self.assertIn("product_categories", candidate.to_dict())
         self.assertIn("applyFilters", page)
+        self.assertIn("  applyFilters();\n})();", page)
         self.assertIn("URLSearchParams", page)
 
 

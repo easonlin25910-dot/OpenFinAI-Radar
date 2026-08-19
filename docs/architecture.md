@@ -18,6 +18,8 @@ Source adapters
   -> calendar-window filter
   -> finance + AI + event signal gate
   -> maturity and event classification
+  -> product identity, official-address and audience inference
+  -> multi-label financial product categorization
   -> application-scenario and evidence-bounded value inference
   -> conservative innovation assessment
   -> time fallback with provenance
@@ -72,6 +74,37 @@ Innovation is classified conservatively:
 
 The system must not invent an innovation narrative merely because a vendor calls a
 feature “AI-powered” or “agentic.”
+
+## Product identity, audience and categories
+
+The radar extracts a search-oriented `product_name` from launch headlines and
+registry listings. If the public evidence does not disclose a named product, it
+uses an explicitly marked descriptive name rather than presenting an invention as
+an official brand. Every case also carries a prebuilt Google query.
+
+`official_url` has an evidence status. A confirmed product page or official code
+repository is preferred. When only the institution's official homepage can be
+identified, the report labels it as an institution homepage, not a product page.
+News articles and aggregators are never promoted to official URLs merely because
+they reported the launch.
+
+Customer type is inferred conservatively from the title and available snippet:
+`to_b`, `to_c`, `both`, or `undisclosed`. It describes the apparent direct user or
+buyer of the product, not every party who may benefit from it.
+
+Product categories are multi-label and derived from the financial-domain signals:
+
+- banking operations and customer service;
+- payments and wallets;
+- lending and financing;
+- insurance;
+- investment, wealth management and capital markets;
+- risk, compliance and fraud prevention;
+- fintech infrastructure;
+- other financial scenarios.
+
+The HTML filter treats a category as an inclusion test, so a risk-control product
+used in payments remains discoverable under both categories.
 
 ## Recall and precision
 

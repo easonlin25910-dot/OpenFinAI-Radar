@@ -65,6 +65,14 @@ class Candidate:
     relevance_score: int
     evidence_strength: int
     summary: str
+    product_name: str
+    product_name_status: str
+    product_search_url: str
+    official_url: Optional[str]
+    official_url_status: str
+    customer_type: str
+    customer_type_assessment: str
+    product_categories: List[str]
     application_scenario: str
     expected_value: str
     innovation_level: str

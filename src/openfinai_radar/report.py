@@ -34,6 +34,37 @@ INNOVATION_LABELS = {
     "not_demonstrated": "未证明有实质创新",
 }
 
+CUSTOMER_TYPE_LABELS = {
+    "to_b": "TO B",
+    "to_c": "TO C",
+    "both": "TO B & TO C",
+    "undisclosed": "不公开",
+}
+
+PRODUCT_NAME_STATUS_LABELS = {
+    "explicit": "明确产品名",
+    "descriptive": "描述性名称",
+    "undisclosed": "名称未公开",
+}
+
+OFFICIAL_URL_STATUS_LABELS = {
+    "confirmed_product_page": "已确认产品页",
+    "confirmed_product_or_repository": "官方产品页或代码库",
+    "official_company_homepage": "官方机构主页，非产品专页",
+    "not_confirmed": "暂未确认",
+}
+
+PRODUCT_CATEGORY_LABELS = {
+    "banking_operations": "银行运营与客户服务",
+    "payments_wallets": "支付与钱包",
+    "lending_financing": "信贷与融资",
+    "insurance": "保险",
+    "investment_markets": "投资理财与资本市场",
+    "risk_compliance_fraud": "风险合规与反欺诈",
+    "fintech_infrastructure": "金融科技基础设施",
+    "other_finance": "其他金融场景",
+}
+
 DISPLAY_ORDERS = {
     "maturity": ["M5", "M4", "M3", "M2", "M1", "M0"],
     "event_type": ["scale", "customer_deployment", "product_launch", "commercial_agreement", "pilot", "unclassified_signal"],
@@ -84,7 +115,9 @@ def _cards(cases: List[Candidate]) -> str:
     for case in cases:
         tags = "".join(
             f'<span class="tag">{html.escape(value)}</span>'
-            for value in [case.maturity, case.event_type] + case.finance_domains[:2] + case.ai_types[:1]
+            for value in [case.maturity, case.event_type, CUSTOMER_TYPE_LABELS.get(case.customer_type, case.customer_type)]
+            + [PRODUCT_CATEGORY_LABELS.get(category, category) for category in case.product_categories]
+            + case.ai_types[:1]
         )
         links = " · ".join(
             f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noreferrer">证据 {index}</a>'
@@ -95,12 +128,22 @@ def _cards(cases: List[Candidate]) -> str:
             "https://github.com/easonlin25910-dot/OpenFinAI-Radar/issues/new"
             f"?template=case-feedback.yml&title={feedback_title}"
         )
+        if case.official_url:
+            official_address = (
+                f'<a href="{html.escape(case.official_url, quote=True)}" target="_blank" rel="noreferrer">打开官方地址</a>'
+                f' <small>({html.escape(OFFICIAL_URL_STATUS_LABELS.get(case.official_url_status, case.official_url_status))})</small>'
+            )
+        else:
+            official_address = '<span>暂未确认</span>'
         blocks.append(
-            f"""<article class="card" data-stage="{case.maturity}" data-relevance="{case.relevance_score}" data-innovation="{case.innovation_level}" data-time="{case.time_status}">
+            f"""<article class="card" data-stage="{case.maturity}" data-relevance="{case.relevance_score}" data-innovation="{case.innovation_level}" data-customer="{case.customer_type}" data-categories="{' '.join(case.product_categories)}" data-time="{case.time_status}">
               <div class="meta"><time>{case.effective_time}</time><strong>{case.relevance_score}</strong></div>
-              <h2>{html.escape(case.title)}</h2>
+              <h2>{html.escape(case.product_name)}</h2>
+              <p class="source-title">来源标题：{html.escape(case.title)}</p>
               <div class="tags">{tags}</div>
+              <div class="identity"><p><b>产品名称状态：</b>{html.escape(PRODUCT_NAME_STATUS_LABELS.get(case.product_name_status, case.product_name_status))}</p><p><b>产品分类：</b>{html.escape('、'.join(PRODUCT_CATEGORY_LABELS.get(category, category) for category in case.product_categories))}</p><p><b>客户类型：</b>{html.escape(CUSTOMER_TYPE_LABELS.get(case.customer_type, case.customer_type))}</p><p><b>官方地址：</b>{official_address}</p><p><a href="{html.escape(case.product_search_url, quote=True)}" target="_blank" rel="noreferrer">在 Google 检索该产品</a></p></div>
               <p>{html.escape(case.summary)}</p>
+              <div class="insight"><h3>客户类型判断</h3><p>{html.escape(case.customer_type_assessment)}</p></div>
               <div class="insight"><h3>产品应用场景</h3><p>{html.escape(case.application_scenario)}</p></div>
               <div class="insight"><h3>预期作用与价值</h3><p>{html.escape(case.expected_value)}</p></div>
               <div class="insight innovation"><h3>创新判断 · {html.escape(INNOVATION_LABELS.get(case.innovation_level, case.innovation_level))}</h3><p>{html.escape(case.innovation_assessment)}</p></div>
@@ -136,10 +179,11 @@ header h1{{font:700 clamp(32px,6vw,68px)/1.05 Georgia,serif;margin:0 0 12px}}hea
 main{{width:min(1120px,92vw);margin:28px auto 80px}}.notice{{padding:16px 18px;border-left:4px solid #d59b35;background:#fff8e6;margin-bottom:22px}}
 .distributions{{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:14px;margin:0 0 26px}}.dist{{background:#fffdf7;border:1px solid var(--line);border-radius:14px;padding:16px}}.dist h2{{font-size:16px;margin:0 0 12px}}
 .bar-row{{display:grid;grid-template-columns:105px 1fr 70px;align-items:center;gap:8px;margin:8px 0;font-size:12px}}.bar-row b{{text-align:right;font-weight:600}}.bar{{height:8px;background:#e5e2d8;border-radius:8px;overflow:hidden}}.bar i{{display:block;height:100%;background:var(--accent)}}
-.filters{{display:grid;grid-template-columns:repeat(3,minmax(150px,1fr)) auto auto;gap:12px;align-items:end;margin:0 0 22px;padding:16px;background:#fffdf7;border:1px solid var(--line);border-radius:14px;position:sticky;top:8px;z-index:5;box-shadow:0 8px 24px #1a323214}}.filter label{{display:block;font-size:12px;font-weight:700;color:var(--muted);margin-bottom:5px}}.filter select{{width:100%;min-height:40px;border:1px solid var(--line);border-radius:9px;background:white;color:var(--ink);padding:7px 10px;font:inherit}}.filters button{{min-height:40px;border:0;border-radius:9px;padding:8px 15px;background:var(--accent);color:white;font-weight:700;cursor:pointer}}.result-count{{align-self:center;white-space:nowrap;color:var(--muted)}}
+.filters{{display:grid;grid-template-columns:repeat(5,minmax(125px,1fr)) auto auto;gap:12px;align-items:end;margin:0 0 22px;padding:16px;background:#fffdf7;border:1px solid var(--line);border-radius:14px;position:sticky;top:8px;z-index:5;box-shadow:0 8px 24px #1a323214}}.filter label{{display:block;font-size:12px;font-weight:700;color:var(--muted);margin-bottom:5px}}.filter select{{width:100%;min-height:40px;border:1px solid var(--line);border-radius:9px;background:white;color:var(--ink);padding:7px 10px;font:inherit}}.filters button{{min-height:40px;border:0;border-radius:9px;padding:8px 15px;background:var(--accent);color:white;font-weight:700;cursor:pointer}}.result-count{{align-self:center;white-space:nowrap;color:var(--muted)}}
 .grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(310px,1fr));gap:18px}}.card{{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 7px 22px #1a32320c}}
 .card[hidden]{{display:none}}.empty-filter{{display:none;padding:30px;text-align:center;background:#fffdf7;border:1px solid var(--line);border-radius:14px}}.empty-filter.visible{{display:block}}
 .card h2{{font:700 20px/1.35 Georgia,"Songti SC",serif;margin:10px 0}}.meta{{display:flex;justify-content:space-between;color:var(--muted)}}.meta strong{{color:var(--accent)}}
+.source-title{{font-size:13px;color:var(--muted);margin:0 0 10px}}.identity{{margin:12px 0;padding:12px 14px;border:1px dashed var(--line);border-radius:10px}}.identity p{{margin:4px 0}}small{{color:var(--muted)}}
 .tag{{display:inline-block;background:#dcecea;color:#155d58;padding:3px 8px;margin:0 5px 5px 0;border-radius:999px;font-size:12px}}
 .insight{{margin:14px 0;padding:12px 14px;background:#f4f1e9;border-radius:10px}}.insight h3{{font-size:13px;margin:0 0 4px;color:var(--accent)}}.insight p{{margin:0}}.innovation{{border-left:3px solid #d59b35}}
 footer{{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);font-size:13px}}a{{color:var(--accent)}}
@@ -152,6 +196,8 @@ footer{{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);fon
   <div class="filter"><label for="stage-filter">成熟阶段</label><select id="stage-filter"><option value="all">全部阶段</option><option value="M5">M5 规模化</option><option value="M4">M4 付费/成效</option><option value="M3">M3 产品可用/部署</option><option value="M2">M2 试点/合作</option><option value="M1">M1 演示/原型</option><option value="M0">M0 概念/未分类</option></select></div>
   <div class="filter"><label for="relevance-filter">相关度</label><select id="relevance-filter"><option value="all">全部相关度</option><option value="90-100">90—100 高相关</option><option value="75-89">75—89 较高相关</option><option value="60-74">60—74 基础相关</option><option value="under-60">60 以下</option></select></div>
   <div class="filter"><label for="innovation-filter">创新判断</label><select id="innovation-filter"><option value="all">全部创新判断</option><option value="substantive">可能存在实质创新</option><option value="application_design">应用设计创新</option><option value="incremental">增量改进</option><option value="not_demonstrated">未证明有实质创新</option></select></div>
+  <div class="filter"><label for="customer-filter">客户类型</label><select id="customer-filter"><option value="all">全部客户类型</option><option value="to_b">TO B</option><option value="to_c">TO C</option><option value="both">TO B &amp; TO C</option><option value="undisclosed">不公开</option></select></div>
+  <div class="filter"><label for="category-filter">产品分类</label><select id="category-filter"><option value="all">全部产品分类</option><option value="banking_operations">银行运营与客户服务</option><option value="payments_wallets">支付与钱包</option><option value="lending_financing">信贷与融资</option><option value="insurance">保险</option><option value="investment_markets">投资理财与资本市场</option><option value="risk_compliance_fraud">风险合规与反欺诈</option><option value="fintech_infrastructure">金融科技基础设施</option><option value="other_finance">其他金融场景</option></select></div>
   <button id="reset-filters" type="button">重置筛选</button><strong class="result-count" id="result-count" aria-live="polite">显示 {total} / {total}</strong>
 </section>
 <div class="empty-filter" id="empty-filter">没有符合当前筛选条件的候选案例。</div><div class="grid" id="case-grid">{_cards(cases)}</div></main>
@@ -161,6 +207,8 @@ footer{{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);fon
   const stage = document.querySelector('#stage-filter');
   const relevance = document.querySelector('#relevance-filter');
   const innovation = document.querySelector('#innovation-filter');
+  const customer = document.querySelector('#customer-filter');
+  const category = document.querySelector('#category-filter');
   const count = document.querySelector('#result-count');
   const empty = document.querySelector('#empty-filter');
   const inRelevanceRange = (score, range) => range === 'all' ||
@@ -173,7 +221,9 @@ footer{{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);fon
     cards.forEach(card => {{
       const show = (stage.value === 'all' || card.dataset.stage === stage.value) &&
         inRelevanceRange(Number(card.dataset.relevance), relevance.value) &&
-        (innovation.value === 'all' || card.dataset.innovation === innovation.value);
+        (innovation.value === 'all' || card.dataset.innovation === innovation.value) &&
+        (customer.value === 'all' || card.dataset.customer === customer.value) &&
+        (category.value === 'all' || card.dataset.categories.split(' ').includes(category.value));
       card.hidden = !show;
       if (show) visible += 1;
     }});
@@ -183,14 +233,18 @@ footer{{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);fon
     if (stage.value !== 'all') params.set('stage', stage.value);
     if (relevance.value !== 'all') params.set('relevance', relevance.value);
     if (innovation.value !== 'all') params.set('innovation', innovation.value);
+    if (customer.value !== 'all') params.set('customer', customer.value);
+    if (category.value !== 'all') params.set('category', category.value);
     history.replaceState(null, '', params.size ? `?${{params}}` : location.pathname);
   }};
   const params = new URLSearchParams(location.search);
   if ([...stage.options].some(option => option.value === params.get('stage'))) stage.value = params.get('stage');
   if ([...relevance.options].some(option => option.value === params.get('relevance'))) relevance.value = params.get('relevance');
   if ([...innovation.options].some(option => option.value === params.get('innovation'))) innovation.value = params.get('innovation');
-  [stage, relevance, innovation].forEach(control => control.addEventListener('change', applyFilters));
-  document.querySelector('#reset-filters').addEventListener('click', () => {{ stage.value = relevance.value = innovation.value = 'all'; applyFilters(); }});
+  if ([...customer.options].some(option => option.value === params.get('customer'))) customer.value = params.get('customer');
+  if ([...category.options].some(option => option.value === params.get('category'))) category.value = params.get('category');
+  [stage, relevance, innovation, customer, category].forEach(control => control.addEventListener('change', applyFilters));
+  document.querySelector('#reset-filters').addEventListener('click', () => {{ stage.value = relevance.value = innovation.value = customer.value = category.value = 'all'; applyFilters(); }});
   applyFilters();
 }})();
 </script>
@@ -227,10 +281,25 @@ def render_markdown(run: Dict[str, object], cases: List[Candidate]) -> str:
     lines.extend(_markdown_distribution("创新判断", "innovation", distributions.get("innovation", {}), len(cases)))
     lines.extend(["## 候选案例", ""])
     for index, case in enumerate(cases, 1):
+        official_url = (
+            f"[{case.official_url}]({case.official_url})（{OFFICIAL_URL_STATUS_LABELS.get(case.official_url_status, case.official_url_status)}）"
+            if case.official_url
+            else "暂未确认"
+        )
+        category_text = "、".join(
+            PRODUCT_CATEGORY_LABELS.get(category, category)
+            for category in case.product_categories
+        )
         lines.extend(
             [
-                f"### {index}. {case.title}",
+                f"### {index}. {case.product_name}",
                 "",
+                f"- 来源标题：{case.title}",
+                f"- 产品名称状态：{PRODUCT_NAME_STATUS_LABELS.get(case.product_name_status, case.product_name_status)}",
+                f"- 产品分类：{category_text}",
+                f"- 客户类型：{CUSTOMER_TYPE_LABELS.get(case.customer_type, case.customer_type)}。{case.customer_type_assessment}",
+                f"- Google 检索：[搜索该产品]({case.product_search_url})",
+                f"- 官方地址：{official_url}",
                 f"- 有效时间：{case.effective_time}（{case.effective_time_type}，置信度 {case.effective_time_confidence:.2f}）",
                 f"- 阶段/事件：{case.maturity} / {case.event_type}",
                 f"- 相关度：{case.relevance_score}/100；审核状态：{case.review_status}",
