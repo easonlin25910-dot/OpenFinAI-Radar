@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_at": "2026-08-19T05:05:10.892115+00:00",
+  "generated_at": "2026-08-19T05:19:35.317336+00:00",
   "window": {
     "days": 30,
     "start": "2026-07-21",
@@ -12,27 +12,26 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 1287,
-    "items_in_window": 1118,
-    "accepted_candidates": 149,
-    "reported_candidates": 149,
-    "deduplicated_items": 68,
-    "below_threshold": 901,
-    "source_success_rate": 85.7,
-    "sources_ok": 6,
+    "raw_items": 1334,
+    "items_in_window": 1147,
+    "accepted_candidates": 159,
+    "reported_candidates": 159,
+    "deduplicated_items": 67,
+    "below_threshold": 921,
+    "source_success_rate": 100.0,
+    "sources_ok": 7,
     "sources_total": 7
   },
   "source_health": [
     {
       "id": "bing-news-en",
-      "status": "error",
-      "items": 0,
-      "error": "not well-formed (invalid token): line 1, column 41"
+      "status": "ok",
+      "items": 51
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 633
+      "items": 636
     },
     {
       "id": "google-news-es",
@@ -47,12 +46,12 @@
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 164
+      "items": 162
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 187
+      "items": 182
     },
     {
       "id": "official-mcp-registry",
@@ -62,29 +61,29 @@
   ],
   "distributions": {
     "maturity": {
-      "M3": 128,
-      "M5": 2,
-      "M2": 13,
-      "M4": 6
+      "M3": 133,
+      "M5": 3,
+      "M2": 16,
+      "M4": 7
     },
     "event_type": {
-      "product_launch": 110,
-      "scale": 2,
-      "customer_deployment": 18,
-      "commercial_agreement": 18,
-      "pilot": 1
+      "product_launch": 111,
+      "scale": 3,
+      "customer_deployment": 22,
+      "commercial_agreement": 21,
+      "pilot": 2
     },
     "relevance": {
-      "90-100": 11,
-      "75-89": 51,
-      "60-74": 87,
+      "90-100": 14,
+      "75-89": 52,
+      "60-74": 93,
       "<60": 0
     },
     "innovation": {
-      "not_demonstrated": 123,
+      "not_demonstrated": 132,
       "substantive": 11,
       "application_design": 11,
-      "incremental": 4
+      "incremental": 5
     }
   }
 }

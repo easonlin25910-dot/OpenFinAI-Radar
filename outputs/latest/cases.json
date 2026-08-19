@@ -14,7 +14,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-19",
-    "discovered_at": "2026-08-19T05:05:06.190361+00:00",
+    "discovered_at": "2026-08-19T05:19:22.949763+00:00",
     "effective_time": "2026-08-19",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -73,7 +73,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:06.880018+00:00",
+    "discovered_at": "2026-08-19T05:19:23.412876+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -146,7 +146,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:10.558714+00:00",
+    "discovered_at": "2026-08-19T05:19:33.468423+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -201,7 +201,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:07.952775+00:00",
+    "discovered_at": "2026-08-19T05:19:26.384628+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -257,7 +257,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:08.960827+00:00",
+    "discovered_at": "2026-08-19T05:19:29.228221+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -316,7 +316,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:10.559820+00:00",
+    "discovered_at": "2026-08-19T05:19:33.470303+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -374,7 +374,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:06.770433+00:00",
+    "discovered_at": "2026-08-19T05:19:23.202153+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -430,7 +430,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:06.879854+00:00",
+    "discovered_at": "2026-08-19T05:19:23.412629+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -490,7 +490,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:06.880084+00:00",
+    "discovered_at": "2026-08-19T05:19:23.412964+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -538,6 +538,58 @@
     }
   },
   {
+    "id": "finai-483f033acaad",
+    "title": "Ripple lands third Korea deal as XRPL hosts 2M AI payments – What next for XRP?",
+    "normalized_title": "ripple lands third korea deal as xrpl hosts 2m ai payments what next for xrp",
+    "publisher": "AMBCrypto",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cdc289546df8fb6253dbc50722f&url=https%3a%2f%2fambcrypto.com%2fripple-lands-third-korea-deal-as-xrpl-hosts-2m-ai-payments-what-next-for-xrp%2f&c=15556600663173854237&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-18",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-18",
+    "discovered_at": "2026-08-19T05:19:26.852709+00:00",
+    "effective_time": "2026-08-18",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "customer_deployment",
+    "maturity": "M3",
+    "finance_domains": [
+      "payments"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及支付，被识别为客户部署，成熟度暂定M3。当前判断依据AMBCrypto公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
+    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:payments": [
+        "payment",
+        "payments"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "adopt"
+      ]
+    }
+  },
+  {
     "id": "finai-3a9470391011",
     "title": "Standard Bank Shifts from AI Adoption to Building an AI-Enabled Organisation",
     "normalized_title": "standard bank shifts from ai adoption to building an ai enabled organisation",
@@ -552,7 +604,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:06.455325+00:00",
+    "discovered_at": "2026-08-19T05:19:22.167845+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -603,7 +655,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:08.495669+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070415+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -655,7 +707,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T05:05:08.961279+00:00",
+    "discovered_at": "2026-08-19T05:19:29.228950+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -708,7 +760,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-17",
-    "discovered_at": "2026-08-19T05:05:07.506833+00:00",
+    "discovered_at": "2026-08-19T05:19:25.004149+00:00",
     "effective_time": "2026-08-17",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -749,6 +801,59 @@
     }
   },
   {
+    "id": "finai-73e82410da0b",
+    "title": "NEXUS partners with KRWQ won-pegged stablecoin for AI and global game payments",
+    "normalized_title": "nexus partners with krwq won pegged stablecoin for ai and global game payments",
+    "publisher": "Inven Global on MSN",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cdc289546df8fb6253dbc50722f&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftechnology%2fcryptocurrencies%2fnexus-partners-with-krwq-won-pegged-stablecoin-for-ai-and-global-game-payments%2far-AA2akDLl&c=3161042601102690876&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-17",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-17",
+    "discovered_at": "2026-08-19T05:19:26.852773+00:00",
+    "effective_time": "2026-08-17",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "payments"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及支付，被识别为商业合作，成熟度暂定M2。当前判断依据Inven Global on MSN公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
+    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:payments": [
+        "payment",
+        "payments"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "partners with",
+        "partnership"
+      ]
+    }
+  },
+  {
     "id": "finai-70f3526c4114",
     "title": "Execute cargo-insurance-broker-mcp",
     "normalized_title": "execute cargo insurance broker mcp",
@@ -763,7 +868,7 @@
     "event_time": null,
     "listing_time": "2026-08-17",
     "first_public_time": "2026-08-17",
-    "discovered_at": "2026-08-19T05:05:07.159916+00:00",
+    "discovered_at": "2026-08-19T05:19:32.381733+00:00",
     "effective_time": "2026-08-17",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -821,7 +926,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-15",
-    "discovered_at": "2026-08-19T05:05:06.455821+00:00",
+    "discovered_at": "2026-08-19T05:19:22.168442+00:00",
     "effective_time": "2026-08-15",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -864,6 +969,57 @@
     }
   },
   {
+    "id": "finai-64a011c5796b",
+    "title": "Brookfield (TSX:BN) Deepens Its Reach In Insurance And AI Infrastructure",
+    "normalized_title": "brookfield tsx bn deepens its reach in insurance and ai infrastructure",
+    "publisher": "Yahoo Finance",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cda68bd434bb0703abf5fd02108&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2fbrookfield-tsx-bn-deepens-reach-230850460.html&c=11679209013114554178&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-15",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-15",
+    "discovered_at": "2026-08-19T05:19:23.903374+00:00",
+    "effective_time": "2026-08-15",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "scale",
+    "maturity": "M5",
+    "finance_domains": [
+      "insurance"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及保险，被识别为规模化应用，成熟度暂定M5。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。",
+    "expected_value": "预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:insurance": [
+        "insurance"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:scale": [
+        "scale"
+      ]
+    }
+  },
+  {
     "id": "finai-473eb5d83743",
     "title": "Summit Quant Capital Deepens International Brokerage Ecosystem Partnerships, Advancing the Integration of AI-Powered Quantitative Systems into Global Investment Services",
     "normalized_title": "summit quant capital deepens international brokerage ecosystem partnerships advancing the integration of ai powered quantitative systems into global investment services",
@@ -878,7 +1034,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-14",
-    "discovered_at": "2026-08-19T05:05:10.041530+00:00",
+    "discovered_at": "2026-08-19T05:19:31.843924+00:00",
     "effective_time": "2026-08-14",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -918,6 +1074,113 @@
     }
   },
   {
+    "id": "finai-9e236bb88a4b",
+    "title": "360factors Launches Fair Lending Compliance Testing Agent in Ask Kaia",
+    "normalized_title": "360factors launches fair lending compliance testing agent in ask kaia",
+    "publisher": "Yahoo Finance",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cd8eac24cb0b35b05fcc4ace8ec&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2f360factors-launches-fair-lending-compliance-132400822.html&c=4639341801121279453&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-14",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-14",
+    "discovered_at": "2026-08-19T05:19:20.276725+00:00",
+    "effective_time": "2026-08-14",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "lending_and_credit",
+      "risk_and_compliance"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 78,
+    "evidence_strength": 1,
+    "summary": "该候选涉及信贷、风险与合规，被识别为产品发布，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。",
+    "expected_value": "预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:lending_and_credit": [
+        "lending"
+      ],
+      "finance:risk_and_compliance": [
+        "compliance"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "launch",
+        "launches"
+      ]
+    }
+  },
+  {
+    "id": "finai-906b999bba2d",
+    "title": "AI adoption strains JPMorgan testing",
+    "normalized_title": "ai adoption strains jpmorgan testing",
+    "publisher": "QA Financial",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MdDBpQ1VrWWhsNmhQWmd4WjViVXg4bXVQU0ZMMGNncG5NXzhva0JxN1ZMX2lfanI0TWlrMjZydUF6Tzhmazc4TUZ2ZU84Qjk1R2NaTWtwVXBWRUo5V1NwVUlqOWlDWkIzV2JZZldfN0J0a0U?oc=5"
+    ],
+    "evidence_time": "2026-08-14",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-14",
+    "discovered_at": "2026-08-19T05:19:22.167633+00:00",
+    "effective_time": "2026-08-14",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "customer_deployment",
+    "maturity": "M3",
+    "finance_domains": [
+      "financial_brand"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及金融机构，被识别为客户部署，成熟度暂定M3。当前判断依据QA Financial公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
+    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:financial_brand": [
+        "jpmorgan"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "adopt"
+      ]
+    }
+  },
+  {
     "id": "finai-243140d25b84",
     "title": "io.github.bguillow-rgb/itin-finance",
     "normalized_title": "io github bguillow rgb itin finance",
@@ -932,7 +1195,7 @@
     "event_time": null,
     "listing_time": "2026-08-14",
     "first_public_time": "2026-08-14",
-    "discovered_at": "2026-08-19T05:05:05.847337+00:00",
+    "discovered_at": "2026-08-19T05:19:23.313517+00:00",
     "effective_time": "2026-08-14",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -970,111 +1233,61 @@
     }
   },
   {
-    "id": "finai-906b999bba2d",
-    "title": "AI adoption strains JPMorgan testing",
-    "normalized_title": "ai adoption strains jpmorgan testing",
-    "publisher": "QA Financial",
+    "id": "finai-6bab2a4461b5",
+    "title": "Impel and SelectFI Announce Strategic Partnership to Bring Industry-First Financing Intelligence to Automotive AI Agents",
+    "normalized_title": "impel and selectfi announce strategic partnership to bring industry first financing intelligence to automotive ai agents",
+    "publisher": "Markets Insider",
     "source_ids": [
-      "google-news-en"
+      "bing-news-en"
     ],
     "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MdDBpQ1VrWWhsNmhQWmd4WjViVXg4bXVQU0ZMMGNncG5NXzhva0JxN1ZMX2lfanI0TWlrMjZydUF6Tzhmazc4TUZ2ZU84Qjk1R2NaTWtwVXBWRUo5V1NwVUlqOWlDWkIzV2JZZldfN0J0a0U?oc=5"
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cdc289546df8fb6253dbc50722f&url=https%3a%2f%2fmarkets.businessinsider.com%2fnews%2fstocks%2fimpel-and-selectfi-announce-strategic-partnership-to-bring-industry-first-financing-intelligence-to-automotive-ai-agents-1036454297&c=8229513280477055955&mkt=en-us"
     ],
-    "evidence_time": "2026-08-14",
+    "evidence_time": "2026-08-13",
     "event_time": null,
     "listing_time": null,
-    "first_public_time": "2026-08-14",
-    "discovered_at": "2026-08-19T05:05:06.455165+00:00",
-    "effective_time": "2026-08-14",
+    "first_public_time": "2026-08-13",
+    "discovered_at": "2026-08-19T05:19:26.852870+00:00",
+    "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
     "effective_time_precision": "day",
     "time_status": "estimated_from_evidence",
-    "event_type": "customer_deployment",
-    "maturity": "M3",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
     "finance_domains": [
-      "financial_brand"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "该候选涉及金融机构，被识别为客户部署，成熟度暂定M3。当前判断依据QA Financial公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
-    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:financial_brand": [
-        "jpmorgan"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:customer_deployment": [
-        "adopt"
-      ]
-    }
-  },
-  {
-    "id": "finai-c150b996a2c1",
-    "title": "AlgoVesta MCP Trading",
-    "normalized_title": "algovesta mcp trading",
-    "publisher": "com.algovesta",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://algovesta.com/features-mcp.html"
-    ],
-    "evidence_time": "2026-08-13",
-    "event_time": null,
-    "listing_time": "2026-08-13",
-    "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T05:05:07.665980+00:00",
-    "effective_time": "2026-08-13",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "wealth_and_markets"
+      "fintech",
+      "payments"
     ],
     "ai_types": [
       "agent",
       "machine_learning"
     ],
-    "relevance_score": 80,
+    "relevance_score": 98,
     "evidence_strength": 1,
-    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据com.algovesta公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
-    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
-    "innovation_level": "substantive",
-    "innovation_assessment": "公开文字明确提到面向智能体的协议或跨系统接口，属于可能的基础设施创新；开放程度和实际采用情况仍需核验。",
-    "innovation_signals": [
-      "智能体协议或接口",
-      "mcp"
-    ],
+    "summary": "该候选涉及金融科技、支付，被识别为商业合作，成熟度暂定M2。当前判断依据Markets Insider公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。",
+    "expected_value": "预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
+      "finance:payments": [
+        "payment"
+      ],
+      "finance:fintech": [
+        "fintech"
+      ],
+      "ai:agent": [
+        "ai agent"
       ],
       "ai:machine_learning": [
         "ai"
       ],
-      "ai:agent": [
-        "official MCP Registry listing"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
+      "event:commercial_agreement": [
+        "partnership"
       ]
     }
   },
@@ -1094,7 +1307,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T05:05:09.454107+00:00",
+    "discovered_at": "2026-08-19T05:19:30.500793+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1152,7 +1365,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T05:05:09.455109+00:00",
+    "discovered_at": "2026-08-19T05:19:30.502117+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1194,6 +1407,64 @@
     }
   },
   {
+    "id": "finai-c150b996a2c1",
+    "title": "AlgoVesta MCP Trading",
+    "normalized_title": "algovesta mcp trading",
+    "publisher": "com.algovesta",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://algovesta.com/features-mcp.html"
+    ],
+    "evidence_time": "2026-08-13",
+    "event_time": null,
+    "listing_time": "2026-08-13",
+    "first_public_time": "2026-08-13",
+    "discovered_at": "2026-08-19T05:19:35.099096+00:00",
+    "effective_time": "2026-08-13",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "agent",
+      "machine_learning"
+    ],
+    "relevance_score": 80,
+    "evidence_strength": 1,
+    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据com.algovesta公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
+    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
+    "innovation_level": "substantive",
+    "innovation_assessment": "公开文字明确提到面向智能体的协议或跨系统接口，属于可能的基础设施创新；开放程度和实际采用情况仍需核验。",
+    "innovation_signals": [
+      "智能体协议或接口",
+      "mcp"
+    ],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "ai:agent": [
+        "official MCP Registry listing"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-756b77b23942",
     "title": "Indian banks shift from AI experimentation to scale, focus on credit, productivity and risk",
     "normalized_title": "indian banks shift from ai experimentation to scale focus on credit productivity and risk",
@@ -1208,7 +1479,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T05:05:06.455218+00:00",
+    "discovered_at": "2026-08-19T05:19:22.167741+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1251,57 +1522,6 @@
     }
   },
   {
-    "id": "finai-8426bc084437",
-    "title": "Trandence Trading Journal",
-    "normalized_title": "trandence trading journal",
-    "publisher": "com.trandence",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://trandence.com"
-    ],
-    "evidence_time": "2026-08-13",
-    "event_time": null,
-    "listing_time": "2026-08-13",
-    "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T05:05:07.665991+00:00",
-    "effective_time": "2026-08-13",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "wealth_and_markets"
-    ],
-    "ai_types": [
-      "agent"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据com.trandence公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
-    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
-      ],
-      "ai:agent": [
-        "official MCP Registry listing"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
-      ]
-    }
-  },
-  {
     "id": "finai-6f718eeeff24",
     "title": "bolt launches AI-powered insurance distribution platform",
     "normalized_title": "bolt launches ai powered insurance distribution platform",
@@ -1317,7 +1537,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T05:05:06.879100+00:00",
+    "discovered_at": "2026-08-19T05:19:23.411548+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1372,7 +1592,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T05:05:08.495237+00:00",
+    "discovered_at": "2026-08-19T05:19:28.069606+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1424,7 +1644,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T05:05:08.960690+00:00",
+    "discovered_at": "2026-08-19T05:19:29.228016+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1462,21 +1682,74 @@
     }
   },
   {
+    "id": "finai-8426bc084437",
+    "title": "Trandence Trading Journal",
+    "normalized_title": "trandence trading journal",
+    "publisher": "com.trandence",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://trandence.com"
+    ],
+    "evidence_time": "2026-08-13",
+    "event_time": null,
+    "listing_time": "2026-08-13",
+    "first_public_time": "2026-08-13",
+    "discovered_at": "2026-08-19T05:19:35.099129+00:00",
+    "effective_time": "2026-08-13",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据com.trandence公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
+    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:agent": [
+        "official MCP Registry listing"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-ce1db6c8bc40",
     "title": "Banco Hipotecario deploys Microsoft AI agents to improve employee and customer services",
     "normalized_title": "banco hipotecario deploys microsoft ai agents to improve employee and customer services",
     "publisher": "Technology Record",
     "source_ids": [
+      "bing-news-en",
       "google-news-en"
     ],
     "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cd8eac24cb0b35b05fcc4ace8ec&url=https%3a%2f%2fwww.technologyrecord.com%2farticle%2fbanco-hipotecario-deploys-microsoft-ai-agents-to-improve-employee-and-customer-services&c=9628091904224916506&mkt=en-us",
       "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVi1jeFRTd0ZLU0FBckVtX1JRUWFVbXBXc1A2NG5xZEVjSWZjZTB6UVItSzFmTVdvVWttR2VUYV9vU1d1M0NEUkhhVVo0TkJHVUo4c0JRSFFPbHdncGRCMlY1T3hJTUxhSE0tQUR3Y1ROTXVZMThUbkFMbEt3dzRIMWdmbERKMXozcHVkV1ZPVzhJTWRhbDgydFVDbEJkSEtaa18yWXJheWRoYm9JRzhuTEVyQjl1S0phWkdweXBqdXM4S2hfSFA0?oc=5"
     ],
     "evidence_time": "2026-08-12",
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:06.008148+00:00",
+    "discovered_at": "2026-08-19T05:19:20.276858+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1492,32 +1765,41 @@
       "machine_learning"
     ],
     "relevance_score": 100,
-    "evidence_strength": 1,
+    "evidence_strength": 2,
     "summary": "该候选涉及银行业务，被识别为商业合作，成熟度暂定M4。当前判断依据Technology Record公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
     "application_scenario": "用于银行客户服务，通过生成式AI或语音智能体回答问题、分流请求并辅助完成服务流程。",
     "expected_value": "预期缩短等待时间、提高自助服务覆盖率；复杂咨询和高风险操作仍应由人工接管。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
-    "innovation_signals": [],
+    "innovation_level": "incremental",
+    "innovation_assessment": "现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。",
+    "innovation_signals": [
+      "既有流程中的对话式AI"
+    ],
     "review_status": "needs_review",
     "duplicate_titles": [
+      "Banco Hipotecario deploys Microsoft AI agents to improve employee and customer services",
       "Banco Hipotecario deploys Microsoft AI agents to improve employee and customer services"
     ],
     "signals": {
       "finance:banking": [
-        "banco"
+        "banco",
+        "bank"
       ],
       "ai:agent": [
-        "ai agent"
+        "ai agent",
+        "copilot"
       ],
       "ai:machine_learning": [
         "ai"
       ],
       "event:customer_deployment": [
-        "deploy"
+        "deploy",
+        "deployed"
       ],
       "event:commercial_agreement": [
         "customer"
+      ],
+      "event:pilot": [
+        "pilot"
       ]
     }
   },
@@ -1537,7 +1819,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:06.455804+00:00",
+    "discovered_at": "2026-08-19T05:19:22.168384+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1599,7 +1881,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:08.495292+00:00",
+    "discovered_at": "2026-08-19T05:19:28.069670+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1643,7 +1925,7 @@
     "id": "finai-3a80c9076392",
     "title": "Flarre.AI launches agentic AI platform for insurers",
     "normalized_title": "flarre ai launches agentic ai platform for insurers",
-    "publisher": "Beinsure",
+    "publisher": "beinsure.com",
     "source_ids": [
       "google-news-en"
     ],
@@ -1654,7 +1936,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:07.380205+00:00",
+    "discovered_at": "2026-08-19T05:19:25.110994+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1671,7 +1953,7 @@
     ],
     "relevance_score": 80,
     "evidence_strength": 1,
-    "summary": "该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据Beinsure公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "summary": "该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据beinsure.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
     "application_scenario": "用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。",
     "expected_value": "预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。",
     "innovation_level": "application_design",
@@ -1713,7 +1995,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:05.909395+00:00",
+    "discovered_at": "2026-08-19T05:19:20.814712+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1764,7 +2046,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:06.321532+00:00",
+    "discovered_at": "2026-08-19T05:19:22.282041+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1815,7 +2097,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:07.506738+00:00",
+    "discovered_at": "2026-08-19T05:19:25.004011+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1852,57 +2134,6 @@
     }
   },
   {
-    "id": "finai-23414323e5f1",
-    "title": "CoinRithm Agent Trading",
-    "normalized_title": "coinrithm agent trading",
-    "publisher": "io.github.CoinRithm",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://coinrithm.com/agentic-trading"
-    ],
-    "evidence_time": "2026-08-12",
-    "event_time": null,
-    "listing_time": "2026-08-12",
-    "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:07.666008+00:00",
-    "effective_time": "2026-08-12",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "wealth_and_markets"
-    ],
-    "ai_types": [
-      "agent"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.CoinRithm公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
-    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
-      ],
-      "ai:agent": [
-        "official MCP Registry listing"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
-      ]
-    }
-  },
-  {
     "id": "finai-a71c45471bf0",
     "title": "China Merchants Bank's Retail AUM Tops 18 Trillion Yuan as \"Human + Agent\" AI Model Officially Launches",
     "normalized_title": "china merchants bank s retail aum tops 18 trillion yuan as human agent ai model officially launches",
@@ -1917,7 +2148,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:06.008730+00:00",
+    "discovered_at": "2026-08-19T05:19:20.965979+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1971,7 +2202,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:06.008841+00:00",
+    "discovered_at": "2026-08-19T05:19:20.966245+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2023,7 +2254,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:08.495953+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070838+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2076,7 +2307,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:09.455010+00:00",
+    "discovered_at": "2026-08-19T05:19:30.501967+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2117,7 +2348,7 @@
     "id": "finai-36bcf57263e1",
     "title": "Exclusive | Bank of America to Deploy $250 Billion to Bolster AI and Energy Infrastructure",
     "normalized_title": "exclusive bank of america to deploy 250 billion to bolster ai and energy infrastructure",
-    "publisher": "wsj.com",
+    "publisher": "WSJ",
     "source_ids": [
       "google-news-en"
     ],
@@ -2128,7 +2359,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T05:05:10.558644+00:00",
+    "discovered_at": "2026-08-19T05:19:33.468352+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2144,7 +2375,7 @@
     ],
     "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "该候选涉及银行业务，被识别为客户部署，成熟度暂定M3。当前判断依据wsj.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "summary": "该候选涉及银行业务，被识别为客户部署，成熟度暂定M3。当前判断依据WSJ公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
     "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
     "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
     "innovation_level": "not_demonstrated",
@@ -2165,6 +2396,109 @@
     }
   },
   {
+    "id": "finai-e33af7c4b924",
+    "title": "Dubai’s biggest bank teams with an AED 1bn fund to pilot AI banking and digital assets",
+    "normalized_title": "dubai s biggest bank teams with an aed 1bn fund to pilot ai banking and digital assets",
+    "publisher": "tbreak.com",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UXzRzMnAzNEQ0c0p6QWlmQ1QteHZhUm9NM0p4WUhHNHUwTEhjUk9ZcThEYXFCMmRlZUFodDhZbWJXTk0zWU8yWVZWVVB3WWx2aHRadURmeXJWczlaQjBkQ2RsWXlPZXNOY3Rzbg?oc=5"
+    ],
+    "evidence_time": "2026-08-12",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-12",
+    "discovered_at": "2026-08-19T05:19:33.470275+00:00",
+    "effective_time": "2026-08-12",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "pilot",
+    "maturity": "M2",
+    "finance_domains": [
+      "banking"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及银行业务，被识别为试点，成熟度暂定M2。当前判断依据tbreak.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
+    "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:banking": [
+        "bank",
+        "banking"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:pilot": [
+        "pilot"
+      ]
+    }
+  },
+  {
+    "id": "finai-23414323e5f1",
+    "title": "CoinRithm Agent Trading",
+    "normalized_title": "coinrithm agent trading",
+    "publisher": "io.github.CoinRithm",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://coinrithm.com/agentic-trading"
+    ],
+    "evidence_time": "2026-08-12",
+    "event_time": null,
+    "listing_time": "2026-08-12",
+    "first_public_time": "2026-08-12",
+    "discovered_at": "2026-08-19T05:19:35.099185+00:00",
+    "effective_time": "2026-08-12",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.CoinRithm公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
+    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:agent": [
+        "official MCP Registry listing"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-a8e203925086",
     "title": "Toss Partners with Savings Bank to Deploy AI Alternative Credit Scoring, Lowering Loan Barriers for 'Thin Filers'",
     "normalized_title": "toss partners with savings bank to deploy ai alternative credit scoring lowering loan barriers for thin filers",
@@ -2179,7 +2513,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:10.559294+00:00",
+    "discovered_at": "2026-08-19T05:19:33.469374+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2238,7 +2572,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:07.952586+00:00",
+    "discovered_at": "2026-08-19T05:19:26.384517+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2291,7 +2625,7 @@
     "id": "finai-d5913104dd4f",
     "title": "Inside Real Estate Advances AI Strategy With Launch of ComplianceAI and Direct AI Assistant Integration With BoldTrail BackOffice",
     "normalized_title": "inside real estate advances ai strategy with launch of complianceai and direct ai assistant integration with boldtrail backoffice",
-    "publisher": "rismedia.com",
+    "publisher": "RISMedia",
     "source_ids": [
       "google-news-en"
     ],
@@ -2302,7 +2636,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:09.454315+00:00",
+    "discovered_at": "2026-08-19T05:19:30.501109+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2318,7 +2652,7 @@
     ],
     "relevance_score": 82,
     "evidence_strength": 1,
-    "summary": "该候选涉及风险与合规，被识别为客户部署，成熟度暂定M3。当前判断依据rismedia.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "summary": "该候选涉及风险与合规，被识别为客户部署，成熟度暂定M3。当前判断依据RISMedia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
     "application_scenario": "用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。",
     "expected_value": "预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。",
     "innovation_level": "incremental",
@@ -2344,62 +2678,6 @@
     }
   },
   {
-    "id": "finai-fbc4fc1edc59",
-    "title": "CivicDataForge Public-Records Data",
-    "normalized_title": "civicdataforge public records data",
-    "publisher": "io.github.equinoxaifinance-rgb",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://civicdataforge.pages.dev"
-    ],
-    "evidence_time": "2026-08-11",
-    "event_time": null,
-    "listing_time": "2026-08-11",
-    "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:05.847381+00:00",
-    "effective_time": "2026-08-11",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "risk_and_compliance"
-    ],
-    "ai_types": [
-      "agent",
-      "machine_learning"
-    ],
-    "relevance_score": 80,
-    "evidence_strength": 1,
-    "summary": "该候选涉及风险与合规，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.equinoxaifinance-rgb公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。",
-    "expected_value": "预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:risk_and_compliance": [
-        "compliance"
-      ],
-      "ai:agent": [
-        "ai agent",
-        "official MCP Registry listing"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
-      ]
-    }
-  },
-  {
     "id": "finai-3aabc7aba7bb",
     "title": "Tenet Fintech Launches Cubeler Business Hub 2.0, Opening Platform to U.S. SMEs with Agentic AI Features",
     "normalized_title": "tenet fintech launches cubeler business hub 2 0 opening platform to u s smes with agentic ai features",
@@ -2416,7 +2694,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:06.879916+00:00",
+    "discovered_at": "2026-08-19T05:19:23.412717+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2464,78 +2742,21 @@
     }
   },
   {
-    "id": "finai-e299402c4592",
-    "title": "中国銀行と日立、融資業務におけるAIエージェント活用の協創を開始",
-    "normalized_title": "中国銀行と日立 融資業務におけるaiエージェント活用の協創を開始",
-    "publisher": "山陽新聞",
-    "source_ids": [
-      "google-news-ja"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FRlFvZF96MF83aU15SFVXLTVZeFlkMGlMOFM2Y0JxbEJ6QmRSWW9uZjZadFlwQmZOcDVHQzdDMVRLNmoxcGQxNTMtdGU4ZEF5a2c?oc=5"
-    ],
-    "evidence_time": "2026-08-11",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:06.320709+00:00",
-    "effective_time": "2026-08-11",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "banking",
-      "lending_and_credit"
-    ],
-    "ai_types": [
-      "agent"
-    ],
-    "relevance_score": 78,
-    "evidence_strength": 1,
-    "summary": "该候选涉及银行业务、信贷，被识别为产品发布，成熟度暂定M3。当前判断依据山陽新聞公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。",
-    "expected_value": "预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [
-      "中国銀行と日立、融資業務におけるAIエージェント活用の協創を開始"
-    ],
-    "signals": {
-      "finance:banking": [
-        "銀行"
-      ],
-      "finance:lending_and_credit": [
-        "融資"
-      ],
-      "ai:agent": [
-        "aiエージェント"
-      ],
-      "event:product_launch": [
-        "開始"
-      ]
-    }
-  },
-  {
-    "id": "finai-4ebf37e8ebc0",
-    "title": "APICK Finance",
-    "normalized_title": "apick finance",
-    "publisher": "app.apick",
+    "id": "finai-fbc4fc1edc59",
+    "title": "CivicDataForge Public-Records Data",
+    "normalized_title": "civicdataforge public records data",
+    "publisher": "io.github.equinoxaifinance-rgb",
     "source_ids": [
       "official-mcp-registry"
     ],
     "evidence_urls": [
-      "https://apick.app/dev_guide/mcp"
+      "https://civicdataforge.pages.dev"
     ],
     "evidence_time": "2026-08-11",
     "event_time": null,
     "listing_time": "2026-08-11",
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:05.847128+00:00",
+    "discovered_at": "2026-08-19T05:19:23.313579+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -2544,27 +2765,32 @@
     "event_type": "product_launch",
     "maturity": "M3",
     "finance_domains": [
-      "banking"
+      "risk_and_compliance"
     ],
     "ai_types": [
-      "agent"
+      "agent",
+      "machine_learning"
     ],
-    "relevance_score": 60,
+    "relevance_score": 80,
     "evidence_strength": 1,
-    "summary": "该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据app.apick公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
-    "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
+    "summary": "该候选涉及风险与合规，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.equinoxaifinance-rgb公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。",
+    "expected_value": "预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。",
     "innovation_level": "not_demonstrated",
     "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
     "innovation_signals": [],
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
-      "finance:banking": [
-        "bank"
+      "finance:risk_and_compliance": [
+        "compliance"
       ],
       "ai:agent": [
+        "ai agent",
         "official MCP Registry listing"
+      ],
+      "ai:machine_learning": [
+        "ai"
       ],
       "event:product_launch": [
         "marketplace listing"
@@ -2586,7 +2812,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:06.008486+00:00",
+    "discovered_at": "2026-08-19T05:19:20.963941+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2639,7 +2865,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:07.379697+00:00",
+    "discovered_at": "2026-08-19T05:19:25.110321+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2691,7 +2917,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:07.380048+00:00",
+    "discovered_at": "2026-08-19T05:19:25.110792+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2743,7 +2969,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:07.953260+00:00",
+    "discovered_at": "2026-08-19T05:19:26.384996+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2798,7 +3024,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:08.495031+00:00",
+    "discovered_at": "2026-08-19T05:19:28.069322+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2852,7 +3078,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:08.496055+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070959+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2905,7 +3131,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:08.961131+00:00",
+    "discovered_at": "2026-08-19T05:19:29.228725+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2957,7 +3183,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T05:05:10.559272+00:00",
+    "discovered_at": "2026-08-19T05:19:33.469228+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2994,46 +3220,42 @@
     }
   },
   {
-    "id": "finai-f7fd8e566801",
-    "title": "Ruya partners with Magure to deploy agentic AI across its UAE banks",
-    "normalized_title": "ruya partners with magure to deploy agentic ai across its uae banks",
-    "publisher": "The American Bazaar",
+    "id": "finai-4ebf37e8ebc0",
+    "title": "APICK Finance",
+    "normalized_title": "apick finance",
+    "publisher": "app.apick",
     "source_ids": [
-      "google-news-en"
+      "official-mcp-registry"
     ],
     "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUpIWGR2WmJNa1FTQWNxdFVKR1dpQkxmU3JyZnZJM0dNbU04blRUai1EZTFxVDZRUG1jcHhZTjVQTlQ5RmFUS1prQ3VGVW5HRzgxbk9KT09ZVnh1M3V0ajZ1MFk2N3I5a010TzJhMFUzWFpuc2FsNngxdC1EUlRJTGI2bzRqMkxTUWJ4NG9INE9WelV4VUQxZllzTWxjTVBubjBvWTVXNEZkM0lESGdCQjVSWWoxMHE3d0ZV?oc=5"
+      "https://apick.app/dev_guide/mcp"
     ],
-    "evidence_time": "2026-08-10",
+    "evidence_time": "2026-08-11",
     "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T05:05:10.558838+00:00",
-    "effective_time": "2026-08-10",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
+    "listing_time": "2026-08-11",
+    "first_public_time": "2026-08-11",
+    "discovered_at": "2026-08-19T05:19:23.313236+00:00",
+    "effective_time": "2026-08-11",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
     "effective_time_precision": "day",
     "time_status": "estimated_from_evidence",
-    "event_type": "commercial_agreement",
-    "maturity": "M4",
+    "event_type": "product_launch",
+    "maturity": "M3",
     "finance_domains": [
       "banking"
     ],
     "ai_types": [
-      "agent",
-      "machine_learning"
+      "agent"
     ],
-    "relevance_score": 100,
+    "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "该候选涉及银行业务，被识别为商业合作，成熟度暂定M4。当前判断依据The American Bazaar公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "summary": "该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据app.apick公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
     "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
     "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
-    "innovation_level": "application_design",
-    "innovation_assessment": "创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。",
-    "innovation_signals": [
-      "智能体工作流",
-      "agentic ai"
-    ],
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
@@ -3041,16 +3263,10 @@
         "bank"
       ],
       "ai:agent": [
-        "agentic"
+        "official MCP Registry listing"
       ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:customer_deployment": [
-        "deploy"
-      ],
-      "event:commercial_agreement": [
-        "partners with"
+      "event:product_launch": [
+        "marketplace listing"
       ]
     }
   },
@@ -3069,7 +3285,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T05:05:06.008122+00:00",
+    "discovered_at": "2026-08-19T05:19:20.963398+00:00",
     "effective_time": "2026-08-10",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3125,7 +3341,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T05:05:05.908078+00:00",
+    "discovered_at": "2026-08-19T05:19:20.813460+00:00",
     "effective_time": "2026-08-10",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3181,7 +3397,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T05:05:05.908606+00:00",
+    "discovered_at": "2026-08-19T05:19:20.813960+00:00",
     "effective_time": "2026-08-10",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3223,110 +3439,6 @@
     }
   },
   {
-    "id": "finai-d354f45cf7a8",
-    "title": "Arcadia Finance",
-    "normalized_title": "arcadia finance",
-    "publisher": "io.github.arcadia-finance",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://arcadia.finance"
-    ],
-    "evidence_time": "2026-08-10",
-    "event_time": null,
-    "listing_time": "2026-08-10",
-    "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T05:05:05.847332+00:00",
-    "effective_time": "2026-08-10",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "lending_and_credit"
-    ],
-    "ai_types": [
-      "agent"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "该候选涉及信贷，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.arcadia-finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。",
-    "expected_value": "预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:lending_and_credit": [
-        "lending"
-      ],
-      "event:product_launch": [
-        "lance",
-        "marketplace listing"
-      ],
-      "ai:agent": [
-        "official MCP Registry listing"
-      ]
-    }
-  },
-  {
-    "id": "finai-a0cf399503ec",
-    "title": "MoneySimpler Launches AI Automated Trading App; Indian Users See Profitability Soar",
-    "normalized_title": "moneysimpler launches ai automated trading app indian users see profitability soar",
-    "publisher": "The Manila Times",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMS15dHRxaUFWUWVVSERsbDFtNGpaSTBqZkNBUnhJYUg3M21WNVdyMmxMdlhfYUQ1NG9WTFBVNHoyRmxnTUhSaXRGYUtpMWU5Q0s2bkZibGd2c2I5NmVyZmNaVDdWeHV3MzlkdUZlZzJxcEpZU0wxMkUxZnFlTkRqOWwydG9NSW5rVkdCZkd1bjdzcVZVNVlFaC1aQ3Z3WlF5UXB2cmFEVWFNOXRhaTJtbTNEdXdCRi1VclJxdGY2X0U5MVlBblhabmZ6OFI1TzRlSjBDTm1aWWNJMEd3Z3RLSkJuWTZRbmRFOEF3StIB8gFBVV95cUxOUHBtTHM4WnRQYnk3bjhTZlpBTkttcXgtbmlJeDlkbkN3WVdGNHNqd2FQTHdvRFlnVVBpcXFJUXBvRENGcmxWeHM1NmFOWFR1RWFkeUdScjFkeGo2SlhadlVzOUFmM1Q5dW5OQ09hcHN6c0g4c1Qza2NwaVY2ai1sQ0NpX0F6Vm94S1dtTms2U0o2bmJIN3RpT1hSbmpQLURINEhzUWpyZVdZb2hmbDRvc01aNmxMZWtBSGVPRzIyQnpERVpuWFozM0Iwck1Jd2hvN3B6TEo4eG91YjNzN2JwQ0RBSDZabGk1ZHNfU0Vkb211QQ?oc=5"
-    ],
-    "evidence_time": "2026-08-10",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T05:05:08.495972+00:00",
-    "effective_time": "2026-08-10",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "wealth_and_markets"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据The Manila Times公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
-    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "launch",
-        "launches"
-      ]
-    }
-  },
-  {
     "id": "finai-8d57bdae71fe",
     "title": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
     "normalized_title": "nvidia partners with apollo blackrock blackstone brookfield goldman sachs and kkr to establish ai compute infrastructure financing platforms to mobilize over 500 billion of third party capital",
@@ -3341,7 +3453,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T05:05:08.960631+00:00",
+    "discovered_at": "2026-08-19T05:19:29.227915+00:00",
     "effective_time": "2026-08-10",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3380,6 +3492,58 @@
     }
   },
   {
+    "id": "finai-d354f45cf7a8",
+    "title": "Arcadia Finance",
+    "normalized_title": "arcadia finance",
+    "publisher": "io.github.arcadia-finance",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://arcadia.finance"
+    ],
+    "evidence_time": "2026-08-10",
+    "event_time": null,
+    "listing_time": "2026-08-10",
+    "first_public_time": "2026-08-10",
+    "discovered_at": "2026-08-19T05:19:23.313510+00:00",
+    "effective_time": "2026-08-10",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "lending_and_credit"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及信贷，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.arcadia-finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。",
+    "expected_value": "预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:lending_and_credit": [
+        "lending"
+      ],
+      "event:product_launch": [
+        "lance",
+        "marketplace listing"
+      ],
+      "ai:agent": [
+        "official MCP Registry listing"
+      ]
+    }
+  },
+  {
     "id": "finai-bf861b3aeb31",
     "title": "com.ai-rook.agents/trading-mcp",
     "normalized_title": "com ai rook agents trading mcp",
@@ -3394,7 +3558,7 @@
     "event_time": null,
     "listing_time": "2026-08-09",
     "first_public_time": "2026-08-09",
-    "discovered_at": "2026-08-19T05:05:07.665974+00:00",
+    "discovered_at": "2026-08-19T05:19:35.099080+00:00",
     "effective_time": "2026-08-09",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -3452,7 +3616,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T05:05:06.008826+00:00",
+    "discovered_at": "2026-08-19T05:19:20.966213+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3512,7 +3676,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T05:05:07.953108+00:00",
+    "discovered_at": "2026-08-19T05:19:26.384865+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3568,7 +3732,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T05:05:05.987030+00:00",
+    "discovered_at": "2026-08-19T05:19:20.728360+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3605,6 +3769,58 @@
     }
   },
   {
+    "id": "finai-7293013ec793",
+    "title": "WealthStack Roundup: Astraeus Launches AI Platform for Advisory Firms",
+    "normalized_title": "wealthstack roundup astraeus launches ai platform for advisory firms",
+    "publisher": "Wealth Management",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cd921154e77a5d6d234a51818a2&url=https%3a%2f%2fwww.wealthmanagement.com%2fadvisor-support-platforms%2fastraeus-launches-ai-platform-for-advisory-firms&c=3498197380060771950&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-07",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-07",
+    "discovered_at": "2026-08-19T05:19:21.573079+00:00",
+    "effective_time": "2026-08-07",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据Wealth Management公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
+    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "wealth"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "launch",
+        "launches"
+      ]
+    }
+  },
+  {
     "id": "finai-409748421df0",
     "title": "Cornerstone Insurance launches voicebot capability for AI assistant, CiCi",
     "normalized_title": "cornerstone insurance launches voicebot capability for ai assistant cici",
@@ -3620,7 +3836,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T05:05:07.380800+00:00",
+    "discovered_at": "2026-08-19T05:19:25.111867+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3676,7 +3892,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T05:05:08.494840+00:00",
+    "discovered_at": "2026-08-19T05:19:28.068973+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3727,7 +3943,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T05:05:09.454662+00:00",
+    "discovered_at": "2026-08-19T05:19:30.501421+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3765,6 +3981,72 @@
     }
   },
   {
+    "id": "finai-3cc63c21eb25",
+    "title": "UAE's Islamic Bank Ruya Goes Live With Agentic AI In Production, Partners With Magure To Build An AI-Native Bank",
+    "normalized_title": "uae s islamic bank ruya goes live with agentic ai in production partners with magure to build an ai native bank",
+    "publisher": "MENAFN",
+    "source_ids": [
+      "bing-news-en",
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cdfebe849e48bb18ddcad8f18a8&url=https%3a%2f%2fmenafn.com%2f1111503529%2fUAEs-Islamic-Bank-Ruya-Goes-Live-With-Agentic-AI-In-Production-Partners-With-Magure-To-Build-An-AI-Native-Bank&c=17584389581344060066&mkt=en-us",
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUpIWGR2WmJNa1FTQWNxdFVKR1dpQkxmU3JyZnZJM0dNbU04blRUai1EZTFxVDZRUG1jcHhZTjVQTlQ5RmFUS1prQ3VGVW5HRzgxbk9KT09ZVnh1M3V0ajZ1MFk2N3I5a010TzJhMFUzWFpuc2FsNngxdC1EUlRJTGI2bzRqMkxTUWJ4NG9INE9WelV4VUQxZllzTWxjTVBubjBvWTVXNEZkM0lESGdCQjVSWWoxMHE3d0ZV?oc=5"
+    ],
+    "evidence_time": "2026-08-06",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-06",
+    "discovered_at": "2026-08-19T05:19:27.467354+00:00",
+    "effective_time": "2026-08-06",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M4",
+    "finance_domains": [
+      "banking"
+    ],
+    "ai_types": [
+      "agent",
+      "machine_learning"
+    ],
+    "relevance_score": 100,
+    "evidence_strength": 2,
+    "summary": "该候选涉及银行业务，被识别为商业合作，成熟度暂定M4。当前判断依据MENAFN公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
+    "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
+    "innovation_level": "application_design",
+    "innovation_assessment": "创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。",
+    "innovation_signals": [
+      "智能体工作流",
+      "agentic ai"
+    ],
+    "review_status": "needs_review",
+    "duplicate_titles": [
+      "Ruya partners with Magure to deploy agentic AI across its UAE banks"
+    ],
+    "signals": {
+      "finance:banking": [
+        "bank"
+      ],
+      "ai:agent": [
+        "agentic"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "goes live",
+        "production"
+      ],
+      "event:commercial_agreement": [
+        "partners with"
+      ]
+    }
+  },
+  {
     "id": "finai-82264c849ab1",
     "title": "From Pilots to Production: Making AI Real in Financial Services",
     "normalized_title": "from pilots to production making ai real in financial services",
@@ -3779,7 +4061,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-06",
-    "discovered_at": "2026-08-19T05:05:10.040948+00:00",
+    "discovered_at": "2026-08-19T05:19:31.843139+00:00",
     "effective_time": "2026-08-06",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3833,7 +4115,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-06",
-    "discovered_at": "2026-08-19T05:05:07.953014+00:00",
+    "discovered_at": "2026-08-19T05:19:26.384796+00:00",
     "effective_time": "2026-08-06",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3890,7 +4172,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-06",
-    "discovered_at": "2026-08-19T05:05:07.379863+00:00",
+    "discovered_at": "2026-08-19T05:19:25.110529+00:00",
     "effective_time": "2026-08-06",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3942,7 +4224,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-05",
-    "discovered_at": "2026-08-19T05:05:06.008766+00:00",
+    "discovered_at": "2026-08-19T05:19:20.966044+00:00",
     "effective_time": "2026-08-05",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3983,6 +4265,217 @@
     }
   },
   {
+    "id": "finai-6e743271efbe",
+    "title": "As AI threats spread, insurers use the same tech to fight back",
+    "normalized_title": "as ai threats spread insurers use the same tech to fight back",
+    "publisher": "Digital Insurance",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cda68bd434bb0703abf5fd02108&url=https%3a%2f%2fwww.dig-in.com%2fnews%2fas-ai-threats-spread-insurers-use-the-same-tech-to-fight-back&c=16620613956523565127&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-05",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-05",
+    "discovered_at": "2026-08-19T05:19:23.903249+00:00",
+    "effective_time": "2026-08-05",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "customer_deployment",
+    "maturity": "M3",
+    "finance_domains": [
+      "insurance",
+      "risk_and_compliance"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 78,
+    "evidence_strength": 1,
+    "summary": "该候选涉及保险、风险与合规，被识别为客户部署，成熟度暂定M3。当前判断依据Digital Insurance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。",
+    "expected_value": "预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:insurance": [
+        "insurer"
+      ],
+      "finance:risk_and_compliance": [
+        "fraud"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "deploy"
+      ]
+    }
+  },
+  {
+    "id": "finai-0dfb01ba9937",
+    "title": "SBS Bank goes live with eMACH.ai Treasury platform",
+    "normalized_title": "sbs bank goes live with emach ai treasury platform",
+    "publisher": "Times Of Swaziland",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cdfebe849e48bb18ddcad8f18a8&url=https%3a%2f%2ftimes.co.sz%2f40957%2fbusiness%2fsbs-bank-goes-live-with-emach-ai-treasury-platform%2f&c=2904791098923483266&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-05",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-05",
+    "discovered_at": "2026-08-19T05:19:27.467279+00:00",
+    "effective_time": "2026-08-05",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "customer_deployment",
+    "maturity": "M3",
+    "finance_domains": [
+      "banking"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及银行业务，被识别为客户部署，成熟度暂定M3。当前判断依据Times Of Swaziland公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
+    "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:banking": [
+        "bank"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "goes live"
+      ]
+    }
+  },
+  {
+    "id": "finai-fcb5f5f2cbee",
+    "title": "Big Bank Builds on Innovation Award with Launch of Multiple New AI Tools",
+    "normalized_title": "big bank builds on innovation award with launch of multiple new ai tools",
+    "publisher": "Fintech.ca |",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZndfTGVFS0gxa1ZIbHVnTjh1dUVDeklnU09CUlAxVm9iVUhQaS1LNGlHOUlCX3V2ejRVYTRNUTNtOGtCZkJ3WlRkLVRzUzNjMWt5OEpLVjR5VVR5UURPSDNHTG5pNmx0TEoxQWgyb01CVlh0SjFPSkhNcnhncXYzbjB3QkpTUQ?oc=5"
+    ],
+    "evidence_time": "2026-08-05",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-05",
+    "discovered_at": "2026-08-19T05:19:20.966403+00:00",
+    "effective_time": "2026-08-05",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "banking"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据Fintech.ca |公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
+    "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [
+      "Big Bank Builds on Innovation Award with Launch of Multiple New AI Tools"
+    ],
+    "signals": {
+      "finance:banking": [
+        "bank"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "launch"
+      ]
+    }
+  },
+  {
+    "id": "finai-c6893e22d28c",
+    "title": "Mindserv Analytics Launches DotvoiceAI: A Carrier-Grade Voice Infrastructure Platform Built for the AI Era, Empowering BFSI, FinTech and Enterprise Communications",
+    "normalized_title": "mindserv analytics launches dotvoiceai a carrier grade voice infrastructure platform built for the ai era empowering bfsi fintech and enterprise communications",
+    "publisher": "businessnewsthisweek.com",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOQ2t3MEowNHBTQ1c1cnRpUjNYVE9MY3JuT3hhM2ZjaWtBckZXYzJtYVU0Q0J1YWF4NE0xNlJTd05FNmtPQ0kxd3prTl9La3dhRk1MS2Y2dURGV3RpTzE3RjhBZUE5bUJKMUVaT05IV1I2S1RmS3BkVkExQzZmQUhBWHltS0RYTExoNFE0UjJmMzZZc3FSaWx1eHl2SFFUQ0tzOENhUmtISzdNNzRWVXdxNHl6TlFYLWVsZFNDejZ5NHFqbVpTVm90LVBONTBSUnFLeU9SN2QtS2xzb040S0Y4cmotQ3RqQWhvTDJWLUpkNDdLVm1NRWpNVEZRUGtUeHlDUzdtR1ZOSHI3cWtISGRFZndzQkNNYVMxeFdiSlliT0JXTmtyLUx2aWVB?oc=5"
+    ],
+    "evidence_time": "2026-08-05",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-05",
+    "discovered_at": "2026-08-19T05:19:23.413326+00:00",
+    "effective_time": "2026-08-05",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "fintech"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据businessnewsthisweek.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
+    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:fintech": [
+        "fintech"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "launch",
+        "launches"
+      ]
+    }
+  },
+  {
     "id": "finai-9d55338237a1",
     "title": "io.github.atilaahmettaner/tradingview-mcp",
     "normalized_title": "io github atilaahmettaner tradingview mcp",
@@ -3997,7 +4490,7 @@
     "event_time": null,
     "listing_time": "2026-08-05",
     "first_public_time": "2026-08-05",
-    "discovered_at": "2026-08-19T05:05:07.666044+00:00",
+    "discovered_at": "2026-08-19T05:19:35.099276+00:00",
     "effective_time": "2026-08-05",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -4037,111 +4530,6 @@
     }
   },
   {
-    "id": "finai-fcb5f5f2cbee",
-    "title": "Big Bank Builds on Innovation Award with Launch of Multiple New AI Tools",
-    "normalized_title": "big bank builds on innovation award with launch of multiple new ai tools",
-    "publisher": "fintech.ca",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZndfTGVFS0gxa1ZIbHVnTjh1dUVDeklnU09CUlAxVm9iVUhQaS1LNGlHOUlCX3V2ejRVYTRNUTNtOGtCZkJ3WlRkLVRzUzNjMWt5OEpLVjR5VVR5UURPSDNHTG5pNmx0TEoxQWgyb01CVlh0SjFPSkhNcnhncXYzbjB3QkpTUQ?oc=5"
-    ],
-    "evidence_time": "2026-08-05",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-05",
-    "discovered_at": "2026-08-19T05:05:06.008920+00:00",
-    "effective_time": "2026-08-05",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "banking"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据fintech.ca公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
-    "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [
-      "Big Bank Builds on Innovation Award with Launch of Multiple New AI Tools"
-    ],
-    "signals": {
-      "finance:banking": [
-        "bank"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "launch"
-      ]
-    }
-  },
-  {
-    "id": "finai-c6893e22d28c",
-    "title": "Mindserv Analytics Launches DotvoiceAI: A Carrier-Grade Voice Infrastructure Platform Built for the AI Era, Empowering BFSI, FinTech and Enterprise Communications",
-    "normalized_title": "mindserv analytics launches dotvoiceai a carrier grade voice infrastructure platform built for the ai era empowering bfsi fintech and enterprise communications",
-    "publisher": "businessnewsthisweek.com",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMiqgJBVV95cUxOQ2t3MEowNHBTQ1c1cnRpUjNYVE9MY3JuT3hhM2ZjaWtBckZXYzJtYVU0Q0J1YWF4NE0xNlJTd05FNmtPQ0kxd3prTl9La3dhRk1MS2Y2dURGV3RpTzE3RjhBZUE5bUJKMUVaT05IV1I2S1RmS3BkVkExQzZmQUhBWHltS0RYTExoNFE0UjJmMzZZc3FSaWx1eHl2SFFUQ0tzOENhUmtISzdNNzRWVXdxNHl6TlFYLWVsZFNDejZ5NHFqbVpTVm90LVBONTBSUnFLeU9SN2QtS2xzb040S0Y4cmotQ3RqQWhvTDJWLUpkNDdLVm1NRWpNVEZRUGtUeHlDUzdtR1ZOSHI3cWtISGRFZndzQkNNYVMxeFdiSlliT0JXTmtyLUx2aWVB?oc=5"
-    ],
-    "evidence_time": "2026-08-05",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-05",
-    "discovered_at": "2026-08-19T05:05:06.880355+00:00",
-    "effective_time": "2026-08-05",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "fintech"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据businessnewsthisweek.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
-    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:fintech": [
-        "fintech"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "launch",
-        "launches"
-      ]
-    }
-  },
-  {
     "id": "finai-bfee1b3a8585",
     "title": "NAB Tests AI Agents in Plan to Deploy Tech to Banking Customers",
     "normalized_title": "nab tests ai agents in plan to deploy tech to banking customers",
@@ -4157,7 +4545,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T05:05:10.558734+00:00",
+    "discovered_at": "2026-08-19T05:19:33.468483+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4204,65 +4592,6 @@
     }
   },
   {
-    "id": "finai-d8dd87b0dddf",
-    "title": "Zachary Perret: Plaid partners with Sierra to enable AI agents in financial services",
-    "normalized_title": "zachary perret plaid partners with sierra to enable ai agents in financial services",
-    "publisher": "Traders Union",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM04zQWY4SHVqSWgxdC1wSXM0SzJOTjJRR09XbEVTZmpSQ1ZoMXJHeVdNODgwQ2xubVdFNzBicmVjcTVKWEd5RWJId0hfWE9ldFl1LV9yb1lUaGFsTDg3a3pnanV1RkxsRDN5TS1jRm9INGluLVN5TTZoNE11ZWdkX0pRcV81ckdoajdBZUN3?oc=5"
-    ],
-    "evidence_time": "2026-08-04",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T05:05:10.041751+00:00",
-    "effective_time": "2026-08-04",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "commercial_agreement",
-    "maturity": "M2",
-    "finance_domains": [
-      "financial_brand",
-      "fintech"
-    ],
-    "ai_types": [
-      "agent",
-      "machine_learning"
-    ],
-    "relevance_score": 98,
-    "evidence_strength": 1,
-    "summary": "该候选涉及金融机构、金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据Traders Union公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于金融机构、金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
-    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:fintech": [
-        "financial services"
-      ],
-      "finance:financial_brand": [
-        "plaid"
-      ],
-      "ai:agent": [
-        "ai agent"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:commercial_agreement": [
-        "partners with"
-      ]
-    }
-  },
-  {
     "id": "finai-a266b609f886",
     "title": "Cloudflare Wallets 正式发布：为智能体式互联网打造的可编程钱包",
     "normalized_title": "cloudflare wallets 正式发布 为智能体式互联网打造的可编程钱包",
@@ -4281,7 +4610,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T05:05:07.506526+00:00",
+    "discovered_at": "2026-08-19T05:19:25.003707+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4342,7 +4671,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T05:05:08.494815+00:00",
+    "discovered_at": "2026-08-19T05:19:28.068933+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4399,7 +4728,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T05:05:10.041613+00:00",
+    "discovered_at": "2026-08-19T05:19:31.844036+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4455,7 +4784,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-05",
-    "discovered_at": "2026-08-19T05:05:08.495271+00:00",
+    "discovered_at": "2026-08-19T05:19:28.069639+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4512,7 +4841,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T05:05:06.324324+00:00",
+    "discovered_at": "2026-08-19T05:19:22.137142+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4564,7 +4893,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T05:05:06.455888+00:00",
+    "discovered_at": "2026-08-19T05:19:22.168526+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4601,6 +4930,128 @@
     }
   },
   {
+    "id": "finai-089c7d24b6a4",
+    "title": "Sydney Fintech Bheja.Ai Launches Free Offset Account Checker Following ASIC Report On Mortgage Offset Errors",
+    "normalized_title": "sydney fintech bheja ai launches free offset account checker following asic report on mortgage offset errors",
+    "publisher": "MENAFN",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cd921154e77a5d6d234a51818a2&url=https%3a%2f%2fmenafn.com%2f1111484852%2fSydney-Fintech-BhejaAi-Launches-Free-Offset-Account-Checker-Following-ASIC-Report-On-Mortgage-Offset-Errors&c=273883551479126279&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-03",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-03",
+    "discovered_at": "2026-08-19T05:19:21.573342+00:00",
+    "effective_time": "2026-08-03",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "banking",
+      "fintech",
+      "lending_and_credit"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 100,
+    "evidence_strength": 1,
+    "summary": "该候选涉及银行业务、金融科技、信贷，被识别为产品发布，成熟度暂定M3。当前判断依据MENAFN公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。",
+    "expected_value": "预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:banking": [
+        "bank"
+      ],
+      "finance:lending_and_credit": [
+        "mortgage"
+      ],
+      "finance:fintech": [
+        "fintech"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "launch",
+        "launches"
+      ],
+      "event:commercial_agreement": [
+        "paid"
+      ]
+    }
+  },
+  {
+    "id": "finai-d8dd87b0dddf",
+    "title": "Zachary Perret: Plaid partners with Sierra to enable AI agents in financial services",
+    "normalized_title": "zachary perret plaid partners with sierra to enable ai agents in financial services",
+    "publisher": "Traders Union",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM04zQWY4SHVqSWgxdC1wSXM0SzJOTjJRR09XbEVTZmpSQ1ZoMXJHeVdNODgwQ2xubVdFNzBicmVjcTVKWEd5RWJId0hfWE9ldFl1LV9yb1lUaGFsTDg3a3pnanV1RkxsRDN5TS1jRm9INGluLVN5TTZoNE11ZWdkX0pRcV81ckdoajdBZUN3?oc=5"
+    ],
+    "evidence_time": "2026-08-03",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-03",
+    "discovered_at": "2026-08-19T05:19:31.844228+00:00",
+    "effective_time": "2026-08-03",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "financial_brand",
+      "fintech"
+    ],
+    "ai_types": [
+      "agent",
+      "machine_learning"
+    ],
+    "relevance_score": 98,
+    "evidence_strength": 1,
+    "summary": "该候选涉及金融机构、金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据Traders Union公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于金融机构、金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
+    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:fintech": [
+        "financial services"
+      ],
+      "finance:financial_brand": [
+        "plaid"
+      ],
+      "ai:agent": [
+        "ai agent"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "partners with"
+      ]
+    }
+  },
+  {
     "id": "finai-a7c810ecf24b",
     "title": "Guidewire Introduces Qusar Release to Help Insurers Build and Control AI Agents",
     "normalized_title": "guidewire introduces qusar release to help insurers build and control ai agents",
@@ -4615,7 +5066,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-03",
-    "discovered_at": "2026-08-19T05:05:07.380026+00:00",
+    "discovered_at": "2026-08-19T05:19:25.110738+00:00",
     "effective_time": "2026-08-03",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4672,7 +5123,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-03",
-    "discovered_at": "2026-08-19T05:05:07.380316+00:00",
+    "discovered_at": "2026-08-19T05:19:25.111291+00:00",
     "effective_time": "2026-08-03",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4730,7 +5181,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-03",
-    "discovered_at": "2026-08-19T05:05:10.041769+00:00",
+    "discovered_at": "2026-08-19T05:19:31.844253+00:00",
     "effective_time": "2026-08-03",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4781,7 +5232,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-02",
-    "discovered_at": "2026-08-19T05:05:06.748179+00:00",
+    "discovered_at": "2026-08-19T05:19:23.752403+00:00",
     "effective_time": "2026-08-02",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4836,7 +5287,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-31",
-    "discovered_at": "2026-08-19T05:05:06.454934+00:00",
+    "discovered_at": "2026-08-19T05:19:22.167235+00:00",
     "effective_time": "2026-07-31",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4890,7 +5341,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-31",
-    "discovered_at": "2026-08-19T05:05:06.879182+00:00",
+    "discovered_at": "2026-08-19T05:19:23.411620+00:00",
     "effective_time": "2026-07-31",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4943,7 +5394,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-31",
-    "discovered_at": "2026-08-19T05:05:10.559801+00:00",
+    "discovered_at": "2026-08-19T05:19:33.470245+00:00",
     "effective_time": "2026-07-31",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4996,7 +5447,7 @@
     "event_time": null,
     "listing_time": "2026-07-30",
     "first_public_time": "2026-07-30",
-    "discovered_at": "2026-08-19T05:05:06.947735+00:00",
+    "discovered_at": "2026-08-19T05:19:30.831839+00:00",
     "effective_time": "2026-07-30",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -5061,7 +5512,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-30",
-    "discovered_at": "2026-08-19T05:05:08.495705+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070469+00:00",
     "effective_time": "2026-07-30",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5123,7 +5574,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-30",
-    "discovered_at": "2026-08-19T05:05:06.879566+00:00",
+    "discovered_at": "2026-08-19T05:19:23.412207+00:00",
     "effective_time": "2026-07-30",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5176,7 +5627,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-30",
-    "discovered_at": "2026-08-19T05:05:08.960949+00:00",
+    "discovered_at": "2026-08-19T05:19:29.228440+00:00",
     "effective_time": "2026-07-30",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5228,7 +5679,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-30",
-    "discovered_at": "2026-08-19T05:05:10.040588+00:00",
+    "discovered_at": "2026-08-19T05:19:31.842558+00:00",
     "effective_time": "2026-07-30",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5279,7 +5730,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T05:05:06.008751+00:00",
+    "discovered_at": "2026-08-19T05:19:20.966015+00:00",
     "effective_time": "2026-07-29",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5334,7 +5785,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T05:05:07.507388+00:00",
+    "discovered_at": "2026-08-19T05:19:25.005122+00:00",
     "effective_time": "2026-07-29",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5385,7 +5836,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T05:05:06.009015+00:00",
+    "discovered_at": "2026-08-19T05:19:20.966537+00:00",
     "effective_time": "2026-07-29",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5437,7 +5888,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T05:05:06.880288+00:00",
+    "discovered_at": "2026-08-19T05:19:23.413230+00:00",
     "effective_time": "2026-07-29",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5488,7 +5939,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T05:05:07.952654+00:00",
+    "discovered_at": "2026-08-19T05:19:26.384560+00:00",
     "effective_time": "2026-07-29",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5540,7 +5991,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.008025+00:00",
+    "discovered_at": "2026-08-19T05:19:20.963229+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5601,7 +6052,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:08.495687+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070443+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5651,63 +6102,6 @@
     }
   },
   {
-    "id": "finai-d424a43f2600",
-    "title": "Blocksize Agentic Market Intelligence",
-    "normalized_title": "blocksize agentic market intelligence",
-    "publisher": "info.blocksize.mcp",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://mcp.blocksize.info/"
-    ],
-    "evidence_time": "2026-07-28",
-    "event_time": null,
-    "listing_time": "2026-07-28",
-    "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.948050+00:00",
-    "effective_time": "2026-07-28",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "lending_and_credit"
-    ],
-    "ai_types": [
-      "agent",
-      "machine_learning"
-    ],
-    "relevance_score": 80,
-    "evidence_strength": 1,
-    "summary": "该候选涉及信贷，被识别为产品发布，成熟度暂定M3。当前判断依据info.blocksize.mcp公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。",
-    "expected_value": "预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:lending_and_credit": [
-        "credit"
-      ],
-      "ai:agent": [
-        "agentic",
-        "ai agent",
-        "official MCP Registry listing"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
-      ]
-    }
-  },
-  {
     "id": "finai-458472ce1c21",
     "title": "Shield Launches Industry-First Governed AI Agent to Automate Compliance Alert Closures",
     "normalized_title": "shield launches industry first governed ai agent to automate compliance alert closures",
@@ -5722,7 +6116,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.008205+00:00",
+    "discovered_at": "2026-08-19T05:19:20.963534+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5746,9 +6140,7 @@
     "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
     "innovation_signals": [],
     "review_status": "needs_review",
-    "duplicate_titles": [
-      "Shield Launches Industry-First Governed AI Agent to Automate Compliance Alert Closures"
-    ],
+    "duplicate_titles": [],
     "signals": {
       "finance:risk_and_compliance": [
         "compliance"
@@ -5780,7 +6172,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.008305+00:00",
+    "discovered_at": "2026-08-19T05:19:20.963715+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5839,7 +6231,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.008502+00:00",
+    "discovered_at": "2026-08-19T05:19:20.963968+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5898,7 +6290,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.455079+00:00",
+    "discovered_at": "2026-08-19T05:19:22.167540+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5954,7 +6346,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:07.952466+00:00",
+    "discovered_at": "2026-08-19T05:19:26.384436+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6012,7 +6404,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:08.495352+00:00",
+    "discovered_at": "2026-08-19T05:19:28.069943+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6057,6 +6449,63 @@
     }
   },
   {
+    "id": "finai-d424a43f2600",
+    "title": "Blocksize Agentic Market Intelligence",
+    "normalized_title": "blocksize agentic market intelligence",
+    "publisher": "info.blocksize.mcp",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://mcp.blocksize.info/"
+    ],
+    "evidence_time": "2026-07-28",
+    "event_time": null,
+    "listing_time": "2026-07-28",
+    "first_public_time": "2026-07-28",
+    "discovered_at": "2026-08-19T05:19:30.832961+00:00",
+    "effective_time": "2026-07-28",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "lending_and_credit"
+    ],
+    "ai_types": [
+      "agent",
+      "machine_learning"
+    ],
+    "relevance_score": 80,
+    "evidence_strength": 1,
+    "summary": "该候选涉及信贷，被识别为产品发布，成熟度暂定M3。当前判断依据info.blocksize.mcp公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。",
+    "expected_value": "预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:lending_and_credit": [
+        "credit"
+      ],
+      "ai:agent": [
+        "agentic",
+        "ai agent",
+        "official MCP Registry listing"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-b87e64897bfe",
     "title": "Fenergo Launches AI Platform to Streamline Banking Compliance",
     "normalized_title": "fenergo launches ai platform to streamline banking compliance",
@@ -6072,7 +6521,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.008652+00:00",
+    "discovered_at": "2026-08-19T05:19:20.965835+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6133,7 +6582,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.879055+00:00",
+    "discovered_at": "2026-08-19T05:19:23.411488+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6191,7 +6640,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:08.495595+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070292+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6251,7 +6700,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.747867+00:00",
+    "discovered_at": "2026-08-19T05:19:23.751921+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6288,53 +6737,53 @@
     }
   },
   {
-    "id": "finai-543a220baf06",
-    "title": "Trading Strategy Data",
-    "normalized_title": "trading strategy data",
-    "publisher": "io.github.Vohlsyr",
+    "id": "finai-9b7e9994b039",
+    "title": "Financial Services Firms Race to Operationalize AI",
+    "normalized_title": "financial services firms race to operationalize ai",
+    "publisher": "BizTech",
     "source_ids": [
-      "official-mcp-registry"
+      "bing-news-en"
     ],
     "evidence_urls": [
-      "https://registry.modelcontextprotocol.io"
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cd8d1a9440c93d6a895e414f878&url=https%3a%2f%2fbiztechmagazine.com%2farticle%2f2026%2f07%2ffinancial-services-firms-race-operationalize-ai&c=10903773458247680862&mkt=en-us"
     ],
     "evidence_time": "2026-07-28",
     "event_time": null,
-    "listing_time": "2026-07-28",
+    "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:07.666038+00:00",
+    "discovered_at": "2026-08-19T05:19:20.891774+00:00",
     "effective_time": "2026-07-28",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
     "effective_time_precision": "day",
     "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
+    "event_type": "customer_deployment",
     "maturity": "M3",
     "finance_domains": [
-      "wealth_and_markets"
+      "fintech"
     ],
     "ai_types": [
-      "agent"
+      "machine_learning"
     ],
     "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.Vohlsyr公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
-    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
+    "summary": "该候选涉及金融科技，被识别为客户部署，成熟度暂定M3。当前判断依据BizTech公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。",
+    "expected_value": "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。",
     "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_assessment": "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
     "innovation_signals": [],
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
+      "finance:fintech": [
+        "financial services"
       ],
-      "ai:agent": [
-        "official MCP Registry listing"
+      "ai:machine_learning": [
+        "ai"
       ],
-      "event:product_launch": [
-        "marketplace listing"
+      "event:customer_deployment": [
+        "production"
       ]
     }
   },
@@ -6353,7 +6802,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.008280+00:00",
+    "discovered_at": "2026-08-19T05:19:20.963683+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6406,7 +6855,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.008532+00:00",
+    "discovered_at": "2026-08-19T05:19:20.964024+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6458,7 +6907,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.008627+00:00",
+    "discovered_at": "2026-08-19T05:19:20.965799+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6509,7 +6958,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.879405+00:00",
+    "discovered_at": "2026-08-19T05:19:23.411923+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6562,7 +7011,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:06.879521+00:00",
+    "discovered_at": "2026-08-19T05:19:23.412117+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6615,7 +7064,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:07.379739+00:00",
+    "discovered_at": "2026-08-19T05:19:25.110637+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6668,7 +7117,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:08.495742+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070524+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6721,7 +7170,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:08.495837+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070666+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6773,7 +7222,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:08.961318+00:00",
+    "discovered_at": "2026-08-19T05:19:29.229044+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6824,7 +7273,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:08.961664+00:00",
+    "discovered_at": "2026-08-19T05:19:29.229589+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6878,7 +7327,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:08.961701+00:00",
+    "discovered_at": "2026-08-19T05:19:29.229618+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6930,7 +7379,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:09.454623+00:00",
+    "discovered_at": "2026-08-19T05:19:30.501391+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6982,7 +7431,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:10.041034+00:00",
+    "discovered_at": "2026-08-19T05:19:31.843268+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7034,7 +7483,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T05:05:10.559055+00:00",
+    "discovered_at": "2026-08-19T05:19:33.468974+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7071,6 +7520,57 @@
     }
   },
   {
+    "id": "finai-543a220baf06",
+    "title": "Trading Strategy Data",
+    "normalized_title": "trading strategy data",
+    "publisher": "io.github.Vohlsyr",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://registry.modelcontextprotocol.io"
+    ],
+    "evidence_time": "2026-07-28",
+    "event_time": null,
+    "listing_time": "2026-07-28",
+    "first_public_time": "2026-07-28",
+    "discovered_at": "2026-08-19T05:19:35.099266+00:00",
+    "effective_time": "2026-07-28",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.Vohlsyr公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
+    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:agent": [
+        "official MCP Registry listing"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-6349f00d6cef",
     "title": "NH Nonghyup Bank上线AI企业授信审查体系，加快“Agentic AI Bank”转型",
     "normalized_title": "nh nonghyup bank上线ai企业授信审查体系 加快 agentic ai bank 转型",
@@ -7085,7 +7585,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T05:05:06.324362+00:00",
+    "discovered_at": "2026-08-19T05:19:22.137162+00:00",
     "effective_time": "2026-07-27",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7143,7 +7643,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T05:05:06.190893+00:00",
+    "discovered_at": "2026-08-19T05:19:22.950187+00:00",
     "effective_time": "2026-07-27",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7180,60 +7680,6 @@
     }
   },
   {
-    "id": "finai-aa934d07ceee",
-    "title": "io.github.tradingale/mcp",
-    "normalized_title": "io github tradingale mcp",
-    "publisher": "io.github.tradingale",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://registry.modelcontextprotocol.io"
-    ],
-    "evidence_time": "2026-07-27",
-    "event_time": null,
-    "listing_time": "2026-07-27",
-    "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T05:05:07.666056+00:00",
-    "effective_time": "2026-07-27",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "wealth_and_markets"
-    ],
-    "ai_types": [
-      "agent"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.tradingale公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
-    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
-    "innovation_level": "substantive",
-    "innovation_assessment": "公开文字明确提到面向智能体的协议或跨系统接口，属于可能的基础设施创新；开放程度和实际采用情况仍需核验。",
-    "innovation_signals": [
-      "智能体协议或接口",
-      "mcp"
-    ],
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
-      ],
-      "ai:agent": [
-        "official MCP Registry listing"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
-      ]
-    }
-  },
-  {
     "id": "finai-0664d010b94b",
     "title": "Finda buys Daewon Savings Bank to launch AI savings bank in South Korea - CHOSUNBIZ",
     "normalized_title": "finda buys daewon savings bank to launch ai savings bank in south korea chosunbiz",
@@ -7248,7 +7694,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T05:05:06.008935+00:00",
+    "discovered_at": "2026-08-19T05:19:20.966433+00:00",
     "effective_time": "2026-07-27",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7299,7 +7745,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T05:05:06.879483+00:00",
+    "discovered_at": "2026-08-19T05:19:23.412063+00:00",
     "effective_time": "2026-07-27",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7351,7 +7797,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T05:05:08.495816+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070632+00:00",
     "effective_time": "2026-07-27",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7403,7 +7849,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T05:05:10.041307+00:00",
+    "discovered_at": "2026-08-19T05:19:31.843620+00:00",
     "effective_time": "2026-07-27",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7442,6 +7888,119 @@
     }
   },
   {
+    "id": "finai-aa934d07ceee",
+    "title": "io.github.tradingale/mcp",
+    "normalized_title": "io github tradingale mcp",
+    "publisher": "io.github.tradingale",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://registry.modelcontextprotocol.io"
+    ],
+    "evidence_time": "2026-07-27",
+    "event_time": null,
+    "listing_time": "2026-07-27",
+    "first_public_time": "2026-07-27",
+    "discovered_at": "2026-08-19T05:19:35.099301+00:00",
+    "effective_time": "2026-07-27",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.tradingale公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。",
+    "expected_value": "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。",
+    "innovation_level": "substantive",
+    "innovation_assessment": "公开文字明确提到面向智能体的协议或跨系统接口，属于可能的基础设施创新；开放程度和实际采用情况仍需核验。",
+    "innovation_signals": [
+      "智能体协议或接口",
+      "mcp"
+    ],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:agent": [
+        "official MCP Registry listing"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
+    "id": "finai-15d003add4f0",
+    "title": "Lianlian DigiTech and UnionPay International Partner to Deploy AI-Agent Payments for Global Procurement",
+    "normalized_title": "lianlian digitech and unionpay international partner to deploy ai agent payments for global procurement",
+    "publisher": "Yahoo Finance",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a853cdc289546df8fb6253dbc50722f&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2flianlian-digitech-unionpay-international-partner-003000728.html&c=9529547056349314478&mkt=en-us"
+    ],
+    "evidence_time": "2026-07-26",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-26",
+    "discovered_at": "2026-08-19T05:19:26.852822+00:00",
+    "effective_time": "2026-07-26",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M4",
+    "finance_domains": [
+      "payments"
+    ],
+    "ai_types": [
+      "agent",
+      "machine_learning"
+    ],
+    "relevance_score": 100,
+    "evidence_strength": 1,
+    "summary": "该候选涉及支付，被识别为商业合作，成熟度暂定M4。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。",
+    "expected_value": "预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:payments": [
+        "payment",
+        "payments"
+      ],
+      "ai:agent": [
+        "ai agent"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "deploy"
+      ],
+      "event:commercial_agreement": [
+        "agreement"
+      ]
+    }
+  },
+  {
     "id": "finai-5c5c0dca761f",
     "title": "Adopting AI may cut banking fraud",
     "normalized_title": "adopting ai may cut banking fraud",
@@ -7456,7 +8015,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-26",
-    "discovered_at": "2026-08-19T05:05:10.559469+00:00",
+    "discovered_at": "2026-08-19T05:19:33.469490+00:00",
     "effective_time": "2026-07-26",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7512,7 +8071,7 @@
     "event_time": null,
     "listing_time": "2026-07-26",
     "first_public_time": "2026-07-26",
-    "discovered_at": "2026-08-19T05:05:06.404470+00:00",
+    "discovered_at": "2026-08-19T05:19:25.343148+00:00",
     "effective_time": "2026-07-26",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -7568,7 +8127,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-24",
-    "discovered_at": "2026-08-19T05:05:07.952227+00:00",
+    "discovered_at": "2026-08-19T05:19:26.384296+00:00",
     "effective_time": "2026-07-24",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7617,60 +8176,6 @@
     }
   },
   {
-    "id": "finai-b8e3292a95ca",
-    "title": "平安银行厦门分行：平安银行携手银联首发智能体借信双卡 领跑行业智能化转型",
-    "normalized_title": "平安银行厦门分行 平安银行携手银联首发智能体借信双卡 领跑行业智能化转型",
-    "publisher": "手机网易网",
-    "source_ids": [
-      "google-news-zh"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmaTB1Rk9ZM3JXVFNYbU9aWE45LVdGYUdQWDhJMFJuQkp6cFgzZTBHaFgzcTdMdzFPaWp2RVBjRnpoWkt0WklWMExXQVRfV2hDcGg5blVSWTJsUUc1Y044MEh3?oc=5"
-    ],
-    "evidence_time": "2026-07-24",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-07-24",
-    "discovered_at": "2026-08-19T05:05:05.876066+00:00",
-    "effective_time": "2026-07-24",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "commercial_agreement",
-    "maturity": "M2",
-    "finance_domains": [
-      "banking"
-    ],
-    "ai_types": [
-      "agent"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "该候选涉及银行业务，被识别为商业合作，成熟度暂定M2。当前判断依据手机网易网公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
-    "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
-    "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
-    "innovation_level": "not_demonstrated",
-    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
-    "innovation_signals": [],
-    "review_status": "needs_review",
-    "duplicate_titles": [
-      "平安银行厦门分行：平安银行携手银联首发智能体借信双卡 领跑行业智能化转型",
-      "平安银行厦门分行：平安银行携手银联首发智能体借信双卡 领跑行业智能化转型"
-    ],
-    "signals": {
-      "finance:banking": [
-        "银行"
-      ],
-      "ai:agent": [
-        "智能体"
-      ],
-      "event:commercial_agreement": [
-        "携手"
-      ]
-    }
-  },
-  {
     "id": "finai-31e9117d8935",
     "title": "Visa与连连携手推进可信B2B智能体商务，见证LoopXPay智能体首笔真实交易",
     "normalized_title": "visa与连连携手推进可信b2b智能体商务 见证loopxpay智能体首笔真实交易",
@@ -7685,7 +8190,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-24",
-    "discovered_at": "2026-08-19T05:05:06.769988+00:00",
+    "discovered_at": "2026-08-19T05:19:23.201388+00:00",
     "effective_time": "2026-07-24",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7722,6 +8227,59 @@
     }
   },
   {
+    "id": "finai-b8e3292a95ca",
+    "title": "平安银行厦门分行：平安银行携手银联首发智能体借信双卡 领跑行业智能化转型",
+    "normalized_title": "平安银行厦门分行 平安银行携手银联首发智能体借信双卡 领跑行业智能化转型",
+    "publisher": "手机网易网",
+    "source_ids": [
+      "google-news-zh"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmaTB1Rk9ZM3JXVFNYbU9aWE45LVdGYUdQWDhJMFJuQkp6cFgzZTBHaFgzcTdMdzFPaWp2RVBjRnpoWkt0WklWMExXQVRfV2hDcGg5blVSWTJsUUc1Y044MEh3?oc=5"
+    ],
+    "evidence_time": "2026-07-24",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-24",
+    "discovered_at": "2026-08-19T05:19:23.202025+00:00",
+    "effective_time": "2026-07-24",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "banking"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "该候选涉及银行业务，被识别为商业合作，成熟度暂定M2。当前判断依据手机网易网公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "application_scenario": "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。",
+    "expected_value": "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。",
+    "innovation_level": "not_demonstrated",
+    "innovation_assessment": "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+    "innovation_signals": [],
+    "review_status": "needs_review",
+    "duplicate_titles": [
+      "平安银行厦门分行：平安银行携手银联首发智能体借信双卡 领跑行业智能化转型"
+    ],
+    "signals": {
+      "finance:banking": [
+        "银行"
+      ],
+      "ai:agent": [
+        "智能体"
+      ],
+      "event:commercial_agreement": [
+        "携手"
+      ]
+    }
+  },
+  {
     "id": "finai-07cc1fd0fbba",
     "title": "Tasks, not customer tiers should drive bank AI use: Deloitte",
     "normalized_title": "tasks not customer tiers should drive bank ai use deloitte",
@@ -7736,7 +8294,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-24",
-    "discovered_at": "2026-08-19T05:05:10.558527+00:00",
+    "discovered_at": "2026-08-19T05:19:33.468161+00:00",
     "effective_time": "2026-07-24",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7787,7 +8345,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-23",
-    "discovered_at": "2026-08-19T05:05:07.952108+00:00",
+    "discovered_at": "2026-08-19T05:19:26.384212+00:00",
     "effective_time": "2026-07-23",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7850,7 +8408,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-23",
-    "discovered_at": "2026-08-19T05:05:06.879022+00:00",
+    "discovered_at": "2026-08-19T05:19:23.411409+00:00",
     "effective_time": "2026-07-23",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7903,7 +8461,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-23",
-    "discovered_at": "2026-08-19T05:05:10.558777+00:00",
+    "discovered_at": "2026-08-19T05:19:33.468570+00:00",
     "effective_time": "2026-07-23",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7954,7 +8512,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-22",
-    "discovered_at": "2026-08-19T05:05:08.495796+00:00",
+    "discovered_at": "2026-08-19T05:19:28.070602+00:00",
     "effective_time": "2026-07-22",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -7995,7 +8553,7 @@
     "id": "finai-3219dbb47335",
     "title": "EU AI Act Article 50 Compliance Checklist for Providers and Deployers",
     "normalized_title": "eu ai act article 50 compliance checklist for providers and deployers",
-    "publisher": "resemble.ai",
+    "publisher": "Resemble AI",
     "source_ids": [
       "google-news-en"
     ],
@@ -8006,7 +8564,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-22",
-    "discovered_at": "2026-08-19T05:05:09.454218+00:00",
+    "discovered_at": "2026-08-19T05:19:30.500976+00:00",
     "effective_time": "2026-07-22",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -8022,7 +8580,7 @@
     ],
     "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "该候选涉及风险与合规，被识别为客户部署，成熟度暂定M3。当前判断依据resemble.ai公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
+    "summary": "该候选涉及风险与合规，被识别为客户部署，成熟度暂定M3。当前判断依据Resemble AI公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。",
     "application_scenario": "用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。",
     "expected_value": "预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。",
     "innovation_level": "not_demonstrated",
@@ -8057,7 +8615,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-21",
-    "discovered_at": "2026-08-19T05:05:06.007978+00:00",
+    "discovered_at": "2026-08-19T05:19:20.963153+00:00",
     "effective_time": "2026-07-21",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -8114,7 +8672,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-21",
-    "discovered_at": "2026-08-19T05:05:07.380187+00:00",
+    "discovered_at": "2026-08-19T05:19:25.110948+00:00",
     "effective_time": "2026-07-21",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -8173,7 +8731,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-21",
-    "discovered_at": "2026-08-19T05:05:06.320943+00:00",
+    "discovered_at": "2026-08-19T05:19:22.281392+00:00",
     "effective_time": "2026-07-21",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
