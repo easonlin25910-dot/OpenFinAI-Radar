@@ -1,0 +1,44 @@
+name: Daily radar
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: Inclusive discovery window in days
+        required: false
+        default: "30"
+  schedule:
+    - cron: "17 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+        env:
+          PYTHONPATH: src
+      - name: Discover recent cases
+        run: python -m openfinai_radar run --days "${{ inputs.days || '30' }}"
+        env:
+          PYTHONPATH: src
+      - name: Commit changed reports
+        run: |
+          if git diff --quiet -- outputs site; then
+            echo "No report changes"
+            exit 0
+          fi
+          git config user.name "openfinai-radar[bot]"
+          git config user.email "openfinai-radar[bot]@users.noreply.github.com"
+          git add outputs/latest site/index.html
+          git commit -m "data: refresh 30-day radar"
+          git push
+
