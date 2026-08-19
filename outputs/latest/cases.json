@@ -14,7 +14,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-19",
-    "discovered_at": "2026-08-19T03:17:40.431792+00:00",
+    "discovered_at": "2026-08-19T03:50:48.245271+00:00",
     "effective_time": "2026-08-19",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -49,7 +49,7 @@
     "id": "finai-d588e961503a",
     "title": "Uptiq Expands Banking Leadership to Scale AI Deployment at Financial Institutions",
     "normalized_title": "uptiq expands banking leadership to scale ai deployment at financial institutions",
-    "publisher": "citybiz.co",
+    "publisher": "citybiz",
     "source_ids": [
       "google-news-en"
     ],
@@ -60,7 +60,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T03:17:50.490279+00:00",
+    "discovered_at": "2026-08-19T03:50:51.293790+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -76,7 +76,7 @@
     ],
     "relevance_score": 82,
     "evidence_strength": 1,
-    "summary": "citybiz.co于2026-08-18公开“Uptiq Expands Banking Leadership to Scale AI Deployment at Financial Institutions”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和scale信号，自动暂判为M5；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "citybiz于2026-08-18公开“Uptiq Expands Banking Leadership to Scale AI Deployment at Financial Institutions”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和scale信号，自动暂判为M5；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
@@ -110,7 +110,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T03:17:46.450034+00:00",
+    "discovered_at": "2026-08-19T03:50:50.012459+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -161,7 +161,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T03:17:50.492272+00:00",
+    "discovered_at": "2026-08-19T03:50:51.294891+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -211,7 +211,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T03:17:40.485323+00:00",
+    "discovered_at": "2026-08-19T03:50:48.160552+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -256,13 +256,13 @@
       "bing-news-en"
     ],
     "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852056277e494aa2e7140d09841577&url=https%3a%2f%2fambcrypto.com%2fripple-lands-third-korea-deal-as-xrpl-hosts-2m-ai-payments-what-next-for-xrp%2f&c=15556600663173854237&mkt=en-us"
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8528180c2b4b57adffc54dca5d7418&url=https%3a%2f%2fambcrypto.com%2fripple-lands-third-korea-deal-as-xrpl-hosts-2m-ai-payments-what-next-for-xrp%2f&c=15556600663173854237&mkt=en-us"
     ],
     "evidence_time": "2026-08-18",
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T03:17:43.069477+00:00",
+    "discovered_at": "2026-08-19T03:50:48.520925+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -309,7 +309,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T03:17:39.773740+00:00",
+    "discovered_at": "2026-08-19T03:50:47.856730+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -355,7 +355,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T03:17:45.079253+00:00",
+    "discovered_at": "2026-08-19T03:50:49.647958+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -391,7 +391,7 @@
     "id": "finai-48c3b3c28cb4",
     "title": "MoneyBuddy Launches Upgraded AI Loan-Matching Feature for SME, Personal and Mortgage Loans",
     "normalized_title": "moneybuddy launches upgraded ai loan matching feature for sme personal and mortgage loans",
-    "publisher": "openpr.com",
+    "publisher": "openPR.com",
     "source_ids": [
       "google-news-en"
     ],
@@ -402,7 +402,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-18",
-    "discovered_at": "2026-08-19T03:17:46.451192+00:00",
+    "discovered_at": "2026-08-19T03:50:50.013298+00:00",
     "effective_time": "2026-08-18",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -418,7 +418,7 @@
     ],
     "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "openpr.com于2026-08-18公开“MoneyBuddy Launches Upgraded AI Loan-Matching Feature for SME, Personal and Mortgage Loans”。标题或摘要包含金融场景（lending_and_credit）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "openPR.com于2026-08-18公开“MoneyBuddy Launches Upgraded AI Loan-Matching Feature for SME, Personal and Mortgage Loans”。标题或摘要包含金融场景（lending_and_credit）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
@@ -445,10 +445,10 @@
       "google-news-en"
     ],
     "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852055cebd45d8ba1a35b322280571&url=https%3a%2f%2fwww.fortuneindia.com%2ftechnology%2frazorpay-launches-vulcan-ai-model-with-nvidia-aws-to-boost-payment-success-fraud-detection%2f154423&c=11791775305721833632&mkt=en-us",
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852817bb084197bacbbdc42dd5ea87&url=https%3a%2f%2fwww.fortuneindia.com%2ftechnology%2frazorpay-launches-vulcan-ai-model-with-nvidia-aws-to-boost-payment-success-fraud-detection%2f154423&c=11791775305721833632&mkt=en-us",
       "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQVk0RTJhT2Znd1hMOGgzYm53ZEpKU2VKRFBzcjZtY2l0TjFOMkxYSmU3UDNVOW5xaTkwQVAyLXlRengwYmFxR1ZGcGdvTzVBRDBTeFZoYkVVT0tkTGo0S281LUZCdE5vNGIxdEc3YXN6eHlocFA2Rm5PSHZPQ3RkZV9zc3pyYm4tbUdhaDZ4dEIzQlBycGplTGdna3NCYnhxV0o5cm12aEdjQWpMZVBBeXA0VkVIY0NxTXBHdDlDTmJYV29LeUVzWFhld0x4TWFyQjFn0gHgAUFVX3lxTFBJcUdmbGJ3dTNsOE4tX2lmZDNvSXBYYmw0bDhRbVEyRFYyUDQwM3BrbG5KdzdlYWNiSWhyWHBoLWtHTGtxdm9RYlNjVlNhZ01FZU5MZUxFdVBDdHJ0UkM0WS1lc21uQi0wbTVJUV9FR0JYd0tfSVJPcWFacG1ZdXJfQmIyZUN0MTdORUJtOG1WTm5OU3BlSlB3VU42VnpqcFlvTF9kRXBxNGpsUy1RSTBHMlplRVlUUENrVFgtUDNDMGZnVW02ZkRvelBJVnV2emdRSnl2ZGhHb2ZxNjMwQkdz?oc=5",
       "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSTFHRGRjRFdVZkNPYkxjN2N0ellyd2ZVN1NMM0RLUnJiS1dRUWhPNG9mVk50cV92bnFPWktpVmhVeExhZ09JNFA0OHFPY0M4dEp1SUd6bWZQbkpUbThJNlBvbkdHSmNQRk9GcnZsVlJBUmJMelB1UC1va3FPeHBsaFNwLUl0akNJdklTN3NGYmllSElHRTZCLWQyOWU0VHU5d0FWSm5MTHhGSzY0ZUtJSWZpU29iT19r0gG4AUFVX3lxTE1JMUdEZGNEV1VmQ09iTGM3Y3R6WXJ3ZlU3U0wzREtScmJLV1FRaE80b2ZWTnRxX3ZucU9aS2lWaFV4TGFnT0k0UDQ4cU9jQzh0SnVJR3ptZlBuSlRtOEk2UG9uR0dKY1BGT0ZydmxWUkFSYkx6UHVQLW9rcU94cGxoU3AtSXRqQ0l2SVM3c0ZiaWVISUdFNkItZDI5ZTRUdTl3QVZKbkxMeEZLNjRlS0lJZmlTb2JPX2s?oc=5",
-      "https://news.google.com/rss/articles/CBMiggJBVV95cUxPVldxdEk3ZnMtUXdMeDIzc0lxX1N1MkhPb2JPUVp0c1Q3YjY5MW82UE9rTV9CVXZqQTNhUFA1M095MGthdWNqYThxanBRX1g1cmo0N2FCeEZnOEFGVXZYWGhpWTlpN0c4NzdnVlI0NzJ6VTV1ZGViMDRPRlBaRHZzZjFOdTBsRzZaRVpVN1YwbjRZbmVJaVZfUXNLNFFPckpxcmlJTnJnT0xZUDFza1VfRnRlWEdIYjc0OHpycnkyZW5NQkNmVzg1M0Q4UmViUmhGY3FrOFlkc00xN3dPQ1dtZDFXaWF5X25DWXl1Q2RhSFBPZ3c0MkVrTUc4WElMLW1JLVHSAYcCQVVfeXFMUFVOd0h6MmUweERLLVVXa3BuOEFpN09JRmlUVk9Ua244b2Q5d3dDR2RVQ2pIbnZOQV9KaS1wVXBVQjRmaERTWU03YjNfZmtzdjIxaDV5YXZBYzhha0Y5b2pnY19zR2tEd1pCbkNIX1U1QW5ydmVSN2NTOG9mcndHTlJsMHJTelBsbVpOWE4wWjdxRWZmZFAwSTEtZGpVSm9JRFR1V3ZRY1B5c2JiZ1VRNlJKcURBbklzWFdERzdxSjBwWVBmRWk4cG9sOUJ5Z0ZyMlF2dDhSZnRUYmQxdjBIZ3p3M18yUG43c2RTSFY3M0QxbzI3em81YnBGWXlzRk9XckUzUk1NRVU?oc=5",
+      "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOaXg3dzlPQTBtMlVJc21GQV9yTDJ4c3NzYmlkOEJOazFCUnJ3aS10cmV5OUdjNTRkeXNyNUt3YjdzdG14RmRzWktKOVdWQVVCV3h2dUI1cEVQWjVjcUk5M3BzTUpBSWVhYl9pckdaY2RYdzBrUklSaUhKZ0xaY2dkYk14OW9GaUthWEVJWmxiWnlDRFRIcFpVUDNUNE5udVdRM0h5UUhOOW5VajNySDFON1R5TUpaR3pZNm1XeDBqS3UzSjMxX1BqMXpXbWFlb3Y4VVMxNDlNN1VTdnlUMUJpaURXNkdUdWp3bGFCY1k1dGTSAfABQVVfeXFMTml4N3c5T0EwbTJVSXNtRkFfckwyeHNzc2JpZDhCTmsxQlJyd2ktdHJleTlHYzU0ZHlzcjVLd2I3c3RteEZkc1pLSjlXVkFVQld4dnVCNXBFUFo1Y3FJOTNwc01KQUllYWJfaXJHWmNkWHcwa1JJUmlISmdMWmNnZGJNeDlvRmlLYVhFSVpsYlp5Q0RUSHBaVVAzVDRObnVXUTNIeVFITjluVWozckgxTjdUeU1KWkd6WTZtV3gwakt1M0ozMV9QajF6V21hZW92OFVTMTQ5TTdVU3Z5VDFCaWlEVzZHVHVqd2xhQmNZNXRk?oc=5",
       "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbUtsRGhRY2doZXdyRjA3U1ZlMU80RGVLNEFGaW4zdVRvdDFWZWY5bXZ6ZjloOGxLZ3V6N2VsZnZjSWJablBhaUVaTDk0UllCWHh6d1pZcWNIXzRCUVlKR3dwTlVwSHVCUExnWGtGcEItRUJFT1B6Ni10bmxHU09CMjQ5b1NaNnBGV0xn?oc=5",
       "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZTlzT0N1LUlST3JBdjI2c2FNS09ETjFNeEwzd1NLTzRfMXBaamw4cHRoVHRrVnN6Z051cTdnbHd6OF9LSXhvaWcxRW1mc2dScjJGc3VUOHc3VUdMcXNCUElsb0wteWMwZVhJZDJRUWtZUzBSbWVLU2lRaUR4Yk9DUnlTdFJDX2ppTFM4NkRLZVVscml0ZzJMWQ?oc=5",
       "https://news.google.com/rss/articles/CBMixgFBVV95cUxQYzhlNlR1dUZTS0tmZUtKWmdCVUliT0RJcmNkOXZFT1F0R3ZDYVliVFVFRmpJUUdIZUk2V1JrLWhEeVA1d1RycGxQdUFTYkJMTUplYUVzU1lFNmo5V0F4cmRSUWNlZllSS1Y5YlIyYXNVcEtfWlJNcF9YVlNydlpqdE9ObHJjNlpUdGZITi1nUlUtYXVLTVhUOC1KZkVMOWc1a3UxUFF4cWJaTERObkl6Rkx6N24wZy1yVGcwZWlLWVA4NDdrOUE?oc=5",
@@ -462,7 +462,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-17",
-    "discovered_at": "2026-08-19T03:17:41.726187+00:00",
+    "discovered_at": "2026-08-19T03:50:47.955383+00:00",
     "effective_time": "2026-08-17",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -537,7 +537,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-17",
-    "discovered_at": "2026-08-19T03:17:42.695213+00:00",
+    "discovered_at": "2026-08-19T03:50:48.745798+00:00",
     "effective_time": "2026-08-17",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -577,13 +577,13 @@
       "bing-news-en"
     ],
     "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852056277e494aa2e7140d09841577&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftechnology%2fcryptocurrencies%2fnexus-partners-with-krwq-won-pegged-stablecoin-for-ai-and-global-game-payments%2far-AA2akDLl&c=3161042601102690876&mkt=en-us"
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8528180c2b4b57adffc54dca5d7418&url=https%3a%2f%2fwww.msn.com%2fen-us%2ftechnology%2fcryptocurrencies%2fnexus-partners-with-krwq-won-pegged-stablecoin-for-ai-and-global-game-payments%2far-AA2akDLl&c=3161042601102690876&mkt=en-us"
     ],
     "evidence_time": "2026-08-17",
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-17",
-    "discovered_at": "2026-08-19T03:17:43.069607+00:00",
+    "discovered_at": "2026-08-19T03:50:48.520997+00:00",
     "effective_time": "2026-08-17",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -631,7 +631,7 @@
     "event_time": null,
     "listing_time": "2026-08-17",
     "first_public_time": "2026-08-17",
-    "discovered_at": "2026-08-19T03:17:48.994798+00:00",
+    "discovered_at": "2026-08-19T03:50:49.402913+00:00",
     "effective_time": "2026-08-17",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -667,6 +667,55 @@
     }
   },
   {
+    "id": "finai-473eb5d83743",
+    "title": "Summit Quant Capital Deepens International Brokerage Ecosystem Partnerships, Advancing the Integration of AI-Powered Quantitative Systems into Global Investment Services",
+    "normalized_title": "summit quant capital deepens international brokerage ecosystem partnerships advancing the integration of ai powered quantitative systems into global investment services",
+    "publisher": "StreetInsider",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQanFMVEVVWGpuOC1kcE53dDNxal9fcEdpVWFZX09IaVczUHc4MjdlaTEtT3VvVEVBbDFfSXQtUVlfeS1Da3ZnUWxQSUh1OWlyR21ka2lwcEFZWmdKTU8xazhQemw0SDViaUtZUVVTR2ZkZnJRSVFKTFNvVXhzZ2JURzliOFN6aV9fel9zanVOYXgzWkJnc05tb0tET1pEa01YSTJ3R0JHUG5pbEpya1M4c1J1NTQtMFczRzVXbTN5ekJ6SklJNlpObzViaUJ0aDA5bVM5Zkk0Y3dhd3piOHZucDJXV0xNYjRDdHlsOHVmUEdNMWMwNFJEeUtfcDNhVHNiNWJKVnFqMWFlNjlMLTdoSnRlNmNBbWtkSXl5ZnhrZTJWSXRjOHVCdDY2bE9CNWt1TWVOdEF6VTJMWS1pM19PVlZ2TWpSSkxVMWx6NldTVW8?oc=5"
+    ],
+    "evidence_time": "2026-08-14",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-14",
+    "discovered_at": "2026-08-19T03:50:50.906895+00:00",
+    "effective_time": "2026-08-14",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M4",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 82,
+    "evidence_strength": 1,
+    "summary": "StreetInsider于2026-08-14公开“Summit Quant Capital Deepens International Brokerage Ecosystem Partnerships, Advancing the Integration of AI-Powered Quantitative Systems into Global Investment Services”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M4；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "investment"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "integration"
+      ],
+      "event:commercial_agreement": [
+        "partnership"
+      ]
+    }
+  },
+  {
     "id": "finai-9e236bb88a4b",
     "title": "360factors Launches Fair Lending Compliance Testing Agent in Ask Kaia",
     "normalized_title": "360factors launches fair lending compliance testing agent in ask kaia",
@@ -675,13 +724,13 @@
       "bing-news-en"
     ],
     "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a85205177d14545a530f472a549b7e7&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2f360factors-launches-fair-lending-compliance-132400822.html&c=4639341801121279453&mkt=en-us"
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852817355a4a1bab6a7c0282714f33&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2f360factors-launches-fair-lending-compliance-132400822.html&c=4639341801121279453&mkt=en-us"
     ],
     "evidence_time": "2026-08-14",
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-14",
-    "discovered_at": "2026-08-19T03:17:39.251119+00:00",
+    "discovered_at": "2026-08-19T03:50:47.405107+00:00",
     "effective_time": "2026-08-14",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -718,52 +767,6 @@
     }
   },
   {
-    "id": "finai-906b999bba2d",
-    "title": "AI adoption strains JPMorgan testing",
-    "normalized_title": "ai adoption strains jpmorgan testing",
-    "publisher": "QA Financial",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MdDBpQ1VrWWhsNmhQWmd4WjViVXg4bXVQU0ZMMGNncG5NXzhva0JxN1ZMX2lfanI0TWlrMjZydUF6Tzhmazc4TUZ2ZU84Qjk1R2NaTWtwVXBWRUo5V1NwVUlqOWlDWkIzV2JZZldfN0J0a0U?oc=5"
-    ],
-    "evidence_time": "2026-08-14",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-14",
-    "discovered_at": "2026-08-19T03:17:39.773448+00:00",
-    "effective_time": "2026-08-14",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "customer_deployment",
-    "maturity": "M3",
-    "finance_domains": [
-      "financial_brand"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "QA Financial于2026-08-14公开“AI adoption strains JPMorgan testing”。标题或摘要包含金融场景（financial_brand）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:financial_brand": [
-        "jpmorgan"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:customer_deployment": [
-        "adopt"
-      ]
-    }
-  },
-  {
     "id": "finai-243140d25b84",
     "title": "io.github.bguillow-rgb/itin-finance",
     "normalized_title": "io github bguillow rgb itin finance",
@@ -778,7 +781,7 @@
     "event_time": null,
     "listing_time": "2026-08-14",
     "first_public_time": "2026-08-14",
-    "discovered_at": "2026-08-19T03:17:40.272882+00:00",
+    "discovered_at": "2026-08-19T03:50:47.835942+00:00",
     "effective_time": "2026-08-14",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -811,77 +814,22 @@
     }
   },
   {
-    "id": "finai-6bab2a4461b5",
-    "title": "Impel and SelectFI Announce Strategic Partnership to Bring Industry-First Financing Intelligence to Automotive AI Agents",
-    "normalized_title": "impel and selectfi announce strategic partnership to bring industry first financing intelligence to automotive ai agents",
-    "publisher": "Markets Insider",
-    "source_ids": [
-      "bing-news-en"
-    ],
-    "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852056277e494aa2e7140d09841577&url=https%3a%2f%2fmarkets.businessinsider.com%2fnews%2fstocks%2fimpel-and-selectfi-announce-strategic-partnership-to-bring-industry-first-financing-intelligence-to-automotive-ai-agents-1036454297&c=8229513280477055955&mkt=en-us"
-    ],
-    "evidence_time": "2026-08-13",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T03:17:43.069801+00:00",
-    "effective_time": "2026-08-13",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "commercial_agreement",
-    "maturity": "M2",
-    "finance_domains": [
-      "fintech",
-      "payments"
-    ],
-    "ai_types": [
-      "agent",
-      "machine_learning"
-    ],
-    "relevance_score": 98,
-    "evidence_strength": 1,
-    "summary": "Markets Insider于2026-08-13公开“Impel and SelectFI Announce Strategic Partnership to Bring Industry-First Financing Intelligence to Automotive AI Agents”。标题或摘要包含金融场景（fintech、payments）、AI能力（agent、machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:payments": [
-        "payment"
-      ],
-      "finance:fintech": [
-        "fintech"
-      ],
-      "ai:agent": [
-        "ai agent"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:commercial_agreement": [
-        "partnership"
-      ]
-    }
-  },
-  {
-    "id": "finai-cf15e0af4157",
-    "title": "Suryoday Bank, Kyndryl Deploy Agentic AI Across Banking Operations",
-    "normalized_title": "suryoday bank kyndryl deploy agentic ai across banking operations",
-    "publisher": "ciol.com",
+    "id": "finai-906b999bba2d",
+    "title": "AI adoption strains JPMorgan testing",
+    "normalized_title": "ai adoption strains jpmorgan testing",
+    "publisher": "QA Financial",
     "source_ids": [
       "google-news-en"
     ],
     "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMjR0STdHQk1OQkU2R3E1elhkWXV4Y3V1MU0zaXJpZ2FvSjVlcTloclp3RGtMWXpneEVaTVRCTW8wbGd2V0xOZ3NTc05CdklOUkRYbUpqVEFPdEoyNExLb1BZbzhfRXBhMGVtWjJNb0c5VjNxWXFxVDNTN00zYkQwWWxzQS1WNzBDbmJJTHktVdIBjwFBVV95cUxOMjR0STdHQk1OQkU2R3E1elhkWXV4Y3V1MU0zaXJpZ2FvSjVlcTloclp3RGtMWXpneEVaTVRCTW8wbGd2V0xOZ3NTc05CdklOUkRYbUpqVEFPdEoyNExLb1BZbzhfRXBhMGVtWjJNb0c5VjNxWXFxVDNTN00zYkQwWWxzQS1WNzBDbmJJTHktVQ?oc=5",
-      "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY2F0Z2o5WkRtel9WQ1QxRUFteWc3TW4zTzhULXhmZ1NYSmdsd3NHVl83c0h3dFQ2aS1NWEpCWHhpUEFBVHlMNE5KaVZzenFWZWxRZ0lKMDRZUjctbW9MaFJ1QUVMbWdzYTlDUzlSckYyUi1Bc2RKSDAwdFNKTEhIVnMwWHJ6Q1d1U1pMeUhOMG9HdWE2UEgtSHlUMjJyTEk?oc=5"
+      "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MdDBpQ1VrWWhsNmhQWmd4WjViVXg4bXVQU0ZMMGNncG5NXzhva0JxN1ZMX2lfanI0TWlrMjZydUF6Tzhmazc4TUZ2ZU84Qjk1R2NaTWtwVXBWRUo5V1NwVUlqOWlDWkIzV2JZZldfN0J0a0U?oc=5"
     ],
-    "evidence_time": "2026-08-13",
+    "evidence_time": "2026-08-14",
     "event_time": null,
     "listing_time": null,
-    "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T03:17:39.773961+00:00",
-    "effective_time": "2026-08-13",
+    "first_public_time": "2026-08-14",
+    "discovered_at": "2026-08-19T03:50:47.856424+00:00",
+    "effective_time": "2026-08-14",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
     "effective_time_precision": "day",
@@ -889,34 +837,25 @@
     "event_type": "customer_deployment",
     "maturity": "M3",
     "finance_domains": [
-      "banking"
+      "financial_brand"
     ],
     "ai_types": [
-      "agent",
       "machine_learning"
     ],
-    "relevance_score": 80,
-    "evidence_strength": 2,
-    "summary": "ciol.com于2026-08-13公开“Suryoday Bank, Kyndryl Deploy Agentic AI Across Banking Operations”。标题或摘要包含金融场景（banking）、AI能力（agent、machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "QA Financial于2026-08-14公开“AI adoption strains JPMorgan testing”。标题或摘要包含金融场景（financial_brand）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
-    "duplicate_titles": [
-      "Suryoday Bank, Kyndryl Deploy Agentic AI Across Banking Operations",
-      "Wall Street banks expand AI deployment across trading, engineering and client operations",
-      "Wall Street banks expand AI deployment across trading, engineering and client operations"
-    ],
+    "duplicate_titles": [],
     "signals": {
-      "finance:banking": [
-        "bank",
-        "banking"
-      ],
-      "ai:agent": [
-        "agentic"
+      "finance:financial_brand": [
+        "jpmorgan"
       ],
       "ai:machine_learning": [
         "ai"
       ],
       "event:customer_deployment": [
-        "deploy"
+        "adopt"
       ]
     }
   },
@@ -935,7 +874,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T03:17:47.624751+00:00",
+    "discovered_at": "2026-08-19T03:50:50.402120+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -986,7 +925,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T03:17:39.773621+00:00",
+    "discovered_at": "2026-08-19T03:50:47.856604+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1024,6 +963,52 @@
     }
   },
   {
+    "id": "finai-8426bc084437",
+    "title": "Trandence Trading Journal",
+    "normalized_title": "trandence trading journal",
+    "publisher": "com.trandence",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://trandence.com"
+    ],
+    "evidence_time": "2026-08-13",
+    "event_time": null,
+    "listing_time": "2026-08-13",
+    "first_public_time": "2026-08-13",
+    "discovered_at": "2026-08-19T03:50:49.876053+00:00",
+    "effective_time": "2026-08-13",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "com.trandence于2026-08-13公开“Trandence Trading Journal”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:agent": [
+        "official MCP Registry listing"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-6f718eeeff24",
     "title": "bolt launches AI-powered insurance distribution platform",
     "normalized_title": "bolt launches ai powered insurance distribution platform",
@@ -1039,7 +1024,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T03:17:41.139507+00:00",
+    "discovered_at": "2026-08-19T03:50:48.234573+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1089,7 +1074,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T03:17:46.449891+00:00",
+    "discovered_at": "2026-08-19T03:50:50.012315+00:00",
     "effective_time": "2026-08-13",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1122,52 +1107,6 @@
     }
   },
   {
-    "id": "finai-8426bc084437",
-    "title": "Trandence Trading Journal",
-    "normalized_title": "trandence trading journal",
-    "publisher": "com.trandence",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://trandence.com"
-    ],
-    "evidence_time": "2026-08-13",
-    "event_time": null,
-    "listing_time": "2026-08-13",
-    "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T03:17:50.715512+00:00",
-    "effective_time": "2026-08-13",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "wealth_and_markets"
-    ],
-    "ai_types": [
-      "agent"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "com.trandence于2026-08-13公开“Trandence Trading Journal”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
-      ],
-      "ai:agent": [
-        "official MCP Registry listing"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
-      ]
-    }
-  },
-  {
     "id": "finai-ce1db6c8bc40",
     "title": "Banco Hipotecario deploys Microsoft AI agents to improve employee and customer services",
     "normalized_title": "banco hipotecario deploys microsoft ai agents to improve employee and customer services",
@@ -1177,14 +1116,14 @@
       "google-news-en"
     ],
     "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a85205177d14545a530f472a549b7e7&url=https%3a%2f%2fwww.technologyrecord.com%2farticle%2fbanco-hipotecario-deploys-microsoft-ai-agents-to-improve-employee-and-customer-services&c=9628091904224916506&mkt=en-us",
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852817355a4a1bab6a7c0282714f33&url=https%3a%2f%2fwww.technologyrecord.com%2farticle%2fbanco-hipotecario-deploys-microsoft-ai-agents-to-improve-employee-and-customer-services&c=9628091904224916506&mkt=en-us",
       "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVi1jeFRTd0ZLU0FBckVtX1JRUWFVbXBXc1A2NG5xZEVjSWZjZTB6UVItSzFmTVdvVWttR2VUYV9vU1d1M0NEUkhhVVo0TkJHVUo4c0JRSFFPbHdncGRCMlY1T3hJTUxhSE0tQUR3Y1ROTXVZMThUbkFMbEt3dzRIMWdmbERKMXozcHVkV1ZPVzhJTWRhbDgydFVDbEJkSEtaa18yWXJheWRoYm9JRzhuTEVyQjl1S0phWkdweXBqdXM4S2hfSFA0?oc=5"
     ],
     "evidence_time": "2026-08-12",
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:39.251165+00:00",
+    "discovered_at": "2026-08-19T03:50:47.405178+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1246,7 +1185,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:42.388863+00:00",
+    "discovered_at": "2026-08-19T03:50:48.689015+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1286,7 +1225,7 @@
     "id": "finai-d9231d98e8be",
     "title": "Compliance Group Launches AI Agents for Life Sciences to Accelerate Quality Reviews, Strengthen Audit Readiness, and Reduce Validation Time",
     "normalized_title": "compliance group launches ai agents for life sciences to accelerate quality reviews strengthen audit readiness and reduce validation time",
-    "publisher": "Business Wire",
+    "publisher": "businesswire.com",
     "source_ids": [
       "google-news-en"
     ],
@@ -1299,7 +1238,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-13",
-    "discovered_at": "2026-08-19T03:17:47.623454+00:00",
+    "discovered_at": "2026-08-19T03:50:50.401157+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1316,7 +1255,7 @@
     ],
     "relevance_score": 80,
     "evidence_strength": 3,
-    "summary": "Business Wire于2026-08-13公开“Compliance Group Launches AI Agents for Life Sciences to Accelerate Quality Reviews, Strengthen Audit Readiness, and Reduce Validation Time”。标题或摘要包含金融场景（risk_and_compliance）、AI能力（agent、machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "businesswire.com于2026-08-13公开“Compliance Group Launches AI Agents for Life Sciences to Accelerate Quality Reviews, Strengthen Audit Readiness, and Reduce Validation Time”。标题或摘要包含金融场景（risk_and_compliance）、AI能力（agent、machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [
       "Compliance Group launches AI agents for life sciences compliance",
@@ -1353,7 +1292,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:38.270541+00:00",
+    "discovered_at": "2026-08-19T03:50:47.439038+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1399,7 +1338,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:39.423514+00:00",
+    "discovered_at": "2026-08-19T03:50:47.815662+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1445,7 +1384,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:42.695065+00:00",
+    "discovered_at": "2026-08-19T03:50:48.745719+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1477,6 +1416,56 @@
     }
   },
   {
+    "id": "finai-23414323e5f1",
+    "title": "CoinRithm Agent Trading",
+    "normalized_title": "coinrithm agent trading",
+    "publisher": "io.github.CoinRithm",
+    "source_ids": [
+      "google-news-en",
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://coinrithm.com/agentic-trading",
+      "https://news.google.com/rss/articles/CBMigwFBVV95cUxNak50NUdIMEtpTmpMYTI2emJweFA4ek45SE1KQkw0dGkzLVZTUjNLUHlieElKTHp0STFjSFNLQnd1QjN6ZXlxZ2M3Nmk0Y1ZKLU1lbm1fU3pEX0J6dDQzem1fR1ZPUTVRWkFqdHJ2NFVYdVNORTdDem9XM1AzQTJNV3dvUQ?oc=5"
+    ],
+    "evidence_time": "2026-08-12",
+    "event_time": null,
+    "listing_time": "2026-08-12",
+    "first_public_time": "2026-08-12",
+    "discovered_at": "2026-08-19T03:50:49.876072+00:00",
+    "effective_time": "2026-08-12",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 2,
+    "summary": "io.github.CoinRithm于2026-08-12公开“CoinRithm Agent Trading”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [
+      "SKALE Labs Launches Agent Pit: A Simulated Prediction Market for AI Trading Agents"
+    ],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:agent": [
+        "official MCP Registry listing"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-a71c45471bf0",
     "title": "China Merchants Bank's Retail AUM Tops 18 Trillion Yuan as \"Human + Agent\" AI Model Officially Launches",
     "normalized_title": "china merchants bank s retail aum tops 18 trillion yuan as human agent ai model officially launches",
@@ -1491,7 +1480,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:38.518048+00:00",
+    "discovered_at": "2026-08-19T03:50:47.491215+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1526,57 +1515,6 @@
     }
   },
   {
-    "id": "finai-bad5257d5df5",
-    "title": "SKALE Labs Launches Agent Pit: A Simulated Prediction Market for AI Trading Agents",
-    "normalized_title": "skale labs launches agent pit a simulated prediction market for ai trading agents",
-    "publisher": "CryptoRank",
-    "source_ids": [
-      "google-news-en",
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMigwFBVV95cUxNak50NUdIMEtpTmpMYTI2emJweFA4ek45SE1KQkw0dGkzLVZTUjNLUHlieElKTHp0STFjSFNLQnd1QjN6ZXlxZ2M3Nmk0Y1ZKLU1lbm1fU3pEX0J6dDQzem1fR1ZPUTVRWkFqdHJ2NFVYdVNORTdDem9XM1AzQTJNV3dvUQ?oc=5",
-      "https://coinrithm.com/agentic-trading"
-    ],
-    "evidence_time": "2026-08-12",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:38.518221+00:00",
-    "effective_time": "2026-08-12",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "wealth_and_markets"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 2,
-    "summary": "CryptoRank于2026-08-12公开“SKALE Labs Launches Agent Pit: A Simulated Prediction Market for AI Trading Agents”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [
-      "CoinRithm Agent Trading"
-    ],
-    "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "launch",
-        "launches"
-      ]
-    }
-  },
-  {
     "id": "finai-4a9fbedeee96",
     "title": "NH Investment Launches AI Push Across Wealth, IB Units",
     "normalized_title": "nh investment launches ai push across wealth ib units",
@@ -1591,7 +1529,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:45.079798+00:00",
+    "discovered_at": "2026-08-19T03:50:49.648253+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1639,7 +1577,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:50.492252+00:00",
+    "discovered_at": "2026-08-19T03:50:51.294873+00:00",
     "effective_time": "2026-08-12",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1672,64 +1610,6 @@
     }
   },
   {
-    "id": "finai-a8e203925086",
-    "title": "Toss Partners with Savings Bank to Deploy AI Alternative Credit Scoring, Lowering Loan Barriers for 'Thin Filers'",
-    "normalized_title": "toss partners with savings bank to deploy ai alternative credit scoring lowering loan barriers for thin filers",
-    "publisher": "finance.biggo.com",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DUTU4dzJuXy05eFk0bC1TUER5YTBwbkpzdURmMWFfemYwLURrelEtWFN2LXZqbVF1SWNGZVRFM2t4S2huSXFXcU54QUtmMkQ3S2ZHRzdvQ2VPU29OSzJMWTRITFVhRGpDSGhPWUladEdZZlV4d2c?oc=5",
-      "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aT2Z6aGpwR0V5R2NmYndWTTZZRFRFR21fdk5DWlQyTXBxa3VsR3ZjR3ZRb09GdWQ1dk5XbTBNVnVrRnVlXzZIV241bjJvMHd0Q2R4cVlMM3IzS1g1NF90VXZkcjJrR2dJTWM4b2RFTQ?oc=5"
-    ],
-    "evidence_time": "2026-08-11",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:50.491440+00:00",
-    "effective_time": "2026-08-11",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "commercial_agreement",
-    "maturity": "M4",
-    "finance_domains": [
-      "banking",
-      "lending_and_credit"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 100,
-    "evidence_strength": 2,
-    "summary": "finance.biggo.com于2026-08-11公开“Toss Partners with Savings Bank to Deploy AI Alternative Credit Scoring, Lowering Loan Barriers for 'Thin Filers'”。标题或摘要包含金融场景（banking、lending_and_credit）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M4；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [
-      "Interbank partners with Anthropic to deploy Claude AI across banking operations in Peru",
-      "Interbank partners with Anthropic to deploy Claude AI across banking operations in Peru"
-    ],
-    "signals": {
-      "finance:banking": [
-        "bank"
-      ],
-      "finance:lending_and_credit": [
-        "credit",
-        "loan"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:customer_deployment": [
-        "deploy"
-      ],
-      "event:commercial_agreement": [
-        "partners with"
-      ]
-    }
-  },
-  {
     "id": "finai-dae0140be720",
     "title": "Visa Launches AI Commerce Platform for Agentic Payments",
     "normalized_title": "visa launches ai commerce platform for agentic payments",
@@ -1745,7 +1625,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:43.730554+00:00",
+    "discovered_at": "2026-08-19T03:50:49.167891+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1792,7 +1672,7 @@
     "id": "finai-d5913104dd4f",
     "title": "Inside Real Estate Advances AI Strategy With Launch of ComplianceAI and Direct AI Assistant Integration With BoldTrail BackOffice",
     "normalized_title": "inside real estate advances ai strategy with launch of complianceai and direct ai assistant integration with boldtrail backoffice",
-    "publisher": "rismedia.com",
+    "publisher": "RISMedia",
     "source_ids": [
       "google-news-en"
     ],
@@ -1803,7 +1683,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:47.623760+00:00",
+    "discovered_at": "2026-08-19T03:50:50.401397+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1819,7 +1699,7 @@
     ],
     "relevance_score": 82,
     "evidence_strength": 1,
-    "summary": "rismedia.com于2026-08-11公开“Inside Real Estate Advances AI Strategy With Launch of ComplianceAI and Direct AI Assistant Integration With BoldTrail BackOffice”。标题或摘要包含金融场景（risk_and_compliance）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "RISMedia于2026-08-11公开“Inside Real Estate Advances AI Strategy With Launch of ComplianceAI and Direct AI Assistant Integration With BoldTrail BackOffice”。标题或摘要包含金融场景（risk_and_compliance）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
@@ -1843,10 +1723,12 @@
     "normalized_title": "zeplyn launches first agentic account opening workflow in wealth management through new integration with schwab advisor center",
     "publisher": "Yahoo Finance",
     "source_ids": [
+      "bing-news-en",
       "google-news-en"
     ],
     "evidence_urls": [
       "https://news.google.com/rss/articles/CBMiowFBVV95cUxOVHluYWxkbnpXMFgxdlV6ZHlsMFhtOWVPSk5LZmlkeGVlQmVycUI0RjUwTWcxOGs3YTZId0pVNVpDR0FaS1JMMjdBaVFDMWFZeTBYbTRtYnVmMWhLa0xnWkZucEZzMkZQOXhiQ19iUjhhc0V1RjBDT2ZFazJ4aTB1YWxJdUZrOExMX2R6ekxySkNlQkN1ZmJiRUtpeU52TFkzRklV?oc=5",
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852817eecc4e78964d88dfcb4b5978&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2fpicpay-transforms-customers-access-financial-204500802.html&c=9512376768210526052&mkt=en-us",
       "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbnlpSExjMV9QdDllREtseUR5UERlQTJwRVZ4OFlmZXB3MjlaZ2lNZDZfLTZlZnU5MVJNRGV1QXR0alhIbWx6bTRzUXdueWlUdXdTUl9HaU1qMS1MZjMxS3poT25iTlBIXzBUdmwzRXNPLXpEQkJfRDRFZGhPSWZoZGtraVhGT2p6dGYyRmZkZC1iLXh6YzVFTy1MX3lNTDBzdnVz?oc=5",
       "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTnAwS2lyTDJBQmIwQjZOOFNzRlY4bm9xMVZSMEtpZ19SOUZTak9ZcWZVeDFabUhJWHU0bC1VY3hSRlduYThIY1pvUHFjVzZfRGdyS0tHeXFlQmtrU1hQdUREZEhpS0JQNWhPNzJRUVRPWVZXVldRczZaaUhkeFVCWjRUMnlFR2I2bG1ZUUlheVdCT3ZlUnBTb1hWUThUS1VfbmZkS3NsNE8tVFdseHFkT2huVWRac2staWtyUXZXR1Y5Z3RiVjlZdGJjaUFKdFJpblFhRFVRUkJYa2s?oc=5",
       "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMDlLQzFNRWZhU29TRnNQdUQ3OGU1bkdETVZaMDhUZTMyMkY3U3hLQUk5TnRqQldMcklFeXUxWUE0SVVEcE5GRW80aTVfUDRiUmVzOFlIZzFMUEJZZ1BOdHU5UVEzcm9MOFRLR0ZONFl4Ym8zLXVRT2NvNDlVN1JiQ2NRTXR0MFFBbDJMa1BIYmxKMk5nY2Zkb25kOVRsNUNFMFJMRHZn?oc=5"
@@ -1855,7 +1737,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-12",
-    "discovered_at": "2026-08-19T03:17:45.078593+00:00",
+    "discovered_at": "2026-08-19T03:50:49.647597+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1870,10 +1752,11 @@
       "agent"
     ],
     "relevance_score": 82,
-    "evidence_strength": 4,
+    "evidence_strength": 5,
     "summary": "Yahoo Finance于2026-08-12公开“Zeplyn Launches First Agentic Account-Opening Workflow in Wealth Management Through New Integration with Schwab Advisor Center”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（agent）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [
+      "PicPay Transforms How Customers Access Their Financial Information Through Integration with ChatGPT",
       "Feathery Launches AI-Powered Proposal Generation for Wealth Management",
       "PLAYBOOK LAUNCHES AI ORCHESTRATION PLATFORM FOR WEALTH MANAGEMENT FIRMS",
       "Feathery Launches AI-Powered Proposal Generation for Wealth Management"
@@ -1895,6 +1778,57 @@
     }
   },
   {
+    "id": "finai-fbc4fc1edc59",
+    "title": "CivicDataForge Public-Records Data",
+    "normalized_title": "civicdataforge public records data",
+    "publisher": "io.github.equinoxaifinance-rgb",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://civicdataforge.pages.dev"
+    ],
+    "evidence_time": "2026-08-11",
+    "event_time": null,
+    "listing_time": "2026-08-11",
+    "first_public_time": "2026-08-11",
+    "discovered_at": "2026-08-19T03:50:47.836013+00:00",
+    "effective_time": "2026-08-11",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "risk_and_compliance"
+    ],
+    "ai_types": [
+      "agent",
+      "machine_learning"
+    ],
+    "relevance_score": 80,
+    "evidence_strength": 1,
+    "summary": "io.github.equinoxaifinance-rgb于2026-08-11公开“CivicDataForge Public-Records Data”。标题或摘要包含金融场景（risk_and_compliance）、AI能力（agent、machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:risk_and_compliance": [
+        "compliance"
+      ],
+      "ai:agent": [
+        "ai agent",
+        "official MCP Registry listing"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-3aabc7aba7bb",
     "title": "Tenet Fintech Launches Cubeler Business Hub 2.0, Opening Platform to U.S. SMEs with Agentic AI Features",
     "normalized_title": "tenet fintech launches cubeler business hub 2 0 opening platform to u s smes with agentic ai features",
@@ -1911,7 +1845,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:41.140718+00:00",
+    "discovered_at": "2026-08-19T03:50:48.235441+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -1951,21 +1885,74 @@
     }
   },
   {
-    "id": "finai-fbc4fc1edc59",
-    "title": "CivicDataForge Public-Records Data",
-    "normalized_title": "civicdataforge public records data",
-    "publisher": "io.github.equinoxaifinance-rgb",
+    "id": "finai-e299402c4592",
+    "title": "中国銀行と日立、融資業務におけるAIエージェント活用の協創を開始",
+    "normalized_title": "中国銀行と日立 融資業務におけるaiエージェント活用の協創を開始",
+    "publisher": "山陽新聞",
+    "source_ids": [
+      "google-news-ja"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1FRlFvZF96MF83aU15SFVXLTVZeFlkMGlMOFM2Y0JxbEJ6QmRSWW9uZjZadFlwQmZOcDVHQzdDMVRLNmoxcGQxNTMtdGU4ZEF5a2c?oc=5"
+    ],
+    "evidence_time": "2026-08-11",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-11",
+    "discovered_at": "2026-08-19T03:50:47.438597+00:00",
+    "effective_time": "2026-08-11",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "banking",
+      "lending_and_credit"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 78,
+    "evidence_strength": 1,
+    "summary": "山陽新聞于2026-08-11公开“中国銀行と日立、融資業務におけるAIエージェント活用の協創を開始”。标题或摘要包含金融场景（banking、lending_and_credit）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [
+      "中国銀行と日立、融資業務におけるAIエージェント活用の協創を開始",
+      "中国銀行と日立、融資業務におけるAIエージェント活用の協創を開始"
+    ],
+    "signals": {
+      "finance:banking": [
+        "銀行"
+      ],
+      "finance:lending_and_credit": [
+        "融資"
+      ],
+      "ai:agent": [
+        "aiエージェント"
+      ],
+      "event:product_launch": [
+        "開始"
+      ]
+    }
+  },
+  {
+    "id": "finai-4ebf37e8ebc0",
+    "title": "APICK Finance",
+    "normalized_title": "apick finance",
+    "publisher": "app.apick",
     "source_ids": [
       "official-mcp-registry"
     ],
     "evidence_urls": [
-      "https://civicdataforge.pages.dev"
+      "https://apick.app/dev_guide/mcp"
     ],
     "evidence_time": "2026-08-11",
     "event_time": null,
     "listing_time": "2026-08-11",
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:40.272953+00:00",
+    "discovered_at": "2026-08-19T03:50:47.835681+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -1974,27 +1961,22 @@
     "event_type": "product_launch",
     "maturity": "M3",
     "finance_domains": [
-      "risk_and_compliance"
+      "banking"
     ],
     "ai_types": [
-      "agent",
-      "machine_learning"
+      "agent"
     ],
-    "relevance_score": 80,
+    "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "io.github.equinoxaifinance-rgb于2026-08-11公开“CivicDataForge Public-Records Data”。标题或摘要包含金融场景（risk_and_compliance）、AI能力（agent、machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "app.apick于2026-08-11公开“APICK Finance”。标题或摘要包含金融场景（banking）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
-      "finance:risk_and_compliance": [
-        "compliance"
+      "finance:banking": [
+        "bank"
       ],
       "ai:agent": [
-        "ai agent",
         "official MCP Registry listing"
-      ],
-      "ai:machine_learning": [
-        "ai"
       ],
       "event:product_launch": [
         "marketplace listing"
@@ -2016,7 +1998,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:38.517667+00:00",
+    "discovered_at": "2026-08-19T03:50:47.490967+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2064,7 +2046,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:42.387703+00:00",
+    "discovered_at": "2026-08-19T03:50:48.688465+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2111,7 +2093,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:42.388497+00:00",
+    "discovered_at": "2026-08-19T03:50:48.688868+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2158,7 +2140,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:43.731860+00:00",
+    "discovered_at": "2026-08-19T03:50:49.168575+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2205,7 +2187,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:45.079974+00:00",
+    "discovered_at": "2026-08-19T03:50:49.648366+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2253,7 +2235,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:50.491267+00:00",
+    "discovered_at": "2026-08-19T03:50:51.294323+00:00",
     "effective_time": "2026-08-11",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2285,52 +2267,6 @@
     }
   },
   {
-    "id": "finai-4ebf37e8ebc0",
-    "title": "APICK Finance",
-    "normalized_title": "apick finance",
-    "publisher": "app.apick",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://apick.app/dev_guide/mcp"
-    ],
-    "evidence_time": "2026-08-11",
-    "event_time": null,
-    "listing_time": "2026-08-11",
-    "first_public_time": "2026-08-11",
-    "discovered_at": "2026-08-19T03:17:40.272634+00:00",
-    "effective_time": "2026-08-11",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "banking"
-    ],
-    "ai_types": [
-      "agent"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "app.apick于2026-08-11公开“APICK Finance”。标题或摘要包含金融场景（banking）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:banking": [
-        "bank"
-      ],
-      "ai:agent": [
-        "official MCP Registry listing"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
-      ]
-    }
-  },
-  {
     "id": "finai-4e8ab9b45c14",
     "title": "An AI Agent Just Launched Its Own Company & Opened a Bank Account, All Without Humans",
     "normalized_title": "an ai agent just launched its own company opened a bank account all without humans",
@@ -2345,7 +2281,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T03:17:38.517188+00:00",
+    "discovered_at": "2026-08-19T03:50:47.490670+00:00",
     "effective_time": "2026-08-10",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2385,7 +2321,7 @@
     "id": "finai-a27ee358b164",
     "title": "【徹底解説】銀行の生成AI導入における7つのリスクと対策｜金融庁・FDUA指針対応",
     "normalized_title": "徹底解説 銀行の生成ai導入における7つのリスクと対策 金融庁・fdua指針対応",
-    "publisher": "MiiTel",
+    "publisher": "miitel.com",
     "source_ids": [
       "google-news-ja"
     ],
@@ -2396,7 +2332,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T03:17:38.269267+00:00",
+    "discovered_at": "2026-08-19T03:50:47.437608+00:00",
     "effective_time": "2026-08-10",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2412,7 +2348,7 @@
     ],
     "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "MiiTel于2026-08-10公开“【徹底解説】銀行の生成AI導入における7つのリスクと対策｜金融庁・FDUA指針対応”。标题或摘要包含金融场景（banking）、AI能力（generative_ai）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "miitel.com于2026-08-10公开“【徹底解説】銀行の生成AI導入における7つのリスクと対策｜金融庁・FDUA指針対応”。标题或摘要包含金融场景（banking）、AI能力（generative_ai）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [
       "【徹底解説】銀行の生成AI導入における7つのリスクと対策｜金融庁・FDUA指針対応",
@@ -2448,7 +2384,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T03:17:38.269777+00:00",
+    "discovered_at": "2026-08-19T03:50:47.438338+00:00",
     "effective_time": "2026-08-10",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2485,57 +2421,6 @@
     }
   },
   {
-    "id": "finai-8d57bdae71fe",
-    "title": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
-    "normalized_title": "nvidia partners with apollo blackrock blackstone brookfield goldman sachs and kkr to establish ai compute infrastructure financing platforms to mobilize over 500 billion of third party capital",
-    "publisher": "NVIDIA Newsroom",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMiywJBVV95cUxNUGxLczhkY1phSHVqWkVkVWFNZUtzVjVXSmxlUzZBd1hjc1huVnpiMXZ1VWI1VE8zR09yR0ZQOURYM1F6Yl9mYlVtYmMyeDV1RHRSdVRvT0hfT0tzSklWb1plUHdpSXRjazVSVDIzMmFJekd2M1NXV2F2OW5UZ2dDS2F6LXBya2FpODJySFNVdjBFdFQyVkxCQ2F0ZVdCYkVxOEM5c3NZZ1VGTWhvS2V2V205dVVQRFJGRGx4N2xoRXBZQmpodzhxeHU3VGstV21KUEhfeGgwd1FYRVlXRGQ4WVJPUXpFM0dqS2lPaDZiV1VfOXdERVFGZVlHVHZaY3o0a0xTME9JMFJxaklvV1NNNEJabWdCNlhFT29sVE9UQ0FNX3o5ekY4YmtCLTlOTnZiZnUxSThVRVRwOHFhUldVSVIxU0FuWVpQSEpn?oc=5",
-      "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaYjZtNVN4ckVLd0gzNWN5Qzg2eEVSREVFcl8wQkdFT1hlTjNDajcwSzRwZ1NhYnBGaUtCa21MS2JpVDlyZEUxVEhpWnk3enJLMHBnVEY2M1B0ZFFoY0I3TmtRRlYwWkZyUHNjeHNmaEZkNW9Xd0E?oc=5",
-      "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbjdOXzMyTjdlVzhLQ3lFeXdpR2hOb0I1c1Z0UHN6WXBPN2o0d1ZpLXBlMTg4WGNBUEMxeGNGZGlNbjR6aXdTSUNDMmdVZUlXZzJHSXR5YXluOTJJRTNYV0JGLXhHaENJbnVvSmowQUNnNS1GSGVGdXk1WERIaUxXNlhfUHRRTTVHMTNXczNZdTNYd0pBbHc1X0Q3VHUwcGpzTWNvZHdZa3NoMU12SVluRWRpbk16eGtGbGQ0aXdPYw?oc=5"
-    ],
-    "evidence_time": "2026-08-10",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T03:17:46.449831+00:00",
-    "effective_time": "2026-08-10",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "commercial_agreement",
-    "maturity": "M2",
-    "finance_domains": [
-      "financial_brand"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 3,
-    "summary": "NVIDIA Newsroom于2026-08-10公开“NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital”。标题或摘要包含金融场景（financial_brand）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [
-      "Nvidia Launches $500 Billion AI Financing Platform; Morgan Stanley Sees New Revenue Stream with \"Near-100% Gross Margin\"",
-      "Exclusive | Bank of America to Deploy $250 Billion to Bolster AI and Energy Infrastructure"
-    ],
-    "signals": {
-      "finance:financial_brand": [
-        "goldman sachs"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:commercial_agreement": [
-        "partners with"
-      ]
-    }
-  },
-  {
     "id": "finai-d354f45cf7a8",
     "title": "Arcadia Finance",
     "normalized_title": "arcadia finance",
@@ -2550,7 +2435,7 @@
     "event_time": null,
     "listing_time": "2026-08-10",
     "first_public_time": "2026-08-10",
-    "discovered_at": "2026-08-19T03:17:40.272872+00:00",
+    "discovered_at": "2026-08-19T03:50:47.835935+00:00",
     "effective_time": "2026-08-10",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -2583,6 +2468,108 @@
     }
   },
   {
+    "id": "finai-a0cf399503ec",
+    "title": "MoneySimpler Launches AI Automated Trading App; Indian Users See Profitability Soar",
+    "normalized_title": "moneysimpler launches ai automated trading app indian users see profitability soar",
+    "publisher": "The Manila Times",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPMS15dHRxaUFWUWVVSERsbDFtNGpaSTBqZkNBUnhJYUg3M21WNVdyMmxMdlhfYUQ1NG9WTFBVNHoyRmxnTUhSaXRGYUtpMWU5Q0s2bkZibGd2c2I5NmVyZmNaVDdWeHV3MzlkdUZlZzJxcEpZU0wxMkUxZnFlTkRqOWwydG9NSW5rVkdCZkd1bjdzcVZVNVlFaC1aQ3Z3WlF5UXB2cmFEVWFNOXRhaTJtbTNEdXdCRi1VclJxdGY2X0U5MVlBblhabmZ6OFI1TzRlSjBDTm1aWWNJMEd3Z3RLSkJuWTZRbmRFOEF3StIB8gFBVV95cUxOUHBtTHM4WnRQYnk3bjhTZlpBTkttcXgtbmlJeDlkbkN3WVdGNHNqd2FQTHdvRFlnVVBpcXFJUXBvRENGcmxWeHM1NmFOWFR1RWFkeUdScjFkeGo2SlhadlVzOUFmM1Q5dW5OQ09hcHN6c0g4c1Qza2NwaVY2ai1sQ0NpX0F6Vm94S1dtTms2U0o2bmJIN3RpT1hSbmpQLURINEhzUWpyZVdZb2hmbDRvc01aNmxMZWtBSGVPRzIyQnpERVpuWFozM0Iwck1Jd2hvN3B6TEo4eG91YjNzN2JwQ0RBSDZabGk1ZHNfU0Vkb211QQ?oc=5"
+    ],
+    "evidence_time": "2026-08-10",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-10",
+    "discovered_at": "2026-08-19T03:50:49.648281+00:00",
+    "effective_time": "2026-08-10",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "The Manila Times于2026-08-10公开“MoneySimpler Launches AI Automated Trading App; Indian Users See Profitability Soar”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "launch",
+        "launches"
+      ]
+    }
+  },
+  {
+    "id": "finai-8d57bdae71fe",
+    "title": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
+    "normalized_title": "nvidia partners with apollo blackrock blackstone brookfield goldman sachs and kkr to establish ai compute infrastructure financing platforms to mobilize over 500 billion of third party capital",
+    "publisher": "NVIDIA Newsroom",
+    "source_ids": [
+      "bing-news-en",
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiywJBVV95cUxNUGxLczhkY1phSHVqWkVkVWFNZUtzVjVXSmxlUzZBd1hjc1huVnpiMXZ1VWI1VE8zR09yR0ZQOURYM1F6Yl9mYlVtYmMyeDV1RHRSdVRvT0hfT0tzSklWb1plUHdpSXRjazVSVDIzMmFJekd2M1NXV2F2OW5UZ2dDS2F6LXBya2FpODJySFNVdjBFdFQyVkxCQ2F0ZVdCYkVxOEM5c3NZZ1VGTWhvS2V2V205dVVQRFJGRGx4N2xoRXBZQmpodzhxeHU3VGstV21KUEhfeGgwd1FYRVlXRGQ4WVJPUXpFM0dqS2lPaDZiV1VfOXdERVFGZVlHVHZaY3o0a0xTME9JMFJxaklvV1NNNEJabWdCNlhFT29sVE9UQ0FNX3o5ekY4YmtCLTlOTnZiZnUxSThVRVRwOHFhUldVSVIxU0FuWVpQSEpn?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaYjZtNVN4ckVLd0gzNWN5Qzg2eEVSREVFcl8wQkdFT1hlTjNDajcwSzRwZ1NhYnBGaUtCa21MS2JpVDlyZEUxVEhpWnk3enJLMHBnVEY2M1B0ZFFoY0I3TmtRRlYwWkZyUHNjeHNmaEZkNW9Xd0E?oc=5",
+      "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbjdOXzMyTjdlVzhLQ3lFeXdpR2hOb0I1c1Z0UHN6WXBPN2o0d1ZpLXBlMTg4WGNBUEMxeGNGZGlNbjR6aXdTSUNDMmdVZUlXZzJHSXR5YXluOTJJRTNYV0JGLXhHaENJbnVvSmowQUNnNS1GSGVGdXk1WERIaUxXNlhfUHRRTTVHMTNXczNZdTNYd0pBbHc1X0Q3VHUwcGpzTWNvZHdZa3NoMU12SVluRWRpbk16eGtGbGQ0aXdPYw?oc=5",
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852818736e407c90100bb2812049b5&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2fbrookfield-tsx-bn-deepens-reach-230850460.html&c=11679209013114554178&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-10",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-10",
+    "discovered_at": "2026-08-19T03:50:50.012250+00:00",
+    "effective_time": "2026-08-10",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "financial_brand"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 4,
+    "summary": "NVIDIA Newsroom于2026-08-10公开“NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital”。标题或摘要包含金融场景（financial_brand）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [
+      "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
+      "Nvidia Launches $500 Billion AI Financing Platform; Morgan Stanley Sees New Revenue Stream with \"Near-100% Gross Margin\"",
+      "Exclusive | Bank of America to Deploy $250 Billion to Bolster AI and Energy Infrastructure",
+      "Brookfield (TSX:BN) Deepens Its Reach In Insurance And AI Infrastructure"
+    ],
+    "signals": {
+      "finance:financial_brand": [
+        "goldman sachs"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "partners with"
+      ]
+    }
+  },
+  {
     "id": "finai-bf861b3aeb31",
     "title": "com.ai-rook.agents/trading-mcp",
     "normalized_title": "com ai rook agents trading mcp",
@@ -2598,7 +2585,7 @@
     "event_time": null,
     "listing_time": "2026-08-09",
     "first_public_time": "2026-08-09",
-    "discovered_at": "2026-08-19T03:17:50.715470+00:00",
+    "discovered_at": "2026-08-19T03:50:49.876034+00:00",
     "effective_time": "2026-08-09",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -2650,7 +2637,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T03:17:38.518193+00:00",
+    "discovered_at": "2026-08-19T03:50:47.491338+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2705,7 +2692,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T03:17:43.731681+00:00",
+    "discovered_at": "2026-08-19T03:50:49.168439+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2756,7 +2743,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T03:17:38.278943+00:00",
+    "discovered_at": "2026-08-19T03:50:47.511488+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2796,13 +2783,13 @@
       "bing-news-en"
     ],
     "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852055cebd45d8ba1a35b322280571&url=https%3a%2f%2fwww.wealthmanagement.com%2fadvisor-support-platforms%2fastraeus-launches-ai-platform-for-advisory-firms&c=3498197380060771950&mkt=en-us"
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852817bb084197bacbbdc42dd5ea87&url=https%3a%2f%2fwww.wealthmanagement.com%2fadvisor-support-platforms%2fastraeus-launches-ai-platform-for-advisory-firms&c=3498197380060771950&mkt=en-us"
     ],
     "evidence_time": "2026-08-07",
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T03:17:41.726198+00:00",
+    "discovered_at": "2026-08-19T03:50:47.955331+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2850,7 +2837,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T03:17:42.390070+00:00",
+    "discovered_at": "2026-08-19T03:50:48.689532+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2899,7 +2886,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T03:17:47.624076+00:00",
+    "discovered_at": "2026-08-19T03:50:50.401625+00:00",
     "effective_time": "2026-08-07",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2932,6 +2919,55 @@
     }
   },
   {
+    "id": "finai-82264c849ab1",
+    "title": "From Pilots to Production: Making AI Real in Financial Services",
+    "normalized_title": "from pilots to production making ai real in financial services",
+    "publisher": "Infosys",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EX1lURUVvMTdEeFIzUS14MDJWVk9vYUVjSXVPOGpBYmJqbU45RG13Tk80MW5rY19jUmJiS3lJY1g5N3N1SE42aFhmRW1ySXFtanFoR3NnUGpHY3lpNGVzNkR1a281ZGc4?oc=5"
+    ],
+    "evidence_time": "2026-08-06",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-06",
+    "discovered_at": "2026-08-19T03:50:50.906308+00:00",
+    "effective_time": "2026-08-06",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "customer_deployment",
+    "maturity": "M3",
+    "finance_domains": [
+      "fintech"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 82,
+    "evidence_strength": 1,
+    "summary": "Infosys于2026-08-06公开“From Pilots to Production: Making AI Real in Financial Services”。标题或摘要包含金融场景（fintech）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:fintech": [
+        "financial services"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "production"
+      ],
+      "event:pilot": [
+        "pilot"
+      ]
+    }
+  },
+  {
     "id": "finai-df8fe4a2efe8",
     "title": "Cloudflare launches identity and payments platform for AI agents - CHOSUNBIZ",
     "normalized_title": "cloudflare launches identity and payments platform for ai agents chosunbiz",
@@ -2946,7 +2982,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-06",
-    "discovered_at": "2026-08-19T03:17:43.731526+00:00",
+    "discovered_at": "2026-08-19T03:50:49.168319+00:00",
     "effective_time": "2026-08-06",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -2984,66 +3020,6 @@
     }
   },
   {
-    "id": "finai-3cc63c21eb25",
-    "title": "UAE's Islamic Bank Ruya Goes Live With Agentic AI In Production, Partners With Magure To Build An AI-Native Bank",
-    "normalized_title": "uae s islamic bank ruya goes live with agentic ai in production partners with magure to build an ai native bank",
-    "publisher": "MENAFN",
-    "source_ids": [
-      "bing-news-en",
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8520572cc049d99dcca5b03d35957d&url=https%3a%2f%2fmenafn.com%2f1111503529%2fUAEs-Islamic-Bank-Ruya-Goes-Live-With-Agentic-AI-In-Production-Partners-With-Magure-To-Build-An-AI-Native-Bank&c=17584389581344060066&mkt=en-us",
-      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUpIWGR2WmJNa1FTQWNxdFVKR1dpQkxmU3JyZnZJM0dNbU04blRUai1EZTFxVDZRUG1jcHhZTjVQTlQ5RmFUS1prQ3VGVW5HRzgxbk9KT09ZVnh1M3V0ajZ1MFk2N3I5a010TzJhMFUzWFpuc2FsNngxdC1EUlRJTGI2bzRqMkxTUWJ4NG9INE9WelV4VUQxZllzTWxjTVBubjBvWTVXNEZkM0lESGdCQjVSWWoxMHE3d0ZV?oc=5",
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8520572cc049d99dcca5b03d35957d&url=https%3a%2f%2ftimes.co.sz%2f40957%2fbusiness%2fsbs-bank-goes-live-with-emach-ai-treasury-platform%2f&c=2904791098923483266&mkt=en-us"
-    ],
-    "evidence_time": "2026-08-05",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-08-06",
-    "discovered_at": "2026-08-19T03:17:43.831334+00:00",
-    "effective_time": "2026-08-05",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "commercial_agreement",
-    "maturity": "M4",
-    "finance_domains": [
-      "banking"
-    ],
-    "ai_types": [
-      "agent",
-      "machine_learning"
-    ],
-    "relevance_score": 100,
-    "evidence_strength": 3,
-    "summary": "MENAFN于2026-08-06公开“UAE's Islamic Bank Ruya Goes Live With Agentic AI In Production, Partners With Magure To Build An AI-Native Bank”。标题或摘要包含金融场景（banking）、AI能力（agent、machine_learning）和commercial_agreement信号，自动暂判为M4；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [
-      "Ruya partners with Magure to deploy agentic AI across its UAE banks",
-      "SBS Bank goes live with eMACH.ai Treasury platform"
-    ],
-    "signals": {
-      "finance:banking": [
-        "bank"
-      ],
-      "ai:agent": [
-        "agentic"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:customer_deployment": [
-        "goes live",
-        "production"
-      ],
-      "event:commercial_agreement": [
-        "partners with"
-      ]
-    }
-  },
-  {
     "id": "finai-2cd4d6f060b5",
     "title": "Westpac deploys swarm of AI agents to assess loan applications",
     "normalized_title": "westpac deploys swarm of ai agents to assess loan applications",
@@ -3058,7 +3034,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-05",
-    "discovered_at": "2026-08-19T03:17:38.518108+00:00",
+    "discovered_at": "2026-08-19T03:50:47.491281+00:00",
     "effective_time": "2026-08-05",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3102,13 +3078,13 @@
       "bing-news-en"
     ],
     "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852056297e48cf9efc97222b8c74e8&url=https%3a%2f%2fwww.dig-in.com%2fnews%2fas-ai-threats-spread-insurers-use-the-same-tech-to-fight-back&c=16620613956523565127&mkt=en-us"
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852818736e407c90100bb2812049b5&url=https%3a%2f%2fwww.dig-in.com%2fnews%2fas-ai-threats-spread-insurers-use-the-same-tech-to-fight-back&c=16620613956523565127&mkt=en-us"
     ],
     "evidence_time": "2026-08-05",
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-05",
-    "discovered_at": "2026-08-19T03:17:42.355529+00:00",
+    "discovered_at": "2026-08-19T03:50:48.231689+00:00",
     "effective_time": "2026-08-05",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3144,10 +3120,56 @@
     }
   },
   {
+    "id": "finai-b21c49e8ddd0",
+    "title": "Vic.ai Partners with Increase to Power VicPay™",
+    "normalized_title": "vic ai partners with increase to power vicpaytm",
+    "publisher": "Markets Insider",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8528180c2b4b57adffc54dca5d7418&url=https%3a%2f%2fmarkets.businessinsider.com%2fnews%2fstocks%2fvic-ai-partners-with-increase-to-power-vicpay-1036418888&c=5511898858863445326&mkt=en-us"
+    ],
+    "evidence_time": "2026-08-05",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-05",
+    "discovered_at": "2026-08-19T03:50:48.520964+00:00",
+    "effective_time": "2026-08-05",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "fintech"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "Markets Insider于2026-08-05公开“Vic.ai Partners with Increase to Power VicPay™”。标题或摘要包含金融场景（fintech）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:fintech": [
+        "fintech"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "partners with"
+      ]
+    }
+  },
+  {
     "id": "finai-fcb5f5f2cbee",
     "title": "Big Bank Builds on Innovation Award with Launch of Multiple New AI Tools",
     "normalized_title": "big bank builds on innovation award with launch of multiple new ai tools",
-    "publisher": "Fintech.ca |",
+    "publisher": "fintech.ca",
     "source_ids": [
       "google-news-en"
     ],
@@ -3158,7 +3180,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-05",
-    "discovered_at": "2026-08-19T03:17:38.518308+00:00",
+    "discovered_at": "2026-08-19T03:50:47.491442+00:00",
     "effective_time": "2026-08-05",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3174,7 +3196,7 @@
     ],
     "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "Fintech.ca |于2026-08-05公开“Big Bank Builds on Innovation Award with Launch of Multiple New AI Tools”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "fintech.ca于2026-08-05公开“Big Bank Builds on Innovation Award with Launch of Multiple New AI Tools”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [
       "Big Bank Builds on Innovation Award with Launch of Multiple New AI Tools"
@@ -3206,7 +3228,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-05",
-    "discovered_at": "2026-08-19T03:17:41.141302+00:00",
+    "discovered_at": "2026-08-19T03:50:48.235843+00:00",
     "effective_time": "2026-08-05",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3254,7 +3276,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T03:17:50.490350+00:00",
+    "discovered_at": "2026-08-19T03:50:51.293832+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3314,7 +3336,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-07",
-    "discovered_at": "2026-08-19T03:17:42.694783+00:00",
+    "discovered_at": "2026-08-19T03:50:48.745541+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3371,7 +3393,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T03:17:45.077779+00:00",
+    "discovered_at": "2026-08-19T03:50:49.647149+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3424,7 +3446,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T03:17:39.434136+00:00",
+    "discovered_at": "2026-08-19T03:50:47.811174+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3460,7 +3482,7 @@
     "id": "finai-d33ae34c23d6",
     "title": "World Bank: AI adoption among Nigerian firms jumps to 40%, matching US levels",
     "normalized_title": "world bank ai adoption among nigerian firms jumps to 40 matching us levels",
-    "publisher": "Nairametrics",
+    "publisher": "nairametrics.com",
     "source_ids": [
       "google-news-en"
     ],
@@ -3471,7 +3493,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T03:17:39.774636+00:00",
+    "discovered_at": "2026-08-19T03:50:47.857719+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3487,7 +3509,7 @@
     ],
     "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "Nairametrics于2026-08-04公开“World Bank: AI adoption among Nigerian firms jumps to 40%, matching US levels”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "nairametrics.com于2026-08-04公开“World Bank: AI adoption among Nigerian firms jumps to 40%, matching US levels”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
@@ -3517,7 +3539,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-04",
-    "discovered_at": "2026-08-19T03:17:45.078014+00:00",
+    "discovered_at": "2026-08-19T03:50:49.647277+00:00",
     "effective_time": "2026-08-04",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3549,6 +3571,60 @@
     }
   },
   {
+    "id": "finai-d8dd87b0dddf",
+    "title": "Zachary Perret: Plaid partners with Sierra to enable AI agents in financial services",
+    "normalized_title": "zachary perret plaid partners with sierra to enable ai agents in financial services",
+    "publisher": "Traders Union",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM04zQWY4SHVqSWgxdC1wSXM0SzJOTjJRR09XbEVTZmpSQ1ZoMXJHeVdNODgwQ2xubVdFNzBicmVjcTVKWEd5RWJId0hfWE9ldFl1LV9yb1lUaGFsTDg3a3pnanV1RkxsRDN5TS1jRm9INGluLVN5TTZoNE11ZWdkX0pRcV81ckdoajdBZUN3?oc=5"
+    ],
+    "evidence_time": "2026-08-03",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-03",
+    "discovered_at": "2026-08-19T03:50:50.907206+00:00",
+    "effective_time": "2026-08-03",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "financial_brand",
+      "fintech"
+    ],
+    "ai_types": [
+      "agent",
+      "machine_learning"
+    ],
+    "relevance_score": 98,
+    "evidence_strength": 1,
+    "summary": "Traders Union于2026-08-03公开“Zachary Perret: Plaid partners with Sierra to enable AI agents in financial services”。标题或摘要包含金融场景（financial_brand、fintech）、AI能力（agent、machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:fintech": [
+        "financial services"
+      ],
+      "finance:financial_brand": [
+        "plaid"
+      ],
+      "ai:agent": [
+        "ai agent"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "partners with"
+      ]
+    }
+  },
+  {
     "id": "finai-a7c810ecf24b",
     "title": "Guidewire Introduces Qusar Release to Help Insurers Build and Control AI Agents",
     "normalized_title": "guidewire introduces qusar release to help insurers build and control ai agents",
@@ -3564,7 +3640,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-08-03",
-    "discovered_at": "2026-08-19T03:17:42.388420+00:00",
+    "discovered_at": "2026-08-19T03:50:48.688822+00:00",
     "effective_time": "2026-08-03",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3615,12 +3691,12 @@
     "evidence_urls": [
       "https://news.google.com/rss/articles/CBMidEFVX3lxTE9OUWltQUlJNnFxTmZPVlNWME9WaDEzeGZGYjhGZi1pVmdwWmJNZmpSMmNpU1ktdUc4ME9BU3hDa3d3bU1CeGx6UDNtaG8zT3ZnTGVHS3Q3aS1kcnk4QXIxRmFSVDJ4QUpfMEZYS2xpZWUwSmQz?oc=5"
     ],
-    "evidence_time": "2026-08-02",
+    "evidence_time": "2026-08-03",
     "event_time": null,
     "listing_time": null,
-    "first_public_time": "2026-08-02",
-    "discovered_at": "2026-08-19T03:17:40.534092+00:00",
-    "effective_time": "2026-08-02",
+    "first_public_time": "2026-08-03",
+    "discovered_at": "2026-08-19T03:50:48.186092+00:00",
+    "effective_time": "2026-08-03",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
     "effective_time_precision": "day",
@@ -3636,7 +3712,7 @@
     ],
     "relevance_score": 78,
     "evidence_strength": 1,
-    "summary": "BigGo ファイナンス于2026-08-02公开“Shinhan Bank、不動産鑑定評価書の点検にAIエージェント導入…処理時間70%短縮”。标题或摘要包含金融场景（banking、financial_brand）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "BigGo ファイナンス于2026-08-03公开“Shinhan Bank、不動産鑑定評価書の点検にAIエージェント導入…処理時間70%短縮”。标题或摘要包含金融场景（banking、financial_brand）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
@@ -3655,6 +3731,121 @@
     }
   },
   {
+    "id": "finai-5552eac571a1",
+    "title": "Revolut Highlights AI Partnership and Scaling Focus With QuantumLight",
+    "normalized_title": "revolut highlights ai partnership and scaling focus with quantumlight",
+    "publisher": "TipRanks",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMTgydEF6MWYyUks0M1NEaWFoN0xiMVUzTzNoa3lQUU15RHJ5d24tYnlHVjN4OTFJYUlsSERqcDBjbG9XMGVFTXVsWEhKU0hlVEowcjYtR3JzakpuakpjNGNKODVTQWFyNXluLVVrbXBVWXFwY0tvSmUxV3Y0MHdCSEFrVm1GcXNHYmJicXRnU2RFYlBfbEFNRUNISTJKbXRnNkxNcEhkdEc2SlQ1NDZLenNXTnlNLTFU?oc=5"
+    ],
+    "evidence_time": "2026-08-03",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-03",
+    "discovered_at": "2026-08-19T03:50:50.907241+00:00",
+    "effective_time": "2026-08-03",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "financial_brand"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "TipRanks于2026-08-03公开“Revolut Highlights AI Partnership and Scaling Focus With QuantumLight”。标题或摘要包含金融场景（financial_brand）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:financial_brand": [
+        "revolut"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "partnership"
+      ]
+    }
+  },
+  {
+    "id": "finai-f7fd8e566801",
+    "title": "Ruya partners with Magure to deploy agentic AI across its UAE banks",
+    "normalized_title": "ruya partners with magure to deploy agentic ai across its uae banks",
+    "publisher": "The American Bazaar",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLUpIWGR2WmJNa1FTQWNxdFVKR1dpQkxmU3JyZnZJM0dNbU04blRUai1EZTFxVDZRUG1jcHhZTjVQTlQ5RmFUS1prQ3VGVW5HRzgxbk9KT09ZVnh1M3V0ajZ1MFk2N3I5a010TzJhMFUzWFpuc2FsNngxdC1EUlRJTGI2bzRqMkxTUWJ4NG9INE9WelV4VUQxZllzTWxjTVBubjBvWTVXNEZkM0lESGdCQjVSWWoxMHE3d0ZV?oc=5",
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DUTU4dzJuXy05eFk0bC1TUER5YTBwbkpzdURmMWFfemYwLURrelEtWFN2LXZqbVF1SWNGZVRFM2t4S2huSXFXcU54QUtmMkQ3S2ZHRzdvQ2VPU29OSzJMWTRITFVhRGpDSGhPWUladEdZZlV4d2c?oc=5",
+      "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aT2Z6aGpwR0V5R2NmYndWTTZZRFRFR21fdk5DWlQyTXBxa3VsR3ZjR3ZRb09GdWQ1dk5XbTBNVnVrRnVlXzZIV241bjJvMHd0Q2R4cVlMM3IzS1g1NF90VXZkcjJrR2dJTWM4b2RFTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMjR0STdHQk1OQkU2R3E1elhkWXV4Y3V1MU0zaXJpZ2FvSjVlcTloclp3RGtMWXpneEVaTVRCTW8wbGd2V0xOZ3NTc05CdklOUkRYbUpqVEFPdEoyNExLb1BZbzhfRXBhMGVtWjJNb0c5VjNxWXFxVDNTN00zYkQwWWxzQS1WNzBDbmJJTHktVdIBjwFBVV95cUxOMjR0STdHQk1OQkU2R3E1elhkWXV4Y3V1MU0zaXJpZ2FvSjVlcTloclp3RGtMWXpneEVaTVRCTW8wbGd2V0xOZ3NTc05CdklOUkRYbUpqVEFPdEoyNExLb1BZbzhfRXBhMGVtWjJNb0c5VjNxWXFxVDNTN00zYkQwWWxzQS1WNzBDbmJJTHktVQ?oc=5",
+      "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY2F0Z2o5WkRtel9WQ1QxRUFteWc3TW4zTzhULXhmZ1NYSmdsd3NHVl83c0h3dFQ2aS1NWEpCWHhpUEFBVHlMNE5KaVZzenFWZWxRZ0lKMDRZUjctbW9MaFJ1QUVMbWdzYTlDUzlSckYyUi1Bc2RKSDAwdFNKTEhIVnMwWHJ6Q1d1U1pMeUhOMG9HdWE2UEgtSHlUMjJyTEk?oc=5",
+      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTHBqc2h6dkZHZXNQbURmX2xuU082TFhkN0tFNzVkZ1BKZ3dxdXhPVHM5UzctZjJxSlBNc1p3OGpUODk1QWhndF9oZXp3TlNDaUtfVzU0bUpXd2pSQWMyS0NTRzhfUmJWV1ZrbV83MTZ6cXl5VnNQUHBNM2IxOU1qRHZ6SFVtaFZLR0k0U2VtTHQ1VHFhTEJWQkVjM3dHekIwUUVJZ1hXN1Y3TGVKbHJQR2NhN296WWZybExfXw?oc=5",
+      "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnpzZXZvdXZIa3FmbjJsQ3B0ZGxONFdHaVFRbmpXY2pkNXFBOFl1MGtnbkwwUWtGYjYwRU85SWhPcFRfWTZiNFNMTklMUGhVN0RSd0hYazkyUDdMd1RtWkllTHkteDd5RmJ5b25fQWNWdlpNOTZfNjJ2LWtRRGRCOFptX2hLQlctbG9mLW0wY0Z2cEdrclFjVVlpdjJudmFpWktVVDdzeDExa05xelFpb2JyblEyRTQ0WVE?oc=5"
+    ],
+    "evidence_time": "2026-07-31",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-10",
+    "discovered_at": "2026-08-19T03:50:51.293898+00:00",
+    "effective_time": "2026-07-31",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M4",
+    "finance_domains": [
+      "banking"
+    ],
+    "ai_types": [
+      "agent",
+      "machine_learning"
+    ],
+    "relevance_score": 100,
+    "evidence_strength": 5,
+    "summary": "The American Bazaar于2026-08-10公开“Ruya partners with Magure to deploy agentic AI across its UAE banks”。标题或摘要包含金融场景（banking）、AI能力（agent、machine_learning）和commercial_agreement信号，自动暂判为M4；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [
+      "Toss Partners with Savings Bank to Deploy AI Alternative Credit Scoring, Lowering Loan Barriers for 'Thin Filers'",
+      "Interbank partners with Anthropic to deploy Claude AI across banking operations in Peru",
+      "Interbank partners with Anthropic to deploy Claude AI across banking operations in Peru",
+      "Suryoday Bank, Kyndryl Deploy Agentic AI Across Banking Operations",
+      "Suryoday Bank, Kyndryl Deploy Agentic AI Across Banking Operations",
+      "Wall Street banks expand AI deployment across trading, engineering and client operations",
+      "Wall Street banks expand AI deployment across trading, engineering and client operations",
+      "Singapore Private Banks Deploy AI to Accelerate Client Vetting and Onboarding - Strong Earnings Momentum",
+      "Singapore Private Banks Deploy AI for Client Vetting and Faster Onboarding - One-Time Loss Impact"
+    ],
+    "signals": {
+      "finance:banking": [
+        "bank"
+      ],
+      "ai:agent": [
+        "agentic"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "deploy"
+      ],
+      "event:commercial_agreement": [
+        "partners with"
+      ]
+    }
+  },
+  {
     "id": "finai-c57fa19d8600",
     "title": "AI trained to say “I don’t know” outperformed GPT-4.1 in live banking deployment",
     "normalized_title": "ai trained to say i don t know outperformed gpt 4 1 in live banking deployment",
@@ -3669,7 +3860,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-31",
-    "discovered_at": "2026-08-19T03:17:39.773079+00:00",
+    "discovered_at": "2026-08-19T03:50:47.855883+00:00",
     "effective_time": "2026-07-31",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3718,7 +3909,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-31",
-    "discovered_at": "2026-08-19T03:17:41.139575+00:00",
+    "discovered_at": "2026-08-19T03:50:48.234629+00:00",
     "effective_time": "2026-07-31",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3751,52 +3942,6 @@
     }
   },
   {
-    "id": "finai-9e5227616e7a",
-    "title": "Singapore Private Banks Deploy AI to Accelerate Client Vetting and Onboarding - Strong Earnings Momentum",
-    "normalized_title": "singapore private banks deploy ai to accelerate client vetting and onboarding strong earnings momentum",
-    "publisher": "dars.gov.et",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTHBqc2h6dkZHZXNQbURmX2xuU082TFhkN0tFNzVkZ1BKZ3dxdXhPVHM5UzctZjJxSlBNc1p3OGpUODk1QWhndF9oZXp3TlNDaUtfVzU0bUpXd2pSQWMyS0NTRzhfUmJWV1ZrbV83MTZ6cXl5VnNQUHBNM2IxOU1qRHZ6SFVtaFZLR0k0U2VtTHQ1VHFhTEJWQkVjM3dHekIwUUVJZ1hXN1Y3TGVKbHJQR2NhN296WWZybExfXw?oc=5"
-    ],
-    "evidence_time": "2026-07-31",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-07-31",
-    "discovered_at": "2026-08-19T03:17:50.492221+00:00",
-    "effective_time": "2026-07-31",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "customer_deployment",
-    "maturity": "M3",
-    "finance_domains": [
-      "banking"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "dars.gov.et于2026-07-31公开“Singapore Private Banks Deploy AI to Accelerate Client Vetting and Onboarding - Strong Earnings Momentum”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:banking": [
-        "bank"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:customer_deployment": [
-        "deploy"
-      ]
-    }
-  },
-  {
     "id": "finai-29f42a0a1d41",
     "title": "ai.payments.managed/payments-ai-mcp",
     "normalized_title": "ai payments managed payments ai mcp",
@@ -3811,7 +3956,7 @@
     "event_time": null,
     "listing_time": "2026-07-30",
     "first_public_time": "2026-07-30",
-    "discovered_at": "2026-08-19T03:17:47.430609+00:00",
+    "discovered_at": "2026-08-19T03:50:48.947623+00:00",
     "effective_time": "2026-07-30",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -3868,7 +4013,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-30",
-    "discovered_at": "2026-08-19T03:17:45.079319+00:00",
+    "discovered_at": "2026-08-19T03:50:49.648009+00:00",
     "effective_time": "2026-07-30",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3911,6 +4056,54 @@
     }
   },
   {
+    "id": "finai-7e75aedeb730",
+    "title": "The AI-Enabled Bank: Reimagining Retail Banking from Branch to Mobile",
+    "normalized_title": "the ai enabled bank reimagining retail banking from branch to mobile",
+    "publisher": "American Banker",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8528184065400293c5bb28562d26cc&url=https%3a%2f%2fwww.americanbanker.com%2fleaders%2fthe-ai-enabled-bank-reimagining-retail-banking-from-branch-to-mobile&c=130420020331321660&mkt=en-us"
+    ],
+    "evidence_time": "2026-07-30",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-30",
+    "discovered_at": "2026-08-19T03:50:48.802994+00:00",
+    "effective_time": "2026-07-30",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "banking"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "American Banker于2026-07-30公开“The AI-Enabled Bank: Reimagining Retail Banking from Branch to Mobile”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:banking": [
+        "bank",
+        "banking"
+      ],
+      "ai:machine_learning": [
+        "ai",
+        "artificial intelligence"
+      ],
+      "event:commercial_agreement": [
+        "customer"
+      ]
+    }
+  },
+  {
     "id": "finai-982a68dbc8fc",
     "title": "Why AI Pilots Fail and How Banks Can Fix It",
     "normalized_title": "why ai pilots fail and how banks can fix it",
@@ -3925,7 +4118,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-30",
-    "discovered_at": "2026-08-19T03:17:41.140139+00:00",
+    "discovered_at": "2026-08-19T03:50:48.235017+00:00",
     "effective_time": "2026-07-30",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -3959,6 +4152,99 @@
     }
   },
   {
+    "id": "finai-129d9097913a",
+    "title": "Private credit AI platform Ellis launches with $10m seed funding",
+    "normalized_title": "private credit ai platform ellis launches with 10m seed funding",
+    "publisher": "Alternative Credit Investor",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeGVodXlfRFppLWl3b2htV1JKRmNScUpuZ0FtdWdIVzVXNG12TWdWdUZyakg1UnZPbkpGWXN2OUxpMGxzNDRrMTh1Y1M5OFZ4OS1yaUYwRGtXcHctMjJjZUF2UWRmbXVPaE8xV2hZcWdLNGRuNzE0UUhJaDJicEdpbFZXNHhUVEpIa2Q3d2EtYnNVeFRRUmJBdUgwVW1Ha3p0SUpweHVweUVmeVpXeWp5Rm5jWQ?oc=5"
+    ],
+    "evidence_time": "2026-07-30",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-30",
+    "discovered_at": "2026-08-19T03:50:50.012572+00:00",
+    "effective_time": "2026-07-30",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "lending_and_credit"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "Alternative Credit Investor于2026-07-30公开“Private credit AI platform Ellis launches with $10m seed funding”。标题或摘要包含金融场景（lending_and_credit）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:lending_and_credit": [
+        "credit"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "launch",
+        "launches"
+      ]
+    }
+  },
+  {
+    "id": "finai-588b65345d8e",
+    "title": "How CaixaBank drives partner and customer relationships through AI",
+    "normalized_title": "how caixabank drives partner and customer relationships through ai",
+    "publisher": "cio.com",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPVWxrNFNISkhucml1eU4taE1GODNyRnd3LWhCR0hoN2k1Q0pTNmdrWWV4TW9tVEhpLTh4VHo0cmZ5S3lQNHN2Y3VDb0N6TWdQdWpNSzRTdi1zcjBHSlJkYUFtNm5Vc280T1lIejJxMFhTNUdNMVJsY3lzZURIU2VCUk5ySzRLSVdEQUMtNWFTRzFrVzcyYkp6YnZGUWtmNGQ4LUxhUUhhcG1aWUpZcElQYzdYZ3lBUEMydjNqQTF6WDM0RldNbEhQVDRxdXZOSEdCUWlsT3JFanNJUzV1Vmhr?oc=5"
+    ],
+    "evidence_time": "2026-07-30",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-30",
+    "discovered_at": "2026-08-19T03:50:50.905898+00:00",
+    "effective_time": "2026-07-30",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "banking"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "cio.com于2026-07-30公开“How CaixaBank drives partner and customer relationships through AI”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:banking": [
+        "bank"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "customer"
+      ]
+    }
+  },
+  {
     "id": "finai-f4a957cfd90b",
     "title": "Nubank’s Aman: Simulation Tests Let Bank Ship AI Agents 20× Faster and Double Customer Satisfaction",
     "normalized_title": "nubank s aman simulation tests let bank ship ai agents 20 faster and double customer satisfaction",
@@ -3973,7 +4259,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T03:17:38.518081+00:00",
+    "discovered_at": "2026-08-19T03:50:47.491260+00:00",
     "effective_time": "2026-07-29",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4009,52 +4295,6 @@
     }
   },
   {
-    "id": "finai-0e8fa7bd5e51",
-    "title": "$ETH 🔥星球晚间快讯｜AI支付革命来袭！MoonPay推出PayBox，AI...",
-    "normalized_title": "eth 星球晚间快讯 ai支付革命来袭 moonpay推出paybox ai",
-    "publisher": "okx.com",
-    "source_ids": [
-      "google-news-zh"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DU2k2SDZIcmxkNEVYdFBTRHoyZjhJdmdmMnZWUTNYeDV5RVRSMEF0YTRmNWJ4ZzdCUi1pR0tGeHFjaDdJSmtnS250Y1BMajdWTFQ5aVhjdGd3MVVEbUh2UXczNUQ?oc=5"
-    ],
-    "evidence_time": "2026-07-29",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T03:17:42.696009+00:00",
-    "effective_time": "2026-07-29",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "payments"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "okx.com于2026-07-29公开“$ETH 🔥星球晚间快讯｜AI支付革命来袭！MoonPay推出PayBox，AI...”。标题或摘要包含金融场景（payments）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:payments": [
-        "支付"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "推出"
-      ]
-    }
-  },
-  {
     "id": "finai-3d0e1c40f991",
     "title": "I&M Bank, Pindo Launch Rwanda’s First Kinyarwanda Voice AI Banking Agent",
     "normalized_title": "i m bank pindo launch rwanda s first kinyarwanda voice ai banking agent",
@@ -4069,7 +4309,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T03:17:38.518460+00:00",
+    "discovered_at": "2026-08-19T03:50:47.491530+00:00",
     "effective_time": "2026-07-29",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4116,7 +4356,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T03:17:41.141211+00:00",
+    "discovered_at": "2026-08-19T03:50:48.235777+00:00",
     "effective_time": "2026-07-29",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4162,7 +4402,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-29",
-    "discovered_at": "2026-08-19T03:17:43.731001+00:00",
+    "discovered_at": "2026-08-19T03:50:49.167949+00:00",
     "effective_time": "2026-07-29",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4209,7 +4449,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:38.516965+00:00",
+    "discovered_at": "2026-08-19T03:50:47.490546+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4260,7 +4500,8 @@
     ],
     "evidence_urls": [
       "https://news.google.com/rss/articles/CBMiswFBVV95cUxNM1VGQ21wa0RuTUtrY0I1dTN5RWxDQklJdTJyVVJwRWhQWmtNdV9sZWtIVHRiejNYN3VaUmUyN3BkWS1aZWw0MjVWdHY3LXNPeExhQm5xVm1waXk4QnlkdzJwNWFlZGdVYk5ULTNWUHZrNlp2NVhjLXZndTg1X2psS2RNM01UM2JrTllJcmxoZ0RLRXh2T0ZUUTZMV2tsOGZSczJRZG56ZTRXVVNoRzJIQWpycw?oc=5",
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852055cebd45d8ba1a35b322280571&url=https%3a%2f%2fwww.investmentnews.com%2ffintech%2findustry-veterans-launch-ai-data-firm-targeting-wealth-managements-infrastructure-problem%2f267730&c=16984136933234537448&mkt=en-us",
+      "https://news.google.com/rss/articles/CBMigwJBVV95cUxOaENhaGRPTVgzb280Q0lvd05sZ1VqcFFhb1JORG82aUQyelJKcW5DUHNUd1RFVzlzQzl0NEItcUEyb0JZUXoxdjgxZnVpZlFiWGlrWW0tYXpRTnB0MHJwT3BDdVJRdDFMdzJxTW4xMDJWZ19naFRnSlpNYmg4eGlUbUw4VHhGVmk5OUM2WHdSNTRBSFlKWmt4dWpFek5ZV1oyOVM2bGVaQnFMU29kdXRXakF0UGNfaGhKQVRpQmJYT2FjT2x1SXZQZXoyWVZ1cjVpMmJ1c1B0bDd1cUZsWWJSSTZsQVZQYVdBaC0xZjMyRjV3MWpiaXBLVHo1alE4QzFoWUVn?oc=5",
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852817bb084197bacbbdc42dd5ea87&url=https%3a%2f%2fwww.investmentnews.com%2ffintech%2findustry-veterans-launch-ai-data-firm-targeting-wealth-managements-infrastructure-problem%2f267730&c=16984136933234537448&mkt=en-us",
       "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMzd4Z3JPdlZKNUdYMWJtaWdwX1BYQV96dEo1emNscFBwWDVDOS1KWVhMTUFuSmR5aGlOWFROWF85dXBZUWphVVdRQlJ2UkoyQzZQajl6SDdCQ2FTVmFSZGQ4T3JZTGNGQy04QTIyMFFxLVRMeVdnSzlsZVJ5SkNJZm52Vkc5c3hJMVdKeWdnZnV5SW1JWTFRd2RoZzlPS3BjRVBtUWdRR0RLd016YlVGMzhjc2pvUVNsRmlzYVlMUl9NV0hmdjZ2QTFjWjZkTGozTTBVeUVWWGh3VnFK0gHiAUFVX3lxTFBNaXI2SGhySnJDcGM2Mmd0WTVKNUZmbkdMWjR3NEtVSjlEQVJlYUNGdWlyU08xRTJrZk9uNF9HSml4amhBZF9Tell6Ym5pQkE2dkJZbGdNWEpFelF0djZ6ZERYQm1IZ1VkVmhCaHE2QTJWVTRHd0pHZkxSSXh6X1BaUm83aFJ3T084YnVqTTVDUklyR2lpbmxGRVF3ekR5ZFB4SjRMREZ1akxUa2k0ZHRSQjMxTFYyeTBzbEYyV05wRWY3MzM1WU42aXNWR0V1c09GbnVyU1gybTV5NjFnSWdlZHc?oc=5",
       "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbXpuWUhwaFVXbGFrM2pmLWFRbWR6eWtoTXYyVllJbHM5aDdMbzdKcDZ1eEhGMkZEejZXUVZFWE1yWi1vVFVfVXFHWE5YdEZJdGttS0xuNWVKYnJRUXYtQWJQRW9qTDg1V0YwLW03bUJpSnY3X1o4eVJsMUxZWllUMHNPT3VBTUtXY3BIaFVxaFRYdm5vYm9rVEUwOVhVUUhTaUYxS0V3bXZZSk9iX1RyRVZyekh4UVYtV2t1OEZQa1ZkZ19WVkx2TzBzcEZzX1F0?oc=5"
     ],
@@ -4268,7 +4509,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:45.079290+00:00",
+    "discovered_at": "2026-08-19T03:50:49.647975+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4285,10 +4526,11 @@
       "machine_learning"
     ],
     "relevance_score": 96,
-    "evidence_strength": 4,
+    "evidence_strength": 5,
     "summary": "FF News于2026-07-28公开“OCBC Launches Avatar Banking: AI-Native 'Wendy and Wayne' to Revolutionize Wealth Management”。标题或摘要包含金融场景（banking、financial_brand、wealth_and_markets）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [
+      "AMCAP Launches 'Agentic AI' Platform, Betting Conversational Intelligence Will Reshape Wealth Management",
       "Industry veterans launch AI data firm targeting wealth management's infrastructure problem",
       "Astraeus Launches AI-Native Infrastructure for Wealth Management Firms",
       "Astraeus Launches AI-Native Infrastructure for Wealth Management Firms",
@@ -4315,6 +4557,58 @@
     }
   },
   {
+    "id": "finai-d424a43f2600",
+    "title": "Blocksize Agentic Market Intelligence",
+    "normalized_title": "blocksize agentic market intelligence",
+    "publisher": "info.blocksize.mcp",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://mcp.blocksize.info/"
+    ],
+    "evidence_time": "2026-07-28",
+    "event_time": null,
+    "listing_time": "2026-07-28",
+    "first_public_time": "2026-07-28",
+    "discovered_at": "2026-08-19T03:50:48.948060+00:00",
+    "effective_time": "2026-07-28",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "lending_and_credit"
+    ],
+    "ai_types": [
+      "agent",
+      "machine_learning"
+    ],
+    "relevance_score": 80,
+    "evidence_strength": 1,
+    "summary": "info.blocksize.mcp于2026-07-28公开“Blocksize Agentic Market Intelligence”。标题或摘要包含金融场景（lending_and_credit）、AI能力（agent、machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:lending_and_credit": [
+        "credit"
+      ],
+      "ai:agent": [
+        "agentic",
+        "ai agent",
+        "official MCP Registry listing"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-458472ce1c21",
     "title": "Shield Launches Industry-First Governed AI Agent to Automate Compliance Alert Closures",
     "normalized_title": "shield launches industry first governed ai agent to automate compliance alert closures",
@@ -4329,7 +4623,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:38.517320+00:00",
+    "discovered_at": "2026-08-19T03:50:47.490753+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4382,7 +4676,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:38.517434+00:00",
+    "discovered_at": "2026-08-19T03:50:47.490812+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4436,7 +4730,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:38.517695+00:00",
+    "discovered_at": "2026-08-19T03:50:47.490986+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4487,7 +4781,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:39.773338+00:00",
+    "discovered_at": "2026-08-19T03:50:47.856299+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4538,7 +4832,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:43.730741+00:00",
+    "discovered_at": "2026-08-19T03:50:49.167787+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4577,58 +4871,6 @@
     }
   },
   {
-    "id": "finai-d424a43f2600",
-    "title": "Blocksize Agentic Market Intelligence",
-    "normalized_title": "blocksize agentic market intelligence",
-    "publisher": "info.blocksize.mcp",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://mcp.blocksize.info/"
-    ],
-    "evidence_time": "2026-07-28",
-    "event_time": null,
-    "listing_time": "2026-07-28",
-    "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:47.431688+00:00",
-    "effective_time": "2026-07-28",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "lending_and_credit"
-    ],
-    "ai_types": [
-      "agent",
-      "machine_learning"
-    ],
-    "relevance_score": 80,
-    "evidence_strength": 1,
-    "summary": "info.blocksize.mcp于2026-07-28公开“Blocksize Agentic Market Intelligence”。标题或摘要包含金融场景（lending_and_credit）、AI能力（agent、machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:lending_and_credit": [
-        "credit"
-      ],
-      "ai:agent": [
-        "agentic",
-        "ai agent",
-        "official MCP Registry listing"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
-      ]
-    }
-  },
-  {
     "id": "finai-b87e64897bfe",
     "title": "Fenergo Launches AI Platform to Streamline Banking Compliance",
     "normalized_title": "fenergo launches ai platform to streamline banking compliance",
@@ -4644,7 +4886,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:38.517923+00:00",
+    "discovered_at": "2026-08-19T03:50:47.491133+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4700,7 +4942,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:41.139444+00:00",
+    "discovered_at": "2026-08-19T03:50:48.234512+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4753,7 +4995,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:45.079133+00:00",
+    "discovered_at": "2026-08-19T03:50:49.647882+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4806,7 +5048,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:40.533589+00:00",
+    "discovered_at": "2026-08-19T03:50:48.185781+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4838,6 +5080,98 @@
     }
   },
   {
+    "id": "finai-9b7e9994b039",
+    "title": "Financial Services Firms Race to Operationalize AI",
+    "normalized_title": "financial services firms race to operationalize ai",
+    "publisher": "BizTech",
+    "source_ids": [
+      "bing-news-en"
+    ],
+    "evidence_urls": [
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852817eecc4e78964d88dfcb4b5978&url=https%3a%2f%2fbiztechmagazine.com%2farticle%2f2026%2f07%2ffinancial-services-firms-race-operationalize-ai&c=10903773458247680862&mkt=en-us"
+    ],
+    "evidence_time": "2026-07-28",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-28",
+    "discovered_at": "2026-08-19T03:50:47.667545+00:00",
+    "effective_time": "2026-07-28",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "customer_deployment",
+    "maturity": "M3",
+    "finance_domains": [
+      "fintech"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "BizTech于2026-07-28公开“Financial Services Firms Race to Operationalize AI”。标题或摘要包含金融场景（fintech）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:fintech": [
+        "financial services"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:customer_deployment": [
+        "production"
+      ]
+    }
+  },
+  {
+    "id": "finai-543a220baf06",
+    "title": "Trading Strategy Data",
+    "normalized_title": "trading strategy data",
+    "publisher": "io.github.Vohlsyr",
+    "source_ids": [
+      "official-mcp-registry"
+    ],
+    "evidence_urls": [
+      "https://registry.modelcontextprotocol.io"
+    ],
+    "evidence_time": "2026-07-28",
+    "event_time": null,
+    "listing_time": "2026-07-28",
+    "first_public_time": "2026-07-28",
+    "discovered_at": "2026-08-19T03:50:49.876103+00:00",
+    "effective_time": "2026-07-28",
+    "effective_time_type": "marketplace_listing",
+    "effective_time_confidence": 0.85,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "agent"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "io.github.Vohlsyr于2026-07-28公开“Trading Strategy Data”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:agent": [
+        "official MCP Registry listing"
+      ],
+      "event:product_launch": [
+        "marketplace listing"
+      ]
+    }
+  },
+  {
     "id": "finai-c0254ebcbfe0",
     "title": "ArcOne AI Launches BankOS™ to Solve the $35 Billion Banking AI Infrastructure Gap",
     "normalized_title": "arcone ai launches bankostm to solve the 35 billion banking ai infrastructure gap",
@@ -4852,7 +5186,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:38.517407+00:00",
+    "discovered_at": "2026-08-19T03:50:47.490793+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4900,7 +5234,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:38.517752+00:00",
+    "discovered_at": "2026-08-19T03:50:47.491023+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4947,7 +5281,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:38.517896+00:00",
+    "discovered_at": "2026-08-19T03:50:47.491112+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -4993,7 +5327,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:41.139883+00:00",
+    "discovered_at": "2026-08-19T03:50:48.234856+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5041,7 +5375,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:41.140053+00:00",
+    "discovered_at": "2026-08-19T03:50:48.234971+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5090,7 +5424,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:42.387778+00:00",
+    "discovered_at": "2026-08-19T03:50:48.688733+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5128,7 +5462,7 @@
     "id": "finai-23e6a5b1cf41",
     "title": "HSBC to launch global AI centre and hire more than 100 specialists",
     "normalized_title": "hsbc to launch global ai centre and hire more than 100 specialists",
-    "publisher": "fstech.co.uk",
+    "publisher": "FStech",
     "source_ids": [
       "google-news-en"
     ],
@@ -5140,7 +5474,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:45.079381+00:00",
+    "discovered_at": "2026-08-19T03:50:49.648026+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5156,7 +5490,7 @@
     ],
     "relevance_score": 60,
     "evidence_strength": 2,
-    "summary": "fstech.co.uk于2026-07-28公开“HSBC to launch global AI centre and hire more than 100 specialists”。标题或摘要包含金融场景（financial_brand）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "FStech于2026-07-28公开“HSBC to launch global AI centre and hire more than 100 specialists”。标题或摘要包含金融场景（financial_brand）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [
       "HSBC to hire 100 AI specialists amid global AI centre launch later this year"
@@ -5188,7 +5522,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:45.079574+00:00",
+    "discovered_at": "2026-08-19T03:50:49.648115+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5235,7 +5569,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:46.450622+00:00",
+    "discovered_at": "2026-08-19T03:50:50.012903+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5270,7 +5604,7 @@
     "id": "finai-c6d904e86c27",
     "title": "Launch of LoanFlo AI: Mortgage Veteran Omar Abassi Introduces Native AI Technology Infrastructure",
     "normalized_title": "launch of loanflo ai mortgage veteran omar abassi introduces native ai technology infrastructure",
-    "publisher": "openpr.com",
+    "publisher": "openPR.com",
     "source_ids": [
       "google-news-en"
     ],
@@ -5281,7 +5615,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:46.451225+00:00",
+    "discovered_at": "2026-08-19T03:50:50.013317+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5297,7 +5631,7 @@
     ],
     "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "openpr.com于2026-07-28公开“Launch of LoanFlo AI: Mortgage Veteran Omar Abassi Introduces Native AI Technology Infrastructure”。标题或摘要包含金融场景（lending_and_credit）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "openPR.com于2026-07-28公开“Launch of LoanFlo AI: Mortgage Veteran Omar Abassi Introduces Native AI Technology Infrastructure”。标题或摘要包含金融场景（lending_and_credit）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
@@ -5330,7 +5664,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:46.451287+00:00",
+    "discovered_at": "2026-08-19T03:50:50.013352+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5377,7 +5711,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:47.624021+00:00",
+    "discovered_at": "2026-08-19T03:50:50.401562+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5410,6 +5744,53 @@
     }
   },
   {
+    "id": "finai-702611b8f323",
+    "title": "Rabobank and Expert.ai Expand Partnership to Drive Trusted AI Innovation in Banking",
+    "normalized_title": "rabobank and expert ai expand partnership to drive trusted ai innovation in banking",
+    "publisher": "FF News",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeWlMQTBybEZzcEhVcEdJRTQ3c0JEVEdPQlcxR2tJOVEwZ25HOUJVN3V3UjVpZHRpUnhXa1pMWDZUQlBySjhmQ1ppRTBIdmRxOEVCMWNxQ09JRkk4WGRfQndSV1hVVkt6T1MwM3lnQmR1azMwSzRZX3JRU1cwWnZtMzk4YjlKS2R2bVRvaWM3RWd2WEN5S1RGNkd3LXhJM3JCNDhCbzJaV3NaUQ?oc=5"
+    ],
+    "evidence_time": "2026-07-28",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-28",
+    "discovered_at": "2026-08-19T03:50:50.906404+00:00",
+    "effective_time": "2026-07-28",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "banking"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "FF News于2026-07-28公开“Rabobank and Expert.ai Expand Partnership to Drive Trusted AI Innovation in Banking”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:banking": [
+        "bank",
+        "banking"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "partnership"
+      ]
+    }
+  },
+  {
     "id": "finai-383db8c83834",
     "title": "NAB Becomes First Australian Bank to Deploy Conversational AI for Instant Data Insights",
     "normalized_title": "nab becomes first australian bank to deploy conversational ai for instant data insights",
@@ -5424,7 +5805,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:50.490978+00:00",
+    "discovered_at": "2026-08-19T03:50:51.294128+00:00",
     "effective_time": "2026-07-28",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5456,52 +5837,6 @@
     }
   },
   {
-    "id": "finai-543a220baf06",
-    "title": "Trading Strategy Data",
-    "normalized_title": "trading strategy data",
-    "publisher": "io.github.Vohlsyr",
-    "source_ids": [
-      "official-mcp-registry"
-    ],
-    "evidence_urls": [
-      "https://registry.modelcontextprotocol.io"
-    ],
-    "evidence_time": "2026-07-28",
-    "event_time": null,
-    "listing_time": "2026-07-28",
-    "first_public_time": "2026-07-28",
-    "discovered_at": "2026-08-19T03:17:50.715632+00:00",
-    "effective_time": "2026-07-28",
-    "effective_time_type": "marketplace_listing",
-    "effective_time_confidence": 0.85,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "wealth_and_markets"
-    ],
-    "ai_types": [
-      "agent"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "io.github.Vohlsyr于2026-07-28公开“Trading Strategy Data”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（agent）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
-      ],
-      "ai:agent": [
-        "official MCP Registry listing"
-      ],
-      "event:product_launch": [
-        "marketplace listing"
-      ]
-    }
-  },
-  {
     "id": "finai-6349f00d6cef",
     "title": "NH Nonghyup Bank上线AI企业授信审查体系，加快“Agentic AI Bank”转型",
     "normalized_title": "nh nonghyup bank上线ai企业授信审查体系 加快 agentic ai bank 转型",
@@ -5516,7 +5851,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T03:17:39.434166+00:00",
+    "discovered_at": "2026-08-19T03:50:47.811193+00:00",
     "effective_time": "2026-07-27",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5552,6 +5887,59 @@
     }
   },
   {
+    "id": "finai-38e5db4c1812",
+    "title": "Shinhan Financial Turns Closed Bank Branches Into AI Training Centers, Partners With South Korea's Science Ministry to Support Digitally Underserved Groups",
+    "normalized_title": "shinhan financial turns closed bank branches into ai training centers partners with south korea s science ministry to support digitally underserved groups",
+    "publisher": "finance.biggo.com",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ubjl3R1Brb0RPV2Eydnd2RERjaGNkcDlpYlpXalJSOVIxMEFDd0pqSExaNnZpbmdJSTBqSlRDNUdaOUNNMUtib0x3WDZUSHgxX0E3M3FxckFHRzFkcmF3d3ZmZTkxSEFrclk5ckF1SUpsaV94T0E?oc=5",
+      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVUEyRjRwTHp0LTRBQUo1eGJGS2tyOFk1MTBXMzlTTENuV2JVclMyaEJWNkd0aXVfV3dGdjdTQld3cVhBa3ROaGttQkYyQzFTUktJTGtGVE5VZXJCcHlEMFhockRpV19wYWZSbnV0czkwOU1tZVBEQ3BpT0hUVkpQUdIBlAFBVV95cUxNd1g4aUpualpFcjBtazFvUXJqblNTZm9fMjk4a21DcnhTLUN4M3FWakNMQzJ2eVFiVTRWU3cyZ3F2QVdkV29iN1ltbmY5YUdvT0FMbE42UVloZ01fTXE4Zk1EUXZTLTdUOWhhQnNQZ0dac1dUMHAxRDBrNVcyR3E2QXBqN3E3bnJlQWY2Q2RCOUZ5cjM0?oc=5"
+    ],
+    "evidence_time": "2026-07-27",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-08-04",
+    "discovered_at": "2026-08-19T03:50:50.906968+00:00",
+    "effective_time": "2026-07-27",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "banking",
+      "financial_brand"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 78,
+    "evidence_strength": 2,
+    "summary": "finance.biggo.com于2026-08-04公开“Shinhan Financial Turns Closed Bank Branches Into AI Training Centers, Partners With South Korea's Science Ministry to Support Digitally Underserved Groups”。标题或摘要包含金融场景（banking、financial_brand）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [
+      "Finda buys Daewon Savings Bank to launch AI savings bank in South Korea - CHOSUNBIZ"
+    ],
+    "signals": {
+      "finance:banking": [
+        "bank"
+      ],
+      "finance:financial_brand": [
+        "shinhan"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "partners with"
+      ]
+    }
+  },
+  {
     "id": "finai-40f727c5ed36",
     "title": "Itaú lanza ia.ie, inaugurando una nueva fase de la inteligencia artificial en los servicios financieros",
     "normalized_title": "itaú lanza ia ie inaugurando una nueva fase de la inteligencia artificial en los servicios financieros",
@@ -5566,7 +5954,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T03:17:40.432567+00:00",
+    "discovered_at": "2026-08-19T03:50:48.246249+00:00",
     "effective_time": "2026-07-27",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5598,98 +5986,6 @@
     }
   },
   {
-    "id": "finai-0664d010b94b",
-    "title": "Finda buys Daewon Savings Bank to launch AI savings bank in South Korea - CHOSUNBIZ",
-    "normalized_title": "finda buys daewon savings bank to launch ai savings bank in south korea chosunbiz",
-    "publisher": "Chosunbiz",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVUEyRjRwTHp0LTRBQUo1eGJGS2tyOFk1MTBXMzlTTENuV2JVclMyaEJWNkd0aXVfV3dGdjdTQld3cVhBa3ROaGttQkYyQzFTUktJTGtGVE5VZXJCcHlEMFhockRpV19wYWZSbnV0czkwOU1tZVBEQ3BpT0hUVkpQUdIBlAFBVV95cUxNd1g4aUpualpFcjBtazFvUXJqblNTZm9fMjk4a21DcnhTLUN4M3FWakNMQzJ2eVFiVTRWU3cyZ3F2QVdkV29iN1ltbmY5YUdvT0FMbE42UVloZ01fTXE4Zk1EUXZTLTdUOWhhQnNQZ0dac1dUMHAxRDBrNVcyR3E2QXBqN3E3bnJlQWY2Q2RCOUZ5cjM0?oc=5"
-    ],
-    "evidence_time": "2026-07-27",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T03:17:38.518338+00:00",
-    "effective_time": "2026-07-27",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "banking"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "Chosunbiz于2026-07-27公开“Finda buys Daewon Savings Bank to launch AI savings bank in South Korea - CHOSUNBIZ”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:banking": [
-        "bank"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "launch"
-      ]
-    }
-  },
-  {
-    "id": "finai-ab80625f4908",
-    "title": "Social Security Administration Challenges Drive MoneySimpler to Launch AI Automated Trading Retirement Income Solution",
-    "normalized_title": "social security administration challenges drive moneysimpler to launch ai automated trading retirement income solution",
-    "publisher": "The Manila Times",
-    "source_ids": [
-      "google-news-en"
-    ],
-    "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMinAJBVV95cUxNa25TTGhDSFZoMUZzMW43S280UzNsN2ZfM3BHQWExVXJnbkUyZ1ZOc09xMHVmMDcway1ucGp6TlZJYmJCRnFwemhzZC1XaGdYVklvNzNzNHE0LVZqYXB0TW9PdHVVSXdGT2hsXzVVY0ZOSVdYMUJTc3Z6M0J4U2xuTmxFYVVnVzBLOG0tdnpGWDZ3TnE3RFljMnM2UkFmYXh5Z2pQcEhHWnNSODhOVmRlMUhHWUNBZmdmSWNjbEFjN2dkazgyb2RDbXBKSWVWTE5idUN6eU1vdWthY0ZkeVpVd0RQc0docVlRLTJGSUYyUXgwYWJZWXYxTWlrTUVTODBCZXlRZDlYd2xZSUY4QnI0RHJPSWpWTVdPenBLWtIBogJBVV95cUxPNUhvMTA2OTJGdDdTUTJ0bXptY0NURDJTM2lMZXBfTHZWb0p2T3c2NW50cUFWcjkzWUlGOHdoUjdEbmFZQWU3NHpNWWdqZ2FYejFYYXlSbHVobXN5ajFtWWR5TlpsbXJrNVg4dnV5RE1xd2lfWWxMbGxPQnJ4bHFnOERHdVZfd2RVTnE0T2lobUZULWtJV0NKa1lQOGp4Q0h6eGp5cW9DbFd1YU45eXQzNFVhTWo1NjhMVGNscVNzMVEyT1U5QWhuTVpTNE54RlYzWlVDYy1OYWR1VmlidHVqb1U2VmlXeDlDQkRjeVBNYnNJeFBjZHRVZ2o5Z2s5ZF9RREh5bjA4a3ROUVVvWGU5Vy04WEIyZndNazAzY1ZoUFJ1Zw?oc=5"
-    ],
-    "evidence_time": "2026-07-27",
-    "event_time": null,
-    "listing_time": null,
-    "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T03:17:45.079541+00:00",
-    "effective_time": "2026-07-27",
-    "effective_time_type": "media_report",
-    "effective_time_confidence": 0.65,
-    "effective_time_precision": "day",
-    "time_status": "estimated_from_evidence",
-    "event_type": "product_launch",
-    "maturity": "M3",
-    "finance_domains": [
-      "wealth_and_markets"
-    ],
-    "ai_types": [
-      "machine_learning"
-    ],
-    "relevance_score": 60,
-    "evidence_strength": 1,
-    "summary": "The Manila Times于2026-07-27公开“Social Security Administration Challenges Drive MoneySimpler to Launch AI Automated Trading Retirement Income Solution”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
-    "review_status": "needs_review",
-    "duplicate_titles": [],
-    "signals": {
-      "finance:wealth_and_markets": [
-        "trading"
-      ],
-      "ai:machine_learning": [
-        "ai"
-      ],
-      "event:product_launch": [
-        "launch"
-      ]
-    }
-  },
-  {
     "id": "finai-aa934d07ceee",
     "title": "io.github.tradingale/mcp",
     "normalized_title": "io github tradingale mcp",
@@ -5705,7 +6001,7 @@
     "event_time": null,
     "listing_time": "2026-07-27",
     "first_public_time": "2026-07-27",
-    "discovered_at": "2026-08-19T03:17:50.715669+00:00",
+    "discovered_at": "2026-08-19T03:50:49.876122+00:00",
     "effective_time": "2026-07-27",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -5739,6 +6035,148 @@
     }
   },
   {
+    "id": "finai-e6e8a6cde492",
+    "title": "Birchford Technologies Unveils ProLink AI Translator for Payment Modernization",
+    "normalized_title": "birchford technologies unveils prolink ai translator for payment modernization",
+    "publisher": "TechAfrica News",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUXlwRXFBblg0TEJDdnJRTU9iQnpHUmh4WmREUG5DYWswYjZmM3pPZWlZV29BVFdlamNGaU80Z0hHcHlxdUNmaXFtdTFCc1paZmlndUc2bllrNlVxTTkwZkJab1h5NUJsVWlWaUNhT0hFdXVHcHZfd3l0bVl2Zzk5OHZSRDRiaGlHYXd3Z0ZiS3hUZ3hma0VncFBVVzVKcmV2Rl95d3RQMERHOWx2a0JmS3dlbDRBOTh2?oc=5"
+    ],
+    "evidence_time": "2026-07-27",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-27",
+    "discovered_at": "2026-08-19T03:50:48.234934+00:00",
+    "effective_time": "2026-07-27",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "payments"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "TechAfrica News于2026-07-27公开“Birchford Technologies Unveils ProLink AI Translator for Payment Modernization”。标题或摘要包含金融场景（payments）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:payments": [
+        "payment"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "unveil",
+        "unveils"
+      ]
+    }
+  },
+  {
+    "id": "finai-ab80625f4908",
+    "title": "Social Security Administration Challenges Drive MoneySimpler to Launch AI Automated Trading Retirement Income Solution",
+    "normalized_title": "social security administration challenges drive moneysimpler to launch ai automated trading retirement income solution",
+    "publisher": "The Manila Times",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMinAJBVV95cUxNa25TTGhDSFZoMUZzMW43S280UzNsN2ZfM3BHQWExVXJnbkUyZ1ZOc09xMHVmMDcway1ucGp6TlZJYmJCRnFwemhzZC1XaGdYVklvNzNzNHE0LVZqYXB0TW9PdHVVSXdGT2hsXzVVY0ZOSVdYMUJTc3Z6M0J4U2xuTmxFYVVnVzBLOG0tdnpGWDZ3TnE3RFljMnM2UkFmYXh5Z2pQcEhHWnNSODhOVmRlMUhHWUNBZmdmSWNjbEFjN2dkazgyb2RDbXBKSWVWTE5idUN6eU1vdWthY0ZkeVpVd0RQc0docVlRLTJGSUYyUXgwYWJZWXYxTWlrTUVTODBCZXlRZDlYd2xZSUY4QnI0RHJPSWpWTVdPenBLWtIBogJBVV95cUxPNUhvMTA2OTJGdDdTUTJ0bXptY0NURDJTM2lMZXBfTHZWb0p2T3c2NW50cUFWcjkzWUlGOHdoUjdEbmFZQWU3NHpNWWdqZ2FYejFYYXlSbHVobXN5ajFtWWR5TlpsbXJrNVg4dnV5RE1xd2lfWWxMbGxPQnJ4bHFnOERHdVZfd2RVTnE0T2lobUZULWtJV0NKa1lQOGp4Q0h6eGp5cW9DbFd1YU45eXQzNFVhTWo1NjhMVGNscVNzMVEyT1U5QWhuTVpTNE54RlYzWlVDYy1OYWR1VmlidHVqb1U2VmlXeDlDQkRjeVBNYnNJeFBjZHRVZ2o5Z2s5ZF9RREh5bjA4a3ROUVVvWGU5Vy04WEIyZndNazAzY1ZoUFJ1Zw?oc=5"
+    ],
+    "evidence_time": "2026-07-27",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-27",
+    "discovered_at": "2026-08-19T03:50:49.648095+00:00",
+    "effective_time": "2026-07-27",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "product_launch",
+    "maturity": "M3",
+    "finance_domains": [
+      "wealth_and_markets"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 1,
+    "summary": "The Manila Times于2026-07-27公开“Social Security Administration Challenges Drive MoneySimpler to Launch AI Automated Trading Retirement Income Solution”。标题或摘要包含金融场景（wealth_and_markets）、AI能力（machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [],
+    "signals": {
+      "finance:wealth_and_markets": [
+        "trading"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:product_launch": [
+        "launch"
+      ]
+    }
+  },
+  {
+    "id": "finai-a9592db5a4c5",
+    "title": "LTM Partners With Cognition To Cut Cyber Risk In Financial Services, Onboards AI Engineer 'Devin’",
+    "normalized_title": "ltm partners with cognition to cut cyber risk in financial services onboards ai engineer devin",
+    "publisher": "NDTV Profit",
+    "source_ids": [
+      "google-news-en"
+    ],
+    "evidence_urls": [
+      "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZnVkcFQzcXJiczJlQWlwbmw4bmlwNVFyejlZaGpNN2ttckdaaVZVckl4RFVXNTg1MWZ5V3dHU0ZkMDFYN0ZfRG5GenROZm5ZRVFPd2dYUllLYTdVc2l3NkxMaTZEOGJlUkVIZ0JGVXhYRm5IWmFFTThmeURVbEJHWVVfOXlweURScEg1dlFDYzB0RmNnYjMtS1Z3TnV2WjhhT3plVTVSbkRiTjRWWlZ4aEtjV3NWOFhYT1FyT1h5cjFtLU9wdEhfdVpIQkhleGtPSS1MY1JoVkLSAeABQVVfeXFMT1RHQTFRTkN5cUM3YWMzOWdIMGF4TC1xajhuOG9kWXJuX1A0a2dud2duTWNuLWhuODRNTXRldFFKYmdqTmxYMzBHelFRQmNkZGlvZGU1RDN5TldJa3lGVU1FWVV1cTJuU25BMVdENDd5Mmt2V1ZZeDJoYi1IR2diM1dOVTlYUVpmM0E0WnF5ZGxfV0tZTnZUSEcwRC1hZFBJRzhlTEFtZUdSM1I0R3d1emFlZXo2R0pJYm1GSEJJa3VDeTRGUUFvOEFrWWFtQ0hQZWtxcDl4TDN3cVI5Uk15ZTQ?oc=5",
+      "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS0g1R3RlWXpWOC1RVTVQX3BfeC1OOV9ENmZqLV9FSlk5NHh0a1JJS2tiTXJnWENoRXRwSmVBS05BT25PYk1FMHMtc1JMSUdyQl9VNU5iYnNRTDNRZUllWXdBQzgyQ1A1MUpKTmRYbWVDNjRsRzVmODNUaGxhUTBJNGpMaTN3ZTV6RXJsbUxWTDRDakNiSEJaZ0laSXdDYURrcXhScWFOQmNDQmVvOU53bldyaDZtWmRicXZIX1F3dGZUU0doMXM4TEQwUS0?oc=5"
+    ],
+    "evidence_time": "2026-07-27",
+    "event_time": null,
+    "listing_time": null,
+    "first_public_time": "2026-07-27",
+    "discovered_at": "2026-08-19T03:50:50.906691+00:00",
+    "effective_time": "2026-07-27",
+    "effective_time_type": "media_report",
+    "effective_time_confidence": 0.65,
+    "effective_time_precision": "day",
+    "time_status": "estimated_from_evidence",
+    "event_type": "commercial_agreement",
+    "maturity": "M2",
+    "finance_domains": [
+      "fintech"
+    ],
+    "ai_types": [
+      "machine_learning"
+    ],
+    "relevance_score": 60,
+    "evidence_strength": 2,
+    "summary": "NDTV Profit于2026-07-27公开“LTM Partners With Cognition To Cut Cyber Risk In Financial Services, Onboards AI Engineer 'Devin’”。标题或摘要包含金融场景（fintech）、AI能力（machine_learning）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "review_status": "needs_review",
+    "duplicate_titles": [
+      "LTM partners with Cognition to strengthen Cybersecurity for Financial Services with Devin AI"
+    ],
+    "signals": {
+      "finance:fintech": [
+        "financial services"
+      ],
+      "ai:machine_learning": [
+        "ai"
+      ],
+      "event:commercial_agreement": [
+        "partners with"
+      ]
+    }
+  },
+  {
     "id": "finai-15d003add4f0",
     "title": "Lianlian DigiTech and UnionPay International Partner to Deploy AI-Agent Payments for Global Procurement",
     "normalized_title": "lianlian digitech and unionpay international partner to deploy ai agent payments for global procurement",
@@ -5747,13 +6185,13 @@
       "bing-news-en"
     ],
     "evidence_urls": [
-      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a852056277e494aa2e7140d09841577&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2flianlian-digitech-unionpay-international-partner-003000728.html&c=9529547056349314478&mkt=en-us"
+      "http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6a8528180c2b4b57adffc54dca5d7418&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2flianlian-digitech-unionpay-international-partner-003000728.html&c=9529547056349314478&mkt=en-us"
     ],
     "evidence_time": "2026-07-26",
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-26",
-    "discovered_at": "2026-08-19T03:17:43.069652+00:00",
+    "discovered_at": "2026-08-19T03:50:48.521092+00:00",
     "effective_time": "2026-07-26",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5807,7 +6245,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-26",
-    "discovered_at": "2026-08-19T03:17:50.491589+00:00",
+    "discovered_at": "2026-08-19T03:50:51.294541+00:00",
     "effective_time": "2026-07-26",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5858,7 +6296,7 @@
     "event_time": null,
     "listing_time": "2026-07-26",
     "first_public_time": "2026-07-26",
-    "discovered_at": "2026-08-19T03:17:41.373204+00:00",
+    "discovered_at": "2026-08-19T03:50:48.165775+00:00",
     "effective_time": "2026-07-26",
     "effective_time_type": "marketplace_listing",
     "effective_time_confidence": 0.85,
@@ -5906,7 +6344,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-24",
-    "discovered_at": "2026-08-19T03:17:43.730378+00:00",
+    "discovered_at": "2026-08-19T03:50:49.167570+00:00",
     "effective_time": "2026-07-24",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5953,7 +6391,7 @@
     "id": "finai-31e9117d8935",
     "title": "Visa与连连携手推进可信B2B智能体商务，见证LoopXPay智能体首笔真实交易",
     "normalized_title": "visa与连连携手推进可信b2b智能体商务 见证loopxpay智能体首笔真实交易",
-    "publisher": "finance.sina.com.cn",
+    "publisher": "新浪财经",
     "source_ids": [
       "google-news-zh"
     ],
@@ -5964,7 +6402,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-24",
-    "discovered_at": "2026-08-19T03:17:40.484486+00:00",
+    "discovered_at": "2026-08-19T03:50:48.159951+00:00",
     "effective_time": "2026-07-24",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -5980,7 +6418,7 @@
     ],
     "relevance_score": 60,
     "evidence_strength": 1,
-    "summary": "finance.sina.com.cn于2026-07-24公开“Visa与连连携手推进可信B2B智能体商务，见证LoopXPay智能体首笔真实交易”。标题或摘要包含金融场景（financial_brand）、AI能力（agent）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "新浪财经于2026-07-24公开“Visa与连连携手推进可信B2B智能体商务，见证LoopXPay智能体首笔真实交易”。标题或摘要包含金融场景（financial_brand）、AI能力（agent）和commercial_agreement信号，自动暂判为M2；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
@@ -6010,7 +6448,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-24",
-    "discovered_at": "2026-08-19T03:17:40.485204+00:00",
+    "discovered_at": "2026-08-19T03:50:48.160441+00:00",
     "effective_time": "2026-07-24",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6058,7 +6496,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-24",
-    "discovered_at": "2026-08-19T03:17:50.489964+00:00",
+    "discovered_at": "2026-08-19T03:50:51.293631+00:00",
     "effective_time": "2026-07-24",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6104,7 +6542,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-23",
-    "discovered_at": "2026-08-19T03:17:43.730589+00:00",
+    "discovered_at": "2026-08-19T03:50:49.167448+00:00",
     "effective_time": "2026-07-23",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6159,7 +6597,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-23",
-    "discovered_at": "2026-08-19T03:17:41.139300+00:00",
+    "discovered_at": "2026-08-19T03:50:48.234480+00:00",
     "effective_time": "2026-07-23",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6196,19 +6634,18 @@
     "id": "finai-11ef69d89f8f",
     "title": "Banks risk failure deploying AI faster than they govern it",
     "normalized_title": "banks risk failure deploying ai faster than they govern it",
-    "publisher": "Asian Business Review",
+    "publisher": "asianbusinessreview.com",
     "source_ids": [
       "google-news-en"
     ],
     "evidence_urls": [
-      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUTlHTkpOXzgxVUVBNGNLb29JaDJpWkIwVlhrMjBHQ3A1akx0VW9PUUtyc2Z0M0s4cEtUTDBudTRyMjRKNWRwNzZmaUVKVnN6TW9jckxSYW1yUHYydjIzeGhRUTBsT29UYThSLXJUZzdoeXpYMWxHcU9Bd0J5ZjBkYnVxT0ZZT0tnTlgxZ280TW5RaDlHdUJj?oc=5",
-      "https://news.google.com/rss/articles/CBMiugFBVV95cUxORnpzZXZvdXZIa3FmbjJsQ3B0ZGxONFdHaVFRbmpXY2pkNXFBOFl1MGtnbkwwUWtGYjYwRU85SWhPcFRfWTZiNFNMTklMUGhVN0RSd0hYazkyUDdMd1RtWkllTHkteDd5RmJ5b25fQWNWdlpNOTZfNjJ2LWtRRGRCOFptX2hLQlctbG9mLW0wY0Z2cEdrclFjVVlpdjJudmFpWktVVDdzeDExa05xelFpb2JyblEyRTQ0WVE?oc=5"
+      "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUTlHTkpOXzgxVUVBNGNLb29JaDJpWkIwVlhrMjBHQ3A1akx0VW9PUUtyc2Z0M0s4cEtUTDBudTRyMjRKNWRwNzZmaUVKVnN6TW9jckxSYW1yUHYydjIzeGhRUTBsT29UYThSLXJUZzdoeXpYMWxHcU9Bd0J5ZjBkYnVxT0ZZT0tnTlgxZ280TW5RaDlHdUJj?oc=5"
     ],
     "evidence_time": "2026-07-23",
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-23",
-    "discovered_at": "2026-08-19T03:17:50.490421+00:00",
+    "discovered_at": "2026-08-19T03:50:51.293879+00:00",
     "effective_time": "2026-07-23",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6223,12 +6660,10 @@
       "machine_learning"
     ],
     "relevance_score": 60,
-    "evidence_strength": 2,
-    "summary": "Asian Business Review于2026-07-23公开“Banks risk failure deploying AI faster than they govern it”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "evidence_strength": 1,
+    "summary": "asianbusinessreview.com于2026-07-23公开“Banks risk failure deploying AI faster than they govern it”。标题或摘要包含金融场景（banking）、AI能力（machine_learning）和customer_deployment信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
-    "duplicate_titles": [
-      "Singapore Private Banks Deploy AI for Client Vetting and Faster Onboarding - One-Time Loss Impact"
-    ],
+    "duplicate_titles": [],
     "signals": {
       "finance:banking": [
         "bank"
@@ -6256,7 +6691,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-22",
-    "discovered_at": "2026-08-19T03:17:45.079469+00:00",
+    "discovered_at": "2026-08-19T03:50:49.648077+00:00",
     "effective_time": "2026-07-22",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6303,7 +6738,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-22",
-    "discovered_at": "2026-08-19T03:17:47.623642+00:00",
+    "discovered_at": "2026-08-19T03:50:50.401288+00:00",
     "effective_time": "2026-07-22",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6338,7 +6773,7 @@
     "id": "finai-7653bec20a3f",
     "title": "Glia Launches Banking’s First Precision AI Response Modes, Offering Agentic Experiences Without Unconstrained Risk",
     "normalized_title": "glia launches banking s first precision ai response modes offering agentic experiences without unconstrained risk",
-    "publisher": "Business Wire",
+    "publisher": "businesswire.com",
     "source_ids": [
       "google-news-en"
     ],
@@ -6349,7 +6784,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-21",
-    "discovered_at": "2026-08-19T03:17:38.516890+00:00",
+    "discovered_at": "2026-08-19T03:50:47.490498+00:00",
     "effective_time": "2026-07-21",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6366,7 +6801,7 @@
     ],
     "relevance_score": 80,
     "evidence_strength": 1,
-    "summary": "Business Wire于2026-07-21公开“Glia Launches Banking’s First Precision AI Response Modes, Offering Agentic Experiences Without Unconstrained Risk”。标题或摘要包含金融场景（banking）、AI能力（agent、machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
+    "summary": "businesswire.com于2026-07-21公开“Glia Launches Banking’s First Precision AI Response Modes, Offering Agentic Experiences Without Unconstrained Risk”。标题或摘要包含金融场景（banking）、AI能力（agent、machine_learning）和product_launch信号，自动暂判为M3；当前有效时间取证据发布时间，需人工核对真实业务事件时间。",
     "review_status": "needs_review",
     "duplicate_titles": [],
     "signals": {
@@ -6401,7 +6836,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-21",
-    "discovered_at": "2026-08-19T03:17:42.388794+00:00",
+    "discovered_at": "2026-08-19T03:50:48.688983+00:00",
     "effective_time": "2026-07-21",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
@@ -6455,7 +6890,7 @@
     "event_time": null,
     "listing_time": null,
     "first_public_time": "2026-07-21",
-    "discovered_at": "2026-08-19T03:17:39.422748+00:00",
+    "discovered_at": "2026-08-19T03:50:47.814713+00:00",
     "effective_time": "2026-07-21",
     "effective_time_type": "media_report",
     "effective_time_confidence": 0.65,
