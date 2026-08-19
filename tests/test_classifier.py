@@ -60,6 +60,26 @@ class ClassifierTests(unittest.TestCase):
         self.assertEqual(result.listing_time, "2026-08-10")
         self.assertEqual(result.review_status, "needs_review")
 
+    def test_application_scenario_explains_use_and_value(self):
+        result = classify_item(
+            self.make_item(
+                "Razorpay launches payments foundation model for fraud detection and routing"
+            )
+        )
+        self.assertIn("支付交易", result.application_scenario)
+        self.assertIn("欺诈", result.expected_value)
+        self.assertEqual(result.innovation_level, "substantive")
+        self.assertIn("专用或基础模型", result.innovation_assessment)
+
+    def test_agent_label_alone_does_not_prove_innovation(self):
+        result = classify_item(self.make_item("Bank launches AI agent for internal operations"))
+        self.assertEqual(result.innovation_level, "not_demonstrated")
+        self.assertIn("暂未证明", result.innovation_assessment)
+
+    def test_merchant_platform_gets_specific_scenario(self):
+        result = classify_item(self.make_item("Alipay launches agentic commerce platform for merchants"))
+        self.assertIn("商户", result.application_scenario)
+
 
 if __name__ == "__main__":
     unittest.main()

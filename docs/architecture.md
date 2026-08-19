@@ -18,6 +18,8 @@ Source adapters
   -> calendar-window filter
   -> finance + AI + event signal gate
   -> maturity and event classification
+  -> application-scenario and evidence-bounded value inference
+  -> conservative innovation assessment
   -> time fallback with provenance
   -> cross-source deduplication
   -> candidate registry
@@ -54,6 +56,23 @@ An item can appear in a 30-day provisional view because it was newly reported ev
 
 Heuristic maturity is always `needs_review` in v0.1.
 
+## Application and innovation semantics
+
+The radar explains the likely business workflow and expected value only when the
+headline or source snippet supplies enough evidence. Expected value is not treated
+as measured impact. Any reported percentage is retained with an explicit warning
+that its baseline, methodology and attribution remain unverified.
+
+Innovation is classified conservatively:
+
+- `substantive` — explicit evidence of a financial foundation/domain model or a new agent protocol/interface;
+- `application_design` — AI is explicitly connected to controlled transaction or workflow execution;
+- `incremental` — mature conversational AI is embedded into an existing process;
+- `not_demonstrated` — the evidence uses AI/Agent language but does not demonstrate a meaningful technical or application-design difference.
+
+The system must not invent an innovation narrative merely because a vendor calls a
+feature “AI-powered” or “agentic.”
+
 ## Recall and precision
 
 The system cannot prove that no case was missed. It can make omission measurable by maintaining a hindsight gold set, comparing independent source channels, tracking late discoveries and recording source outages. Planned headline metrics are window recall, precision at the review cutoff, detection delay, primary-evidence ratio and unresolved-time ratio.
@@ -61,4 +80,3 @@ The system cannot prove that no case was missed. It can make omission measurable
 ## Responsible collection
 
 Adapters should respect terms of service, robots guidance, rate limits and copyright. Store the URL, publisher, timestamp, hash, necessary short evidence and derived structured facts. Do not mirror full copyrighted articles.
-

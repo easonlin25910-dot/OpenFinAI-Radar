@@ -80,6 +80,33 @@ GENERIC_EVENT_TOKENS = STOP_WORDS | {
     "generative", "artificial", "intelligence", "deployment", "deploys", "financial", "services",
 }
 
+FINANCE_LABELS = {
+    "banking": "银行业务",
+    "insurance": "保险",
+    "payments": "支付",
+    "wealth_and_markets": "财富管理与资本市场",
+    "lending_and_credit": "信贷",
+    "risk_and_compliance": "风险与合规",
+    "fintech": "金融科技",
+    "financial_brand": "金融机构",
+}
+
+EVENT_LABELS = {
+    "product_launch": "产品发布",
+    "customer_deployment": "客户部署",
+    "commercial_agreement": "商业合作",
+    "pilot": "试点",
+    "scale": "规模化应用",
+    "unclassified_signal": "待分类事件",
+}
+
+INNOVATION_LEVELS = {
+    "substantive": 4,
+    "application_design": 3,
+    "incremental": 2,
+    "not_demonstrated": 1,
+}
+
 
 def normalize_text(value: str) -> str:
     value = unicodedata.normalize("NFKC", value).lower()
@@ -159,6 +186,120 @@ def _stage_and_event(signals: Dict[str, List[str]]) -> Tuple[str, str]:
     return "M0", "unclassified_signal"
 
 
+def _application_details(
+    text: str, domains: List[str], ai_types: List[str]
+) -> Tuple[str, str]:
+    """Explain likely use and value without inventing facts absent from evidence."""
+    agent = "agent" in ai_types
+    scenario_key = "generic"
+    if "payments" in domains and any(term in text for term in ("fraud", "欺诈", "不正検知")):
+        scenario_key = "payment_risk"
+        scenario = "用于支付交易的风险识别、路由或成功率优化，把AI判断嵌入交易处理环节。"
+        value = "预期减少欺诈损失和人工规则维护，并提高支付成功率；实际提升幅度仍需客户或官方数据验证。"
+    elif "payments" in domains and agent:
+        scenario_key = "agent_payments"
+        scenario = "面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。"
+        value = "预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。"
+    elif "wealth_and_markets" in domains and any(term in text for term in ("trading", "trade", "交易", "証券")):
+        scenario_key = "trading"
+        scenario = "用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。"
+        value = "预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。"
+    elif "lending_and_credit" in domains and any(term in text for term in ("match", "matching", "匹配")):
+        scenario_key = "loan_matching"
+        scenario = "用于贷款产品匹配，根据借款需求或客户条件辅助筛选适合的个人、企业或按揭贷款方案。"
+        value = "预期减少人工比较和初筛时间、提高申请转化；匹配准确率及是否影响授信决策仍需核验。"
+    elif "lending_and_credit" in domains:
+        scenario_key = "credit"
+        scenario = "用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。"
+        value = "预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。"
+    elif "risk_and_compliance" in domains:
+        scenario_key = "compliance"
+        scenario = "用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。"
+        value = "预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。"
+    elif "insurance" in domains:
+        scenario_key = "insurance"
+        scenario = "用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。"
+        value = "预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。"
+    elif "banking" in domains and any(term in text for term in ("appraisal", "valuation", "鑑定", "估值")):
+        scenario_key = "appraisal"
+        scenario = "用于银行房地产或抵押物估值材料的检查，AI智能体辅助核对报告内容并提示需要人工确认的问题。"
+        value = "预期减少报告复核耗时并提升检查一致性；自动系统不会把报道中的效果数字视为已验证事实。"
+    elif "banking" in domains and any(term in text for term in ("customer service", "contact center", "voicebot", "客服", "オペレーター")):
+        scenario_key = "bank_service"
+        scenario = "用于银行客户服务，通过生成式AI或语音智能体回答问题、分流请求并辅助完成服务流程。"
+        value = "预期缩短等待时间、提高自助服务覆盖率；复杂咨询和高风险操作仍应由人工接管。"
+    elif "banking" in domains:
+        scenario_key = "bank_operations"
+        scenario = "用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。"
+        value = "预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。"
+    elif "financial_brand" in domains and any(
+        term in text for term in ("merchant", "retail", "commerce", "商户", "零售", "comercio", "minorista")
+    ):
+        scenario_key = "merchant_operations"
+        scenario = "面向商户或零售经营场景，为商品、营销、客户交互或交易流程提供AI工具；具体开放能力需查看产品原文。"
+        value = "预期降低商户使用AI和连接经营系统的门槛；现有证据不足以证明销售转化或运营效率提升。"
+    else:
+        labels = "、".join(FINANCE_LABELS.get(item, item) for item in domains) or "金融业务"
+        scenario = f"用于{labels}中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。"
+        value = "现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。"
+
+    percentage = re.search(r"(\d{1,3}(?:\.\d+)?)\s*%", text)
+    if percentage:
+        value += f" 来源文字提到约{percentage.group(1)}%的量化变化，但指标口径、基线和归因尚未核验。"
+    return scenario, value
+
+
+def _innovation_assessment(text: str, ai_types: List[str]) -> Tuple[str, str, List[str]]:
+    """Conservatively identify innovation that is explicit in the evidence text."""
+    patterns = [
+        (
+            "substantive",
+            ("foundation model", "domain-specific model", "vertical model", "金融大模型", "基座模型"),
+            "公开文字明确提到面向金融任务的专用或基础模型，属于可能的模型层创新；训练数据、基准和技术差异仍需核验。",
+            "金融专用模型",
+        ),
+        (
+            "substantive",
+            ("protocol", "agent-to-agent", "cross-platform", "mcp", "协议", "跨端互联"),
+            "公开文字明确提到面向智能体的协议或跨系统接口，属于可能的基础设施创新；开放程度和实际采用情况仍需核验。",
+            "智能体协议或接口",
+        ),
+        (
+            "application_design",
+            ("autonomous", "agentic payment", "payments for ai agents", "execution", "智能体支付", "自主执行"),
+            "创新点主要在应用设计：让AI从给出建议进一步连接受控的交易或执行流程；自主程度和安全边界仍需核验。",
+            "AI连接业务执行",
+        ),
+        (
+            "application_design",
+            ("multi-agent", "agentic workflow", "agentic ai", "多智能体", "智能体工作流"),
+            "创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。",
+            "智能体工作流",
+        ),
+    ]
+    for level, terms, assessment, signal in patterns:
+        matched = sorted({term for term in terms if term in text})
+        if matched:
+            return level, assessment, [signal] + matched
+    if any(term in text for term in ("copilot", "chatbot", "assistant", "voicebot", "助手")):
+        return (
+            "incremental",
+            "现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。",
+            ["既有流程中的对话式AI"],
+        )
+    if "agent" in ai_types:
+        return (
+            "not_demonstrated",
+            "虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。",
+            [],
+        )
+    return (
+        "not_demonstrated",
+        "现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。",
+        [],
+    )
+
+
 def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
     discovered = item.fetched_at.astimezone(timezone.utc)
     combined = normalize_text(f" {item.title} {item.description} ")
@@ -189,11 +330,15 @@ def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
     status = "estimated_from_evidence" if effective.kind != "system_discovery" else "discovery_time_only"
     domains = _group_names(signals, "finance")
     ai_types = _group_names(signals, "ai")
+    application_scenario, expected_value = _application_details(combined, domains, ai_types)
+    innovation_level, innovation_assessment, innovation_signals = _innovation_assessment(
+        combined, ai_types
+    )
+    domain_text = "、".join(FINANCE_LABELS.get(domain, domain) for domain in domains) or "待确认金融场景"
     summary = (
-        f"{item.publisher}于{effective.value.isoformat()}公开“{item.title}”。"
-        f"标题或摘要包含金融场景（{'、'.join(domains) or '待确认'}）、"
-        f"AI能力（{'、'.join(ai_types) or '待确认'}）和{event_type}信号，"
-        f"自动暂判为{maturity}；当前有效时间取证据发布时间，需人工核对真实业务事件时间。"
+        f"该候选涉及{domain_text}，被识别为{EVENT_LABELS.get(event_type, event_type)}，"
+        f"成熟度暂定{maturity}。当前判断依据{item.publisher}公开的标题或短摘要；"
+        "业务事件时间、产品能力和应用效果仍需原始来源核验。"
     )
     has_required_signals = bool(domains and ai_types and _group_names(signals, "event"))
     review_status = "needs_review" if score >= minimum_score and has_required_signals else "below_threshold"
@@ -221,6 +366,11 @@ def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
         relevance_score=score,
         evidence_strength=1,
         summary=summary,
+        application_scenario=application_scenario,
+        expected_value=expected_value,
+        innovation_level=innovation_level,
+        innovation_assessment=innovation_assessment,
+        innovation_signals=innovation_signals,
         review_status=review_status,
         signals=signals,
     )

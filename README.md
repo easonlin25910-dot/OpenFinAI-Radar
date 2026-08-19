@@ -16,10 +16,11 @@
 - 通过金融、AI、商业化事件三重信号筛选候选。
 - 合并多语言新闻和多个来源对同一事件的重复报道。
 - 同时监控新闻发现通道和官方 MCP Registry 产品货架。
-- 输出 JSON、Markdown 和无后端静态 HTML。
+- 输出 JSON、Markdown 和无后端静态 HTML，报告包含阶段、事件、相关度和创新判断分布。
+- 为每条候选生成保守的应用场景、预期价值和创新性说明；没有证据时明确写“未证明有实质创新”。
 - 每日 GitHub Actions 自动运行，也支持本地一条命令运行。
 
-当前版本是 **v0.1 候选发现系统**，自动结果不等于事实核验。它追求先建立可评测的高召回基线，再通过真实使用反馈改进准确率、来源覆盖率和摘要质量。
+当前版本是 **v0.2 候选发现系统**，自动结果不等于事实核验。它追求先建立可评测的高召回基线，再通过真实使用反馈改进准确率、来源覆盖率和摘要质量。
 
 ## 快速开始
 
@@ -69,6 +70,13 @@ PYTHONPATH=src python3 -m unittest discover -s tests -v
 - `outputs/latest/report.md`：适合阅读和审核的报告；
 - `site/index.html`：可直接打开的静态仪表盘。
 
+案例字段还包括：
+
+- `application_scenario`：在什么业务场景下如何使用；
+- `expected_value`：预期作用、可能价值及效果证据限制；
+- `innovation_level`：实质创新、应用设计创新、增量改进或未证明创新；
+- `innovation_assessment`：只依据公开证据给出的保守创新判断。
+
 核心案例定义为：
 
 ```text
@@ -109,4 +117,3 @@ The v0.1 output is a **candidate intelligence queue**, not a verified factual da
 ## License
 
 Code is released under the [MIT License](LICENSE). Source articles remain the property of their publishers; this repository stores links, metadata and short derived summaries rather than copied full text.
-

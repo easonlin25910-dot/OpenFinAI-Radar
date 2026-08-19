@@ -65,6 +65,11 @@ class Candidate:
     relevance_score: int
     evidence_strength: int
     summary: str
+    application_scenario: str
+    expected_value: str
+    innovation_level: str
+    innovation_assessment: str
+    innovation_signals: List[str] = field(default_factory=list)
     review_status: str = "needs_review"
     duplicate_titles: List[str] = field(default_factory=list)
     signals: Dict[str, List[str]] = field(default_factory=dict)
@@ -92,4 +97,3 @@ def resolve_effective_time(
         evidences,
         key=lambda item: (TIME_PRIORITY.get(item.kind, 99), item.value),
     )
-

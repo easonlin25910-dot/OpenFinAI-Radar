@@ -12,12 +12,26 @@ from .models import Candidate, RawItem
 from .report import write_reports
 
 
+INNOVATION_RANK = {
+    "not_demonstrated": 1,
+    "incremental": 2,
+    "application_design": 3,
+    "substantive": 4,
+}
+
+
 def _merge(target: Candidate, incoming: Candidate) -> None:
     target.source_ids = sorted(set(target.source_ids + incoming.source_ids))
     target.evidence_urls = list(dict.fromkeys(target.evidence_urls + incoming.evidence_urls))
     target.duplicate_titles.append(incoming.title)
     target.evidence_strength = min(5, len(target.evidence_urls))
     target.relevance_score = max(target.relevance_score, incoming.relevance_score)
+    if INNOVATION_RANK.get(incoming.innovation_level, 0) > INNOVATION_RANK.get(
+        target.innovation_level, 0
+    ):
+        target.innovation_level = incoming.innovation_level
+        target.innovation_assessment = incoming.innovation_assessment
+        target.innovation_signals = incoming.innovation_signals
     if incoming.effective_time < target.effective_time:
         target.effective_time = incoming.effective_time
         target.evidence_time = incoming.evidence_time
@@ -34,8 +48,10 @@ def deduplicate(candidates: List[Candidate]) -> Tuple[List[Candidate], int]:
             )
             if date_distance <= 10 and (
                 existing.normalized_title == candidate.normalized_title
-                or title_similarity(existing.title, candidate.title) >= 0.62
-                or same_named_event(existing.title, candidate.title)
+                or (
+                    same_named_event(existing.title, candidate.title)
+                    and title_similarity(existing.title, candidate.title) >= 0.45
+                )
             ):
                 duplicate = existing
                 break
@@ -63,6 +79,29 @@ def _fetch_all(sources: List[Dict[str, object]]) -> Tuple[List[RawItem], List[Di
                     {"id": source["id"], "status": "error", "items": 0, "error": str(error)[:300]}
                 )
     return raw, sorted(health, key=lambda item: str(item["id"]))
+
+
+def build_distributions(cases: List[Candidate]) -> Dict[str, Dict[str, int]]:
+    distributions: Dict[str, Dict[str, int]] = {
+        "maturity": {},
+        "event_type": {},
+        "relevance": {"90-100": 0, "75-89": 0, "60-74": 0, "<60": 0},
+        "innovation": {},
+    }
+    for case in cases:
+        distributions["maturity"][case.maturity] = distributions["maturity"].get(case.maturity, 0) + 1
+        distributions["event_type"][case.event_type] = distributions["event_type"].get(case.event_type, 0) + 1
+        distributions["innovation"][case.innovation_level] = distributions["innovation"].get(case.innovation_level, 0) + 1
+        if case.relevance_score >= 90:
+            bucket = "90-100"
+        elif case.relevance_score >= 75:
+            bucket = "75-89"
+        elif case.relevance_score >= 60:
+            bucket = "60-74"
+        else:
+            bucket = "<60"
+        distributions["relevance"][bucket] += 1
+    return distributions
 
 
 def run_radar(
@@ -96,7 +135,7 @@ def run_radar(
     ok_sources = sum(1 for item in health if item["status"] == "ok")
     source_rate = round(ok_sources / max(1, len(health)) * 100, 1)
     run: Dict[str, object] = {
-        "schema_version": 1,
+        "schema_version": 2,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "window": {"days": days, "start": window_start.isoformat(), "end": as_of.isoformat()},
         "time_policy": {
@@ -116,6 +155,7 @@ def run_radar(
             "sources_total": len(health),
         },
         "source_health": health,
+        "distributions": build_distributions(reported),
     }
     write_reports(output_dir, site_path, run, reported)
     return run
