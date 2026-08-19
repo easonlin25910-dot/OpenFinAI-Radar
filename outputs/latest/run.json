@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-19T03:17:50.936313+00:00",
+  "window": {
+    "days": 30,
+    "start": "2026-07-21",
+    "end": "2026-08-19"
+  },
+  "time_policy": {
+    "business_event_preferred": true,
+    "current_automatic_fallback": "media_report",
+    "warning": "Evidence publication time is not necessarily product release time."
+  },
+  "metrics": {
+    "raw_items": 1258,
+    "items_in_window": 1073,
+    "accepted_candidates": 129,
+    "reported_candidates": 129,
+    "deduplicated_items": 85,
+    "below_threshold": 859,
+    "source_success_rate": 100.0,
+    "sources_ok": 7,
+    "sources_total": 7
+  },
+  "source_health": [
+    {
+      "id": "bing-news-en",
+      "status": "ok",
+      "items": 45
+    },
+    {
+      "id": "google-news-en",
+      "status": "ok",
+      "items": 570
+    },
+    {
+      "id": "google-news-es",
+      "status": "ok",
+      "items": 72
+    },
+    {
+      "id": "google-news-fr",
+      "status": "ok",
+      "items": 64
+    },
+    {
+      "id": "google-news-ja",
+      "status": "ok",
+      "items": 165
+    },
+    {
+      "id": "google-news-zh",
+      "status": "ok",
+      "items": 177
+    },
+    {
+      "id": "official-mcp-registry",
+      "status": "ok",
+      "items": 165
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+name: Case feedback or missed case
+description: Report a miss, false positive, duplicate, wrong time, wrong stage or weak summary.
+title: "[case] "
+labels: ["case-feedback"]
+body:
+  - type: dropdown
+    id: feedback
+    attributes:
+      label: Feedback type
+      options:
+        - Major missed case
+        - False positive
+        - Duplicate
+        - Wrong event time
+        - Wrong maturity stage
+        - Incorrect or incomplete summary
+    validations:
+      required: true
+  - type: input
+    id: case
+    attributes:
+      label: Product, institution or case title
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Best evidence URL
+    validations:
+      required: true
+  - type: input
+    id: event_time
+    attributes:
+      label: Best known event date
+      placeholder: YYYY-MM-DD, YYYY-MM, quarter, or unknown
+  - type: textarea
+    id: details
+    attributes:
+      label: Correction and reasoning
+    validations:
+      required: true

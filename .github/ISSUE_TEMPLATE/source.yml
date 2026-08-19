@@ -1,0 +1,37 @@
+name: Add a discovery source
+description: Propose a product shelf, regulator, company, marketplace or public feed.
+title: "[source] "
+labels: ["source"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Source name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Public URL
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Source type
+      options:
+        - Product marketplace or registry
+        - Financial institution announcement
+        - Regulator or sandbox
+        - Procurement or filing
+        - Technical repository
+        - News or community
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why this source improves time-window recall
+    validations:
+      required: true
+

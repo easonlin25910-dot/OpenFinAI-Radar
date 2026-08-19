@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "minimum_score": 58,
+  "sources": [
+    {
+      "id": "official-mcp-registry",
+      "type": "mcp_registry",
+      "language": "en",
+      "url_template": "https://registry.modelcontextprotocol.io/v0/servers?limit=100&search={query}",
+      "queries": ["finance", "banking", "investment", "payments", "insurance", "trading"]
+    },
+    {
+      "id": "google-news-en",
+      "type": "rss_search",
+      "language": "en",
+      "url_template": "https://news.google.com/rss/search?q={query}%20when%3A30d&hl=en-US&gl=US&ceid=US%3Aen",
+      "queries": [
+        "AI agent bank launch",
+        "generative AI bank deploy",
+        "artificial intelligence fintech launch",
+        "AI insurance product launch",
+        "AI payments product launch",
+        "AI wealth management launch",
+        "AI lending platform launch",
+        "AI compliance product launch",
+        "AI financial services partnership",
+        "AI bank customer deployment"
+      ]
+    },
+    {
+      "id": "bing-news-en",
+      "type": "rss_search",
+      "language": "en",
+      "url_template": "https://www.bing.com/news/search?q={query}&format=rss&mkt=en-US",
+      "queries": [
+        "AI agent bank launch",
+        "generative AI financial services launched",
+        "AI fintech product launched",
+        "AI insurance deployed",
+        "AI payments partnership",
+        "AI banking goes live"
+      ]
+    },
+    {
+      "id": "google-news-zh",
+      "type": "rss_search",
+      "language": "zh",
+      "url_template": "https://news.google.com/rss/search?q={query}%20when%3A30d&hl=zh-CN&gl=CN&ceid=CN%3Azh-Hans",
+      "queries": [
+        "金融 AI 产品 发布",
+        "银行 人工智能 上线",
+        "金融 智能体 推出",
+        "保险 生成式AI 上线",
+        "支付 AI 产品 发布"
+      ]
+    },
+    {
+      "id": "google-news-ja",
+      "type": "rss_search",
+      "language": "ja",
+      "url_template": "https://news.google.com/rss/search?q={query}%20when%3A30d&hl=ja&gl=JP&ceid=JP%3Aja",
+      "queries": [
+        "金融 AI 導入 銀行",
+        "生成AI 金融 サービス 開始",
+        "AIエージェント 銀行 導入"
+      ]
+    },
+    {
+      "id": "google-news-fr",
+      "type": "rss_search",
+      "language": "fr",
+      "url_template": "https://news.google.com/rss/search?q={query}%20when%3A30d&hl=fr&gl=FR&ceid=FR%3Afr",
+      "queries": [
+        "intelligence artificielle banque lancement",
+        "IA générative services financiers déploie"
+      ]
+    },
+    {
+      "id": "google-news-es",
+      "type": "rss_search",
+      "language": "es",
+      "url_template": "https://news.google.com/rss/search?q={query}%20when%3A30d&hl=es&gl=ES&ceid=ES%3Aes",
+      "queries": [
+        "inteligencia artificial banco lanza",
+        "IA generativa servicios financieros adopta"
+      ]
+    }
+  ]
+}
