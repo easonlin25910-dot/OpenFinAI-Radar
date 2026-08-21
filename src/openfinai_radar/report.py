@@ -153,7 +153,7 @@ def _cards(cases: List[Candidate]) -> str:
     return "\n".join(blocks) or '<p class="empty">本时间窗口没有达到阈值的候选案例。</p>'
 
 
-def render_html(run: Dict[str, object], cases: List[Candidate]) -> str:
+def render_html_legacy(run: Dict[str, object], cases: List[Candidate]) -> str:
     metrics = run["metrics"]  # type: ignore[assignment]
     window = run["window"]  # type: ignore[assignment]
     distributions = run.get("distributions", {})  # type: ignore[assignment]
@@ -251,6 +251,289 @@ footer{{border-top:1px solid var(--line);padding-top:12px;color:var(--muted);fon
 </body></html>"""
 
 
+_PAGE_CSS = """
+:root{--ink:#102a2e;--muted:#617478;--paper:#f3f0e8;--card:#fffdf7;--accent:#0a7069;--line:#d9d5ca;--gold:#d59b35}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font:15px/1.6 ui-sans-serif,system-ui,-apple-system,"PingFang SC",sans-serif}
+header{padding:44px max(5vw,24px) 26px;background:linear-gradient(135deg,#092f34,#0b6b66);color:#fff}
+header h1{font:700 clamp(30px,6vw,62px)/1.05 Georgia,serif;margin:0 0 10px}header p{max-width:760px;color:#d9eeeb}
+.metrics{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:24px;max-width:860px}
+.metric{padding:14px;border:1px solid #ffffff35;border-radius:12px;background:#ffffff10}.metric b{display:block;font-size:22px}
+main{width:min(1160px,94vw);margin:24px auto 80px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 18px}
+.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:8px 16px;font:inherit;font-weight:700;cursor:pointer}
+.tabs button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.notice{padding:14px 16px;border-left:4px solid var(--gold);background:#fff8e6;margin-bottom:18px}
+.filters{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:0 0 14px;padding:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;position:sticky;top:8px;z-index:5;box-shadow:0 8px 24px #1a323214}
+.filters input[type=search],.filters select{min-height:38px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);padding:6px 10px;font:inherit}
+.filters input[type=search]{flex:1 1 220px}
+.filters button{min-height:38px;border:0;border-radius:9px;padding:7px 14px;background:var(--accent);color:#fff;font-weight:700;cursor:pointer}
+.chipbar{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px;align-items:center;font-size:13px;color:var(--muted)}
+.chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:4px 11px;font-size:13px;cursor:pointer}
+.chip.on{background:var(--accent);color:#fff;border-color:var(--accent)}
+.result-count{color:var(--muted);white-space:nowrap;margin-left:auto}
+.distributions{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:12px;margin:0 0 18px}
+.dist{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}.dist h2{font-size:15px;margin:0 0 10px}
+.bar-row{display:grid;grid-template-columns:100px 1fr 68px;align-items:center;gap:8px;margin:7px 0;font-size:12px}.bar-row b{text-align:right;font-weight:600}.bar{height:8px;background:#e5e2d8;border-radius:8px;overflow:hidden}.bar i{display:block;height:100%;background:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:0 7px 22px #1a32320c;display:flex;flex-direction:column}
+.card h2{font:700 19px/1.35 Georgia,"Songti SC",serif;margin:8px 0}
+.meta{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.badge{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:700}
+.badge.watch{background:#dcecea;color:#155d58}.badge.new{background:#e8f4e8;color:#2c6e2c}
+.badge.heat-high{background:#fbe3e3;color:#a33}.badge.heat-medium{background:#fdf3dd;color:#a06b0a}.badge.heat-low{background:#eceef0;color:#617478}
+.source-title{font-size:13px;color:var(--muted);margin:0 0 8px}
+.identity{margin:10px 0;padding:10px 12px;border:1px dashed var(--line);border-radius:10px;font-size:13px}.identity p{margin:3px 0}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0}
+.tag{display:inline-block;background:#dcecea;color:#155d58;padding:2px 8px;border-radius:999px;font-size:12px}
+.insight{margin:10px 0;padding:10px 12px;background:#f4f1e9;border-radius:10px;font-size:14px}.insight h3{font-size:13px;margin:0 0 3px;color:var(--accent)}.insight p{margin:0}.innovation{border-left:3px solid var(--gold)}
+footer{margin-top:auto;border-top:1px solid var(--line);padding-top:10px;color:var(--muted);font-size:12px}a{color:var(--accent)}
+.empty{padding:30px;text-align:center;background:var(--card);border:1px solid var(--line);border-radius:14px;color:var(--muted)}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;overflow:auto}.panel h2{font-size:16px;margin:0 0 12px}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}th{color:var(--muted)}td.num,th.num{text-align:right}
+.heatbar{height:8px;background:#e5e2d8;border-radius:8px;overflow:hidden;display:inline-block;width:100px;vertical-align:middle}.heatbar i{display:block;height:100%;background:var(--gold)}
+#calendar{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.cal-day{border:1px solid var(--line);border-radius:8px;padding:6px;min-height:56px;background:#fff}.cal-day .d{font-size:12px;color:var(--muted)}.cal-day .n{font-size:18px;font-weight:700}
+#region{display:flex;flex-direction:column;gap:10px}.region-row{display:grid;grid-template-columns:70px 1fr 160px;gap:10px;align-items:center;font-size:14px}
+#graph-svg{width:100%;height:640px;display:block}
+.legend{display:flex;gap:14px;margin:8px 0;font-size:12px;color:var(--muted)}.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:4px}
+@media(max-width:720px){.filters{position:static}#calendar{grid-template-columns:repeat(4,1fr)}}
+"""
+
+
+_PAGE_JS = r"""
+(() => {
+  const DATA = JSON.parse(document.getElementById('radar-data').textContent);
+  const cases = DATA.cases || [];
+  const graph = DATA.graph || {nodes: [], edges: []};
+
+  const LAB = {
+    maturity: {"M0":"M0 概念","M1":"M1 演示/原型","M2":"M2 试点/合作","M3":"M3 产品可用/部署","M4":"M4 付费/成效","M5":"M5 规模化"},
+    innovation: {"substantive":"实质创新","application_design":"应用设计创新","incremental":"增量改进","not_demonstrated":"未证明创新"},
+    customer: {"to_b":"TO B","to_c":"TO C","both":"TO B & TO C","undisclosed":"不公开"},
+    category: {"banking_operations":"银行运营","payments_wallets":"支付与钱包","lending_financing":"信贷与融资","insurance":"保险","investment_markets":"投资理财与资本市场","risk_compliance_fraud":"风险合规与反欺诈","fintech_infrastructure":"金融科技基础设施","other_finance":"其他金融场景"},
+    tech: {"foundation_model":"基础模型","rag":"RAG","voice":"语音","copilot":"Copilot","agent_workflow":"Agent 工作流","infrastructure":"基础设施","other":"其他"},
+    heat: {"high":"高热度","medium":"中热度","low":"低热度"}
+  };
+
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const uniq = arr => [...new Set(arr)].sort();
+  const state = {q:'', sort:'heat', cats:new Set(), entities:new Set(), regions:new Set(), watch:false};
+
+  function filtered(){
+    const q = state.q.trim().toLowerCase();
+    const list = cases.filter(c => {
+      if (state.watch && !c.is_watchlist) return false;
+      if (state.cats.size && !(c.product_categories || []).some(x => state.cats.has(x))) return false;
+      if (state.entities.size && !state.entities.has(c.entity)) return false;
+      if (state.regions.size && !state.regions.has(c.region)) return false;
+      if (q) {
+        const hay = (c.product_name + ' ' + (c.title || '') + ' ' + (c.entity || '') + ' ' + (c.summary || '')).toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+    const sorters = {
+      heat: (a,b) => b.heat - a.heat,
+      relevance: (a,b) => b.relevance_score - a.relevance_score,
+      time: (a,b) => String(b.effective_time || '').localeCompare(String(a.effective_time || ''))
+    };
+    return list.sort(sorters[state.sort] || sorters.heat);
+  }
+
+  function cardHTML(c){
+    const cats = (c.product_categories || []).map(x => LAB.category[x] || x);
+    const tags = [LAB.maturity[c.maturity] || c.maturity, c.event_type, LAB.customer[c.customer_type] || c.customer_type, ...cats, c.tech_layer ? (LAB.tech[c.tech_layer] || c.tech_layer) : ''].filter(Boolean);
+    const badges = [];
+    if (c.is_watchlist) badges.push('<span class="badge watch">头部公司</span>');
+    if (c.is_new) badges.push('<span class="badge new">新</span>');
+    badges.push('<span class="badge heat-' + esc(c.heat_level) + '">' + (LAB.heat[c.heat_level] || '') + ' ' + c.heat + '</span>');
+    if ((c.evidence_strength || 1) > 1) badges.push('<span class="badge heat-low">' + c.evidence_strength + ' 源</span>');
+    const official = c.official_url ? '<a href="' + esc(c.official_url) + '" target="_blank" rel="noreferrer">官方地址</a>' : '暂未确认';
+    const links = (c.evidence_urls || []).slice(0, 5).map((u, i) => '<a href="' + esc(u) + '" target="_blank" rel="noreferrer">证据' + (i + 1) + '</a>').join(' · ');
+    return '<article class="card">' +
+      '<div class="meta"><time>' + esc(c.effective_time) + '</time><strong>' + c.relevance_score + '</strong></div>' +
+      '<h2>' + esc(c.product_name || c.title) + '</h2>' +
+      (c.entity ? '<div class="meta">' + esc(c.entity) + (c.region ? ' · ' + esc(c.region) : '') + '</div>' : '') +
+      '<div class="badges">' + badges.join('') + '</div>' +
+      '<p class="source-title">来源标题：' + esc(c.title) + '</p>' +
+      '<div class="identity">' +
+        '<p><b>机构：</b>' + esc(c.entity || '未识别') + '</p>' +
+        '<p><b>分类：</b>' + esc(cats.join('、') || '其他金融场景') + '</p>' +
+        '<p><b>客户类型：</b>' + esc(LAB.customer[c.customer_type] || c.customer_type) + '</p>' +
+        '<p><b>官方地址：</b>' + official + '</p>' +
+      '</div>' +
+      '<div class="tags">' + tags.map(t => '<span class="tag">' + esc(t) + '</span>').join('') + '</div>' +
+      '<p>' + esc(c.summary) + '</p>' +
+      '<div class="insight"><h3>应用场景</h3><p>' + esc(c.application_scenario) + '</p></div>' +
+      '<div class="insight"><h3>预期价值</h3><p>' + esc(c.expected_value) + '</p></div>' +
+      '<div class="insight innovation"><h3>创新判断 · ' + esc(LAB.innovation[c.innovation_level] || c.innovation_level) + '</h3><p>' + esc(c.innovation_assessment) + '</p></div>' +
+      '<footer>' + esc(c.publisher) + ' · ' + links + ' · <a href="' + esc(c.product_search_url) + '" target="_blank" rel="noreferrer">Google 检索</a></footer>' +
+    '</article>';
+  }
+
+  function toggle(set, v){ set.has(v) ? set.delete(v) : set.add(v); }
+
+  function renderChips(){
+    const catVals = uniq(cases.flatMap(c => c.product_categories || []));
+    const entityVals = uniq(cases.map(c => c.entity).filter(Boolean));
+    const regionVals = uniq(cases.map(c => c.region).filter(Boolean));
+    const mk = (v, label, on) => '<button class="chip' + (on ? ' on' : '') + '" data-val="' + esc(v) + '">' + esc(label) + '</button>';
+    document.getElementById('chip-cat').innerHTML = '分类：' + catVals.map(v => mk(v, LAB.category[v] || v, state.cats.has(v))).join('');
+    document.getElementById('chip-entity').innerHTML = '机构：' + entityVals.map(v => mk(v, v, state.entities.has(v))).join('');
+    document.getElementById('chip-region').innerHTML = '地区：' + regionVals.map(v => mk(v, v, state.regions.has(v))).join('');
+    document.querySelectorAll('#chip-cat .chip').forEach(el => el.onclick = () => { toggle(state.cats, el.dataset.val); renderChips(); renderCards(); });
+    document.querySelectorAll('#chip-entity .chip').forEach(el => el.onclick = () => { toggle(state.entities, el.dataset.val); renderChips(); renderCards(); });
+    document.querySelectorAll('#chip-region .chip').forEach(el => el.onclick = () => { toggle(state.regions, el.dataset.val); renderChips(); renderCards(); });
+  }
+
+  function renderCards(){
+    const list = filtered();
+    document.getElementById('result-count').textContent = '显示 ' + list.length + ' / ' + cases.length;
+    document.getElementById('case-grid').innerHTML = list.map(cardHTML).join('') || '<p class="empty">没有符合条件的候选案例。</p>';
+  }
+
+  function renderBoard(){
+    const m = {};
+    cases.forEach(c => { if (!c.entity) return; m[c.entity] = m[c.entity] || {count:0, heat:0, region:c.region}; m[c.entity].count++; m[c.entity].heat += c.heat; });
+    const rows = Object.entries(m).sort((a,b) => b[1].heat - a[1].heat).map(([k,v]) =>
+      '<tr><td>' + esc(k) + '</td><td>' + esc(v.region || '') + '</td><td class="num">' + v.count + '</td><td class="num"><span class="heatbar"><i style="width:' + Math.min(100, v.heat) + '%"></i></span> ' + v.heat + '</td></tr>').join('');
+    document.getElementById('board').innerHTML = '<thead><tr><th>机构</th><th>地区</th><th class="num">案例数</th><th class="num">热度合计</th></tr></thead><tbody>' + rows + '</tbody>';
+  }
+
+  function renderCalendar(){
+    const counts = {}; cases.forEach(c => { counts[c.effective_time] = (counts[c.effective_time] || 0) + 1; });
+    const win = DATA.window; const start = new Date(win.start); const end = new Date(win.end);
+    const days = []; for (let d = new Date(start); d <= end; d.setDate(d.getDate() + 1)) days.push(d.toISOString().slice(0, 10));
+    const max = Math.max(1, ...Object.values(counts));
+    document.getElementById('calendar').innerHTML = days.map(d => {
+      const n = counts[d] || 0; const alpha = n ? 0.12 + 0.88 * n / max : 0;
+      return '<div class="cal-day" style="background:rgba(10,112,105,' + alpha.toFixed(2) + ')">' +
+        '<div class="d">' + d.slice(5) + '</div><div class="n" style="color:' + (n > 0 ? '#fff' : '#617478') + '">' + n + '</div></div>';
+    }).join('');
+  }
+
+  function renderRegion(){
+    const m = {};
+    cases.forEach(c => { const r = c.region || '未知'; m[r] = m[r] || {count:0, heat:0}; m[r].count++; m[r].heat += c.heat; });
+    const max = Math.max(1, ...Object.values(m).map(v => v.heat));
+    document.getElementById('region').innerHTML = Object.entries(m).sort((a,b) => b[1].heat - a[1].heat).map(([r,v]) =>
+      '<div class="region-row"><span>' + esc(r) + '</span><span class="heatbar" style="width:100%"><i style="width:' + (v.heat / max * 100) + '%"></i></span><span class="num">' + v.count + ' 例 / ' + v.heat + ' 热度</span></div>').join('');
+  }
+
+  function renderGraph(){
+    const svg = document.getElementById('graph-svg');
+    const W = 1000, H = 640;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    const nodes = graph.nodes.map(n => Object.assign({}, n, {x: Math.random() * W, y: Math.random() * H, vx: 0, vy: 0}));
+    const byId = {}; nodes.forEach(n => byId[n.id] = n);
+    const links = graph.edges.filter(e => byId[e.source] && byId[e.target]).map(e => ({s: byId[e.source], t: byId[e.target], w: e.weight || 1}));
+    const color = n => ({case:'#0a7069', entity:'#d59b35', source:'#8a7fb0'}[n.type] || '#999');
+    const radius = n => n.type === 'case' ? 5 + Math.min(12, (n.heat || 0) / 10) : (n.type === 'entity' ? 9 : 5);
+    for (let it = 0; it < 200; it++) {
+      for (let i = 0; i < nodes.length; i++) for (let j = i + 1; j < nodes.length; j++) {
+        const a = nodes[i], b = nodes[j]; let dx = a.x - b.x, dy = a.y - b.y; let d2 = dx * dx + dy * dy; if (d2 < 1) { dx = Math.random() - 0.5; dy = Math.random() - 0.5; d2 = 1; }
+        const d = Math.sqrt(d2), f = 1400 / d2; a.vx += dx / d * f; a.vy += dy / d * f; b.vx -= dx / d * f; b.vy -= dy / d * f;
+      }
+      links.forEach(l => { const dx = l.t.x - l.s.x, dy = l.t.y - l.s.y; const d = Math.sqrt(dx * dx + dy * dy) || 1; const f = (d - 90) * 0.03; l.s.vx += dx / d * f; l.s.vy += dy / d * f; l.t.vx -= dx / d * f; l.t.vy -= dy / d * f; });
+      nodes.forEach(n => { n.vx = (n.vx + (W / 2 - n.x) * 0.02) * 0.85; n.vy = (n.vy + (H / 2 - n.y) * 0.02) * 0.85; n.x = Math.max(15, Math.min(W - 15, n.x + n.vx)); n.y = Math.max(15, Math.min(H - 15, n.y + n.vy)); });
+    }
+    const lines = links.map(l => '<line x1="' + l.s.x + '" y1="' + l.s.y + '" x2="' + l.t.x + '" y2="' + l.t.y + '" stroke="#c9c4b8" stroke-width="' + Math.min(3, 0.4 + l.w * 0.6) + '"/>').join('');
+    const gs = nodes.map(n => '<g class="gnode" transform="translate(' + n.x.toFixed(1) + ',' + n.y.toFixed(1) + ')" data-id="' + esc(n.id) + '" data-type="' + esc(n.type) + '" data-label="' + esc(n.label) + '"><circle r="' + radius(n) + '" fill="' + color(n) + '" stroke="#fff"/><text y="' + (radius(n) + 12) + '" text-anchor="middle" font-size="10">' + esc(n.label) + '</text></g>').join('');
+    svg.innerHTML = lines + gs;
+    svg.querySelectorAll('.gnode').forEach(g => g.addEventListener('click', () => {
+      const n = byId[g.dataset.id];
+      state.q = ''; state.cats.clear(); state.entities.clear(); state.regions.clear();
+      if (n.type === 'entity') state.entities.add(n.label);
+      else if (n.type === 'case') state.q = n.label;
+      document.getElementById('search').value = state.q;
+      renderChips(); show('view-cards'); renderCards();
+    }));
+  }
+
+  function show(view){
+    document.querySelectorAll('.view').forEach(v => v.hidden = (v.id !== view));
+    document.querySelectorAll('.tabs button').forEach(b => b.classList.toggle('active', b.dataset.view === view));
+  }
+
+  document.getElementById('search').addEventListener('input', e => { state.q = e.target.value; renderCards(); });
+  document.getElementById('sort').addEventListener('change', e => { state.sort = e.target.value; renderCards(); });
+  document.getElementById('watch').addEventListener('change', e => { state.watch = e.target.checked; renderCards(); });
+  document.getElementById('reset').addEventListener('click', () => {
+    state.q = ''; state.cats.clear(); state.entities.clear(); state.regions.clear(); state.watch = false;
+    document.getElementById('search').value = ''; document.getElementById('watch').checked = false; document.getElementById('sort').value = 'heat';
+    renderChips(); renderCards();
+  });
+  document.getElementById('csv').addEventListener('click', () => {
+    const cols = ['product_name','entity','region','maturity','event_type','innovation_level','customer_type','tech_layer','heat','heat_level','relevance_score','effective_time','title'];
+    const head = cols.join(',');
+    const body = filtered().map(c => cols.map(k => '"' + String(c[k] == null ? '' : c[k]).replace(/"/g, '""') + '"').join(',')).join('\n');
+    const blob = new Blob(['\ufeff' + head + '\n' + body], {type: 'text/csv;charset=utf-8'});
+    const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'openfinai-radar.csv'; a.click();
+  });
+  document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => show(b.dataset.view)));
+
+  renderChips(); renderCards(); renderBoard(); renderCalendar(); renderRegion(); renderGraph(); show('view-cards');
+})();
+"""
+
+
+def render_html(
+    run: Dict[str, object],
+    cases: List[Candidate],
+    graph: Optional[Dict[str, object]] = None,
+) -> str:
+    metrics = run["metrics"]  # type: ignore[assignment]
+    window = run["window"]  # type: ignore[assignment]
+    distributions = run.get("distributions", {})  # type: ignore[assignment]
+    total = len(cases)
+    charts = "".join(
+        [
+            _distribution_chart("成熟阶段", "maturity", distributions.get("maturity", {}), total),
+            _distribution_chart("商业化事件", "event_type", distributions.get("event_type", {}), total),
+            _distribution_chart("相关度", "relevance", distributions.get("relevance", {}), total),
+            _distribution_chart("创新判断", "innovation", distributions.get("innovation", {}), total),
+        ]
+    )
+    data = {
+        "window": window,
+        "metrics": metrics,
+        "cases": [case.to_dict() for case in cases],
+        "graph": graph or {"nodes": [], "edges": []},
+    }
+    data_json = (
+        json.dumps(data, ensure_ascii=False)
+        .replace("<", "\\u003c")
+        .replace(">", "\\u003e")
+        .replace("&", "\\u0026")
+    )
+    return f"""<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>OpenFinAI Radar</title>
+<style>{_PAGE_CSS}</style></head><body>
+<header><h1>OpenFinAI Radar</h1><p>以时间窗口和证据链为核心的全球金融AI创新发现雷达。自动结果是候选情报，不等于事实核验。</p>
+<div class="metrics"><div class="metric"><b>{metrics['accepted_candidates']}</b>候选案例</div><div class="metric"><b>{metrics['raw_items']}</b>原始信息</div><div class="metric"><b>{metrics.get('watchlist_candidates', 0)}</b>头部公司</div><div class="metric"><b>{metrics.get('hot_candidates', 0)}</b>高热度</div><div class="metric"><b>{metrics['source_success_rate']}%</b>来源成功率</div></div></header>
+<main>
+<nav class="tabs"><button data-view="view-cards" class="active">卡片</button><button data-view="view-graph">图谱</button><button data-view="view-board">机构榜</button><button data-view="view-calendar">热力日历</button><button data-view="view-region">地区分布</button></nav>
+<div class="notice">窗口：{window['start']} 至 {window['end']}。本页展示 {total} 条候选。真实产品发布时间及自动推断内容仍需人工核验。</div>
+<section id="view-cards" class="view">
+  <div class="filters"><input id="search" type="search" placeholder="搜索产品 / 机构 / 标题…"><select id="sort"><option value="heat">按热度</option><option value="relevance">按相关度</option><option value="time">按时间</option></select><label><input id="watch" type="checkbox"> 只看头部公司</label><button id="reset" type="button">重置</button><button id="csv" type="button">导出 CSV</button><span class="result-count" id="result-count"></span></div>
+  <div id="chip-cat" class="chipbar"></div>
+  <div id="chip-entity" class="chipbar"></div>
+  <div id="chip-region" class="chipbar"></div>
+  <div class="distributions">{charts}</div>
+  <div class="grid" id="case-grid"></div>
+</section>
+<section id="view-graph" class="view" hidden><div class="panel"><h2>产品 ↔ 机构 ↔ 来源 关系图谱</h2><div class="legend"><span><i style="background:#0a7069"></i>案例</span><span><i style="background:#d59b35"></i>机构</span><span><i style="background:#8a7fb0"></i>来源</span><span style="margin-left:auto">点击节点可联动筛选卡片</span></div><svg id="graph-svg"></svg></div></section>
+<section id="view-board" class="view" hidden><div class="panel"><h2>机构热度排行榜</h2><table id="board"></table></div></section>
+<section id="view-calendar" class="view" hidden><div class="panel"><h2>30 天发现节奏</h2><div id="calendar"></div></div></section>
+<section id="view-region" class="view" hidden><div class="panel"><h2>地区热度分布</h2><div id="region"></div></div></section>
+</main>
+<script type="application/json" id="radar-data">{data_json}</script>
+<script>{_PAGE_JS}</script>
+</body></html>"""
+
+
 def render_markdown(run: Dict[str, object], cases: List[Candidate]) -> str:
     window = run["window"]  # type: ignore[assignment]
     metrics = run["metrics"]  # type: ignore[assignment]
@@ -336,4 +619,4 @@ def write_reports(
             json.dump(graph, handle, ensure_ascii=False, indent=2)
             handle.write("\n")
     (output_dir / "report.md").write_text(render_markdown(run, cases), encoding="utf-8")
-    site_path.write_text(render_html(run, cases), encoding="utf-8")
+    site_path.write_text(render_html(run, cases, graph=graph), encoding="utf-8")

@@ -8,7 +8,7 @@ from openfinai_radar.report import render_html
 
 
 class ReportTests(unittest.TestCase):
-    def test_html_contains_composable_filters_and_card_data(self):
+    def test_html_contains_tabs_graph_and_card_data(self):
         candidate = classify_item(
             RawItem(
                 source_id="fixture",
@@ -25,27 +25,33 @@ class ReportTests(unittest.TestCase):
             "metrics": {
                 "accepted_candidates": 1,
                 "raw_items": 1,
-                "deduplicated_items": 0,
                 "source_success_rate": 100.0,
             },
             "distributions": build_distributions([candidate]),
         }
-        page = render_html(run, [candidate])
-        self.assertIn('id="stage-filter"', page)
-        self.assertIn('id="relevance-filter"', page)
-        self.assertIn('id="innovation-filter"', page)
-        self.assertIn('id="customer-filter"', page)
-        self.assertIn('id="category-filter"', page)
-        self.assertIn('data-stage="M3"', page)
-        self.assertIn('data-relevance="', page)
-        self.assertIn('data-innovation="', page)
-        self.assertIn('data-customer="', page)
-        self.assertIn('data-categories="', page)
+        graph = {
+            "nodes": [
+                {"id": "c1", "type": "case", "label": "demo", "heat": 30, "relevance": 80, "is_watchlist": False}
+            ],
+            "edges": [],
+        }
+        page = render_html(run, [candidate], graph=graph)
+        self.assertIn('id="radar-data"', page)
+        self.assertIn('id="view-graph"', page)
+        self.assertIn('id="view-board"', page)
+        self.assertIn('id="view-calendar"', page)
+        self.assertIn('id="view-region"', page)
+        self.assertIn('id="search"', page)
+        self.assertIn('id="sort"', page)
+        self.assertIn('id="csv"', page)
+        self.assertIn('graph-svg', page)
+        self.assertIn("renderGraph", page)
+        self.assertIn("renderCalendar", page)
+        self.assertIn("renderBoard", page)
         self.assertIn("product_name", candidate.to_dict())
         self.assertIn("product_categories", candidate.to_dict())
-        self.assertIn("applyFilters", page)
-        self.assertIn("  applyFilters();\n})();", page)
-        self.assertIn("URLSearchParams", page)
+        self.assertIn('"heat"', page)
+        self.assertIn('"entity"', page)
 
 
 if __name__ == "__main__":
