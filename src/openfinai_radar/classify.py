@@ -24,7 +24,7 @@ TERM_GROUPS: Dict[str, Dict[str, Sequence[str]]] = {
             "compliance", "anti-money laundering", "aml", "fraud", "risk management",
             "合规", "反洗钱", "风控", "不正検知", "conformité",
         ),
-        "fintech": ("fintech", "financial services", "金融科技", "金融サービス", "servicios financieros"),
+        "fintech": ("finance", "fintech", "financial services", "金融科技", "金融サービス", "servicios financieros"),
         "financial_brand": (
             "alipay", "ant group", "razorpay", "stripe", "paypal", "plaid", "klarna", "revolut",
             "visa", "mastercard", "american express", "bloomberg", "lseg", "nasdaq", "swift",
@@ -38,6 +38,8 @@ TERM_GROUPS: Dict[str, Dict[str, Sequence[str]]] = {
         "generative_ai": (
             "generative ai", "genai", "large language model", "llm", "生成式ai", "生成式人工智能",
             "生成ai", "生成ＡＩ", "ia générative", "inteligencia artificial generativa",
+            "foundation model", "foundation models", "vertical model", "domain-specific model",
+            "domain specific model", "基础模型", "基座模型", "金融大模型",
         ),
         "machine_learning": (
             "artificial intelligence", "machine learning", " ai ", "人工智能", "机器学习",
@@ -200,6 +202,25 @@ def same_named_event(left: str, right: str) -> bool:
     a = {token for token in title_tokens(left) if token not in GENERIC_EVENT_TOKENS and len(token) > 3}
     b = {token for token in title_tokens(right) if token not in GENERIC_EVENT_TOKENS and len(token) > 3}
     return len(a & b) >= 2
+
+
+_CJK_RE = re.compile(r"[\u4e00-\u9fff\u3040-\u30ff]")
+
+
+def _term_in(text: str, term: str) -> bool:
+    """Match a term against normalized text without substring false positives.
+
+    CJK and multi-word terms are matched as substrings (CJK has no whitespace
+    boundaries); single ASCII tokens are matched as whole words so e.g. ``api``
+    no longer matches inside ``capital``.
+    """
+    term = term.strip()
+    if not term:
+        return False
+    if " " in term or _CJK_RE.search(term):
+        return term.lower() in text
+    pattern = rf"(?<![A-Za-z0-9]){re.escape(term)}(?![A-Za-z0-9])"
+    return re.search(pattern, text, flags=re.IGNORECASE) is not None
 
 
 def _matches(text: str, words: Iterable[str]) -> List[str]:
@@ -450,8 +471,8 @@ def _product_identity(item: RawItem) -> Tuple[str, str, str, str, str]:
 
 
 def _customer_type(text: str) -> Tuple[str, str]:
-    business_signals = sorted({term for term in TO_B_TERMS if term in text})
-    consumer_signals = sorted({term for term in TO_C_TERMS if term in text})
+    business_signals = sorted({term for term in TO_B_TERMS if _term_in(text, term)})
+    consumer_signals = sorted({term for term in TO_C_TERMS if _term_in(text, term)})
     if business_signals and consumer_signals:
         return (
             "both",
@@ -479,6 +500,34 @@ def _product_categories(domains: Sequence[str]) -> List[str]:
     if not categories:
         return ["other_finance"]
     return [category for category in PRODUCT_CATEGORY_ORDER if category in categories]
+
+
+def _tech_layer(text: str, ai_types: List[str]) -> str:
+    """Classify the AI capability layer, preferring the most specific signal."""
+    if any(
+        term in text
+        for term in (
+            "foundation model", "vertical model", "domain-specific model",
+            "large language model", "llm", "基础模型", "基座模型", "金融大模型",
+        )
+    ):
+        return "foundation_model"
+    if any(term in text for term in ("rag", "retrieval augmented", "检索增强")):
+        return "rag"
+    if any(
+        term in text
+        for term in ("voicebot", "voice", "speech", "语音", "音声", "オペレーター")
+    ):
+        return "voice"
+    if any(term in text for term in ("copilot", "assistant", "chatbot", "助手", "アシスタント")):
+        return "copilot"
+    if "agent" in ai_types or any(
+        term in text for term in ("agentic", "multi-agent", "智能体", "エージェント")
+    ):
+        return "agent_workflow"
+    if any(term in text for term in ("api", "sdk", "infrastructure", "developer", "基础设施")):
+        return "infrastructure"
+    return "other"
 
 
 def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
@@ -511,6 +560,11 @@ def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
     status = "estimated_from_evidence" if effective.kind != "system_discovery" else "discovery_time_only"
     domains = _group_names(signals, "finance")
     ai_types = _group_names(signals, "ai")
+    if item.is_watchlist:
+        if not domains and item.entity_role in ("finance_giant", "crypto_giant"):
+            domains = ["fintech"]
+        if not ai_types and item.entity_role == "ai_giant":
+            ai_types = ["machine_learning"]
     product_name, product_name_status, product_search_url, official_url, official_url_status = (
         _product_identity(item)
     )
@@ -520,14 +574,23 @@ def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
     innovation_level, innovation_assessment, innovation_signals = _innovation_assessment(
         combined, ai_types
     )
+    tech_layer = _tech_layer(combined, ai_types)
+    channel = item.channel or (
+        "marketplace" if item.source_kind == "mcp_registry" else "news"
+    )
     domain_text = "、".join(FINANCE_LABELS.get(domain, domain) for domain in domains) or "待确认金融场景"
     summary = (
         f"该候选涉及{domain_text}，被识别为{EVENT_LABELS.get(event_type, event_type)}，"
         f"成熟度暂定{maturity}。当前判断依据{item.publisher}公开的标题或短摘要；"
         "业务事件时间、产品能力和应用效果仍需原始来源核验。"
     )
-    has_required_signals = bool(domains and ai_types and _group_names(signals, "event"))
-    review_status = "needs_review" if score >= minimum_score and has_required_signals else "below_threshold"
+    event_signals = _group_names(signals, "event")
+    if item.is_watchlist:
+        has_required_signals = bool(event_signals)
+        review_status = "needs_review" if has_required_signals else "below_threshold"
+    else:
+        has_required_signals = bool(domains and ai_types and event_signals)
+        review_status = "needs_review" if score >= minimum_score and has_required_signals else "below_threshold"
     return Candidate(
         id=identifier,
         title=item.title,
@@ -567,4 +630,18 @@ def classify_item(item: RawItem, minimum_score: int = 58) -> Candidate:
         innovation_signals=innovation_signals,
         review_status=review_status,
         signals=signals,
+        entity=item.entity,
+        entity_role=item.entity_role,
+        region=item.region,
+        is_watchlist=item.is_watchlist,
+        tech_layer=tech_layer,
+        channels=[channel],
+        evidence=[
+            {
+                "url": item.url,
+                "source_id": item.source_id,
+                "channel": channel,
+                "published_at": evidence_time or "",
+            }
+        ],
     )

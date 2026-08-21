@@ -4,7 +4,7 @@ import html
 import json
 import urllib.parse
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 from .models import Candidate
 
@@ -320,6 +320,7 @@ def write_reports(
     site_path: Path,
     run: Dict[str, object],
     cases: List[Candidate],
+    graph: Optional[Dict[str, object]] = None,
 ) -> None:
     output_dir.mkdir(parents=True, exist_ok=True)
     site_path.parent.mkdir(parents=True, exist_ok=True)
@@ -330,5 +331,9 @@ def write_reports(
     with (output_dir / "run.json").open("w", encoding="utf-8") as handle:
         json.dump(run, handle, ensure_ascii=False, indent=2)
         handle.write("\n")
+    if graph is not None:
+        with (output_dir / "graph.json").open("w", encoding="utf-8") as handle:
+            json.dump(graph, handle, ensure_ascii=False, indent=2)
+            handle.write("\n")
     (output_dir / "report.md").write_text(render_markdown(run, cases), encoding="utf-8")
     site_path.write_text(render_html(run, cases), encoding="utf-8")

@@ -37,7 +37,20 @@ class RawItem:
     description: str = ""
     query: str = ""
     language: str = "en"
+    channel: str = ""
+    entity: Optional[str] = None
+    entity_role: str = ""
+    region: str = ""
+    is_watchlist: bool = False
     fetched_at: datetime = field(default_factory=lambda: datetime.now(timezone.utc))
+
+
+@dataclass
+class FetchResult:
+    """Result of fetching one source, including non-fatal per-query errors."""
+
+    items: List[RawItem] = field(default_factory=list)
+    errors: List[str] = field(default_factory=list)
 
 
 @dataclass
@@ -81,6 +94,17 @@ class Candidate:
     review_status: str = "needs_review"
     duplicate_titles: List[str] = field(default_factory=list)
     signals: Dict[str, List[str]] = field(default_factory=dict)
+    entity: Optional[str] = None
+    entity_role: str = ""
+    region: str = ""
+    is_watchlist: bool = False
+    tech_layer: str = ""
+    channels: List[str] = field(default_factory=list)
+    evidence: List[Dict[str, str]] = field(default_factory=list)
+    heat: int = 0
+    heat_level: str = "low"
+    is_new: bool = True
+    delta: int = 0
 
     def to_dict(self) -> Dict[str, object]:
         return asdict(self)

@@ -107,6 +107,28 @@ class ClassifierTests(unittest.TestCase):
         self.assertEqual(result.official_url, "https://razorpay.com/")
         self.assertEqual(result.official_url_status, "official_company_homepage")
 
+    def test_api_token_does_not_match_inside_capital(self):
+        result = classify_item(
+            self.make_item("Acme launches AI platform for capital markets intelligence")
+        )
+        self.assertEqual(result.customer_type, "undisclosed")
+
+    def test_foundation_model_without_ai_keyword_is_accepted(self):
+        result = classify_item(
+            self.make_item("Razorpay launches payments foundation model for fraud detection")
+        )
+        self.assertEqual(result.review_status, "needs_review")
+        self.assertIn("generative_ai", result.ai_types)
+
+    def test_watchlist_entity_surfaces_event_without_finance_ai_keywords(self):
+        item = self.make_item("OpenAI launches finance agent")
+        item.entity = "OpenAI"
+        item.entity_role = "ai_giant"
+        item.is_watchlist = True
+        result = classify_item(item)
+        self.assertEqual(result.review_status, "needs_review")
+        self.assertIn("machine_learning", result.ai_types)
+
 
 if __name__ == "__main__":
     unittest.main()

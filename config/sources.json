@@ -84,6 +84,55 @@
         "inteligencia artificial banco lanza",
         "IA generativa servicios financieros adopta"
       ]
+    },
+    {
+      "id": "gdelt-news",
+      "type": "gdelt",
+      "language": "en",
+      "queries": [
+        "bank artificial intelligence",
+        "fintech generative AI",
+        "insurance artificial intelligence",
+        "payments AI",
+        "wealth management artificial intelligence",
+        "lending AI"
+      ]
+    },
+    {
+      "id": "github-repos",
+      "type": "github",
+      "language": "en",
+      "queries": [
+        "fintech ai",
+        "finance llm",
+        "trading ai",
+        "banking ai",
+        "payments ai"
+      ]
+    },
+    {
+      "id": "hacker-news",
+      "type": "hackernews",
+      "language": "en",
+      "queries": [
+        "fintech AI",
+        "banking AI",
+        "finance LLM",
+        "payments AI"
+      ]
+    },
+    {
+      "id": "product-hunt",
+      "type": "product_hunt",
+      "language": "en",
+      "queries": []
+    },
+    {
+      "id": "watchlist-news",
+      "type": "watchlist",
+      "language": "en",
+      "keyword": "AI",
+      "url_template": "https://news.google.com/rss/search?q={query}%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen"
     }
   ]
 }

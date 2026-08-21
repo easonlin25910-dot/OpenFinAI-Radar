@@ -30,6 +30,11 @@ jobs:
         run: python -m openfinai_radar run --days "${{ inputs.days || '30' }}"
         env:
           PYTHONPATH: src
+          GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+          PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
+          HUGGINGFACE_TOKEN: ${{ secrets.HUGGINGFACE_TOKEN }}
+          LARK_WEBHOOK: ${{ secrets.LARK_WEBHOOK }}
+          LARK_SECRET: ${{ secrets.LARK_SECRET }}
       - name: Commit changed reports
         run: |
           if git diff --quiet -- outputs site; then
@@ -41,4 +46,3 @@ jobs:
           git add outputs/latest site/index.html
           git commit -m "data: refresh 30-day radar"
           git push
-
