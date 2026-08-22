@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-08-21T12:13:24.153486+00:00",
+  "generated_at": "2026-08-22T04:04:20.373271+00:00",
   "window": {
     "days": 30,
-    "start": "2026-07-23",
-    "end": "2026-08-21"
+    "start": "2026-07-24",
+    "end": "2026-08-22"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,79 +12,80 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 3823,
-    "items_in_window": 3666,
-    "accepted_candidates": 413,
+    "raw_items": 3753,
+    "items_in_window": 3566,
+    "accepted_candidates": 373,
     "reported_candidates": 250,
-    "deduplicated_items": 230,
-    "below_threshold": 3023,
-    "source_success_rate": 100.0,
-    "sources_ok": 11,
-    "sources_partial": 1,
+    "deduplicated_items": 188,
+    "below_threshold": 3005,
+    "source_success_rate": 91.7,
+    "sources_ok": 9,
+    "sources_partial": 2,
     "sources_total": 12,
-    "watchlist_candidates": 206,
-    "new_candidates": 250,
+    "watchlist_candidates": 197,
+    "new_candidates": 116,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
-      "status": "ok",
-      "items": 55,
-      "errors": []
+      "status": "partial",
+      "items": 50,
+      "errors": [
+        "generative AI financial services launched: parse error not well-formed (invalid token): line 1, column 41"
+      ]
     },
     {
       "id": "gdelt-news",
       "status": "partial",
-      "items": 36,
+      "items": 348,
       "errors": [
-        "bank artificial intelligence: HTTP Error 429: Too Many Requests",
-        "fintech generative AI: Expecting value: line 1 column 1 (char 0)",
-        "insurance artificial intelligence: HTTP Error 429: Too Many Requests",
-        "payments AI: Expecting value: line 1 column 1 (char 0)",
+        "fintech generative AI: HTTP Error 429: Too Many Requests",
+        "payments AI: HTTP Error 429: Too Many Requests",
+        "wealth management artificial intelligence: HTTP Error 429: Too Many Requests",
         "lending AI: HTTP Error 429: Too Many Requests"
       ]
     },
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 72,
+      "items": 12,
       "errors": []
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 580,
+      "items": 592,
       "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 75,
+      "items": 76,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 62,
+      "items": 65,
       "errors": []
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 139,
+      "items": 142,
       "errors": []
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 118,
+      "items": 100,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 9,
+      "items": 11,
       "errors": []
     },
     {
@@ -95,42 +96,44 @@
     },
     {
       "id": "product-hunt",
-      "status": "ok",
-      "items": 20,
-      "errors": []
+      "status": "error",
+      "items": 0,
+      "errors": [
+        "PRODUCTHUNT_TOKEN not set"
+      ]
     },
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 2490,
+      "items": 2190,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M2": 43,
-      "M5": 45,
-      "M3": 159,
-      "M4": 3
+      "M3": 162,
+      "M2": 41,
+      "M5": 43,
+      "M4": 4
     },
     "event_type": {
-      "commercial_agreement": 32,
-      "scale": 45,
-      "product_launch": 122,
-      "customer_deployment": 37,
-      "pilot": 14
+      "product_launch": 124,
+      "commercial_agreement": 34,
+      "scale": 43,
+      "customer_deployment": 38,
+      "pilot": 11
     },
     "relevance": {
-      "90-100": 12,
-      "75-89": 25,
-      "60-74": 56,
-      "<60": 157
+      "90-100": 8,
+      "75-89": 27,
+      "60-74": 69,
+      "<60": 146
     },
     "innovation": {
-      "application_design": 15,
-      "not_demonstrated": 215,
-      "substantive": 11,
-      "incremental": 9
+      "not_demonstrated": 218,
+      "incremental": 10,
+      "application_design": 10,
+      "substantive": 12
     }
   }
 }
