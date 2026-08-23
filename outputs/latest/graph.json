@@ -1,17 +1,47 @@
 {
   "nodes": [
     {
-      "id": "finai-c268e4a7b554",
+      "id": "finai-de6e25041a32",
       "type": "case",
-      "label": "Google AI Edge Eloquent",
+      "label": "Fatimahomran25 未公开名称AI产品",
+      "heat": 24,
+      "relevance": 82,
+      "is_watchlist": false
+    },
+    {
+      "id": "source:github-repos",
+      "type": "source",
+      "label": "github-repos",
+      "channel": "code"
+    },
+    {
+      "id": "finai-1437e341aa0a",
+      "type": "case",
+      "label": "LA00001 未公开名称AI产品",
+      "heat": 24,
+      "relevance": 78,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-aef9a6597b08",
+      "type": "case",
+      "label": "MohamedIdhries 未公开名称AI产品",
+      "heat": 24,
+      "relevance": 78,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-b4df70ea5284",
+      "type": "case",
+      "label": "simplywall.st 未公开名称AI产品",
       "heat": 36,
       "relevance": 42,
       "is_watchlist": true
     },
     {
-      "id": "entity:Google",
+      "id": "entity:Meta",
       "type": "entity",
-      "label": "Google",
+      "label": "Meta",
       "region": "US"
     },
     {
@@ -21,51 +51,37 @@
       "channel": "news"
     },
     {
-      "id": "finai-cdb530672a53",
+      "id": "finai-a340d6def6e5",
       "type": "case",
-      "label": "TechGig 未公开名称AI产品",
+      "label": "Alibaba AI Music Model",
       "heat": 36,
       "relevance": 42,
       "is_watchlist": true
     },
     {
-      "id": "entity:Microsoft",
+      "id": "entity:Alibaba",
       "type": "entity",
-      "label": "Microsoft",
-      "region": "US"
+      "label": "Alibaba",
+      "region": "CN"
     },
     {
-      "id": "finai-e965eb897a95",
+      "id": "finai-e3b58cb20b36",
       "type": "case",
-      "label": "Portal ERP 未公开名称AI产品",
+      "label": "Wowtale 未公开名称AI产品",
       "heat": 36,
-      "relevance": 42,
+      "relevance": 40,
       "is_watchlist": true
     },
     {
-      "id": "entity:Scale AI",
+      "id": "entity:NVIDIA",
       "type": "entity",
-      "label": "Scale AI",
+      "label": "NVIDIA",
       "region": "US"
     },
     {
-      "id": "finai-aa68f3d376fb",
+      "id": "finai-ff650a2b7243",
       "type": "case",
-      "label": "Podiatrist let unlicensed salesman perform surgery, then billed Medicare; Novo Nordisk 未公开名称AI产品",
-      "heat": 36,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:OpenAI",
-      "type": "entity",
-      "label": "OpenAI",
-      "region": "US"
-    },
-    {
-      "id": "finai-3be1cd5e5943",
-      "type": "case",
-      "label": "blockchain.news 未公开名称AI产品",
+      "label": "Bitcoin News 未公开名称AI产品",
       "heat": 36,
       "relevance": 22,
       "is_watchlist": true
@@ -77,26 +93,652 @@
       "region": "US"
     },
     {
-      "id": "finai-7c0c50511f53",
+      "id": "finai-fbd59fb5d78f",
       "type": "case",
-      "label": "AMBCrypto 未公开名称AI产品",
-      "heat": 38,
-      "relevance": 22,
+      "label": "Microsoft Agent Lightning v1.0",
+      "heat": 35,
+      "relevance": 84,
       "is_watchlist": true
     },
     {
-      "id": "finai-9f76af133ab2",
+      "id": "entity:Microsoft",
+      "type": "entity",
+      "label": "Microsoft",
+      "region": "US"
+    },
+    {
+      "id": "finai-028b6033384d",
+      "type": "case",
+      "label": "MetaComp world's first AI agent governance framework for regulated financial services",
+      "heat": 25,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "source:google-news-en",
+      "type": "source",
+      "label": "google-news-en",
+      "channel": "news"
+    },
+    {
+      "id": "finai-cf1b240ba346",
+      "type": "case",
+      "label": "Portal ERP 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 64,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:ServiceNow",
+      "type": "entity",
+      "label": "ServiceNow",
+      "region": "US"
+    },
+    {
+      "id": "finai-4213c512ef00",
+      "type": "case",
+      "label": "Galgotias University AI & ML B.TECH Degree",
+      "heat": 39,
+      "relevance": 64,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-e28cc654d91f",
+      "type": "case",
+      "label": "Coinbase x402 AI Agent App Store",
+      "heat": 35,
+      "relevance": 62,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Coinbase",
+      "type": "entity",
+      "label": "Coinbase",
+      "region": "US"
+    },
+    {
+      "id": "finai-f860216d0911",
+      "type": "case",
+      "label": "Microsoft TokenOps for AI Agent Cost Control",
+      "heat": 35,
+      "relevance": 62,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-94356629c63a",
+      "type": "case",
+      "label": "Ad-hoc-news.de 未公开名称AI产品",
+      "heat": 25,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-8edaab7b3a9d",
+      "type": "case",
+      "label": "VOZIQ AI Predictive Subscriber Churn Reduction Solution on Google Cloud Marketplace",
+      "heat": 37,
+      "relevance": 60,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Google",
+      "type": "entity",
+      "label": "Google",
+      "region": "US"
+    },
+    {
+      "id": "finai-a1846e1a1df3",
+      "type": "case",
+      "label": "Yahoo Finance 未公开名称AI产品",
+      "heat": 53,
+      "relevance": 60,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-dbad8aa98f4d",
+      "type": "case",
+      "label": "openPR.com 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 44,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-c3929c710b14",
+      "type": "case",
+      "label": "Yahoo Finance 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 44,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Crypto.com",
+      "type": "entity",
+      "label": "Crypto.com",
+      "region": "SG"
+    },
+    {
+      "id": "finai-af2cb29e6777",
+      "type": "case",
+      "label": "InteractiveCrypto 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Oracle",
+      "type": "entity",
+      "label": "Oracle",
+      "region": "US"
+    },
+    {
+      "id": "finai-9ca1e200e22a",
+      "type": "case",
+      "label": "blockchain.news 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-4fe07f15939c",
+      "type": "case",
+      "label": "blockchain.news 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Tencent",
+      "type": "entity",
+      "label": "Tencent",
+      "region": "CN"
+    },
+    {
+      "id": "finai-48ccb8a20a52",
+      "type": "case",
+      "label": "OpenAI AI Futures' Blog",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:OpenAI",
+      "type": "entity",
+      "label": "OpenAI",
+      "region": "US"
+    },
+    {
+      "id": "finai-12cfe3778120",
+      "type": "case",
+      "label": "finance.biggo.com 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Discover",
+      "type": "entity",
+      "label": "Discover",
+      "region": "US"
+    },
+    {
+      "id": "finai-8090a8ef2254",
+      "type": "case",
+      "label": "OpenAI Technology",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-64f7236dfc99",
+      "type": "case",
+      "label": "IBM 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-4b4a9bb34d3d",
+      "type": "case",
+      "label": "Stocktwits 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Anthropic",
+      "type": "entity",
+      "label": "Anthropic",
+      "region": "US"
+    },
+    {
+      "id": "finai-9c2bbc57bb21",
+      "type": "case",
+      "label": "DeepSeek vision-enabled AI model claimed",
+      "heat": 37,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-9cb9534d2758",
+      "type": "case",
+      "label": "TechRepublic 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-cc1184508004",
+      "type": "case",
+      "label": "Crypto Briefing 未公开名称AI产品",
+      "heat": 37,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-b0e9bbe8ab65",
+      "type": "case",
+      "label": "Google AI learning tools",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-0bcc626d877b",
+      "type": "case",
+      "label": "Adgully.com 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-347f730449eb",
+      "type": "case",
+      "label": "Sammy Fans 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-4fbf8bb1a0fa",
+      "type": "case",
+      "label": "Google AI Tools for NEET",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-729ec6cb0371",
+      "type": "case",
+      "label": "DeepMind Alpha in 2026",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-910f8ffea23b",
+      "type": "case",
+      "label": "Adgully.com 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-85c0f15a42f8",
+      "type": "case",
+      "label": "MarketScale 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-5b963e131166",
+      "type": "case",
+      "label": "Meta AI App for Apple Mac",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-a8ee15e96d86",
+      "type": "case",
+      "label": "Meta Enhanced Meta AI Business Analytics Tools",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-079c6e794054",
+      "type": "case",
+      "label": "The Information 未公开名称AI产品",
+      "heat": 37,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-fe10b5eff3cd",
+      "type": "case",
+      "label": "Startup Fortune 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-9b3fe998189c",
+      "type": "case",
+      "label": "Stocktwits 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-1dcebfaf16de",
+      "type": "case",
+      "label": "Nvidia (NVDA) 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-e6b7c5d848b7",
+      "type": "case",
+      "label": "Mjengo Hub 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Amazon",
+      "type": "entity",
+      "label": "Amazon",
+      "region": "US"
+    },
+    {
+      "id": "finai-92fb616e813c",
+      "type": "case",
+      "label": "The Daily Star 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:ByteDance",
+      "type": "entity",
+      "label": "ByteDance",
+      "region": "CN"
+    },
+    {
+      "id": "finai-96b2fd67333e",
+      "type": "case",
+      "label": "finance.biggo.com 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:iFlytek",
+      "type": "entity",
+      "label": "iFlytek",
+      "region": "CN"
+    },
+    {
+      "id": "finai-c12c55060b81",
+      "type": "case",
+      "label": "EnergyNow 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Scale AI",
+      "type": "entity",
+      "label": "Scale AI",
+      "region": "US"
+    },
+    {
+      "id": "finai-0ecd63a16268",
+      "type": "case",
+      "label": "drugscontrol.org 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-caf13820555d",
+      "type": "case",
+      "label": "Indianweb2.com 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-81f1a6fe6118",
+      "type": "case",
+      "label": "Whalesbook 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-ad9a52624d5a",
+      "type": "case",
+      "label": "offers significant advantages",
+      "heat": 37,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-145cae9d7c44",
+      "type": "case",
+      "label": "KuCoin 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-b433fc508895",
       "type": "case",
       "label": "CryptoRank 未公开名称AI产品",
-      "heat": 36,
+      "heat": 35,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Robinhood",
+      "type": "entity",
+      "label": "Robinhood",
+      "region": "US"
+    },
+    {
+      "id": "finai-ed48fed85aba",
+      "type": "case",
+      "label": "vinanet.vn 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:JPMorgan Chase",
+      "type": "entity",
+      "label": "JPMorgan Chase",
+      "region": "US"
+    },
+    {
+      "id": "finai-89eb88ba53d6",
+      "type": "case",
+      "label": "Meta Platforms (NASDAQ: META) Muse Code Agent",
+      "heat": 37,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-f6038d768216",
+      "type": "case",
+      "label": "The Cryptonomist 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:OKX",
+      "type": "entity",
+      "label": "OKX",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "finai-1360acec7e9e",
+      "type": "case",
+      "label": "Mashable 未公开名称AI产品",
+      "heat": 35,
       "relevance": 22,
       "is_watchlist": true
     },
     {
-      "id": "finai-4cbccfd8724f",
+      "id": "entity:Block",
+      "type": "entity",
+      "label": "Block",
+      "region": "US"
+    },
+    {
+      "id": "finai-3cb71eff7536",
+      "type": "case",
+      "label": "Flowra Open Orderflow Auction",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-8d2e2fcd9edf",
       "type": "case",
       "label": "Pluang 未公开名称AI产品",
-      "heat": 36,
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-5a0b5903a350",
+      "type": "case",
+      "label": "Business Standard 未公开名称AI产品",
+      "heat": 37,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-f06d9620db27",
+      "type": "case",
+      "label": "آي-فون إسلام 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-b03856b73fe2",
+      "type": "case",
+      "label": "AOL.com 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-06f10c221459",
+      "type": "case",
+      "label": "TechJuice 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-59962bfac6dc",
+      "type": "case",
+      "label": "Investing.com 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-84aba53a7bc4",
+      "type": "case",
+      "label": "Stocktwits 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-0f4c9b1811b1",
+      "type": "case",
+      "label": "INTC, AMD Slide Premarket After Nvidia PC Processor",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-8473679e9a95",
+      "type": "case",
+      "label": "The Manila Times 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-bc9d73bbc4bb",
+      "type": "case",
+      "label": "TradingView 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-a0568076d9f6",
+      "type": "case",
+      "label": "Coinbase CEO: Bitcoin Is at the Start of a Bull Market, UE Crypto Cloud Mining Plans Offering Up",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-3cd948112fae",
+      "type": "case",
+      "label": "BeInCrypto 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-214eda9414a9",
+      "type": "case",
+      "label": "blockchain.news 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-43ef553f847e",
+      "type": "case",
+      "label": "Pluang 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-c91a031aa3b3",
+      "type": "case",
+      "label": "CryptoRank 未公开名称AI产品",
+      "heat": 37,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-699e84d40ff8",
+      "type": "case",
+      "label": "Pluang 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-b6215592e0da",
+      "type": "case",
+      "label": "CryptoRank 未公开名称AI产品",
+      "heat": 35,
       "relevance": 22,
       "is_watchlist": true
     },
@@ -104,7 +746,7 @@
       "id": "finai-8d9abc01917c",
       "type": "case",
       "label": "agentweb",
-      "heat": 33,
+      "heat": 32,
       "relevance": 100,
       "is_watchlist": false
     },
@@ -118,101 +760,23 @@
       "id": "finai-0eb0fd0651e0",
       "type": "case",
       "label": "SwiftScale AI Model Intelligent Distribution Platform and Secures Investment From Tencent-Affiliated Angel Inve",
-      "heat": 37,
+      "heat": 34,
       "relevance": 100,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Tencent",
-      "type": "entity",
-      "label": "Tencent",
-      "region": "CN"
-    },
-    {
-      "id": "source:google-news-en",
-      "type": "source",
-      "label": "google-news-en",
-      "channel": "news"
-    },
-    {
-      "id": "finai-70aa2f8a890e",
-      "type": "case",
-      "label": "simplywall.st 未公开名称AI产品",
-      "heat": 37,
-      "relevance": 100,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-89108a016534",
-      "type": "case",
-      "label": "India's ShepHertz Sovereign AI",
-      "heat": 25,
-      "relevance": 98,
-      "is_watchlist": false
-    },
-    {
-      "id": "source:bing-news-en",
-      "type": "source",
-      "label": "bing-news-en",
-      "channel": "news"
-    },
-    {
-      "id": "finai-a173d68f49cd",
-      "type": "case",
-      "label": "DBS 未公开名称Agentic AI系统",
-      "heat": 25,
-      "relevance": 86,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-878f1d969865",
-      "type": "case",
-      "label": "tele.net.in 未公开名称AI产品",
-      "heat": 41,
-      "relevance": 86,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:ServiceNow",
-      "type": "entity",
-      "label": "ServiceNow",
-      "region": "US"
-    },
-    {
-      "id": "finai-902a5fa53023",
-      "type": "case",
-      "label": "AI Business 未公开名称Agentic AI系统",
-      "heat": 35,
-      "relevance": 84,
       "is_watchlist": true
     },
     {
       "id": "finai-3bf940b45623",
       "type": "case",
       "label": "Anchorage Digital opens first bank accounts for AI agents, ‘agentic banking’ platform",
-      "heat": 25,
+      "heat": 24,
       "relevance": 80,
       "is_watchlist": false
-    },
-    {
-      "id": "finai-120b5124004f",
-      "type": "case",
-      "label": "Binance AI Agent Platform",
-      "heat": 47,
-      "relevance": 80,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Binance",
-      "type": "entity",
-      "label": "Binance",
-      "region": "GLOBAL"
     },
     {
       "id": "finai-d22440a9a8f0",
       "type": "case",
       "label": "ITIN Finance",
-      "heat": 33,
+      "heat": 32,
       "relevance": 78,
       "is_watchlist": false
     },
@@ -220,7 +784,7 @@
       "id": "finai-d7d2c8dfef33",
       "type": "case",
       "label": "Citi, HSBC, StanChart 未公开名称AI产品",
-      "heat": 35,
+      "heat": 34,
       "relevance": 78,
       "is_watchlist": true
     },
@@ -231,188 +795,10 @@
       "region": "US"
     },
     {
-      "id": "finai-1e3dbd1bc512",
-      "type": "case",
-      "label": "Simple AI HiFi-UMI",
-      "heat": 35,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Fidelity",
-      "type": "entity",
-      "label": "Fidelity",
-      "region": "US"
-    },
-    {
-      "id": "finai-d6aa7cb15a1f",
-      "type": "case",
-      "label": "AI Insider 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-57517fcf10dd",
-      "type": "case",
-      "label": "OpenAI Private Safety Processing for Zero Data Retention AI Deployments",
-      "heat": 35,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-d1780311d9b7",
-      "type": "case",
-      "label": "GitHub Copilot can now write and 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-8b27388f3824",
-      "type": "case",
-      "label": "Meta AI-Powered Mac App And Expands Vibe-Coded Gaming Platform Pocket",
-      "heat": 35,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Meta",
-      "type": "entity",
-      "label": "Meta",
-      "region": "US"
-    },
-    {
-      "id": "finai-57b1e6983b5c",
-      "type": "case",
-      "label": "Mugglehead Investment Magazine 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-ca2ba102d666",
-      "type": "case",
-      "label": "Pulse 2.0 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-9a2b4c6dd9e5",
-      "type": "case",
-      "label": "Evertiq 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-9e2a4290950f",
-      "type": "case",
-      "label": "NVIDIA 未公开名称AI产品",
-      "heat": 41,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-b7173dae30d7",
-      "type": "case",
-      "label": "TipRanks 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 64,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-a2683fa4b072",
-      "type": "case",
-      "label": "Windows Report 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 62,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-5b6ca62a2ac2",
-      "type": "case",
-      "label": "Technobezz 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 62,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Amazon",
-      "type": "entity",
-      "label": "Amazon",
-      "region": "US"
-    },
-    {
-      "id": "finai-d492eb737f50",
-      "type": "case",
-      "label": "GIGAZINE 未公开名称Agentic AI系统",
-      "heat": 35,
-      "relevance": 62,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:xAI",
-      "type": "entity",
-      "label": "xAI",
-      "region": "US"
-    },
-    {
-      "id": "finai-6cc94d9609c1",
-      "type": "case",
-      "label": "Fortune India 未公开名称Agentic AI系统",
-      "heat": 35,
-      "relevance": 62,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Snowflake",
-      "type": "entity",
-      "label": "Snowflake",
-      "region": "US"
-    },
-    {
-      "id": "finai-e31df789aeaa",
-      "type": "case",
-      "label": "COIN Stock Gains Over 3% — Coinbase Platform For AI Agents",
-      "heat": 35,
-      "relevance": 62,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Coinbase",
-      "type": "entity",
-      "label": "Coinbase",
-      "region": "US"
-    },
-    {
-      "id": "finai-73f2961c8671",
-      "type": "case",
-      "label": "Binance AI Agent OS",
-      "heat": 35,
-      "relevance": 62,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-0e9c95236d4c",
-      "type": "case",
-      "label": "Traders Union 未公开名称Agentic AI系统",
-      "heat": 35,
-      "relevance": 62,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Ledger",
-      "type": "entity",
-      "label": "Ledger",
-      "region": "FR"
-    },
-    {
       "id": "finai-d24c3f6340ad",
       "type": "case",
       "label": "neoAI Chat",
-      "heat": 27,
+      "heat": 26,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -426,7 +812,7 @@
       "id": "finai-7f8c07f97d6e",
       "type": "case",
       "label": "analyticsindiamag.com 未公开名称AI产品",
-      "heat": 25,
+      "heat": 24,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -434,1099 +820,59 @@
       "id": "finai-f6f58d675758",
       "type": "case",
       "label": "UK's Digital Bank Starling AI Tools",
-      "heat": 27,
+      "heat": 24,
       "relevance": 60,
       "is_watchlist": false
     },
     {
-      "id": "source:gdelt-news",
-      "type": "source",
-      "label": "gdelt-news",
-      "channel": "news"
-    },
-    {
-      "id": "finai-33afb09a641d",
+      "id": "finai-e0a061b1e321",
       "type": "case",
-      "label": "FinancialContent - Takara FX 未公开名称AI产品",
-      "heat": 25,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-fac608f23731",
-      "type": "case",
-      "label": "simplywall.st 未公开名称AI产品",
-      "heat": 25,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-23ae33078a42",
-      "type": "case",
-      "label": "Yahoo Finance Singapore 未公开名称AI产品",
-      "heat": 25,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-c7a65440fd77",
-      "type": "case",
-      "label": "Stocktwits 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 60,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:HSBC",
-      "type": "entity",
-      "label": "HSBC",
-      "region": "UK"
-    },
-    {
-      "id": "finai-78c0ad1e8c89",
-      "type": "case",
-      "label": "BLS International AI VoiceBot for Visa Applicants",
-      "heat": 35,
-      "relevance": 60,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Visa",
-      "type": "entity",
-      "label": "Visa",
-      "region": "US"
-    },
-    {
-      "id": "finai-977229428d4b",
-      "type": "case",
-      "label": "Ramp AI Model Router to Streamline Corporate AI Costs",
-      "heat": 25,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-7b76b77644f9",
-      "type": "case",
-      "label": "Apollo Hotel and Resort LLC” Vision for AI-Driven Innovation",
-      "heat": 25,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-dbd129eaeb92",
-      "type": "case",
-      "label": "streamlinefeed.co.ke 未公开名称AI产品",
-      "heat": 25,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-2e66f227efb9",
-      "type": "case",
-      "label": "FF News 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 58,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:PayPal",
-      "type": "entity",
-      "label": "PayPal",
-      "region": "US"
-    },
-    {
-      "id": "finai-820cbc573c1a",
-      "type": "case",
-      "label": "Pluang 未公开名称AI产品",
-      "heat": 37,
+      "label": "麻将胡了赚钱软件携手阿里云与闪购 首个AI赛事直播商业协议ACT",
+      "heat": 34,
       "relevance": 44,
       "is_watchlist": true
     },
     {
-      "id": "finai-d5c2909f0ccc",
+      "id": "source:google-news-zh",
+      "type": "source",
+      "label": "google-news-zh",
+      "channel": "news"
+    },
+    {
+      "id": "finai-4d4a706d9a76",
       "type": "case",
-      "label": "Google DeepMind 未公开名称AI产品",
-      "heat": 35,
+      "label": "vinanet.vn 未公开名称AI产品",
+      "heat": 34,
       "relevance": 42,
       "is_watchlist": true
     },
     {
-      "id": "finai-f036149826b3",
+      "id": "finai-260e71cc8787",
       "type": "case",
-      "label": "simplywall.st 未公开名称AI产品",
-      "heat": 37,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:NVIDIA",
-      "type": "entity",
-      "label": "NVIDIA",
-      "region": "US"
-    },
-    {
-      "id": "finai-f953ebcf9e39",
-      "type": "case",
-      "label": "The Block 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Block",
-      "type": "entity",
-      "label": "Block",
-      "region": "US"
-    },
-    {
-      "id": "finai-d9c6358c8500",
-      "type": "case",
-      "label": "blockchain.news 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-910d4eb93dac",
-      "type": "case",
-      "label": "Google AI-powered personalization for Discover feed",
-      "heat": 39,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Discover",
-      "type": "entity",
-      "label": "Discover",
-      "region": "US"
-    },
-    {
-      "id": "finai-35ab31b49a9f",
-      "type": "case",
-      "label": "Firstpost 未公开名称AI产品",
-      "heat": 39,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-9f378b7d8759",
-      "type": "case",
-      "label": "OpenAI AI Futures blog exploring power",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-73dab3d4eaaf",
-      "type": "case",
-      "label": "OpenAI ChatGPT for Teens",
-      "heat": 41,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-b0282ec4be2e",
-      "type": "case",
-      "label": "Manila Standard 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-3e5326111766",
-      "type": "case",
-      "label": "No Access to Customer Data",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Anthropic",
-      "type": "entity",
-      "label": "Anthropic",
-      "region": "US"
-    },
-    {
-      "id": "finai-64e1c7f1ad3c",
-      "type": "case",
-      "label": "Chosunbiz 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-c253d312094d",
-      "type": "case",
-      "label": "CMC OpenAI legal AI platform",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-b67f2da728c5",
-      "type": "case",
-      "label": "ciol.com 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-d3f030999b0c",
-      "type": "case",
-      "label": "OpenAI ChatGPT Control for Mac iMessage",
-      "heat": 39,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-6a0a2499b16a",
-      "type": "case",
-      "label": "qz.com 未公开名称AI产品",
-      "heat": 37,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-675d10cf78a4",
-      "type": "case",
-      "label": "Anthropic Claude Academy",
-      "heat": 37,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-7d3ad5d40207",
-      "type": "case",
-      "label": "Yahoo Finance 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-b459b255ee03",
-      "type": "case",
-      "label": "ROI-NJ 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-18825cbe98d1",
-      "type": "case",
-      "label": "Preferred Sources",
-      "heat": 41,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-b849e8733bc0",
-      "type": "case",
-      "label": "SpaceXAI Grok 4.6 On Google Cloud Vertex AI",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-1f8c4cae08ab",
-      "type": "case",
-      "label": "College AI Communities Are Taking Off: Everytime Dedicated Google Gemini Lounge",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-645ac722cb2a",
-      "type": "case",
-      "label": "Google AI learning tools",
-      "heat": 37,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-fdaa0fc6b0b3",
-      "type": "case",
-      "label": "Dawn 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-ec8de0cc4604",
-      "type": "case",
-      "label": "The Next Web 未公开名称AI产品",
-      "heat": 39,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-910f8ffea23b",
-      "type": "case",
-      "label": "Adgully.com 未公开名称AI产品",
-      "heat": 39,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-3ffcf947ea6a",
-      "type": "case",
-      "label": "Xpress Computers AI-powered command center for Microsoft partners",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-e856e665aa82",
-      "type": "case",
-      "label": "Meta Kylie Jenner-Inspired AI Glasses 06/24/2026",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-a706251256a6",
-      "type": "case",
-      "label": "Meta AI update",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-2c4e8af618f1",
-      "type": "case",
-      "label": "Yahoo Finance 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-fe48dfa8cc29",
-      "type": "case",
-      "label": "Technology Org 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-f0198f5489f9",
-      "type": "case",
-      "label": "Android Central 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-c13a03ef3953",
-      "type": "case",
-      "label": "ET Enterprise AI 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-f893f2551e13",
-      "type": "case",
-      "label": "Alibaba AI Data Center Powered by 10",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Alibaba",
-      "type": "entity",
-      "label": "Alibaba",
-      "region": "CN"
-    },
-    {
-      "id": "finai-11c8903eedf9",
-      "type": "case",
-      "label": "Telecompaper 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-87819288e5d9",
-      "type": "case",
-      "label": "Pulse 2.0 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-8c6baab81c31",
-      "type": "case",
-      "label": "Data Center Frontier 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-340bfde6d42f",
-      "type": "case",
-      "label": "Business Wire 未公开名称AI产品",
-      "heat": 41,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-775156670acc",
-      "type": "case",
-      "label": "Manufacturing Digital Magazine 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-ab126c04c996",
-      "type": "case",
-      "label": "AOL.com 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-9de98b3ed27d",
-      "type": "case",
-      "label": "AWS 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-aff626b08046",
-      "type": "case",
-      "label": "TradingKey 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Palantir",
-      "type": "entity",
-      "label": "Palantir",
-      "region": "US"
-    },
-    {
-      "id": "finai-34a7084b2070",
-      "type": "case",
-      "label": "The Economic Times 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-034860c2d90b",
-      "type": "case",
-      "label": "Ondaro Outcome-Based",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-bcd751388bd2",
-      "type": "case",
-      "label": "Trade Brains 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-96e73cbbf97f",
-      "type": "case",
-      "label": "Alibaba (BABA) AI Merchant Platform Inside Its E Commerce Push",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-bf3959701121",
-      "type": "case",
-      "label": "Intense Competition in AI Video Tool Global Expansion Market: Tencent Products",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:ByteDance",
-      "type": "entity",
-      "label": "ByteDance",
-      "region": "CN"
-    },
-    {
-      "id": "finai-c9b25cf4be00",
-      "type": "case",
-      "label": "NewsBytes 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-620b44f962b2",
-      "type": "case",
-      "label": "BenefitsPRO 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-f07e6fdbeeac",
-      "type": "case",
-      "label": "Yahoo Finance 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-c12c55060b81",
-      "type": "case",
-      "label": "EnergyNow 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-af9aacdd793e",
-      "type": "case",
-      "label": "simplywall.st 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-925834cbae75",
-      "type": "case",
-      "label": "Stocktwits 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-1ad3c30e2d79",
-      "type": "case",
-      "label": "ChainOpera AI Airdrop: Binance Third Wave",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-028ff1d1e3ef",
-      "type": "case",
-      "label": "MyDataWork for Teams on AWS Marketplace",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-aad7377a0d0f",
-      "type": "case",
-      "label": "Bybit AI Future City Campaign Connecting AI Market Themes",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Bybit",
-      "type": "entity",
-      "label": "Bybit",
-      "region": "AE"
-    },
-    {
-      "id": "finai-a8b3509a3ee2",
-      "type": "case",
-      "label": "Ripple aggressively 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Ripple",
-      "type": "entity",
-      "label": "Ripple",
-      "region": "US"
-    },
-    {
-      "id": "finai-ff35aa93b948",
-      "type": "case",
-      "label": "Ventureburn 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-0d00c7b092ff",
-      "type": "case",
-      "label": "Traders Union 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-2a98186bc3ca",
-      "type": "case",
-      "label": "The Cryptonomist 未公开名称AI产品",
-      "heat": 35,
+      "label": "Binance Agent OS and MCP trading server",
+      "heat": 34,
       "relevance": 40,
       "is_watchlist": true
     },
     {
-      "id": "entity:Robinhood",
+      "id": "entity:Binance",
       "type": "entity",
-      "label": "Robinhood",
-      "region": "US"
-    },
-    {
-      "id": "finai-4f042cbee1d3",
-      "type": "case",
-      "label": "Tria 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-e9a1abc85fcf",
-      "type": "case",
-      "label": "Pepecoin on Robinhood",
-      "heat": 35,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-ae0fcd92b7dc",
-      "type": "case",
-      "label": "simplywall.st 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-a6273eead958",
-      "type": "case",
-      "label": "American Express 未公开名称AI产品",
-      "heat": 41,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:American Express",
-      "type": "entity",
-      "label": "American Express",
-      "region": "US"
-    },
-    {
-      "id": "finai-e6c054505fd7",
-      "type": "case",
-      "label": "Gate First Japanese Stock Trading",
-      "heat": 35,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Gate.io",
-      "type": "entity",
-      "label": "Gate.io",
+      "label": "Binance",
       "region": "GLOBAL"
-    },
-    {
-      "id": "finai-f0cf860c29f9",
-      "type": "case",
-      "label": "Substack 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-c8e040311aab",
-      "type": "case",
-      "label": "先行",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
     },
     {
       "id": "finai-57a15c4359e5",
       "type": "case",
       "label": "Hackers Use Fake Google Gemini Installer to 未公开名称AI产品",
-      "heat": 35,
+      "heat": 34,
       "relevance": 22,
       "is_watchlist": true
     },
     {
-      "id": "finai-5a32400679d6",
-      "type": "case",
-      "label": "Ophthalmology Times 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Acorns",
-      "type": "entity",
-      "label": "Acorns",
-      "region": "US"
-    },
-    {
-      "id": "finai-1360acec7e9e",
-      "type": "case",
-      "label": "Mashable 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-82d41d56b07d",
-      "type": "case",
-      "label": "MediaPost 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-cd1a9532989c",
-      "type": "case",
-      "label": "TradingView 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-f5b245f44c04",
-      "type": "case",
-      "label": "Network World 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-c679efdd7304",
-      "type": "case",
-      "label": "CXOToday.com 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-02b4ddac7f99",
-      "type": "case",
-      "label": "OpenAI-backed Harvey Legal Model Based On Kimi K3 System",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-1470edbbfac5",
-      "type": "case",
-      "label": "Anthropic Invisible Watermarks",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-48c8e1a24709",
-      "type": "case",
-      "label": "Anthropic 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-e60d857381f3",
-      "type": "case",
-      "label": "Performance Marketing World 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-67da6e1caafa",
-      "type": "case",
-      "label": "Arab News 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-63b1a739157f",
-      "type": "case",
-      "label": "Ad-hoc-news.de 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-34d70f7e0434",
-      "type": "case",
-      "label": "CNBC 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-292725e39a99",
-      "type": "case",
-      "label": "Euronews.com 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-fab8e893ca3b",
-      "type": "case",
-      "label": "Mobilegamer.biz 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-9f7a015fad7c",
-      "type": "case",
-      "label": "IntraMind LLC 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-61c1846811fe",
-      "type": "case",
-      "label": "AMA Affiliate Pro to Help Amazon Associates Publishers",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-c6cac83c6a2f",
-      "type": "case",
-      "label": "Grok Build Officially on Web and Mobile",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-8fb9278b4ef5",
-      "type": "case",
-      "label": "BrainChip symphony community Akida bundle for IBM’s workload management solution",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:IBM",
-      "type": "entity",
-      "label": "IBM",
-      "region": "US"
-    },
-    {
-      "id": "finai-951d770bad86",
-      "type": "case",
-      "label": "eeNews Europe 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-f5e24dab78c8",
-      "type": "case",
-      "label": "TradingKey 未公开名称AI产品",
-      "heat": 37,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-2161ad388018",
-      "type": "case",
-      "label": "SaaSpocalypse.",
-      "heat": 37,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Salesforce",
-      "type": "entity",
-      "label": "Salesforce",
-      "region": "US"
-    },
-    {
-      "id": "finai-ed3beaa1363f",
-      "type": "case",
-      "label": "Oracle Blogs 未公开名称Agentic AI系统",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Oracle",
-      "type": "entity",
-      "label": "Oracle",
-      "region": "US"
-    },
-    {
-      "id": "finai-f07e5a81514d",
-      "type": "case",
-      "label": "GT Bharat AIM Fusion for Oracle ERP",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-78fe81ae3fca",
-      "type": "case",
-      "label": "Ad-hoc-news.de 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-67c739f8183f",
-      "type": "case",
-      "label": "Telecompaper 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-938cd49f6744",
-      "type": "case",
-      "label": "From Chat Assistant to Smart Office Platform: Doubao Skills",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-37769d329193",
-      "type": "case",
-      "label": "Medscape 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-be20e0804029",
-      "type": "case",
-      "label": "Pluang 未公开名称AI产品",
-      "heat": 37,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-befc40a7f840",
-      "type": "case",
-      "label": "Binance Employees Detained in UAE, Then Amid Fund-Flow Probe",
-      "heat": 37,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-daad5b44a498",
-      "type": "case",
-      "label": "Coin Gabbar 未公开名称Agentic AI系统",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-ca0162c79295",
-      "type": "case",
-      "label": "blockchain.news 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-cb76ce194eed",
-      "type": "case",
-      "label": "Crypto.com Insights Tab for Breaking Crypto News",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Crypto.com",
-      "type": "entity",
-      "label": "Crypto.com",
-      "region": "SG"
-    },
-    {
-      "id": "finai-6c15cfa09daf",
-      "type": "case",
-      "label": "CryptoRank 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-2a00043b35d2",
-      "type": "case",
-      "label": "blockchain.news 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-b782983881b3",
-      "type": "case",
-      "label": "TradingView 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-a2b8e3de1ffd",
-      "type": "case",
-      "label": "CryptoRank 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-54113040e9de",
-      "type": "case",
-      "label": "blockchain.news 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-182c01095d6d",
-      "type": "case",
-      "label": "Bitcoin News 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-741a8881e541",
-      "type": "case",
-      "label": "openPR.com 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-a0b1abae5a92",
-      "type": "case",
-      "label": "baijiahao.baidu.com 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "entity:Baidu",
-      "type": "entity",
-      "label": "Baidu",
-      "region": "CN"
-    },
-    {
-      "id": "finai-e42139b0797d",
-      "type": "case",
-      "label": "openPR.com 未公开名称AI产品",
-      "heat": 35,
-      "relevance": 8,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-95d59f2ef105",
+      "id": "finai-b6a503af1a14",
       "type": "case",
       "label": "AI insurance sales pilot in Japanese dealerships",
-      "heat": 26,
+      "heat": 25,
       "relevance": 82,
       "is_watchlist": false
     },
@@ -1534,39 +880,59 @@
       "id": "finai-dd27511ec53a",
       "type": "case",
       "label": "Ramp Router",
-      "heat": 24,
+      "heat": 23,
       "relevance": 80,
       "is_watchlist": false
     },
     {
-      "id": "finai-98002ec91d77",
+      "id": "source:bing-news-en",
+      "type": "source",
+      "label": "bing-news-en",
+      "channel": "news"
+    },
+    {
+      "id": "finai-795a7528604b",
       "type": "case",
-      "label": "Binance Agent OS for AI Trade Integration",
-      "heat": 46,
-      "relevance": 64,
+      "label": "Binance Agent OS",
+      "heat": 35,
+      "relevance": 62,
       "is_watchlist": true
     },
     {
       "id": "finai-c4a3acc3b639",
       "type": "case",
       "label": "Binance Agent OS",
-      "heat": 34,
+      "heat": 35,
       "relevance": 62,
       "is_watchlist": true
+    },
+    {
+      "id": "finai-70df079aa221",
+      "type": "case",
+      "label": "lebigdata.fr 未公开名称AI产品",
+      "heat": 23,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "source:google-news-fr",
+      "type": "source",
+      "label": "google-news-fr",
+      "channel": "news"
     },
     {
       "id": "finai-45c4d6f57a1c",
       "type": "case",
       "label": "Open Banking (open-banking.io)",
-      "heat": 32,
+      "heat": 31,
       "relevance": 60,
       "is_watchlist": false
     },
     {
-      "id": "finai-f319b37950a2",
+      "id": "finai-17e28876a373",
       "type": "case",
-      "label": "Fintech firm VIXA",
-      "heat": 24,
+      "label": "1% Club AI CFO For Personal Finance",
+      "heat": 23,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -1574,7 +940,7 @@
       "id": "finai-a05811e5d8e7",
       "type": "case",
       "label": "Net Health Chart Audit in Optima Unity",
-      "heat": 24,
+      "heat": 23,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -1582,15 +948,23 @@
       "id": "finai-cbf647aea2b7",
       "type": "case",
       "label": "Strike Graph Atlas AI adviser for compliance",
-      "heat": 24,
+      "heat": 23,
       "relevance": 60,
       "is_watchlist": false
+    },
+    {
+      "id": "finai-49fe3b136fd1",
+      "type": "case",
+      "label": "腾讯 二季报：用微信支付手续费支撑AI硬件投资",
+      "heat": 33,
+      "relevance": 58,
+      "is_watchlist": true
     },
     {
       "id": "finai-82e5aa229e58",
       "type": "case",
       "label": "Diario Siglo XXI 未公开名称AI产品",
-      "heat": 34,
+      "heat": 33,
       "relevance": 42,
       "is_watchlist": true
     },
@@ -1601,319 +975,11 @@
       "channel": "news"
     },
     {
-      "id": "finai-ea6d76e9cd77",
+      "id": "finai-ac8229b37b2b",
       "type": "case",
-      "label": "币安 Agent OS平台",
-      "heat": 34,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "source:google-news-zh",
-      "type": "source",
-      "label": "google-news-zh",
-      "channel": "news"
-    },
-    {
-      "id": "finai-1e7997ef5eaf",
-      "type": "case",
-      "label": "Google Gemini Student Hub",
-      "heat": 34,
-      "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-dc37a6fc42c6",
-      "type": "case",
-      "label": "Boursorama 未公开名称AI产品",
-      "heat": 34,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "source:google-news-fr",
-      "type": "source",
-      "label": "google-news-fr",
-      "channel": "news"
-    },
-    {
-      "id": "finai-56332f335a49",
-      "type": "case",
-      "label": "資産状況教えて",
-      "heat": 34,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-613808c3d5af",
-      "type": "case",
-      "label": "redmas.com.co 未公开名称AI产品",
-      "heat": 34,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-c108df8b6d08",
-      "type": "case",
-      "label": "百度文心助手 任务引擎2.0：日活同比增长83%|百度AI|量化交易|Agent|搜索结果|图文_手机新浪网",
-      "heat": 34,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-e5b520ac66c6",
-      "type": "case",
-      "label": "帮你找到",
-      "heat": 34,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-45beafdf5fa1",
-      "type": "case",
-      "label": "FinAi News 未公开名称AI产品",
-      "heat": 34,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-f091d2203bd6",
-      "type": "case",
-      "label": "Dailoqa and AWS 未公开名称AI产品",
-      "heat": 33,
-      "relevance": 96,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-7751ab0f80d8",
-      "type": "case",
-      "label": "Sarvam AI 未公开名称AI产品",
-      "heat": 33,
-      "relevance": 86,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-e791d48050b8",
-      "type": "case",
-      "label": "FF News 未公开名称AI产品",
-      "heat": 23,
-      "relevance": 82,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-c0fa8f0aab0c",
-      "type": "case",
-      "label": "io.github.CSOAI-ORG/personal-finance-ai-mcp",
-      "heat": 33,
-      "relevance": 80,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-48d8eaf48587",
-      "type": "case",
-      "label": "至顶网 未公开名称AI产品",
-      "heat": 23,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-7f437a03b37e",
-      "type": "case",
-      "label": "Finance Review Mailer",
-      "heat": 31,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-1bffe25141a2",
-      "type": "case",
-      "label": "Clara Mortgage Assistant",
-      "heat": 31,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-cd96ea9ec063",
-      "type": "case",
-      "label": "Intapp AI-powered compliance and time management tools",
-      "heat": 23,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-94e05ba09b52",
-      "type": "case",
-      "label": "livemint.com 未公开名称AI产品",
-      "heat": 23,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-cce8a74cd57d",
-      "type": "case",
-      "label": "Lentra Growth Alliance Program",
-      "heat": 33,
-      "relevance": 44,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-0d8cf8860514",
-      "type": "case",
-      "label": "オンプレミスGPU",
+      "label": "IDC 《中国生成式AI安全评估平台报告》",
       "heat": 33,
       "relevance": 42,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-491b36d43d52",
-      "type": "case",
-      "label": "ChatGPTプラグイン",
-      "heat": 37,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-1d0ada461567",
-      "type": "case",
-      "label": "Negocios.com 未公开名称AI产品",
-      "heat": 33,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-d4590a74019f",
-      "type": "case",
-      "label": "Xataka 未公开名称AI产品",
-      "heat": 33,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-0171cd3a00dd",
-      "type": "case",
-      "label": "Amazon Web Services (AWS) 未公开名称Agentic AI系统",
-      "heat": 32,
-      "relevance": 82,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-d588e961503a",
-      "type": "case",
-      "label": "citybiz 未公开名称AI产品",
-      "heat": 32,
-      "relevance": 82,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-bc7b0842cc2a",
-      "type": "case",
-      "label": "Crowdfund Insider 未公开名称AI产品",
-      "heat": 22,
-      "relevance": 80,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-06e5f0552024",
-      "type": "case",
-      "label": "디지털투데이 未公开名称AI产品",
-      "heat": 32,
-      "relevance": 78,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-a8c84aa8bf87",
-      "type": "case",
-      "label": "Razorpay AI model trained on four billion payments",
-      "heat": 22,
-      "relevance": 78,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-3a9470391011",
-      "type": "case",
-      "label": "TechAfrica News 未公开名称AI产品",
-      "heat": 22,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-0a0f251e0a03",
-      "type": "case",
-      "label": "Confluence POINT",
-      "heat": 22,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-f80c8f34ca4f",
-      "type": "case",
-      "label": "Atrium AI Platform Tracking $1.3T of U.S. Data Center Development Credit",
-      "heat": 22,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-48c3b3c28cb4",
-      "type": "case",
-      "label": "MoneyBuddy Upgraded AI Loan-Matching Feature for SME",
-      "heat": 22,
-      "relevance": 60,
-      "is_watchlist": false
-    },
-    {
-      "id": "finai-1d803ab45ce2",
-      "type": "case",
-      "label": "DiarioBitcoin 未公开名称AI产品",
-      "heat": 32,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-cf3793dd6e05",
-      "type": "case",
-      "label": "マイナビニュース 未公开名称AI产品",
-      "heat": 32,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-2c6966c450b4",
-      "type": "case",
-      "label": "LaRepublica.co 未公开名称AI产品",
-      "heat": 34,
-      "relevance": 22,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-3c9e84de93b1",
-      "type": "case",
-      "label": "Razorpay Vulcan AI model",
-      "heat": 45,
-      "relevance": 100,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-f5943fcd16cb",
-      "type": "case",
-      "label": "TCS agentic AI",
-      "heat": 33,
-      "relevance": 84,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-9bbe1e13d703",
-      "type": "case",
-      "label": "OpenAI President Urges Enterprises to 未公开名称Agentic AI系统",
-      "heat": 31,
-      "relevance": 62,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-6d6115196b3d",
-      "type": "case",
-      "label": "智能体将大规模进入生活服务场景，支付宝 国内首个智能体商业底座",
-      "heat": 31,
-      "relevance": 60,
       "is_watchlist": true
     },
     {
@@ -1923,10 +989,340 @@
       "region": "CN"
     },
     {
+      "id": "finai-ea6d76e9cd77",
+      "type": "case",
+      "label": "币安 Agent OS平台",
+      "heat": 33,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-1e7997ef5eaf",
+      "type": "case",
+      "label": "Google Gemini Student Hub",
+      "heat": 33,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-56332f335a49",
+      "type": "case",
+      "label": "資産状況教えて",
+      "heat": 33,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-d2c487a6f09b",
+      "type": "case",
+      "label": "El Ecosistema Startup 未公开名称Agentic AI系统",
+      "heat": 33,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-613808c3d5af",
+      "type": "case",
+      "label": "redmas.com.co 未公开名称AI产品",
+      "heat": 33,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-bfa3be36d43b",
+      "type": "case",
+      "label": "豆包 侧边工作台",
+      "heat": 33,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-c108df8b6d08",
+      "type": "case",
+      "label": "百度文心助手 任务引擎2.0：日活同比增长83%|百度AI|量化交易|Agent|搜索结果|图文_手机新浪网",
+      "heat": 33,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Baidu",
+      "type": "entity",
+      "label": "Baidu",
+      "region": "CN"
+    },
+    {
+      "id": "finai-e5b520ac66c6",
+      "type": "case",
+      "label": "帮你找到",
+      "heat": 33,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-45beafdf5fa1",
+      "type": "case",
+      "label": "FinAi News 未公开名称AI产品",
+      "heat": 33,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-f091d2203bd6",
+      "type": "case",
+      "label": "Dailoqa and AWS 未公开名称AI产品",
+      "heat": 32,
+      "relevance": 96,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-7751ab0f80d8",
+      "type": "case",
+      "label": "Sarvam AI 未公开名称AI产品",
+      "heat": 32,
+      "relevance": 86,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-e791d48050b8",
+      "type": "case",
+      "label": "FF News 未公开名称AI产品",
+      "heat": 22,
+      "relevance": 82,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-c0fa8f0aab0c",
+      "type": "case",
+      "label": "io.github.CSOAI-ORG/personal-finance-ai-mcp",
+      "heat": 32,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-1bb16f19ab62",
+      "type": "case",
+      "label": "TransFi AI-Powered Compliance Intelligence Platform for Cross-Border Payments",
+      "heat": 24,
+      "relevance": 78,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-7f437a03b37e",
+      "type": "case",
+      "label": "Finance Review Mailer",
+      "heat": 30,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-1bffe25141a2",
+      "type": "case",
+      "label": "Clara Mortgage Assistant",
+      "heat": 30,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-cd96ea9ec063",
+      "type": "case",
+      "label": "Intapp AI-powered compliance and time management tools",
+      "heat": 22,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-94e05ba09b52",
+      "type": "case",
+      "label": "livemint.com 未公开名称AI产品",
+      "heat": 22,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-cce8a74cd57d",
+      "type": "case",
+      "label": "Lentra Growth Alliance Program",
+      "heat": 32,
+      "relevance": 44,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-0d8cf8860514",
+      "type": "case",
+      "label": "オンプレミスGPU",
+      "heat": 32,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-491b36d43d52",
+      "type": "case",
+      "label": "ChatGPTプラグイン",
+      "heat": 36,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-1d0ada461567",
+      "type": "case",
+      "label": "Negocios.com 未公开名称AI产品",
+      "heat": 32,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Salesforce",
+      "type": "entity",
+      "label": "Salesforce",
+      "region": "US"
+    },
+    {
+      "id": "finai-0171cd3a00dd",
+      "type": "case",
+      "label": "Amazon Web Services (AWS) 未公开名称Agentic AI系统",
+      "heat": 31,
+      "relevance": 82,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-d588e961503a",
+      "type": "case",
+      "label": "citybiz 未公开名称AI产品",
+      "heat": 31,
+      "relevance": 82,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-bc7b0842cc2a",
+      "type": "case",
+      "label": "Crowdfund Insider 未公开名称AI产品",
+      "heat": 21,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-06e5f0552024",
+      "type": "case",
+      "label": "디지털투데이 未公开名称AI产品",
+      "heat": 31,
+      "relevance": 78,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-7e01d753b40f",
+      "type": "case",
+      "label": "DBS Hong Kong 未公开名称AI产品",
+      "heat": 33,
+      "relevance": 78,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Visa",
+      "type": "entity",
+      "label": "Visa",
+      "region": "US"
+    },
+    {
+      "id": "finai-a8c84aa8bf87",
+      "type": "case",
+      "label": "Razorpay AI model trained on four billion payments",
+      "heat": 21,
+      "relevance": 78,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-3a9470391011",
+      "type": "case",
+      "label": "TechAfrica News 未公开名称AI产品",
+      "heat": 21,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-48c3b3c28cb4",
+      "type": "case",
+      "label": "MoneyBuddy Upgraded AI Loan-Matching Feature for SME",
+      "heat": 21,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-1d803ab45ce2",
+      "type": "case",
+      "label": "DiarioBitcoin 未公开名称AI产品",
+      "heat": 31,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-cf3793dd6e05",
+      "type": "case",
+      "label": "マイナビニュース 未公开名称AI产品",
+      "heat": 31,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-2c6966c450b4",
+      "type": "case",
+      "label": "LaRepublica.co 未公开名称AI产品",
+      "heat": 35,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-8852d4553171",
+      "type": "case",
+      "label": "Pasquale Pillitteri 未公开名称AI产品",
+      "heat": 31,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-3c9e84de93b1",
+      "type": "case",
+      "label": "Razorpay Vulcan AI model",
+      "heat": 40,
+      "relevance": 100,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-f5943fcd16cb",
+      "type": "case",
+      "label": "TCS agentic AI",
+      "heat": 30,
+      "relevance": 84,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-58b42996023e",
+      "type": "case",
+      "label": "Yahoo Finance 未公开名称AI产品",
+      "heat": 30,
+      "relevance": 82,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-9bbe1e13d703",
+      "type": "case",
+      "label": "OpenAI President Urges Enterprises to 未公开名称Agentic AI系统",
+      "heat": 30,
+      "relevance": 62,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-58d5e4f6a284",
+      "type": "case",
+      "label": "智能体将大规模进入生活服务场景，支付宝 智能体商业底座",
+      "heat": 30,
+      "relevance": 60,
+      "is_watchlist": true
+    },
+    {
       "id": "finai-73e82410da0b",
       "type": "case",
       "label": "NEXUS 未公开名称AI产品",
-      "heat": 21,
+      "heat": 20,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -1934,7 +1330,7 @@
       "id": "finai-70f3526c4114",
       "type": "case",
       "label": "Execute cargo-insurance-broker-mcp",
-      "heat": 29,
+      "heat": 28,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -1942,7 +1338,7 @@
       "id": "finai-90b65526f485",
       "type": "case",
       "label": "Agentforce Financial Services",
-      "heat": 31,
+      "heat": 30,
       "relevance": 58,
       "is_watchlist": true
     },
@@ -1950,15 +1346,23 @@
       "id": "finai-77f41c3f87aa",
       "type": "case",
       "label": "Gemini 3.7 Flash",
-      "heat": 31,
+      "heat": 30,
       "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-b07743d92bfb",
+      "type": "case",
+      "label": "Bloomberg Línea 未公开名称AI产品",
+      "heat": 30,
+      "relevance": 22,
       "is_watchlist": true
     },
     {
       "id": "finai-5ef9d3f230cf",
       "type": "case",
       "label": "Kaiyun体育app官方版下载携手支付宝、淘宝闪购 首个AI操作协议ACT",
-      "heat": 30,
+      "heat": 29,
       "relevance": 62,
       "is_watchlist": true
     },
@@ -1966,7 +1370,7 @@
       "id": "finai-5481390e3794",
       "type": "case",
       "label": "Traders Union 未公开名称AI产品",
-      "heat": 19,
+      "heat": 18,
       "relevance": 78,
       "is_watchlist": false
     },
@@ -1974,37 +1378,31 @@
       "id": "finai-f9ba07c8da18",
       "type": "case",
       "label": "Professor Sausages — Finance",
-      "heat": 27,
+      "heat": 26,
       "relevance": 60,
       "is_watchlist": false
     },
     {
-      "id": "finai-d8a56cb02586",
+      "id": "finai-e6ed55a096f3",
       "type": "case",
-      "label": "库库AI",
-      "heat": 29,
-      "relevance": 22,
-      "is_watchlist": true
+      "label": "Seychelles Fintech Fusepay AI Platform for Trade Businesses",
+      "heat": 18,
+      "relevance": 60,
+      "is_watchlist": false
     },
     {
       "id": "finai-906b999bba2d",
       "type": "case",
       "label": "QA Financial 未公开名称AI产品",
-      "heat": 28,
+      "heat": 27,
       "relevance": 60,
       "is_watchlist": true
-    },
-    {
-      "id": "entity:JPMorgan Chase",
-      "type": "entity",
-      "label": "JPMorgan Chase",
-      "region": "US"
     },
     {
       "id": "finai-6f718eeeff24",
       "type": "case",
       "label": "Bolt AI-powered insurance distribution platform",
-      "heat": 18,
+      "heat": 17,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -2012,7 +1410,7 @@
       "id": "finai-2a185ecbf8c9",
       "type": "case",
       "label": "库库AI",
-      "heat": 28,
+      "heat": 27,
       "relevance": 42,
       "is_watchlist": true
     },
@@ -2020,7 +1418,7 @@
       "id": "finai-cfc88c96ccfc",
       "type": "case",
       "label": "库库AI",
-      "heat": 28,
+      "heat": 27,
       "relevance": 22,
       "is_watchlist": true
     },
@@ -2028,7 +1426,7 @@
       "id": "finai-553aa01b7a9a",
       "type": "case",
       "label": "TradingView 未公开名称AI产品",
-      "heat": 17,
+      "heat": 16,
       "relevance": 82,
       "is_watchlist": false
     },
@@ -2036,7 +1434,7 @@
       "id": "finai-c150b996a2c1",
       "type": "case",
       "label": "AlgoVesta MCP Trading",
-      "heat": 25,
+      "heat": 24,
       "relevance": 80,
       "is_watchlist": false
     },
@@ -2044,23 +1442,23 @@
       "id": "finai-d9231d98e8be",
       "type": "case",
       "label": "Compliance Group AI Agents for Life Sciences",
-      "heat": 19,
+      "heat": 18,
       "relevance": 80,
       "is_watchlist": false
     },
     {
-      "id": "finai-96c7b121912e",
+      "id": "finai-a36f8d43775d",
       "type": "case",
-      "label": "Oracle 未公开名称AI产品",
-      "heat": 29,
-      "relevance": 64,
-      "is_watchlist": true
+      "label": "BetterSea maritime compliance AI-agent",
+      "heat": 16,
+      "relevance": 80,
+      "is_watchlist": false
     },
     {
       "id": "finai-19b64f3c3636",
       "type": "case",
       "label": "IBM 未公开名称AI产品",
-      "heat": 29,
+      "heat": 26,
       "relevance": 64,
       "is_watchlist": true
     },
@@ -2068,7 +1466,7 @@
       "id": "finai-8426bc084437",
       "type": "case",
       "label": "Trandence Trading Journal",
-      "heat": 25,
+      "heat": 24,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -2076,7 +1474,7 @@
       "id": "finai-d39aff231cf1",
       "type": "case",
       "label": "Loan Vision Luna",
-      "heat": 17,
+      "heat": 16,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -2084,7 +1482,7 @@
       "id": "finai-7690968f580c",
       "type": "case",
       "label": "Bolsamania 未公开名称AI产品",
-      "heat": 27,
+      "heat": 26,
       "relevance": 40,
       "is_watchlist": true
     },
@@ -2098,16 +1496,8 @@
       "id": "finai-b172312c84f1",
       "type": "case",
       "label": "Grupo en Concreto 未公开名称AI产品",
-      "heat": 27,
-      "relevance": 40,
-      "is_watchlist": true
-    },
-    {
-      "id": "finai-ce1db6c8bc40",
-      "type": "case",
-      "label": "Banco Hipotecario 未公开名称Agentic AI系统",
       "heat": 26,
-      "relevance": 100,
+      "relevance": 40,
       "is_watchlist": true
     },
     {
@@ -2122,7 +1512,7 @@
       "id": "finai-c1266cea9baf",
       "type": "case",
       "label": "Zeplyn First Agentic Account-Opening Workflow in Wealth Management Through New Integration",
-      "heat": 28,
+      "heat": 30,
       "relevance": 82,
       "is_watchlist": true
     },
@@ -2143,24 +1533,24 @@
     {
       "id": "finai-756b77b23942",
       "type": "case",
-      "label": "indiagazette.com 未公开名称AI产品",
+      "label": "ANI News 未公开名称AI产品",
       "heat": 28,
       "relevance": 78,
       "is_watchlist": true
     },
     {
-      "id": "finai-1391281b3ca2",
+      "id": "finai-a47960520234",
       "type": "case",
-      "label": "OpenAI EVMbench",
-      "heat": 26,
-      "relevance": 64,
-      "is_watchlist": true
+      "label": "DXマガジン 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
     },
     {
       "id": "finai-cacb9a3b1a36",
       "type": "case",
       "label": "TradingView 未公开名称Agentic AI系统",
-      "heat": 16,
+      "heat": 18,
       "relevance": 60,
       "is_watchlist": false
     },
@@ -2237,10 +1627,16 @@
     {
       "id": "finai-ce7e101cd42c",
       "type": "case",
-      "label": "SpaceXAI Grok 4.6 on Vertex AI",
-      "heat": 28,
+      "label": "Ambito 未公开名称Agentic AI系统",
+      "heat": 26,
       "relevance": 42,
       "is_watchlist": true
+    },
+    {
+      "id": "entity:xAI",
+      "type": "entity",
+      "label": "xAI",
+      "region": "US"
     },
     {
       "id": "finai-f7c70698f00b",
@@ -2248,6 +1644,30 @@
       "label": "Sionic Instant Bank Pay in U.S. Through Microsoft Marketplace",
       "heat": 26,
       "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-39cbdf4e21b2",
+      "type": "case",
+      "label": "Cashi stablecoin Visa card in public beta",
+      "heat": 26,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-3390ed86a5cd",
+      "type": "case",
+      "label": "El Sol de México 未公开名称AI产品",
+      "heat": 28,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-ab734e85f826",
+      "type": "case",
+      "label": "Merca2.es 未公开名称AI产品",
+      "heat": 26,
+      "relevance": 22,
       "is_watchlist": true
     },
     {
@@ -2259,12 +1679,20 @@
       "is_watchlist": true
     },
     {
-      "id": "finai-d33359ab6f46",
+      "id": "finai-dae0140be720",
       "type": "case",
       "label": "Visa AI Commerce Platform for Agentic Payments",
-      "heat": 32,
-      "relevance": 100,
+      "heat": 26,
+      "relevance": 98,
       "is_watchlist": true
+    },
+    {
+      "id": "finai-d5913104dd4f",
+      "type": "case",
+      "label": "RISMedia 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 82,
+      "is_watchlist": false
     },
     {
       "id": "finai-4ebf37e8ebc0",
@@ -2285,8 +1713,8 @@
     {
       "id": "finai-98ea886341e6",
       "type": "case",
-      "label": "Nvidia $500 billion AI financing push",
-      "heat": 32,
+      "label": "Nvidia 未公开名称AI产品",
+      "heat": 30,
       "relevance": 64,
       "is_watchlist": true
     },
@@ -2294,7 +1722,7 @@
       "id": "finai-48e519635cb6",
       "type": "case",
       "label": "NVIDIA 未公开名称AI产品",
-      "heat": 30,
+      "heat": 26,
       "relevance": 64,
       "is_watchlist": true
     },
@@ -2305,93 +1733,1354 @@
       "heat": 16,
       "relevance": 60,
       "is_watchlist": false
+    },
+    {
+      "id": "finai-3843c123f281",
+      "type": "case",
+      "label": "The Software Era Is Over for Insurance Agencies",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-fb789a8eab7b",
+      "type": "case",
+      "label": "Feathery AI proposal generation tool for wealth management firms",
+      "heat": 22,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-2c28dbe1d6b6",
+      "type": "case",
+      "label": "Near-100% Gross Margin",
+      "heat": 26,
+      "relevance": 60,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-ac0a05fdb8d0",
+      "type": "case",
+      "label": "bfsi.economictimes.indiatimes.com 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-ddad1eb295c5",
+      "type": "case",
+      "label": "SpaceXAI Grok Bot企业智能体：可跨应用协同工作的AI代理团队",
+      "heat": 26,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-7e08f8e65dc3",
+      "type": "case",
+      "label": "fibre-systems.com 未公开名称AI产品",
+      "heat": 26,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-6e5f50ac687a",
+      "type": "case",
+      "label": "开源 LangAlpha ：金融领域的 Claude Code",
+      "heat": 26,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-f7fd8e566801",
+      "type": "case",
+      "label": "Ruya 未公开名称Agentic AI系统",
+      "heat": 16,
+      "relevance": 100,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-a8e203925086",
+      "type": "case",
+      "label": "Toss 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 100,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-4e8ab9b45c14",
+      "type": "case",
+      "label": "An AI Agent Just Own Company & Opened a Bank Account",
+      "heat": 16,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-d354f45cf7a8",
+      "type": "case",
+      "label": "Arcadia Finance",
+      "heat": 34,
+      "relevance": 78,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Uniswap Labs",
+      "type": "entity",
+      "label": "Uniswap Labs",
+      "region": "US"
+    },
+    {
+      "id": "finai-a27ee358b164",
+      "type": "case",
+      "label": "MiiTel 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-e340841a5485",
+      "type": "case",
+      "label": "neoAI Chat",
+      "heat": 20,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-409748421df0",
+      "type": "case",
+      "label": "Cornerstone Insurance voicebot capability for AI assistant",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-a0cf399503ec",
+      "type": "case",
+      "label": "MoneySimpler AI Automated Trading App",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-8d57bdae71fe",
+      "type": "case",
+      "label": "NVIDIA 未公开名称AI产品",
+      "heat": 26,
+      "relevance": 60,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-6f10b2264888",
+      "type": "case",
+      "label": "BigGo ファイナンス 未公开名称AI产品",
+      "heat": 26,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-e8eff7bc5bc6",
+      "type": "case",
+      "label": "AIネイティブカンパニー",
+      "heat": 26,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-fb9d968a8477",
+      "type": "case",
+      "label": "www.metrolibre.com 未公开名称AI产品",
+      "heat": 26,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-bf861b3aeb31",
+      "type": "case",
+      "label": "com.ai-rook.agents/trading-mcp",
+      "heat": 34,
+      "relevance": 80,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Circle",
+      "type": "entity",
+      "label": "Circle",
+      "region": "US"
+    },
+    {
+      "id": "finai-05ec71220679",
+      "type": "case",
+      "label": "Compute Finance Oracle",
+      "heat": 34,
+      "relevance": 100,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-937dd704bd9b",
+      "type": "case",
+      "label": "Hong Kong’s OSL AI agent payments tool",
+      "heat": 16,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-255f28e0ec51",
+      "type": "case",
+      "label": "OSL Group OSL AgentPay",
+      "heat": 16,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-526b155a7edb",
+      "type": "case",
+      "label": "Vietnam.vn 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-c3ab6ed3a8d9",
+      "type": "case",
+      "label": "Mistral AI Shieldstral 1.0 3B",
+      "heat": 26,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Mistral AI",
+      "type": "entity",
+      "label": "Mistral AI",
+      "region": "FR"
+    },
+    {
+      "id": "finai-82264c849ab1",
+      "type": "case",
+      "label": "Infosys 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 82,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-92acac41e954",
+      "type": "case",
+      "label": "io.github.adididitagain/finance-mcp",
+      "heat": 24,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-df8fe4a2efe8",
+      "type": "case",
+      "label": "Cloudflare identity and payments platform for AI agents",
+      "heat": 16,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-61125a48f6d9",
+      "type": "case",
+      "label": "SHIFT AI 未公开名称AI产品",
+      "heat": 26,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-7c866c8c7fa8",
+      "type": "case",
+      "label": "El Confidencial 未公开名称AI产品",
+      "heat": 26,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Palantir",
+      "type": "entity",
+      "label": "Palantir",
+      "region": "US"
+    },
+    {
+      "id": "finai-2cd4d6f060b5",
+      "type": "case",
+      "label": "Westpac 未公开名称Agentic AI系统",
+      "heat": 16,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-9d55338237a1",
+      "type": "case",
+      "label": "io.github.atilaahmettaner/tradingview-mcp",
+      "heat": 24,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-fcb5f5f2cbee",
+      "type": "case",
+      "label": "Fintech.ca | 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-c6893e22d28c",
+      "type": "case",
+      "label": "Mindserv Analytics DotvoiceAI",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-bfee1b3a8585",
+      "type": "case",
+      "label": "NAB Tests AI Agents in Plan to 未公开名称Agentic AI系统",
+      "heat": 18,
+      "relevance": 100,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-d8dd87b0dddf",
+      "type": "case",
+      "label": "Zachary Perret: Plaid 未公开名称Agentic AI系统",
+      "heat": 16,
+      "relevance": 98,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-a266b609f886",
+      "type": "case",
+      "label": "Cloudflare Wallets ：为智能体式互联网打造的可编程钱包",
+      "heat": 18,
+      "relevance": 82,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-7cc6d89e0705",
+      "type": "case",
+      "label": "Tech Times on MSN 未公开名称Agentic AI系统",
+      "heat": 16,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-fd9864edb658",
+      "type": "case",
+      "label": "Bloomberg 未公开名称AI产品",
+      "heat": 28,
+      "relevance": 78,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Nubank",
+      "type": "entity",
+      "label": "Nubank",
+      "region": "BR"
+    },
+    {
+      "id": "finai-67d675453d23",
+      "type": "case",
+      "label": "Woori Bank将 生成式AI混合客服机器人 上线电话与手机屏幕联动服务",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-52794a42101d",
+      "type": "case",
+      "label": "Cloudflare just permanent ID tool and wallet for AI shopping",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-cfec1887b908",
+      "type": "case",
+      "label": "LatamList 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-536e09f308ed",
+      "type": "case",
+      "label": "Webull ChatGPT",
+      "heat": 26,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-9375ca075b45",
+      "type": "case",
+      "label": "AI自主支付时代来临 曾让半个互联网崩溃的公司 Agent版支付宝",
+      "heat": 26,
+      "relevance": 40,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-a7c810ecf24b",
+      "type": "case",
+      "label": "Guidewire Qusar Release",
+      "heat": 16,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-4be69e2f2c7f",
+      "type": "case",
+      "label": "com.fininfostation/tw-finance",
+      "heat": 24,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-4783a4133cdb",
+      "type": "case",
+      "label": "Today, AI is not a nice-to-have; it's an essential for everyday life",
+      "heat": 26,
+      "relevance": 60,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Revolut",
+      "type": "entity",
+      "label": "Revolut",
+      "region": "UK"
+    },
+    {
+      "id": "finai-5bd7e9fae123",
+      "type": "case",
+      "label": "io.github.AdityaSBisht/finance-mcp",
+      "heat": 24,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-6db8e9bc8a3c",
+      "type": "case",
+      "label": "Singapore Private Banks 未公开名称AI产品",
+      "heat": 18,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-7ea2c78282d9",
+      "type": "case",
+      "label": "FamilyOfficer.com AI-Powered Investment Operating System for Family Offices",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-76b04f321264",
+      "type": "case",
+      "label": "Singapore Private Banks 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-8554737f11bb",
+      "type": "case",
+      "label": "Google Gemini Spark in India",
+      "heat": 26,
+      "relevance": 62,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-c57fa19d8600",
+      "type": "case",
+      "label": "I don’t know",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-f541f1397e26",
+      "type": "case",
+      "label": "PR TIMES 未公开名称AI产品",
+      "heat": 26,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Fireblocks",
+      "type": "entity",
+      "label": "Fireblocks",
+      "region": "US"
+    },
+    {
+      "id": "finai-708858c40a58",
+      "type": "case",
+      "label": "ChatGPT Go",
+      "heat": 26,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-710e03e708c7",
+      "type": "case",
+      "label": "PR TIMES 未公开名称Agentic AI系统",
+      "heat": 26,
+      "relevance": 22,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-29f42a0a1d41",
+      "type": "case",
+      "label": "ai.payments.managed/payments-ai-mcp",
+      "heat": 24,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-8ead65962dba",
+      "type": "case",
+      "label": "zerohash Agentic Finance Suite",
+      "heat": 16,
+      "relevance": 80,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-29a6b63778a8",
+      "type": "case",
+      "label": "Goldman Sachs Asset Management AI investing platform AlphaAI",
+      "heat": 26,
+      "relevance": 78,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-693a8eac7471",
+      "type": "case",
+      "label": "Yahoo Finance",
+      "heat": 24,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-982a68dbc8fc",
+      "type": "case",
+      "label": "Fintech Singapore 未公开名称AI产品",
+      "heat": 16,
+      "relevance": 60,
+      "is_watchlist": false
+    },
+    {
+      "id": "finai-1ce26f9b1dbe",
+      "type": "case",
+      "label": "ChatGPT",
+      "heat": 26,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "finai-cd6e1c97655f",
+      "type": "case",
+      "label": "FibX",
+      "heat": 34,
+      "relevance": 42,
+      "is_watchlist": true
+    },
+    {
+      "id": "entity:Aave",
+      "type": "entity",
+      "label": "Aave",
+      "region": "GLOBAL"
+    },
+    {
+      "id": "finai-878945eb597f",
+      "type": "case",
+      "label": "Google Pay Gemini-Powered AI Tool For Financial Insights",
+      "heat": 26,
+      "relevance": 42,
+      "is_watchlist": true
     }
   ],
   "edges": [
     {
-      "source": "finai-c268e4a7b554",
-      "target": "entity:Google",
+      "source": "finai-de6e25041a32",
+      "target": "source:github-repos",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-1437e341aa0a",
+      "target": "source:github-repos",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-aef9a6597b08",
+      "target": "source:github-repos",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-b4df70ea5284",
+      "target": "entity:Meta",
       "type": "issued_by"
     },
     {
-      "source": "finai-c268e4a7b554",
+      "source": "finai-b4df70ea5284",
       "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 1
     },
     {
-      "source": "finai-cdb530672a53",
+      "source": "finai-a340d6def6e5",
+      "target": "entity:Alibaba",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-a340d6def6e5",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-e3b58cb20b36",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-e3b58cb20b36",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-ff650a2b7243",
+      "target": "entity:Grayscale",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-ff650a2b7243",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-fbd59fb5d78f",
       "target": "entity:Microsoft",
       "type": "issued_by"
     },
     {
-      "source": "finai-cdb530672a53",
+      "source": "finai-fbd59fb5d78f",
       "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 1
     },
     {
-      "source": "finai-e965eb897a95",
-      "target": "entity:Scale AI",
+      "source": "finai-028b6033384d",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-cf1b240ba346",
+      "target": "entity:ServiceNow",
       "type": "issued_by"
     },
     {
-      "source": "finai-e965eb897a95",
+      "source": "finai-cf1b240ba346",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-4213c512ef00",
+      "target": "entity:Microsoft",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-4213c512ef00",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 3
+    },
+    {
+      "source": "finai-e28cc654d91f",
+      "target": "entity:Coinbase",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-e28cc654d91f",
       "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 1
     },
     {
-      "source": "finai-aa68f3d376fb",
-      "target": "entity:OpenAI",
+      "source": "finai-f860216d0911",
+      "target": "entity:Microsoft",
       "type": "issued_by"
     },
     {
-      "source": "finai-aa68f3d376fb",
+      "source": "finai-f860216d0911",
       "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 1
     },
     {
-      "source": "finai-3be1cd5e5943",
-      "target": "entity:Grayscale",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-3be1cd5e5943",
+      "source": "finai-94356629c63a",
       "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 1
     },
     {
-      "source": "finai-7c0c50511f53",
-      "target": "entity:Grayscale",
+      "source": "finai-8edaab7b3a9d",
+      "target": "entity:Google",
       "type": "issued_by"
     },
     {
-      "source": "finai-7c0c50511f53",
+      "source": "finai-8edaab7b3a9d",
       "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 2
     },
     {
-      "source": "finai-9f76af133ab2",
+      "source": "finai-a1846e1a1df3",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-a1846e1a1df3",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 15
+    },
+    {
+      "source": "finai-dbad8aa98f4d",
       "target": "entity:Grayscale",
       "type": "issued_by"
     },
     {
-      "source": "finai-9f76af133ab2",
+      "source": "finai-dbad8aa98f4d",
       "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 1
     },
     {
-      "source": "finai-4cbccfd8724f",
+      "source": "finai-c3929c710b14",
+      "target": "entity:Crypto.com",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-c3929c710b14",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-af2cb29e6777",
+      "target": "entity:Oracle",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-af2cb29e6777",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-9ca1e200e22a",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-9ca1e200e22a",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-4fe07f15939c",
+      "target": "entity:Tencent",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-4fe07f15939c",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-48ccb8a20a52",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-48ccb8a20a52",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-12cfe3778120",
+      "target": "entity:Discover",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-12cfe3778120",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-8090a8ef2254",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-8090a8ef2254",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-64f7236dfc99",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-64f7236dfc99",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-4b4a9bb34d3d",
+      "target": "entity:Anthropic",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-4b4a9bb34d3d",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-9c2bbc57bb21",
+      "target": "entity:Anthropic",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-9c2bbc57bb21",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-9cb9534d2758",
+      "target": "entity:Anthropic",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-9cb9534d2758",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-cc1184508004",
+      "target": "entity:Anthropic",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-cc1184508004",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-b0e9bbe8ab65",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-b0e9bbe8ab65",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-0bcc626d877b",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-0bcc626d877b",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-347f730449eb",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-347f730449eb",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-4fbf8bb1a0fa",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-4fbf8bb1a0fa",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-729ec6cb0371",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-729ec6cb0371",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-910f8ffea23b",
+      "target": "entity:Microsoft",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-910f8ffea23b",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-85c0f15a42f8",
+      "target": "entity:Meta",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-85c0f15a42f8",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-5b963e131166",
+      "target": "entity:Meta",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-5b963e131166",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-a8ee15e96d86",
+      "target": "entity:Meta",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-a8ee15e96d86",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-079c6e794054",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-079c6e794054",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-fe10b5eff3cd",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-fe10b5eff3cd",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-9b3fe998189c",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-9b3fe998189c",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-1dcebfaf16de",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-1dcebfaf16de",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-e6b7c5d848b7",
+      "target": "entity:Amazon",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-e6b7c5d848b7",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-92fb616e813c",
+      "target": "entity:ByteDance",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-92fb616e813c",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-96b2fd67333e",
+      "target": "entity:iFlytek",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-96b2fd67333e",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-c12c55060b81",
+      "target": "entity:Scale AI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-c12c55060b81",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-0ecd63a16268",
+      "target": "entity:Scale AI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-0ecd63a16268",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-caf13820555d",
+      "target": "entity:Scale AI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-caf13820555d",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-81f1a6fe6118",
+      "target": "entity:Scale AI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-81f1a6fe6118",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-ad9a52624d5a",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-ad9a52624d5a",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-145cae9d7c44",
       "target": "entity:Grayscale",
       "type": "issued_by"
     },
     {
-      "source": "finai-4cbccfd8724f",
+      "source": "finai-145cae9d7c44",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-b433fc508895",
+      "target": "entity:Robinhood",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-b433fc508895",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-ed48fed85aba",
+      "target": "entity:JPMorgan Chase",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-ed48fed85aba",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-89eb88ba53d6",
+      "target": "entity:Anthropic",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-89eb88ba53d6",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-f6038d768216",
+      "target": "entity:OKX",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-f6038d768216",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-1360acec7e9e",
+      "target": "entity:Block",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-1360acec7e9e",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-3cb71eff7536",
+      "target": "entity:Block",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-3cb71eff7536",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-8d2e2fcd9edf",
+      "target": "entity:Block",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-8d2e2fcd9edf",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-5a0b5903a350",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-5a0b5903a350",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-f06d9620db27",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-f06d9620db27",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-b03856b73fe2",
+      "target": "entity:Microsoft",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-b03856b73fe2",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-06f10c221459",
+      "target": "entity:Meta",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-06f10c221459",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-59962bfac6dc",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-59962bfac6dc",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-84aba53a7bc4",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-84aba53a7bc4",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-0f4c9b1811b1",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-0f4c9b1811b1",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-8473679e9a95",
+      "target": "entity:Oracle",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-8473679e9a95",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-bc9d73bbc4bb",
+      "target": "entity:Grayscale",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-bc9d73bbc4bb",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-a0568076d9f6",
+      "target": "entity:Coinbase",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-a0568076d9f6",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-3cd948112fae",
+      "target": "entity:Grayscale",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-3cd948112fae",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-214eda9414a9",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-214eda9414a9",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-43ef553f847e",
+      "target": "entity:Grayscale",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-43ef553f847e",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-c91a031aa3b3",
+      "target": "entity:Grayscale",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-c91a031aa3b3",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-699e84d40ff8",
+      "target": "entity:Grayscale",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-699e84d40ff8",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-b6215592e0da",
+      "target": "entity:Grayscale",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-b6215592e0da",
       "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 1
@@ -2414,72 +3103,10 @@
       "weight": 1
     },
     {
-      "source": "finai-0eb0fd0651e0",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-70aa2f8a890e",
-      "target": "entity:Microsoft",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-70aa2f8a890e",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-89108a016534",
-      "target": "source:bing-news-en",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-a173d68f49cd",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-878f1d969865",
-      "target": "entity:ServiceNow",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-878f1d969865",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 4
-    },
-    {
-      "source": "finai-902a5fa53023",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-902a5fa53023",
-      "target": "source:bing-news-en",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
       "source": "finai-3bf940b45623",
       "target": "source:google-news-en",
       "type": "mentioned_on",
       "weight": 1
-    },
-    {
-      "source": "finai-120b5124004f",
-      "target": "entity:Binance",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-120b5124004f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 7
     },
     {
       "source": "finai-d22440a9a8f0",
@@ -2495,193 +3122,6 @@
     {
       "source": "finai-d7d2c8dfef33",
       "target": "source:google-news-en",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-1e3dbd1bc512",
-      "target": "entity:Fidelity",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-1e3dbd1bc512",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-d6aa7cb15a1f",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-d6aa7cb15a1f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-57517fcf10dd",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-57517fcf10dd",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-d1780311d9b7",
-      "target": "entity:Microsoft",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-d1780311d9b7",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-8b27388f3824",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-8b27388f3824",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-57b1e6983b5c",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-57b1e6983b5c",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-ca2ba102d666",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-ca2ba102d666",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-9a2b4c6dd9e5",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-9a2b4c6dd9e5",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-9e2a4290950f",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-9e2a4290950f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 4
-    },
-    {
-      "source": "finai-b7173dae30d7",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-b7173dae30d7",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-a2683fa4b072",
-      "target": "entity:Microsoft",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-a2683fa4b072",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-5b6ca62a2ac2",
-      "target": "entity:Amazon",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-5b6ca62a2ac2",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-d492eb737f50",
-      "target": "entity:xAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-d492eb737f50",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-6cc94d9609c1",
-      "target": "entity:Snowflake",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-6cc94d9609c1",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-e31df789aeaa",
-      "target": "entity:Coinbase",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-e31df789aeaa",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-73f2961c8671",
-      "target": "entity:Binance",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-73f2961c8671",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-0e9c95236d4c",
-      "target": "entity:Ledger",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-0e9c95236d4c",
-      "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -2704,814 +3144,35 @@
       "weight": 1
     },
     {
-      "source": "finai-f6f58d675758",
-      "target": "source:gdelt-news",
+      "source": "finai-e0a061b1e321",
+      "target": "entity:Alibaba",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-e0a061b1e321",
+      "target": "source:google-news-zh",
       "type": "mentioned_on",
       "weight": 1
     },
     {
-      "source": "finai-33afb09a641d",
+      "source": "finai-4d4a706d9a76",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-4d4a706d9a76",
       "target": "source:google-news-en",
       "type": "mentioned_on",
       "weight": 1
     },
     {
-      "source": "finai-fac608f23731",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-23ae33078a42",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-c7a65440fd77",
-      "target": "entity:HSBC",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-c7a65440fd77",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-78c0ad1e8c89",
-      "target": "entity:Visa",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-78c0ad1e8c89",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-977229428d4b",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-7b76b77644f9",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-dbd129eaeb92",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-2e66f227efb9",
-      "target": "entity:PayPal",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-2e66f227efb9",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-820cbc573c1a",
-      "target": "entity:Grayscale",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-820cbc573c1a",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-d5c2909f0ccc",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-d5c2909f0ccc",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-f036149826b3",
-      "target": "entity:NVIDIA",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-f036149826b3",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-f953ebcf9e39",
-      "target": "entity:Block",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-f953ebcf9e39",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-d9c6358c8500",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-d9c6358c8500",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-910d4eb93dac",
-      "target": "entity:Discover",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-910d4eb93dac",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 3
-    },
-    {
-      "source": "finai-35ab31b49a9f",
-      "target": "entity:Microsoft",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-35ab31b49a9f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 3
-    },
-    {
-      "source": "finai-9f378b7d8759",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-9f378b7d8759",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-73dab3d4eaaf",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-73dab3d4eaaf",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 4
-    },
-    {
-      "source": "finai-b0282ec4be2e",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-b0282ec4be2e",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-3e5326111766",
-      "target": "entity:Anthropic",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-3e5326111766",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-64e1c7f1ad3c",
-      "target": "entity:Anthropic",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-64e1c7f1ad3c",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-c253d312094d",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-c253d312094d",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-b67f2da728c5",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-b67f2da728c5",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-d3f030999b0c",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-d3f030999b0c",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 3
-    },
-    {
-      "source": "finai-6a0a2499b16a",
-      "target": "entity:Anthropic",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-6a0a2499b16a",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-675d10cf78a4",
-      "target": "entity:Anthropic",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-675d10cf78a4",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-7d3ad5d40207",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-7d3ad5d40207",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-b459b255ee03",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-b459b255ee03",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-18825cbe98d1",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-18825cbe98d1",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 4
-    },
-    {
-      "source": "finai-b849e8733bc0",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-b849e8733bc0",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-1f8c4cae08ab",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-1f8c4cae08ab",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-645ac722cb2a",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-645ac722cb2a",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-fdaa0fc6b0b3",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-fdaa0fc6b0b3",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-ec8de0cc4604",
-      "target": "entity:Microsoft",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-ec8de0cc4604",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 3
-    },
-    {
-      "source": "finai-910f8ffea23b",
-      "target": "entity:Microsoft",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-910f8ffea23b",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 3
-    },
-    {
-      "source": "finai-3ffcf947ea6a",
-      "target": "entity:Microsoft",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-3ffcf947ea6a",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-e856e665aa82",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-e856e665aa82",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-a706251256a6",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-a706251256a6",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-2c4e8af618f1",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-2c4e8af618f1",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-fe48dfa8cc29",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-fe48dfa8cc29",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-f0198f5489f9",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-f0198f5489f9",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-c13a03ef3953",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-c13a03ef3953",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-f893f2551e13",
-      "target": "entity:Alibaba",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-f893f2551e13",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-11c8903eedf9",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-11c8903eedf9",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-87819288e5d9",
-      "target": "entity:NVIDIA",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-87819288e5d9",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-8c6baab81c31",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-8c6baab81c31",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-340bfde6d42f",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-340bfde6d42f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 4
-    },
-    {
-      "source": "finai-775156670acc",
-      "target": "entity:NVIDIA",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-775156670acc",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-ab126c04c996",
-      "target": "entity:Amazon",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-ab126c04c996",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-9de98b3ed27d",
-      "target": "entity:Amazon",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-9de98b3ed27d",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-aff626b08046",
-      "target": "entity:Palantir",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-aff626b08046",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-34a7084b2070",
-      "target": "entity:Snowflake",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-34a7084b2070",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-034860c2d90b",
-      "target": "entity:ServiceNow",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-034860c2d90b",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-bcd751388bd2",
-      "target": "entity:ServiceNow",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-bcd751388bd2",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-96e73cbbf97f",
-      "target": "entity:Alibaba",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-96e73cbbf97f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-bf3959701121",
-      "target": "entity:ByteDance",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-bf3959701121",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-c9b25cf4be00",
-      "target": "entity:NVIDIA",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-c9b25cf4be00",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-620b44f962b2",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-620b44f962b2",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-f07e6fdbeeac",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-f07e6fdbeeac",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-c12c55060b81",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-c12c55060b81",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-af9aacdd793e",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-af9aacdd793e",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-925834cbae75",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-925834cbae75",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-1ad3c30e2d79",
+      "source": "finai-260e71cc8787",
       "target": "entity:Binance",
       "type": "issued_by"
     },
     {
-      "source": "finai-1ad3c30e2d79",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-028ff1d1e3ef",
-      "target": "entity:Amazon",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-028ff1d1e3ef",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-aad7377a0d0f",
-      "target": "entity:Bybit",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-aad7377a0d0f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-a8b3509a3ee2",
-      "target": "entity:Ripple",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-a8b3509a3ee2",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-ff35aa93b948",
-      "target": "entity:NVIDIA",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-ff35aa93b948",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-0d00c7b092ff",
-      "target": "entity:Grayscale",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-0d00c7b092ff",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-2a98186bc3ca",
-      "target": "entity:Robinhood",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-2a98186bc3ca",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-4f042cbee1d3",
-      "target": "entity:Robinhood",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-4f042cbee1d3",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-e9a1abc85fcf",
-      "target": "entity:Robinhood",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-e9a1abc85fcf",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-ae0fcd92b7dc",
-      "target": "entity:Citigroup",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-ae0fcd92b7dc",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-a6273eead958",
-      "target": "entity:American Express",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-a6273eead958",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 4
-    },
-    {
-      "source": "finai-e6c054505fd7",
-      "target": "entity:Gate.io",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-e6c054505fd7",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-f0cf860c29f9",
-      "target": "entity:Citigroup",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-f0cf860c29f9",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-c8e040311aab",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-c8e040311aab",
-      "target": "source:google-news-ja",
+      "source": "finai-260e71cc8787",
+      "target": "source:google-news-en",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -3527,469 +3188,7 @@
       "weight": 1
     },
     {
-      "source": "finai-5a32400679d6",
-      "target": "entity:Acorns",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-5a32400679d6",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-1360acec7e9e",
-      "target": "entity:Block",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-1360acec7e9e",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-82d41d56b07d",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-82d41d56b07d",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-cd1a9532989c",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-cd1a9532989c",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-f5b245f44c04",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-f5b245f44c04",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-c679efdd7304",
-      "target": "entity:Anthropic",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-c679efdd7304",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-02b4ddac7f99",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-02b4ddac7f99",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-1470edbbfac5",
-      "target": "entity:Anthropic",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-1470edbbfac5",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-48c8e1a24709",
-      "target": "entity:Anthropic",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-48c8e1a24709",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-e60d857381f3",
-      "target": "entity:Anthropic",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-e60d857381f3",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-67da6e1caafa",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-67da6e1caafa",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-63b1a739157f",
-      "target": "entity:Microsoft",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-63b1a739157f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-34d70f7e0434",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-34d70f7e0434",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-292725e39a99",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-292725e39a99",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-fab8e893ca3b",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-fab8e893ca3b",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-9f7a015fad7c",
-      "target": "entity:Meta",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-9f7a015fad7c",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-61c1846811fe",
-      "target": "entity:Amazon",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-61c1846811fe",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-c6cac83c6a2f",
-      "target": "entity:xAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-c6cac83c6a2f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-8fb9278b4ef5",
-      "target": "entity:IBM",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-8fb9278b4ef5",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-951d770bad86",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-951d770bad86",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-f5e24dab78c8",
-      "target": "entity:Palantir",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-f5e24dab78c8",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-2161ad388018",
-      "target": "entity:Salesforce",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-2161ad388018",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-ed3beaa1363f",
-      "target": "entity:Oracle",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-ed3beaa1363f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-f07e5a81514d",
-      "target": "entity:Oracle",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-f07e5a81514d",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-78fe81ae3fca",
-      "target": "entity:Oracle",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-78fe81ae3fca",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-67c739f8183f",
-      "target": "entity:Tencent",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-67c739f8183f",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-938cd49f6744",
-      "target": "entity:ByteDance",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-938cd49f6744",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-37769d329193",
-      "target": "entity:Scale AI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-37769d329193",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-be20e0804029",
-      "target": "entity:Coinbase",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-be20e0804029",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-befc40a7f840",
-      "target": "entity:Binance",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-befc40a7f840",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 2
-    },
-    {
-      "source": "finai-daad5b44a498",
-      "target": "entity:Binance",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-daad5b44a498",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-ca0162c79295",
-      "target": "entity:Gate.io",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-ca0162c79295",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-cb76ce194eed",
-      "target": "entity:Crypto.com",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-cb76ce194eed",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-6c15cfa09daf",
-      "target": "entity:Ripple",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-6c15cfa09daf",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-2a00043b35d2",
-      "target": "entity:Ledger",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-2a00043b35d2",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-b782983881b3",
-      "target": "entity:Grayscale",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-b782983881b3",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-a2b8e3de1ffd",
-      "target": "entity:Grayscale",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-a2b8e3de1ffd",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-54113040e9de",
-      "target": "entity:Grayscale",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-54113040e9de",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-182c01095d6d",
-      "target": "entity:Grayscale",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-182c01095d6d",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-741a8881e541",
-      "target": "entity:Grayscale",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-741a8881e541",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-a0b1abae5a92",
-      "target": "entity:Baidu",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-a0b1abae5a92",
-      "target": "source:gdelt-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-e42139b0797d",
-      "target": "entity:Grayscale",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-e42139b0797d",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-95d59f2ef105",
+      "source": "finai-b6a503af1a14",
       "target": "source:google-news-en",
       "type": "mentioned_on",
       "weight": 2
@@ -4001,19 +3200,19 @@
       "weight": 1
     },
     {
-      "source": "finai-98002ec91d77",
+      "source": "finai-795a7528604b",
       "target": "entity:Binance",
       "type": "issued_by"
     },
     {
-      "source": "finai-98002ec91d77",
-      "target": "source:watchlist-news",
+      "source": "finai-795a7528604b",
+      "target": "source:google-news-en",
       "type": "mentioned_on",
-      "weight": 6
+      "weight": 1
     },
     {
-      "source": "finai-98002ec91d77",
-      "target": "source:google-news-en",
+      "source": "finai-795a7528604b",
+      "target": "source:watchlist-news",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -4025,6 +3224,18 @@
     {
       "source": "finai-c4a3acc3b639",
       "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-c4a3acc3b639",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-70df079aa221",
+      "target": "source:google-news-fr",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -4035,7 +3246,7 @@
       "weight": 1
     },
     {
-      "source": "finai-f319b37950a2",
+      "source": "finai-17e28876a373",
       "target": "source:google-news-en",
       "type": "mentioned_on",
       "weight": 1
@@ -4053,6 +3264,17 @@
       "weight": 1
     },
     {
+      "source": "finai-49fe3b136fd1",
+      "target": "entity:Tencent",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-49fe3b136fd1",
+      "target": "source:google-news-zh",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
       "source": "finai-82e5aa229e58",
       "target": "entity:Google",
       "type": "issued_by"
@@ -4060,6 +3282,17 @@
     {
       "source": "finai-82e5aa229e58",
       "target": "source:google-news-es",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-ac8229b37b2b",
+      "target": "entity:Ant Group",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-ac8229b37b2b",
+      "target": "source:google-news-zh",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -4086,17 +3319,6 @@
       "weight": 1
     },
     {
-      "source": "finai-dc37a6fc42c6",
-      "target": "entity:Citigroup",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-dc37a6fc42c6",
-      "target": "source:google-news-fr",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
       "source": "finai-56332f335a49",
       "target": "entity:OpenAI",
       "type": "issued_by"
@@ -4108,6 +3330,17 @@
       "weight": 1
     },
     {
+      "source": "finai-d2c487a6f09b",
+      "target": "entity:Binance",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-d2c487a6f09b",
+      "target": "source:google-news-es",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
       "source": "finai-613808c3d5af",
       "target": "entity:Google",
       "type": "issued_by"
@@ -4115,6 +3348,17 @@
     {
       "source": "finai-613808c3d5af",
       "target": "source:google-news-es",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-bfa3be36d43b",
+      "target": "entity:ByteDance",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-bfa3be36d43b",
+      "target": "source:google-news-zh",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -4186,10 +3430,10 @@
       "weight": 2
     },
     {
-      "source": "finai-48d8eaf48587",
-      "target": "source:google-news-zh",
+      "source": "finai-1bb16f19ab62",
+      "target": "source:google-news-en",
       "type": "mentioned_on",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "finai-7f437a03b37e",
@@ -4260,17 +3504,6 @@
       "weight": 1
     },
     {
-      "source": "finai-d4590a74019f",
-      "target": "entity:Google",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-d4590a74019f",
-      "target": "source:google-news-es",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
       "source": "finai-0171cd3a00dd",
       "target": "entity:Amazon",
       "type": "issued_by"
@@ -4310,6 +3543,17 @@
       "weight": 1
     },
     {
+      "source": "finai-7e01d753b40f",
+      "target": "entity:Visa",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-7e01d753b40f",
+      "target": "source:bing-news-en",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
       "source": "finai-a8c84aa8bf87",
       "target": "source:google-news-en",
       "type": "mentioned_on",
@@ -4317,18 +3561,6 @@
     },
     {
       "source": "finai-3a9470391011",
-      "target": "source:google-news-en",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-0a0f251e0a03",
-      "target": "source:google-news-en",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-f80c8f34ca4f",
       "target": "source:google-news-en",
       "type": "mentioned_on",
       "weight": 1
@@ -4370,7 +3602,18 @@
       "source": "finai-2c6966c450b4",
       "target": "source:google-news-es",
       "type": "mentioned_on",
-      "weight": 2
+      "weight": 3
+    },
+    {
+      "source": "finai-8852d4553171",
+      "target": "entity:Coinbase",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-8852d4553171",
+      "target": "source:google-news-zh",
+      "type": "mentioned_on",
+      "weight": 1
     },
     {
       "source": "finai-3c9e84de93b1",
@@ -4387,7 +3630,7 @@
       "source": "finai-3c9e84de93b1",
       "target": "source:google-news-en",
       "type": "mentioned_on",
-      "weight": 7
+      "weight": 5
     },
     {
       "source": "finai-f5943fcd16cb",
@@ -4401,8 +3644,13 @@
       "weight": 1
     },
     {
-      "source": "finai-f5943fcd16cb",
-      "target": "source:watchlist-news",
+      "source": "finai-58b42996023e",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-58b42996023e",
+      "target": "source:bing-news-en",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -4418,12 +3666,12 @@
       "weight": 1
     },
     {
-      "source": "finai-6d6115196b3d",
+      "source": "finai-58d5e4f6a284",
       "target": "entity:Ant Group",
       "type": "issued_by"
     },
     {
-      "source": "finai-6d6115196b3d",
+      "source": "finai-58d5e4f6a284",
       "target": "source:google-news-zh",
       "type": "mentioned_on",
       "weight": 1
@@ -4463,6 +3711,17 @@
       "weight": 1
     },
     {
+      "source": "finai-b07743d92bfb",
+      "target": "entity:Alibaba",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-b07743d92bfb",
+      "target": "source:google-news-es",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
       "source": "finai-5ef9d3f230cf",
       "target": "entity:Ant Group",
       "type": "issued_by"
@@ -4486,13 +3745,8 @@
       "weight": 1
     },
     {
-      "source": "finai-d8a56cb02586",
-      "target": "entity:Baidu",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-d8a56cb02586",
-      "target": "source:google-news-zh",
+      "source": "finai-e6ed55a096f3",
+      "target": "source:google-news-en",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -4554,19 +3808,8 @@
       "weight": 2
     },
     {
-      "source": "finai-96c7b121912e",
-      "target": "entity:Oracle",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-96c7b121912e",
+      "source": "finai-a36f8d43775d",
       "target": "source:google-news-en",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
-      "source": "finai-96c7b121912e",
-      "target": "source:google-news-ja",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -4579,7 +3822,7 @@
       "source": "finai-19b64f3c3636",
       "target": "source:google-news-en",
       "type": "mentioned_on",
-      "weight": 2
+      "weight": 1
     },
     {
       "source": "finai-8426bc084437",
@@ -4616,17 +3859,6 @@
       "weight": 1
     },
     {
-      "source": "finai-ce1db6c8bc40",
-      "target": "entity:Microsoft",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-ce1db6c8bc40",
-      "target": "source:google-news-en",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
       "source": "finai-fb0001914fd2",
       "target": "entity:Anthropic",
       "type": "issued_by"
@@ -4649,6 +3881,12 @@
       "weight": 2
     },
     {
+      "source": "finai-c1266cea9baf",
+      "target": "source:watchlist-news",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
       "source": "finai-3a80c9076392",
       "target": "source:google-news-en",
       "type": "mentioned_on",
@@ -4666,13 +3904,8 @@
       "weight": 2
     },
     {
-      "source": "finai-1391281b3ca2",
-      "target": "entity:OpenAI",
-      "type": "issued_by"
-    },
-    {
-      "source": "finai-1391281b3ca2",
-      "target": "source:google-news-en",
+      "source": "finai-a47960520234",
+      "target": "source:google-news-ja",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -4680,7 +3913,7 @@
       "source": "finai-cacb9a3b1a36",
       "target": "source:google-news-zh",
       "type": "mentioned_on",
-      "weight": 1
+      "weight": 2
     },
     {
       "source": "finai-1e5f3cf72507",
@@ -4752,12 +3985,6 @@
       "weight": 1
     },
     {
-      "source": "finai-ce7e101cd42c",
-      "target": "source:watchlist-news",
-      "type": "mentioned_on",
-      "weight": 1
-    },
-    {
       "source": "finai-f7c70698f00b",
       "target": "entity:Microsoft",
       "type": "issued_by"
@@ -4765,6 +3992,39 @@
     {
       "source": "finai-f7c70698f00b",
       "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-39cbdf4e21b2",
+      "target": "entity:Visa",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-39cbdf4e21b2",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-3390ed86a5cd",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-3390ed86a5cd",
+      "target": "source:google-news-es",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-ab734e85f826",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-ab734e85f826",
+      "target": "source:google-news-es",
       "type": "mentioned_on",
       "weight": 1
     },
@@ -4780,21 +4040,21 @@
       "weight": 1
     },
     {
-      "source": "finai-d33359ab6f46",
+      "source": "finai-dae0140be720",
       "target": "entity:Visa",
       "type": "issued_by"
     },
     {
-      "source": "finai-d33359ab6f46",
+      "source": "finai-dae0140be720",
       "target": "source:google-news-en",
       "type": "mentioned_on",
-      "weight": 2
+      "weight": 1
     },
     {
-      "source": "finai-d33359ab6f46",
-      "target": "source:bing-news-en",
+      "source": "finai-d5913104dd4f",
+      "target": "source:google-news-en",
       "type": "mentioned_on",
-      "weight": 2
+      "weight": 1
     },
     {
       "source": "finai-4ebf37e8ebc0",
@@ -4822,7 +4082,7 @@
       "source": "finai-98ea886341e6",
       "target": "source:google-news-en",
       "type": "mentioned_on",
-      "weight": 4
+      "weight": 3
     },
     {
       "source": "finai-48e519635cb6",
@@ -4836,13 +4096,522 @@
       "weight": 1
     },
     {
-      "source": "finai-48e519635cb6",
-      "target": "source:watchlist-news",
+      "source": "finai-ef760ff986f0",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-3843c123f281",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-fb789a8eab7b",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 4
+    },
+    {
+      "source": "finai-2c28dbe1d6b6",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-2c28dbe1d6b6",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-ac0a05fdb8d0",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-ddad1eb295c5",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-ddad1eb295c5",
+      "target": "source:google-news-zh",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-7e08f8e65dc3",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-7e08f8e65dc3",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-6e5f50ac687a",
+      "target": "entity:Anthropic",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-6e5f50ac687a",
+      "target": "source:google-news-zh",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-f7fd8e566801",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-a8e203925086",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-4e8ab9b45c14",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-d354f45cf7a8",
+      "target": "entity:Uniswap Labs",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-d354f45cf7a8",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-a27ee358b164",
+      "target": "source:google-news-ja",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-e340841a5485",
+      "target": "source:google-news-ja",
+      "type": "mentioned_on",
+      "weight": 3
+    },
+    {
+      "source": "finai-409748421df0",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-a0cf399503ec",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-8d57bdae71fe",
+      "target": "entity:NVIDIA",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-8d57bdae71fe",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-6f10b2264888",
+      "target": "entity:Robinhood",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-6f10b2264888",
+      "target": "source:google-news-ja",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-e8eff7bc5bc6",
+      "target": "entity:Salesforce",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-e8eff7bc5bc6",
+      "target": "source:google-news-ja",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-fb9d968a8477",
+      "target": "entity:Meta",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-fb9d968a8477",
+      "target": "source:google-news-es",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-bf861b3aeb31",
+      "target": "entity:Circle",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-bf861b3aeb31",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-05ec71220679",
+      "target": "entity:Oracle",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-05ec71220679",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-937dd704bd9b",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-255f28e0ec51",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-526b155a7edb",
+      "target": "source:google-news-fr",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-c3ab6ed3a8d9",
+      "target": "entity:Mistral AI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-c3ab6ed3a8d9",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-82264c849ab1",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-92acac41e954",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-df8fe4a2efe8",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-61125a48f6d9",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-61125a48f6d9",
+      "target": "source:google-news-ja",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-7c866c8c7fa8",
+      "target": "entity:Palantir",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-7c866c8c7fa8",
+      "target": "source:google-news-es",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-2cd4d6f060b5",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-9d55338237a1",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-fcb5f5f2cbee",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-c6893e22d28c",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-bfee1b3a8585",
+      "target": "source:google-news-en",
       "type": "mentioned_on",
       "weight": 2
     },
     {
-      "source": "finai-ef760ff986f0",
+      "source": "finai-d8dd87b0dddf",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-a266b609f886",
+      "target": "source:google-news-zh",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-a266b609f886",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-7cc6d89e0705",
+      "target": "source:bing-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-fd9864edb658",
+      "target": "entity:Nubank",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-fd9864edb658",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-67d675453d23",
+      "target": "source:google-news-zh",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-52794a42101d",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-cfec1887b908",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-536e09f308ed",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-536e09f308ed",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-9375ca075b45",
+      "target": "entity:Ant Group",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-9375ca075b45",
+      "target": "source:google-news-zh",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-a7c810ecf24b",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-4be69e2f2c7f",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-4783a4133cdb",
+      "target": "entity:Revolut",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-4783a4133cdb",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-5bd7e9fae123",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-6db8e9bc8a3c",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 2
+    },
+    {
+      "source": "finai-7ea2c78282d9",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-76b04f321264",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-8554737f11bb",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-8554737f11bb",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-c57fa19d8600",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-f541f1397e26",
+      "target": "entity:Fireblocks",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-f541f1397e26",
+      "target": "source:google-news-ja",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-708858c40a58",
+      "target": "entity:Revolut",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-708858c40a58",
+      "target": "source:google-news-ja",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-710e03e708c7",
+      "target": "entity:Salesforce",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-710e03e708c7",
+      "target": "source:google-news-ja",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-29f42a0a1d41",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-8ead65962dba",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-29a6b63778a8",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 6
+    },
+    {
+      "source": "finai-693a8eac7471",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-982a68dbc8fc",
+      "target": "source:google-news-en",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-1ce26f9b1dbe",
+      "target": "entity:OpenAI",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-1ce26f9b1dbe",
+      "target": "source:google-news-ja",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-cd6e1c97655f",
+      "target": "entity:Aave",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-cd6e1c97655f",
+      "target": "source:official-mcp-registry",
+      "type": "mentioned_on",
+      "weight": 1
+    },
+    {
+      "source": "finai-878945eb597f",
+      "target": "entity:Google",
+      "type": "issued_by"
+    },
+    {
+      "source": "finai-878945eb597f",
       "target": "source:google-news-en",
       "type": "mentioned_on",
       "weight": 1
