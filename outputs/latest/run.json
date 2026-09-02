@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-01T08:49:57.864707+00:00",
+  "generated_at": "2026-09-02T08:05:21.555495+00:00",
   "window": {
     "days": 30,
-    "start": "2026-08-03",
-    "end": "2026-09-01"
+    "start": "2026-08-04",
+    "end": "2026-09-02"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,18 +12,18 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 3656,
-    "items_in_window": 3500,
-    "accepted_candidates": 381,
+    "raw_items": 3525,
+    "items_in_window": 3368,
+    "accepted_candidates": 409,
     "reported_candidates": 250,
-    "deduplicated_items": 162,
-    "below_threshold": 2957,
+    "deduplicated_items": 172,
+    "below_threshold": 2787,
     "source_success_rate": 91.7,
     "sources_ok": 10,
     "sources_partial": 1,
     "sources_total": 12,
-    "watchlist_candidates": 177,
-    "new_candidates": 169,
+    "watchlist_candidates": 181,
+    "new_candidates": 185,
     "hot_candidates": 0
   },
   "source_health": [
@@ -36,54 +36,54 @@
     {
       "id": "gdelt-news",
       "status": "partial",
-      "items": 132,
+      "items": 272,
       "errors": [
-        "bank artificial intelligence: <urlopen error _ssl.c:999: The handshake operation timed out>",
         "fintech generative AI: Expecting value: line 1 column 1 (char 0)",
-        "payments AI: Expecting value: line 1 column 1 (char 0)",
+        "insurance artificial intelligence: <urlopen error timed out>",
+        "payments AI: <urlopen error timed out>",
         "lending AI: Expecting value: line 1 column 1 (char 0)"
       ]
     },
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 60,
+      "items": 58,
       "errors": []
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 620,
+      "items": 624,
       "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 73,
+      "items": 72,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 56,
+      "items": 44,
       "errors": []
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 177,
+      "items": 182,
       "errors": []
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 168,
+      "items": 182,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 9,
+      "items": 10,
       "errors": []
     },
     {
@@ -103,35 +103,35 @@
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 2131,
+      "items": 1851,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M4": 1,
-      "M3": 162,
-      "M2": 53,
-      "M5": 34
+      "M2": 39,
+      "M3": 179,
+      "M5": 31,
+      "M4": 1
     },
     "event_type": {
-      "commercial_agreement": 43,
-      "product_launch": 134,
-      "pilot": 11,
-      "customer_deployment": 28,
-      "scale": 34
+      "pilot": 8,
+      "customer_deployment": 32,
+      "commercial_agreement": 32,
+      "product_launch": 147,
+      "scale": 31
     },
     "relevance": {
-      "90-100": 12,
-      "75-89": 25,
-      "60-74": 78,
-      "<60": 135
+      "90-100": 11,
+      "75-89": 32,
+      "60-74": 67,
+      "<60": 140
     },
     "innovation": {
-      "not_demonstrated": 224,
-      "incremental": 11,
-      "substantive": 9,
-      "application_design": 6
+      "substantive": 8,
+      "not_demonstrated": 223,
+      "application_design": 12,
+      "incremental": 7
     }
   }
 }
