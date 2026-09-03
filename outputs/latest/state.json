@@ -1,58 +1,230 @@
 {
   "cases": {
-    "finai-ee79141a5fd9": {
+    "finai-ec0771b1c93c": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-783387c4d16b": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-07d185e1e876": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-bb4530800c68": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-cbca72d3097e": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-da9bf553996e": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-63c17a3056a3": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 2
+    },
+    "finai-1fa48edde585": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 4
+    },
+    "finai-3296af46dd30": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-f07f0a92204a": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-fe821d29527e": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-05fd4aee3acb": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-ac99300609cb": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-96c548a21490": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-d9ce3784ac08": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-6fd343c5ebc7": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 2
+    },
+    "finai-41e70ac7fd8f": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-cf1a32773091": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-cd3f0ce29541": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-b85cd282ed79": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-3f0be5e202c6": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-31b4af5c07db": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-d92ca803dfcf": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-29fa9a1be982": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-f5a4c98cc9f1": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-bde1c9508511": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-f0209790adb7": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-7dfcdf0419ce": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-f431dd344a6c": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-2bc175155773": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-d97ee8ad2e3b": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-7cd2e11b6534": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-408543566819": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-f1a6f0848066": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-7ca74fedc389": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-1fdcab650cd3": {
+      "first_seen": "2026-09-03",
+      "evidence_count": 1
+    },
+    "finai-f225e8ef9a21": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-0be3dac8f832": {
+    "finai-0425d44cd080": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-77f2f2730198": {
+    "finai-bf60c68ce51d": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-abac81a9a555": {
-      "first_seen": "2026-09-02",
-      "evidence_count": 1
-    },
-    "finai-fee3ab72007c": {
+    "finai-1f176a7e74a2": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
     "finai-fff8c7062ae3": {
       "first_seen": "2026-09-02",
+      "evidence_count": 3
+    },
+    "finai-6fae0b21e57d": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-ec47a5146f0c": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-2bd8ef933c2b": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 5
+    },
+    "finai-4882c99a678f": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-c05579d4b9d9": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 4
+    },
+    "finai-01065996165c": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-18a750c5c690": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-c14a08d325d9": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 3
+    },
+    "finai-4a3a4f297728": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-32b586c633e0": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 4
+    },
+    "finai-2335ac0cce62": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-016d5df1f481": {
+      "first_seen": "2026-09-02",
       "evidence_count": 2
     },
-    "finai-6a7098e97eb6": {
+    "finai-013d49513743": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-f358d85d7205": {
+    "finai-e0f635ad70fa": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-4df727e6e716": {
+    "finai-41e78007d9fa": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-56526355ca67": {
-      "first_seen": "2026-09-02",
-      "evidence_count": 1
-    },
-    "finai-139155480e03": {
-      "first_seen": "2026-09-02",
-      "evidence_count": 1
-    },
-    "finai-ee5e1ba19edb": {
-      "first_seen": "2026-09-02",
-      "evidence_count": 1
-    },
-    "finai-e150b3851028": {
-      "first_seen": "2026-09-02",
-      "evidence_count": 1
-    },
-    "finai-f620befb5a44": {
+    "finai-12e343611e45": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
@@ -60,63 +232,199 @@
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
+    "finai-aed1403d36de": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-ff4aac35b9c7": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-6de7b5f26cea": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-cc4d438350b4": {
+      "first_seen": "2026-08-30",
+      "evidence_count": 1
+    },
+    "finai-55cb84eae6d8": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
     "finai-6bb359974afb": {
       "first_seen": "2026-09-02",
-      "evidence_count": 1
+      "evidence_count": 2
     },
-    "finai-a9253c0bbdcd": {
+    "finai-0d7c63fd851d": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-3779cfee65d1": {
+    "finai-8eac22c7c1bc": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-844095bc3ee6": {
+    "finai-9cd969c83817": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-f3543fb79386": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-48e3e3bb6e61": {
+    "finai-ca73046686ca": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-a6af8e3a2c8b": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-0cd0e55cc532": {
+    "finai-a8bbf8994e8d": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
+    },
+    "finai-1d906a083e67": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-73be5e77eb26": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-4fb4375346d4": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-f0c05db9adf5": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-d8cf394f1641": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-22d3f56e5c8b": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-afa89e86ae30": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-8a1d495464f9": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-6fb1adcd5583": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-061ee272e408": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-0118d0b40f44": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-7e29fc0f3daf": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-1dbead4181fd": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 3
     },
     "finai-a209f74c3762": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-fc8a4e6f2080": {
+    "finai-728dc6ee0a7e": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-0e0f238a4995": {
+    "finai-9198f23f56cd": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-84843602ddf8": {
+    "finai-187fd325ad6b": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 7
+    },
+    "finai-9b6c05fb4213": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-f22ba18272f0": {
+    "finai-4953efd60f8d": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 3
+    },
+    "finai-2926951dfec0": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 3
+    },
+    "finai-13378106a054": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-b09110a78444": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-40a9e7e8168a": {
+    "finai-f450bfc3c66b": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-450c888b88c1": {
+    "finai-d18223e284f7": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-94896051a191": {
+    "finai-fab6e6074690": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 3
+    },
+    "finai-ade7fd6937b1": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-9ae8dde898ac": {
+    "finai-38dce0293157": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-8de0a31efc51": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-0560afc1f26a": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-ba4a9b3f87dc": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-7fee80f0ff81": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-b24bd0ac1de3": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-c852ae2e8421": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-9094c3746461": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-7d7cb76337e5": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-d76f7f70c445": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
@@ -124,55 +432,139 @@
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-5c31dc4d2b80": {
+    "finai-912b2fb5683a": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-396f9e6a9efe": {
-      "first_seen": "2026-09-02",
-      "evidence_count": 2
-    },
-    "finai-36e77919c9e9": {
-      "first_seen": "2026-09-02",
-      "evidence_count": 1
-    },
-    "finai-1a4afbff9165": {
-      "first_seen": "2026-08-31",
-      "evidence_count": 1
-    },
-    "finai-1f2d8c7d5efa": {
+    "finai-01991f106bb6": {
       "first_seen": "2026-09-02",
       "evidence_count": 4
     },
-    "finai-dc69340ed053": {
+    "finai-66e6f0861780": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-08125817cac3": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-b8448fa7e844": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-d38542166f68": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-7981c2cf717a": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-056f23a682a6": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-36e296ea4fc6": {
+      "first_seen": "2026-09-01",
+      "evidence_count": 1
+    },
+    "finai-b7abeda138ea": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-31127ec24927": {
       "first_seen": "2026-09-02",
       "evidence_count": 2
     },
-    "finai-14a7530af3e7": {
+    "finai-8fb90587bc27": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 3
+    },
+    "finai-0890fa287cc1": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-2a651b6e95cf": {
+    "finai-4e9397f198a5": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-5662ba4c7ce6": {
+    "finai-5b0f930b9bb0": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-ec0ecfe04e97": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 2
+    },
+    "finai-b320fa140c95": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-7ccf4d8d1149": {
+    "finai-8e69664e5346": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-03a10ba874f0": {
+    "finai-d6595b1b9899": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-9e0598422e07": {
+    "finai-9d829971f495": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
-    "finai-f7d92213c7a8": {
+    "finai-df1830c9bde1": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-e2f83dc298ff": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-fd21f3068ae0": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-51b5acb41415": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-a885ba226ef5": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-2f2b01cd5e23": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-39fc32627923": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-9b895c5d4829": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-3ba07a87cc72": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-366fb979db80": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-6fe510693db7": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-a5645b508f92": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-32b0b8d4d51d": {
+      "first_seen": "2026-09-02",
+      "evidence_count": 1
+    },
+    "finai-159ca853ec7d": {
       "first_seen": "2026-09-02",
       "evidence_count": 1
     },
@@ -180,27 +572,19 @@
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-f235981e4e52": {
+    "finai-3fb25e8a1eb4": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
+    },
+    "finai-10459d5018f2": {
+      "first_seen": "2026-09-01",
+      "evidence_count": 6
     },
     "finai-5498f481494b": {
       "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-ffb13c200dcf": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 3
+      "evidence_count": 5
     },
     "finai-7ffed0e6e6a1": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-4093a34f0c2a": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 3
-    },
-    "finai-cd2ddf0e053d": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
@@ -212,95 +596,23 @@
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-4bd0d19aea33": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-1d939a06b790": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
+    "finai-87f08bbf3c75": {
+      "first_seen": "2026-08-28",
+      "evidence_count": 3
     },
     "finai-4fda39322d7d": {
       "first_seen": "2026-09-01",
       "evidence_count": 3
     },
-    "finai-76ac028a315b": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
     "finai-c7b123534855": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-6284db879a9f": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-1e97f4c731b6": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-c427e74a6e1a": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-c82cc1d8fb7c": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-65283f9594c3": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-d284211b5d7a": {
+    "finai-75111a99ec7f": {
       "first_seen": "2026-09-01",
       "evidence_count": 2
     },
     "finai-6d7f9cd62b52": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-465839b3f9c5": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-199097a4bcac": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-8ac2a37a34fe": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-d3dfdedc0b8c": {
-      "first_seen": "2026-08-31",
-      "evidence_count": 1
-    },
-    "finai-f2589c3b7d2e": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 3
-    },
-    "finai-4b4d2a2bcde8": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-150ec7acd075": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-e31df789aeaa": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-d0b59f82f285": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-276826e5ee46": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-ca01c02dd002": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
@@ -308,23 +620,23 @@
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-a8c6db9d54a0": {
+    "finai-2dbd04a89ebc": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-35f577642301": {
+    "finai-f0f09d2b96da": {
       "first_seen": "2026-09-01",
-      "evidence_count": 5
+      "evidence_count": 1
     },
     "finai-a1b0ac215d8b": {
       "first_seen": "2026-09-01",
-      "evidence_count": 2
+      "evidence_count": 1
     },
     "finai-214707cf2abd": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-262264c57b81": {
+    "finai-cd2ddf0e053d": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
@@ -336,393 +648,37 @@
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-f0f09d2b96da": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 5
-    },
-    "finai-69fec6a2225d": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-68da4ea16292": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-4b7624f4b22b": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-07aa74af13a9": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-5c4541b4eb27": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-0b2fb8761057": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-34ec1289622f": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-24c7f88636bb": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-ae1c93caec70": {
+    "finai-b777e795879d": {
       "first_seen": "2026-09-01",
       "evidence_count": 2
     },
-    "finai-b1ab34156b2c": {
+    "finai-ba71ea19a0d0": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-fb3bbdc64ddd": {
+    "finai-ae8ee895d8d7": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
     "finai-6587fd6fbc12": {
       "first_seen": "2026-09-01",
-      "evidence_count": 3
+      "evidence_count": 1
     },
-    "finai-bc873781c50a": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 4
-    },
-    "finai-30b69810eed1": {
+    "finai-3646d31d6478": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-dd48656ab157": {
+    "finai-42f650748b00": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
-    "finai-31d69029d083": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 3
-    },
-    "finai-aa4b5ffab396": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-0810e97e6a4c": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 4
-    },
-    "finai-ce090074bb9d": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 10
-    },
-    "finai-e9a0061b3953": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 3
-    },
-    "finai-4463e6c9f839": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 5
-    },
-    "finai-5127b22934e7": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-22eba90b67c9": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-d9b074ffac82": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-8bfc0b140d8c": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-365c016a0237": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-ced913108550": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-f96cca5988b0": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-79bcb79ff9cb": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-ab4e8751ec3e": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-062a6db9c450": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-5a9291f01ee9": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-94fc6031201f": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-866965ad6abe": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-1959d675af85": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-a0512d6c9d37": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-c47d1415fc4e": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-4ea1f8bba567": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-0a0c3fc2f787": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-5ae8f8e4f086": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-d3fb9547cc18": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-67242b7ae50c": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-d8052ef37842": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-a655c3076f29": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-8defef0f9e73": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-542543078000": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-2b78d3c49446": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 3
-    },
-    "finai-61943496ab6d": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-8a1a7452c045": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-f9a3d08c07f4": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-d8434e479120": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-f9532d326338": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-f990d92e6e36": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-4a7f5ba116ab": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 4
-    },
-    "finai-bd22a8c52c7b": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-697dc927a2a6": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-d4b95adf8b67": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-f37f76a67ae4": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-362f95a9fa33": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-307d7237fa66": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-bb3171b9c38a": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-68b2bfd83ed2": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-4dd1248b673c": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-eb6e3cf30efa": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-ddb6652d5f02": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-94b0887bcc1e": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-3bcaa2a1ba7c": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-36e296ea4fc6": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-588242136a63": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-8311a599a875": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-b934c200bb4d": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-01b16132d701": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-66e421f104ac": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-49f5a09a4f42": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-871a42142290": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-ea6c2d325dd4": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-9c27ec371814": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-8b62c87b384c": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-e274b11864ac": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-80d995a5457c": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-604c907e891b": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-a81a4b179c90": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-60e37b780e56": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 2
-    },
-    "finai-2ee808fd12e2": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-7eaee962b23e": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-7cd67feee945": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-6736cd6a0fc7": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 3
-    },
-    "finai-19f5f63539a1": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-f188d5795a22": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-40c3ae83bb90": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-19fb8908ed95": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-62c18335ea6f": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-dab62f981073": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-57be2f94ec5b": {
-      "first_seen": "2026-09-01",
-      "evidence_count": 1
-    },
-    "finai-7084fc8d4945": {
+    "finai-c893b1025621": {
       "first_seen": "2026-09-01",
       "evidence_count": 1
     },
     "finai-7e47de27df71": {
       "first_seen": "2026-08-31",
-      "evidence_count": 2
+      "evidence_count": 4
     },
     "finai-af5c4c89a2cb": {
       "first_seen": "2026-08-31",
@@ -740,29 +696,9 @@
       "first_seen": "2026-08-31",
       "evidence_count": 1
     },
-    "finai-04eb8070e137": {
-      "first_seen": "2026-08-31",
-      "evidence_count": 1
-    },
-    "finai-cff5b5b7b8b5": {
-      "first_seen": "2026-08-28",
-      "evidence_count": 1
-    },
-    "finai-adfd38468634": {
-      "first_seen": "2026-08-31",
-      "evidence_count": 1
-    },
-    "finai-cc4d438350b4": {
-      "first_seen": "2026-08-30",
-      "evidence_count": 1
-    },
     "finai-b07c6495b518": {
       "first_seen": "2026-08-31",
-      "evidence_count": 3
-    },
-    "finai-6511219f38ff": {
-      "first_seen": "2026-08-31",
-      "evidence_count": 1
+      "evidence_count": 2
     },
     "finai-5e8ac42a6911": {
       "first_seen": "2026-08-31",
@@ -772,11 +708,7 @@
       "first_seen": "2026-08-31",
       "evidence_count": 1
     },
-    "finai-856d89018165": {
-      "first_seen": "2026-08-31",
-      "evidence_count": 1
-    },
-    "finai-e3aca63b953c": {
+    "finai-adfd38468634": {
       "first_seen": "2026-08-31",
       "evidence_count": 1
     },
@@ -788,7 +720,7 @@
       "first_seen": "2026-08-31",
       "evidence_count": 1
     },
-    "finai-f5cd17d9bafc": {
+    "finai-e51d2e377ca4": {
       "first_seen": "2026-08-30",
       "evidence_count": 1
     },
@@ -796,19 +728,7 @@
       "first_seen": "2026-08-30",
       "evidence_count": 1
     },
-    "finai-f6147ac63eb6": {
-      "first_seen": "2026-08-30",
-      "evidence_count": 1
-    },
-    "finai-f378b635a864": {
-      "first_seen": "2026-08-30",
-      "evidence_count": 1
-    },
     "finai-3cbf9989ba70": {
-      "first_seen": "2026-08-29",
-      "evidence_count": 1
-    },
-    "finai-dcf64f416d37": {
       "first_seen": "2026-08-29",
       "evidence_count": 1
     },
@@ -820,31 +740,35 @@
       "first_seen": "2026-08-29",
       "evidence_count": 1
     },
+    "finai-50c5c7dabba8": {
+      "first_seen": "2026-08-29",
+      "evidence_count": 1
+    },
+    "finai-34439d81cdeb": {
+      "first_seen": "2026-08-28",
+      "evidence_count": 1
+    },
+    "finai-cf86486b55a1": {
+      "first_seen": "2026-08-28",
+      "evidence_count": 1
+    },
     "finai-89542526b90e": {
       "first_seen": "2026-08-28",
       "evidence_count": 1
     },
-    "finai-ff3e554a673f": {
+    "finai-cff5b5b7b8b5": {
       "first_seen": "2026-08-28",
-      "evidence_count": 2
-    },
-    "finai-87f08bbf3c75": {
-      "first_seen": "2026-08-28",
-      "evidence_count": 5
-    },
-    "finai-0f4d96fef334": {
-      "first_seen": "2026-08-28",
-      "evidence_count": 3
+      "evidence_count": 1
     },
     "finai-2665beede3d0": {
       "first_seen": "2026-08-28",
-      "evidence_count": 1
+      "evidence_count": 2
     },
-    "finai-fc56a75e4a69": {
+    "finai-d5050500ff4a": {
       "first_seen": "2026-08-28",
       "evidence_count": 1
     },
-    "finai-d5050500ff4a": {
+    "finai-c6af5fa5f8dd": {
       "first_seen": "2026-08-28",
       "evidence_count": 1
     },
@@ -852,7 +776,7 @@
       "first_seen": "2026-08-21",
       "evidence_count": 1
     },
-    "finai-09b2f1e91c0c": {
+    "finai-fc56a75e4a69": {
       "first_seen": "2026-08-28",
       "evidence_count": 1
     },
@@ -864,23 +788,15 @@
       "first_seen": "2026-08-22",
       "evidence_count": 1
     },
-    "finai-77933b67e11f": {
-      "first_seen": "2026-08-28",
+    "finai-50ab7c6f6859": {
+      "first_seen": "2026-08-27",
       "evidence_count": 1
-    },
-    "finai-add0fa2c0875": {
-      "first_seen": "2026-08-28",
-      "evidence_count": 2
     },
     "finai-dae0140be720": {
       "first_seen": "2026-08-11",
       "evidence_count": 3
     },
     "finai-ade00fb2bd58": {
-      "first_seen": "2026-08-27",
-      "evidence_count": 1
-    },
-    "finai-0656ee8ce542": {
       "first_seen": "2026-08-27",
       "evidence_count": 1
     },
@@ -904,6 +820,10 @@
       "first_seen": "2026-08-27",
       "evidence_count": 1
     },
+    "finai-2d30170372e9": {
+      "first_seen": "2026-08-27",
+      "evidence_count": 1
+    },
     "finai-d31bc8a968b4": {
       "first_seen": "2026-08-27",
       "evidence_count": 1
@@ -912,39 +832,19 @@
       "first_seen": "2026-08-12",
       "evidence_count": 1
     },
-    "finai-71580d65d494": {
-      "first_seen": "2026-08-27",
-      "evidence_count": 1
-    },
-    "finai-6955b1e0e07b": {
-      "first_seen": "2026-08-27",
-      "evidence_count": 1
-    },
-    "finai-2d30170372e9": {
-      "first_seen": "2026-08-27",
-      "evidence_count": 1
-    },
     "finai-b956eebdb5d9": {
       "first_seen": "2026-08-27",
       "evidence_count": 1
     },
-    "finai-e8ae6ea44af5": {
+    "finai-4cd091c7311e": {
+      "first_seen": "2026-08-27",
+      "evidence_count": 1
+    },
+    "finai-e1959a8aed2c": {
       "first_seen": "2026-08-27",
       "evidence_count": 1
     },
     "finai-3e357dd554cd": {
-      "first_seen": "2026-08-27",
-      "evidence_count": 1
-    },
-    "finai-9439b9ffd343": {
-      "first_seen": "2026-08-27",
-      "evidence_count": 1
-    },
-    "finai-e4771411750c": {
-      "first_seen": "2026-08-27",
-      "evidence_count": 1
-    },
-    "finai-99ac78d7365c": {
       "first_seen": "2026-08-27",
       "evidence_count": 1
     },
@@ -956,31 +856,23 @@
       "first_seen": "2026-08-26",
       "evidence_count": 1
     },
-    "finai-6454b85547f2": {
-      "first_seen": "2026-08-26",
-      "evidence_count": 1
-    },
-    "finai-cf86486b55a1": {
-      "first_seen": "2026-08-28",
-      "evidence_count": 3
-    },
-    "finai-249ca4e859a4": {
-      "first_seen": "2026-08-26",
-      "evidence_count": 1
-    },
-    "finai-c61133936715": {
-      "first_seen": "2026-08-26",
-      "evidence_count": 1
-    },
     "finai-32fd8f137f2c": {
       "first_seen": "2026-08-26",
       "evidence_count": 1
     },
-    "finai-d629760128f3": {
+    "finai-124b10cd84dd": {
       "first_seen": "2026-08-26",
-      "evidence_count": 2
+      "evidence_count": 4
     },
-    "finai-c93b2549e9fc": {
+    "finai-ef760ff986f0": {
+      "first_seen": "2026-08-11",
+      "evidence_count": 1
+    },
+    "finai-5d3a45a755ea": {
+      "first_seen": "2026-08-26",
+      "evidence_count": 1
+    },
+    "finai-a69c10b89d07": {
       "first_seen": "2026-08-26",
       "evidence_count": 1
     },
@@ -992,26 +884,6 @@
       "first_seen": "2026-08-26",
       "evidence_count": 1
     },
-    "finai-ef760ff986f0": {
-      "first_seen": "2026-08-11",
-      "evidence_count": 1
-    },
-    "finai-7e412708fa32": {
-      "first_seen": "2026-08-26",
-      "evidence_count": 1
-    },
-    "finai-5d3a45a755ea": {
-      "first_seen": "2026-08-26",
-      "evidence_count": 1
-    },
-    "finai-6f41c0682b8c": {
-      "first_seen": "2026-08-26",
-      "evidence_count": 1
-    },
-    "finai-a69c10b89d07": {
-      "first_seen": "2026-08-26",
-      "evidence_count": 1
-    },
     "finai-fbecd72234f8": {
       "first_seen": "2026-08-26",
       "evidence_count": 1
@@ -1020,11 +892,11 @@
       "first_seen": "2026-08-26",
       "evidence_count": 1
     },
-    "finai-3a3897f13e9f": {
+    "finai-4b10f3f9fdbc": {
       "first_seen": "2026-08-26",
       "evidence_count": 1
     },
-    "finai-6ac63045d037": {
+    "finai-d9e75aa05c8c": {
       "first_seen": "2026-08-26",
       "evidence_count": 1
     },
@@ -1032,23 +904,15 @@
       "first_seen": "2026-08-26",
       "evidence_count": 1
     },
-    "finai-7da68fbb5adb": {
-      "first_seen": "2026-08-25",
-      "evidence_count": 5
-    },
     "finai-3c3d09e21478": {
       "first_seen": "2026-08-25",
-      "evidence_count": 2
-    },
-    "finai-9c2e2aa3c90c": {
-      "first_seen": "2026-08-25",
-      "evidence_count": 1
-    },
-    "finai-c171b949aaf9": {
-      "first_seen": "2026-08-25",
-      "evidence_count": 1
+      "evidence_count": 3
     },
     "finai-75b4d334d5ab": {
+      "first_seen": "2026-08-25",
+      "evidence_count": 1
+    },
+    "finai-feee81cbb534": {
       "first_seen": "2026-08-25",
       "evidence_count": 2
     },
@@ -1056,28 +920,28 @@
       "first_seen": "2026-08-25",
       "evidence_count": 1
     },
-    "finai-feee81cbb534": {
+    "finai-72a6f50e5d89": {
       "first_seen": "2026-08-25",
       "evidence_count": 1
     },
-    "finai-2ae714345332": {
+    "finai-f6f971e28994": {
       "first_seen": "2026-08-25",
       "evidence_count": 1
     },
-    "finai-6f1cffb77c0d": {
-      "first_seen": "2026-08-24",
+    "finai-2295dc39e17e": {
+      "first_seen": "2026-08-25",
+      "evidence_count": 1
+    },
+    "finai-edede88902ba": {
+      "first_seen": "2026-08-25",
       "evidence_count": 1
     },
     "finai-4e8ab9b45c14": {
       "first_seen": "2026-08-10",
       "evidence_count": 1
     },
-    "finai-5b6cbffc4b07": {
+    "finai-6f1cffb77c0d": {
       "first_seen": "2026-08-24",
-      "evidence_count": 1
-    },
-    "finai-9d55338237a1": {
-      "first_seen": "2026-08-05",
       "evidence_count": 1
     },
     "finai-1dd937c7bf62": {
@@ -1092,15 +956,11 @@
       "first_seen": "2026-08-24",
       "evidence_count": 1
     },
-    "finai-33893a778e2a": {
-      "first_seen": "2026-08-24",
+    "finai-9d55338237a1": {
+      "first_seen": "2026-08-05",
       "evidence_count": 1
     },
     "finai-0560abce92d0": {
-      "first_seen": "2026-08-24",
-      "evidence_count": 1
-    },
-    "finai-9ad0106a549a": {
       "first_seen": "2026-08-24",
       "evidence_count": 1
     },
@@ -1108,23 +968,11 @@
       "first_seen": "2026-08-22",
       "evidence_count": 1
     },
-    "finai-e6be940a6149": {
-      "first_seen": "2026-08-22",
-      "evidence_count": 1
-    },
     "finai-8d9abc01917c": {
       "first_seen": "2026-08-21",
       "evidence_count": 1
     },
-    "finai-0eb0fd0651e0": {
-      "first_seen": "2026-08-21",
-      "evidence_count": 1
-    },
-    "finai-3bf940b45623": {
-      "first_seen": "2026-08-21",
-      "evidence_count": 1
-    },
-    "finai-d22440a9a8f0": {
+    "finai-59bd0a7ff384": {
       "first_seen": "2026-08-21",
       "evidence_count": 1
     },
@@ -1132,13 +980,13 @@
       "first_seen": "2026-08-21",
       "evidence_count": 1
     },
-    "finai-d24c3f6340ad": {
-      "first_seen": "2026-08-21",
-      "evidence_count": 3
-    },
-    "finai-7f8c07f97d6e": {
+    "finai-d22440a9a8f0": {
       "first_seen": "2026-08-21",
       "evidence_count": 1
+    },
+    "finai-d24c3f6340ad": {
+      "first_seen": "2026-08-21",
+      "evidence_count": 2
     },
     "finai-239b39838e18": {
       "first_seen": "2026-08-21",
@@ -1148,6 +996,10 @@
       "first_seen": "2026-08-20",
       "evidence_count": 1
     },
+    "finai-06450a866b0c": {
+      "first_seen": "2026-08-20",
+      "evidence_count": 2
+    },
     "finai-95d59f2ef105": {
       "first_seen": "2026-08-20",
       "evidence_count": 1
@@ -1156,15 +1008,15 @@
       "first_seen": "2026-08-20",
       "evidence_count": 1
     },
+    "finai-15a53c3d18aa": {
+      "first_seen": "2026-08-20",
+      "evidence_count": 3
+    },
     "finai-2b6a6f9769a6": {
       "first_seen": "2026-08-19",
       "evidence_count": 1
     },
-    "finai-795a7528604b": {
-      "first_seen": "2026-08-20",
-      "evidence_count": 1
-    },
-    "finai-70df079aa221": {
+    "finai-f319b37950a2": {
       "first_seen": "2026-08-20",
       "evidence_count": 1
     },
@@ -1172,23 +1024,7 @@
       "first_seen": "2026-08-20",
       "evidence_count": 1
     },
-    "finai-f319b37950a2": {
-      "first_seen": "2026-08-20",
-      "evidence_count": 1
-    },
-    "finai-0260ef00d704": {
-      "first_seen": "2026-08-20",
-      "evidence_count": 1
-    },
-    "finai-4306392b30a7": {
-      "first_seen": "2026-08-20",
-      "evidence_count": 1
-    },
-    "finai-5597fcf7424b": {
-      "first_seen": "2026-08-20",
-      "evidence_count": 1
-    },
-    "finai-1c05c306f4bb": {
+    "finai-45032320ce8d": {
       "first_seen": "2026-08-20",
       "evidence_count": 1
     },
@@ -1196,15 +1032,23 @@
       "first_seen": "2026-08-19",
       "evidence_count": 1
     },
+    "finai-cc5a02be8cf5": {
+      "first_seen": "2026-08-19",
+      "evidence_count": 1
+    },
     "finai-c0fa8f0aab0c": {
       "first_seen": "2026-08-19",
       "evidence_count": 2
     },
-    "finai-dfd12dbc6bb3": {
+    "finai-a592fcbeafa4": {
       "first_seen": "2026-08-19",
       "evidence_count": 1
     },
-    "finai-a592fcbeafa4": {
+    "finai-3c569e13ac55": {
+      "first_seen": "2026-08-19",
+      "evidence_count": 1
+    },
+    "finai-94e05ba09b52": {
       "first_seen": "2026-08-19",
       "evidence_count": 1
     },
@@ -1216,29 +1060,13 @@
       "first_seen": "2026-08-19",
       "evidence_count": 1
     },
-    "finai-3c569e13ac55": {
-      "first_seen": "2026-08-19",
-      "evidence_count": 1
-    },
-    "finai-cd96ea9ec063": {
-      "first_seen": "2026-08-19",
-      "evidence_count": 1
-    },
-    "finai-94e05ba09b52": {
-      "first_seen": "2026-08-19",
-      "evidence_count": 1
-    },
-    "finai-0d8cf8860514": {
-      "first_seen": "2026-08-19",
-      "evidence_count": 1
-    },
     "finai-1102142bc875": {
       "first_seen": "2026-08-19",
       "evidence_count": 1
     },
     "finai-491b36d43d52": {
       "first_seen": "2026-08-19",
-      "evidence_count": 2
+      "evidence_count": 3
     },
     "finai-f468f23ae63f": {
       "first_seen": "2026-08-18",
@@ -1246,7 +1074,7 @@
     },
     "finai-2cb6549e8ef9": {
       "first_seen": "2026-08-18",
-      "evidence_count": 3
+      "evidence_count": 2
     },
     "finai-0171cd3a00dd": {
       "first_seen": "2026-08-18",
@@ -1260,9 +1088,13 @@
       "first_seen": "2026-08-18",
       "evidence_count": 1
     },
+    "finai-a1f6b7c8b977": {
+      "first_seen": "2026-08-18",
+      "evidence_count": 1
+    },
     "finai-48c3b3c28cb4": {
       "first_seen": "2026-08-18",
-      "evidence_count": 2
+      "evidence_count": 1
     },
     "finai-2f0264398849": {
       "first_seen": "2026-08-18",
@@ -1272,11 +1104,11 @@
       "first_seen": "2026-08-18",
       "evidence_count": 1
     },
-    "finai-cf3793dd6e05": {
+    "finai-3fe6dc1c2160": {
       "first_seen": "2026-08-18",
       "evidence_count": 1
     },
-    "finai-2c6966c450b4": {
+    "finai-7738c0889324": {
       "first_seen": "2026-08-18",
       "evidence_count": 1
     },
@@ -1284,7 +1116,15 @@
       "first_seen": "2026-08-17",
       "evidence_count": 1
     },
+    "finai-236cd0023945": {
+      "first_seen": "2026-08-17",
+      "evidence_count": 1
+    },
     "finai-58d5e4f6a284": {
+      "first_seen": "2026-08-17",
+      "evidence_count": 1
+    },
+    "finai-45e015c9a555": {
       "first_seen": "2026-08-17",
       "evidence_count": 1
     },
@@ -1292,27 +1132,15 @@
       "first_seen": "2026-08-17",
       "evidence_count": 1
     },
-    "finai-90b65526f485": {
-      "first_seen": "2026-08-17",
-      "evidence_count": 1
-    },
-    "finai-0e090648a201": {
-      "first_seen": "2026-08-17",
-      "evidence_count": 1
-    },
     "finai-bef93da6d21a": {
       "first_seen": "2026-08-14",
       "evidence_count": 1
     },
-    "finai-658e03e987cc": {
+    "finai-68d8322713f6": {
       "first_seen": "2026-08-17",
       "evidence_count": 1
     },
     "finai-b07743d92bfb": {
-      "first_seen": "2026-08-17",
-      "evidence_count": 1
-    },
-    "finai-ec4f4743d6e5": {
       "first_seen": "2026-08-17",
       "evidence_count": 1
     },
@@ -1324,15 +1152,15 @@
       "first_seen": "2026-08-15",
       "evidence_count": 1
     },
-    "finai-f9ba07c8da18": {
-      "first_seen": "2026-08-15",
-      "evidence_count": 1
-    },
     "finai-e6ed55a096f3": {
       "first_seen": "2026-08-15",
       "evidence_count": 1
     },
-    "finai-906b999bba2d": {
+    "finai-f9ba07c8da18": {
+      "first_seen": "2026-08-15",
+      "evidence_count": 1
+    },
+    "finai-9e236bb88a4b": {
       "first_seen": "2026-08-14",
       "evidence_count": 1
     },
@@ -1342,9 +1170,9 @@
     },
     "finai-2a185ecbf8c9": {
       "first_seen": "2026-08-14",
-      "evidence_count": 1
+      "evidence_count": 2
     },
-    "finai-cfc88c96ccfc": {
+    "finai-a975ca844bbd": {
       "first_seen": "2026-08-14",
       "evidence_count": 1
     },
@@ -1352,15 +1180,11 @@
       "first_seen": "2026-08-14",
       "evidence_count": 1
     },
-    "finai-4d5afb48eab3": {
-      "first_seen": "2026-08-13",
-      "evidence_count": 2
-    },
-    "finai-c150b996a2c1": {
+    "finai-d9231d98e8be": {
       "first_seen": "2026-08-13",
       "evidence_count": 1
     },
-    "finai-d9231d98e8be": {
+    "finai-c150b996a2c1": {
       "first_seen": "2026-08-13",
       "evidence_count": 1
     },
@@ -1370,13 +1194,21 @@
     },
     "finai-19b64f3c3636": {
       "first_seen": "2026-08-13",
-      "evidence_count": 2
+      "evidence_count": 4
     },
     "finai-96c7b121912e": {
       "first_seen": "2026-08-13",
-      "evidence_count": 2
+      "evidence_count": 1
+    },
+    "finai-79d1846f2375": {
+      "first_seen": "2026-08-13",
+      "evidence_count": 1
     },
     "finai-f6b594552b1b": {
+      "first_seen": "2026-08-13",
+      "evidence_count": 1
+    },
+    "finai-73d3d4f10830": {
       "first_seen": "2026-08-13",
       "evidence_count": 1
     },
@@ -1384,19 +1216,19 @@
       "first_seen": "2026-08-13",
       "evidence_count": 1
     },
-    "finai-d39aff231cf1": {
+    "finai-1dbcfd06d16a": {
       "first_seen": "2026-08-13",
       "evidence_count": 1
     },
-    "finai-e8fdaf8a56fb": {
+    "finai-865ca74f1c00": {
       "first_seen": "2026-08-13",
       "evidence_count": 1
     },
-    "finai-0828f53bb1ba": {
+    "finai-a32f7dfd947e": {
       "first_seen": "2026-08-13",
-      "evidence_count": 1
+      "evidence_count": 4
     },
-    "finai-47bfd1304a4e": {
+    "finai-e0db33a5794a": {
       "first_seen": "2026-08-13",
       "evidence_count": 1
     },
@@ -1408,19 +1240,7 @@
       "first_seen": "2026-08-12",
       "evidence_count": 1
     },
-    "finai-cacb9a3b1a36": {
-      "first_seen": "2026-08-12",
-      "evidence_count": 1
-    },
-    "finai-1e5f3cf72507": {
-      "first_seen": "2026-08-12",
-      "evidence_count": 1
-    },
-    "finai-cb58e246d75b": {
-      "first_seen": "2026-08-12",
-      "evidence_count": 1
-    },
-    "finai-0cf76bbae424": {
+    "finai-95943893d708": {
       "first_seen": "2026-08-12",
       "evidence_count": 1
     },
@@ -1428,7 +1248,11 @@
       "first_seen": "2026-08-12",
       "evidence_count": 1
     },
-    "finai-36bcf57263e1": {
+    "finai-5e76fdc40fe3": {
+      "first_seen": "2026-08-12",
+      "evidence_count": 1
+    },
+    "finai-1e5f3cf72507": {
       "first_seen": "2026-08-12",
       "evidence_count": 1
     },
@@ -1437,6 +1261,10 @@
       "evidence_count": 1
     },
     "finai-11cb60097c1f": {
+      "first_seen": "2026-08-12",
+      "evidence_count": 1
+    },
+    "finai-b860e714ab10": {
       "first_seen": "2026-08-12",
       "evidence_count": 1
     },
@@ -1460,11 +1288,11 @@
       "first_seen": "2026-08-11",
       "evidence_count": 1
     },
-    "finai-fc69e94587d3": {
+    "finai-98ea886341e6": {
       "first_seen": "2026-08-11",
-      "evidence_count": 1
+      "evidence_count": 2
     },
-    "finai-a1b33053ec2e": {
+    "finai-fc69e94587d3": {
       "first_seen": "2026-08-11",
       "evidence_count": 1
     },
@@ -1476,7 +1304,7 @@
       "first_seen": "2026-08-11",
       "evidence_count": 1
     },
-    "finai-6e5f50ac687a": {
+    "finai-d028ad2e6a69": {
       "first_seen": "2026-08-11",
       "evidence_count": 1
     },
@@ -1485,10 +1313,6 @@
       "evidence_count": 1
     },
     "finai-f7fd8e566801": {
-      "first_seen": "2026-08-10",
-      "evidence_count": 1
-    },
-    "finai-a8e203925086": {
       "first_seen": "2026-08-10",
       "evidence_count": 1
     },
@@ -1506,21 +1330,17 @@
     },
     "finai-e340841a5485": {
       "first_seen": "2026-08-10",
-      "evidence_count": 3
+      "evidence_count": 1
     },
     "finai-409748421df0": {
       "first_seen": "2026-08-11",
       "evidence_count": 1
     },
-    "finai-8d57bdae71fe": {
+    "finai-d08c4684374a": {
       "first_seen": "2026-08-10",
       "evidence_count": 1
     },
-    "finai-3e102485fbd4": {
-      "first_seen": "2026-08-10",
-      "evidence_count": 1
-    },
-    "finai-6f10b2264888": {
+    "finai-2e2bdeb2a45c": {
       "first_seen": "2026-08-10",
       "evidence_count": 1
     },
@@ -1536,15 +1356,15 @@
       "first_seen": "2026-08-10",
       "evidence_count": 1
     },
-    "finai-937dd704bd9b": {
-      "first_seen": "2026-08-07",
+    "finai-a266b609f886": {
+      "first_seen": "2026-08-04",
       "evidence_count": 1
     },
     "finai-255f28e0ec51": {
       "first_seen": "2026-08-07",
       "evidence_count": 1
     },
-    "finai-d51672e6d465": {
+    "finai-a802ab5a4044": {
       "first_seen": "2026-08-07",
       "evidence_count": 1
     },
@@ -1552,31 +1372,23 @@
       "first_seen": "2026-08-06",
       "evidence_count": 1
     },
-    "finai-df8fe4a2efe8": {
-      "first_seen": "2026-08-06",
-      "evidence_count": 1
-    },
-    "finai-ae942db3abd2": {
-      "first_seen": "2026-08-06",
-      "evidence_count": 2
-    },
-    "finai-c2d5425285ac": {
-      "first_seen": "2026-08-06",
-      "evidence_count": 1
-    },
     "finai-d25179239319": {
       "first_seen": "2026-08-06",
       "evidence_count": 1
     },
-    "finai-7c866c8c7fa8": {
+    "finai-0dfb01ba9937": {
       "first_seen": "2026-08-06",
       "evidence_count": 1
     },
-    "finai-722810d6dadd": {
+    "finai-df1cc6a926bc": {
       "first_seen": "2026-08-06",
       "evidence_count": 1
     },
-    "finai-2cd4d6f060b5": {
+    "finai-8ce0f8b30312": {
+      "first_seen": "2026-08-06",
+      "evidence_count": 1
+    },
+    "finai-e9330924d4c0": {
       "first_seen": "2026-08-05",
       "evidence_count": 1
     },
@@ -1588,52 +1400,12 @@
       "first_seen": "2026-08-05",
       "evidence_count": 1
     },
-    "finai-a42583869402": {
+    "finai-3f024be5e1f5": {
       "first_seen": "2026-08-05",
       "evidence_count": 1
     },
-    "finai-bfee1b3a8585": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 1
-    },
-    "finai-d8dd87b0dddf": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 1
-    },
-    "finai-a266b609f886": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 2
-    },
-    "finai-fd9864edb658": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 1
-    },
-    "finai-38e5db4c1812": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 1
-    },
-    "finai-c58645f0ac29": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 1
-    },
-    "finai-9c6c31f5defb": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 1
-    },
-    "finai-a31055c645f0": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 1
-    },
-    "finai-cfec1887b908": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 1
-    },
-    "finai-004d90521b1e": {
-      "first_seen": "2026-08-04",
-      "evidence_count": 1
-    },
-    "finai-9375ca075b45": {
-      "first_seen": "2026-08-04",
+    "finai-b78e83e981c2": {
+      "first_seen": "2026-08-05",
       "evidence_count": 1
     }
   }
