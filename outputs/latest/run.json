@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-04T08:07:16.282319+00:00",
+  "generated_at": "2026-09-05T07:48:07.403707+00:00",
   "window": {
     "days": 30,
-    "start": "2026-08-06",
-    "end": "2026-09-04"
+    "start": "2026-08-07",
+    "end": "2026-09-05"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,86 +12,84 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 4056,
-    "items_in_window": 3905,
-    "accepted_candidates": 419,
+    "raw_items": 3764,
+    "items_in_window": 3608,
+    "accepted_candidates": 396,
     "reported_candidates": 250,
-    "deduplicated_items": 183,
-    "below_threshold": 3303,
+    "deduplicated_items": 154,
+    "below_threshold": 3058,
     "source_success_rate": 91.7,
-    "sources_ok": 9,
-    "sources_partial": 2,
+    "sources_ok": 10,
+    "sources_partial": 1,
     "sources_total": 12,
-    "watchlist_candidates": 200,
-    "new_candidates": 217,
+    "watchlist_candidates": 173,
+    "new_candidates": 163,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
-      "status": "partial",
-      "items": 49,
-      "errors": [
-        "AI banking goes live: parse error not well-formed (invalid token): line 1, column 41"
-      ]
+      "status": "ok",
+      "items": 55,
+      "errors": []
     },
     {
       "id": "gdelt-news",
       "status": "partial",
-      "items": 335,
+      "items": 271,
       "errors": [
-        "fintech generative AI: HTTP Error 429: Too Many Requests",
+        "fintech generative AI: Expecting value: line 1 column 1 (char 0)",
+        "insurance artificial intelligence: HTTP Error 429: Too Many Requests",
         "payments AI: HTTP Error 429: Too Many Requests",
-        "wealth management artificial intelligence: HTTP Error 429: Too Many Requests",
         "lending AI: HTTP Error 429: Too Many Requests"
       ]
     },
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 73,
+      "items": 51,
       "errors": []
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 624,
+      "items": 618,
       "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 66,
+      "items": 71,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 45,
+      "items": 52,
       "errors": []
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 167,
+      "items": 180,
       "errors": []
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 186,
+      "items": 187,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 4,
+      "items": 13,
       "errors": []
     },
     {
       "id": "official-mcp-registry",
       "status": "ok",
-      "items": 174,
+      "items": 181,
       "errors": []
     },
     {
@@ -105,35 +103,35 @@
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 2333,
+      "items": 2085,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M2": 36,
-      "M3": 174,
-      "M5": 39,
+      "M2": 47,
+      "M5": 26,
+      "M3": 176,
       "M4": 1
     },
     "event_type": {
-      "pilot": 9,
-      "customer_deployment": 37,
-      "product_launch": 137,
-      "commercial_agreement": 28,
-      "scale": 39
+      "commercial_agreement": 38,
+      "pilot": 10,
+      "scale": 26,
+      "product_launch": 143,
+      "customer_deployment": 33
     },
     "relevance": {
-      "90-100": 11,
-      "75-89": 25,
-      "60-74": 60,
-      "<60": 154
+      "90-100": 8,
+      "75-89": 30,
+      "60-74": 77,
+      "<60": 135
     },
     "innovation": {
-      "incremental": 11,
-      "not_demonstrated": 223,
-      "application_design": 13,
-      "substantive": 3
+      "not_demonstrated": 226,
+      "application_design": 11,
+      "substantive": 2,
+      "incremental": 11
     }
   }
 }
