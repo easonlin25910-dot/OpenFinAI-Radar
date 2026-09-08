@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-07T08:29:05.729855+00:00",
+  "generated_at": "2026-09-08T08:14:54.124522+00:00",
   "window": {
     "days": 30,
-    "start": "2026-08-09",
-    "end": "2026-09-07"
+    "start": "2026-08-10",
+    "end": "2026-09-08"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,79 +12,82 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 2898,
-    "items_in_window": 2732,
-    "accepted_candidates": 356,
+    "raw_items": 3517,
+    "items_in_window": 3364,
+    "accepted_candidates": 386,
     "reported_candidates": 250,
-    "deduplicated_items": 130,
-    "below_threshold": 2246,
+    "deduplicated_items": 151,
+    "below_threshold": 2827,
     "source_success_rate": 91.7,
-    "sources_ok": 10,
-    "sources_partial": 1,
+    "sources_ok": 9,
+    "sources_partial": 2,
     "sources_total": 12,
-    "watchlist_candidates": 158,
-    "new_candidates": 118,
+    "watchlist_candidates": 164,
+    "new_candidates": 143,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
-      "status": "ok",
-      "items": 62,
-      "errors": []
+      "status": "partial",
+      "items": 32,
+      "errors": [
+        "AI agent bank launch: parse error not well-formed (invalid token): line 1, column 41",
+        "AI fintech product launched: parse error not well-formed (invalid token): line 1, column 41"
+      ]
     },
     {
       "id": "gdelt-news",
       "status": "partial",
-      "items": 17,
+      "items": 250,
       "errors": [
-        "bank artificial intelligence: HTTP Error 429: Too Many Requests",
         "fintech generative AI: HTTP Error 429: Too Many Requests",
         "insurance artificial intelligence: HTTP Error 429: Too Many Requests",
-        "payments AI: HTTP Error 429: Too Many Requests",
-        "lending AI: Expecting value: line 1 column 1 (char 0)"
+        "payments AI: Expecting value: line 1 column 1 (char 0)",
+        "wealth management artificial intelligence: HTTP Error 429: Too Many Requests",
+        "lending AI: HTTP Error 429: Too Many Requests"
       ]
     },
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 45,
+      "items": 51,
       "errors": []
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 629,
+      "items": 620,
       "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 73,
+      "items": 76,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 63,
+      "items": 73,
       "errors": []
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 165,
+      "items": 158,
       "errors": []
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 195,
+      "items": 196,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 9,
+      "items": 3,
       "errors": []
     },
     {
@@ -104,35 +107,35 @@
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 1453,
+      "items": 1871,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M5": 16,
-      "M2": 31,
-      "M3": 202,
+      "M2": 46,
+      "M3": 176,
+      "M5": 27,
       "M4": 1
     },
     "event_type": {
-      "scale": 16,
-      "pilot": 10,
-      "product_launch": 176,
-      "customer_deployment": 26,
-      "commercial_agreement": 22
+      "commercial_agreement": 39,
+      "customer_deployment": 33,
+      "product_launch": 143,
+      "scale": 27,
+      "pilot": 8
     },
     "relevance": {
-      "90-100": 7,
-      "75-89": 40,
-      "60-74": 91,
-      "<60": 112
+      "90-100": 5,
+      "75-89": 38,
+      "60-74": 89,
+      "<60": 118
     },
     "innovation": {
-      "application_design": 14,
-      "incremental": 8,
-      "not_demonstrated": 215,
-      "substantive": 13
+      "substantive": 13,
+      "not_demonstrated": 223,
+      "application_design": 8,
+      "incremental": 6
     }
   }
 }
