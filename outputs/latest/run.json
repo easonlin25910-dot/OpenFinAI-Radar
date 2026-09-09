@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-08T08:14:54.124522+00:00",
+  "generated_at": "2026-09-09T08:17:29.292733+00:00",
   "window": {
     "days": 30,
-    "start": "2026-08-10",
-    "end": "2026-09-08"
+    "start": "2026-08-11",
+    "end": "2026-09-09"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,88 +12,84 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 3517,
-    "items_in_window": 3364,
-    "accepted_candidates": 386,
+    "raw_items": 3995,
+    "items_in_window": 3828,
+    "accepted_candidates": 415,
     "reported_candidates": 250,
-    "deduplicated_items": 151,
-    "below_threshold": 2827,
+    "deduplicated_items": 230,
+    "below_threshold": 3183,
     "source_success_rate": 91.7,
-    "sources_ok": 9,
-    "sources_partial": 2,
+    "sources_ok": 10,
+    "sources_partial": 1,
     "sources_total": 12,
-    "watchlist_candidates": 164,
-    "new_candidates": 143,
+    "watchlist_candidates": 182,
+    "new_candidates": 176,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
-      "status": "partial",
-      "items": 32,
-      "errors": [
-        "AI agent bank launch: parse error not well-formed (invalid token): line 1, column 41",
-        "AI fintech product launched: parse error not well-formed (invalid token): line 1, column 41"
-      ]
+      "status": "ok",
+      "items": 61,
+      "errors": []
     },
     {
       "id": "gdelt-news",
       "status": "partial",
-      "items": 250,
+      "items": 268,
       "errors": [
         "fintech generative AI: HTTP Error 429: Too Many Requests",
         "insurance artificial intelligence: HTTP Error 429: Too Many Requests",
         "payments AI: Expecting value: line 1 column 1 (char 0)",
-        "wealth management artificial intelligence: HTTP Error 429: Too Many Requests",
         "lending AI: HTTP Error 429: Too Many Requests"
       ]
     },
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 51,
+      "items": 40,
       "errors": []
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 620,
+      "items": 577,
       "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 76,
+      "items": 78,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 73,
+      "items": 74,
       "errors": []
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 158,
+      "items": 150,
       "errors": []
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 196,
+      "items": 207,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 3,
+      "items": 14,
       "errors": []
     },
     {
       "id": "official-mcp-registry",
       "status": "ok",
-      "items": 187,
+      "items": 188,
       "errors": []
     },
     {
@@ -107,35 +103,35 @@
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 1871,
+      "items": 2338,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M2": 46,
-      "M3": 176,
-      "M5": 27,
-      "M4": 1
+      "M3": 167,
+      "M5": 37,
+      "M2": 44,
+      "M4": 2
     },
     "event_type": {
-      "commercial_agreement": 39,
-      "customer_deployment": 33,
-      "product_launch": 143,
-      "scale": 27,
-      "pilot": 8
+      "customer_deployment": 32,
+      "scale": 37,
+      "pilot": 10,
+      "product_launch": 135,
+      "commercial_agreement": 36
     },
     "relevance": {
-      "90-100": 5,
-      "75-89": 38,
-      "60-74": 89,
-      "<60": 118
+      "90-100": 7,
+      "75-89": 29,
+      "60-74": 100,
+      "<60": 114
     },
     "innovation": {
-      "substantive": 13,
-      "not_demonstrated": 223,
-      "application_design": 8,
-      "incremental": 6
+      "not_demonstrated": 217,
+      "incremental": 8,
+      "substantive": 12,
+      "application_design": 13
     }
   }
 }
