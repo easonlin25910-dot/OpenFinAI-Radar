@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-16T08:45:33.469251+00:00",
+  "generated_at": "2026-09-17T08:48:43.861973+00:00",
   "window": {
     "days": 30,
-    "start": "2026-08-18",
-    "end": "2026-09-16"
+    "start": "2026-08-19",
+    "end": "2026-09-17"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,25 +12,25 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 3800,
-    "items_in_window": 3662,
-    "accepted_candidates": 457,
+    "raw_items": 3838,
+    "items_in_window": 3672,
+    "accepted_candidates": 474,
     "reported_candidates": 250,
-    "deduplicated_items": 222,
-    "below_threshold": 2983,
+    "deduplicated_items": 252,
+    "below_threshold": 2946,
     "source_success_rate": 83.3,
-    "sources_ok": 9,
-    "sources_partial": 1,
+    "sources_ok": 10,
+    "sources_partial": 0,
     "sources_total": 12,
-    "watchlist_candidates": 214,
-    "new_candidates": 217,
+    "watchlist_candidates": 203,
+    "new_candidates": 218,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
       "status": "ok",
-      "items": 65,
+      "items": 59,
       "errors": []
     },
     {
@@ -39,9 +39,8 @@
       "items": 0,
       "errors": [
         "bank artificial intelligence: HTTP Error 429: Too Many Requests",
-        "fintech generative AI: Expecting value: line 1 column 1 (char 0)",
-        "insurance artificial intelligence: HTTP Error 429: Too Many Requests",
-        "payments AI: Expecting value: line 1 column 1 (char 0)",
+        "fintech generative AI: HTTP Error 429: Too Many Requests",
+        "payments AI: HTTP Error 429: Too Many Requests",
         "wealth management artificial intelligence: HTTP Error 429: Too Many Requests",
         "lending AI: Expecting value: line 1 column 1 (char 0)"
       ]
@@ -49,53 +48,50 @@
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 36,
+      "items": 43,
       "errors": []
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 580,
+      "items": 577,
       "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 78,
+      "items": 75,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 69,
+      "items": 82,
       "errors": []
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 149,
+      "items": 127,
       "errors": []
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 196,
+      "items": 200,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 6,
+      "items": 19,
       "errors": []
     },
     {
       "id": "official-mcp-registry",
-      "status": "partial",
-      "items": 148,
-      "errors": [
-        "finance: The read operation timed out",
-        "banking: The read operation timed out"
-      ]
+      "status": "ok",
+      "items": 201,
+      "errors": []
     },
     {
       "id": "product-hunt",
@@ -108,35 +104,35 @@
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 2473,
+      "items": 2455,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M3": 157,
-      "M2": 44,
-      "M5": 48,
-      "M4": 1
+      "M2": 52,
+      "M4": 2,
+      "M3": 156,
+      "M5": 40
     },
     "event_type": {
-      "customer_deployment": 33,
-      "product_launch": 124,
-      "commercial_agreement": 37,
-      "pilot": 8,
-      "scale": 48
+      "commercial_agreement": 44,
+      "customer_deployment": 27,
+      "pilot": 10,
+      "product_launch": 129,
+      "scale": 40
     },
     "relevance": {
-      "90-100": 3,
-      "75-89": 19,
-      "60-74": 56,
-      "<60": 172
+      "90-100": 6,
+      "75-89": 24,
+      "60-74": 67,
+      "<60": 153
     },
     "innovation": {
-      "substantive": 8,
-      "not_demonstrated": 231,
-      "incremental": 5,
-      "application_design": 6
+      "incremental": 10,
+      "not_demonstrated": 224,
+      "application_design": 9,
+      "substantive": 7
     }
   }
 }
