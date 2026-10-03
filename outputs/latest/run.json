@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-02T09:55:41.109230+00:00",
+  "generated_at": "2026-10-03T09:19:02.036689+00:00",
   "window": {
     "days": 30,
-    "start": "2026-09-03",
-    "end": "2026-10-02"
+    "start": "2026-09-04",
+    "end": "2026-10-03"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,86 +12,93 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 4032,
-    "items_in_window": 3867,
-    "accepted_candidates": 470,
+    "raw_items": 3415,
+    "items_in_window": 3281,
+    "accepted_candidates": 402,
     "reported_candidates": 250,
-    "deduplicated_items": 192,
-    "below_threshold": 3205,
-    "source_success_rate": 91.7,
-    "sources_ok": 10,
-    "sources_partial": 1,
+    "deduplicated_items": 149,
+    "below_threshold": 2730,
+    "source_success_rate": 83.3,
+    "sources_ok": 8,
+    "sources_partial": 2,
     "sources_total": 12,
-    "watchlist_candidates": 194,
-    "new_candidates": 194,
+    "watchlist_candidates": 190,
+    "new_candidates": 156,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
-      "status": "ok",
-      "items": 58,
-      "errors": []
+      "status": "partial",
+      "items": 31,
+      "errors": [
+        "generative AI financial services launched: parse error not well-formed (invalid token): line 1, column 41",
+        "AI insurance deployed: parse error not well-formed (invalid token): line 1, column 41",
+        "AI banking goes live: parse error not well-formed (invalid token): line 1, column 41"
+      ]
     },
     {
       "id": "gdelt-news",
-      "status": "partial",
-      "items": 250,
+      "status": "error",
+      "items": 0,
       "errors": [
-        "fintech generative AI: HTTP Error 429: Too Many Requests",
+        "bank artificial intelligence: HTTP Error 429: Too Many Requests",
+        "fintech generative AI: Expecting value: line 1 column 1 (char 0)",
         "insurance artificial intelligence: HTTP Error 429: Too Many Requests",
         "payments AI: Expecting value: line 1 column 1 (char 0)",
-        "wealth management artificial intelligence: HTTP Error 429: Too Many Requests",
-        "lending AI: Expecting value: line 1 column 1 (char 0)"
+        "lending AI: HTTP Error 429: Too Many Requests"
       ]
     },
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 52,
+      "items": 41,
       "errors": []
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 590,
+      "items": 605,
       "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 72,
+      "items": 75,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 86,
+      "items": 93,
       "errors": []
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 168,
+      "items": 162,
       "errors": []
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 187,
+      "items": 196,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 5,
+      "items": 9,
       "errors": []
     },
     {
       "id": "official-mcp-registry",
-      "status": "ok",
-      "items": 202,
-      "errors": []
+      "status": "partial",
+      "items": 161,
+      "errors": [
+        "banking: The read operation timed out",
+        "trading: The read operation timed out"
+      ]
     },
     {
       "id": "product-hunt",
@@ -104,34 +111,35 @@
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 2362,
+      "items": 2042,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M2": 55,
-      "M3": 162,
-      "M5": 33
+      "M3": 167,
+      "M2": 50,
+      "M5": 30,
+      "M4": 3
     },
     "event_type": {
-      "commercial_agreement": 40,
-      "pilot": 15,
-      "product_launch": 140,
-      "scale": 33,
-      "customer_deployment": 22
+      "customer_deployment": 21,
+      "commercial_agreement": 43,
+      "product_launch": 146,
+      "pilot": 10,
+      "scale": 30
     },
     "relevance": {
-      "90-100": 12,
-      "75-89": 26,
-      "60-74": 62,
-      "<60": 150
+      "90-100": 11,
+      "75-89": 25,
+      "60-74": 68,
+      "<60": 146
     },
     "innovation": {
-      "incremental": 11,
-      "not_demonstrated": 224,
       "application_design": 8,
-      "substantive": 7
+      "not_demonstrated": 230,
+      "incremental": 9,
+      "substantive": 3
     }
   }
 }
