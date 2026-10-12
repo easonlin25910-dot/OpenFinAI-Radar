@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-11T10:09:48.194478+00:00",
+  "generated_at": "2026-10-12T11:10:01.276485+00:00",
   "window": {
     "days": 30,
-    "start": "2026-09-12",
-    "end": "2026-10-11"
+    "start": "2026-09-13",
+    "end": "2026-10-12"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,26 +12,28 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 2977,
-    "items_in_window": 2807,
-    "accepted_candidates": 357,
+    "raw_items": 3196,
+    "items_in_window": 3183,
+    "accepted_candidates": 350,
     "reported_candidates": 250,
-    "deduplicated_items": 108,
-    "below_threshold": 2342,
-    "source_success_rate": 83.3,
-    "sources_ok": 10,
-    "sources_partial": 0,
+    "deduplicated_items": 121,
+    "below_threshold": 2712,
+    "source_success_rate": 75.0,
+    "sources_ok": 8,
+    "sources_partial": 1,
     "sources_total": 12,
-    "watchlist_candidates": 131,
-    "new_candidates": 82,
+    "watchlist_candidates": 163,
+    "new_candidates": 129,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
-      "status": "ok",
-      "items": 47,
-      "errors": []
+      "status": "partial",
+      "items": 37,
+      "errors": [
+        "AI insurance deployed: parse error not well-formed (invalid token): line 1, column 41"
+      ]
     },
     {
       "id": "gdelt-news",
@@ -39,58 +41,65 @@
       "items": 0,
       "errors": [
         "bank artificial intelligence: HTTP Error 429: Too Many Requests",
-        "fintech generative AI: Expecting value: line 1 column 1 (char 0)",
+        "fintech generative AI: HTTP Error 429: Too Many Requests",
         "payments AI: Expecting value: line 1 column 1 (char 0)",
-        "lending AI: HTTP Error 429: Too Many Requests"
+        "lending AI: Expecting value: line 1 column 1 (char 0)"
       ]
     },
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 72,
+      "items": 60,
       "errors": []
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 620,
+      "items": 632,
       "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 76,
+      "items": 77,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 86,
+      "items": 85,
       "errors": []
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 163,
+      "items": 171,
       "errors": []
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 197,
+      "items": 191,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 3,
+      "items": 1,
       "errors": []
     },
     {
       "id": "official-mcp-registry",
-      "status": "ok",
-      "items": 202,
-      "errors": []
+      "status": "error",
+      "items": 0,
+      "errors": [
+        "finance: The read operation timed out",
+        "banking: The read operation timed out",
+        "investment: The read operation timed out",
+        "payments: The read operation timed out",
+        "insurance: The read operation timed out",
+        "trading: The read operation timed out"
+      ]
     },
     {
       "id": "product-hunt",
@@ -103,35 +112,35 @@
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 1511,
+      "items": 1942,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
+      "M2": 44,
+      "M3": 174,
       "M4": 3,
-      "M2": 31,
-      "M3": 191,
-      "M5": 25
+      "M5": 29
     },
     "event_type": {
-      "commercial_agreement": 29,
-      "pilot": 5,
-      "customer_deployment": 26,
-      "product_launch": 165,
-      "scale": 25
+      "commercial_agreement": 36,
+      "pilot": 11,
+      "product_launch": 143,
+      "customer_deployment": 31,
+      "scale": 29
     },
     "relevance": {
-      "90-100": 17,
-      "75-89": 45,
-      "60-74": 105,
-      "<60": 83
+      "90-100": 15,
+      "75-89": 37,
+      "60-74": 86,
+      "<60": 112
     },
     "innovation": {
-      "substantive": 15,
-      "application_design": 15,
-      "incremental": 10,
-      "not_demonstrated": 210
+      "application_design": 18,
+      "substantive": 4,
+      "not_demonstrated": 221,
+      "incremental": 7
     }
   }
 }
