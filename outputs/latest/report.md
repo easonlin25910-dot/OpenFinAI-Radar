@@ -1,15 +1,15 @@
 # OpenFinAI Radar — 最近30天运行结果
 
-时间窗口：**2026-09-29—2026-10-28**（含首尾日期）
+时间窗口：**2026-09-30—2026-10-29**（含首尾日期）
 
 > 自动发现结果属于候选情报。RSS候选通常以证据发布日期作为降级时间，不把它冒充产品真实发布时间。
 
 ## 运行指标
 
-- 原始信息：3502
-- 窗口内信息：3327
-- 达到阈值的候选：461
-- 去重合并数量：201
+- 原始信息：3540
+- 窗口内信息：3367
+- 达到阈值的候选：458
+- 去重合并数量：204
 - 来源成功率：83.3%
 
 ## 分布统计
@@ -20,114 +20,1662 @@
 
 | 分类 | 数量 | 占比 |
 | --- | ---: | ---: |
-| M5 规模化 | 50 | 20.0% |
-| M4 付费/成效 | 2 | 0.8% |
-| M3 产品可用/部署 | 137 | 54.8% |
-| M2 试点/合作 | 61 | 24.4% |
+| M5 规模化 | 46 | 18.4% |
+| M4 付费/成效 | 1 | 0.4% |
+| M3 产品可用/部署 | 135 | 54.0% |
+| M2 试点/合作 | 68 | 27.2% |
 
 ### 商业化事件
 
 | 分类 | 数量 | 占比 |
 | --- | ---: | ---: |
-| 规模化应用 | 50 | 20.0% |
-| 客户部署 | 25 | 10.0% |
-| 产品发布 | 112 | 44.8% |
-| 商业合作 | 51 | 20.4% |
-| 试点 | 12 | 4.8% |
+| 规模化应用 | 46 | 18.4% |
+| 客户部署 | 33 | 13.2% |
+| 产品发布 | 102 | 40.8% |
+| 商业合作 | 54 | 21.6% |
+| 试点 | 15 | 6.0% |
 
 ### 相关度
 
 | 分类 | 数量 | 占比 |
 | --- | ---: | ---: |
-| 90-100 | 6 | 2.4% |
-| 75-89 | 31 | 12.4% |
-| 60-74 | 70 | 28.0% |
-| <60 | 143 | 57.2% |
+| 90-100 | 7 | 2.8% |
+| 75-89 | 36 | 14.4% |
+| 60-74 | 47 | 18.8% |
+| <60 | 160 | 64.0% |
 
 ### 创新判断
 
 | 分类 | 数量 | 占比 |
 | --- | ---: | ---: |
-| 可能存在实质创新 | 2 | 0.8% |
-| 应用设计创新 | 8 | 3.2% |
-| 增量改进 | 15 | 6.0% |
+| 可能存在实质创新 | 1 | 0.4% |
+| 应用设计创新 | 11 | 4.4% |
+| 增量改进 | 13 | 5.2% |
 | 未证明有实质创新 | 225 | 90.0% |
 
 ## 候选案例
 
-### 1. ShaunGves 未公开名称AI产品
+### 1. VeloxityNL 未公开名称AI产品
 
-- 来源标题：ShaunGves/PACT-PayPal-AI
+- 来源标题：VeloxityNL/payflow-ai
 - 产品名称状态：名称未公开
 - 产品分类：支付与钱包
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=ShaunGves%2FPACT-PayPal-AI)
-- 官方地址：[https://www.paypal.com/](https://www.paypal.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-28（media_report，置信度 0.65）
+- Google 检索：[搜索该产品](https://www.google.com/search?q=VeloxityNL%2Fpayflow-ai)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：100/100；审核状态：needs_review
-- 发布者：ShaunGves
-- 摘要：该候选涉及金融机构、支付，被识别为产品发布，成熟度暂定M3。当前判断依据ShaunGves公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：VeloxityNL
+- 摘要：该候选涉及金融机构、支付，被识别为产品发布，成熟度暂定M3。当前判断依据VeloxityNL公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融机构、支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://github.com/ShaunGves/PACT-PayPal-AI
+- 证据：https://github.com/VeloxityNL/payflow-ai
 
-### 2. chetanrajun-commits 未公开名称Agentic AI系统
+### 2. JaviSalazar31 未公开名称AI产品
 
-- 来源标题：chetanrajun-commits/agentic-bfsi-fraud-engine
+- 来源标题：JaviSalazar31/approval-rate-copilot
 - 产品名称状态：名称未公开
-- 产品分类：风险合规与反欺诈、金融科技基础设施
+- 产品分类：支付与钱包
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=chetanrajun-commits%2Fagentic-bfsi-fraud-engine)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=JaviSalazar31%2Fapproval-rate-copilot)
+- 官方地址：[https://www.visa.com/](https://www.visa.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：98/100；审核状态：needs_review
+- 发布者：JaviSalazar31
+- 摘要：该候选涉及金融机构、支付，被识别为试点，成熟度暂定M2。当前判断依据JaviSalazar31公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。
+- 预期作用与价值：预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。
+- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
+- 证据：https://github.com/JaviSalazar31/approval-rate-copilot
+
+### 3. PYMNTS.com 未公开名称AI产品
+
+- 来源标题：Microsoft Sees Enterprise AI Adoption Accelerate as Copilot Usage Grows
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Microsoft+Sees+Enterprise+AI+Adoption+Accelerate+as+Copilot+Usage+Grows)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：84/100；审核状态：needs_review
+- 发布者：PYMNTS.com
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据PYMNTS.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
+- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxQQUFaTjhaOE9WNnFHelV1RmhxcTlVZnRZb21YNE5pSl95U2dGMDdQYjdnS3lMSWo5WFpPcWIyQk05VjBWMFRuNldwUm9rQXlCTlgwZlBnU0VUMk1KNXp1OHhiRnY5N3VmQXFpREc1cC1EWUhKeTlyVEJRTGMtOFBlSC1vYV9nWW8xaXNtbFI4dzllcEFUdnlPOXJab3ZwUUxkcW5yV2RUQi1DWVhoM3c?oc=5
+
+### 4. Supermicro NVIDIA Vera CPU Rack
+
+- 来源标题：Supermicro introduces the NVIDIA Vera CPU Rack, a 256 CPU, 100% liquid-cooled rack-scale solution, complementing the NVIDIA Vera Rubin Platform, for Agentic AI at Scale
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Supermicro+NVIDIA+Vera+CPU+Rack%22+Supermicro)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：84/100；审核状态：needs_review
+- 发布者：Cyprus Shipping News
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Cyprus Shipping News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
+- 证据：https://news.google.com/rss/articles/CBMirwJBVV95cUxNdHRORDJnNUJEbWthN3RScXJIb0xQQk1GUnlfeWQycm5sSlpsX015azZyekd0X0lueDBBc3ZmS2dXNVctN1pJWGNYc0NDNlNhYkFEdDVvQXlsTDRldjMxbDlIWW5JR1p2dVBaLUtXVmg3S1RhUGRiWmVIZ3huRU82YlhZUndRY3dRMW00Z0FzdGpCR0VQTE1lN2JLR3dwUlNOTzJQWnYybGhMMWNQMWFjZ0p1U1dfRnp3b3NMeWdTWW9RMTNhVFpYZFM4aklGR1drU1Z2cFpncUhiOGZWeUExUGk0Ykx2SnVZbVhFZmtPTXp2OXVUUzFIUU9KMko5eDVXRnJsOUdpbjN6d3dQYXVDQ0I3VC1may0weVZxR1BsbXUxbW10ZTR4MXRuTU9DRW8?oc=5 · https://news.google.com/rss/articles/CBMidkFVX3lxTFA2WFNMa1FMYjlxRjcwVHpIcGNEQXg4UzhTd0o3NmMyZ0FlNHdTVmFDc1NWYUhzcWo0NUNGVEpTbi1CV1BpOFJiRTdxRnQtUVBnU09jSGYxWVhBQl9rZ2R0MF9WUzdaR3puMVJ6dURzYlVQaG9Jc1E?oc=5
+
+### 5. NEOBANK ai BIZ
+
+- 来源标题：ドコモSMTBネット銀行、邦銀初※法人専用アプリ上でAIエージェントとジェネレーティブUIを活用したAI銀行サービス「NEOBANK ai BIZ」エージェントのベータテストを開始
+- 产品名称状态：明确产品名
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（法人、銀行），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22NEOBANK+ai+BIZ%22+%E4%BD%8F%E4%BF%A1SBI%E3%83%8D%E3%83%83%E3%83%88%E9%8A%80%E8%A1%8C)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：80/100；审核状态：needs_review
+- 发布者：住信SBIネット銀行
+- 摘要：该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据住信SBIネット銀行公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://news.google.com/rss/articles/CBMid0FVX3lxTFBiV0IyWnNMZnZWZEhKdzFEUU95X2RpbEc1eWRfSi1vaFh1WHBnaXdnVjhjMXdSSDlFVVMyUFVDT3UwQl9QbkNHRjBmOHhmTW8zUm5kUEpBTGFNN2diWDhnX2hsR01zeGl2YWlhZFdXZmp1b2tvSjlz?oc=5
+
+### 6. Madhav-Gupta-28 未公开名称AI产品
+
+- 来源标题：Madhav-Gupta-28/argus-injective
+- 产品名称状态：名称未公开
+- 产品分类：投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Madhav-Gupta-28%2Fargus-injective)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：80/100；审核状态：needs_review
+- 发布者：Madhav-Gupta-28
+- 摘要：该候选涉及财富管理与资本市场，被识别为商业合作，成熟度暂定M2。当前判断依据Madhav-Gupta-28公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
+- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://github.com/Madhav-Gupta-28/argus-injective
+
+### 7. Senaro Personal Finance
+
+- 来源标题：Senaro Personal Finance
+- 产品名称状态：明确产品名
+- 产品分类：信贷与融资、金融科技基础设施
+- 客户类型：TO C。公开标题或摘要出现个人用户信号（personal finance），暂判为TO C。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Senaro+Personal+Finance%22+ai.senaro)
+- 官方地址：[https://senaro.ai](https://senaro.ai)（官方产品页或代码库）
+- 有效时间：2026-10-29（marketplace_listing，置信度 0.85）
+- 阶段/事件：M3 / product_launch
+- 相关度：78/100；审核状态：needs_review
+- 发布者：ai.senaro
+- 摘要：该候选涉及金融科技、信贷，被识别为产品发布，成熟度暂定M3。当前判断依据ai.senaro公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
+- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://senaro.ai
+
+### 8. BetterOff
+
+- 来源标题：BetterOff
+- 产品名称状态：明确产品名
+- 产品分类：银行运营与客户服务、支付与钱包
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22BetterOff%22+finance.betteroff)
+- 官方地址：[https://betteroff.finance/agents?utm_source=mcp-registry&utm_medium=directory&utm_campaign=mcp-listing](https://betteroff.finance/agents?utm_source=mcp-registry&utm_medium=directory&utm_campaign=mcp-listing)（官方产品页或代码库）
+- 有效时间：2026-10-29（marketplace_listing，置信度 0.85）
+- 阶段/事件：M3 / product_launch
+- 相关度：78/100；审核状态：needs_review
+- 发布者：finance.betteroff
+- 摘要：该候选涉及银行业务、支付，被识别为产品发布，成熟度暂定M3。当前判断依据finance.betteroff公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。
+- 预期作用与价值：预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://betteroff.finance/agents?utm_source=mcp-registry&utm_medium=directory&utm_campaign=mcp-listing
+
+### 9. Banking Regulations
+
+- 来源标题：Banking Regulations
+- 产品名称状态：明确产品名
+- 产品分类：银行运营与客户服务、金融科技基础设施
+- 客户类型：TO C。公开标题或摘要出现个人用户信号（consumer），暂判为TO C。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Banking+Regulations%22+io.github.pipeworx-io)
+- 官方地址：[https://pipeworx.io/packs/banking-regulations](https://pipeworx.io/packs/banking-regulations)（官方产品页或代码库）
+- 有效时间：2026-10-29（marketplace_listing，置信度 0.85）
+- 阶段/事件：M3 / product_launch
+- 相关度：78/100；审核状态：needs_review
+- 发布者：io.github.pipeworx-io
+- 摘要：该候选涉及银行业务、金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.pipeworx-io公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：可能存在实质创新。公开文字明确提到面向智能体的协议或跨系统接口，属于可能的基础设施创新；开放程度和实际采用情况仍需核验。
+- 证据：https://pipeworx.io/packs/banking-regulations
+
+### 10. Yahoo Finance 未公开名称AI产品
+
+- 来源标题：Bdeo Takes Quality on Demand Live, Powered by Vonage, to Transform Insurance Claims Globally
+- 产品名称状态：名称未公开
+- 产品分类：保险
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Bdeo+Takes+Quality+on+Demand+Live%2C+Powered+by+Vonage%2C+to+Transform+Insurance+Claims+Globally)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：78/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及金融机构、保险，被识别为客户部署，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
+- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3bb67a480da8cc10cac5b7ba4e&url=https%3a%2f%2ffinance.yahoo.com%2ftechnology%2fai%2farticles%2fbdeo-takes-quality-demand-live-090000004.html&c=14931855803222495650&mkt=en-us
+
+### 11. SHauny1122 未公开名称AI产品
+
+- 来源标题：SHauny1122/pact-verify
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=SHauny1122%2Fpact-verify)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：78/100；审核状态：needs_review
+- 发布者：SHauny1122
+- 摘要：该候选涉及金融机构、支付，被识别为试点，成熟度暂定M2。当前判断依据SHauny1122公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构、支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://github.com/SHauny1122/pact-verify
+
+### 12. harshwardhan7870-max 未公开名称AI产品
+
+- 来源标题：harshwardhan7870-max/paypilot-ai
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=harshwardhan7870-max%2Fpaypilot-ai)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：78/100；审核状态：needs_review
+- 发布者：harshwardhan7870-max
+- 摘要：该候选涉及金融机构、支付，被识别为试点，成熟度暂定M2。当前判断依据harshwardhan7870-max公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构、支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://github.com/harshwardhan7870-max/paypilot-ai
+
+### 13. TheWealthNet - Former HSBC exec AI-powered wealth platform
+
+- 来源标题：TheWealthNet - Former HSBC exec launches AI-powered wealth platform
+- 产品名称状态：明确产品名
+- 产品分类：投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22TheWealthNet+-+Former+HSBC+exec+AI-powered+wealth+platform%22+TheWealthNet+-+Former+HSBC+exec)
+- 官方地址：[https://www.hsbc.com/](https://www.hsbc.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：78/100；审核状态：needs_review
+- 发布者：Pam Insight
+- 摘要：该候选涉及金融机构、财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据Pam Insight公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构、财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWRURmVfeFBsUGsxMGp5NHpfcllHMkF6VWFVQXdPRVVWMk0xSEJsamtrOGYwanREV2VkdkJ0czQ2MVZqZU1UYXZpeXZ1Y194RHRER3NiNm81UzZUOHpPU3dFODltUE1IMGQ3TzhoNGFYZWtlc0pMNXJEYTB2YVlPcGthdzYzQVIzSzlBV29pLS0yYkY4?oc=5
+
+### 14. IndexBox 未公开名称AI产品
+
+- 来源标题：Scale AI and UDC Sign Agreement for Scale Qatar at UDC Tower, The Pearl Island - News and Statistics
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Scale+AI+and+UDC+Sign+Agreement+for+Scale+Qatar+at+UDC+Tower%2C+The+Pearl+Island+-+News+and+Statistics)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：64/100；审核状态：needs_review
+- 发布者：IndexBox
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据IndexBox公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi0wFBVV95cUxNQUgwT2FIYUJnTDhmWmZrOWdGRjNYWXJGc24tLUdXNjExMURfMmF3SGQ3NElXandXc0FzUVQ3cVpIc3hpdUxzUGMyUGx6RVNlRXdOYWFvazF1RGJWa0FjYU1XbG1yRUYzWHdsOUtSVm1XSmdkYjZqRUU1SXI4V3A3YmgxZDdJLWhZMEVOZGxZX25DalIwai0tZDA4Nk9nVkozS0RTRE1hU2VtNjlOdWFDeG9zSGtMOGp4cWlUVVdEZkFvem93aDRScFZQWEl1LXZGRHpN?oc=5 · https://news.google.com/rss/articles/CBMi0gFBVV95cUxOWU0xMWk0cWYxV2lvQkRaelk4YTEyck1oWkNaMW13c1VSVHdjSWp4aXBJM19MQmo3ZmxWWVg5WEFlcW1RcUtMbDl6cGg0N0FXYWstUWk5VmR3TGNaczFISkZRVVJONi1yYmtQbHhzS3BxcElaWWJuc0pCVUFYaEZkLU9Jdk5hbmgxRWFUNElTY2Jfc2tSRlBSNXJvQzBCNGJKZkF0Zlp3LU1pa1NMNFlXcTJkcGg2bVNpTDNpUkFaSzUwR0RHME8zVUtrVHRvc2dGbnc?oc=5 · https://news.google.com/rss/articles/CBMiqgFBVV95cUxNT3Mwcmg2X3lJYkw5c3FPN29DTThBaERXbFlWZ1RMUDlGRUFjSVZzOU5nT3RmU2JVSlBXTmxNZzVZYWRPTTdHR1hYZEJEaXlRWkdLZThyRzVkVVBhSzA0bzJtWTd0b0FnMUpIR0ZWbU83SVBUaF9CN1gyZDNOZjNRZU5CZy1nY0kySE5KdXdCaE5jSDA5enhlXy1UaUNCUDVhUnphQXJMMTFXdw?oc=5
+
+### 15. NUFFOODS Spectrum ASIA 未公开名称AI产品
+
+- 来源标题：Pythag Tech Raises $4.25Mn to Scale AI-Driven Cultivated Meat Production
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Pythag+Tech+Raises+%244.25Mn+to+Scale+AI-Driven+Cultivated+Meat+Production)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：64/100；审核状态：needs_review
+- 发布者：NUFFOODS Spectrum ASIA
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据NUFFOODS Spectrum ASIA公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiwAFBVV95cUxNd2VzTUpza3dFRTQtZ1d4dEFwd0VpekJsemhVQlZFZ19NanpBT2lPU1lfTkVFTTJqeFIxQmh3VGVaNnYwNEhHTE8yVUxJMGJzM0QtU3YxNjgzc0JBcGdiNVZyWEN6RURGTHR3Qmo0dDdlSF81YkNERFJIMU16dHhteHAzeVg2T1poa1Y4UHlyczV6ektnRXNvM0dvTTNwVGk3eXBvaGtYZ3UxcElPRWw1VFBZQU1yOWJXTXZfOVFOaUI?oc=5
+
+### 16. digitimes 未公开名称AI产品
+
+- 来源标题：Microsoft cloud and AI revenue in 1QFY27 surge past expectations, driven by robust Copilot and Azure growth
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Microsoft+cloud+and+AI+revenue+in+1QFY27+surge+past+expectations%2C+driven+by+robust+Copilot+and+Azure+growth)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：62/100；审核状态：needs_review
+- 发布者：digitimes
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据digitimes公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
+- 证据：https://news.google.com/rss/articles/CBMimgFBVV95cUxNc0V5MGZjQ0lFVUpCbXlEU1ZCT3NfTmJuWWo3TnI0MEN1OXlObEJwX2Jhd291cEgxNUU2QUdGNTZfcXdXQWpkV0xHcFlmT3NobW9qbEQtRWpXVko5MUFzbjRLWDgzd1ZwbkhKa3E4dkdGMkVnYVJrZnRFeFZ2aUlXUTBMS1p5aVNoZ0l1R3FJek5yUTB4RDVUMlB3?oc=5
+
+### 17. Social Media Today 未公开名称Agentic AI系统
+
+- 来源标题：Meta’s Muse AI agents are now available to users in Singapore
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Meta%E2%80%99s+Muse+AI+agents+are+now+available+to+users+in+Singapore)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：62/100；审核状态：needs_review
+- 发布者：Social Media Today
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Social Media Today公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVDdlLVlzN2o3RS1LQUo2MEFwalJXRUJuQUxDeEZLdHozVnlYMVpqMGhQUXkxd29xMUctUU5WbGVnUGNOMzZwTWNuVjc2X1pzekZEUng1dEdfaE9zWXBsalNkMlE5bUxMblBpelI5QjJGUWMxMWpEWC11bWhpQkJaWTVzcjB2Vkw5YUxPb2hVSU5PSTBFWGJrR25ObmlpbHdIaVhkTDVGb1h2Zw?oc=5
+
+### 18. Oracle agentic AI platform for cloud setups
+
+- 来源标题：Oracle launches agentic AI platform for cloud setups
+- 产品名称状态：描述性名称
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+agentic+AI+platform+for+cloud+setups%22+Oracle)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：62/100；审核状态：needs_review
+- 发布者：CFOtech Asia
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据CFOtech Asia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
+- 证据：https://news.google.com/rss/articles/CBMihgFBVV95cUxQQms0cTA4WEQzTkhRUnNiUVZUX0lHOUpneFdyd3RaZ1o3QjRDZV92NHd1ZVNNUVV6TjkteEhGWS1BcldYa2lIWkR1dy1LWm1mRmp5ejJqLVBaNGZteWRsdzBZMU1SeF9EZ2M0UlVRSTU2S1ZHZDRUZGVtV0ZjWk01QmhHNDlhQQ?oc=5 · https://news.google.com/rss/articles/CBMiigFBVV95cUxQTFAtRk5OSkJKcGE5WWtrUVoyRjNBOXYwYUtQdXVia2ZJY0Y1elBmYjFHb3JZdUZEV1J2WHl3Sko3Q3NHOVI1dlJEZW5UQUpFcTF0YXpwd01OOWVrdnFCaV9qdk5UT0xKblVhVW1HeUJXeDdWX0NHczhfMDdKd0Nfb25mcmFOaEk4NWc?oc=5
+
+### 19. Insurance Denials
+
+- 来源标题：Insurance Denials
+- 产品名称状态：明确产品名
+- 产品分类：保险
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（insurer），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Insurance+Denials%22+io.github.pipeworx-io)
+- 官方地址：[https://pipeworx.io/packs/insurance-denials](https://pipeworx.io/packs/insurance-denials)（官方产品页或代码库）
+- 有效时间：2026-10-29（marketplace_listing，置信度 0.85）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：io.github.pipeworx-io
+- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.pipeworx-io公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
+- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://pipeworx.io/packs/insurance-denials
+
+### 20. HKEX AI Index
+
+- 来源标题：HKEX Launches AI Index,Southern Asset Management Authorized to Launch ETF
+- 产品名称状态：明确产品名
+- 产品分类：投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22HKEX+AI+Index%22+HKEX)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：The Manila Times
+- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据The Manila Times公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYnNWaUdRdk8xQnp2SGdnQ3R0TTFSVmJ6UmhRcWNmWFlqbjQ4V29uWFlCMkNUWkprRVM2cjh4SWU5Tjg2eDFKLUVuQ2VGYnQ2ajQwUXhUOWw4NkctM3BKYnE4SDR3UFZHNGg2aVpPYmtnOXFFYmZhVGNuMW9ka2RwbjZMazkwXzdKUjZVX1BSbU91OW5aeDZkRDZTbEhPR1puNGd0U193ejJtSjBZZ2JsQTZTSko0S3J1VVZYLUtKRXdvdy1TaG5qMFJLZ3l1Y19wWTNsQjVkbHdCaWtRMFhF0gHkAUFVX3lxTFB6eGc5Ui1zdWxyZDR4SzBvaHptVzduVVhSUUFLX1k1WDNpRlJrYmpKLS16LU1mVGxrTGV2QTBUWHFJS24ydE1iRDhPLUNoZDZzT3pRUmo0ZkxrUGMzWFJHenZTdmpRZVB2eVF5MTRHc2NOeXVNNllzUG9TWjR3MmRGMzJwTF9OMWVJYVBkRWlmTUZsNW1qZXctTF8yOFVxaFM3OUw2bW5aM0tLRl9kYlRjQy1PcmVmalhyaVBRWVIzWFNUMEZTZUQ3ekFnZzFWOHRqVnl3RU8tRHNEalRPVXVYM0JsSg?oc=5
+
+### 21. The Korea Times 未公开名称AI产品
+
+- 来源标题：JB Financial expands partnerships with AI, fintech companies
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=JB+Financial+expands+partnerships+with+AI%2C+fintech+companies)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：60/100；审核状态：needs_review
+- 发布者：The Korea Times
+- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据The Korea Times公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMivwFBVV95cUxPRzYwY3JlNks4RkhqWTlZUWNGUTJKUnRkVndZam00WFlCMHk4Tnp0LTNoZVFZa3laa2dFVXM1SVlFa1ZzajY5WGl4QWtKRGpvbFlYelpDTERRQU1RbzBGdzRPQTVSd3hZUFFpZjBIekQxYm81NS1Nem56VFpWVV9sZ0dwa2E2ZUZxaWxDNlpjcUVWc040NTF4N0RDdzNxM1NPZUdUOHlaMUthVTI1Nl90a2tPcDE5RFZ2b2xIVUowMNIBxAFBVV95cUxPUUZWRGlhOHE5RkE4TFhseGlsU3ZUSmE0Z0hiUmI3M1dXYW94Qnk3cUtWMS12ODc4cnhmNTBYemNEXzZ1M01tZzhaRWtoRENibGl5WWxLQ01NMzBZVXVXX3FNaDc0T3JiamlzQ0pidXN6X1QyRThFM3dzWWN2a1NUNUF2d19IakZNWTBwOEdOWU1HSDNIeFBQNWUwaW9PdzZDTDlUdmZUd2ctWmpMS2lSdG5oSmlTNVg0bTRuODNicS1nOVFQ?oc=5
+
+### 22. PsalamDev 未公开名称AI产品
+
+- 来源标题：PsalamDev/kivunra
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=PsalamDev%2Fkivunra)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：PsalamDev
+- 摘要：该候选涉及支付，被识别为产品发布，成熟度暂定M3。当前判断依据PsalamDev公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://github.com/PsalamDev/kivunra
+
+### 23. chiranthhs008 未公开名称AI产品
+
+- 来源标题：chiranthhs008/chiranth-project-AI-Voicechart-Collections-Bot
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（api），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=chiranthhs008%2Fchiranth-project-AI-Voicechart-Collections-Bot)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：60/100；审核状态：needs_review
+- 发布者：chiranthhs008
+- 摘要：该候选涉及支付，被识别为商业合作，成熟度暂定M2。当前判断依据chiranthhs008公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：应用设计创新。创新点主要在应用设计：让AI从给出建议进一步连接受控的交易或执行流程；自主程度和安全边界仍需核验。
+- 证据：https://github.com/chiranthhs008/chiranth-project-AI-Voicechart-Collections-Bot
+
+### 24. sriaashish 未公开名称Agentic AI系统
+
+- 来源标题：sriaashish/Kapture-AI-Voice-Agent-
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=sriaashish%2FKapture-AI-Voice-Agent-)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：60/100；审核状态：needs_review
+- 发布者：sriaashish
+- 摘要：该候选涉及支付，被识别为商业合作，成熟度暂定M2。当前判断依据sriaashish公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://github.com/sriaashish/Kapture-AI-Voice-Agent-
+
+### 25. Yashwanth5115 未公开名称AI产品
+
+- 来源标题：Yashwanth5115/digimart
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（business），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Yashwanth5115%2Fdigimart)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：60/100；审核状态：needs_review
+- 发布者：Yashwanth5115
+- 摘要：该候选涉及支付，被识别为商业合作，成熟度暂定M2。当前判断依据Yashwanth5115公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
+- 证据：https://github.com/Yashwanth5115/digimart
+
+### 26. citybuzz - 未公开名称AI产品
+
+- 来源标题：Sentinel AI and Webull Pilot Targets Retail Investor Sentiment as Retail Trading Hits 36% of U.S. Volume
+- 产品名称状态：名称未公开
+- 产品分类：投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Sentinel+AI+and+Webull+Pilot+Targets+Retail+Investor+Sentiment+as+Retail+Trading+Hits+36%25+of+U.S.+Volume)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：60/100；审核状态：needs_review
+- 发布者：citybuzz -
+- 摘要：该候选涉及财富管理与资本市场，被识别为试点，成熟度暂定M2。当前判断依据citybuzz -公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
+- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi0wFBVV95cUxOdzRKaklyTVlQTTY5MHpFcEhKeVFra2hpTGJxMVQ5NUlueW5qalRVMGpyWDRfT2d2YWlLNE5leEYySUJONTgzb0hKWGlHNzFNV043dFFadkU3elhwWVFubVcwc0VtTW5kUUZGWmtaaW9CTjJtbHdMRDhzblBZblZtSWJDX0VidnVjcU9PRVd2U3BoS3FmMlZ0ZVV0Yk1NSDdURkpPa2xCT0ZvV0N2SHhpSS01QWRqVWFzNEJIa2pTZ215TVJZeGJyRDYxeFc2dGl3SEVn?oc=5
+
+### 27. openPR.com 未公开名称AI产品
+
+- 来源标题：Europe AI Loan Document Verification Market Is Going to Boom |• Cognitivescale • Upstart
+- 产品名称状态：名称未公开
+- 产品分类：信贷与融资
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Europe+AI+Loan+Document+Verification+Market+Is+Going+to+Boom+%7C%E2%80%A2+Cognitivescale+%E2%80%A2+Upstart)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：60/100；审核状态：needs_review
+- 发布者：openPR.com
+- 摘要：该候选涉及信贷，被识别为规模化应用，成熟度暂定M5。当前判断依据openPR.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
+- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMinAFBVV95cUxQWWJfM1drOWpuNHBkcXBldjRlZVRzUHpBSjNkM2ZYZjEtLTBMc1V1eU9SWUFFYTBTYXJLMENJd2NCZk5yY3padjNpVWNkUXFsaWJMSGktQmtrNzdUQ3RVTndrOGREY2FwZnM1YnBnaTdRRGd6YlFnLUNsc1dMUzd6WmwxMmZhOWQ3UFpJbEJvSGF0eUU5bDgzQWlaLTY?oc=5
+
+### 28. Xunce Technology TokenRouters
+
+- 来源标题：Xunce Technology Launches TokenRouters, Taking AI Resource Trading from Internal Governance to Cross-Entity Circulation
+- 产品名称状态：明确产品名
+- 产品分类：投资理财与资本市场
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（internal），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Xunce+Technology+TokenRouters%22+Xunce+Technology)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：BigGo Finance
+- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据BigGo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
+- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE1UNUVibWhQXzFPYWVNeE1qYUZTVTlLdVBKaXRkR0pBX0ZUVGxJRDFsVTdSNXVSX3c3REhaOUIxN1FBU05jM0xhRUtOalB2a1lueDRNOTQ2aUxWNW9yVHRPSTVaWDFKVUlzbmptZnFZdGZaMWgwLVE?oc=5
+
+### 29. CNBC on MSN 未公开名称AI产品
+
+- 来源标题：Tencent, Visa deepen payments push in China after regulatory green light
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Tencent%2C+Visa+deepen+payments+push+in+China+after+regulatory+green+light)
+- 官方地址：[https://www.visa.com/](https://www.visa.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：58/100；审核状态：needs_review
+- 发布者：CNBC on MSN
+- 摘要：该候选涉及金融机构、支付，被识别为商业合作，成熟度暂定M2。当前判断依据CNBC on MSN公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构、支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3b98114438ba53eef82fe2ad43&url=https%3a%2f%2fwww.msn.com%2fen-us%2fmoney%2fmarkets%2ftencent-visa-deepen-payments-push-in-china-after-regulatory-green-light%2far-AA2giL13&c=11856827052353535663&mkt=en-us
+
+### 30. US court strikes down debit interchange cap, Revolut UK personal loans
+
+- 来源标题：US court strikes down debit interchange cap, Revolut launches UK personal loans
+- 产品名称状态：明确产品名
+- 产品分类：信贷与融资
+- 客户类型：TO C。公开标题或摘要出现个人用户信号（personal loan），暂判为TO C。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22US+court+strikes+down+debit+interchange+cap%2C+Revolut+UK+personal+loans%22+US+court+strikes+down+debit+interchange+cap%2C+Revolut)
+- 官方地址：[https://www.revolut.com/](https://www.revolut.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：58/100；审核状态：needs_review
+- 发布者：The Asian Banker
+- 摘要：该候选涉及金融机构、信贷，被识别为产品发布，成熟度暂定M3。当前判断依据The Asian Banker公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
+- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiygFBVV95cUxNYnFCZVRrSHJwalVLY0xMRFh0VUZFR29YWmxHdkVZMnRTdEJmSnJRcG5nY1ZFRURNNVRSdC1kLXhTcGNFYUtmSEplbVdVQUVkaXBKbUlCVzRxZ0tUQ0VJNHZvSEhWTnlrdXVPbDRmY3RvbmFUY2JoX3VKUlQ3MHFHUDlkYlA2MFVaSEJrRTJEVWJNOVg4cUpZaWg0ekhFOUZEdHZhMGJhbk5SVDdRLVhfTlNRd2t2RGtMd0hfU2UwaEFEQWM2Y0JpQ3ln?oc=5
+
+### 31. Forkast News 未公开名称Agentic AI系统
+
+- 来源标题：November Is Already Dated: HomeView Ships Nov 13, Wells Fargo’s Agent Contract Goes Live Nov 24, Black Friday Is Nov 27
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=November+Is+Already+Dated%3A+HomeView+Ships+Nov+13%2C+Wells+Fargo%E2%80%99s+Agent+Contract+Goes+Live+Nov+24%2C+Black+Friday+Is+Nov+27)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M4 / commercial_agreement
+- 相关度：44/100；审核状态：needs_review
+- 发布者：Forkast News
+- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M4。当前判断依据Forkast News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi0wFBVV95cUxPay1IUm5BVVgyUXd3Z3V1VnlfSHdzXzNrNXpKUi1JUmFManJLUHBZbW5sczlXRGZrbFVpa0dNTnJRQmxFUjVHVV9pMmh6SW9EN2JlY3NWZVFaOWtGeGZMZ1VacHZkSXlzbUFoSjB3SFFvZkdERHZ6Q2tOTVphOVBrNmhJY1l6Y2dCRkpobjQ4bzB1MUl4eFY3VUY1dzZBNlFCVHhFSnZWS3pnQ0h5WjR1X3RTWThka1B2M0V1S2lyOXN2bnkzNkhyY1NfbU9xVlhiT1ln?oc=5
+
+### 32. Oracle Media Fabric
+
+- 来源标题：Oracle launches Media Fabric to join production & streaming
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+Media+Fabric%22+Oracle)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：44/100；审核状态：needs_review
+- 发布者：Australia
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Australia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxQQjhBazNIdlhSbmRJVVZ0MzFMRjZyeGZKU2dKUUMtU0V6ODlOa3Z0MTh0UHpvNzF2TmdlSTA1Y1FPR3RmM2hqNkE5OWlnbWljUU43QmdDWDlUczB2UVotVnZoT2lEVkN1Zi1QQzZhRTdwd252akg5NWhRV0V1SXpZR3h2T3N0dVdQeWlwaWlKZWZ6S1BiclNn?oc=5
+
+### 33. Vietnam.vn 未公开名称AI产品
+
+- 来源标题：Anthropic proposes that the court block the release of a dangerous AI model.
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Anthropic+proposes+that+the+court+block+the+release+of+a+dangerous+AI+model.)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Vietnam.vn
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Vietnam.vn公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijwFBVV95cUxNNEFsSldUS2ZfQXNJU0ZmOGdqdzM0dXg4d2lEd3UtUHVIcW1pVXBvVHNJYzI2Nkl4REl2cHhaRHJCbjhyTE5SYks4WXJFajlnOGI5UXIwZnBRdlJkbDR2aGl4TFRuX2hnWUV3RTJNTzhEaC1ZYk9wVFFvNzNKVVpDMlNPNmJkOXJXc2ZBNVJ6NA?oc=5
+
+### 34. EdTech Innovation Hub 未公开名称AI产品
+
+- 来源标题：OpenAI signs AI safety agreement with Poland's NASK research institute
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=OpenAI+signs+AI+safety+agreement+with+Poland%27s+NASK+research+institute)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：EdTech Innovation Hub
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据EdTech Innovation Hub公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirwFBVV95cUxQRHZnSjY4V3F5NVZHQmViVmdKVWJEUDV1LTNsaFJTdzE1ZUZ4cng0OFpuQkJsckgybDlRMEcwNk04eFhWZzVYeXhUY0RlWkJlVmYwekZlTDc3LXZtUFRveVRNWHBOaVBIbnlkSTZvRjZYaG8wTmc3Z0pJcEZiSFZhY2U3d29rSm0tQ1cyWTlMWHlJMFd5MkFLQVRtY3IxVGxrcW1PWTVHV1JITlRfZXY4?oc=5
+
+### 35. Dark Reading 未公开名称AI产品
+
+- 来源标题：Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Shadowy+AI+Relay+Disables+OpenAI+Codex%2C+Claude+Code+Sandboxes)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Dark Reading
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据Dark Reading公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMioAFBVV95cUxPU0pDX2pVQjkzZ3FqYjVRYVN5d0E5QllrX09mTXVISmtQd3pMWU9jYUZLRUVvbmRDZkxXNkZDdnFUc0F6Tnlhd203eEdTNEgta3VLeFhsOG5Ubk80eXFEWUtETzdwd2c5UzhLRmN1eDBnUE1VcXdsYjBQUHhKOEJVLU1ITUtnZTFsendwYWhsQ3dDVFBvVTVEVERqNmdaM2pR?oc=5
+
+### 36. TradingView 未公开名称AI产品
+
+- 来源标题：Moonshot AI And DeepSeek Relied Outputs From OpenAI's Astra When Developing Their Latest Models Released This Month - The Information
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Moonshot+AI+And+DeepSeek+Relied+Outputs+From+OpenAI%27s+Astra+When+Developing+Their+Latest+Models+Released+This+Month+-+The+Information)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：TradingView
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据TradingView公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiqAJBVV95cUxOV0RqV080YU9xOXVzQWxOZ2tVY3B3cF9vNGFpR3hPcjB3TG9Ick1LeGZvblFEN0dpOFZmOFZ3VW1BUjBHS0lwdDl5QzNPV2ZqZUJwOVZJSVlyLURuODhMNFhQc1d6ZEdRUU1yaUp2VTdGX2tfbXcza1kzeENJeFowM1dtODlsV3dlemhjNFNTWXZyTGIxeWtZQ0JQQ2NYdUNITDRXay1IaTAwempBRFZRWmJ3RDVoYU1JSEpPVDBkRXFZZUplMWVSSHZFRlpaX3VEX3Bqb1dhMU1yQ0ZCMHlyWm5EZmJWY1diaDRTczlfQjVQUld5a3pHanZkdWpzVHg2bFlaNWRwTUp1ZVdvWDJlaFB5SmI2dllrZXlORXpLS0QtS2IxWVhveg?oc=5
+
+### 37. As Google Gemini 4 Carbon
+
+- 来源标题：As Google releases Gemini 4 Carbon, CEO Sundar Pichai may have just told two of the biggest frontier AI c
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22As+Google+Gemini+4+Carbon%22+As+Google)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：The Times of India
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据The Times of India公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi_wJBVV95cUxOb2NwVW5wU0pyZFlUWThCcEVCUzREbXpKVGdzd1ByWWxqYlVPNzlvM1EycC1HTGdDMmVFc1lIMDE4V0dDZHFSbXlPa0pCNlludDVvYmtOTmtnUFlzRUVwYWpnQV9nUEtXbzZGZllNQS11dzBvNG5BZUNLd09GTGxKLVNCTnV6N0ZBX19tSUxKMlJnUVRQSzJ4YVd1cmFwTXVBM1E4MVJ3c3J0TjIwWHBvVG9VdFBNLVBQbVF1ekVwWDQ5ZWpwTm10LUdmN1ZXR19BWDNsQ0JBSEhCSnlISFRjVW52VWRQbjE1emI3R2lOTGVDcDNDbWFRaV9xc18tU0NqTE9Ta1daT0dNZXEtaXVIeXB3TEFRb0NSOHRFTWlFb2JiUGQySjI0OEd0YjV0ZmZuZ0xIV28zNFRRM2U0bHdVc0ZpRkZMZzkyczdxaFBhOTdCQlMzMTFURnQtSk02NE0xU1I0MC1nOS16bWUxMEFIaGR1ZkxzZ01IQ0lpYzN4ONIBhANBVV95cUxQX3pQSGtySHhJRmxOSVk1dUxZdlFLU1VkX3pydHZBMlFINHhReGkzTWJjR3ZLV3hIZHNpalAwOHBMTHItdUxZNTZjREV4VEtxY2NITklralBkdE9nTDJucVZDOVdKS0dfM1VSY2w1OUVYU3ZpTGZ3WjRoMC1yOVF0eUd4SlFSWHd4SndQMUdXWDZybjNqVlZJbnVtT3FKMXBBcmdrY011cTlJbEk4OFhDV3RKLXpVSkp5MFpvQzRwNk1zdEptOTNzZUlac3F2SVFROGd4UVJjWi1UUFVfd18wTUhYR3hjOE5aZGR2Y245MVpWZ0N4SVRBajFHbDFmOUF1NDM2N3J5MEh4SWhTZXZ4RG9xbm9uNWwyeXZzODVwVHBmNWtxc2xLSkdPbThpdzU5QXU5d05vWmt0YVJOdkZQbVJZM2Y5UEhheGZLMjkwejhiSVRQMmRmTTh0NHh3ZnVsUS1jMXZ6dTRnUVFGSkwya0FqLTNOOWFJTjdsT21rQmVFZ1pB?oc=5
+
+### 38. Oracle AI consulting practice
+
+- 来源标题：Oracle launches AI consulting practice with OpenAI
+- 产品名称状态：描述性名称
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+AI+consulting+practice%22+Oracle)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：IT Brief Australia
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据IT Brief Australia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMihgFBVV95cUxOLWFfUmx6bmhub2czOTEyTUNTZ2VVbEhjaEdEczNPa2dNSlR3RmFUWFZKeS1qRUFpTFBrdGw1Q2ZMQ194VzhTZjdEbi0yVUd5bDY3WG9HbWVoV1JvSkpXU09QX0I4UEprTzBENnRFRmxCRHdNZzZyUE9fRU9veUpNbEVqVEc5dw?oc=5 · https://news.google.com/rss/articles/CBMigwFBVV95cUxQLXp5cXNwbVR5UFZCZ2FUQlh4d3UtM25zNmdjSWhDTGdyYnJBVVhiQ1VPdFhuWTlPbG9nN3hUZE4wY1ZzQ1NJTW5LYkxvdTk2NW9rWl8ybmMtdUc2eTdsYW16bWxWTjZSSjZ2MVZuTS1SZzZWMWhwOXlNVVExRk5LaWRudw?oc=5
+
+### 39. Inshorts 未公开名称AI产品
+
+- 来源标题：Chinese AI firms trained new models using OpenAI's GPT-6 Astra: Report | Both Chinese firms released their models in Oct | Inshorts
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Chinese+AI+firms+trained+new+models+using+OpenAI%27s+GPT-6+Astra%3A+Report+%7C+Both+Chinese+firms+released+their+models+in+Oct+%7C+Inshorts)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Inshorts
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Inshorts公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMitAFBVV95cUxNOTFQSEFsM2V5OHNxR2JjWFBCV05hbkRNa0EtQ1VNcXJpVzlqTE5ZemY4MThCZ3hYQUk4MEM0UE8xTDNiMjhmNGticFJMUmI0a3NGUnExRl82WmozQlZTUUI3bUN4VWFYbTVCUVFMZmRpbC1SOTlCZERINk0zeDAyeHBnYWVPX2lFbndhcnhPRXVvSWVlaVRFQjdZUDJDOFZUZFFpMG9mQzRJWVhSX3o4ZjFDUEvSAboBQVVfeXFMUGp6dENkTmdBd2cyaUo3czFabC1HeHZzdDNJa2gtNFo5ZC1JQlVhcDVMcjRrOG16ZFgzcnFVdXFOM254RGJOc1hfOVVja0wyNlQ5bVVrRHVPdG9XVUlrclZ2MTVrMVBNek5wS0JqX0VqTXc4cjYyY09OTlFUQVpRTEJ1TkJhSG95cHRldklBSWdKVWpiNjFVQUY5MXVrV3c1NWFiVUVNTm5Rem5zNUc3WlRoRUVPdWpZTUN3?oc=5
+
+### 40. Appinventiv 未公开名称AI产品
+
+- 来源标题：Appinventiv Partners with OpenAI & Anthropic for Enterprise AI Solutions
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Appinventiv+Partners+with+OpenAI+%26+Anthropic+for+Enterprise+AI+Solutions)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Appinventiv
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Appinventiv公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxQNE83MDlkQ1hqT1VvV2h2WDQwZGc5Tk9mVUZsMmgyVnA5Tm92RG82TVM4Zll3Wmd6c2txYmFNWTZ4NjdWMDlneXQ1N2N5bzlaaS1OMHkxZDRrNGFHRHlnTHk0TUNXbjNDOUdBR2xRYXBCYTRTWUJwOFBPQm9iTXpsb2s0NnhjUDJ1RzBlXzVTVWlQcXZSNktJZnV4b0VpTm9TQUFiWFRpZ1A5R0FXdWc?oc=5
+
+### 41. Anthropic's Claude Code Environment Variable for Full AI Autonomy
+
+- 来源标题：Anthropic's Claude Code Introduces New Environment Variable for Full AI Autonomy
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Anthropic%27s+Claude+Code+Environment+Variable+for+Full+AI+Autonomy%22+Anthropic%27s+Claude+Code)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：KuCoin
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据KuCoin公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirAFBVV95cUxQNktuNEpuZ3VPMDE2OXJhUHEwWW9jS0Rib2NqaXU3ZWFYNWM5bDNuSWRqTFctdDRMRFoyUE10M1VGYzlkYnFCOTY3NFdIR2xZZmF3emYybnNDVGpUWHRaWngxTFNxQWpUX19BcC1pZHNSOENiUkpUX2xJWC1kaUlFM09MeHp5MWRRS25adjdDVzlMTVdzaDlyZGdUWW9TTk1zemhSTVRfc3V6T282?oc=5
+
+### 42. Retail Customer Experience 未公开名称AI产品
+
+- 来源标题：Google, Glance partner to deliver AI-powered commerce to TVs
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Google%2C+Glance+partner+to+deliver+AI-powered+commerce+to+TVs)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Retail Customer Experience
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Retail Customer Experience公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSEtIX3ZTVDZOblQ1ZW5NSnNGa0tzeHg5c0RVZFBvUEdYajBNUVVDWkZmVDBmeXZQYm9mVnhkUklWX1ZULVVsS0NWNE5pRFVtbS1XSUhOdjRjZ1R0aFhFUzFtSkdCVzZwRThvQV9LTWxWOGtLVlRyVDlmenRpVjhkUWNESC11a2xVNEt4LVFERm5SN0dRaGNFS0ZrbDlDN1k2TGZoRHB3d1FnUQ?oc=5
+
+### 43. Google DeepMind and Google Cloud 未公开名称AI产品
+
+- 来源标题：Google DeepMind and Google Cloud deploy AI across Singapore's health system
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Google+DeepMind+and+Google+Cloud+deploy+AI+across+Singapore%27s+health+system)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：42/100；审核状态：needs_review
+- 发布者：TradingView
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据TradingView公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi1AFBVV95cUxQX1hZSTZUUVBuTmp5R1ZKcGNfdlJhMlpyZG1jRzF0ZGt2enNvQ25zUFZKc0NnOXBHOXYxVGNhbXYyZHRkWTRTaXA3c2h3NXg1SWFiUER3bU9XWC1naU84OFp6amxtYjI5Z1hYVVNJRzJoaHNTd0V0Y3RIZUxISkpTS25pUF9JMi1nZGoxcXl2Z1BxdlpnejBQZjA4bzB0UFlsWE9NXzg1bThWaHg5N0thUnZGMDRHanpfN0h4S01TVk5JaUwyX0hqZEtkX1lRcnhyS1NIaQ?oc=5 · https://news.google.com/rss/articles/CBMiugFBVV95cUxOWmRuSmJCQkxXUUNWczNycnl2Zk9IdVZHSDVTbm9mb0V1eDYyQUlqRDQ1UC1qQ3NLN2NxbnNSa3lybmM4XzFDdDEySDFCbTdwSjJNUTJqUmR3elMzc0NhRmRXUElLZkVhdGZhcm9YSkpNSVlLbVVnUjJRLXJvT3dGcVU4SHBySk9kS2FORzlKQ0k4ZTRJdWx6ckRsQS1TTlFLdklLUjlRX3EwMzdvXzE4bkZxNUQ1czdCb3c?oc=5
+
+### 44. Microsoft 未公开名称AI产品
+
+- 来源标题：Seismic scales sovereign enterprise AI globally with Linux on Azure
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Seismic+scales+sovereign+enterprise+AI+globally+with+Linux+on+Azure)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Microsoft
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Microsoft公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMifkFVX3lxTFBnUUlYZ29KNTlhVXhHeVkxT3NXbFUtYV91LV9pbGI0THV6Mks3LTNwaHdvQS13VXRRdDNna0JHeFdWX1B2Z3ZpSGZsZC04Y21EQ29SUV9oVmRJb05fZm5RV1JWY3d3azhQQ2FhdUNoVUtLbktVWGFUUTRXRmdoZw?oc=5
+
+### 45. Moomoo 未公开名称AI产品
+
+- 来源标题：Earnings Review: Microsoft Shows AI Scale and Cash-Flow Discipline Can Coexist
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Earnings+Review%3A+Microsoft+Shows+AI+Scale+and+Cash-Flow+Discipline+Can+Coexist)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Moomoo
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Moomoo公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQVBRQXdiS1FVSk9JeENRR3BVV1hLZDJHaVR4R05kRXhWRWFXdXV6a1N3MW53UmFBWTQweTFhUjAtNVBDcXRucHBiTk1DMklOWE1rMXVNQ3lFTnV1RjlBZENya1hYU190ZjdxbFAxRUMzdGlvalFFR2JMS2lOcFVDREZjX0xjSjJxaHBzaHItcldTQ2lRb0JRZGV4bmQ0UTMydEFOLTlrTWRRZnowYVNTamZRVUJzRVdqcTBj?oc=5 · https://news.google.com/rss/articles/CBMipwNBVV95cUxOdk11UlBGWjVrTmhlS282TllqaWIxd2Etb2NFaVFCbUlsTHJVWWdwc05ZQ3VBbEVlV3MwV2NYaVJFLUxZeHNyUHhwdnhxR2d6X19aRlhicmw4LUNlbnNCVHhRNWppSVFwc0VHVFNsT3lQNXg0aTl2elJkVjEwZWstTWlWYnI5MWJaZmZpMUozeEl2Um4wTnhHbmtlYl9HdmZOeEtRV3plblgtVXNyX001VnluMDU0aGJLUG5YbVZTQWFOV2VVUG1QR1llZXE3U3F2RVhka3ltaXBqLVlwdkZUeDVWQzdxQ2VmUElDWi1aUTVJaE1ETjZSYkp1Tk8wM0JUM3YtRzM2emZGcHZNOWc3OHNWRk1ZazE2Q0tDblB3R2RvazhqRmtlRmlGaWZVaWMyT3MtZ0lOekNhSERERmdoSlVuN1dTaGgxWmk5UEdUZDdRTzJOZWlGUmRmaUJ3RWNSV1R2VWZzdEhjb3FscHk2OTdnenUyTWhMaV9YRHJ6clZrRnhzQ0NvR1g5RG1HTlI4aDRuekwwZW0wXzJlekVGSTFfbk5Cazg?oc=5
+
+### 46. Meta two new AI apps
+
+- 来源标题：Meta launches two new AI apps, including one aimed at kids
+- 产品名称状态：描述性名称
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Meta+two+new+AI+apps%22+Meta)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Social Media Today
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Social Media Today公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUp6UjZ2OVZ5Qm5waWpiWVR3cG9zc0VLUXEtNWYyUTJWaENtcWZVQWxTRGk2aFRvNjJHSW12VHYxeVY4Q09MbXpVcEJkY1kwUjFjVnU1SU5YcUFCVldUMTdLZ25LRDlWeVkwUC0xYUNELTM4aUNwc2hQcHcybXk0UkRvbmI5TlhKZG4xbE9fMWtmbVpOcXhWMnl5TTRDUVA3LWdOX0Jn?oc=5
+
+### 47. Meta AI-powered virtual pets and outfit planning apps
+
+- 来源标题：Meta launches AI-powered virtual pets and outfit planning apps
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Meta+AI-powered+virtual+pets+and+outfit+planning+apps%22+Meta)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Social Samosa
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Social Samosa公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMimgFBVV95cUxPYzNBTWExcGVNWWItVzJYVURUeEl0cG5LOHYtbUZpcFphU21mUmE0MUxpeWYtcUhDcmRtMXNSZ3NObkRhdU10ZzVmOV9INm5DWkNNcjZoMHhXd0lQODZnZDRIbVJZNkJzOEpRX1BYLUgtS1NkRVVkc1hrem9sYVdLaElXTWxjMDF5SWxaMW9iOTZpS2Fkd2FSLUpB0gGaAUFVX3lxTE9jM0FNYTFwZU1ZYi1XMlhVRFR4SXRwbks4di1tRmlwWmFTbWZSYTQxTGl5Zi1xSENyZG0xc1Jnc05uRGF1TXRnNWY5X0g2bkNaQ01yNmgweFd3SVA4NmdkNEhtUlk2QnM4SlFfUFgtSC1LU2RFVWRzWGt6b2xhV0toSVdNbGMwMXlJbFoxb2I5NmlLYWR3YVItSkE?oc=5
+
+### 48. Babushahi.com 未公开名称AI产品
+
+- 来源标题：WhatsApp is redesigning Android app with new navigation bar, Meta AI integration: Report
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（integration），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=WhatsApp+is+redesigning+Android+app+with+new+navigation+bar%2C+Meta+AI+integration%3A+Report)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Babushahi.com
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Babushahi.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi4AFBVV95cUxNb1VXMUpLNFBmMUdLOEN5eFZ2U1dISUc5N0NSTlBKOFJYUDdjbGxUWGZtMVNXZTlWYXdpMjdxRVl3dF9kdGYyd1dTdENPblR4Yk9FTjlVQ2RNUzdDZmZWQmNOdlVGaEU0QkpVcXF2blZFT0p2RlRlcDFLejZRLWsyT0lscVhiZkluVXhLUWtQUkl4WFRCekhWaUdyR1FvejI4OHZ6Tl9nc19QT2NDZVRSMzlHa0F5Uk5PT0FiZUtlV3hLaElZc0N5SnliODlTZXJjVzd6ZElUQmRUNHpEejBnUw?oc=5
+
+### 49. Nvidia Free Speech AI Model Rivaling Qwen’s ASR
+
+- 来源标题：Nvidia Releases a Free Speech AI Model Rivaling Qwen’s ASR
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Nvidia+Free+Speech+AI+Model+Rivaling+Qwen%E2%80%99s+ASR%22+Nvidia)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：FourWeekMBA
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据FourWeekMBA公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijgFBVV95cUxQQ0hnelVXRU44U1d5Q0pfT200ZmJjUFZycFpYcmMtQ1dBN1BSWjBNVFRCUHJkWFUwVjBmemVOalFDMTA5cVlsNENKLTJrdkpUVjQtb0x5cFFUWWpFMVZWb1RiYzBQS3d2dzEyNUY0ODVvMkJkYXFNY3A0RDVXWXdsanJDeGtpRUlmbmpYRndn?oc=5
+
+### 50. Nvidia DSX POD server racks
+
+- 来源标题：Nvidia unveils DSX POD server racks to speed up AI factory buildouts
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Nvidia+DSX+POD+server+racks%22+Nvidia)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：TradingView
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据TradingView公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMizgFBVV95cUxNbFVjaGhkQ2thYk5lSUpXeWd4MC0tLXBVaGhlaElfS2REVHNJeUdsSjVnS3V5WjJHVlNvdE5mV3FneXZWNHdlN2ptN3lVb2V3bmVZZlBrYkNqNzQ4Zklua25xTUVXRTV2WkZRa2tVNHNDXy1hV2ZxV040Y3VBZUFyYVliSC1oSHA1Yy05NG5BVkFVcEROcDdLNkdKcllPZlRraTgtNnhidHI5aU1KOWlWUEhYOVZaYlZEN0tuN2dBWHhHSnpLQWstZ2FUTXFYQQ?oc=5
+
+### 51. Amazon 5 new Alexa devices
+
+- 来源标题：Amazon launches 5 new Alexa devices with AI upgrades, including smart clock and photo frame
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Amazon+5+new+Alexa+devices%22+Amazon)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Business Today
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Business Today公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi9gFBVV95cUxPZmc4ZFBzbjJPamxRa0MtZzFPUlRnSlN6UVZrbjN4TlZKZm43bU83ZUV1aHpPdzZyNkNZMUI1b2FGZTgwMEhHMmxTVG9hOTAyMUZpVDF2Y09nbU1oNmZKY1haWnBPSUhyMURPN0R6QTZjcTFTMzJETnJnRElIY19ZQ3h2RDN0ejZjM09qd3hnVVJzazJSRFRVTXc3aDhidmYzbTRLV0R6M3g1cTNOS0ZwX0xSM2kyWGdpT2ZDYVZaQ3g0ZDNoQW1CcThtVkNMeXhVSC1CRkd6UGJBR1NWSEtHblFzWG41SF82RVJFUXNCNmpqdUtmMkHSAfYBQVVfeXFMT2ZnOGRQc24yT2psUWtDLWcxT1JUZ0pTelFWa24zeE5WSmZuN21PN2VFdWh6T3c2cjZDWTFCNW9hRmU4MDBIRzJsU1RvYTkwMjFGaVQxdmNPZ21NaDZmSmNYWlpwT0lIcjFETzdEekE2Y3ExUzMyRE5yZ0RJSGNfWUN4dkQzdHo2YzNPand4Z1VSc2syUkRUVU13N2g4YnZmM200S1dEejN4NXEzTktGcF9MUjNpMlhnaU9mQ2FWWkN4NGQzaEFtQnE4bVZDTHl4VUgtQkZHelBiQUdTVkhLR25Rc1huNUhfNkVSRVFzQjZqanVLZjJB?oc=5 · https://news.google.com/rss/articles/CBMia0FVX3lxTE1oYVp1X1ItTHF0dUMtZHZVQ2QtbnJrcnZnajZYRFVsQWhqdFJreVpNNEktRmpQZTY1REVEbmUwQU1MNV9SZk5GN2Z5N3pjNmdHZlROTUlSUkhwT1hXZFpUdnh0aDA4LXBncm5J?oc=5
+
+### 52. Bhaskar English 未公开名称AI产品
+
+- 来源标题：Amazon lays off 250 worldwide, warning engineers, 'Adopt AI or you will be left behind'
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Amazon+lays+off+250+worldwide%2C+warning+engineers%2C+%27Adopt+AI+or+you+will+be+left+behind%27)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Bhaskar English
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Bhaskar English公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiygFBVV95cUxQQWpnaEFXbXJJNTZlYWFScXR6MTA2VHF1M2xFTG1wQjAyVTdsbTFuaTJfMDBNUEhuUXlxNURmOE5FbF9PSU1OQzFuTFlzS0lnRUFlMzlsMUR1UXYxYzlTSUtMSE9UaXNzZWJlM0kzSzMxbVUwR1VCMnhjWFJTZFhKaW83THBVOXBHb1J6RUxkNkJQNXVEWGVxRU9TUjE5M0gza21zM2VWNUkybzJ0TVJ1VXVoUVVjTjlSQ25NdDhiVFg0cGlhczRNUWpn?oc=5
+
+### 53. Oracle Deep Trust AI Architecture for enterprises
+
+- 来源标题：Oracle unveils Deep Trust AI Architecture for enterprises
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+Deep+Trust+AI+Architecture+for+enterprises%22+Oracle)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：IT Brief Asia
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据IT Brief Asia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijAFBVV95cUxQTENxLTlyRTQwRUtlSUFmQ0JpNndwWGtDcmoyYTFJNWxNVTNRZWZHZDdqOENNeU1teGFDbGUwNkhCTTU4SzNyTm1ubndHRWkyOUVXbk8yMFVTNlBMLUE2MUdIcFNJNDdkaXhlcWhVMDdUc2p4N2JJcUMzdGxoOVlBWS1WRmJUT2g4eHhfRA?oc=5 · https://news.google.com/rss/articles/CBMijgFBVV95cUxOcVdadmZzcWlPUW5uUWVKOE0wRGIwb0lTZzRVMmFjeTlXdnd0NjdiUm53d0dUUDVOcGdmM3pQMFFtVkhxNHhqbFRRTURfTGlORGhPeGtvRFJqV3VLekZzWTJYeXp3NVhuak1GYWp4aXFaVnZwX0EtemgybEoyQWU2alVIVG8zdmM3ak0tY3hR?oc=5
+
+### 54. Oracle AI registry for Fusion application setup
+
+- 来源标题：Oracle launches AI registry for Fusion application setup
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+AI+registry+for+Fusion+application+setup%22+Oracle)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：IT Brief Asia
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据IT Brief Asia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSS1XSHpYbjg5QVZNOHh3WjFWVlktRFp2ejVydFlKNGJDVjZyYWNoNmJaNFJ1YVNTSElGNlpNalU2MlVGQ0ZSb2h6YVV5S0hlbk1BdFBZTHNSOWU2cEMzLTRiOFkxRUhlcXNXZDVfVnZHeW9IcFRjOUNTamROdlE4QXlueDhRaG44cVR3?oc=5 · https://news.google.com/rss/articles/CBMiigFBVV95cUxPWEJmNFRtcTFGQUpXcUR2LW44M3owVGVjNWs0YlRmYUE1SUU3NWVBTkVaNFpobzhKNV9WZmNnaXpYc09NYjFWamdUeTZmQVRnb1BkazZyTU5pWDA2SlFPTGlJY2tVazhWcElfVEc4MmNtMGYta3JGMzNUNXpFT1FZVFpGaHVGU202R3c?oc=5
+
+### 55. Tencent AI Office Solution
+
+- 来源标题：Tencent Unveils New AI Office Solution: The Next Key Piece in Its Smart Work Ecosystem Puzzle
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Tencent+AI+Office+Solution%22+Tencent)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：36Kr
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据36Kr公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiU0FVX3lxTE96QnBJbk95MkNFeHdHR3hmc2JWWFMxNTBGeUdlbjZVdTVtcEp4Q0hyXzV5WTNXRVBPeTBvRFdvbnFhYWNDOUR3Vjh1RWh4ZW1Cbmkw?oc=5
+
+### 56. Tencent Drive Beta
+
+- 来源标题：Tencent Drive Launches Beta to Unify AI Tools and Build a Shared Memory Hub
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Tencent+Drive+Beta%22+Tencent+Drive)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：KuCoin
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据KuCoin公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxPYzNjMTMxb1dOMEFzQnZWZmpWVE9waW85eTZFX29hLWRMVDQ4Z0tOSUo3ZUpUSUQzcklJbXdUYVR0aEQxTERvN1BwYWRUdW9IMWYyUlA3R2NnakFXNHZMQVFacEd4aUdHZF9wUml3OHdFb2x3MWtWUmRTU3dSS29IM2ZfZGZGYkhoM3FsX2tnRDZJVkkwNGRPajE5M2t0N0ZLaXpVUEVQUHNsWWFnemc?oc=5
+
+### 57. Dealroom 未公开名称AI产品
+
+- 来源标题：Hungary's Intellihr raises $303K to scale AI recruiting platform
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Hungary%27s+Intellihr+raises+%24303K+to+scale+AI+recruiting+platform)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Dealroom
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Dealroom公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMingFBVV95cUxOcE5CZkt0Nmk3MDc5X0FxQmJwVkpGTEhOX0Ita3FjeEZNejJ6R242M0JzcmJETU1mR1g1WXpMX3FtMm5OaE9XaFJzZ0xNSHVUT25Cc1RPOVpMcGdVU3FlMHRYU3Z3VVc1clBZRlhUUGwyMlhfZ05FSjZvYUtXTy1oX0dnelNOOTBBX3oxZDhhZU13TkJkZ2VpNVAzODQ4QQ?oc=5
+
+### 58. IT Brief Asia 未公开名称AI产品
+
+- 来源标题：Manufacturers hit data bottleneck in AI scale-up push
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Manufacturers+hit+data+bottleneck+in+AI+scale-up+push)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：IT Brief Asia
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据IT Brief Asia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMihwFBVV95cUxOS0F1YVFmM3Vrd21td3pEVS1CelE1bHhjTC1LX3A0YUtLV2hxWWFJeW1faUNXTlJCUllLYy11OXExTFY1NGE5d2pENVBJYWIxRmoydkp2RnZVTGs4Qk9MZzNCcE1XTGFvdGx4Q2t3QWVZdVRyTm80Vm5qcTVwQkJ5cmxwb3Q5M0E?oc=5
+
+### 59. Chosunbiz 未公开名称AI产品
+
+- 来源标题：Hancom targets US with Nomadian to scale AI staff platform and overseas sales
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Hancom+targets+US+with+Nomadian+to+scale+AI+staff+platform+and+overseas+sales)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Chosunbiz
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Chosunbiz公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijgFBVV95cUxPdHk2YkdvdmRXSjI4c09HVGtrY0JwLXh6U25KeE1Bd2RPRlJhSy1sQ1JZZGhWdGhfb283Mzl4cXk2WkJXT2NkR0xDWUkwTS11Y01tRlBvRGtLRjRmN1J2b3kxLV9ZSW1QX3hnQzNDMUFmWmd0NUxKcVdGZVBOVzQtVnk4VGRyMTJXVllwZFB30gGOAUFVX3lxTE90eTZiR292ZFdKMjhzT0dUa2tjQnAteHpTbkp4TUF3ZE9GUmFLLWxDUllkaFZ0aF9vbzczOXhxeTZaQldPY2RHTENZSTBNLXVjTW1GUG9Ea0tGNGY3UnZveTEtX1lJbVBfeGdDM0MxQWZaZ3Q1TEpxV0ZlUE5XNC1WeThUZHIxMldWWXBkUHc?oc=5
+
+### 60. Arco 未公开名称AI产品
+
+- 来源标题：Arco Partners with t54 to Develop AI-Powered Enterprise RWA Vault on XRP Ledger
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Arco+Partners+with+t54+to+Develop+AI-Powered+Enterprise+RWA+Vault+on+XRP+Ledger)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：BigGo Finance
+- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据BigGo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE9kRDE1QkZRMWxjMlV4NkFaeXE3WkkyR1JRTDdHaGJGVV9ORDlOQUVHRE1tV2U3enBnV1RDaGRXeS1yZnFFcTFTX3daUDY3dlZFZ19YRVZUQXh0QTdpRHktNWZOcGw0czRuNFpzZzhFbXNVZVFrYkE?oc=5
+
+### 61. openPR.com 未公开名称AI产品
+
+- 来源标题：5 Best Cryptos To Buy Now After Ripple and Robinhood Announce a Stablecoin Partnership
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=5+Best+Cryptos+To+Buy+Now+After+Ripple+and+Robinhood+Announce+a+Stablecoin+Partnership)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：40/100；审核状态：needs_review
+- 发布者：openPR.com
+- 摘要：该候选涉及金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据openPR.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMingFBVV95cUxNTjY0THlvUEhOdlZxN1ZWRnloczR0SDZ1NHRmU1dUTWZSUjBjZWg1dVVVZ01zcU83ZURocVV4TUtFNnlWNjI4MHZFRWhoaG1QOTBoMTNzaFUzMHd0RktacTZUZ3RMS1FyeHlNUE4zSm5ud3R3Y1IteldJTWt5X3hzUXJKc01reGYxZ0lERmRhZ1YwOEZxRGVidEJQb3QyUQ?oc=5
+
+### 62. 深潮TechFlow 未公开名称AI产品
+
+- 来源标题：HSBC Research Report Analysis: $63 Billion Financing Supports Broadcom's Deployment, Subsequent Expansion Still Require…
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=HSBC+Research+Report+Analysis%3A+%2463+Billion+Financing+Supports+Broadcom%27s+Deployment%2C+Subsequent+Expansion+Still+Require%E2%80%A6)
+- 官方地址：[https://www.hsbc.com/](https://www.hsbc.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：40/100；审核状态：needs_review
+- 发布者：深潮TechFlow
+- 摘要：该候选涉及金融机构，被识别为客户部署，成熟度暂定M3。当前判断依据深潮TechFlow公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHVWpyZmljTVlGcVlaUGRLMmtJMUZHZlNIVkpCTGVHTXB1WVVzZUpLYnNNN2pMbmg2cXo1Qml5OEVpbEFSSUxsWUFadU9JRDhsNnNsc1ZUdnh0QzVN?oc=5
+
+### 63. Tencent Buddy One
+
+- 来源标题：Tencent launches Buddy One to integrate multiple office apps and a credit system.
+- 产品名称状态：明确产品名
+- 产品分类：信贷与融资、其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Tencent+Buddy+One%22+Tencent)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：40/100；审核状态：needs_review
+- 发布者：KuCoin
+- 摘要：该候选涉及信贷，被识别为产品发布，成熟度暂定M3。当前判断依据KuCoin公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
+- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMisgFBVV95cUxNOW5IdUw2N2VDRmQtOTdnT3NOeW96ODlMMk9BSnJDa1AxdUtyOXQ4ZElhVjBUa3lvdXdXUVlXNmxuYndPQWJkLXA4MWZkWDB2aGFVWnNVY0tzU01mZlFIeThwVl9vYTVfNkotai1SUjI3Ti05Q2FXZjVVcDFFLW1WcTRTdHgzYmVYc0ctWEpndGRhdkpUdHBSQ1JFaHpLbzVZa3ZoREhvSnRqRHE2QTZsOWVR?oc=5 · https://news.google.com/rss/articles/CBMinAFBVV95cUxQTVRPZDYzeEVRTWxhNF9VcWxFNnFOcVZBV0czNTd0aTNxMXFXR2NkREQ4cjR3WjFsRlpWYXZScGJpT3RLZ0tpeXVlNU9hX0Q1Y0NfZHlwOFNrcmFpdjdXTzI3ZEU1eHczNEVjblE0SlVXZ1NsaHo1Tk0yTWh0U19PYno5cHVEcU0wX0JwWl94anl0bmhFMTZ0MUhTak8?oc=5
+
+### 64. FintechNews CH 未公开名称AI产品
+
+- 来源标题：Monzo Spain Launch Adds a Third Market after the UK and Ireland
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Monzo+Spain+Launch+Adds+a+Third+Market+after+the+UK+and+Ireland)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：FintechNews CH
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据FintechNews CH公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijAFBVV95cUxPaVI4alk0a0FEcGV6VUF5MFgwQk8xRzVfLTk1bm5qVkpiVHpIblZsazdzLVlxN0Nmd0N6UWcyLVQyWmZhZkp3ZHVyYkVrSTFDbEJab0RSdmFTM0JnMWw3OVktbXlBdVRYQktSeWZOaDhhMnpQQlRjQjQ1R1ZCdGVaQlVmamdYODUyMEJWaA?oc=5
+
+### 65. Block Dessa
+
+- 来源标题：Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Block+Dessa%22+Block)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：MarkTechPost
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据MarkTechPost公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMigwFBVV95cUxQeDZMSk5CUlB1SkhpNzZUTU4tZUlRSzVOdUtXVGpSQ3Foc2dmLVRlTENlTTBoaDlRYWw1UHBGZmdfbzFnMVJaT05XZnFYblRjb0kwY1JUa1VSaF9sUDV6RUtfZl9OYlZxVlhEV2Ftd2d0VlRkZlcwQVdKdlZfVWlNSzhxVdIBgwFBVV95cUxQeDZMSk5CUlB1SkhpNzZUTU4tZUlRSzVOdUtXVGpSQ3Foc2dmLVRlTENlTTBoaDlRYWw1UHBGZmdfbzFnMVJaT05XZnFYblRjb0kwY1JUa1VSaF9sUDV6RUtfZl9OYlZxVlhEV2Ftd2d0VlRkZlcwQVdKdlZfVWlNSzhxVQ?oc=5
+
+### 66. Simply Wall St 未公开名称AI产品
+
+- 来源标题：Lemonade (LMND) Could Be 8% Below Fair Value Following Idaho Rollout
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Lemonade+%28LMND%29+Could+Be+8%25+Below+Fair+Value+Following+Idaho+Rollout)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Simply Wall St
+- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据Simply Wall St公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMixAFBVV95cUxNX2RnaWp2UFM4ZnpHa2JRaWNoUXBtUkFxSTI3X3UyR2sxYkhXX29jX0FabkRyTE1CUjB1bTF5UnRGZXdSd2N4dzlZZ19uX1VzV1lMYjdpaHJYWEl3YVpZTk1JdXFlTjREUjJjOERlVjBoaWNON24wdXNPTVVUU2N6Z0wwOEdlbUR2blA3dkU4M1Btemo2MTJISUFDRWhoUFEya2RtNXN1V0VQem10SVdHNFo3TEZoc3JrTmFzdHkzUVljc1Zf0gHKAUFVX3lxTE5aZjhkVDJNdVpRbmJ2d25YT18wVHVJU2JxN3RSNWY4cWxQVHlnY2FMdkVWWjZzVE0xd3l3dnYtemdJbW9BU0sza3o2YVdrWEpldEZHenBBdzVtTWE2OHZZWXNiR2tSSmI5SGFFWU5EelJxUmV4bnhqbG13TTQ2VlJLd3JMWWs5dTVvWkRyaXpjZGc5VE1XR2J6MjB3dXBvSXRHZVY1R0tXdEhiT3M4TXlNV0oyZndRY1ozZnMya3dCaGZUd0ZEak5sOUE?oc=5
+
+### 67. Easyjet ChatGPT plug-in for flight and holiday searches
+
+- 来源标题：Easyjet launches ChatGPT plug-in for flight and holiday searches
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Easyjet+ChatGPT+plug-in+for+flight+and+holiday+searches%22+Easyjet)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Globetrender
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Globetrender公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiowFBVV95cUxON0dOdVVsR2MwNnNNMWk2akJGOFpuLVQyX0tXME5UMUlvMlp5N2Mtc0JwQnZ4TlBoR2V3SUkzZXpLZkdfWHVfc0RMcHczNWR2clZHRm96SXRsMk9ld0sxdTRpVkx1SGxxM0lEcEYzQmxianFHRGlBRWx1N1daR3BpY3VCS0NTV1FSTFBsbHVpT1RDeXJad0dpTHFuQ3VCSlhpSTBF?oc=5
+
+### 68. BigGo Finance 未公开名称AI产品
+
+- 来源标题：Tencent's Hunyuan Hy4 and Hy4 flash to Launch Soon, Introducing Visual Understanding for the First Time
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Tencent%27s+Hunyuan+Hy4+and+Hy4+flash+to+Launch+Soon%2C+Introducing+Visual+Understanding+for+the+First+Time)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：BigGo Finance
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据BigGo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE1xb0JPU3RsUDEyZGZ4WUNKRjlXSHR0aHdBeldfc0tyYU9WN3QybEhBV1FwMllHLXJscXhYbnc0S01FcDBtZFNZd0JrQ1hOR3hONGl0REtOVmFRWkFsSTlRRzZuTHFBQXpXQlgyT2FmcTg1UzJjd1E?oc=5
+
+### 69. OpenAI war room
+
+- 来源标题：OpenAI launches 'war room' to monitor midterm elections
+- 产品名称状态：描述性名称
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22OpenAI+war+room%22+OpenAI)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Mashable
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Mashable公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMid0FVX3lxTFBsWGRaZ25RLXBYaDhFTjU4V3dYamdreXNzc3lvUWJRMmZxTUE4SXlkME5UZzQ3YUxzbU1tZmNYZ0NCNTNKeE83ajNIZjRUblh6TWZ0dG1JYy1KbV82UDdtSDJkRVFuc3F3ZkVoSDhqWjRCeEVmMkh3?oc=5
+
+### 70. Techgenyz 未公开名称AI产品
+
+- 来源标题：OpenAI ServiceNow Partnership: Powerful New ChatGPT Workflows, Codex, and Cybersecurity Plans
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=OpenAI+ServiceNow+Partnership%3A+Powerful+New+ChatGPT+Workflows%2C+Codex%2C+and+Cybersecurity+Plans)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Techgenyz
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Techgenyz公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTFBrUHlzdWRGOENRVG1TZ1FFQ1pjUlVLR1RuaFN3V2ZmY19MdTlxT1F5NlZIUlAycE9BbWxFMjJkb2Yzb3BwTkxWalQ5RTUzZ0p4ZlJ0NXJxSmIzUVljS1ZnQUtPeUJycHZMYUJobWt0RnNvb2N3R3c?oc=5
+
+### 71. FourWeekMBA 未公开名称AI产品
+
+- 来源标题：Nvidia-Backed Nscale Seeks $30B IPO, 2.5% of Its Book Live
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Nvidia-Backed+Nscale+Seeks+%2430B+IPO%2C+2.5%25+of+Its+Book+Live)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：FourWeekMBA
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据FourWeekMBA公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYzFnS2l4SXQzMVRxcVFmRXJkWTg0ZU5QeE5mRGNUMFItdXJYRVh6Z3BadWdXbmNZMzZtQVhfVFF0cmpGdW5LSkttNGhJaGNLOW1MNGE0VjZGa2R6X1ctTGNHM20wbkhKN3F6em1SRUtHYksybHZ2WjlmYU4yZTVVeF9SdkRHVUxSeXJv?oc=5
+
+### 72. Amazon five new Alexa-powered Echo devices for home
+
+- 来源标题：Amazon unveils five new Alexa-powered Echo devices for home: Check features
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Amazon+five+new+Alexa-powered+Echo+devices+for+home%22+Amazon)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Business Standard
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Business Standard公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSno0NnR3QWFOQW1vTkpRSEtYRjVDMklELWFlbzlwNlFlTk5PenhlOEI2SzJqZFM3TUVpcjZtMVJqaXZWRjhJUjhWSFRSTFBxUkVxREtqX0NKZ1NseXhQR0dtZENtZFFmY1JyZzFlNTlNaFkwUGlNTXRkaUNldjU3cnlXZVczbXJFa08wMGJNazZ4Tm5CSlRhQVhISTBCcUEtdTBaMkR4VUJkTkJqZ1hXU2JmVTVNYnJmUEZOX2pleC1nYUw0Z01pN1BWY1Q4Ym5tOTNoMnZ4SkhYRjdsS0NHclFCONIB6AFBVV95cUxPTmFMcHNyTzlPYVRpNmM5NTQwZmVNZnhEUkxTNlhpNnpkQndzU0wyM3J5VkoyUl8wckdCQ1MxOXlHQ0c0MWZiSmdWRjZGakhoQlE1bExxZWtIZGoxWkhPWW03bWJWdFhSVkdCX3JBS1NiQWVzTHdwQ1lNR05LVjM5N21hVWR1MUx2LU5nd1dlQ2RHZGFsWnZmV0Rlby0xUURseERGSW1NUzUwV0pyUWZqeERVU0dsNGNQcWc1N2RDQmY1aG81TG1nTlRnSEhaZFdrWjE3TF9KaW5YYlBja25wZDVKcllZOV95?oc=5
+
+### 73. KARV Tech Insider 未公开名称AI产品
+
+- 来源标题：Tim Prugar Takes on Customer Enablement Role at Snowflake
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Tim+Prugar+Takes+on+Customer+Enablement+Role+at+Snowflake)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：KARV Tech Insider
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据KARV Tech Insider公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMizAFBVV95cUxPVXhRYXM2QXc4NG5pZzNNNU9Td2ZKWHg0bnZnb19FdWdzLU1ZeFZnNkx1OGpyN2h0cWVJdklvQ19IVllWTjg0a2xfWmt3X0Y2UlUwb2ZVOHR1a1daRWs1Q0tVbVQybktKMnljRVQwVDl0ZEdDOHBONkFXWWNiQ1NvdzQyTEhVaXJaaktUSV9qRVBZa2VLSGJSTmJQd1VnOFgzTzRFQkh3eFJ3ZHF5TG9zaXhPMmdLM09CTFpteWphVnA5cG9Tdi11X2luQms?oc=5
+
+### 74. The Information 未公开名称AI产品
+
+- 来源标题：ServiceNow Shares Drop 19% After Earnings As SaaSpocalypse Fears Persist
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=ServiceNow+Shares+Drop+19%25+After+Earnings+As+SaaSpocalypse+Fears+Persist)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：22/100；审核状态：needs_review
+- 发布者：The Information
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据The Information公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMipgFBVV95cUxQRXdVcWk2aGk0ZlJ4SXcyM1JHdUJpbU9PMDdST0lPbG82SG1sZ1QtTUtTVnZ6Q2xTNFlnMEtock10UnkySFRKaVE1cVhXTTVkX053dVRzTW50Mkh0VHV2MTRYSE1uVlY3bzdqenk5THkxdVNvdWk0NG9ZQ1NGLUZFM29ZajYwdkFGUEVsdV9mQW94VWp2QlUzOGo0Mm1IbllKLVpucVB3?oc=5
+
+### 75. Alibaba Cloud First Public Cloud Region in the Netherlands
+
+- 来源标题：Alibaba Cloud Launches First Public Cloud Region in the Netherlands
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Alibaba+Cloud+First+Public+Cloud+Region+in+the+Netherlands%22+Alibaba+Cloud)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：finchannel
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据finchannel公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiywFBVV95cUxQSWxPdk0wWlBlVzFEV3FyWWpzU0thckRyVXlIX05BcWFYTk40aktnMllZYVpEdHFjVnJrSkVKY1BKRXZTU3ozd0JUY0FIU2RNMW9fLWtjTG5BTFBiSVhhRU5hVkQzZE1ZbzF1OHFwWldtYkN5bElLb0xBQ210TFd0TGpBX0NBeEhtM1ZhOU5DUFdmTDJWZFJENy1fcUlNaVZlMjhfZ1NtX29XUmw5WDRTTVJmSENiY0l2VEZIYUNQNWpnWHJKbk4wWF9XYw?oc=5 · https://news.google.com/rss/articles/CBMi6wFBVV95cUxQNnVMMmpsNVRkTDg1cEMyb01BcHdzUHMzY0dKZnF4ai1kLWlTRG1Ia0x1X2tRT1hhNUVnRUJZRkx6Q1RtcUJFMUJYcTZfWmZ3V1NPRFdLMjY2bENMWklJNnRBZ0g4Ym1kUmExSHVSZXphVGNFNU5USVgzdUVxdGJHMjc3UWxOOGh6WFZwYmRubDJqWkxqYkZRcTBuY1gzVWVieWc1dnBFZF80ZUJsSEhGTVcwZ0E0bTZOUlhUSjBKWVpzdkNsRURfcWJIVWNXQkpKa3kyb3cyaTBpbDVHQlhfcVo5UzFqandseVl30gHrAUFVX3lxTFA2dUwyamw1VGRMODVwQzJvTUFwd3NQczNjR0pmcXhqLWQtaVNEbUhrTHVfa1FPWGE1RWdFQllGTHpDVG1xQkUxQlhxNl9aZndXU09EV0syNjZsQ0xaSUk2dEFnSDhibWRSYTFIdVJlemFUY0U1TlRJWDN1RXF0YkcyNzdRbE44aHpYVnBiZG5sMmpaTGpiRlFxMG5jWDNVZWJ5ZzV2cEVkXzRlQmxISEZNVzBnQTRtNk5SWFRKMEpZWnN2Q2xFRF9xYkhVY1dCSkpreTJvdzJpMGlsNUdCWF9xWjlTMWpqd2x5WXc?oc=5
+
+### 76. Byte Time
+
+- 来源标题：The Dispute over "Byte Time": The Scale and Boundaries of Super Giants
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Byte+Time%22+36Kr)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：36Kr
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据36Kr公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiU0FVX3lxTFBlTk1QcG5nOVd4NzR0ck9xOWZSdU4zR2ZTLWd1RDB4bDBfOHhRQ0c4Nm10ODJHVEVfNk5WRzFSd0UzSkgxSlB0RHVDaTZ0c1VyWDM4?oc=5
+
+### 77. Yahoo Finance 未公开名称AI产品
+
+- 来源标题：iFlytek Debuts Hybrid Cloud-Edge Model to Accelerate Real-World Deployment
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=iFlytek+Debuts+Hybrid+Cloud-Edge+Model+to+Accelerate+Real-World+Deployment)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMinAFBVV95cUxQUkJyczhwZER0Mm9haXowaGttX3J5ZHRzYkp1RVlPY3dfUFI0WC1qcjEyaXVUN0UxZkppUWFuall5NzhxT1VWQ1BKUFZ1LXM4VFF3VHVPZFRxemNvem41LTIwOVY5RUp4VXEwU0drUmV5T2FTSG95YXF5SVE0cTg2alV1dmFRY2ZhUXpySkFpQlhJV1o4bXNuM3d3eEw?oc=5
+
+### 78. Binance: 10% Crypto Discount for Japan Tourists
+
+- 来源标题：Binance: Rolls Out 10% Crypto Discount for Japan Tourists
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Binance%3A+10%25+Crypto+Discount+for+Japan+Tourists%22+Binance%3A)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Blockchain News
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Blockchain News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijgFBVV95cUxOMnVmc2QyVm5qVWZtMFU4MDA3NmNfMFJIY1V5b0VEMmI4ZlVxazdTU3ZlcUlZem1KTTZYd004VGpteDl2a09jeEs3Z2NvaHFON3dBVlZVY2NtaXBvbUstTnF0ZmpZZi1oQk9wNG41U1VveV9CRjBZRG4zcEhtQ3V4TWN5dnpQSEd4c0lMLWRn?oc=5
+
+### 79. Traders Magazine 未公开名称AI产品
+
+- 来源标题：Anthropic Pre-IPO Perpetuals Go Live
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Anthropic+Pre-IPO+Perpetuals+Go+Live)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Traders Magazine
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Traders Magazine公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMifEFVX3lxTFA2OXVaalV6MzRTRVZMeHpDSkxrWGFYN0ZtM3ZxakRaSHlrNjBQMWtsa2xYVERPdWxPNWtwMzhXVDl4Z0NsM3ZzSFdEaXRiTERlMUstRmFhX3NTazVJNGhWOVQ4bE5EcElkSTNUXzVVdjV4NkZnb3BrVTFoTHc?oc=5
+
+### 80. OKX Hold
+
+- 来源标题：OKX unveils Hold to Earn event, rewarding users for holding select tokenized stocks
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22OKX+Hold%22+OKX)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Traders Union
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Traders Union公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiiAFBVV95cUxOcnE4UGZXdUdfaDB6WHBMRnhBN1RQUmZQaFpTelI5RHlNXzE2cmJnZXVaLURRbTA4Yk0zS0lDaXI3ZDlaOXFld0ZLWGk0cGFRS3NlZzFnVTh4Ny1FQkJ5a0pvaTVlTERRSVN1V19ZZ2Y1VVZGM1VfQTJVa1Z0cEVaNzBiTE0zTTAw?oc=5
+
+### 81. KuCoin 未公开名称AI产品
+
+- 来源标题：Ripple CEO Praises U.S. Treasury Secretary Scott Bessent Amid Major Corporate Crypto Rollouts
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Ripple+CEO+Praises+U.S.+Treasury+Secretary+Scott+Bessent+Amid+Major+Corporate+Crypto+Rollouts)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：KuCoin
+- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据KuCoin公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiugFBVV95cUxOVXo1d0FXYkJXMFNPM0tPbVFxWV9tQUt4RFZuaVBRZEUxTjVBcjYyckxLTy0zTVZwN3FUVi1MYnhfcF9rWjh3bjJ4Zk1EZERSN05wWFlBZlQ4cHZiMG44akNTNWk3UGRidVQyRWdOejItczRUQ0VJVnIyMWFxLWpjUUl4TWtzQ1UzSWpTUkNSbFVsMHdvUGVIeW5aZ290V1B0QkZ5Y1ZGWlVMYmFzTEZFZ0lQRTZaQ25HcGc?oc=5
+
+### 82. Investing.com South Africa 未公开名称AI产品
+
+- 来源标题：Form 144 GRAYSCALE FILECOIN TRUST (FIL) For: 28 October By Investing.com
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Form+144+GRAYSCALE+FILECOIN+TRUST+%28FIL%29+For%3A+28+October+By+Investing.com)
+- 官方地址：暂未确认
+- 有效时间：2026-10-29（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Investing.com South Africa
+- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据Investing.com South Africa公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxOT2ZGQjlkNWJ5cHRlYUtkV2JjQU9YWmpieDhxNUM2czR5RkJTdU9qX21RVHNPTDREZkota01yLUpSMlpIMllERWlSRFdxZF9VRHM4WUJLMGtUbUlzbF96NG1lOWd6NWt5VzI0YkNQcWZaQXJxeUZEVWZMTXlYN0dNWTE1eVoyV285V19XOEstWEdRbFE5OUU0ckNJeTRNZEVxWHVjdzB1c2VDVTVCTlJhSDdEUQ?oc=5 · https://news.google.com/rss/articles/CBMisgFBVV95cUxNRU12SVo4TnIxZFE2cndHV0N0ekIyd0RMY3hwTWpwLXZkZm1OVDdtR3NBZXZVQV9Oc2lIMjg5R0NFVTlqOWxzREpuRVFpOUZnUUJFdGR4U1FydnpNdEtoX1lNd3FtU2FISlJWanRUSWN1UGJGMC1hQVRGN0k4YTRnaTVfWUJZNC1BcWVweXNfZWlDc1dmaUpjZHFKVlAzLWZGU0lYaDY3bFdXQmoxYkwxSmZn?oc=5
+
+### 83. FintechNewsSG 未公开名称AI产品
+
+- 来源标题：Tencent, Visa Expand Partnership to Explore AI-Powered Payments
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Tencent%2C+Visa+Expand+Partnership+to+Explore+AI-Powered+Payments)
+- 官方地址：[https://www.visa.com/](https://www.visa.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：98/100；审核状态：needs_review
+- 发布者：FintechNewsSG
+- 摘要：该候选涉及金融机构、支付，被识别为商业合作，成熟度暂定M2。当前判断依据FintechNewsSG公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。
+- 预期作用与价值：预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3b98114438ba53eef82fe2ad43&url=https%3a%2f%2ffintechnews.sg%2f139934%2fpayments%2ftencent-visa-ai-payments%2f&c=1642908791494432117&mkt=en-us · https://news.google.com/rss/articles/CBMickFVX3lxTE5zN2NxUjBTMjdBbUNOZlFmV0k2VWtDNUhlYk93STY5aE5BdDlFd0lYWkU1NHlJaXZibFE0OUN1UUFzaThta3NId0FDNUNMdzdfeERWZnF4RndXUWVQbjVYbVVsV1VUTHNmRWkwRmpEQ2hkQQ?oc=5 · https://news.google.com/rss/articles/CBMihAFBVV95cUxOWkx1NjcxeWUwZUZXODVrNG80ZnNkbWMwYTd5cXNYQk5lYWR4cUFLTlNfLXlmU0xGY2JycEVfdjM4WDQ5QVNnNjNHSU9TNXBHSEQydkprT1F0TExmSG91VTR1RFJzN1ZWb2NqSnZNVGpFamgxNk1nS0s0ZUMyU0x6aTR4WE0?oc=5 · https://news.google.com/rss/articles/CBMimAFBVV95cUxPc29nTDR2dGh4SU5JZXJDRFN5ZnM2VVpWb1RXejM4QU1nWUlMVG52Xy1QQnRISnVYa0VuaWhRMTJ0b2pHR3hhWEt3Sng2LXJTTXp5djZlbnotLVlXbWJPNFlvSDY0NHo1b1JsR0JvTEZza2tTR2RLcURFQVdra2l4dUlTVXh1YnBOaGwxcVZTM2xIaGg4eS1NaQ?oc=5
+
+### 84. Don't Hand Your Account Password to an AI Assistant
+
+- 来源标题：Bank of America Warns Customers Not to Give Passwords to AI Agents, Citing Responsibility for Account Activity
+- 产品名称状态：明确产品名
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Don%27t+Hand+Your+Account+Password+to+an+AI+Assistant%22+BigGo+Finance)
+- 官方地址：[https://www.citi.com/](https://www.citi.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：98/100；审核状态：needs_review
+- 发布者：www.techtimes.co.uk
+- 摘要：该候选涉及银行业务、金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据www.techtimes.co.uk公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
+- 证据：https://news.google.com/rss/articles/CBMiigFBVV95cUxOc0hXLThxSnVOaWFDTkEzd2U1QTFGTXdwU1p3YjVkZjRVam80d2RkcGVySGplZUpfMTMtdkc0WkcxUzBzU1AxaHFOMXRFWUNkS3o4T2YzLWpxYTRLRTJEWHhyTkRZOEFoc1UxY1lyTHdQb0RJTUxrN2hLSExBcG9oVHNOaHl4V2V5ckE?oc=5 · https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc09NMzA4TW5aMVU0eXQyem56ZkstUG5uWEh3TGJUX3NoRUg3cHNBZkpaRXhyVGphVWFMRUFPdzBpcHVzd1M5RVJCakpGSWdzcWY0ZTJOUTUtZjZfa1pvRUh5OHVQQS1YUWxhaXVtR0JtalN4dlpEUndKemZ6M0FWazNOSno5QmlEcFdN?oc=5 · https://news.google.com/rss/articles/CBMidkFVX3lxTE9NT1E0UFZHcEtwZ2V4c3J1REV6SENjMWtiNXkweHZycExiOTV0WmhDN284UWxpZDR6dHRWTTRGQVlGTWJ0SzAwVmZnMUV2Y2NmWjVYbFdHTmFNbEFJTzVqNDFlUjRPaGsycnp4YWhoV3YyNFZLalE?oc=5
+
+### 85. TechRadar 未公开名称Agentic AI系统
+
+- 来源标题：Bank of America tells customers to stop sharing banking passwords with AI agents — agentic payments are becoming a major thorn in the side of banking
+- 产品名称状态：名称未公开
+- 产品分类：银行运营与客户服务、支付与钱包
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Bank+of+America+tells+customers+to+stop+sharing+banking+passwords+with+AI+agents+%E2%80%94+agentic+payments+are+becoming+a+major+thorn+in+the+side+of+banking)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
 - 相关度：98/100；审核状态：needs_review
-- 发布者：chetanrajun-commits
-- 摘要：该候选涉及金融科技、风险与合规，被识别为商业合作，成熟度暂定M2。当前判断依据chetanrajun-commits公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
-- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
-- 证据：https://github.com/chetanrajun-commits/agentic-bfsi-fraud-engine
+- 发布者：TechRadar
+- 摘要：该候选涉及银行业务、支付，被识别为商业合作，成熟度暂定M2。当前判断依据TechRadar公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。
+- 预期作用与价值：预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。
+- 创新判断：应用设计创新。创新点主要在应用设计：让AI从给出建议进一步连接受控的交易或执行流程；自主程度和安全边界仍需核验。
+- 证据：https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZngxWlU0a3I2amN5LVpTdjFvXzI3bFNlenVldU1BMHE3cVpCSWxuQVJVTHlGWFg5SDRuUWs3dlNBV1lOaVZRcHNFNVVDWlllUWIwVGhMQU1teWZja01oUFIxby1IaWl5UkZEcGJ6Q0I5dHFtbEtTR2NtQ1gyVnRrRjJGLUhtVE4tQmRlLWRzV0RkWXcwQklLQVowU280NVJzNnl6WG0yNnlsY0hMM0hIdFNmR0NmelVhQ0EwWEVBZlZQTkQ1cHRoemU3ZnQ4Q1I1cEN3a2hzVnRzemRzY1ZYbzk1eE9hendjWDN2Nl9LUWVwdS1RcUg3cndNb3dCWFB6STBZbkljbWw?oc=5
 
-### 3. eyuputku57-ops 未公开名称AI产品
+### 86. Klarna : 未公开名称AI产品
 
-- 来源标题：eyuputku57-ops/-CoreGold---Global-Virtual-Card-Platform-for-Media-Buying-AI-SaaS-Cross-Border-Payments
+- 来源标题：Klarna : partners with SQUIRE to bring flexible payments to barbershops nationwide
 - 产品名称状态：名称未公开
-- 产品分类：支付与钱包、风险合规与反欺诈
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（企业、商户），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=eyuputku57-ops%2F-CoreGold---Global-Virtual-Card-Platform-for-Media-Buying-AI-SaaS-Cross-Border-Payments)
-- 官方地址：暂未确认
+- 产品分类：支付与钱包、金融科技基础设施、其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Klarna+%3A+partners+with+SQUIRE+to+bring+flexible+payments+to+barbershops+nationwide)
+- 官方地址：[https://www.klarna.com/](https://www.klarna.com/)（官方机构主页，非产品专页）
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
 - 相关度：96/100；审核状态：needs_review
-- 发布者：eyuputku57-ops
-- 摘要：该候选涉及金融机构、支付、风险与合规，被识别为商业合作，成熟度暂定M2。当前判断依据eyuputku57-ops公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
+- 发布者：MarketScreener
+- 摘要：该候选涉及金融机构、金融科技、支付，被识别为商业合作，成熟度暂定M2。当前判断依据MarketScreener公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构、金融科技、支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://github.com/eyuputku57-ops/-CoreGold---Global-Virtual-Card-Platform-for-Media-Buying-AI-SaaS-Cross-Border-Payments
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3b98114438ba53eef82fe2ad43&url=https%3a%2f%2fwww.marketscreener.com%2fnews%2fklarna-partners-with-squire-to-bring-flexible-payments-to-barbershops-nationwide-ce785cd2dc8ff521&c=2368798515482960815&mkt=en-us · https://news.google.com/rss/articles/CBMitwFBVV95cUxOWk9IYVluSEZ5NFpiM1habFAyTFBpTUxFUkR4MWlEdkxGdFRPUk1KQ0wxNVJpa3ZuWGRkZ1pQWTFrRkpFX2huUUh4bTdTamFSOVZMZlhMS09OVHlad2p4YW51X0ZkOHFxdFhEbE9wRk1NOEZDVTJNcFRmbGhWenVJVTB6dlk4eExUY3B2WTJoRDlSTWh2WXdodTVmZTZjelI5azJjdEE3UEJ3R0JTUDhGcnlwVEdwTE0?oc=5
 
-### 4. HCLTech AI-Powered Nano GCCs on AWS
+### 87. ServiceNow Control Tower Alliance
 
-- 来源标题：HCLTech Launches AI-Powered Nano GCCs on AWS to Help Enterprises Scale AI Beyond Pilots
+- 来源标题：ServiceNow launches Control Tower Alliance to help enterprises adopt AI safely at scale
 - 产品名称状态：明确产品名
 - 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22HCLTech+AI-Powered+Nano+GCCs+on+AWS%22+HCLTech)
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22ServiceNow+Control+Tower+Alliance%22+ServiceNow)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M5 / scale
 - 相关度：86/100；审核状态：needs_review
-- 发布者：PSU Connect
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据PSU Connect公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Yahoo Finance Singapore
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Yahoo Finance Singapore公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMixwFBVV95cUxNSGJ2Nm5PZmxheWR0RVUxS0YzSGwxR2swSlRscDJYRFdPLURPWmhGMThBWk5WaE5OT1dZRUJpdnhTTFlyQkY1YkxOVUNzU1pBaVExWUpvUXU1Z1FTdk9JaVR6RHdBanpydDk4Z3JoWUxTNG5fZWt5SXNlMmRlcHN4TjZfY0VlMEo3YVp0bGlSdTFKQ0JLRFU1R0M1bS1kbU1pRFFtZkpoRGFMNjViX1BVWjU4VE84OTd3WXJDUjF2WldHZVlZRkFR?oc=5 · https://news.google.com/rss/articles/CBMifkFVX3lxTE5VSi1HMW5SaTNmS01INjVVRGVSdHBISGVLcUZHd0N0MXV2eHMydXVlblcxdURWTjhWMDlTSGJFTGplNWFjNm9DQVBPOFA2VVJ2b044U2h6V0NOUERzMV9mZGIzdjkzbEFiNGQ0Y29nY05nNUd6TVZybEx2RFZsdw?oc=5
+- 证据：https://news.google.com/rss/articles/CBMilgFBVV95cUxPX2o3U1Y4NENXd1Y3UXhRRVB1bFVPXzJqMTFjU2llUFBmVVhrOG9fMVEydGhQZy1aQW54S2V4c1lIVWRzVzJERTNEUHZja0J1TjF3a1pJMHJyRzhGWFlZaDVHdDJiMHF2OGxCejgxeV92blNTOGg4a1BnS1BvdUJuTXNxU0pCaFh0b1ZkLTB6NWNLRFJLX2c?oc=5 · https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ2MtMXB6M29SblJXSEYtWmZCeXZXS1o2WU5qSjVtbG5XQ0k4WjZOVU5KQWZBaTVlYlBpOG56NjZCZ2ZpR1BKMGl4QTBYZW02S1llTGdjMDVuYmxJNmJxZUZiRVE5MzdyemQwOGNaTy04VmFpWnlCbGNuSGlSRWVMNE1tLUJqTUhGOHNVSEUzOUYyX2UxZmt4T1drY1luZk5udEZMX3luMkNjRVcxVGljMjNtbGVuMjNicS1WcHBRRU8xdHlPWjFPWF8yc3l6bmlZbXlELUMtYU4wT19X?oc=5 · https://news.google.com/rss/articles/CBMi3gFBVV95cUxQOFQ3LVIxeGhMYWdURS0xb2lhdmJELXNUSHlvMDFMN3hOXy1iWG9Gc052TmhNZkpFNFc0bXd1NzhPdnFYcHBrLWtKeUhvdjc5TVBDa1JkWnpGMDhyRHk2cUhFOGNKQzNoWGVNUnJHMDk5U0o0cjJHa3NmQ0NUQjREVi1weHNwOFh6ZzFscWtNdE9JU1R6ZWdHNFd5SmlYM2Z2dXNLd1R4SHNNdjZNaW0xRFhQQXJIY0FJbDRRQjNQU1pnX19hdDNCQy03TVVPWUs5T0lLaURZWURKVEN6RFE?oc=5
 
-### 5. Jacobi Investment Management Harness
+### 88. Lifestyle & Tech 未公开名称AI产品
+
+- 来源标题：NTT DATA Expands AI Factory Footprint Globally to Help Clients Scale AI from Pilots to Production
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=NTT+DATA+Expands+AI+Factory+Footprint+Globally+to+Help+Clients+Scale+AI+from+Pilots+to+Production)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：86/100；审核状态：needs_review
+- 发布者：Lifestyle & Tech
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Lifestyle & Tech公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi7AFBVV95cUxQWXpfczBNTEVxRl9KSUtfdTFTSDYxanpWeEplMHpXMVNtNVlpUmFqTXpmTXQwUHNoeDNSeG1wdy1oakNvMW91WENjMm1aS2xIekRyazFLczM2YUVRcVA3N2t0ZWRsUF9uc1BfN0prY0NSRk16WkFOc0RvLUpkb1Bjbkt6c1BBUXVvVy1rek9pUmpmWlVzRmhUQXMwMV9wUlBOLVE2d2xpYnF3XzRCQXdWWk5pZ3ZmVXNuWld3ZjMtMElMUDk5bEp0dU1QM0xhR0ZJNXlHbFlhNEtNQ1pEVVZpZVA3QWIyNFkyb0VKaQ?oc=5
+
+### 89. HCLTech AI-Powered Nano Global Capability Centers on AWS
+
+- 来源标题：HCLTech Launches AI-Powered Nano Global Capability Centers on AWS to Help Enterprises Scale AI Beyond the Pilot
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22HCLTech+AI-Powered+Nano+Global+Capability+Centers+on+AWS%22+HCLTech)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：86/100；审核状态：needs_review
+- 发布者：CXOToday.com
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据CXOToday.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi5AFBVV95cUxNR3VzUmtHd0hMclRTM1ZhcW5uVFhYMjlaTk9oMm02M1RPLVEtSzhJUC1hTmI2d0Y4bWdvRnZVMU12M0kxTFZ1amQ4Z3ZRR1J6WFN4ZXJ3NDI2clJ3aDhGLV9FNDVjRVRudjNtMW9jdzNBS2FsaGhwaG9EY2tVN3g2SEg2QUpwQ2t4WG1Ga1Z5TDgzS0VDdDhIblhBV29jeTlZbDBEV2pQREE1ZUNUM0RJUjUybHBuZGdMZnA0T2lNVmhic1Y3N1hyX2lLcEpNVHRjWTdYS191d3NXOF9UUTVxVVRxeEs?oc=5 · https://news.google.com/rss/articles/CBMijwFBVV95cUxObTdYNFRvYzNIdWdPMm1hbnNQV013OElKM1VyZHNQVWVmSHF6SDZlWFMzUjhIalZkNVdqOUd4c0VuV2hIcFlaV0VoaG1uWVdSbHN3Z2pCZ1Q4bnJFcmVGV0FRS2xkVEIxcXFGZG82LWdGdGdwalBNS05heDBwN1pOLTVkelJNV2RLN0FWM29Gbw?oc=5 · https://news.google.com/rss/articles/CBMiugFBVV95cUxQTzZ0dmZyQjhFWmRhbEZBMW9jbTM5eTFBU1RYb0FLSEVMY0tyRThFTmlkbWlQYkJMRHF4Z0F1RXZTNGE2R05NOW1CcnlCYVhpb3I4bWtGcUlUaFZWTXFYTlBrMG1BTFFGVDZjYzBjaTcyS3lJWUhZZWNZVzVhQWhEejFBX0xKemo4a3FibGFnWWxuOUR3SU05QThyMDladi10M0ZuRVJVeHpHVTFTcXdzcnVDX0g4UUhSSGc?oc=5 · https://news.google.com/rss/articles/CBMiowFBVV95cUxNQkpCX1ZuRjhsTzlGaDEwWFA3eFpFX3d0cnJFMFFEZjNiNkt1MFVPUGZrUDJHYlk5M202aVFGa01kRmV4bnBDaV9Wd2cwUWR0ZGxyazNxdlpiVkZTZzRQN2QwYWpzdkhMNV9QV1BqeDNRdVRrQjd0VDFhZGh0RHRTOXVpbEFzNlprY0dQOHp6LWFHbE5mUXRScGItRFg3WWhLYVhZ?oc=5
+
+### 90. TechBullion 未公开名称AI产品
+
+- 来源标题：MEXC and Hacken Launch AI Trading Safety Handbook to Promote Safer AI Adoption
+- 产品名称状态：名称未公开
+- 产品分类：投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=MEXC+and+Hacken+Launch+AI+Trading+Safety+Handbook+to+Promote+Safer+AI+Adoption)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：82/100；审核状态：needs_review
+- 发布者：TechBullion
+- 摘要：该候选涉及财富管理与资本市场，被识别为客户部署，成熟度暂定M3。当前判断依据TechBullion公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
+- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMipgFBVV95cUxOQUxlVHY4aGFBYkU4amEydmdJSDljUzYxbkh2eDBldGowQWd0UTdodXNRNmRLMVpwazJYVXdpLW5xdUdMZk1yTGJSRE9rUlhoV0YtVzBRQTR4czk0LTc3cWxJWkE3eS1WUThtX3M3RVptWTBjM2w5SDdPS1FjZHdWVmZLNmV3NVRxUDZSUHhNY0RCdHdrSDIyUE1YOHdCb2N0ZHVIMXFR?oc=5
+
+### 91. Jacobi Investment Management Harness
 
 - 来源标题：Jacobi launches the Investment Management Harness, a governed path from AI prototype to production
 - 产品名称状态：明确产品名
@@ -143,225 +1691,567 @@
 - 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSEFRSE1TZjNUUTVwb202bUxqdDlQUGx0enBEUmVjSEhSb01pTzhkLS1zUTl4Y0FLdHRVTkwyNzFDZzNuUXdNOVNOZEc3Sy1RUnlNU0xLNFVHRnlGNkRsbG0xUGJQTFFRTk1JU2E2Z1Y2M2k0VUNSdG4xZ09Wc3o2eXlvNDB4NmVublZLM1l1aXJoeDVyblp0bDBVd21oXzlkNVR3c1NJVk9MNGFEaFlYSjBfZVFJX19QOThETVh1Z1Jfa0d5a004MEtiQ3YwNUhfZWUydy1UdzBYSXQxZWR6NEpHZklrWFg0?oc=5 · https://news.google.com/rss/articles/CBMi8gFBVV95cUxORDRZaUF3QUtDZEZYd2NCbzNqWWJGQUFKNzlmakdjX3RKM0tKNV9JakQ5amVPMTkwNzdBZy1jcklEcDZJN0c1cHRYdWpHOHdiRUctSGVjWkR5d1dQV3RLTnhhU0F3TFd6QWV3WTI2TzFnWFVNdFVLTmg5VWx1MXZxLUtzMUc1VTlzU0N2dXVMdGJIYzB5ckZ1cHh1eF9qTnBEakxyeXp1TXFSaWRBRG9UQnhLTXNuZWxTUV9ZTDNpLTlyYzRrLVNaa3VsbTZqUC1SeU9Oc2U4Yk5xVXRTMWdjaXVWWDNzM2ppRzBScXZvN1IwUQ?oc=5
+- 证据：https://news.google.com/rss/articles/CBMi7wFBVV95cUxPSFotZzRsY29La0EzMGswNW03SEp5dDBhd0V2a0lzVGltSHBnWTV5V080eTVTLU5fSEg4ZHJKVDlnRktsTG81VEYtamhNTzQzMzVUR294a3BtMUNuMTRrRWcxc0NYWFhBRXZmand1OEI4Z2xMYWFBN2FVYnFKN1VWNzA5WEEyb2RJM0MtY1BNNUttN1ZjMlJOQi1KOS0wT2dwU3pDN0hNVGhTbzFxaWVlMjJJZWItMWVPR2szUklmb09STnhBNWJweFZBaDBhOHVqWngySjdmcWtDNnhDTXkzbFB5RFBzbU9paW81XzZQWQ?oc=5 · https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUzh4UjZ4SXd0OUZkMC0ydC01MHFJd0RGenU1MWU0WW5YSm45eWloU3MzRDhYVDNDSnpsdXlPaFNlV1drZHg0YVlnN0xDOXFnclBNMjFrOEZIaUxyTFZLUV9kVnNZZTFPaVJSZ3diTUxMc3dUZmZ2SkFqcnAwSlROX3RSY19BUXVqS21kWDc2T2ZtZkpESDlRWVc0Rlp6QXVjdHNSR0NHcm0tRWNhdlFQWkMxeXA0YURDLWt1aDNOVU1kbTVYYUpHRkNZWG54ZHp2Zi1FUG1FUWREYlpO?oc=5 · https://news.google.com/rss/articles/CBMi8gFBVV95cUxORDRZaUF3QUtDZEZYd2NCbzNqWWJGQUFKNzlmakdjX3RKM0tKNV9JakQ5amVPMTkwNzdBZy1jcklEcDZJN0c1cHRYdWpHOHdiRUctSGVjWkR5d1dQV3RLTnhhU0F3TFd6QWV3WTI2TzFnWFVNdFVLTmg5VWx1MXZxLUtzMUc1VTlzU0N2dXVMdGJIYzB5ckZ1cHh1eF9qTnBEakxyeXp1TXFSaWRBRG9UQnhLTXNuZWxTUV9ZTDNpLTlyYzRrLVNaa3VsbTZqUC1SeU9Oc2U4Yk5xVXRTMWdjaXVWWDNzM2ppRzBScXZvN1IwUQ?oc=5
 
-### 6. rezearcher 未公开名称AI产品
+### 92. Money Today 未公开名称AI产品
 
-- 来源标题：rezearcher/vercel-ai-defi-data
-- 产品名称状态：名称未公开
-- 产品分类：投资理财与资本市场
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（api），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=rezearcher%2Fvercel-ai-defi-data)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：82/100；审核状态：needs_review
-- 发布者：rezearcher
-- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据rezearcher公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
-- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://github.com/rezearcher/vercel-ai-defi-data
-
-### 7. 住信SBIネット銀行 未公开名称Agentic AI系统
-
-- 来源标题：ドコモSMTBネット銀行、AIを活用した顧客接点の進化を加速～Amazon Connect Customer AI agentsで電話・チャットを横断する顧客応対AI基盤を高度化～ | プレスリリース
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（銀行），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%E3%83%89%E3%82%B3%E3%83%A2SMTB%E3%83%8D%E3%83%83%E3%83%88%E9%8A%80%E8%A1%8C%E3%80%81AI%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%9F%E9%A1%A7%E5%AE%A2%E6%8E%A5%E7%82%B9%E3%81%AE%E9%80%B2%E5%8C%96%E3%82%92%E5%8A%A0%E9%80%9F%EF%BD%9EAmazon+Connect+Customer+AI+agents%E3%81%A7%E9%9B%BB%E8%A9%B1%E3%83%BB%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%82%92%E6%A8%AA%E6%96%AD%E3%81%99%E3%82%8B%E9%A1%A7%E5%AE%A2%E5%BF%9C%E5%AF%BEAI%E5%9F%BA%E7%9B%A4%E3%82%92%E9%AB%98%E5%BA%A6%E5%8C%96%EF%BD%9E+%7C+%E3%83%97%E3%83%AC%E3%82%B9%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：80/100；审核状态：needs_review
-- 发布者：住信SBIネット銀行
-- 摘要：该候选涉及银行业务，被识别为商业合作，成熟度暂定M2。当前判断依据住信SBIネット銀行公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMid0FVX3lxTFBMb056MEdpWEJ5SEZxVW1OX214VkpLWFJOLVMtblBkZEZ0dXZIem5fQWZRTURnc1JmZmhfb21DcjB5QjRNSHZUMnlEeENwWmQ0SkNkREF6bHVkU0dwVG5NTlRUcU43blNSaE5VUmd3YV9aZlBkdDFn?oc=5
-
-### 8. Guidewire agentic AI platform for insurers
-
-- 来源标题：Guidewire launches agentic AI platform for insurers
-- 产品名称状态：描述性名称
-- 产品分类：保险
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Guidewire+agentic+AI+platform+for+insurers%22+Guidewire)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：80/100；审核状态：needs_review
-- 发布者：CFOtech Australia
-- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据CFOtech Australia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
-- 证据：https://news.google.com/rss/articles/CBMihwFBVV95cUxOcDB0bzdocDhKaFZjN3RudkZHRF9FbF9xeU03c3ROdmppVU9aeVRuYWNPMmJmR1I2RzhwSmd1X3dFb3JDSkFKaWthamltQXNXVUF0c2lRcTdJRk9sc200bEJUb1lsU0lvWGNGbW1ENElhWXh4bWlHMXFKb2loRDZWaXpMRXV3OTA?oc=5
-
-### 9. 9xj89gzrtw-hue 未公开名称Agentic AI系统
-
-- 来源标题：9xj89gzrtw-hue/hsk-perps-trading-agent
+- 来源标题：As the financial investment industry braces for hacking emergencies, securities firms expand AI integrations…security challenges grow
 - 产品名称状态：名称未公开
 - 产品分类：投资理财与资本市场
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=9xj89gzrtw-hue%2Fhsk-perps-trading-agent)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=As+the+financial+investment+industry+braces+for+hacking+emergencies%2C+securities+firms+expand+AI+integrations%E2%80%A6security+challenges+grow)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / customer_deployment
 - 相关度：80/100；审核状态：needs_review
-- 发布者：9xj89gzrtw-hue
-- 摘要：该候选涉及财富管理与资本市场，被识别为客户部署，成熟度暂定M3。当前判断依据9xj89gzrtw-hue公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
-- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://github.com/9xj89gzrtw-hue/hsk-perps-trading-agent
+- 发布者：Money Today
+- 摘要：该候选涉及财富管理与资本市场，被识别为客户部署，成熟度暂定M3。当前判断依据Money Today公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3ab2ed4d0096b4f2b1ef0031b9&url=https%3a%2f%2fwww.mt.co.kr%2findex.php%2fen%2fstock%2f2026%2f10%2f29%2f2026102913562542874&c=10982045069579721886&mkt=en-us
 
-### 10. imranbru99 未公开名称AI产品
+### 93. Mint on MSN 未公开名称Agentic AI系统
 
-- 来源标题：imranbru99/import-export-compliance-manager-global-customs-compliance-saas
+- 来源标题：How Agentic AI could help insurers reach more Indians by 2047
 - 产品名称状态：名称未公开
-- 产品分类：风险合规与反欺诈
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（broker、compliance、enterprise），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=imranbru99%2Fimport-export-compliance-manager-global-customs-compliance-saas)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
-- 相关度：80/100；审核状态：needs_review
-- 发布者：imranbru99
-- 摘要：该候选涉及风险与合规，被识别为试点，成熟度暂定M2。当前判断依据imranbru99公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://github.com/imranbru99/import-export-compliance-manager-global-customs-compliance-saas
-
-### 11. oll4com 未公开名称Agentic AI系统
-
-- 来源标题：oll4com/payagent
-- 产品名称状态：名称未公开
-- 产品分类：支付与钱包
+- 产品分类：保险
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=oll4com%2Fpayagent)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=How+Agentic+AI+could+help+insurers+reach+more+Indians+by+2047)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
 - 相关度：80/100；审核状态：needs_review
-- 发布者：oll4com
-- 摘要：该候选涉及支付，被识别为商业合作，成熟度暂定M2。当前判断依据oll4com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Mint on MSN
+- 摘要：该候选涉及保险，被识别为商业合作，成熟度暂定M2。当前判断依据Mint on MSN公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
+- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
+- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3bb67a480da8cc10cac5b7ba4e&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fhow-agentic-ai-could-help-insurers-reach-more-indians-by-2047%2far-AA2ggvuX&c=10013248008448253199&mkt=en-us
+
+### 94. Insurify AI Agent Gateway
+
+- 来源标题：Insurify Launches AI Agent Gateway to Bring Consumer Choice and Carrier Protections to AI Insurance Shopping
+- 产品名称状态：明确产品名
+- 产品分类：保险
+- 客户类型：TO C。公开标题或摘要出现个人用户信号（consumer），暂判为TO C。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Insurify+AI+Agent+Gateway%22+Insurify)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：80/100；审核状态：needs_review
+- 发布者：PR Newswire
+- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据PR Newswire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
+- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://news.google.com/rss/articles/CBMi9wFBVV95cUxPd21nMXlYRm9zYWVjTEF0UkFpVU1mSnQ3UncteGlucmxMdlAteXpQVXhyemZuZXpBUFJjRUVOMy1ZWk1HcTlmUkFCb2Rua2wwWW1TNjJrZzEyeVFLVkYtNFd3YUFyV0N6N3RUb3R2Y1pOSUNGVDRfVTlmT2MyanZQU0NuY3ZEZXIzdlJXdTdqMy1HbEg5UnJWUFpQdzlnODNKQlNOZlA5bTBfV2Q4TGYzSllFcjdzMHNCVjdJLTdLYmltV01sa1J3Q2Fhd3d0LVVIMENxbTF5WG5kNTZmVkJIdnNZczAycUxiaVlyTUNLMWJYZ3ZtY3Y0?oc=5
+
+### 95. Kinective Cortive AI Platform and New Agentic Banking Solutions for Financial Institutions
+
+- 来源标题：Kinective Launches Cortive AI Platform and New Agentic Banking Solutions for Financial Institutions
+- 产品名称状态：明确产品名
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（financial institutions），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Kinective+Cortive+AI+Platform+and+New+Agentic+Banking+Solutions+for+Financial+Institutions%22+Kinective)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：80/100；审核状态：needs_review
+- 发布者：FF News
+- 摘要：该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxObDh0ZDBkNzNQdm9TRW9qQ2hlRHZmbDdSQkg4R3BBdWFaRjRVS253UElGX2lFOUxXN3RyOWhGaWJqZGdfYTFiTTBPRWNuWDl2T285QzdtWGVaQnhiMTB2QXV6cDduay1LRDhfUlpJRWVfMnpTUl8wUGFnX09Wd2ttMzh5QlpuRmZrY3NLMm55SnlvRGpHWXpMWl9icWpWWUdoN2h5MlE1VEdLUkFkV2tmNDFvNA?oc=5
+
+### 96. FF News 未公开名称Agentic AI系统
+
+- 来源标题：Casap Secures $56M Series B to Scale Agentic AI Across Financial Services
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Casap+Secures+%2456M+Series+B+to+Scale+Agentic+AI+Across+Financial+Services)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：80/100；审核状态：needs_review
+- 发布者：FF News
+- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
+- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxPbnVmTXNTWnBMRHlZbklEMkNYRGNndE9zZk9ZTnFzNlMyMDV2bTNKRy1RMDloZ0JnMlFjcG5hYTdOWG1nby1fZEZvbkVTN0FkUzFyZFYwRjlTdG1sSUlHRE5mdm45MUdkZ2JUMkhzenRQaERhSlNIcjlnX2wteDk0V1pKcW05UVB0V0hoTlVRZXBiRVV3Y2pMQXJ6c2g1S2htRVFfNFNrTFludGhKNlE?oc=5
+
+### 97. Ledger AI agent
+
+- 来源标题：Ledger introduces AI agent to assist with shopping and USDC payments
+- 产品名称状态：描述性名称
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Ledger+AI+agent%22+Ledger)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：80/100；审核状态：needs_review
+- 发布者：Traders Union
+- 摘要：该候选涉及支付，被识别为产品发布，成熟度暂定M3。当前判断依据Traders Union公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。
 - 预期作用与价值：预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。
 - 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://github.com/oll4com/payagent
+- 证据：https://news.google.com/rss/articles/CBMigwFBVV95cUxPVElWUTNWazhRa2ZUNXVxQ01DMU9KNmIza2xWejVxaFE3RmtsaXVwZmF3bXZFbF9kY2pvZUw4WWYxa21VUzFYSlk2R3dWN044TzJEdm10MDJ6SFFLanNkQlF5Q2RDRGowQ0FoWEhhVTl5a1VUd25tQ2dTaEF1a0oxMDBlQQ?oc=5
 
-### 12. hassaanraja282-lgtm 未公开名称AI产品
+### 98. Tencent 未公开名称AI产品
 
-- 来源标题：hassaanraja282-lgtm/invoicepilot
+- 来源标题：Tencent and Visa Announce Strategic Partnership to Enhance Global Payment and Commerce Experiences Across Tencent’s Ecosystem
 - 产品名称状态：名称未公开
 - 产品分类：支付与钱包
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（business），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Tencent+and+Visa+Announce+Strategic+Partnership+to+Enhance+Global+Payment+and+Commerce+Experiences+Across+Tencent%E2%80%99s+Ecosystem)
+- 官方地址：[https://www.visa.com/](https://www.visa.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：78/100；审核状态：needs_review
+- 发布者：Tencent
+- 摘要：该候选涉及金融机构、支付，被识别为商业合作，成熟度暂定M2。当前判断依据Tencent公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：面向商户或零售经营场景，为商品、营销、客户交互或交易流程提供AI工具；具体开放能力需查看产品原文。
+- 预期作用与价值：预期降低商户使用AI和连接经营系统的门槛；现有证据不足以证明销售转化或运营效率提升。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3b98114438ba53eef82fe2ad43&url=https%3a%2f%2fwww.tencent.com%2ftencent-and-visa-announce-strategic-partnership-to-enhance-global-payment-and-commerce-experiences%2f&c=11225380611865098270&mkt=en-us · https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOFNIX0dmSzJ5Ym9DbkxvbXNZZU9DS2xLNGVrSTN5N3ZLZWVLZWRnNjlSZUQ2eUUtYmxkenF0a0ZEcXVpbXhfbU0xSTBvUlAyOEhhejVjQWZ5dWo2ei1OeExlTGtFMTVFWmxBelRvMmNaTTJ3M0NTR1ppalJHVzd2Y3ZEUjJGZ3Z6SVN6aFRzSUo1WE0yTV9IcGh5M0dkYnZuVkRDbl9tZ284QjduMm5aVGxreE01cE1RS1lPd1BrRFk?oc=5
+
+### 99. Robinhood AI trading accounts
+
+- 来源标题：Robinhood launches AI trading accounts with 200...
+- 产品名称状态：描述性名称
+- 产品分类：投资理财与资本市场
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=hassaanraja282-lgtm%2Finvoicepilot)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Robinhood+AI+trading+accounts%22+Robinhood)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
+- 阶段/事件：M3 / product_launch
 - 相关度：78/100；审核状态：needs_review
-- 发布者：hassaanraja282-lgtm
-- 摘要：该候选涉及金融机构、支付，被识别为试点，成熟度暂定M2。当前判断依据hassaanraja282-lgtm公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构、支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://github.com/hassaanraja282-lgtm/invoicepilot
+- 发布者：Pluang
+- 摘要：该候选涉及金融机构、财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据Pluang公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
+- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMikAFBVV95cUxNWUtEX1lNNlVObDgxTjUtWlp0RW5vT2xEZVhETUFRemZ6RlJ2YjdNTGJzVjdGcHhtaTJRWnNTZnNLakFSZW9Ba193bnJtVWU4STdOREVqdF90WnZMR1ZVakhjMTVpLWtROGlZU2o2dUNHTHVHdUF6ZHpEQ3pvdXVPVVEtbVptaUR0M1JCQ0p2dXE?oc=5
 
-### 13. jimmyLC 未公开名称AI产品
+### 100. Fortune 未公开名称AI产品
 
-- 来源标题：jimmyLC/Skill-first-payment-fireworks
+- 来源标题：Financial AI startup Casap raises $56 million to help banks stop an explosion of customer fraud
 - 产品名称状态：名称未公开
-- 产品分类：支付与钱包
+- 产品分类：银行运营与客户服务、风险合规与反欺诈
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=jimmyLC%2FSkill-first-payment-fireworks)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Financial+AI+startup+Casap+raises+%2456+million+to+help+banks+stop+an+explosion+of+customer+fraud)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
 - 相关度：78/100；审核状态：needs_review
-- 发布者：jimmyLC
-- 摘要：该候选涉及金融机构、支付，被识别为商业合作，成熟度暂定M2。当前判断依据jimmyLC公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构、支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 发布者：Fortune
+- 摘要：该候选涉及银行业务、风险与合规，被识别为商业合作，成熟度暂定M2。当前判断依据Fortune公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
+- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiSkFVX3lxTE8zVW5LU0VuODhsUllnUkN4V2pBQmN4bGhXVVBLLWJpQjJJMDNyRHJzYXFrSHhncHFQdHBuTTd0cVVfdFVvaWJPelVB?oc=5
+
+### 101. Financial IT 未公开名称AI产品
+
+- 来源标题：Bank of America, Blackstone, Citi and Morgan Stanley Announce Landmark $63 Billion Financing Structure to Enable AI Compute Capacity in Partnership With Broadcom
+- 产品名称状态：名称未公开
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Bank+of+America%2C+Blackstone%2C+Citi+and+Morgan+Stanley+Announce+Landmark+%2463+Billion+Financing+Structure+to+Enable+AI+Compute+Capacity+in+Partnership+With+Broadcom)
+- 官方地址：[https://www.morganstanley.com/](https://www.morganstanley.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：78/100；审核状态：needs_review
+- 发布者：Financial IT
+- 摘要：该候选涉及银行业务、金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据Financial IT公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMivgFBVV95cUxQV3dsX2x0Vnk3LVM4SnJPNHpqdjFFbVhhLWZSb0dPMXRTMmpCbFFoQ2dDMjhVSWkta1hIUEdBTG80b2dvNzFMaTNGS2ZpQ2s2QnhBSG52eEtsc0tTemhZMkNTU044X2FPVV80QkRFMThaUUFFOFVYMEhZUG96R3VBR2syQVdxak5pdWg3QkJyWXNRLXE2cEFzQ1JYTHM2eDc1dWlGdGN4MVFrOElMU1BfZTFBMVR4cTlQOWxlZE5R?oc=5
+
+### 102. Shopify 未公开名称Agentic AI系统
+
+- 来源标题：Shopify Adopts Agentic Payment Tech from Visa, Mastercard
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Shopify+Adopts+Agentic+Payment+Tech+from+Visa%2C+Mastercard)
+- 官方地址：[https://www.mastercard.com/](https://www.mastercard.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：78/100；审核状态：needs_review
+- 发布者：The Information
+- 摘要：该候选涉及金融机构、支付，被识别为客户部署，成熟度暂定M3。当前判断依据The Information公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。
+- 预期作用与价值：预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。
+- 创新判断：应用设计创新。创新点主要在应用设计：让AI从给出建议进一步连接受控的交易或执行流程；自主程度和安全边界仍需核验。
+- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxNYm4yOUlQQjl6SzkyTjNjaDR2TE9KenFub0JHXzZOYnQwanJrSUcwdlVzWTBnZ1h5ZE9zT3Q4M3pEVERWTzg0elhJMWtMTDJLZk9EUTJVQmdnQzBBYlg4Rmp5RzRNeHc4VEVYdlo2N09pRnNyczh3T1F6ZlBuSmJmMEI0Mm5YLWZlckJvYTE2UndXLUstQlpB?oc=5
+
+### 103. FinanceFeeds 未公开名称Agentic AI系统
+
+- 来源标题：Agentic Payments: Visa Pilot Still Needs Human Sign-Off
+- 产品名称状态：名称未公开
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Agentic+Payments%3A+Visa+Pilot+Still+Needs+Human+Sign-Off)
+- 官方地址：[https://www.visa.com/](https://www.visa.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：78/100；审核状态：needs_review
+- 发布者：FinanceFeeds
+- 摘要：该候选涉及金融机构、支付，被识别为试点，成熟度暂定M2。当前判断依据FinanceFeeds公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。
+- 预期作用与价值：预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。
+- 创新判断：应用设计创新。创新点主要在应用设计：让AI从给出建议进一步连接受控的交易或执行流程；自主程度和安全边界仍需核验。
+- 证据：https://news.google.com/rss/articles/CBMid0FVX3lxTFBwMFZtd1E2NTFBbGIwV0YyNUt5QXl6aDNGa05kWkV4SFAzTHdOY1p4cnU0MXNRaHFMVElmSlcyYjNGTFJ6MkU2SERKT2hQdFhZVXZubUJwSXhkWDlVLW4zOE5JdjUxWVBXbG96OUZCazRMU0dLbnU0?oc=5
+
+### 104. ZEN.COM Pay by Bank
+
+- 来源标题：ZEN.COM introduces Pay by Bank to nine European markets via Mastercard Open Finance
+- 产品名称状态：明确产品名
+- 产品分类：银行运营与客户服务、金融科技基础设施
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22ZEN.COM+Pay+by+Bank%22+ZEN.COM)
+- 官方地址：[https://www.mastercard.com/](https://www.mastercard.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：76/100；审核状态：needs_review
+- 发布者：Open Banking Expo
+- 摘要：该候选涉及银行业务、金融机构、金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Open Banking Expo公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMivgFBVV95cUxPdEJtYjRDNUhRTVNjc3dBUkJpUkNWMG82T0NlRmVfRVdtcm80LV83a3BWczQ5Q2ZicWROWkNQRWY0T0toZTBieDdpT29Vdm1jWVN4U0wyVFgzNnZrTXpiMEFUWklhQjF1QnJ1b05NME5oWk1zcXJBTHZGM1hjd1NJWjlHRXVJVmR2UE9abWdIc2phVklHRHY0OVFDLWZDcVhsS2xhWmQ0WGJmdXZ2R0RNeUM4RmFwUE84OVpndGRn?oc=5
+
+### 105. Zocks AI-Powered Account Opening
+
+- 来源标题：Zocks Launches AI-Powered Account Opening with Direct Schwab Integration
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（integration），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Zocks+AI-Powered+Account+Opening%22+Zocks)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：64/100；审核状态：needs_review
+- 发布者：FF News
+- 摘要：该候选涉及金融科技，被识别为客户部署，成熟度暂定M3。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://github.com/jimmyLC/Skill-first-payment-fireworks
+- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxQYm85S1hzdnlzd0JyR1pCVENTcXZTdERsQ3JBNy0zLXFjaU1FdU1MYXA2WG9JOVh4azNYVUc3UEh4VXZHWVdfTlJ4WVVYbkt3b29zV1dYRC1kNm84VU85MzhGZTN5ejZGOHpIbTVjU0dBLUpxX1FWVWc1clRlZ2xzMUFzeDBYaF9QV3NfTkk4QjFvTlFJclYxenE2UkY5WFhkQmt1bjVqdDNpcC1HTHVGa20yNA?oc=5
 
-### 14. 36Kr 未公开名称AI产品
+### 106. Yahoo Finance 未公开名称AI产品
 
-- 来源标题：Microsoft Plans Major Layoff Cutting Over Half of Meta’s Workforce, Copilot Team Hit Hardest in Large-Scale Job Cuts
+- 来源标题：Webull and Sentinel AI Launch Pilot Program Bringing Public Companies to Retail Investors at the Point of Trade
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Webull+and+Sentinel+AI+Launch+Pilot+Program+Bringing+Public+Companies+to+Retail+Investors+at+the+Point+of+Trade)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：64/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMinAFBVV95cUxOQl9OUUYyNVdfbUlwRU9IMHhFUTFMS2kzck5vZlJ2a1l2VTQ1aXZyT0o2Y3dWUVlKaG50Z0xRVV9KREhmWk5vX1RIcThHZlNJQXh1RWZqSGNhNXM3NFJWd0ZERElackxmdzlISlY3RUJaYXh2R3N3MHJKTTVjZEJSSXlEQVdyZWlYN1cxQVQ3WS00MUs0OVdtRzNmcmo?oc=5 · https://news.google.com/rss/articles/CBMirAFBVV95cUxOeVlWeTFaQVJ4VUt4WlE2UmVfSEZ2akEtMC1fQlcxWGdyVTVfWmZWN3oxVEFYQXpIVXhja0luWjlvRVlRbzZVN3NSUC1MTU14dzNocUJfNWt4ZUN1bk0wZ0FhLTMtQ2NKckNlT0JockkxWURWVTdJcFRtSmRUR3RZdlJqSzF0bjBYSS00Wm40YTcyczU5Snd3RENEY25vcGJVWXdHRnpuS2FmRkVK?oc=5 · https://news.google.com/rss/articles/CBMizgFBVV95cUxPVWRDRkVVX1dLaGx2V3hENDZMS2RlOVRXNWtyS0NNYXowVndsOG1kcEMwTG90a2Z6Mkp5eUdPS05INU1scndmQUlJMGZiMUdxNmNaNGNDZzljd3dNaWF5WHRONzZCZEFaT19YejBsRnhEemdYbE5PUlNLWHBjOEZyaVR0YmhOaFVielV3Z0JMTm0wZ1JJdGFTQ0s5cEZHWWNLdElXV3lSeFhiWEt6cHVpQjNKWWZmUkxfRTVxMnBBVnVfVGZobFBkYWlaWlBwZw?oc=5
+
+### 107. Investing News Network 未公开名称AI产品
+
+- 来源标题：Food & Beverage Manufacturers Race to Scale AI Beyond the Pilot Stage
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Microsoft+Plans+Major+Layoff+Cutting+Over+Half+of+Meta%E2%80%99s+Workforce%2C+Copilot+Team+Hit+Hardest+in+Large-Scale+Job+Cuts)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Food+%26+Beverage+Manufacturers+Race+to+Scale+AI+Beyond+the+Pilot+Stage)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M5 / scale
 - 相关度：64/100；审核状态：needs_review
-- 发布者：36Kr
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据36Kr公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Investing News Network
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Investing News Network公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMimgFBVV95cUxOQ0dFSUp4dnJJMjd3THFfaDVJaXRjSHRhekxZM003dTlRTW5rektNZ0o1RVdDc3RkV3k3T3BFNzlzcV9qYWhmWkdXVVdxNlpEcVN3SEZrMGVvZWw1NzhWNHdldVlMdGFBU2x0akxOdW9Ja3R5dUFLS1JaalR3Z3BvMlhsUGVKWG43ZXdDXzYwRXh2MFNaM3hIZ0dR?oc=5 · https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNjZYQTBSRkxDN1Rva1c3SzliRTVUTXBGcVNFRFFYb09ZeG0zc1hjV2c2ZnZ5b3dIVHJEelpfS0NmUWxNc1lvalllWEtaMXVXd0pnUnUtZkJPN055Qk1yQzdiMFctb01qV2NVRnpSS3pTN29nZVhxQW5hZDZFM3VvNWZDSE5UOEM0Ry1PeWktd1N3anVTOFhBM2VaOXU4NkYtTzhzSHEzUi1hckgzSm5KNEVoOUlfRkNfbVRLTWdqV3U0QQ?oc=5 · https://news.google.com/rss/articles/CBMikAFBVV95cUxPbXJ2NW9PTmotSkxOR2FIaHJIbWZUMGp3VTk5RU9ZMG5iR0hCLWFhZEwzMjBJRm1UamxJcG9ZZmdqby0zQ0ZzSTFTS1hXVlFralh4ZDNVbThmeEpUcEZjV1RhbG9SQ0J4RERWRzhMbldaWDdlWkMtNkFTT3BtVnBHNEtYY0ZRR2paWVYzZVBzUXU?oc=5
+
+### 108. Unite.AI 未公开名称AI产品
+
+- 来源标题：Microsoft Makes Copilot Harness Available Through Foundry
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Microsoft+Makes+Copilot+Harness+Available+Through+Foundry)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：64/100；审核状态：needs_review
+- 发布者：Unite.AI
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Unite.AI公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://news.google.com/rss/articles/CBMiU0FVX3lxTE94c3REY1pIUDRtQTFPRFZ6LWpoT1NNU3BlcXFLRlUwTWN3S1phOTVmdWdyaGJHcV9YSkxjc0EzWVdVUmhpRVB0amkwS2hFWTAwWHpn?oc=5
+- 证据：https://news.google.com/rss/articles/CBMihgFBVV95cUxQVWFLZTJNMzkwLW9ieFk2ajNJaUI3X05PYV9iYWduU2gtWWliQVlUaURBQkgtOTRVRnJrTHA2VDItbnZaQjA0TXlYRlZjVmE5LUVWbVVMRkFzV1RVdzBJY0VzLVVfY1pTVmozUWdxUHBZTGUwVzdobWdmS2JEdDAzMmpuYWhBUQ?oc=5 · https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUnllWG01c2NfbkdMV3c4SHZ0VWlXdm5yTF9nNjhIS0FhY0xkWG5EeUZ0Tlp1RHRXTUlWVHRNdWhKLVNILXpIYlR4aHpWYS1fWTdzVmd1SHA3U0hCQjlaYUxFSDFEZUowV2NpMWxGUjlTOGd1S2M4d0VuLVhXQndpU2pXcERJcXIzckpFV3hsRkJ4eFdqUjRGbW9yWlY0WDBTRkltTTVNS1JHSjE1SzJMVFJZcmFkTkxFandyTmtIOVZXMVRQWS1YUGIxRnItX3FrbzlYWk1jbkt5Zw?oc=5
 
-### 15. KaarTech KEOS
+### 109. The Fast Mode 未公开名称AI产品
 
-- 来源标题：KaarTech Introduces KEOS to Help Enterprises Scale AI Across Business Operations
-- 产品名称状态：明确产品名
+- 来源标题：AMD, Meta Expand Strategic AI Infrastructure Partnership at Gigawatt Scale
+- 产品名称状态：名称未公开
 - 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（business），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22KaarTech+KEOS%22+KaarTech)
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=AMD%2C+Meta+Expand+Strategic+AI+Infrastructure+Partnership+at+Gigawatt+Scale)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M5 / scale
 - 相关度：64/100；审核状态：needs_review
-- 发布者：businessnewsthisweek.com
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据businessnewsthisweek.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：The Fast Mode
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据The Fast Mode公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitAFBVV95cUxNWlNFSThSS1pZSXFLMk45Nlc5ZDVveXE1cVc0OERqOUJ5VFNzMzJkVW9JR3pqUk8tNW42Z1BrTVFNYkJQYUpIc2tTdk5QaHFPWVFQVi1OY1dCQy13M0pMQjFSekM3YkZxM2s3Vm9UNmptWnBhM0VUSVk0WURXQW1Kcmd1ejRfLUxkN3oyR0pLMU9tTFNCMndNU0FJVlhhQnJwc2JkRS1RVV9ORXNtNUdPZVdrZy0?oc=5
+- 证据：https://news.google.com/rss/articles/CBMixwFBVV95cUxPVWtWZ0hDek5tUTFEM0JzbzFxQXhOSVFTUDh4NF9UQnltNnVYZWJzaFAwa3ZKTTVTajUtOWhKR2k1RUR6eVIyc1gxZDhkVGhkcnF4V09ZNURNZ0syQkFaN0pxWTFnSHhWbjRwU204X1VfeWF1akEtRHpnZVdBOEFpcVpqUk93MjdNWlkwU2Q1bXdLNGVOT083WG9xSmVDZ1BhSWRfQTVvX3hmdkZGeW9qOFEtZkI5T0Rsay03ZHp0V3BqRUw0RzFZ?oc=5 · https://news.google.com/rss/articles/CBMingFBVV95cUxQaFE2dXcwRC1OSjA0bW5WYkc3bFVDdFlhQ0U5WmpBRkdVdU5EMXJacjY4aldPUzU2SWozYWg0OG1BM1pISVBHOFAtWFpTTWpEM0pKdm9Xb0RhajRrTGpPa190S1c3ejgzU2JxQk5DNlNfUE1sdXVBd19lNnhpTzdIOVhGNHhqMGVmc2txZWhuS0lJcklpWmx5WmJEWWVRQQ?oc=5 · https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBuS2hqVFN3VGRfTC1QcnVWWTJXS2gzSEhLei03cDZ3UTA4NWt2VmZiSXZhT1h2V2xGSWxSSGdJX191djIxMVJDczdvVEgxeXVLY3J0dll4UHNRTVQzcWZINDk1OFBzbE0?oc=5 · https://news.google.com/rss/articles/CBMihgFBVV95cUxOWXEzZEdrc1M1eVM2SXlsaWVhZC1hVGRpYUUwc1dUbVZ3MzBfRVJnaVI3dS1pcEJ0LV9OYzFMaDNlZ1B4WHdYcmRXU3BKaEdvbVVoSVY2MXN2MWFObUJlX0NlZUJ5WVN3eDF0TmM3UDJOc29RWXFtdHhMckltTnozN2J1VjNTZw?oc=5
 
-### 16. Meta consumer AI agent in Singapore amid global safety
+### 110. Coverager 未公开名称AI产品
 
-- 来源标题：Meta rolls out consumer AI agent in Singapore amid global safety, retail pushback
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：TO C。公开标题或摘要出现个人用户信号（consumer），暂判为TO C。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Meta+consumer+AI+agent+in+Singapore+amid+global+safety%22+Meta)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：62/100；审核状态：needs_review
-- 发布者：The Straits Times
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据The Straits Times公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZGRnWVRlSmdnN0hoMzM3alZkbDFGOE9Dbm42Z0JjT1RxMGNqUzctLWtfOGtKdndWX2ZrcmRiSlpLNTlqa0dySUZJZEdmVkp3TXg4eHVzOHo3SzZZQ25PaVNtcGYtRHp3Y2tmbGdTTGhVVHV6VGREanYyNGpkbjFhZVZBM2Npd2xxdEI4RU1pVWhNNWRGclB6cEVUSEtRTFRBX0NYSkM4T1NXSW5zX1hPZFNBZkNZRU1HRXk2V3JEdW1Ca0cyU1h5ajB5OEUxQTAz?oc=5 · https://news.google.com/rss/articles/CBMitAFBVV95cUxQWTAtUjkwVExfbDFVS2loMUxjVFBoeldoT2MwejFaMHY5MmNvc3dlZlk4cEJXcEx6S2N6TVFJSTlYZnRIeXZKcVY2eDFIOTZ2ZXpWM2NPMFFLZEM1T2d1NS1LdFpFeVdPN1dsX0JuRHBsUUxvOXBYVXRCZ1QtdG9jZUM5bUdDWUhWVzN0ZXNGbmhzaHpMY2N1TW9KRUcyYlVYVkh6ZjF5bllFVnBfbm1iQm9IdGQ?oc=5
-
-### 17. Facebook 未公开名称Agentic AI系统
-
-- 来源标题：Muse Is Now Available in Singapore: The World’s First Personal AI Agent Built for Everyone
+- 来源标题：Verisk adds Amazon Quick and Microsoft Copilot integrations
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Muse+Is+Now+Available+in+Singapore%3A+The+World%E2%80%99s+First+Personal+AI+Agent+Built+for+Everyone)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Verisk+adds+Amazon+Quick+and+Microsoft+Copilot+integrations)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：64/100；审核状态：needs_review
+- 发布者：Coverager
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Coverager公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
+- 证据：https://news.google.com/rss/articles/CBMiigFBVV95cUxNUVB1Skd6Uk9NeVg0NkNOLXI5OWZxT3dJR1cxbzJNc0gxNHdyWGRkT3Y3RHdEYlgzYlFNbFF1dWN4OGdYS0lLRjByejJnUUw2Sk1RYzlsUEtYSmV5ZXlXLXNaUjFnQnhIbkQ1TlNvaG13c28wZ0ZZRHBRWFF6emhYVUFuX0V2WEVfYlE?oc=5 · https://news.google.com/rss/articles/CBMiswFBVV95cUxPT3lrSE9YTnNLVFNZcHJfYXBwTDdjckZKX0JxbnpxSjdzTkIyMlhpOXV5M1JmVWdhY1NfUUxLRXhwTS05Tk8zY1JwcjRCZzJkdnRBbjNpV2NHMmUyQmtGQTVJdERhVEx4X19qaFNiM2dMWWdEV3duTkZTS1dSTWpGWmRPMklfaTRVTXd0ck1lZkFWLU85WlhXSmRmbFIwQlZZSkl4QmFyczFRcUtDRnZEWk41dw?oc=5
+
+### 111. Prophecy DataGPT
+
+- 来源标题：Prophecy Launches DataGPT, Bringing Enterprise Data Workflows to Claude, ChatGPT, and Copilot
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Prophecy+DataGPT%22+Prophecy)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：64/100；审核状态：needs_review
+- 发布者：HPCwire
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据HPCwire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
+- 证据：https://news.google.com/rss/articles/CBMi1wFBVV95cUxQQTlxS1d3b1VFZml3b1o0blRZa1hxc3FpXzRFclZGZGhCWEJqNDJ0b3N3ZktLclM1SE5fTl9RaUNMdWtQaGQ1VDVBRTR5cDZhN0dpRkNSSnBqWUdoNnhDV2d5YmxLMllCbmlQc1ROaDdTTzQxMXRnTWM1N25ZOFlrWDZ2MGdlOFE0ejR5bXRMa1pZUUVjTzQ2SG1sSFU1VlVkU1VwYXc0UXF0RTZweS1WUVBfNlR3TTNaUGhxdXk5NVZfYkh0TTBwZUZoYnB5MzVQMTA2TmFMZw?oc=5 · https://news.google.com/rss/articles/CBMizgFBVV95cUxPVThzTldVUGxNMGNIUkJaSzNMQlFEVUc2VUVYeEJIaWxjWFFDa3Q2eVo1MkxNTUx3bm5rUS1OblRpOEJKckRrcEppMVZWWTQ5VVZ6Tjg2NDVJUWUyRmNoZWJkUUFZeFZHUG9vT0o2aFdzV2hZMnVNY0RSY2R3WXFyZ1NpSENMczh2V1Y3dXhxNW80VFQxLS1pTDhscjlWcERqcDEyT2FHeHZMMEZ4emc5bnBtOHpjTEZ0bDhqT1g1Q1VTbFhERGFiNzgzM2l1QQ?oc=5
+
+### 112. The Record from Recorded Future News 未公开名称AI产品
+
+- 来源标题：European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=European+digital+rights+nonprofit+noyb+sues+Scale+AI+for+%E2%80%98invasive%E2%80%99+worker+surveillance)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：64/100；审核状态：needs_review
+- 发布者：The Record from Recorded Future News
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据The Record from Recorded Future News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMidEFVX3lxTE1zWUN3c0NwTU5sdU5sWjNUeWhmTWVJcUVKRkVjczVRMUVibEM5WEMtSW54WWVjUUlrTGdUSmJBRy03TU5sYkRhNFhVM2pHblFiNmJwdzg0M3RZeWtYdjB0dE16aDJwcXZ4NDRxc041bS1LQjRP?oc=5
+
+### 113. The 420.in 未公开名称AI产品
+
+- 来源标题：Scale AI Accused of Tracking Freelancers’ Keystrokes and Mouse Activity
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Scale+AI+Accused+of+Tracking+Freelancers%E2%80%99+Keystrokes+and+Mouse+Activity)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：64/100；审核状态：needs_review
+- 发布者：The 420.in
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据The 420.in公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMifEFVX3lxTFB2ZWJzSkdTZGRJY1MwbkpIN1pvUHZWdkZ5V1R4c1hsYXVaa0syNHNjYzM5ZnktbXQzS3MxQndadkNvSTlrSmtpM0RYcTRRTkp2RnZCNmlzRkE0UV9NMnNBZjY1c0FqbTkwU0pjYWhPRXg1aTJ3R3VwRERJSXA?oc=5
+
+### 114. Revolut Pay 未公开名称AI产品
+
+- 来源标题：Revolut Pay partners with Just Eat Takeaway.com to launch rewarding checkouts across the UK and Ireland
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Revolut+Pay+partners+with+Just+Eat+Takeaway.com+to+launch+rewarding+checkouts+across+the+UK+and+Ireland)
+- 官方地址：[https://www.revolut.com/](https://www.revolut.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：62/100；审核状态：needs_review
+- 发布者：Open Banking Expo
+- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据Open Banking Expo公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUXlIUE5CdHNrWmtLZFBRQ3QwYndrb0hkTkJlbnVGbTVxbm4xc3dZUTN4S013WklhOTNhRHo2dzJiNnpCdXJ6MkxhWDk5ZWpKdW9fTmd5bEtlbXhyWG03SUNCUDdUVHJLRm9fd0pMMEhQVzZTWmVGX1JwZHFoT1ljMGp5eWJDeTJ1WEpMLTNrc2pObTZsTHY5WkhUZVpqdkpFRlE1cWpvbkRKM1RQcXB2SlpHUGM4c1E1bUlhNGJvZjFYcTVKOXNWUjZlLVpmc2FwZ0FhcXVncmQ?oc=5
+
+### 115. marketscreener.com 未公开名称Agentic AI系统
+
+- 来源标题：ServiceNow, OpenAI Expand Partnership to Bring More AI Agents Into Enterprise Workflows
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=ServiceNow%2C+OpenAI+Expand+Partnership+to+Bring+More+AI+Agents+Into+Enterprise+Workflows)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：62/100；审核状态：needs_review
+- 发布者：marketscreener.com
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据marketscreener.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
+- 证据：https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcTdjYUl4YnNOVkFRdV9VcWhRQ3RIcjFubVFkYy1oSHlFTGVOcjVSeGoxcGdhQmdQc2VIeVNNZVg4UjdwMEtBRmgzYlpvNl8xSEk0dVF0MHFraG5SR0NHMG44NW4xT2E2NmdfaWQ2OW9kRGNUbUZTY3U4Q1VHR0RHaWlHUlE3TUhOTDVDYnJiRTk3R0FoenZQa0E2c0JiaElIZWs4S0hQa2txQlBBX1c5OTRrVTdDV3VjLVVqMmQ2VFVKUWxvQWo4QXlFNGhleTJlWG10M0dn?oc=5 · https://news.google.com/rss/articles/CBMirgFBVV95cUxPWHhwOWZna3pzbDNUTFdiajR5LXJXVTFCZmFMR3JuRlhReUFXaHE0eGVjTkpvYWE5MTZDUWxiTFlZNGJrV2V6dDFNZ29BS1hwU3pEeGlrZHZvWUFab3NONlJ4amxHWS10dHhYek5pVkR0Z3hYNXhDYnBrOGtkbE9wYUt5VzRLbVlteTM0U0VLa2J5WmJVMXJCX0lWaWtlU0FVaC11ZnVpSUVWUE9PZEE?oc=5 · https://news.google.com/rss/articles/CBMi8gFBVV95cUxQVjU1amJOb1BQU09aWVNUWmlBMm1aLTYzM3l5NVM2bGdpZUlqdm5zb2V3X1J1bFRWeTdLZndLZmF5b0N4SmdMSFlUYUdqVTBFMzdYOFVYMGlBcHhEeHRqVW1zQlI2bkl2RUZmTHY0X1FzcVJCa2cxRXpzVDBiWmc2b29fMTBBTWVKazBRbktRM29WRGNYRGoybjE0LWhvM3FBZ2owcVBKTDIxLWdmTFA5SDk2aW92ajl2VDhvazB4UEM4X25Kd3ZHVTBUVzlobXhBQnhWekRaMzVhLUpiZFBhZlFMSThfSHdDQVRHdUxJbXpFZ9IB9wFBVV95cUxPelc0RjIyU0dzR3FoZVJmbmh4UTVxUTJSNng4cnlKZE1iXzJ2eFE3cGhIR0ZRd1R6bXZmNXBoUGk2Ukc1UV85bU9Qc1hpUTdoZ01hcFVNU3kzVk1lV0EwN3J0VC1fOVJCUXI5YWlIeVRQbkRQaDFRaTRXdFBGX25LQWhOaXNqNTJnX1h1ZlRuZFgxZDlwNmhsakNUM2Zhenl4eFlnSjg2Qldqb2FhY3hMY2xBNUtGZFpxaGp3U2txX3NaWkxOVzl2eElxSExJalNtUk1ReHBrMUlmMTlJQ25ZLUgwaklnZUVUUTBfaThBQ2h1MlZ3T01r?oc=5 · https://news.google.com/rss/articles/CBMiugFBVV95cUxNMnZfTG1oODdNQUhpMHVSSFlIVHFOb0p1ZGdVcmoxY0R6dk9wZUd0VGw1VF9qTkU1NGVuRTV0TG80bFVGcWo1TElSLW4zdXlvZHNKMW9KN0FjeDVSRTVEYmdrUmRrSVRMdVB1Rm9VLVBIUVlRem5VM2tqd3FUdFNneG9XM2NHaktNS0tISkxmQXQyXzUzcmtXS0U0VW1wUWpEXzhtbnA2RWI3cDlHS1kyeXY4a3p3a2d2cnc?oc=5 · https://news.google.com/rss/articles/CBMic0FVX3lxTFBXdEZ3OGhkclFyelppYjhRXzd3dW1mY05Va3hJQWZqWDBXeEJlOURCM2llMG5wV240bEo2bzJPdnNKbDh0a2dBQkRsU2ZCdG9MWHF0dC1YblduV0RKN1ZzY2pEQzdZZFhJdU91R0JUUXFKOUE?oc=5 · https://news.google.com/rss/articles/CBMilgFBVV95cUxNUllJSlNRbUNCUHB6MTE3V084MjZrQXVLUTh2elZhbGdRNEZUUmNhU3padWFYS1MzaE90RDBXQ1BHMlZvNk9oNVA1aDBxZnh4ZzBtZDNRa0MzZVpvckdWTXF0cGRyTk03TEI5dGFSZ0JJRkZhQkpXWllEc1hLbnBNaFhkTzB1bzVKVHFQdHNESVN4TVIzVVE?oc=5 · https://news.google.com/rss/articles/CBMiyAFBVV95cUxQUXlPd3p2U19ZOWxTekdUMzVyWmpyWWwzS04zTEVHbExycFo5MllOVFNOb29veS1WNFlmZGpTMlBFWUlrREZNM2pnX2c0VEtCWW1kWjdyX3JwT0lhVi1LeUNMYTRTZjlVWmVOcDVMM0FVUkhGTTR4bnd2SWR3WGdzN0prdkdSbVVBTHpVb0tIS1pLdHpoQWRMUmx1bXlTb21ZcldxbUFhQ2ZmU0pibFJxbHdkYTUtcDF6WkNZOU5hMDZpdjJKelozRA?oc=5 · https://news.google.com/rss/articles/CBMieEFVX3lxTFB2YjBQRUROSVZNWXd3VDRndi03dmZlMm1kaE45aGpxWGVER2RwWng2ZnpwT0tkR0ZEcl9iTUpXMEFRaUM4WGpHYjJLT0liVmp3RV9UdnZ5TFd2dWlSNUJhbEwxajE5Qml1Umc3bkJPVGpfZko4b0YyLQ?oc=5 · https://news.google.com/rss/articles/CBMiWEFVX3lxTE1FQXUtTDBaTnM5eUhuWGE4cldOZTUwRnlYUXNfWmdVNFMzVUZic3k3b0RBZl9JWThxckNOZE5aYnJ2TUMxbFFiZHRiMzFrbV9wcXFEeHNBYzA?oc=5
+
+### 116. www.marketscreener.com 未公开名称Agentic AI系统
+
+- 来源标题：Servicenow Announces Expanded Partnership with Openai to Accelerate Enterprise Ai from Models and Operations to Cybersecurity and Agentic Development
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Servicenow+Announces+Expanded+Partnership+with+Openai+to+Accelerate+Enterprise+Ai+from+Models+and+Operations+to+Cybersecurity+and+Agentic+Development)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：62/100；审核状态：needs_review
+- 发布者：www.marketscreener.com
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据www.marketscreener.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://news.google.com/rss/articles/CBMi6AFBVV95cUxPbXJOZTlUai1KbXZCX2RBcndvV2EySkhxLXdmbVUxWE51bWFZY3ZkNFNzQ3JWRE1TSnozdlFNMHFRMy1PMmtHOGRCdmJDMnRWRWp2aWxvTG1takRBZzEtOXNqWU1yQ0xWVDJVMGpSQnBwcGRFbHI2dVUtQkttSXpOdVpSRDg5RDNRalJQZ0twNWtyTVZzUVA5eEVvYlJaTmxkRm5iSEJhcmoxcHk1UmMtdmtzS0owRERoWGFwbmxZdkFENko4WUxyUUxwR0xrQkJmdEo1elZxNzlZX18tdThZemZtbEFjQ0Vi?oc=5
+
+### 117. Meta AI agent Muse in Singapore for shopping and travel
+
+- 来源标题：Meta launches AI agent Muse in Singapore for shopping and travel — Channel NewsAsia
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Meta+AI+agent+Muse+in+Singapore+for+shopping+and+travel%22+Meta)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：62/100；审核状态：needs_review
-- 发布者：Facebook
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Facebook公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：UA.NEWS
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据UA.NEWS公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMiwAFBVV95cUxOel9EbjRCVXdIcDVvakkxdWladmZRMUZXVHVaZTRDZE12cUl5Mm9SNy1EaHowQmxBWGxnSmVkN3l1RXpSR0FNUnF4ZzdxaUhpMi1GLTl6WXdvN3haT2tWMnMzSy11VkFtMGx0VVExc01femVHU1pCY21OMTBOUjQwaVlXdUJ0eFR2NzI2LTQta196cXdfX3F4YkZpRC1xandpUEJXd2VsZ3c0MnJhb3M2QW5aSEZmcl8xRlJXSmJEUDfSAcYBQVVfeXFMTkJoU2FUd0wwZGxibC1KUWhYZklzdkxBZzBlMFlxUDhlV24wVUxGNEdxWlIyeDFvWlhHNU1oX1ZoRTFGdUJ6eFBTWExMZk9ySVktSW8yNTQ3R2xuRjFHX1BXcVJnNTRPcmhxd1FhQkdoTkRMbnY1NFp5Z0ZUZjFuM3p3bFNlLTRuUl9Ld2x4b3FqSE15RG1NTnAzSGVibk5DZW43S0V4NGh0cmFaS2hZRV9uRWRVRHFRUDRSY0JwdFRVR1dqV25n?oc=5
+- 证据：https://news.google.com/rss/articles/CBMiuAFBVV95cUxQejM4Z0VmZ1NCYTFRMTNvS3VxTlA5VG9SdDhvTUhaSlhDS1JhbVJJOEtQejhoQk1IMl9zUjZiT1Vvb05kOVNWU0hKWmo0UkNzd0Vic0RFS3JYa1VRT01vcFpwV0ZGRlpIZkp3b3c5OVgzWmdNeGhGRVctZDYzWEFzU2VWSHJ0WUROQy1VaXpoOXVxeXhXT1BhNmtTS0RibUZQS1BiVVJNSTBzVEt2YUZMYXpRd0lrb2hp?oc=5
 
-### 18. 美国银行 安全警告:严禁向人工智能助手透露银行密码
+### 118. ServiceNow (NOW) Secure Agentic AI
+
+- 来源标题：ServiceNow (NOW) Rolls Out Secure Agentic AI Across Retail, Telecom, Sales And IT
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22ServiceNow+%28NOW%29+Secure+Agentic+AI%22+ServiceNow+%28NOW%29)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：62/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
+- 证据：https://news.google.com/rss/articles/CBMioAFBVV95cUxONVJkTE9sOE9nSWpuYTM3U05idmxCbVlaaXh2Tkp1d3hwa2ZoLUhRSUx1WEMxbWxqWURfRFJCZ04yNHdzUGV2NlpvWnFlcFBqUTdHNGxCS2tnLWdzVWE4OU1jQjhRRkZtREk5eVlZWEFXNnRMUEdWeVhvV2U0TWc0T0VUeXZyV0U0a215NjI2c2JLT0lRSF9FUjJDWkctM0R5?oc=5
+
+### 119. FlatpanelsHD 未公开名称AI产品
+
+- 来源标题：Microsoft pulls Copilot as AI on Smart TVs fails to take off
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Microsoft+pulls+Copilot+as+AI+on+Smart+TVs+fails+to+take+off)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：62/100；审核状态：needs_review
+- 发布者：FlatpanelsHD
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据FlatpanelsHD公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
+- 证据：https://news.google.com/rss/articles/CBMiekFVX3lxTE8temVIWmoyeXhGWTBGbE54WW4wOVMxaVZxcEJfTS1wN0dBMjJyTk1OclhHM3pfS3paOTNjVFhHV3ZKdV9WZFlkQW1qU3RIamc4anBnck96UTVQYlBGSUZ0ZVB1bHVablpaTmZyaFc3WjlUdTZSbi1vRi1B?oc=5 · https://news.google.com/rss/articles/CBMinAFBVV95cUxQc1MzRkE0d3YxLVp0NTBDQ2U1ZUF5S25TVFRHY3pQaFFTazVYVXZsN2xGZUN4cGM4UlRtV1VxVHd1RGpNZ1hMMmc3X2NvWkw2TjBYYTNmX3NCYmNLSXdESkVkMXRESnRidnRSNTdFU016dTZVeEd4Q09nLVlWT2FsazktZ1M5eC11OUI2am15cGhhYWZkQXQycElzaWU?oc=5
+
+### 120. Kong AI Gateway
+
+- 来源标题：みんなの銀行のAI駆動開発におけるガバナンス強化に「Kong AI Gateway」が採用
+- 产品名称状态：明确产品名
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（銀行），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Kong+AI+Gateway%22+%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：60/100；审核状态：needs_review
+- 发布者：ニコニコニュース
+- 摘要：该候选涉及银行业务，被识别为客户部署，成熟度暂定M3。当前判断依据ニコニコニュース公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE80aVh1ZGU1NHAzN2RsMm02NDdldXcxaTJvUmRIZWJ2ajkxc3VZcW9wOHFfN1VuRWNoRUwtSGNwQmctaVBmY0g4YjJsaVZhUVJJTU9mREVodGtxcUlNQkN4MGgyYnZnX2FsU2d0aHdPVFVmeVUtSFE?oc=5
+
+### 121. Stein Investments
+
+- 来源标题：Stein Investments
+- 产品名称状态：明确产品名
+- 产品分类：投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Stein+Investments%22+investments.stein)
+- 官方地址：[https://stein.investments/mcp](https://stein.investments/mcp)（官方产品页或代码库）
+- 有效时间：2026-10-28（marketplace_listing，置信度 0.85）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：investments.stein
+- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据investments.stein公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://stein.investments/mcp
+
+### 122. Extract Insurance
+
+- 来源标题：Extract Insurance
+- 产品名称状态：明确产品名
+- 产品分类：保险
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Extract+Insurance%22+dev.extractinsurance)
+- 官方地址：[https://extractinsurance.dev/ai-agents](https://extractinsurance.dev/ai-agents)（官方产品页或代码库）
+- 有效时间：2026-10-28（marketplace_listing，置信度 0.85）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：dev.extractinsurance
+- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据dev.extractinsurance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
+- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://extractinsurance.dev/ai-agents
+
+### 123. 美国银行 安全警告:严禁向人工智能助手透露银行密码
 
 - 来源标题：美国银行发布安全警告:严禁向人工智能助手透露银行密码
 - 产品名称状态：描述性名称
@@ -379,463 +2269,607 @@
 - 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
 - 证据：https://news.google.com/rss/articles/CBMiTkFVX3lxTE1ydzRoSmNGVk9KT0lxTFlqaV9Ldm55NHg2dGJQWVdUZFRtcjdUVE5QYmk1MUtpNS16YVhqSFIxYm1kQnNaMDdYNHFDWWF0QQ?oc=5
 
-### 19. imranbru99 未公开名称AI产品
+### 124. TechRepublic 未公开名称AI产品
 
-- 来源标题：imranbru99/school-and-college-management-erp-education-saas
-- 产品名称状态：名称未公开
-- 产品分类：支付与钱包
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=imranbru99%2Fschool-and-college-management-erp-education-saas)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
-- 相关度：60/100；审核状态：needs_review
-- 发布者：imranbru99
-- 摘要：该候选涉及支付，被识别为试点，成熟度暂定M2。当前判断依据imranbru99公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://github.com/imranbru99/school-and-college-management-erp-education-saas
-
-### 20. paarthutreja26 未公开名称AI产品
-
-- 来源标题：paarthutreja26/health-saathi
-- 产品名称状态：名称未公开
-- 产品分类：支付与钱包
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（integration），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=paarthutreja26%2Fhealth-saathi)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：60/100；审核状态：needs_review
-- 发布者：paarthutreja26
-- 摘要：该候选涉及支付，被识别为客户部署，成熟度暂定M3。当前判断依据paarthutreja26公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://github.com/paarthutreja26/health-saathi
-
-### 21. Naveenbommala 未公开名称AI产品
-
-- 来源标题：Naveenbommala/SharvSuite
+- 来源标题：Vietnam and India Push AI, Cybersecurity, and Cross-Border Payments at Tech Forum
 - 产品名称状态：名称未公开
 - 产品分类：支付与钱包
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Naveenbommala%2FSharvSuite)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Vietnam+and+India+Push+AI%2C+Cybersecurity%2C+and+Cross-Border+Payments+at+Tech+Forum)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
 - 相关度：60/100；审核状态：needs_review
-- 发布者：Naveenbommala
-- 摘要：该候选涉及支付，被识别为商业合作，成熟度暂定M2。当前判断依据Naveenbommala公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：TechRepublic
+- 摘要：该候选涉及支付，被识别为商业合作，成熟度暂定M2。当前判断依据TechRepublic公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://github.com/Naveenbommala/SharvSuite
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3b98114438ba53eef82fe2ad43&url=https%3a%2f%2fwww.techrepublic.com%2farticle%2fai-cybersecurity-payments-cooperation-apac-vietnam-india%2f&c=13073884049150742359&mkt=en-us
 
-### 22. Simply Wall Street 未公开名称AI产品
+### 125. Hong Kong: HK Insurance Hub AI content optimisation strategy
 
-- 来源标题：Is AI Trading Launch Altering The Investment Case For Interactive Brokers Stock (IBKR)?
-- 产品名称状态：名称未公开
-- 产品分类：投资理财与资本市场
+- 来源标题：Hong Kong: HK Insurance Hub launches AI content optimisation strategy
+- 产品名称状态：描述性名称
+- 产品分类：保险
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Is+AI+Trading+Launch+Altering+The+Investment+Case+For+Interactive+Brokers+Stock+%28IBKR%29%3F)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Hong+Kong%3A+HK+Insurance+Hub+AI+content+optimisation+strategy%22+Hong+Kong%3A+HK+Insurance+Hub)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：60/100；审核状态：needs_review
-- 发布者：Simply Wall Street
-- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据Simply Wall Street公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Asia Insurance Review
+- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据Asia Insurance Review公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
+- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi5wFBVV95cUxQbHduSnJSenBhZ2VDNGJpeFN3RnBDendlQjkyVWEzWF9kczlhMUY2Rmx4LXkyUndIbngySGRzOVp4LUd3ZDA4TGN1Sjk4UTNaZ01ZNjc0YW5ORlVSWlBlOGtWM0tHLW1WVG42RnZLSS1SeDQ1dkp2UEZLZ1pXZENoZTZoWUdfNWQwU0NZN2dES1JNWDBDV2RZZ0FYUUtjR3pCQ3hPQVk0c3R1Qkdpd1BZVEtfTGJtanZJUkRqYnFwRVViOUpLSW5jbGgwb3FWNUIxS1R6TWJPcDFQUnFPT0F1bEFLSi02clk?oc=5
+
+### 126. Fall 2026 Product Release: Expedia Group AI-powered tools and services
+
+- 来源标题：Fall 2026 Product Release: Expedia Group launches AI-powered tools and services to simplify the entire trip, from planning and booking to payment and support
+- 产品名称状态：明确产品名
+- 产品分类：支付与钱包
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Fall+2026+Product+Release%3A+Expedia+Group+AI-powered+tools+and+services%22+Fall+2026+Product+Release%3A+Expedia+Group)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：Business Wire
+- 摘要：该候选涉及支付，被识别为产品发布，成熟度暂定M3。当前判断依据Business Wire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMitwJBVV95cUxQRS1iZXlKVFFPTlNiRkkyamZ2U1R5ZW9iRGlfM2pMREF3R0tiTkpUUkNLSE1Ba2sydGY4X2FjcUk5dTlnNHdqUl91bDZwNV9kSFFCN0tkMFZSU2tMYzFIeEE5dm5CZDBITC1HWV9QVk8yMHFiN01veldsMERmVDVhbHFmTHlGaV9lbmdCY3JYcmtrNVNyX2tFVll4NTdZbjNFdzVDWlVJcEszTTNMWDBmdmRsdk9qWDZra1ZQVTJRaUJZMmlLeXNHZWxpYjJqVnRXbUhNZnpvelByRHdXbTdrRkRHdzc5Z3BnVWJtOW4yeVEwc2xyNFAyQXBLU3I3Q0FfU2RxWGY2S2NBSFVpX19pWGVsZmgxU2JXNlNhREc0WmQwb041ZENpTW10cUpXaUNPdFI0TTJsUQ?oc=5 · https://news.google.com/rss/articles/CBMisAJBVV95cUxPdHpmblQyRFl4a2l2UXUyeWcwb2VBcm5OMDdwcExUTE0wQlVTb04zbk1TbTRrUHJXVDc0dlIyOTJCSUVETnB6WElERWRIdkVLYVpZcjJWUDdsdVBIeHQyeWYwclBpeUMtRTFtQU41UXdWdjdRbUhpR1kxNnRhVWRiRUp1NHJCejJmSWE1V19uaV9zMWJZVlA3VXVGX1FMTmNfbWt0U29nazhDaHhtZjR4UmxrSHVUR2d3Y2JOeWtjeWNfejhKenFSemp0SlpzY2c1dGZjOENsQy10U0J2WWh0dXBjNHAwNV9hVGhheU9NblNEbm1OSkIyV1liRW9mT0Jac2RkeS0tM3dwbURGWFMwaFlfUmNTd0toVllGTmc3RlFZSzNCV0lQcEF6bmlBZ1h4?oc=5 · https://news.google.com/rss/articles/CBMiiAJBVV95cUxNZnpsam1EVktqdTRfRGJEYkctZnpaUUJ3VjFjQ19TWk9zTE90eHRQUlpEMmJKemNPUWVWb1l2QnZabURfLWw2VHdlV3JxUDJJNG1ZcXJ1VktHdHhsRkhwVmhYT2l1em9SMVh1UjNCSTBxY09nWDJXcGtJcFQ4eEVINlNfOHBpUk9MRTBTVzBRQzJhWThzWkdQa1Q4bE1NczRxSnI4d1djc2Q0aEgyNmhJdDNTOC02T1FmZm9YdzRPSmE5dlNpQ3VtV1pHMVhINmlZNGxyMXRPbzBrWVdsczVkcDBDNWE5ODNuMm56ZDh2US1YdEwzQ2VIQnNmbk44d0lRS1kzTFBIeDQ?oc=5
+
+### 127. Wealthbox Vault
+
+- 来源标题：Wealthbox Launches Vault, Advanced File Storage for Advisory Firms, and Expands AI to Client Documents for All Users
+- 产品名称状态：明确产品名
+- 产品分类：投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Wealthbox+Vault%22+Wealthbox)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：PR Newswire
+- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据PR Newswire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi_wFBVV95cUxPNTdnUVBnVTctbUoxMm96YVJYMHVtR3VJLVJLelJaMC0yaGJMVFNVMDhQZFlicDlpUVF1X0tmZUNidlVQRC1OQ1FBaC1xQXNVeVdlOTRUUDA4SU1vdUlYdmlKVnprX05IRWE0RHFjdGtaNTNNTno3ZldxMTJoRHo2ZFd2bnJ1elBfY0xvS2FES1ZHZ0E0ckFSbXVjdVNUZzJod0dBeW84Xy0tc1RjM1JtbTBuamlaOXlkQS1rRzgxQmY5STZsYlZ5cnM2U2RmaVgyWTdTZVZ5QUdLYTM1QTVMYllUQmdpT0ktZlBYNU1qYlRiUTRxTWhLeEE1OE5YWEE?oc=5 · https://news.google.com/rss/articles/CBMipAFBVV95cUxPdFRleW1FOHZ1aUxmdFQtUGY3d0o3dFJ0dktEOEotUFNNaktsaGZJX0I4RHh5NXgyQWxrV3hDdGtfVV9najRoV3FzRUlpbmVyTGg5c0VTbVBuQzJoNzBIMFpPaUI0XzdtYkRnVmZlR2x4cExrUHlNXzdHekdXNTlzdkNqS09VWDNmS2RZUTJqeFhWYnJBT3l4bUVwN1FPQlZKUDFGNA?oc=5
+
+### 128. The Mortgage Office TMO Envoy
+
+- 来源标题：The Mortgage Office Launches TMO Envoy: An AI‑Native Intelligent Loan Origination System Built to Transform Private Lending
+- 产品名称状态：明确产品名
+- 产品分类：信贷与融资
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22The+Mortgage+Office+TMO+Envoy%22+The+Mortgage+Office)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：Newswire
+- 摘要：该候选涉及信贷，被识别为产品发布，成熟度暂定M3。当前判断依据Newswire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
+- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMinwFBVV95cUxONEkzbzB1SVRycWstNXJ1X3QxMmpvaUFVN1ZXV0lMX0lyLXBPUVR1OWM0c2VnSzdGNEdwRlY5X29UNTZuU3lNTFJheHFPWDVhVDdWYjJDc3NIYWFKZ1NWcU52QXBHMjlGanpxYWhuX2hHR2dJSVdUYU1ORlo5UGlxRXVHZVhTdGpkZVdvYm1VNXlEeHIwbk1XTFNrOWhhVjg?oc=5
+
+### 129. EQS Group GmbH AI Layer 'Q' for Compliance
+
+- 来源标题：EQS Group GmbH Launches AI Layer 'Q' for Compliance
+- 产品名称状态：明确产品名
+- 产品分类：风险合规与反欺诈
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（compliance），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22EQS+Group+GmbH+AI+Layer+%27Q%27+for+Compliance%22+EQS+Group+GmbH)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：TradingView
+- 摘要：该候选涉及风险与合规，被识别为产品发布，成熟度暂定M3。当前判断依据TradingView公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
+- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxONXZPV2VsX1RPV0c5SXhXeVJSUU9QTDhNWWtDb1pOYVNtR0RpRHo4SjFDWHluOU96SWtSM0ZnOHlvUGpOMWctVGpGU0dKR3Nsd0RqelNWUFVidUJma2VVbXFWUWRra2FMVUZvd0Vyb0JNRzNSU3lwbWlEaDM3SkFBTTNDUnU5UFZxX2t4eWNfNnZ6dE9VaVhHUEl2UFRSUWl3Q2FQZmRCZjdaclpobXc?oc=5
+
+### 130. FF News 未公开名称AI产品
+
+- 来源标题：NatWest Slashes Marketing Compliance Times by 80% with Adclear AI Integration
+- 产品名称状态：名称未公开
+- 产品分类：风险合规与反欺诈
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（compliance、integration），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=NatWest+Slashes+Marketing+Compliance+Times+by+80%25+with+Adclear+AI+Integration)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：60/100；审核状态：needs_review
+- 发布者：FF News
+- 摘要：该候选涉及风险与合规，被识别为客户部署，成熟度暂定M3。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
+- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMisgFBVV95cUxPY1RkMUpvUjM2YzFod182ZWZQRkZfNy1iVmEwQTMyQm1LZ3BXaUJZUlJ1cDNrLXJrZUtwUlUwRG1TM2F0eS00dWNnUU9UWUJYeWoyYUwxQzAzSkpraU0xa0o0MDBTWkRUaTF3bWN0UHY2clFYR052bnNDVy1qV1I3Y2dVMlFKQ3hfWl9kMnJnb0pkcWtybHpkMVJvc1hvam1ma3BPVjlNdEZwOC1odlp2N2p3?oc=5
+
+### 131. Yahoo Finance 未公开名称AI产品
+
+- 来源标题：200,000 Robinhood Customers Now Let AI Trade for Them
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=200%2C000+Robinhood+Customers+Now+Let+AI+Trade+for+Them)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：60/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMinAFBVV95cUxQY0RXalZpM1BFdERWUTVKVTVXaF9id3NIRUhJTnRkcnhHTFNucHJ4V3BXZFZwOHpBSjd4V1loZ2VyU2JlWm5LcWhrZDhMSVQ3T0JOaUVpenhoTXh5YkhXWl9LZ3ExXzdsZmJ5a2doU1o1c3FQT1JVTTNvSEpxTm14dTk2TVlqd1FkNFhwWGhSbU1JSUx0dDkzN1FNUG4?oc=5 · https://news.google.com/rss/articles/CBMinAFBVV95cUxPdFlFSjh2aDFqcUtlY1BBT2NITVdKUVRwZXVHd0VTdjBnRDZGMGdXR0VFajlMaTlEU1FaYXM3MVQydWstVW96WU5JZ3Q2U0ZyVFJNd0ZiTjZOSnZnTk80YVBka2NLM2NRM3oyS1NGSEF6SDBsTlpOVlJKM3NTS3h3anV0ckYwWllRVGZORS0wbmJPSU5aMjh2UGc1N2g?oc=5
+
+### 132. AICERTs 未公开名称AI产品
+
+- 来源标题：Bank of America’s 1000 AI Contractors Expose an HR Gap Training Partners Can Fill
+- 产品名称状态：名称未公开
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Bank+of+America%E2%80%99s+1000+AI+Contractors+Expose+an+HR+Gap+Training+Partners+Can+Fill)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：60/100；审核状态：needs_review
+- 发布者：AICERTs
+- 摘要：该候选涉及银行业务，被识别为商业合作，成熟度暂定M2。当前判断依据AICERTs公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirwFBVV95cUxNdlpUaFV2ZXhteXUzZWFleW4yRGk2RUkwTG5hQXp0OWotTlVtMF9OY2NqRDNjbUhhbmRDZzM0Z1lwR3JzMUxSX3hiN3NWOVNpNUFBdGF4b0tEQVhZT2tBejlHaDQ4a3d2UTM5azVGNUd6ckpsOXNnY0YyTnlSNkFzdWxDdVhMZmdhaW9TTklzY0RJYVBkSnFWZHJXSmJMeWVBYmFtd180eFVqTzJYNW9Z?oc=5
+
+### 133. NewsBytes 未公开名称AI产品
+
+- 来源标题：Brooklyn Nets unveil 3D AI replays at Barclays Center 2026-27
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Brooklyn+Nets+unveil+3D+AI+replays+at+Barclays+Center+2026-27)
+- 官方地址：[https://www.barclays.com/](https://www.barclays.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：NewsBytes
+- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据NewsBytes公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirAFBVV95cUxOa2dZVkNEZmUyZnhodTh4ano3RGVsME9obTZTRVVtZXNfTzVJLXJwTDMzUlZCTkk4ZHNCdmxKQ1FCdHZOVVpiVm5POV91NWRHanBENjA3VzZvb0Y2czFhenpRT3dNbmRuQk1PWENZaUxLOFREVFN0UmdwSXZYR2d4YjNnSV9JWnZzZ081enB3Nnl5bVVIc055Nk43S280aC1kcGlKZ0xoaHppeE5H?oc=5
+
+### 134. Binance AI Pro Features for Automated Trading
+
+- 来源标题：Binance Launches AI Pro Features for Automated Trading
+- 产品名称状态：明确产品名
+- 产品分类：投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Binance+AI+Pro+Features+for+Automated+Trading%22+Binance)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：60/100；审核状态：needs_review
+- 发布者：Coinfomania
+- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据Coinfomania公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
 - 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZElkY2l3UTVkeE44R042Tjk1Y2k3R0hhc01YZUpKcWctNVVwR21vVWJSUEhKTktRVmVfTXl2OF9NZW91S2dIUE5qQW1SN3c3ak1KN3ZTZ3FvYWRoT1dGWG5hc1BSUEJZYWFlWVB5UzNkUFE4NjRHR0pobHJ5ZFdEZjhkTTBWVlFkNkM5Ykw0dElPYWF2MlpLeFQ5VGg0RUNhWTA3R2gwTkp3cGxNU0lhTFQ4U2dwZzZFVndIZHdmSmREbl85QklyejMwZHBDR01RRnlEQVA3SGhUV000bnhsU2M5MEZYeUtTN0YtZWF5VdIB9AFBVV95cUxPaE96WWMzNVlxaDUtMGkzMVAyemwyeER2RHd2a1dJYVh5TjN2aVJCWDVrZjB0QWJyc09weWh6aVpuTlhPcEpuZUg2RFo4ZkkwX0ZXT1pfRU44RFJXM3hGeU9xU1B6ZVhYSk1HQVBVUFVVdVlFNk8yV3k2LW1KcW41ZjNjOGFGUC1vYktBYS1UWHJINmhwZW1zempUeEw1U2hBRk5zcS0zOE9meFFFYWxJYXpFYVA2aTh6N192bTRMRGZfMG5jNm8yeEdDRDItcDlRZGZnRUJZSF9PUmQzZmV2RXF1b0FURlJDQnljbnFlVFVYcmgx?oc=5
+- 证据：https://news.google.com/rss/articles/CBMihgFBVV95cUxQM3pYUXFWZlNMQjRvX3pUaTR0TVliSmJHamlLSkIzVWZTRzdjZzk2eWozUVpDYkdtUG1FU3MwVFZsM1VheHVhTWNMakI0TWpraVlvVHZnalgyRjFRT1laZjRQODZoNmZnVXJ5eTlpVUVkamkwQmozRm5PUFpLaE1xUVcwOEtpUQ?oc=5
 
-### 23. Mastercard AI assistant
+### 135. Retail Banker International 未公开名称AI产品
 
-- 来源标题：Mastercard rolls out AI assistant to remind cardholders of benefits
-- 产品名称状态：描述性名称
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Mastercard+AI+assistant%22+Mastercard)
-- 官方地址：[https://www.mastercard.com/](https://www.mastercard.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Asian Banking & Finance
-- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据Asian Banking & Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://news.google.com/rss/articles/CBMitwFBVV95cUxPVDFfRWVsS2lwbVVVU0FwMW5YQ0NueUdzWXdxRWZ3NXZ1M0Z6ckhJWHBoUGZsaFBjSWRjNlMzV1VkX2dCVUN0M05XNGd6bTBlWU1wSkhUYk5jaUtSbTA3OHdHcC1RaGQ1ZTRLdDVGRk5wam5meHdRLUFFenpaZm0ycFljTnc5bnNRZnRUVFdCS1lEZFJoYmZueFRpVVVQNENHR1ktZEs4QlluZGpBcEJlMVdHcGRZbU0?oc=5
-
-### 24. grandprix247 未公开名称AI产品
-
-- 来源标题：FIA confirms Amazon Web Services partnership to bring AI revolution to Formula 1 and motor sport
+- 来源标题：Revolut faces Bank of England scrutiny over rapid product rollouts – report
 - 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=FIA+confirms+Amazon+Web+Services+partnership+to+bring+AI+revolution+to+Formula+1+and+motor+sport)
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Revolut+faces+Bank+of+England+scrutiny+over+rapid+product+rollouts+%E2%80%93+report)
 - 官方地址：[https://www.revolut.com/](https://www.revolut.com/)（官方机构主页，非产品专页）
 - 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：58/100；审核状态：needs_review
+- 发布者：Retail Banker International
+- 摘要：该候选涉及银行业务、金融机构，被识别为规模化应用，成熟度暂定M5。当前判断依据Retail Banker International公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijwFBVV95cUxPRUN5d3V4MldPLWtXdVFWRGpyX2ZMaGRITDlVVE9xb2xZMHVlMjJqNGhfcnpZQS1KSTJZb0psMTFaS1RzTHY2ZHdKb2JaUV85c2ExbFhrTF9HUnljazZSeEdnLWhsczJ0c1dzeXo1OXQ1bExFSHU1TkZvdEo5d2tyUDlZSlZjSEtlNkRZNVdKYw?oc=5
+
+### 136. Hippo 未公开名称AI产品
+
+- 来源标题：Hippo partners with Greenlight Re to link early-stage insurance investment with Spinnaker carrier capacity
+- 产品名称状态：名称未公开
+- 产品分类：保险、投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Hippo+partners+with+Greenlight+Re+to+link+early-stage+insurance+investment+with+Spinnaker+carrier+capacity)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
-- 相关度：60/100；审核状态：needs_review
-- 发布者：grandprix247
-- 摘要：该候选涉及金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据grandprix247公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 相关度：58/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及保险、财富管理与资本市场，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
+- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMipAFBVV95cUxPLWE2QjBtMjJTOFZWMWNzWnZ1VTBNbUNFcURhUDd1R3UwX2ZiSm9icTJaLWxCTUpYal9BUEhERVNNQUQxTjBBV1NIOC01WWZxbzBmOTluRnMtNDBBcEh2RVZuanhoLTFxZU5sdm9oVEZjTmNmYnZ2VFE2R2FfSWhrQk9Pb1hyZVVZZVF3YnVTd2t6VXdkXzB5b2JGcm9RVk9BWFVIcw?oc=5 · https://news.google.com/rss/articles/CBMitgFBVV95cUxOSlktelhGaG1fekIyUWd4VVJLN1lnQlVaZkJQMzZId28yVVN3TUhfWVNjVjJSRVFrNEJmaVJ4OXJyYVJfRjhwc2hJMTMwb3l1dGFjaW84QWtRakNqMm5KNWFWSEpTbUF2V2JDbG03eDRrLWVnT2k4Nmlzel85NjI4TlNNNDU2NjRVX3RFQldMLW1tX1Y2Ujh0V1prbjVvRHVfUUFhR1JUeGdZc2t5cjhvT3BqaTZsQQ?oc=5
+
+### 137. Stock Titan 未公开名称AI产品
+
+- 来源标题：With 189 million customers, Banco Santander (SAN) posts higher nine-month underlying profit.
+- 产品名称状态：名称未公开
+- 产品分类：银行运营与客户服务
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=With+189+million+customers%2C+Banco+Santander+%28SAN%29+posts+higher+nine-month+underlying+profit.)
+- 官方地址：[https://www.santander.com/](https://www.santander.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：58/100；审核状态：needs_review
+- 发布者：Stock Titan
+- 摘要：该候选涉及银行业务、金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据Stock Titan公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMitAFBVV95cUxQdUFPSEV3QkJhUXB3a0VwTTBmNWhQcmlpUnNHTWphd0ItVlpLUVYxQnFDckFubkt6eTB6OGFxV3BEVGY4WDhUOUh0R3RXYkxTQ2FyVXVjOWQwV084RXVWaUhRSmR5NUliQnFHRmJIUFkzSDd0M1pzMkgxRzBuYzdxenY5eDdvMEdPZERsLXBRNVNZRjF3YWYwanpuZ1dmTFVZTHp0RURYMXA4ck42RmcxSmctSHo?oc=5
+
+### 138. Tether FASE Foundation
+
+- 来源标题：Tether launches FASE Foundation to fight scams and pilot stablecoin aid
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Tether+FASE+Foundation%22+Tether)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：44/100；审核状态：needs_review
+- 发布者：Crypto Briefing
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Crypto Briefing公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaHBkR0lmTU1JNDVObVNSQ0c2ZU1yNWh6SDk0dXFfQ19tWDZCbFdjMnoxT0RNRTd6UXpxMVI4U1BYaU1vUVZxYVFQaTRIRjVoWkszcTBSWHdyV2JWRk5xejZKa2t4V1M0b2pIT3RrTGpqeDNKTE1MS0wxRmVTXzZXTWpPRk1MM1otOTFWam1qd05LZWcyd3NQZ3UzUjR5S0traWx1V3JTekFHV3dYQkhEa0dPQXpUWmhYNHljMWdHVHpGa1ItY0taSndQTVNKam9ka3pwUTR6OU4yS1FQYUhzVzIxcnNDWl9KU0haNmxB?oc=5
+- 证据：https://news.google.com/rss/articles/CBMif0FVX3lxTE4wSENDRi1KdmkwVDdXQlhfRnp2Sk95a3p2Sy1oZk9kdGJSYkVBaHVWN0dIZzhOdkE1aWF3NFp5NTRCbTFHLVF3UmNIWFpMTmZKYnBTdUlFWXFwVW1IZ1Y2VGpOWTVicVg3LTJlV0NScmZQVkt6dXVJZUh4Z05VSWs?oc=5 · https://news.google.com/rss/articles/CBMifkFVX3lxTFBWWTR2cWFHQ3FhMnhLZHNhN0N3c2hIWklQdWhtcFFraU9odWRtZlFjQmhzajZOTEVXSUhoX3Z4eGdMVEUwbEF5ckZiZ3VBdHJLVzRvZ0lDcGhyNXIyQ3ktcnIzX0I0V0JVWWNIZjlKeDBKcGxiR1lZYTJfT3FIUQ?oc=5 · https://news.google.com/rss/articles/CBMiWEFVX3lxTE02TVNGdmFXalluZURaOG9Ia05GWmpadzVobW5kMHgtZGJtdk9QMWdJbUJUWjJZc2QyMUNMTUxmOXNaeF9kUGFZNk9TTW9xN1phRWFSNThoTmw?oc=5 · https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUGNnbE9kcTBhZWc3bDRPLVRLMERTbWtPY1RYclVuVERqVTRvUTJzMDFsNWVubFVmU2cya1doTUZFbFBJY0FJVlR0TGNyM19Lc1lQWTVCRTJLeW5PdXpveC1NTzY2MTdlMHA2bng3VEFQU0l4M21PT1NVNzlMN1VtSTl6blRvdjZ2LVE5WURpTTVHNDVNaE1ydDNVRGVPWFRvZzNaWk5YS3Rvd0g4a3k0SVVjTkNoOHlHdE1udU1UQ0U?oc=5 · https://news.google.com/rss/articles/CBMie0FVX3lxTE1lRTVlR0tNbU9DX3FLRFU4R1BzNWNUY241dzVueE5DTzBNQXJXS0E2dU9Wcl8zVmJWdlpXanJkOEtyT2ZiYThBb21nRFJzSldMVi1DelNpRG8zTmt6OGxrYXpLRklzc25WMXdwaTdzd1lTYTRIMjVnREFmZw?oc=5
 
-### 25. 3Business, AWS one-stop AI marketplace
+### 139. OpenTools 未公开名称Agentic AI系统
 
-- 来源标题：3Business, AWS unveils one-stop AI marketplace to streamline digital transformation for Hong Kong SMEs
+- 来源标题：Dayforce’s agentic platform has a staged rollout, with Claude still in beta
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Dayforce%E2%80%99s+agentic+platform+has+a+staged+rollout%2C+with+Claude+still+in+beta)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：OpenTools
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据OpenTools公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
+- 证据：https://news.google.com/rss/articles/CBMikAFBVV95cUxOOEJrdkFaWkF6QWdJMmJCMGU1bXJIZ2dwZGxWZERhZmJOWTlWaGRLQjhvWWxnYlk5NWxpOHBJMjRVNjZrMkoxdmdCMDhRQmRiczJERzdGMmZzaFFteUI0azk2cTZiQ1RUZFRFUDRnQ25zMXZLQWhjR0pycGR4QXUxeUg0dElhQkx3OW9GZjdoTnI?oc=5
+
+### 140. Schwab AI tools for financial advisors By Investing.com
+
+- 来源标题：Schwab launches AI tools for financial advisors By Investing.com
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Schwab+AI+tools+for+financial+advisors+By+Investing.com%22+Schwab)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Investing.com Canada
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Investing.com Canada公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirAFBVV95cUxOUzJtRHZUcVcxa2NzRWxwMkFmM0VySzFCNGdyeF9KdENMbzdvTl9DQkNMdS1EaU5YSG0zWEhpbUczRzZGdEU2QjNUeTU4RzVLVF9ZUmZvaFNFYUhpSHMzbFZvc3Zya29ZeTZndGJUQVRuSnBUNld3eEVTLW9hNk5ZTTlMUGhDTTlXXzg2TllZdTZ4WlJhb0VTcGdqYWI0QmNCMTJJRHRaOEgtOTJy?oc=5
+
+### 141. Pulse 2.0 未公开名称AI产品
+
+- 来源标题：Kevel Raises $52 Million To Scale AI-Driven Commerce Media Infrastructure
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Kevel+Raises+%2452+Million+To+Scale+AI-Driven+Commerce+Media+Infrastructure)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Pulse 2.0
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Pulse 2.0公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxPRWs4UUl5bzJaN25fU0IwOUN6N1RHenUxWHV0a2lKa3dCdDlhZEF5OXRtZXNibFdRLXVGTmpvUzAtVEJtZFM1aFA2MW16cnRZYzFaNXBhQ1RmdG13Y25mZURwd3lRbWJPWDcxMGw0eVJ1bWpPRi1DcF9yRF9RQ2FIZTNJclJqYUUxbXFxRlluSlpwZmJ1MHNZ?oc=5
+
+### 142. WISE iTech YouTube AI Analytics Service
+
+- 来源标题：WISE iTech Launches YouTube AI Analytics Service
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22WISE+iTech+YouTube+AI+Analytics+Service%22+WISE+iTech)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：THE ELEC, Korea Electronics Industry Media
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据THE ELEC, Korea Electronics Industry Media公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aWXFxeFZiUFJwc2l6aDJKQ1FmLXlQVFFrLThqRXY3aS14Mm1EN0N1dDcwZE5nMUxtUW9WaG16bWNHTUhnc09neVVjdlhlMTR3QkRNM0FUc0RXc2dRamt5WktvckMwTjQ?oc=5
+
+### 143. Business Wire 未公开名称AI产品
+
+- 来源标题：HPE selects ServiceNow to transform support services for its Cloud & AI business
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（business），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=HPE+selects+ServiceNow+to+transform+support+services+for+its+Cloud+%26+AI+business)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Business Wire
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Business Wire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi0AFBVV95cUxPdGVuSE84YkFWT1lmVGZwUjI1NTRsMFlTOC1pRERYR2otQXgtZktBRkFUMmtxOHB6QkUzMW0zcDZvWWMzQUpfdHVSWWhPVmtENjRjYVhRZnBFaFowUjNfLVEwZ2daQTB6SDdOLS1GUmhOVHhWeVBhTFZ2SUV0QkNMVWFoTElYMl9DSHdKUEhROHdmaThqcGhDYmFIeFFNVzFtaUN6QVVreU1KM3dYMk92OUNoSnhpVDhTYzVEZkZFMWhneVlfajJoaWdqZVdPbVdJ?oc=5 · https://news.google.com/rss/articles/CBMipwFBVV95cUxOY1J5Vld3OEludFBnSTV6UnA1Q3Npa2dVYUIwcmxkYk1QaUFNeEZtWmdjc0l3Z0stbG1ER0YxY1dlc3VRMmRXY3lxemYtYjE1ZFQtMlFuYlBSbVpaOE1ORVA0Q1BJU2h4WXVvckJwX0dwTVh0Q3FKaEFOOE1mMTFOQzdCdmpGUVF1NHNlWFBMMnFudnpiTk9OTzJ1Y280UTQzcVIxd1hERQ?oc=5 · https://news.google.com/rss/articles/CBMiswFBVV95cUxQTnNickJ0ZWludzhfOWxYNjVwdWNoQm9oNTdrUjhLc2NldGRMbERyT1Y3RXpESFE5QW5VNG1KcFNRamlDcnFqVjVjZkpqcnJmSUh0eksxRGRYWS1aNlRiak5ELXh0N3paZWNZNkdmeUtNQUx2Q2FHTmphMWc4eG1qWDRZZWJuMGpSWDh3aVFCWEF4OEpBc2p1UU00NTVuYmJrTUpwbmwwMEdORktBSl9KbUd2NA?oc=5 · https://news.google.com/rss/articles/CBMivgFBVV95cUxNRmhKZE5EeVJaak9PbVkzenJDV19nSGUyT3hHM19WNHAtbVp6U0h0VTVENmZqck9jb1ZiTUdybjgyd1RpcHV1Y3JfNUx3RFdodUw1Tll0QmVQTnY3dkRONFAtaTdxdkVjVHJrTmZXRWxGUFlBODF5NmZEUmxWMXJ5WlVlejFReFR6YnV4cC1sV3pJUjR2ZlViNlc3UnBONU44UWc4Vm5LU2FJZW1pU0h4YTIxQ1JMazBqeTNLc2Fn?oc=5 · https://news.google.com/rss/articles/CBMiwgFBVV95cUxQYnRUbEFXaGZaZGhVTGdSR05ZVHhBYzk1ZDFZckFiNFNKcmJhTFRwcnRWR1RnMHpaaUJna1dDUFcyR1RERTh0b1lyN3JvY1lnRHdaa1h6cllpaVNScG5HNW9URVVOeXNSV2hzUkFjY0JzSmhqajFqRERyTVdoQUM5U21KbUxRNS1LdjZBVEdjR0V4a3dXU01qeE43bG5sS2hvQklGcUhVanY4VkE3RFhWdTl1Qm42dWtTM3lyRURRZC1rQQ?oc=5
+
+### 144. US tech giant Google Gemini 4 Carbon AI model
+
+- 来源标题：US tech giant Google unveils Gemini 4 Carbon AI model
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22US+tech+giant+Google+Gemini+4+Carbon+AI+model%22+US+tech+giant+Google)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：US Muslims
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据US Muslims公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMilgFBVV95cUxPSExjUWZURjVVWlFWX3ZnLXJWRjdlS0dDQkVNVk9SUGRZYWh0N044SklzZlFPVmRvZmtmY1VDWjhWeEcyanFhYjNNMnRiTDZacWNiTHl2dndnOGdxN0tlU3lxZFl5MGhESWVkSWJxVjFaaXFvUm96MGxhRkZ2UVBreVl0Z0JVdkh3eXZ6al9SanplWV85MHfSAaYBQVVfeXFMUGFRMDM5RHZPS0kyMUotdDV6cTBxWm1YZUxOSTVsRzhvU2JXY1M0THZkU3lRWmJpQkU5eEtTZ3FQQWI2WWxkQ3Z0cV9SQ2FSNURhOGJtNE5ib2VXaEotWXhOZm5FMnVJbTNBbkRYMjdjNnJtNW5fbnkyNUF6V09WYk41RzBiam1hUHZDS2xORGQwV0J1bVluTmhBMDJldnNUcW1qQnBmZw?oc=5 · https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXQyWUp5N0QwdVRZWXFkd1M5b2RrcExtNVBJS0JKaDdhaG1DQThXeEVlUWVWQUNPTjNOak9ZSnZlQjhDUkNIT2oxSlJrSjlJSkVSMVZFMW5acXV1N0l5bWxKTU1CNmtzZVM3U2dZVE5RbHlrZ2k5LTljM2FnNDVLM3NFbGI4N1hSMVIyQ2FNZXZYY0ZuNV9KR0lQYzdxT2RGdzkxamkzLXloVUVmLUhmdUZ3?oc=5 · https://news.google.com/rss/articles/CBMipgFBVV95cUxOTVlFVl9yak5hNjZnVGxpejVpNWpHa05XRTF3Y2NkY2M2cEJEMGlBTW1Eb1QwMGJfaE82akxYb0NTWlVTRW5yX2xwYy00dF9odmk0dl9ZNlpTbVZETEg3STc1OEJYVEFkWHVUQ2E5UHB3a1VWcnFDRjR1dGNSMV95aG83V1lhNjlFbjRzTlNnR2dlRUJ2VFlDTzFyLWxEWjRSbzY3am13?oc=5 · https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbnRaOXExbnNqakdlWVRWM3BlUHN3RHNqZzcxd1FNTzZQZzJTMWZzcUhFYUdEblU4YmFaaWphbEp4eDdLR0xpY3c2YV9fQk54aS1PT083U3VsVjY4REZ1N1BGTGZsMmhwUTBrNWVCNGdPWDUyX0R5X2I5R21MTTktNXZLb1VPLTJkVVE5VE9acXpjM0pETXJucnhiaWRCMkVxdUkwdkhfc2U0NUM0TlloNmVwekNMOFk1?oc=5 · https://news.google.com/rss/articles/CBMi1AFBVV95cUxNRVhwSFEtRTVBS1pqWW03bUozYW1XZGVfMlh1WFE1aTV1VFJTQXIxQm9IWU05Mk9jNERkWTJBa0NuNlBXalJ6YVVBNlhpX3cxWms5QzVOdUJMVzlYV3JUMGtWTHhrV1VrMWQ1aWMxREs5MklqZzBoRC1uWjA5a0xuNmhfWXdjS3ZTT3Eza20xQ0pWb01lRFNRZXhWeEtGdEtIWmZOcXNuXzg1eXBxTXcxQ1lIWWFvV0pvQlM4Z3lYQ3hzN0FiWDd5X3R0MzAyb2xmTG9fVQ?oc=5
+
+### 145. Mastercard 未公开名称AI产品
+
+- 来源标题：How small businesses can use AI, access capital and reach new customers
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=How+small+businesses+can+use+AI%2C+access+capital+and+reach+new+customers)
+- 官方地址：[https://www.mastercard.com/](https://www.mastercard.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Mastercard
+- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据Mastercard公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxPNEpwZkxQRFJ0SkJiUjl1VW0wSGRnU3R6SE05Rm1aZHN3MlBobTdfNXNHRVJlcDBwSmpvZ2g2a2ZPVzRCSFJDdUFXS1R4dFhCRW5mcHJSVDhibk5kdnJSQ2ctMTRQeWNaaU5zdTdTWS1JQktwbUZ2Q1p0NXlLLTRhS1gtZlhLUEFDTmhaMDBFTmpGODU3TFRyck8zem9GTFZUa3VOWGJuNDdaaXR6bFlyZHZxWQ?oc=5
+
+### 146. 24/7 Wall St. 未公开名称AI产品
+
+- 来源标题：OpenAI Is Buying Google’s AI Chips, a Hit to Nvidia’s Biggest Customer Bond
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=OpenAI+Is+Buying+Google%E2%80%99s+AI+Chips%2C+a+Hit+to+Nvidia%E2%80%99s+Biggest+Customer+Bond)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：24/7 Wall St.
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据24/7 Wall St.公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMitwFBVV95cUxNOU41VEhZT0hhZFRRQXVmRWhKWml6Q3FSLVRxeXpRYU9xLW5xQ21MT080OTJvNEtmcmQ5ZW05Tl9XRG4zeVZ1VVhNLWphbXB3ODJpcTBaY0hXc2J4RHBtQm1wVFJHUTlBeC02YkJydmF2QUFTS0s4eFU5UVB1bkZhdmZpUlQ4NnJSZHFlTnpoVzVYVmZmbnJ3NkMtbHZfT2N6M1p1VXk1QUNsWjdWVmpUeU9VZ0dCWGs?oc=5
+
+### 147. OpenAI Unreviewed AI Math Proofs
+
+- 来源标题：OpenAI Releases Unreviewed AI Math Proofs, Sparking Accountability Debate
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22OpenAI+Unreviewed+AI+Math+Proofs%22+OpenAI)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：조선일보
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据조선일보公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiiAFBVV95cUxPeWNqMTVHUU9iQjlrR0dGbmN5bXNRV2sxWGhlTkNUbFhIVWdLbFd3emFDWjZKYV80aWJOYm9lVzZpYmZkWVl2M2l0WDJOYW1vMVRrc3lqRWNXMEV6ZVl2Q21jLWZiRVRhM3VjSm8xaGVVV1RESmNRMlNGWFlTdHpTMTRYSkpBZFNp?oc=5
+
+### 148. Anthropic just tools
+
+- 来源标题：Anthropic just launched tools to show companies what their AI spending is buying
 - 产品名称状态：描述性名称
-- 产品分类：风险合规与反欺诈
+- 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%223Business%2C+AWS+one-stop+AI+marketplace%22+3Business%2C+AWS)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：marketech apac
-- 摘要：该候选涉及风险与合规，被识别为产品发布，成熟度暂定M3。当前判断依据marketech apac公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcmh2dDBPbXhPTUJaZ2VFcUhVVGhHTU9kVEo0MmlaOTQ1RzhBZmdlMm5vdjEzTG5OYWY2WjlOYmFGSlc2UmV1ZGRMVU5LeVdQUV9pT1kzdFZER2w1ZEREbzhOVGtqR3dILWtyWG1fOElFSFUyRi16eXU2UjJOeFI5cjBMNXVZTVluSHk2ODJ4cmptM2s5M2pOWVJ0SWlaX0NzLVNTbEJsY2dzN1BxVElPbmljZUt5dFhTVFJ4djBTYXAyWkhDdjVuMg?oc=5
-
-### 26. Dealroom 未公开名称AI产品
-
-- 来源标题：Covalent backs AML Analytics to scale AI-powered financial crime testing
-- 产品名称状态：名称未公开
-- 产品分类：风险合规与反欺诈
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Covalent+backs+AML+Analytics+to+scale+AI-powered+financial+crime+testing)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Dealroom
-- 摘要：该候选涉及风险与合规，被识别为规模化应用，成熟度暂定M5。当前判断依据Dealroom公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOFM2cHYyODdXQ0d1aHN1ZFhOb015Q3NQejhTZS1XeHlxNVJGRlU0LWs2UnN0aFkzM0JfU3dZakFGTkJLNzhiMjQtTEpONTlkTDNyb25pZHJRTjdxbDB6S1ljalhNeUF5ekMyX0ljczByTXFvSUgwNkNRUVpyQ3ljYU14cnhQWTUydXM5ZXlVdHFrVkZ6YW5SZG00NG5NZE5XUEgxY0J2UEVJQQ?oc=5
-
-### 27. Block Human-Sounding AI
-
-- 来源标题：Block Releases Human-Sounding AI
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Block+Human-Sounding+AI%22+Block)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Anthropic+just+tools%22+Anthropic+just)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：42/100；审核状态：needs_review
-- 发布者：TheFutureParty
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据TheFutureParty公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 发布者：TechCrunch
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据TechCrunch公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMib0FVX3lxTE9aOUQ2TEJQYUM2RjNHWGpCMHFIZXhRZHhMeGhySVhvQnFUd05kZlpobTNmN0JLMFNpV3kwRGJ1UlNzemdlRDc0V1UzdWMxTmY4eVYyNU1vUUlVdnRtRE52SEhyYmN6bmtYV3Viam9oTQ?oc=5
+- 证据：https://news.google.com/rss/articles/CBMitgFBVV95cUxORDlBbXhmcEdpSXhaQ1YyY0llV1JaU29fZzFvZ2xBdDZzdlEyVWhuR3k4QWpSQ196MXI1SUVVVlBzMER5ZUZHOUF6bVJYZVg5cXh1TTlOdWJWc2I4N0laSmpRNGg1Um1qQ05obkVPRDJiUm9lQks1WFdQdUp1SldtVV9PMnVicVRJcTlUMWQzZDFjbXZqS2lVU3hNeVBCb2FKdXV5YWNjZGdpUmY2TWs0ckxXdHgzZw?oc=5 · https://news.google.com/rss/articles/CBMipgFBVV95cUxQcVU1VlZIckJDV0xhQkVNSlFKV2plTlNKTDN2NGJ1RHRfQVlrR1Q5ZzNsNkVxX29MS3lyZF9zT1NjeVJackZ0OUNjdjFKd2ViNnR3TUY0dVVIa0dydkRqeV9XNWlsNWVuT2o2QUxkUy1aSmw2Qjh1cWhYczZMU3FCSko3UVRKNTRsSXNlUmdmZ0paSlZXd2FCSVlsSkxtdzdranhfV053?oc=5
 
-### 28. CRN Asia 未公开名称AI产品
+### 149. Planet Biometrics 未公开名称AI产品
 
-- 来源标题：‘NxtGen will own the sovereign ground for AI’, says CEO on OpenAI partnership
+- 来源标题：HHS seeks temporary sole-source contract for Anthropic’s AI
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%E2%80%98NxtGen+will+own+the+sovereign+ground+for+AI%E2%80%99%2C+says+CEO+on+OpenAI+partnership)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=HHS+seeks+temporary+sole-source+contract+for+Anthropic%E2%80%99s+AI)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
 - 相关度：42/100；审核状态：needs_review
-- 发布者：CRN Asia
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据CRN Asia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Planet Biometrics
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Planet Biometrics公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitAFBVV95cUxNY2I1QkxQLW5jQVk4cWJTa3ZQUmxCeTh2NTJ3SV9LSno4bUhlbGNjTF83ZUR6WXRvNFlCaEdlMFV3RGZuQjMwdmR2UXduZzlVa2xJZlJ5SGZfelNoWVU4dng3dHliSm5OZUo4a1J1bmtHSWFRY3hObmVxYm1UMGtnUmRreWFaU1lWc0VuV08zMXVXLWdpaHRRQW1xcEVZRlhSdVlMTHNmRzdJV0FxX0VIZmg0RS0?oc=5
+- 证据：https://news.google.com/rss/articles/CBMijAFBVV95cUxPbjYwNjhmSDBsSlhrWmRMclc5bTBfOU5NZDJUMzNQQmVyTGFwZW9vVzJCQ01YdXN3LWxzTzRSVG5OMVVydVpyNVRYLWx6dmh1dmk3TzRsaEJIN3ljc094akxNZ3VxTXZMcGh4bG9xWm5ObU83VE1XNFhmRVFvenlCeG4yLUh1X2o1a0ZwdQ?oc=5
 
-### 29. Simply Wall Street 未公开名称AI产品
+### 150. Google AI Mode Ads in 10 Countries
 
-- 来源标题：Is DigitalOcean Holdings (DOCN) Undervalued As Grayscale’s AI ETF Puts It In Focus?
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Is+DigitalOcean+Holdings+%28DOCN%29+Undervalued+As+Grayscale%E2%80%99s+AI+ETF+Puts+It+In+Focus%3F)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Simply Wall Street
-- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据Simply Wall Street公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUDBuYjdhbEtocjl0R1hiU2ZMcEliTkZSZW5wT2pZNEt4bG9wWmd4WTFNbU1IbjdKYmZMdFBkU1pUeFFFYTd1TkVDcnNZaWl6R0k5bGdBQjlHc3hxMFc3U2hqanhuQzQ4ZlkwdW9DRC1vT1NVVHloMDhFUkdyVmp5cGJGZXhwcHRDVHViY29oNTVMN0tGRURGT1padmdSa21SdFFuOXRYbzZZZjl5TW5DRG1ENHBBUTR0MGtrdkwzSG5LLUttc0JMZ0RuYTBDQU9qeTRzZ9IB2gFBVV95cUxPY3VpcHkxblpZQk5CX1VYZFpoV05Ld2VfNXBoSVlWZ2FpTDJxdDFGS0dKekFEY200RmwtSmh1UmdYMGgxOWpfRVpVNnA2TnNMNDRKR25lSnI4UTFzMEdyZXVqLTJibXoydHI1VkMxNXlucFB4T29aLWZ5ZkQyOXlVU0hkV3Y3SWc2REV4emEwbGhsTnNmQzZ0Qy0yZloyNHM1X3JwX1BpRHFZQUFETXFnVnp4NGlReVBGMExMbHF3RUF2d0R4bmFFVWtjcWtSaGlZWVh1U3g4VTlpQQ?oc=5
-
-### 30. textGrain
-
-- 来源标题：OpenAI Deploys "textGrain" Invisible Watermark in the EU, Highlighting the Fragility of AI Text Provenance
+- 来源标题：Google Rolls Out AI Mode Ads in 10 Countries, Multiturn Ads in U.S.
 - 产品名称状态：明确产品名
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22textGrain%22+Vocal)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Vocal
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Vocal公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMixAFBVV95cUxNeWt2TXE2ZHdTdVFkVXZvUElpUng4LVQyQVBGTFZMM0FXNVNHdFFuT1pCVjNzVy0yRUtLdkZLWmNNcElvcGoyd09uYmd3NWhzWUlWN05lNmJxSTF3TGRSRGxhaWRGRC1rZmFGTWlMSEJTaXhwa1Nyak5lZ3ozVUZqWDItbkplUGY1N2s5STQ2Y0hySklNQVdlNy0zY3VYeUZ0dDZqdTNkU0pQU3lpamxHX3pBQjBEdnhwTkdxZ1A1Q2c0ZmxM?oc=5
-
-### 31. The Hacker News 未公开名称AI产品
-
-- 来源标题：Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Anthropic%27s+Unreleased+AI+Model+Chains+Flaws+Into+Working+Chrome%2C+Safari%2C+Windows+and+Linux+Exploits)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Google+AI+Mode+Ads+in+10+Countries%22+Google)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：42/100；审核状态：needs_review
-- 发布者：The Hacker News
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据The Hacker News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Unite.AI
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Unite.AI公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiggFBVV95cUxQbzh3WHRfc1NZQVJFS1ZaWURuVmhrV0hhS3d0UEpYeTQ5WE5pYVFLa3RrcWNaTmVmT0ZMaXBZWHE4cERGVmg4OFdRZzVtTnFFWFotNWRhb2hhYTloOXlpV3pSYnlBU1pVQnFfc1J6WE45WUFPSjZkRWZvRm9VTzZOUExn?oc=5
+- 证据：https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUY5LWhDZGhGQy01anRJa1pkR2JHR1Uwc2UzWGVISXNIdDREY2xhOFl3NURPRlYyakpwbjUwWTNkV3JMZExEOUFHcl9xeXFYbVVCcU9QYXg2b1lxQjVWTnVETnJtNGZRZC1GSkxfMkdOSXh1QlJTd2loa2N5aUNuN1FNdG5YbjQzZzNRUHlyZE8?oc=5
 
-### 32. AI
+### 151. Microsoft 未公开名称AI产品
 
-- 来源标题：Google Cloud and NVIDIA unveil Vera Rubin AI systems and new sovereign cloud tools
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22AI%22+Wccftech)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：EdTech Innovation Hub
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据EdTech Innovation Hub公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUkxHUjZ2YVpiSUFiQktPemJQdG1SOTBFNEpEWUtZM1JMcXdmQmkzNXJJbjZnM0RBNmQ3TnVlZms3SE5KWDlsenlnZFpSTEZnN1djRnRLLUFqbjAzeEZwTjdPcjlTNk9rRzR4Uy12RjdkdlV1RUV5amJ3SllqUm1fc1pOcmFhUnc1TVJBa1cyUXAzR2lnUExIbmVGdlNzX1duUFczTVQwYWVNalI5RlR2dVhkMGJVSS1wbnJSbVV4Rk8?oc=5 · https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSkhBN0tJZ252ZXA2VW5HTUhJd2l4MlV0U3hyTFZCdEVqT1NpZy1NOGRqS2s0clFxendmeUFhRmJHMG5idzBSamVDNUVHd3E5OERVcE12LWY3dGdacHF1WmxKd1hjX05jR05jVkJYSFhDaDJzWGZQdGg0T1JrV0QxN1lXamhHaVhJMVZzQVBkakt6UUdKVDQtYTd4YUxsWkJCTmNjd1FPLWxNWjkzb2hSUlVhdGo3TzdsbmN2U1FQZW8zYjdibmVnVWd1Z0hYam1nNHNv0gHYAUFVX3lxTFAwSTFCZXoyM3BWR1d2SGlEQWktNktOOG1ROWlSbHFKZUVqc3RoLWhMQktFenRiU3d0dk5IU0R1RC16X19mWUZHYVhhUjdMcXVUbks1cUt2Q3RwaTdRR18yaHRKLWtSTk1GTHk0Z0I0cy03MGRzLXh4UThrVjA0dC01M3p1RXZxOHlmR1RYUlBJNTYtUXFlSUNVQTJVREF3cHFUY21HMFdDaVpvMlNrX29vNXlBSUNnWXBQX1hQRVc5Zk9iRUZ4b1dXQ1hpcHdoWWF4SFY2blVYSw?oc=5
-
-### 33. Google Genie 4 AI
-
-- 来源标题：Google launches Genie 4 AI, turns text prompts into interactive worlds
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Google+Genie+4+AI%22+Google)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：India Today
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据India Today公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi0gFBVV95cUxPY3hDMGpxdl9YTnoyOXE0NzJBVDBSVjRNODgzRGtjYWZKeTlva21fd1I1V0w0eW9XUWxWaXNVOV8yek90MEtaUzdzOWxEd1BJX2lVOFoybkxabUJRQy01cDB4Tmo0N3ExMGcza2luV19nN0FPRkNsUVo5bVNETnRsWF8zMndKbk5mT3p5YTJCdkNtdWhyZUtDZ1VQQ1FMWTJpclRjY193X0gtUjJTdi1hdzNNdGNWRlk5R2xQa3hKMlhlNHgxMGRxME1NWlRBX2NyVFHSAdcBQVVfeXFMTm5wV1dtQ0tSNzZPMWhENlNHbmF4LWd6azFEVm5DM3NIaE5JNnd2LWlBUlZCR2J0a09BQW9hQ3VwaGtuaW9pMUdVOENNMkdrbHhFZm1XOXVmUkFYU1AycWY4c01UUjhUUGZIeWtldlJNNEZ1TmVVQU9ZXzRSbGp5VkFyYV9rRTBoWVlWUS00MnZqMy1uMS05LTgxZjNUcEltV0xGay0tQnE3V0xDaXM4M29vVzFNZkZ4SEU3N2xTaHRQNi1YaFlsYW1NRDR3T2MzbWJGbi1LZXM?oc=5
-
-### 34. Meta AI app Waddle World in the Philippines
-
-- 来源标题：Meta launches AI app Waddle World in the Philippines — Engadget
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Meta+AI+app+Waddle+World+in+the+Philippines%22+Meta)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：UA.NEWS
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据UA.NEWS公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMinwFBVV95cUxPSW5IMGxzcC10X09CVldYUzJKcEt3S3puYklBZ2xsVXBQYW4wMEdoYV9YeU9zTUJwb1RvcXpQUy1rN2p1WjF2dGk5ZzZwck9rRjl0SkV3d0pmOTBfSlVUZDZldEkwR3JaaGo3dHc0aEpxR1UwYzVwUjlaR1RNeTkzZGg2U2NsTVV6TVpSUGtaNDdzalFEZnZCMzNTVlF1RTg?oc=5
-
-### 35. AMD to take $1 billion equity stake in Meta, 未公开名称AI产品
-
-- 来源标题：AMD to take $1 billion equity stake in Meta, deploys AI infrastructure
+- 来源标题：Dataverse plugin for Copilot Cowork: one prompt, governed app
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=AMD+to+take+%241+billion+equity+stake+in+Meta%2C+deploys+AI+infrastructure)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Dataverse+plugin+for+Copilot+Cowork%3A+one+prompt%2C+governed+app)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
+- 阶段/事件：M2 / pilot
 - 相关度：42/100；审核状态：needs_review
-- 发布者：electronics.economictimes.indiatimes.com
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据electronics.economictimes.indiatimes.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Microsoft
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据Microsoft公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
+- 证据：https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ2l5QlZUTG4wYlNkUUlnaG1LU1pIZlNOcmFPYldMay1nQjhBdENxeHcyYmZfaTVLUkFoYjVweVBkR0ZYMVZxbjVVTGMyazFqZnl6RzlIMzFQNTlTVUNZLUZxQzBoQU9QRnN4Zk50UmxsN2VGX2pQQ1JqNFlqQ3JhaERjVXJ3Q1NJa3JqRFVnR1BIWEFQMkhYQVBIMA?oc=5
+
+### 152. Microsoft MAI family of AI models for reasoning
+
+- 来源标题：Microsoft launches new MAI family of AI models for reasoning, voice, coding, and images
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Microsoft+MAI+family+of+AI+models+for+reasoning%22+Microsoft)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Mashable
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Mashable公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi4AFBVV95cUxNdnFWcVdjOWcxR0t4Yk81ZlVaak8zbHQ4ckQ3QTZETzVfc0RKNVBQSlhXN0lTQnBOUE03UWVQdkZxRDl6WS1WalVMSU1pWno2WmUyenlzUGlZWWRfUGl4M2NOUWFVdG55QWtodXpCUjNwSWhrc1hsTldHaHo5Q0ZPZnpRUU4xeDRqd1ZIX3pYOHFwZ1FmUEdJeG9DUnRlVkM1b21SWGQtOEwtSUVUSlBldFZTWFcyYnhhQkJKVUxQQUtUSXlKQ1pNa3lLNXpieHAzUjBRZUFLVlVCd0xnQlg0c9IB5AFBVV95cUxQcXdFLXFhaWpJeWdZWmZnbldFcGlUeEFtQW5jOUhIeGpGQW90VWcwcnotYzRyT1RjV1JjZ1ZlSlctNmVsTjNBUHNYcDB1aXVkNDBqd3Qzc3k2dFRZenY3UGVZRVJxZ2lYcEN4Q0t3emFubkh0dF9hLUtBUWh6SGw3WVZtYXNiVHBvQVdrcVVZRW5qX0NDNk43eTM2MHlLb1VpeG5lTEl5elk4WjhHalBmWmZGMmF6VzJlQ0FMX1liZGdNU3ZPSDZsSTZERmMzTGppd2RiUGhYeDJlbmZRNjF0Z2k1WmM?oc=5
+- 证据：https://news.google.com/rss/articles/CBMihAFBVV95cUxNQzhvOFFMdzREZTdVcXgtRldpaFlLZENNMEF3dF9wQnF3UWtfRmN3MWt0a2VEVXY1cmJwQTc4dlk0d0hmTHU3bExNTTdkSldJR21ES0l4VnlCT2xERUJGMS0tNFZpMzNBeDJVRW9kc1lBekM1YWZzZjc3VXBMRDJObjdDdXY?oc=5
 
-### 36. BigGo Finance 未公开名称Agentic AI系统
+### 153. Meta quietly ‘AI pet journal’ app
 
-- 来源标题：AMD Expands AI Partnership With Meta: EPYC Powers Muse Agent, Helios Racks Enter Testing
-- 产品名称状态：名称未公开
+- 来源标题：Meta quietly launched an ‘AI pet journal’ app
+- 产品名称状态：描述性名称
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=AMD+Expands+AI+Partnership+With+Meta%3A+EPYC+Powers+Muse+Agent%2C+Helios+Racks+Enter+Testing)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Meta+quietly+%E2%80%98AI+pet+journal%E2%80%99+app%22+Meta+quietly)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：The Verge
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据The Verge公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSE1HRml4U2NYV1NfR1UzTEFMdmtiQ3JYbEJJX3NmZk1ST2ZLQ2F0X1c5TXJyamhZaGJzc3M0ZFhDSy1fYkR1a2JpcDBzOEdXamVQVWp3aUkybTVNdk0xTzlIOGphY3VNa0pIeEFrekh5YWRYaEhZOXVXXzFaNmppb3YtLVBrODRhbzkyZlFhTWgyUGNJWFUtWXJzMXJhbDAyOEl5M2VlZFk?oc=5 · https://news.google.com/rss/articles/CBMipgFBVV95cUxNYUJPMU1CRXUxVmJjZEhibjlWd3hSNldUSVZMOVRrdDdsaG5FcGk1VU03dk1pc3pjak1BWF9qMGhqMzluSExlSWZaeGxDN1k3R0ZaOENYMFB1YlY3OWVTcmQwSVJvdFhQdVFvTWtXQWpiUEF4ZjZLQUdtcDEwb0I3YU9IZmRZejktMXFYR1JWbEhndjRYU2RlSndlRkJQT2lkbEFXVzhR?oc=5 · https://news.google.com/rss/articles/CBMitwFBVV95cUxOYXFIQ0ozQkhPeVhYTDhXX3BmLTEwS0JVQlB3Qmx0NHRraVpYT0JtbkxjRUJ5Rkw0RjJLU2NSZlp0emtTbUFxYjJMaGJsdzA4aExEY01ueVM0MG9Tdm5qb0NlUWVJbW5PRVZ5N0lTajFyeS04MXhJdF9OUVlIOXl2N0M5ZGNBNG9UR2tnU3hmcGtHXzVKaFdvdWxHZU9qVU9NV01tYmdRc3lQb2JjNFFMN2RvdWhZSkE?oc=5
+
+### 154. Meta Waddle World
+
+- 来源标题：Meta launches Waddle World, a Tamagotchi-style AI journal
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Meta+Waddle+World%22+Meta)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Mashable SEA
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Mashable SEA公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxOejZlMkFyMWtEQ3poNXcwSzlFaWZQRFBHVUNSMDJBYURXYVlIdFBKZE9BVGFycWNtNEF1MHBfQnhQU2RwcHVqcEtGWEgxYWdONE1Tc1VTd0ZsMVNRcVhlWUw5amt4SVFrU3Z3aWdCeG0xemM3NUJ5Sld4NUdaaFBtOC1GNHJWRlF3bC1zN050ZTA5RURJamF3?oc=5 · https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc2Q4UGRjdFd5WTM5WE9TYTVtT2szZ3pjc0hXLUxnTUhvMUNHZ1VWUGxWMzJldmZaUVJhRUZlOVg2Y1lXTUdsLWFtVi1MV1ljX2JEN01TVm9UbmlYeVE1Q0dfb0t2SHAzYUdiaGVGUUgxcmZnM2doajNKQVp2em94dllJVUN4SjlkdVNZ?oc=5 · https://news.google.com/rss/articles/CBMihwFBVV95cUxPN196blRyem5BbWhFUkVsOGdfUG8wZDVWbVlVUEJVNDdUUnI2NTlFdHZGY0oyWWw4NE9icHJlVWFUMzRieTYyY1ZLdWlfeDl5WU9EX1c3Rlp0UUVfQWx5c2dkeWhaSVdvT0xWNWlaeTFUa0tqV2VrNzIzSjBrbE1QMlNVRzJNdXM?oc=5 · https://news.google.com/rss/articles/CBMijAFBVV95cUxPdmlWYll6R292N29qTGRLeEJ0eXdnd1NvZXlydFhfV1hOQ1FVR1EtZFdUVzNCRko0alZTbzhHWTVNSzhZYThrRmp2VTNDUURkeVNHRTlvbGhKVkpnSEhaQjlYVl9kZEExTHZqLXE4N2N3SjNCNC1Ud1d4Y284N01jREVySWI0c0FQQ2c1Sg?oc=5
+
+### 155. Ex-Meta director Rohit Patel has Ndoc
+
+- 来源标题：Meta AI Director Rohit Patel Exits After Eight Years to Launch Ndoc, an AI-Native Rival to Microsoft Office and Google Workspace
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Ex-Meta+director+Rohit+Patel+has+Ndoc%22+Ex-Meta+director+Rohit+Patel+has)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
 - 相关度：42/100；审核状态：needs_review
 - 发布者：BigGo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据BigGo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据BigGo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE45LXg4WUZUckNxbXdRY0FYTl9VNnpkbGdoNElBYXZBN0RXVGxrejE0MmkxRUUxdFc3TnRYNXN3ZTdISm9UOHdUbk1nNGJ2Y2VVbUE3Vllmei1jRm5qSkh5N0F5Qk5XSzRTQXhfMHlsdzlmVFNINEE?oc=5
+- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTFBLVElMMjg3dHF4VHY3ZldfYWRaMUo0U3BlVWNxS3pEZ3hxQjliVlgwVmpyeGdMZUFSRkF5YmRhUUEwelktN0NXZXJseC0wdlJzWEtTQ2RlRXlxSW9vNTkzdExwMjZDMEdVTTJHWWdPSEY5SDRZb1E?oc=5 · https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqYTRCanloZ0VBNGI5SEpDQV9DSVl2UnAyR1ZIX0R2OVN0b0tBTDlYRnRCaHRJaU1KMmJKR3VGeWJac2RqNXUwRFJmal9kY1JlR0E?oc=5 · https://news.google.com/rss/articles/CBMihgFBVV95cUxNRTdwaGMzbWhoZjNzUjctTmQ3Ty1WQy11YnJMVWFiOEVvYVZIZ0xkRzFvMDE4VDRfNFNPbEQyUzBMaEUzVjhSZ1dLVEh5MlBhYWNEUU13UXRQMzlWRDJ5UnA1QlZwZWVKTmlXUkRQV1hLR3lIbWk2MmRDdnoxcnpCaS1va3U5Zw?oc=5 · https://news.google.com/rss/articles/CBMingFBVV95cUxORm95MjZBelRfNmgxX0FYd0hSSXZuVDNBc1oxbU5nRjdHOUktYl9yTndoMXhLZ2ZPYUtyLTBXdV9qTVF0RDk0TklQS3V6bVE5ZTdHa3FhQmh2c1VNQjhIWlQ1RFBiT3BMbFE2U0hSV1Z0bTRNQ2JwMDVIdmQ1YUJ3c0h6REhtU0g5cXk0d2d6bzV2Mnp5cWE4eXdoZWhSQdIBowFBVV95cUxOS2ZRdUFYdlg4eTlZMFZSSUNkT185M0t2Nk45MlByR2ZZdDRKWXNDbkZYck1iSHZQNTZkUmVIbGlUNmRkWmlSdGR6Qmpjc3JHMWk3QlF1ZmJLamhZTlhxOU1RaUY1d0s3ZUx0WW9PZlVldkVwY3pJVDFtRE5qeERrUm11VEtzTXlKNHB3Ym93SzRub2taSlBOdXJ0YnlIb2xoTGhv?oc=5
 
-### 37. Adgully 未公开名称AI产品
+### 156. eWeek 未公开名称AI产品
 
-- 来源标题：Meta AI Director Rohit Patel steps down to launch AI office suite ndoc.ai
+- 来源标题：Nvidia Invests $3B in Meta as Muse AI Partnership Expands
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Meta+AI+Director+Rohit+Patel+steps+down+to+launch+AI+office+suite+ndoc.ai)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Adgully
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Adgully公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeV84RlVCTklnU3BUcFBPTG9UWVF5djJndHdrVGdQeTJsZ0VLSng3eHpwbFBoQlp1eVBzMkNiZWN5SDVvelFsamF1Q1l0RE1qbXBPUlRHS1lLTFUyR3BCN2dFSUE2empKaWF5QWJ5ZFpleTcyY21lSDJNTWxLbzBoMVlESkk4elF2TkhyN1hBN0RYMTdybFhUYm50WHpMWnk0SjB2X1hzb2NWVDQ?oc=5
-
-### 38. Nvidia integrated AI platform for VMware vSphere 7
-
-- 来源标题：Nvidia launches integrated AI platform for VMware vSphere 7
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Nvidia+integrated+AI+platform+for+VMware+vSphere+7%22+Nvidia)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：TechTarget
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据TechTarget公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMioAFBVV95cUxPLUhnZHMxcDdPU0RLN1c1Z0N0Q3hJU3BkcTZNQXZIREhuRG1qcHM5amNDU19lNlN3ZDdXNmo1QU1YckRJNUhQMGplbWphejZKSUtoNVFsNWVldzR5LTRRUmx3SzJxaVQtZGV6QUJSX3FOX0kzbGRvOU1xZzBwMlc2YTlldUZMemtxMWtjZzhCT1owWGFHajU2eVp5dFNzdi03?oc=5
-
-### 39. Singtel's RE:AI to 未公开名称AI产品
-
-- 来源标题：Singtel's RE:AI to deploy Nvidia DGX GB300 in Asia-Pacific first
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Singtel%27s+RE%3AAI+to+deploy+Nvidia+DGX+GB300+in+Asia-Pacific+first)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Telecompaper
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Telecompaper公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdFZpTVRvT05odjVkSG1mMHRYSjdGX1BrSXA5YkdraDVaWGE4b0FQNzd0N3htQlhWRzZCWkhOX3RhMnZFQmVscW4ySTFZa05XMUJwZ0t6dzV2RXh6NnE5QWFtWmZzMmpTSzlIbFdFU3JJbXJVY0pqUEtHVzlOSVFpaF9XaGJ5Q190NEFJMHg2YzdCN05iUjVWTlhkM0xFZVJvc3JBQjE2WFI?oc=5
-
-### 40. The Economic Times 未公开名称AI产品
-
-- 来源标题：Amazon asks engineers to reconnect with customers as AI reshapes software development
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Amazon+asks+engineers+to+reconnect+with+customers+as+AI+reshapes+software+development)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Nvidia+Invests+%243B+in+Meta+as+Muse+AI+Partnership+Expands)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
 - 相关度：42/100；审核状态：needs_review
-- 发布者：The Economic Times
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据The Economic Times公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：eWeek
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据eWeek公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcjNwdjA1blYtU0ZXdUdfRnhUSVRfbXRfT2dwVEk5MlA5di1aTzZoUmZqbFBwblZZZENzWWtORTZicHdVOE9BVEhhZnJpMHF2cldpMXlWMzhhZDhkQ3RtS1BpWHllSjhBZF9tRjB4cWt6aFhMS1Y0d2hONWh3bTdEamVmVlRxckFDeTBQMkRzRWE5NGxMdTlvU1E4UFBGT21RSXFaT1dReHEydVBxRVBhWmlDSHh2eGQ1b1JFSFpwdVBveE1OOXVMdGJiM09uWWdRRE05UUg0NG9FUFVPTmZDa2U1QTlmbHBVWXfSAe8BQVVfeXFMTmU0VkNabkpNSU1QMVduRU91THBXajVKOVRsczNhYlZvX3QwMEdhMDVFQzRZVFlYaTk4RlpSMHJCZDZuS0tTWGxhMnZ4NUxyNjJOaUlmck0wWmVsT0ZuaUl1emR3S3h6cmtOYWJieW5tS21URWhBdDdzNGxJSm96TGJrRG5oTHdfNVJoT1kxbGgtdjhIV0JzYlFmVng4U1UyWm5femI3Rmt0bkk3NmVMd3R3ZmtDXzFMZmVXVEZjTWp6NzQzcVdTWVhhYzFHSWlWZEJtR0l5NzZoMFVTcTNCalpHYjBUVFhsUTNkZGZYbTA?oc=5
+- 证据：https://news.google.com/rss/articles/CBMihwFBVV95cUxQUVZlcVJKMnpVT3NTejNzTDFLcWoyV3Ffa1JkQkZlSC1TRzdGb3NUeE1aWVlRNFJWbmtJVUNMTVU1X3huZGxyTnY2bE8wVU1FTnRMSjlNZUpYQlNzSl9uTllZZHg2WlRpUlR1Zi1vdnNpNUxtRUdWM0NDSHlTNDM5TUNTLWJfNjg?oc=5 · https://news.google.com/rss/articles/CBMi4AFBVV95cUxQVjZNZGltV3VONVRSd1lDRUppRDJkMUtfZHU0VjZkcFVrdTM1aVlHQkN4Zmx1Tm1OT292ZTZoRUpMcmxqQ2ZnQVFaNlZWeUtTcGFpVDM4ZHVEcWcwTzZPeTJpaERXZnc4QTl5YnZEOUhUa3NicWNNTWdxZWhPeGYtYlgxdG50NTdsRWp3c1JvbjY1QzVUaGNvanRyWjBLdHNBSFdSaTJGNTJseWR5UkFZWG9RWmRueHYtTVVHd1IzRGtQREE0WVRHR2hrT1dHZUk2ZWNHQ1VHbmNpTEhQVEF2RQ?oc=5
 
-### 41. Oz Arab Media 未公开名称AI产品
+### 157. Traders Union 未公开名称AI产品
 
-- 来源标题：AI Debt Tests Loom for Oracle and Hyperscalers
+- 来源标题：Can Meta Muse AI deployment support Nvidia stock?
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=AI+Debt+Tests+Loom+for+Oracle+and+Hyperscalers)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Oz Arab Media
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Oz Arab Media公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi7wFBVV95cUxONUdnVkhvLUN6N3B1b0JkUHdCOE9xQ3F5MGU0R3RXOEdSbUhTaGhNdUxYdE0zMHVsaUZ0bG5yZHFpNlgzR1IyTk8xNnNDbkNlb1lSbG8yaHlmWnM3akgyd1BDMEFpdlZMM0hWajFaVkFpVWprcVAwTlBrVExEZmg0c1NRZ1BFRjIyXzBlV2ktSWNsSHBFQlZWR3ZTWnZrVGZBYmV2QjZYZnczaUYtTEtmUFdfYnpoNkQzclFoTmNkZGNZRGhnbFVtc0x1VFNQeDQ0TlRUSHhoZVd4bjFWNm91aGRiMERwcFBkbXFCakZaYw?oc=5
-
-### 42. 디지털투데이 未公开名称AI产品
-
-- 来源标题：Amazon to revamp developer evaluation to focus on customer and business results over AI usage
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（business、developer），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Amazon+to+revamp+developer+evaluation+to+focus+on+customer+and+business+results+over+AI+usage)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：42/100；审核状态：needs_review
-- 发布者：디지털투데이
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据디지털투데이公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTlc1WG9IYk82RkpHcEVGcF9kdXc1VEhnSlY2TklfdUNwSkI4RGtvdGFwZ3NoSFNKWFpxbGJpQ0xtU2pBWnIyYjdxdll4bVREYkp5Y0hKTDUtT1BwODN0N1VIM242QTdER2NoZGpLSG5MTGVxTkxSYThrRGNBWGxiTjFHR3lzRVZKX1VNcWxqSldtb0J1V0ptZndHZ0pWSHJuWXcyLTNTaVVoZVdJOVo3QzFIYmJfajBfQWFUYUMybk9Uc2ZzaWpxeUhmc1R0S3R0MGJDTDVn?oc=5
-
-### 43. IBM z/OS V2.5 未公开名称AI产品
-
-- 来源标题：IBM z/OS V2.5 integrates mainframes with hybrid clouds, AI
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=IBM+z%2FOS+V2.5+integrates+mainframes+with+hybrid+clouds%2C+AI)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：42/100；审核状态：needs_review
-- 发布者：TechTarget
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据TechTarget公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMinAFBVV95cUxORVdpeFM4MVVBNE5aUFNVUUFGUTZHUWFBZmMwSFNmUDh3RFF0d0hKajZLM2Zab2NZaUJPMjZuektfOHM2VWt2REI1WVBjZFVyaWM3ZXRydHUzMllXcmNHb3B5SHdDTllXR3VKVHdIS2pCdG5PZHBEOVVRcmpaLTVZbGtWOGhrek5sMFdyaTBsalRiZG1OcURFcV9XaWw?oc=5
-
-### 44. Snowflake Cortex AI 未公开名称AI产品
-
-- 来源标题：Snowflake Cortex AI integrates OpenAI GPT-6.1 Terra: Can SNOW break above $337.99?
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Snowflake+Cortex+AI+integrates+OpenAI+GPT-6.1+Terra%3A+Can+SNOW+break+above+%24337.99%3F)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Can+Meta+Muse+AI+deployment+support+Nvidia+stock%3F)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / customer_deployment
@@ -845,123 +2879,537 @@
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikgFBVV95cUxORmZDcFJQQTllQ3d1QXRVMDBFVXhPX0h5eGpfdmJpTFphN3d3OVJ3Qm5jQ0NUNFdSTnd0ZkI0SG9fMGJ5cHFBQkVyaTM2MFRHTlNPZUlIMjBlMWZzOEVsQTdMQVRuNkZ2enBiaW1WTVVSaXRwNHZwXzRic0d1M2V3S0VBeW1scFRHY1RNU1hmRnBBZw?oc=5
+- 证据：https://news.google.com/rss/articles/CBMijwFBVV95cUxOZmJwMmxmTEhzN2lTWGxCcXpfalhBNGprandOelg5Rjd1MzJsU05qOFZpU0w5a2p3ZzRUYjBnbnc1NXEzV0lnOGtwNVBGSDJIVFI5YTViamNJNTF6R3BkblgtazdTTllyYjZRTHdSZEswbkVWY1ZucXVtMVVSQnFMWGM1SHlZVVh6akJfN0l5VQ?oc=5
 
-### 45. The Economic Times 未公开名称AI产品
+### 158. Voice AI in vogue: Nvidia open transcription model
 
-- 来源标题：Oracle's Larry Ellison dismisses 'SaaS apocalypse' fears, says AI will make software better
+- 来源标题：Voice AI in vogue: Nvidia releases new open transcription model
+- 产品名称状态：描述性名称
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Voice+AI+in+vogue%3A+Nvidia+open+transcription+model%22+Voice+AI+in+vogue%3A+Nvidia)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：TechCrunch
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据TechCrunch公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMingFBVV95cUxOYU5veWRiUWgzSl94VTg4NDlCZkJpX0NadTNIN1J3c3kxX3BOYk1TY2NUN3VNeUpFbUh4WWVXUmJyQ3dzTFhlcXlja0xIQWs4SlEteDFZTlVHMlAwS1F0Q1QxamJlbDBQTjh4R0ExX3ZQRFpXRlF3dzRHcXk0bkt4MVNMTS14N1RqcElCV3VsQUlXeVdlSlZkbG5qVkVNZw?oc=5
+
+### 159. Supply Chain Dive 未公开名称AI产品
+
+- 来源标题：Nvidia forges supplier agreements to expand capacity for AI
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle%27s+Larry+Ellison+dismisses+%27SaaS+apocalypse%27+fears%2C+says+AI+will+make+software+better)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Nvidia+forges+supplier+agreements+to+expand+capacity+for+AI)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Supply Chain Dive
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Supply Chain Dive公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMipwFBVV95cUxPNEF0SW5jbktMRkNyS2hEMGdZU1NuWFNSeXltQzZOZ19QWlJPT3Byc0ZDMkFTcWdhQmZKTEhocC1lcWpndXRQcU56UkZSTjZQVy01Ul9BQVFpT3NkdndyOV9EU2FmV1c5QTJRZHYxWkZ4cHdja3BVLS04WFN2VWFwQ3ZSdjFZMHFkNFlLeHk4aG1DeXlhQVJ0N0d5MnZkVWlHNVB2Q3ZsNA?oc=5
+
+### 160. R&D World 未公开名称AI产品
+
+- 来源标题：SpaceX commits to $40B NVIDIA GPU lease for terrestrial AI buildout
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=SpaceX+commits+to+%2440B+NVIDIA+GPU+lease+for+terrestrial+AI+buildout)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / pilot
 - 相关度：42/100；审核状态：needs_review
-- 发布者：The Economic Times
-- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据The Economic Times公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：R&D World
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据R&D World公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQkJHal9wcEdpaVZVdTBQbVY5OUV1Ym1GN0dVLTBjcXFPcktMd2JGVTBESEZBTFR2Si15d2VPZ1FyX3hvQjdlVmVCS2ZRVnUwSVFtRWJuWmtPeWVUU2Z6Q2ZFNHA5MUtTU0NibFRCdE1QS19EbU44T1dPYUZOdmJjR2xJaGZaLTc4ejlQckpnWmowZGhWZ2ZuQURKeFhaSmZxd1FfdDctQ3NFN1JkYjFTMjJyWmJxQjk1Q0NFNm5wWm1GdGVUdV9VdTU3WEtvLXhFT2pZUzN4VnN4ckx0UWlGLVNZR1NNQ1IwcmR3QnNR0gHzAUFVX3lxTE9QZ1dzVFRHWjlvYnhGSUd1djljUktSazFYMER4N1g4WjFlU3NlZzFJTUhxZnU0eS16ZDNoSk1LdlYxQlJhMy1KS2NnY2RUMzRkaFBZd0V3WGxqTm0wekVSZDM5bm9NLXNCajBqcERwdVVmV05xZ1k1SXBMWGJXRWlDelVvVjBTY0ZSM2hCRURSaElfdG9aS0pfM3ZBQWM3RE54dy1KbS1ZVlJGZUR2ZnZ5bTJEM0pYYUQyUDJfY1BEMUd3NlZZZjJMWE9YbXkxcVFadWlqSmpscmdBdFkwZTFVcko1WTFJSjgwUjZmWFNkMC1lUQ?oc=5
+- 证据：https://news.google.com/rss/articles/CBMingFBVV95cUxQMkZtSlc3YWtHZGJicGNELTlSTGtMM0o5N2lrUC1VN2Q0U3ByRi1ROVRmcl9idmFpcE9jekRPaElWUHN2TDJzc1pYMEo4Q2FBVE1QS0ltSXVoQ1hOcXJDS044YnAtWnpzUUhWSThGTEh1bVFDcU44ME12NDk1ckZTNTY3NHRkOVBiTWNRRDcxRkhtY0ZKME1oSE9QUWdGdw?oc=5
 
-### 46. Alibaba roadmap on full-stack AI strategy from chips
+### 161. Amazon Web Services (AWS) 未公开名称AI产品
 
-- 来源标题：Alibaba unveils roadmap on full-stack AI strategy from chips, cloud infrastructure, models to agents
-- 产品名称状态：描述性名称
+- 来源标题：Industrial Sensor Data to Operational Intelligence with Archetype AI on AWS
+- 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Alibaba+roadmap+on+full-stack+AI+strategy+from+chips%22+Alibaba)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Industrial+Sensor+Data+to+Operational+Intelligence+with+Archetype+AI+on+AWS)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Amazon Web Services (AWS)
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据Amazon Web Services (AWS)公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiuAFBVV95cUxQclZFRFNzN0t0SHNWaUZ3dV8tMWg3NzNfTWVyVWxGcEg1NDF1cjA4MDRKdEJqSGtJZDFFT3doaWFzalVQbGtYX2VTd0RyMmM2S3EtZ2RNdUtYdGMzYXFjNUt3U0QtYXBzSHhVTHNqNXU1d1Q4SlBGRTFYLU51LVhic1l1VkZ5ODlQWUtocWJua19KNktTQWw4VWxELWFwbXUtc0VnYTM1QUI3aFBGOGowRUFFYmxjT3A2?oc=5
+
+### 162. Amazon Web Services (AWS) 未公开名称AI产品
+
+- 来源标题：How Toyota Built BasisPilot – an AI Assisted SAP Operations Platform on AWS
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=How+Toyota+Built+BasisPilot+%E2%80%93+an+AI+Assisted+SAP+Operations+Platform+on+AWS)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Amazon Web Services (AWS)
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据Amazon Web Services (AWS)公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxQTXExQ3BBR0dybTRXQ1loLXZXaUFsZklKVTVJV0ZzOHJNOU1nVjYzY1ZtWG91OWk0RENxUUd3WC1oUlF2T05kLUZBTEdtVEwxdGhvYWFuOEJsRUF3TTZIckN6MkQ0S0N6eFlRdmNTMFhUZUtEd3M3bXEzQ0Q1cGYtMWNXRE1MR2VwVzlkT1VXQmMtbjJoSm1MNWlkdEE3Zm9WNW1YWjBhTnN5TUVvZDFxNnNGYw?oc=5
+
+### 163. EUobserver 未公开名称AI产品
+
+- 来源标题：Digital panopticon: ‘When you work faster, you have to work even faster’ Amazon workers tell MEPs on AI work surveillance
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Digital+panopticon%3A+%E2%80%98When+you+work+faster%2C+you+have+to+work+even+faster%E2%80%99+Amazon+workers+tell+MEPs+on+AI+work+surveillance)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：42/100；审核状态：needs_review
-- 发布者：Philstar.com
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Philstar.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：EUobserver
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据EUobserver公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS09pd2FTdG5QMXpzNExBMkEzNHloR05VbFhlUkNwMEhGdnYwYkVTRzF1NHdWTFJGbzRZVXFRX0diN0dtQVVIeUxtQi1aMVpTYndaNnhwMm84TzRBZTVsRG5pN0lQaGVwamptaFZ3bTAyUGRxbXVtdjNpTV9LYldGbVRlbjhIS2tkQllfUWpqeTZYY3dyT29XRkJxOC1VUWx5VE9WbDdyRzRpUTBuSXBnTlVydHgyU2FqN1pxSl9EWU84MWczLTVhWXFHMXgxOUI5azFIQmhDWWx5d3NlY09HNy01UjF4UdIB7AFBVV95cUxQLTlaZHVIdDVqNjN2dmFwRXo1eV94OUpVNlV3UDFkeUUwLXlFalVrQVVUSTg4TV94VG1mUlRHTHJySlgxa05OaVdwdTc4YXhxb2pIWGVYMXFrQzNENUZ1bmE4ZTZ0TjU5RzExaVBNSDlVZUJlOEd1SDAySklXOUJKY3F1VUlUNWRXMUhnMWdMYzFkQjZidFNvcWt2bmV5MXdxZWxDX2N1dVU2em12QXRaVjk3bUlPcjl5SUJnaXkxbHlaTTZhdG1WQmdLVkNmRmJ4S1p0TEhCRWhrYllkVGFjVHctLVpVcHRoWUY3TQ?oc=5
+- 证据：https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVmRiSGtyZ3E2RTdsX1Jrdi1Zb0dxQlFzelNyaERTQVF2N29nX2FfU0RCWjNGdHBuU2FQOWRtd0JvelBGamxUWW5vRFVlZlYzVTZmNFJnN0hRVFc4VGljU1BaM0ZnYV9TNUFjUmNOZVgzR2xxRXBFODlKOVcwSEVqR0h4c2lSN25kaHJocHlIN3lGZkxDWHZpNFRnaTJHekZzMFpRczdJVXJrZ1hIX1g4ell4NDJTYWJQX1R3Q2V5NnRGWWFMSWJYalZHM2FReHRFcmp0dUl6VWpFNlpoN0NCNjFB?oc=5
 
-### 47. The American Journal of Managed Care 未公开名称AI产品
+### 164. OpenTools 未公开名称AI产品
 
-- 来源标题：Start Small to Scale AI in Managed Care: Leanna Baker, PharmD, MS
+- 来源标题：Mattermost and Cohere pair private AI with an engineer-led deployment route
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Start+Small+to+Scale+AI+in+Managed+Care%3A+Leanna+Baker%2C+PharmD%2C+MS)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Mattermost+and+Cohere+pair+private+AI+with+an+engineer-led+deployment+route)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
+- 阶段/事件：M3 / customer_deployment
 - 相关度：42/100；审核状态：needs_review
-- 发布者：The American Journal of Managed Care
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据The American Journal of Managed Care公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：OpenTools
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据OpenTools公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikgFBVV95cUxQWkx5b1RGVmVSQkxNTDh3U1U0ZElpZnFBX3BscmpLb3VXVXFNM0h6TzNwa0ZsdWpicGk4N21SajJib2RubjlRMlVXZWkwbkxnaVNHSWZIQ0hfNjNEY2NaakUtb3pQbkhMWGdWUXk2LXN4ZlBZcGczZmF2ZDlmSktMb010RzBETEhTSk9nb1hDdXowQQ?oc=5
+- 证据：https://news.google.com/rss/articles/CBMimAFBVV95cUxQLVFjMGFzYzVGanJ5Z2llb25lN3NyRU42SC1RaFQ2M3lFaXlJSEVyNUtjYlBzVWJydEEzRmNEWUQ0S2YydzB6TW1xMi1objZpTGpWSjBhbmZEbEZPUFpnbUlCQU9yMExjbWxDTjZXV28wTDJkVHR0ZDVseTFrelJIdU0yYU9aSXRMYjhVR05XYzZfUGdBb2VSVw?oc=5
 
-### 48. Cybernews 未公开名称AI产品
+### 165. INDIA New England News 未公开名称AI产品
 
-- 来源标题：Scale AI GDPR complaints target Outlier worker tracking
+- 来源标题：IBM India Chief Praises India’s Balanced Approach to AI Regulation and Innovation
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Scale+AI+GDPR+complaints+target+Outlier+worker+tracking)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=IBM+India+Chief+Praises+India%E2%80%99s+Balanced+Approach+to+AI+Regulation+and+Innovation)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
+- 阶段/事件：M3 / product_launch
 - 相关度：42/100；审核状态：needs_review
-- 发布者：Cybernews
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Cybernews公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：INDIA New England News
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据INDIA New England News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMifEFVX3lxTFBOQ1R4Zk5uNlBReUJpVHlXZ0RJUWoyRUlSNzhIbjI2blU4cU9BdzhBbGktZ1EyWGlNVDZ3bjR1Z3NXYUhjVVRLZ1plLWloSXl1cnNTZXE1TWRMbTFwUmQ0ai04ZWpNXzJzN1M2aW9NUGhTNDVGbFNfNXAwWEo?oc=5
+- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxNQzJxR0FDNTZ0VkpfbnlhRjF2dnlnMGV5NkZoVDBfTlExc010R3d1YVB0eWxsRU1qS2pBaVBxOEpMSVBOa0dhTzduTmlaLU9LLWxrOG02ZlY5a0lqLUhlUlNPM1VzWlRRNDZwSlJ5Z2pkWlRpYl8tdmlsc2E2d0o0MFRPU0hsV0lXbzhucjh5b2V2TTVoaG12S0lkTGU5dG9VZVpUcHFaOW9tNlJRdGc?oc=5
 
-### 49. ET Telecom 未公开名称AI产品
+### 166. Business Upturn 未公开名称AI产品
 
-- 来源标题：Data rights group takes aim at AI platform Scale
+- 来源标题：IBM extends US Open AI and cloud partnership through 2031
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Data+rights+group+takes+aim+at+AI+platform+Scale)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=IBM+extends+US+Open+AI+and+cloud+partnership+through+2031)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
+- 阶段/事件：M2 / commercial_agreement
 - 相关度：42/100；审核状态：needs_review
-- 发布者：ET Telecom
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据ET Telecom公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Business Upturn
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Business Upturn公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTVF2UDBFTXRjN1dQLUZydDNQdTlZbUIta250WVhDZ0dTY3p0Y2xUekVrc0tEbGtmUzhoNTN1M2xRQm8ydlhEdUwzbWxmbUM2NGRnbm1NY3NpdkJiclkybVB0Sm5ZZjZvNi0zalZpakZMa1RiUkI3amF1blMzcnlSdk1jZjUxUDd3QkU0YllRMWFMdXdrSk15VFo5X3YwVTJoTTJDcWdZSHZpUmp1RGdIb05DMkt1SXRB0gG-AUFVX3lxTE1KU2dPNkhXU1NTcUdGR1JwVU9CblE0d2h5dTBxS3BGV0FoU0VsVHI1YjhwZ0xwc19OY3FVWmFDN3dWX3NWVi0zX09MN21FM2NTcmZsVFc4SFN2OG11Y1ViYzlHR0h5S24zSktOdFdkcXJjSE1FOVZLTWdsOF9HRXFqa3J6R2xoMnNncXZTWHRZMXZVX1kyaDUyMHlYV2tDQkllcXk2Q21XMFJLZk1MYmU2MEZzX2Z4amd4NW5Bc2c?oc=5
+- 证据：https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSW9iS2FIM3NTODdvTnRBVWp1TkRrcjdtV0lJeE9GUW0tOXpRVFA1VXprdE9JZWFZUUhuMkV4QlJzOVhLM0hlZExXTy1pQl90VmNqcFZZOHlGcURqNnQ2VW9mR3RmVlA2UU8tcU9SUDNwQ2NlZDd4ZWg3MUxfT2JNUUNtdmQyX0dXeERiOEJKbFVCVHR2bEZJUzJSbGR4LS1sbk8yRzlSeW9fQQ?oc=5 · https://news.google.com/rss/articles/CBMipAFBVV95cUxPbWctZmxwaFhyWWozdmlZZ1pmc091UUpXakQ3dDllbmhpSjhXaE41Sm9ndWFlN1ZsXzhpbkI2UGJ1UnpvU3BwX2N2YVlaeXFWLVk1elZCZHV4RkthQzJZY1VlRVZhS2VQS0xiZ2ZESHVSQ1FrSkIyYUFZSncwYi03SkN1MjBRaEFsQVgweG5JdjA4MTI5aDhlbnNIY3dILTBkcHV6NQ?oc=5
 
-### 50. SK Hynix $45 Billion Shareholder Returns
+### 167. USA Today 未公开名称AI产品
 
-- 来源标题：SK Hynix Unveils $45 Billion Shareholder Returns as AI Memory Demand Lifts Profit
+- 来源标题：Stagwell (STGW) and Palantir (PLTR) Expand AI Partnership to Transform Enterprise Marketing
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Stagwell+%28STGW%29+and+Palantir+%28PLTR%29+Expand+AI+Partnership+to+Transform+Enterprise+Marketing)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：USA Today
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据USA Today公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOFA0eEMzVjlabUUxeWZPOFRNSzJJV1NmU25xd2ZQLUVLM2h3Q09xWWRZT1RUR2RJaEdkMHRZdkZWZGdBeEJkeER3cXBRUGxjV0JYRFlsaEdkb0xrMjk4dmducDJ0XzRCLUhNOUYtRGRfRW5hUnJaeW5JajlEcUp2MDdWWUNkaDhhdXJnUXVpODlYQk1PLURKb0xHZUZ3bGdTdTN0Qjljd1ZkQ0VUOTltX1ZUMFg4M2pzR3V0czgxU0ktVzVzYS1Kem1aeERaSTJzbDdrN2pn?oc=5
+
+### 168. Common Dreams 未公开名称AI产品
+
+- 来源标题：Trove of Documents Exposes Secret Palantir Role in Medicare's AI Pilot Program
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Trove+of+Documents+Exposes+Secret+Palantir+Role+in+Medicare%27s+AI+Pilot+Program)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Common Dreams
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据Common Dreams公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMic0FVX3lxTE00bUZWTV9vVnp5eXdvbUNJYjNrUVNRaDRMN0o0MWF2ZjAxdXZ6NF9LM0dsTTlfUE40RWtsR3I0NU1YQ0JjcDRmUWNPajRKc3RxSUZRLTJyMW5TRmViVnNrcUpBTWpDQmNiek1ZSDBVQ1l3bnM?oc=5
+
+### 169. ad-hoc-news.de 未公开名称AI产品
+
+- 来源标题：Oracle's AI Land Grab Meets Its Balance-Sheet Moment
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle%27s+AI+Land+Grab+Meets+Its+Balance-Sheet+Moment)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：ad-hoc-news.de
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据ad-hoc-news.de公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeEJvMS1ZdURZZVdoOEVrblZKcHBzTndPRmpKaGxwUXZtTE1Kc0tMaWlmUUFvQU4xTGNTQUFGR2JNVmtqc3p0Y2FwZUN3U0tGNTktNG9OSkNXdjdNMThPVHFVZk1kengtdzkyZ0VEY181NzVIVGFBd05TMEh3V2F6M19uRFBZUXl6MXVaVTZLRlgwbGlXYXgtb0docDZndHZOREg3Si1BN01qVF9nM3ItWlFVVzFGbW5ucjctTzQ4aFZ1UQ?oc=5
+
+### 170. Traders Union 未公开名称AI产品
+
+- 来源标题：Oracle stock rises as expanded AI partnerships boost market sentiment
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+stock+rises+as+expanded+AI+partnerships+boost+market+sentiment)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Traders Union
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Traders Union公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiiwFBVV95cUxQV29OajJVUnFjR3N0VlNnTkZER0dIaENqaE5HQjUwNTQ0dVJwM2xOVE96cGJvOVlMWHJtNVB3ZmNKUmRJLS15emtBUDhObWFhWk95cERwbEhFN1Z6RzNGemd1MWl5RldKRVJONkRzVXhDRHZfaWlUSTNhSVVtcXl1ekZBa1BMZ0hBdU5B?oc=5
+
+### 171. Washington Technology 未公开名称AI产品
+
+- 来源标题：Oddball acquires Salesforce, AI implementation specialist
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Oddball+acquires+Salesforce%2C+AI+implementation+specialist)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Washington Technology
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Washington Technology公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMUxVTXFNcUhyblFJekJYb3UwekFvQWwwc0liMi1ZTTNiLVVSSHg0cU5uajRqa2dzOHRVX0NjN3hrQkxmckY2VDZRVnFEbHhoOUtudUpCam9mSXZ0bEYteFVIeDBmVlVSajJxRi1sdHJSelh2dGxjam5oYTl6b2w4Nkh4Tl9OR3VQSGdRYjU0OERYMkpGejBCSVdKTlcwYUszVjlsZnV6cU9XQ1BNdUZFdGt0Q2JqVEV6dE9OX2F1LTZ4X2Vzd0gxZktlZm91NG1fNEFGZTltSQ?oc=5
+
+### 172. Seeking Alpha 未公开名称AI产品
+
+- 来源标题：Oracle jumps 11% on expanded AI partnerships (ORCL:NYSE)
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+jumps+11%25+on+expanded+AI+partnerships+%28ORCL%3ANYSE%29)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Seeking Alpha
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Seeking Alpha公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMikwFBVV95cUxNVTR0akFpVlJ0OXJFcUp1ZUgxQVk4cHF1eTNlNElSVjdwbkZlSmhsV1hkSGdsS1d1by1pSDZZa29xSVRKU0FKU1ZaQm02M2ZEcEZsVjBNMkxrbjZFRGdzR1F4ZTVhN2wtQnlsck1NSGRsZl9vVTdpajhmempGNXRoLWt6a0xyWWlGYzU1RzlTXy1MRU0?oc=5
+
+### 173. diginomica 未公开名称Agentic AI系统
+
+- 来源标题：Oracle AI World 26 - HCM customers want agents, but process, data and legal sign-off come first
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+AI+World+26+-+HCM+customers+want+agents%2C+but+process%2C+data+and+legal+sign-off+come+first)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：diginomica
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据diginomica公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMU9KWUhQZFNDbUNEYUZEWTJmTWpLODN2UGVYbHM0WW5QWnBlT2dqQWVyRnZoa2pSR1pVUkU0UkxIRUQ3UndBUkhtUUZnSi1sS0I1TDhrcnR5b2Y0aTYwLUV2X2RjODI5aHplelJaNVRSQUpCb2cyREtDRFR1UVlhOVN2R1J2Nmh0U1dQcGxSQ1NJcHVFeUszYUgwNkFFQ3Q4cl9xWmJVa0pnQQ?oc=5
+
+### 174. Geo News 未公开名称AI产品
+
+- 来源标题：PM Shehbaz sets November deadline for AI-related projects under Alibaba partnership
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=PM+Shehbaz+sets+November+deadline+for+AI-related+projects+under+Alibaba+partnership)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Geo News
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Geo News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirAFBVV95cUxNYnR1RTZfTThjQnRLeUZmSGpqOGtBMS1rT1hDZFN0UEM5VHQwMVdNTWEtM0dYa1dfMU5XSVY0NnZYbnJ6OUxVRVU0UGs5SW1yVkhxdVVlb1dFVmkydS01U1JNQ0VBX284Y0N0QThXcFNiaWFlUmxueFpUckJJMmNEcUk1d1dIaGViZkpRVWtYUklma1JhaHhYeWxrMHBkUFRGWnRWSDB6RW5sRHhJ?oc=5 · https://news.google.com/rss/articles/CBMioAFBVV95cUxQNlNBemdiVlJLbTRBemtHeTF1TXF3SWQya014XzJvdUtFekl0eVQyN1EteFE4dnprUWlFOC1LU1dmdUhENUNXeG4zZlFoYzU5VGRSQlBVSEhMeGI4c1JtbTVqRE9aTXVHQ09zc0JyU00tTERRVGJKbl9zbFllQ1hLU1d5UFVlVGNvNXRoSDN6VXJuZE9rbjRKQl9iWVlQNVpt?oc=5 · https://news.google.com/rss/articles/CBMirwFBVV95cUxNUVJfODFUQldlcWJ6LXJFSnVzUTJ4cW5PYnhSdXloT0lKUDI4VU5lZEpLVFVOQ19XQXpxSWdqbFJVaVJ5bHNJNzh1UVZIaUhMd3NVRXkzeG9wYnR6NW1ySUxyOGdCSkg4SG44RmRaTWMxZUxkdWpwcWZFYjlUTXJDZDFTZk1vQ25RcllaLWR6eEpBUE9LYzltVjRHcEVNOWV6bE5LSG5pbmJfdUxRdFgw?oc=5
+
+### 175. TruKKer 未公开名称AI产品
+
+- 来源标题：TruKKer Adopts Tencent Cloud Infrastructure and CodeBuddy to Accelerate AI Innovation
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=TruKKer+Adopts+Tencent+Cloud+Infrastructure+and+CodeBuddy+to+Accelerate+AI+Innovation)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：42/100；审核状态：needs_review
+- 发布者：The Fast Mode
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据The Fast Mode公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSGVfTXFaaS1MZFZ0Um9WbFRTRVNsRGhSYmxMTWlVVXI2NTJPcmJrRGlGQURoS3BVYWNVTElDYVI1MzRtamc2VHRJZmVrWHBGQU9EaW11bWREajF3RkxudUhPUDhsc1dYT0R4clNJWV8ydkxmMHpQNmZBUEpJNXc3Vl9MZnpaeldNaGIzN3YzcVo0cW93dUxfYlRUMW5xYkVrZktYRXFiVWE2cHZxZktQdFFDRWJ5VTFQSHRsdzdseXYxdU5YcU4xZjNUdXZtZm4yS0xqOFpFdw?oc=5
+
+### 176. My Name is Riemann
+
+- 来源标题：Riemann Computing’s AI Model “My Name is Riemann” Prerelease Surpasses 500 Downloads on Hugging Face
 - 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22My+Name+is+Riemann%22+EIN+Presswire)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：42/100；审核状态：needs_review
+- 发布者：EIN Presswire
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据EIN Presswire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi3gFBVV95cUxQMUtXSXJJeC1oSDktbzhySnA5N2V6WHZmYUVoMklUM1VnMDc1Z2wxV1VFQXVwUi1ZNkJWT0FSVl8ySjdVMTdncVNNLUpUbHotbkkzX1ZTd2hnYjhTV2NvUFR1Q0dxYWtMRndTbGpYVTFNbV9JOVFEbUZPN0paN3NSREZfWmJIMTZVNEJVbThKNS1fZ2ZzcDRlVDJwZ3NuTUNoRU9EQVdWNjB4VDE3VW9EaE45X01BWmUwd2lONXBnMHpzek1lbWdRaDZ0V241cUlEZ244Q3lEOFdyZnBCcHc?oc=5
+
+### 177. Reuters 未公开名称AI产品
+
+- 来源标题：Scale AI rejects claims it illegally surveils AI-training workers
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Scale+AI+rejects+claims+it+illegally+surveils+AI-training+workers)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Reuters
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Reuters公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirwFBVV95cUxPQzhyQ1lyaWVleENRNmE1Y0FaTlBBSTcxRTM3STJHRnAyVmJnejVWVHd3ZkJOUmQ2RkdLdmh0amxGQkZqem16OHY4Zmp1WXU1T0lJcW9DNFU1Vm9EanprR3NkUmxLZkU4TXlXazhORGgyNUlwUVlLdlY2Qk9oTVNONld5VlBhMi0yeW9tZms0MGVFd2hRaFNZalNWUUd6LWE1QWowNWhDcjhUd29raURz?oc=5 · https://news.google.com/rss/articles/CBMiugFBVV95cUxNV2w1YkdxUnZKYnRfdnFNMUhId2lCOURwQnhoNmVSNUlmN1VWOVpBTXA5eEVPRURVUndIMW9ibEVRd2NEaUhtN241ZjA5bVBUSi03MGJyZWNiRFZya0dkcHhCbmsxY0gzVUhHdlEtQXhHUWM5YTNWNUV6X3ZsZ0NaN0JfdjZKRUZhZVJ4VG9LNVAxNDBlNVBlTUctTTRpLV95VnBmdm5EZW1yTXdwaWJLN3A3QmkxNGV3bGc?oc=5 · https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ3Y5ei05ZlZGQ0EySXBqRk1mNVNHOTlWU0UzWlJ5UU5KV1c1MUY2WTdnYXhER081bFpvOFBORVBjWU9RaEg2MDRTOFBreHB2OXpnVnlUZGc3cXRaNDVfb1JWem9JVlprdXJwbHFNNzhNNG9qLWhSbS11NVlxTkl6eDJhN3hzeWZzTzJyT05qZFBIWFhmeEV3eVV1d0sza2ZHd2dPSkF5S1UwTGc?oc=5 · https://news.google.com/rss/articles/CBMirgFBVV95cUxNaDBwa1ZhM0otZmg2ODYwRC1pbFQ1a2pDYjdfT1RiclpaN09TVzlDb1Q1TkpOM2FfcXRSYXZJdXVPWnRUMTJRUmxxUnJjUVZmbUItTXRMZlRDUDhWUDY4V3VKUkFkT2Jjdl9TT2RPRDVBUExmWU1pM0s2Mlh2Y0VkSkZBVUROdWpXNml6R1VTRGMxRDJQbmhqNU1mWkd2aDVPQndpUkZJSTdSanRndUE?oc=5 · https://news.google.com/rss/articles/CBMihgFBVV95cUxPNmdiLU03NjNoamZfVktZOGs0SHVFYXpzZ0s2azMwM3h5RHdINEdtcFZHNjVRTzBlaFh3RE9Va29vdGp6Z3hobzhpNG9DdkhsOG9Ec3k3VUt3TXhEOE9xLTFTVE5yRjJrdEZvVkJzQzQ2VjZ1ejBxQ0RwLUd1ZEtpUVhNQ3FWdw?oc=5
+
+### 178. Law.com 未公开名称AI产品
+
+- 来源标题：Legal Departments Want to Scale AI. First, They May Need to Rethink How They Work
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Legal+Departments+Want+to+Scale+AI.+First%2C+They+May+Need+to+Rethink+How+They+Work)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Law.com
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Law.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa0VTNUJ4Z3l2b3RyM1JHRWd5RjU4OTNSejVuQXBQYlZWbVlyemNnVktBX0hHdmJHLXJMbjdLN1V5QXQtc2FEMjE0ajY2Y01CNVUtNVgtcW1KWjlBVXIxSFZOaExCemNfN0cwUklReERMbm5uUXlMMEpHSzBGU1djbHpzZ2VqN09EcDZIS1Y2UVdsbXBIRXRGTWtwV2FTckFSbjNVZERWSVZxYnJVMVFjeHNRaTI5SFdDRVFIeWtSbzg?oc=5
+
+### 179. PPC Land 未公开名称AI产品
+
+- 来源标题：Scale AI faces 5 GDPR complaints over tracking of Outlier AI trainers
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Scale+AI+faces+5+GDPR+complaints+over+tracking+of+Outlier+AI+trainers)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：PPC Land
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据PPC Land公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMikAFBVV95cUxOcFM1LVh4ZWpUVjE1bUJGaVpydjNEcFRzeWZyZTFXb3c4dUNSQ2dpelBEMXdhTllCVHp1Zmp1TWZyNUY0dWlfQ2ZUTHJxXzV6b281ejBEUlZLVDVJdzdib3BnQURMeFJRU3FkTDJ2ZW52TzljYlhYY0kxd0FCZS1zei0tVnhVTzZUUXJ5N21ubjM?oc=5 · https://news.google.com/rss/articles/CBMiywFBVV95cUxPcGh6Z3pIcS1LLVFMejVXSGpvSmRWUFI0NWJXdW1xMjNMd3hCUTMySzh6QlFQeWFFNmwtd2JWdVI0VXh3YVRyMEdSNW90NzQyN3J2WWdPVUQxbmhZUEVTUTQtWlNhUFIwRDB2WmFTVkZwMTRYMWI5eGxXYmtMcjVtVWdIWXFjemF3OGhaQ0tOaTY2RENGeFBISkloYjRQX0JXbWpZLXN4SG50TlQ3T0tRRXRUNnNvTnMtWHA4bTEyTE5zZzdnRDJzVnFkdw?oc=5
+
+### 180. Bitcoin Magazine 未公开名称AI产品
+
+- 来源标题：Luxor Announces $16M Funding Round To Scale AI Compute, Derivatives
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Luxor+Announces+%2416M+Funding+Round+To+Scale+AI+Compute%2C+Derivatives)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Bitcoin Magazine
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Bitcoin Magazine公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiogFBVV95cUxNeXpoYXF2Q0pLVWVOWldDcm9vQWdtWm0zNVhnYVBabGI2YlRBcXk3SXVaVFNYc2VkN2FJT0ZISGNTQWdjOGNmOV94OGJydkNHbXRXZW5DLUpNdmg3ZmRDVUYwV2EteWlLMmtFV05CbkdLdWtzX0VZZVRxZEFRNVBGVk96UGZuNUlFYjRKUzREOGNiTVNuTTh2OG1YT0ViQ2pLeHc?oc=5 · https://news.google.com/rss/articles/CBMi_AFBVV95cUxOODB1UW44TEluYWV6Ylk4MDg4SXN1RUpNMGEtSTcxeEJUc0VOTXd1VFdxSHpXVGk4ajl5Q0tzWHp6MzNYQnNtVVVOU3JaclZVWE5qYXhfSmQxZm1fTUZkYnJSNlBiZzFQX3dMendHcEJRWkUzUXlmNVpGM0h6ckFwWkVNTHhZbWxBbEltWFlLeEg4bFB4eW5WVFIyNU9jTF9RYW9DQU1XTVpIS0NKWVU5RGVpbFdCTEVlS0d6ZXlwX2h4eWNpZXpBaXBpcEt0SHJoNVEtVEtSaGhGS1lRbV9iZ0g0aG8xQmtRV0lETGZlSW9xQUNHVWVJMlRmSlo?oc=5
+
+### 181. Dealroom 未公开名称AI产品
+
+- 来源标题：Caravel Bio lands $1.25M NSF grant to scale AI protein engine
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Caravel+Bio+lands+%241.25M+NSF+grant+to+scale+AI+protein+engine)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Dealroom
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Dealroom公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMimgFBVV95cUxQTzdmWHpOWFpZS0JyTWo1Z2d1dXFIdWZYc2tjU2lOMUhydWdabWs1Umh1Qk5CZWVEaW4wZkMxSlhyQnpTMVdnU3F6bHNfd21UZnVmZzRmZzBBZnppTHRGMGVQLWkyelFGOHdTUVk2MkxfelVTUnpjRzVnSVVDR2VIVDQ4TXhrOWZ0T3RRdFl3bUFKMXF2MTBxbDZn?oc=5
+
+### 182. Dealroom 未公开名称AI产品
+
+- 来源标题：Jixian Technology raises tens of millions of yuan Series A to scale AI hardware
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Jixian+Technology+raises+tens+of+millions+of+yuan+Series+A+to+scale+AI+hardware)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Dealroom
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Dealroom公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxNbVlUSjVHZFhyVlhTbENzak1PSWI2cnU3RXNlRGR5Mnk0azRwRkxaeUt0YVRxVDhrZDc2UmNWVFk3ZUdmOFRGN0NsQXlWMkVZMlRpWkJKUzhKWm8wclRISXNQTFRUdmEyNUs0bHRwaUNhdUFDRlJuWjFURTRFcHgzZXVmUVVjbFlVV0U3a29nNkoxa1ZEbWNTUkVLZEZiaU9JRnZUemRZU1dEcWl1UjJLeFI1Yw?oc=5
+
+### 183. Ventureburn 未公开名称AI产品
+
+- 来源标题：BioGeometry Raises $100 Million to Scale AI Models That Design Drugs From Scratch
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=BioGeometry+Raises+%24100+Million+to+Scale+AI+Models+That+Design+Drugs+From+Scratch)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：Ventureburn
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Ventureburn公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMigwFBVV95cUxOMG1WZXNqdVduR2hnc1hQNkJjZXRaZTVSZFlrZFZMM0lrdmhVVkY1Sl9tbEhWYkJKNGRQUlcxd0xzUU9hTC0yYjRfVVR5RzE1RjBaSlNrN083MVlBNkx1S3BfMGJkUjdfMm4waFJBbkxwTEcwc29hWHNtYmNScmdrR1UxTdIBgwFBVV95cUxOMG1WZXNqdVduR2hnc1hQNkJjZXRaZTVSZFlrZFZMM0lrdmhVVkY1Sl9tbEhWYkJKNGRQUlcxd0xzUU9hTC0yYjRfVVR5RzE1RjBaSlNrN083MVlBNkx1S3BfMGJkUjdfMm4waFJBbkxwTEcwc29hWHNtYmNScmdrR1UxTQ?oc=5
+
+### 184. EnergyNow 未公开名称AI产品
+
+- 来源标题：DATA CENTRES: Alberta May See ‘Gigawatt-Scale’ AI Data Centres Under Construction This Year
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=DATA+CENTRES%3A+Alberta+May+See+%E2%80%98Gigawatt-Scale%E2%80%99+AI+Data+Centres+Under+Construction+This+Year)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：42/100；审核状态：needs_review
+- 发布者：EnergyNow
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据EnergyNow公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVHVkaGNLYmRZZ2NqUm1DakVZNjltZDVsaGJjNGtzai1jaWVxY2lYMjlpRndMNWItdHdPeEJyelFSMU1KTlJ1OTVWUE1TYW00N0NpNXZTZlNyZVZBTkpBa0F6T0JWS2JnRWJmVnJxNG4wV3dhNVcxZjBvaU0tbEpCTk5YY3huQklCN09DdzdwWnBsd0RfcUtjMDBLeU5HcHNQX1ZqZEdWeDE?oc=5
+
+### 185. Stocktwits 未公开名称AI产品
+
+- 来源标题：Bitcoin Outperforms Grayscale’s AI Compute ETF As AI Cloud Stocks Slide
+- 产品名称状态：名称未公开
 - 产品分类：金融科技基础设施
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22SK+Hynix+%2445+Billion+Shareholder+Returns%22+SK+Hynix)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Bitcoin+Outperforms+Grayscale%E2%80%99s+AI+Compute+ETF+As+AI+Cloud+Stocks+Slide)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
+- 阶段/事件：M5 / scale
 - 相关度：42/100；审核状态：needs_review
-- 发布者：Binance
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Binance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Stocktwits
+- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据Stocktwits公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6WjFsTHJvX3BjdEhoSkJTb1hValljMG8ybW5IYm0yZ1JrRjlLaHMtZUpMN0ZKbUN1eUtVVTFEVURpRElxX1R1VmFMUndJMW13aHlsSEMtTF9zRmhCckpLSGVMRno?oc=5
+- 证据：https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa29jMHR2bVVFalBha1lQMFg5WGJWSlJ3MWp1YURaQXdpSzg2ajk4d0VTLTQ3dnZQTktraHRHbXRNQ1pVLXV3RDBlWURoYlpwZHc1ZnlFYTdSRlJJNlYzYW9tRHpLM1pBb20xSXZQSXU3d0dHbHVFNmFvTkl3dmlBMlRYYjUxUUdfNTNTcFQzWkxiWlV5VVZZSXIxZ1RhcG5nR2M4M0FvMjNwTUNScWJXYWEyeFczdVFSUkNINXNycHdoZzF3cmt1WVI5d0prcVIy?oc=5
 
-### 51. Nvidia-Backed Firm $3.1 Billion GPU Loan into Market
+### 186. Brief IA 未公开名称AI产品
 
-- 来源标题：Nvidia-Backed Firm Launches $3.1 Billion GPU Loan into Market
+- 来源标题：Google déploie les pubs IA à l'international
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Google+d%C3%A9ploie+les+pubs+IA+%C3%A0+l%27international)
+- 官方地址：[https://www.ubs.com/](https://www.ubs.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：40/100；审核状态：needs_review
+- 发布者：Brief IA
+- 摘要：该候选涉及金融机构，被识别为客户部署，成熟度暂定M3。当前判断依据Brief IA公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMigAFBVV95cUxOcXVlLWVUZ05KZzZ2V21LYnhRZ2g4U1hoUS1BX0UzaWdpbHBlTmpBX1FaQWpuZlhLa2czVEZHcWpFSHUyaS15MnhwbW1NOVA3cG1nWTg0QjVEV0NVQ2hkeFJ5MUM4QVpuUHJoQ2xDaXpGQ3A2dThjNXE5S1hiS2lIYg?oc=5
+
+### 187. Nvidia-Backed Firm $3.1 Billion GPU Loan in Market
+
+- 来源标题：Nvidia-Backed Firm Launches $3.1 Billion GPU Loan in Market
 - 产品名称状态：明确产品名
 - 产品分类：信贷与融资
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Nvidia-Backed+Firm+%243.1+Billion+GPU+Loan+into+Market%22+Nvidia-Backed+Firm)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Nvidia-Backed+Firm+%243.1+Billion+GPU+Loan+in+Market%22+Nvidia-Backed+Firm)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
@@ -973,61 +3421,313 @@
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
 - 证据：https://news.google.com/rss/articles/CBMisAFBVV95cUxNWG4yWWNoTk85a0VzNWR5dnhLNTZUU3RmTVJWSnNJWmZta1FURTYxdXExMmR3ekxwVmRiUU9LaW40ellxb0JFWDJ1RHQ0c3JCSFlxSEF5UmZWNWJ5d2cyaVR5Vl9LMG1EODd2TjhuNnloRXotNzJDZGp5U3V0TXBLYTdhVW44TTlfdVFZUXRPS0ZWRVBQaDFHWVJZWkpqbE1MNUcydEZPckVqU1VBOWs4Tw?oc=5
 
-### 52. Barron's 未公开名称AI产品
+### 188. FStech 未公开名称AI产品
 
-- 来源标题：Visa Posts Record Annual Revenue. The Focus Now Shifts to Reaching New Customers.
+- 来源标题：LHV Bank joins PRA and FCA scale-up unit to support UK expansion
+- 产品名称状态：名称未公开
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=LHV+Bank+joins+PRA+and+FCA+scale-up+unit+to+support+UK+expansion)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：40/100；审核状态：needs_review
+- 发布者：FStech
+- 摘要：该候选涉及银行业务，被识别为规模化应用，成熟度暂定M5。当前判断依据FStech公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMinAFBVV95cUxPYkgxYzVsUGRLUU1wMHdOcGJSeU0zQ3l4SUN4a3BSUU5nZk1zTmNjTnJqNkVCMWZZS3l6cDZKdUpwRjNDYlVmTWc2aTkxYldYZktFMEZ2aDBDemNHRXcwTnNBUzEzVHVJY3EzOVdKWkZ2OTdmanlKOHJWQUtscHZkbGI4UHhCcjZuOUU0MHVtYUJpQVJ0R3ptYllOaU8?oc=5
+
+### 189. FF News 未公开名称AI产品
+
+- 来源标题：Ripple Secures OCC Approval for Ripple National Trust Bank to Scale Institutional Digital Assets
+- 产品名称状态：名称未公开
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Ripple+Secures+OCC+Approval+for+Ripple+National+Trust+Bank+to+Scale+Institutional+Digital+Assets)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：40/100；审核状态：needs_review
+- 发布者：FF News
+- 摘要：该候选涉及银行业务，被识别为规模化应用，成熟度暂定M5。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiogFBVV95cUxOYmF0MTJQaThJSW43Zk80SU00SnFXRW9fa2NKcW5kS3Y5ekJhN0xCeml2Ri1fTGZEbVBVM2RJZmlXYnRmYkVRN2llSFNZX3NJMkhFNFpPbC1USmg1X3BDeE1CdDFMNmJqdTJXX043UkZQcDNRMEo4TlB0RXZLT3VGaGlLSnl2YUZwYTF4NFBIRlBTSGZSSHQyekhPemhIamxYLUE?oc=5
+
+### 190. www.marketscreener.com 未公开名称AI产品
+
+- 来源标题：Classic style, flexible checkout: Klarna and Lands' End expand partnership to Europe
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Visa+Posts+Record+Annual+Revenue.+The+Focus+Now+Shifts+to+Reaching+New+Customers.)
-- 官方地址：[https://www.visa.com/](https://www.visa.com/)（官方机构主页，非产品专页）
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Classic+style%2C+flexible+checkout%3A+Klarna+and+Lands%27+End+expand+partnership+to+Europe)
+- 官方地址：[https://www.klarna.com/](https://www.klarna.com/)（官方机构主页，非产品专页）
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
 - 相关度：40/100；审核状态：needs_review
-- 发布者：Barron's
-- 摘要：该候选涉及金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据Barron's公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：www.marketscreener.com
+- 摘要：该候选涉及金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据www.marketscreener.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE9IcmZPVC1VZ1A3blVnWjlCNHNnNFZoZUVscVZEcC10SDhfbVp1elVlYXRxQmR1eF95a0tMNnl0TE1TMzlhdkxNRVJCb2t0c2otbTZPTk16ekFnUkZiNWdBN1Nfb2gyRmY5b21wNUJpQkRkLU1OeGc?oc=5
+- 证据：https://news.google.com/rss/articles/CBMizwFBVV95cUxOOW5ia1FldFVUMnZnbjg2X0phbG16MXhOSl9jX2FTZTBaVG16YkZIM1otZWRqN1RQRVpubGVySGlHcHU2emgzMVlNTVJVZ21INnh3UjBmNTRob2VqODk0aE4xc2pjc3BrWmJPa2NTb1U1MkJ6T3hsT3lBYy1RcWxqbHpCak84RGRBWEZKNk4tOTFac29Xa043MGozRTg0S1VJTl92bEdDSzktcFpaODhpUjlTcVY5U2NlaTlOUkc4cHBsVllDSXBKQ2toSktqQWM?oc=5
 
-### 53. Yahoo Finance 未公开名称AI产品
+### 191. Securities.io 未公开名称AI产品
 
-- 来源标题：Whoscall, GASA and Mastercard Release the 2026 Asia Scam Report: Hong Kong
+- 来源标题：Klarna Checkout Goes Live on Lands’ End Sites in Four European Markets
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Whoscall%2C+GASA+and+Mastercard+Release+the+2026+Asia+Scam+Report%3A+Hong+Kong)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Klarna+Checkout+Goes+Live+on+Lands%E2%80%99+End+Sites+in+Four+European+Markets)
+- 官方地址：[https://www.klarna.com/](https://www.klarna.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：40/100；审核状态：needs_review
+- 发布者：Securities.io
+- 摘要：该候选涉及金融机构，被识别为客户部署，成熟度暂定M3。当前判断依据Securities.io公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMinAFBVV95cUxPbHgzQUJ2LUxvVzBNbk5BM3F0ZlE4eVlZZVRuOTVFS01iM0ZWcGlkX0JWSWUxRFBSS0RFblgyRDJlbjFJNHZfVlh0R01ZZUlSQUxaNDZzb0RmeDdsNUlxTTlmVUR4SEtjWVU4QkRJYjdEdDd0TDVIdWdqYTczMm9YUW5FM21mUXJqMXlkRzNYVmJNU2RGVm9WU3doVGE?oc=5
+
+### 192. Yahoo Finance 未公开名称AI产品
+
+- 来源标题：Anthropic Selects JPMorgan to Lead US Retail Share Sales for Planned IPO
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Anthropic+Selects+JPMorgan+to+Lead+US+Retail+Share+Sales+for+Planned+IPO)
+- 官方地址：[https://www.jpmorgan.com/](https://www.jpmorgan.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：40/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及金融机构，被识别为客户部署，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：面向商户或零售经营场景，为商品、营销、客户交互或交易流程提供AI工具；具体开放能力需查看产品原文。
+- 预期作用与价值：预期降低商户使用AI和连接经营系统的门槛；现有证据不足以证明销售转化或运营效率提升。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMinwFBVV95cUxOeXVfd1FxSGFQa0J5NXRpb0JrRlN4RlB0ZTBVc0hHdTlzXzlQeUdBWkVVZzNKV193dl9idGJOVC1mRDJtbTU2TjFlQnZqTlZKMlZTV25zNW1SUkpFcW9GbFhHWnlmU0I1Tm56aFdzcHJ3OTdSZlZSQV9GYzZQVFdqSUVyb1hubWpwTDQtandINlRRTzRQNzJqMnVrZ3Vrblk?oc=5
+
+### 193. LevelUp 未公开名称AI产品
+
+- 来源标题：Bank of America Recommends Buying Take-Two Stock Before Grand Theft Auto VI Launch, Predicting Long-Term Gains for Investors
+- 产品名称状态：名称未公开
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Bank+of+America+Recommends+Buying+Take-Two+Stock+Before+Grand+Theft+Auto+VI+Launch%2C+Predicting+Long-Term+Gains+for+Investors)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：40/100；审核状态：needs_review
+- 发布者：LevelUp
+- 摘要：该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据LevelUp公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi7AFBVV95cUxPSVZLMFVta1B1NVp5aGVRSW5nOFNud3BwamVza2Q3aUJjOXVjZXd6cE50N3RqLTB0dnZ5MjQxWFduX3AxN05vUnF4TjdyMnN5aE0xYTBEOU5Hc0U3d0UzY3ltRGFPUFRlZlRkLURKcFhsdjFCemZaVi12M1B0NUpORzdiQVFKNFk5RlVRV1VNS1ZJREFaMy1sb0lEazB2LUlGZjFCZ3BfV05HaTV1a1dTWUFYNW9keVdTbEJLeld4bVFDaTNzeG5EU18yQXExYjNKcG5ockhUa0ExX0tnNmp4ZExDaWtQU2xhdk4tZQ?oc=5
+
+### 194. Roastbrief US 未公开名称AI产品
+
+- 来源标题：Axis Max Life Insurance Strengthens Its Digital Media Strategy With Chatgpt Ads In Partnership With Hiveminds
+- 产品名称状态：名称未公开
+- 产品分类：保险
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Axis+Max+Life+Insurance+Strengthens+Its+Digital+Media+Strategy+With+Chatgpt+Ads+In+Partnership+With+Hiveminds)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：40/100；审核状态：needs_review
+- 发布者：Roastbrief US
+- 摘要：该候选涉及保险，被识别为商业合作，成熟度暂定M2。当前判断依据Roastbrief US公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
+- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMizAFBVV95cUxOLU5oTGQwU0hhOExSQkFIR01ldndnY01Gc1d3a2Y4T0V1OHo1TkNVSC00X0ZJZm1pRzhOYWRPZWZrYzhMSi1yRXZHWkZCNklKY1Q1LWtEeUgwSXpTZHE5Z2gyd05NRW5GcUlqS05PQmplaC1PcVEzamZjTk9LREdJaE5UYmx2bjBoTDRRZm5lZG0tV2ZNS0FQczlVVUlqU25ZY2MyUGNkbG9wQjVoelpIaFpPOFNkUHZfMHZWd01hUDZDbWozY3FMUGc0Yng?oc=5
+
+### 195. HSBC US$1bn share buy-back
+
+- 来源标题：HSBC launches US$1bn share buy-back to cut outstanding stock
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22HSBC+US%241bn+share+buy-back%22+HSBC)
+- 官方地址：[https://www.hsbc.com/](https://www.hsbc.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：40/100；审核状态：needs_review
+- 发布者：TipRanks
+- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据TipRanks公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMisAFBVV95cUxOaG1mQklMc0xnOUNxWHRVYkJ1eV9BM09Nd3RLc1I2SU9HNGZaRmJRU2taR3BuQTF5aTdkZlBYVmstcTEwSERlSFJxRERMc1c4U1hjYUp2ZVcwZ2N1N3RGb0FTSjNJUVEyZjBEbjI1Y3NLN091eXhVVEFudmVRQkVVQVkwTFB5aktTNUgzdXloSktCc25QQkxJNXVvUjhYMnVVS3ZOcXo5S0xUbjNIOHhPVA?oc=5
+
+### 196. FF News 未公开名称AI产品
+
+- 来源标题：Santander Profit Surges 16% to €11.2 Billion as Customer Base Grows by 17 Million
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Santander+Profit+Surges+16%25+to+%E2%82%AC11.2+Billion+as+Customer+Base+Grows+by+17+Million)
+- 官方地址：[https://www.santander.com/](https://www.santander.com/)（官方机构主页，非产品专页）
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：40/100；审核状态：needs_review
+- 发布者：FF News
+- 摘要：该候选涉及金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxQWHlleXpMbHJ2cW9yb0txb2FCZkVqeXdRMUtwa25UYVNlVEQ4UXljUG1xUjhvQUpWV3prVWpPT0xXcF9zeFdwZEIwMkVBZnJRTFJvaXh1ZFUtYWRFXzIyM1ZBbXlXemdHUVVsXzJad0RWT2dvaFh1RW1pSVZCNE9vellkZ3N2R3VEVU1jeVlyMUoyX3ZsRktaU25vTGIzbEFZQ0p6VEZxejV2bF9nWW5iSnlzWQ?oc=5
+
+### 197. Google Pay In Nigeria On Mastercard Rails
+
+- 来源标题：Mastercard and Interswitch launch Google Pay for cardholders in Nigeria
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Google+Pay+In+Nigeria+On+Mastercard+Rails%22+Google+Pay)
 - 官方地址：[https://www.mastercard.com/](https://www.mastercard.com/)（官方机构主页，非产品专页）
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：40/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Head Topics
+- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据Head Topics公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiowFBVV95cUxOaVdOU3N1QlVqSHFDa2pIZ3U4TDRRdzg0NEVCYnZwMElESVJmT2t2d2pPd0Q1WVl1SUp2NjliQUwwUnkyMV90WkRUV29TeUdrM2Z1V0ZfVGxodG1DUUMybmNnVXNsNVhvelFFcXRwcV96bWwzRGVXa0doeE8yb0pmV3pYd0oxdVRNd3ctdEc3VjF0aEFxM0FQTEFsREloRG1tV2hn?oc=5
+- 证据：https://news.google.com/rss/articles/CBMimwFBVV95cUxOVGdvZ200T1VJWXp1ZXUxWEJaNHRiMm8zdms0N3o5YTExazhqbTdjbVhnTmNfMlVJNTZYMDNPcWVxQWhfa0J4YWpUSGhtUGFFUlljbjdiOHB2OWhJN3Ftd1cxRWppempZdzBUN3Vuc1ZZU0ZUdjNha3FDYTVsSEpKbzZLdHBObUxOZTZpbG5CMUhuaXZ1aExVT0tvWQ?oc=5 · https://news.google.com/rss/articles/CBMifEFVX3lxTE5kS05oQS1yMFM3aTBBRkpSVHNjSG1lbU5OU2l2STlnaVYzLXBJUDVFZUxlWXZ3Si1rTER0ZnJpb1dVSFhRLUdXSmFOMjJNNDd0dFhmcXh2LU51N3J3Z0R4aER6M3Bsd1NOVktVLVpGNElMbGVxRDVjMGpIR0k?oc=5
 
-### 54. THISDAYLIVE 未公开名称AI产品
+### 198. Techgenyz 未公开名称AI产品
 
-- 来源标题：Mastercard research: Nigerian SMEs among global leaders in crypto, stablecoin and cybersecurity adoption
+- 来源标题：AMD Meta Partnership Advances with Helios Testing and $1 Billion Investment Plan
+- 产品名称状态：名称未公开
+- 产品分类：投资理财与资本市场
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=AMD+Meta+Partnership+Advances+with+Helios+Testing+and+%241+Billion+Investment+Plan)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：40/100；审核状态：needs_review
+- 发布者：Techgenyz
+- 摘要：该候选涉及财富管理与资本市场，被识别为商业合作，成熟度暂定M2。当前判断依据Techgenyz公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xZWpuWGhybTEtekN3YzdmOERhVFUzTHBBdHFuYVpPQVYtSjdtd3BFbGdTM0ljRjlSRXU3aVc3b2NZUERobnE5UGsybllUaEdBVXNwMTg5QTZWNm5NZUxZ?oc=5
+
+### 199. MarketScale 未公开名称AI产品
+
+- 来源标题：xAI subsidiary offers to buy Southaven homes near its turbine plant if owners release their noise claims
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Mastercard+research%3A+Nigerian+SMEs+among+global+leaders+in+crypto%2C+stablecoin+and+cybersecurity+adoption)
-- 官方地址：[https://www.mastercard.com/](https://www.mastercard.com/)（官方机构主页，非产品专页）
+- Google 检索：[搜索该产品](https://www.google.com/search?q=xAI+subsidiary+offers+to+buy+Southaven+homes+near+its+turbine+plant+if+owners+release+their+noise+claims)
+- 官方地址：[https://www.ubs.com/](https://www.ubs.com/)（官方机构主页，非产品专页）
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
+- 阶段/事件：M3 / product_launch
 - 相关度：40/100；审核状态：needs_review
-- 发布者：THISDAYLIVE
-- 摘要：该候选涉及金融机构，被识别为客户部署，成熟度暂定M3。当前判断依据THISDAYLIVE公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：MarketScale
+- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据MarketScale公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNmxtVEZmbnNCaUpWX2Z1U25wVTEyejktU25hMXJGcXJIcXRJSlZsMkxWQTR5b0w4N01EcFg4NlRlYnNKRUVrU2RpUlFqNk9QYVlhaGg4MDFKVlFjRlVpdWlVVHlPWC1udHh2Nm4xRmp4TGlaZDRlNS16Z3NaekNGWG8yTU00bUktQnV4SlM5NVlfQXpFYjh3MW9zamZ5WVptVVRuZlp1bTVtUklLQ0dRQ2pfN29hSk9VVkNoN1ctdEhURGpqNkZYNkliX1V6R3NmY0poYWVDdnVrZw?oc=5
+- 证据：https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcnRyWjFiOUE1NjFUSmVlcFlyZ3lscmNIeHA2ckhpa3ItcGFCTnl3ZDdUaExQUnpHcHE2SDMyT3JtT1hiTkJCay1Gel9rNDU3QTJxYkZrMHNJSTZCLTBzSTBNNC1SMDZPLUZyRXFwSE5QbHNHdDM4b2dLS3d6NGU1eGFYclNTYnRiTFVzLWxqX3RydkN0cDFFSV95UHpSZmVKYS0wMzhkX054OVkyRkJkU2FsaUVISXFIZk9SZWZBS1BFTWlmaThhQUpRMWNGTHJyZUxhS19wSEtBTExl?oc=5
 
-### 55. 至顶网 未公开名称AI产品
+### 200. Palantir Technologies Inc. (PLTR) Latest Press & Corporate News
+
+- 来源标题：Palantir Technologies Inc. (PLTR) Latest Press Releases & Corporate News - Yahoo Finance
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Palantir+Technologies+Inc.+%28PLTR%29+Latest+Press+%26+Corporate+News%22+Palantir+Technologies+Inc.+%28PLTR%29+Latest+Press)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：40/100；审核状态：needs_review
+- 发布者：Yahoo! Finance Canada
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Yahoo! Finance Canada公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiZkFVX3lxTE9XaGFaUjZUaE1PYUp2VWtFMUZmZjh4c014c2E0bTI4ZHN3aTlDaFhSY1NkaWI2Umo2RER0MVktc1FhWXZLWkluVV9iLUVhQy1JTU9rS0lidURFMzNIUm1Ka05zNEJRUQ?oc=5 · https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iRGJXMG15a0MxWXRiZ2U2OFFmdFMwWC1OWXk0bjJ1OURiN0VrMWY4dkxuQXhrV293QjJJR0dFMTdUb2NEZTZrMml5VDdVLWZlaktRYnNHWnE1WW9nRmFHcUxCaHRKUQ?oc=5 · https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wZXFiSHgyR0NlWDRzckptbFlLZlRpb25zR2FEM2FpcWRqanlVa3E0aDN6MHBpSERYSF9MVTRJSXNuMlhLT2dzTFlhSVVQUnJ3NUtxMFlJZ2xVRlBVWnFUME5IMGh6Zw?oc=5
+
+### 201. Crypto : Google Custody Service for Banks
+
+- 来源标题：Crypto : Google Unveils its Custody Service for Banks
+- 产品名称状态：明确产品名
+- 产品分类：银行运营与客户服务、其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Crypto+%3A+Google+Custody+Service+for+Banks%22+Crypto+%3A+Google)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：40/100；审核状态：needs_review
+- 发布者：Cointribune
+- 摘要：该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据Cointribune公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQzZzU2lLWFU0MW5GVTlZMnFveXY5cENhZEhxR19PYzJrYkJTUXMxczgtaHV6d2ljaXRFVTJlVzJyS1FvNUJPcW5ONTdBNUlFTG9sTU5PVHJQSzF3Rm02b3RMbjlJaUF6cjlJcGE4X0Q3RXlKd2lISU0wTGtrTk9ZUEU2VjNKOHFjZi0w?oc=5 · https://news.google.com/rss/articles/CBMibEFVX3lxTE8tbGRTME5UQUpFeXp4ZkpsUU5tdEptdkpYVXBHa3B4Tng5Um9qTVlWcXhpa2E4WExfRm5FWmttMXZnTm9mRVF4RTktb0p3U0tVTUo2SjNMaWJyYzB6YTZUNE5HQXVGTm5HV0VBRw?oc=5
+
+### 202. BigGo Finance 未公开名称AI产品
+
+- 来源标题：Google Debuts Bank-Grade Crypto Key Vault, Commercial Rollout Set for Early 2027
+- 产品名称状态：名称未公开
+- 产品分类：银行运营与客户服务
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Google+Debuts+Bank-Grade+Crypto+Key+Vault%2C+Commercial+Rollout+Set+for+Early+2027)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：40/100；审核状态：needs_review
+- 发布者：BigGo Finance
+- 摘要：该候选涉及银行业务，被识别为规模化应用，成熟度暂定M5。当前判断依据BigGo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
+- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE9uQS02YnFpNWVVVnUteGJycTZVZjZfN2NMS3ZqWk4zSHlYc0ZvNTY1cnRWNWt6U0tscFlfMTZ1emJCX0RnOFFqUXJ0Tk9RR2ZPTWRPY29LRmloM3BiQnlIUWdpZ3k2NmhYWnFPSlY3TDFlSzhXdWc?oc=5
+
+### 203. TechBullion 未公开名称AI产品
+
+- 来源标题：Dogecoin News: Grayscale Opens In-Kind Fund Access as Remittix Earn Prepares Aave, Morpho and Maple Finance Pools
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Dogecoin+News%3A+Grayscale+Opens+In-Kind+Fund+Access+as+Remittix+Earn+Prepares+Aave%2C+Morpho+and+Maple+Finance+Pools)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：40/100；审核状态：needs_review
+- 发布者：TechBullion
+- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据TechBullion公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSmFiVGo4WWhzM0Vkak9oWldNenlEdHQ1d0pTaGNWSEExcm9oeFJLS0UzejNFY3V6bzBvd254dGtYZW1oUG9IRnBrTnBzb0JMZURUM0cwUmMybFlfYi1SOUdQcEFsTmptM0tfS0NWd19WYW15TXRwUVhVSHNPbzNsM2tVTlVabWpkenZYZWsydjhmczU1VkZWcWRhMEVTTGVEbElBaU80dy1qcERJamJERS1idUZHT2FhMnVXVGpGWDJtLTBuUENxSzQ2eEhxYUF3c2c?oc=5
+
+### 204. 豆包虚拟桌面 ：AI可独立操作Windows电脑
+
+- 来源标题：豆包虚拟桌面上线：AI可独立操作Windows电脑，不抢占用户鼠标键盘
+- 产品名称状态：描述性名称
+- 产品分类：其他金融场景
+- 客户类型：TO C。公开标题或摘要出现个人用户信号（用户），暂判为TO C。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22%E8%B1%86%E5%8C%85%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2+%EF%BC%9AAI%E5%8F%AF%E7%8B%AC%E7%AB%8B%E6%93%8D%E4%BD%9CWindows%E7%94%B5%E8%84%91%22+%E8%B1%86%E5%8C%85%E8%99%9A%E6%8B%9F%E6%A1%8C%E9%9D%A2)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：凤凰网
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据凤凰网公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlemwyVlBwYjFxazRWejYtN3VfX2JPNmpkcV9VX2xRUnRXMkhaTGRMVFp0QU00cGY5WUhlTXREQzJlMWUwX2Y1UUpKUVhqZmlKRVE?oc=5
+
+### 205. 至顶网 未公开名称AI产品
 
 - 来源标题：OpenAI如何将编程工具打造成全天候私人助手Dots-AI应用
 - 产品名称状态：名称未公开
@@ -1045,79 +3745,277 @@
 - 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
 - 证据：https://news.google.com/rss/articles/CBMib0FVX3lxTE13NWxDaGZfMUplSzVXdk5FQVRzcnZtb2FfVFpCTnUwaWNEYzZBUEtTck9vb2JXYTVIbGdVWElKNGsxUGZneHFwS2VldmNqYjdxQTA1aGNwLWNQMnVMaFBXRE5fcTlpNi1QSzRTOFljNA?oc=5
 
-### 56. BBVA 未公开名称AI产品
+### 206. The Cryptonomist 未公开名称AI产品
 
-- 来源标题：How Are Agreements Negotiated at Climate Conferences?
+- 来源标题：Aave Earn+ Launch Boosts Yield Farming Rewards
 - 产品名称状态：名称未公开
 - 产品分类：金融科技基础设施
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=How+Are+Agreements+Negotiated+at+Climate+Conferences%3F)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：BBVA
-- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据BBVA公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxPM0FEdzdfOVZsbUppajJrdm5lRHZMODg2OXJ3VjRCY09RVG9IZVJ1RDVSTFdyN2s0eElKNmlxWXBNaHpEeUtocHY4b3NlMEtuRW9lTUg3MkxDRXVmbGtPN1hwTk5UZGZGOGZlYVhSa0ZrZkYtRjlvbW5DTUY1R3NaNHRyVHBRMW5aUWlvYTBIYURjWDdKNFdJ?oc=5
-
-### 57. OpenAI GPT-6.1 Terra
-
-- 来源标题：OpenAI launches GPT-6.1 Terra with near-Astra performance at a fraction of the cost
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22OpenAI+GPT-6.1+Terra%22+OpenAI)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Aave+Earn%2B+Launch+Boosts+Yield+Farming+Rewards)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：22/100；审核状态：needs_review
-- 发布者：Tech Edition
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Tech Edition公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 发布者：The Cryptonomist
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据The Cryptonomist公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiqwFBVV95cUxPa1RGOUhDbU56dzJNanNHMTgtU2ZleWRpUVBhT3llbTJZT3ZUMHBROXNPYjcxOUZFSjViRWNab3l1c082eGR4dGIyd2JGWlZuc2FDRVpmNVlMLUJMczFtcXdabVFvSF9mVi02LV9wX3N4NGtkdTZGczBZV2JwVUJxdnNsNjhpVEV2b1dqekx3WnFQNVpmT1NSYkQ2OXhMYVpvUzJPNE51U2pZbVU?oc=5
+- 证据：https://news.google.com/rss/articles/CBMiZkFVX3lxTE96cm5sR0FMTWdOS0w2WFdSQTRpMEhERE9kX3hGcjBpM3I3dlllM3dJZlZtbEJPR0ZWLVNMZEw0R0dhVEd4c0pEREpQZm9sbkt0bGVvemxYTldZZFhJNldMM0FKVm5YUQ?oc=5
 
-### 58. PYMNTS.com 未公开名称AI产品
+### 207. NVIDIA Open-Weight Speech Model and 463
 
-- 来源标题：Anthropic Expands Integrations With Claude for Financial Advisors
-- 产品名称状态：名称未公开
+- 来源标题：NVIDIA Launches Open-Weight Speech Model and 463,062-Hour Audio Dataset
+- 产品名称状态：明确产品名
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Anthropic+Expands+Integrations+With+Claude+for+Financial+Advisors)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22NVIDIA+Open-Weight+Speech+Model+and+463%22+NVIDIA)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
+- 阶段/事件：M3 / product_launch
 - 相关度：22/100；审核状态：needs_review
-- 发布者：PYMNTS.com
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据PYMNTS.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Unite.AI
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Unite.AI公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYUJGRDYxZ0dJMk5hMjh3Q0k1UDlMU1NpcGlhLWhCdUVfLVgtU1dka1dZMk9QOXpFYS1HY2UyUU9SZU1SNGZpTkpuVm43S1VBY3BlbWE0cmxfSmR0TndfRk11dWM0RzJtZUM5SENaazl4OUkzY1Zmbnlhc200WUstZWdfUnJ5R2ZGN3VnOFpwNEZjZ2Z5NFNLWl80Zk5YN0t6Q01oWHh5X2Rsc2JGQWpIQ2pPbzNZUWRhQmZjdmxybWk?oc=5
+- 证据：https://news.google.com/rss/articles/CBMimAFBVV95cUxQWFBVYk1JSkZEYUk2OXhlakhFd1plZlB4NUY1ZmRHQzBsVEpBRzNIbElVODgxWUVkV3c0cDV3MXR6VHhGU0xkMWx0Z2dWSDkwLTBlN1ZWbjJBQUFxbXdaZnBOQVRJNWlzQm1aTHlFb0FYLU9xODZtQzA2ZVktSTM0NUdfMDctaDNnTHhxSXhfMWlXMmJYa05CbA?oc=5
 
-### 59. TechTarget 未公开名称AI产品
+### 208. NeoTeo 未公开名称AI产品
 
-- 来源标题：How the Microsoft and Oracle partnership affects IT workloads
+- 来源标题：Companies announce successful NVIDIA Omniverse DSX pilot at SIN01
 - 产品名称状态：名称未公开
 - 产品分类：其他金融场景
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=How+the+Microsoft+and+Oracle+partnership+affects+IT+workloads)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Companies+announce+successful+NVIDIA+Omniverse+DSX+pilot+at+SIN01)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / pilot
+- 相关度：22/100；审核状态：needs_review
+- 发布者：NeoTeo
+- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据NeoTeo公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMilgFBVV95cUxQTUIxQXJadlc5VnQxTEdVdnVhQklrOWtkWDRra3E2VEtPZVdSNVhuc2RTUm1ORWhhdUxXUlcyRlV5TXVfZHlPVVhkZ3RIay0tSlJUWVU1eTU1TXRhZnQ1WWtkZWhKVHhmSVpCbEhNLTFkZUd2NFA1bVBUaGFRRGMwQUI2TmRpRTlfZS16bjBsWEd5OWhKcUE?oc=5
+
+### 209. Monzo in Spain in latest European expansion push
+
+- 来源标题：Monzo Accelerates European Expansion with Official Launch in Spain
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Monzo+in+Spain+in+latest+European+expansion+push%22+Monzo)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：FF News
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijwFBVV95cUxPeVNVRUlDZEVyTkpRX0pNTFdfd1ZpRWpXYWFBelBBc2cxclByZTNjd2JtRDZNdFdXXzlUemZOVlAtYzRLU3FoMUxLZlZ5bGJSMkpob0t3dWM0MzhLZWdMdTdBZ21QUE9TWmlaOFlfdjBRLXlId0tvdmsxclNEeHBHX0dxSFlIdTlVbXEzNC1VUQ?oc=5 · https://news.google.com/rss/articles/CBMilwFBVV95cUxOUjFDOFpHeXNCVFIzNTlyLUV1eDNKVkdsOHJ3NE5DalRlODU0YVpnRkpISTVzdU01SkJDeDMwZE9LWmE2NmdtWTdKd0wydUZqWDRKQ3I1bzVqbERhdGpOQUNaRUNoQ0ppcldxYUI5aXNZWVUxMG11TUZBTFVoRV82VlVlRGM0bjNZU1ZJT1VpWW1IZjgwWjVn?oc=5
+
+### 210. Simply Wall St 未公开名称AI产品
+
+- 来源标题：Will Sams Club Partnership Change Affirm Stock Narrative
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Will+Sams+Club+Partnership+Change+Affirm+Stock+Narrative)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M2 / commercial_agreement
 - 相关度：22/100；审核状态：needs_review
-- 发布者：TechTarget
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据TechTarget公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Simply Wall St
+- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据Simply Wall St公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMjBRbnIyWVptOWFzaTVUTVZodklYTk9oTTQxY3hqNW13NllIS2Y5SmNkTGIxckVHM3hnNmZfamZJLW9MbzRXcDR6c0pXdVdLRlpyUWEyOHk3WTN6MHJYazAwbWYyM2dfZnJJOGZCd3pZTzNScTdGSWJVeFJGMncxSm44U21Sd3pWQXh3R3p2dE1yanBYa0hJU05IY3RjZFk4bUtKNjBuYjVoeE1wNWRqaTFROUdiUlNEN09GLWxseG1BOG83VGQxY2ZYM0NqZTdYMjVtUUVpS3pVR1pZ0gHiAUFVX3lxTE5WX0xXV0FNMFR1ZDZUZGdpaTF4d0hTMXhrLU5pVTd4WjFkUVZoMzRzbGtvRTRhZXZiM1FCaWtjb2l3Mm9DdkJTTXQ3aGtIX05RUkJFWDNjT3B3ZXl5VkNxWmd2clVRUGdEUWVseVN4Wk9WMjFKWjB3bTZlajA0MklPZ3RtLU5iMV9BdGF6NWtxRTMwa1hEWldFTlo2clA1d2lwWHExRHV4aGRHSFBmYXFLNDh4ZVlmV3k0R0lON0QyOG91NlhZRnRwYnFiWXkzSkhfYlhmRVZjUlhqUkN4UENINFE?oc=5
+
+### 211. AOL.ca 未公开名称AI产品
+
+- 来源标题：Amazon cuts more jobs, in devices unit, after flurry of product rollouts
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Amazon+cuts+more+jobs%2C+in+devices+unit%2C+after+flurry+of+product+rollouts)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：AOL.ca
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据AOL.ca公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiowFBVV95cUxQU3lfUzJYSlVSNWd1T28wNWlReE10alRqdDJwVkxxdTVESUU4ZmtwY2toX0hmelhiQlBwYkJYazBJeUxXR1kwUVhlZFZNalBDUGlWWXE1OFpxR2lQUkFWd0xXemZqejVBd3NTSlhZRGZRa0kyREpqV2tkdzQyMVFCYlpWTTk5MEJVZkJGa1BzenlzNUp0bnN5VktlOGxGXzcxSFFN?oc=5
+- 证据：https://news.google.com/rss/articles/CBMifEFVX3lxTE5XYXFILV8wMU1GeGZuZk5kX2UzbndHZkxFMXVjRnJSZ05QdE54WmdpQy11VlVNR29MR0tJRXlJaWNJNXNWZkhEc3hNV3NPdHo3d0J0NjJJVVJsNnkwZmUyODZoblV4Mjh1S2xOYmd3WlUwQWd6ZzNwV3hoQms?oc=5 · https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ja2ZLcHpYMEpHbFZDS3pwVlYzNXlWT3NrMXM2RVFtWjFDcmtuR0FYMXk0YzNHeXdrbktNcEpxOEFBY2dVWnI3OG0wMUZONEpaRkVKUGViNEZRRnlKcVNmZVNjMG52TkU?oc=5
 
-### 60. Cloudera Cloudera Blueprints
+### 212. LG Energy Solution Global Research Contest
+
+- 来源标题：LG Energy Solution Launches Global Research Contest to Discover Future Battery Technologies
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22LG+Energy+Solution+Global+Research+Contest%22+LG+Energy+Solution)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：아시아경제
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据아시아경제公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiZEFVX3lxTE04U3N2ZlJnMURXcUJfbzVQRUd6WWIwakhHM3dNNFR1UUZaZGd5dU1DcTRkc212a09zX19nMXQtSjBuUV9RUDJHcWJlbUpIZi0yZmRUNmIwUjF6RmNZdjV3RTNxV2Y?oc=5
+
+### 213. Prada ChatGPT tool
+
+- 来源标题：Prada launches ChatGPT tool to help shoppers discover luxury products
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Prada+ChatGPT+tool%22+Prada)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Retail Gazette
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Retail Gazette公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMickFVX3lxTE5adFVIU0ZWbUFtOXVsMEU1ZkRvcHI2bkFyOWwzbkhfMG5oTU56QXdzcE9ONjdiS09fNXp3ZW0yd0w3YlBRTWk0U01fNGNseGhSYWtodXhuWm04QUQ4TkNYeHNGUWRIZGs3U1N6UVVtSk9Odw?oc=5
+
+### 214. Politico 未公开名称AI产品
+
+- 来源标题：OpenAI launching election war room to track interference efforts
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=OpenAI+launching+election+war+room+to+track+interference+efforts)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Politico
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Politico公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMikAFBVV95cUxQVVZfeUFPaHlSb3RSN0Q5VGtFcmhNODBoOEhLMmVZcFU2S2QxbzJVcHVPV21LX3FLYzRsQ3RtNjdyak1GekpldmhLUTBnYmlJNTJHMVZIM2h4VEoyZWN5aDlhcDZFSmhZVkZZT3pQSktEeGFRQ0Y1YzhFNWQ2OTdCc0dXWWFrLXJyelRpOGNSb3M?oc=5 · https://news.google.com/rss/articles/CBMiekFVX3lxTE91ZDJuZjFtNGVDU192dVp3b1JkWUstaGtEbEc3VVNUalVxdWVkSGczdG54UDUzeDBTUnA3Q21WTWNVZFRxNWY1Q3FjWnprWTlIRXhZcm1NTkNGYnAtRTdFWFBUYXJ0WF9yYnJFa3dPWHhuRWJwdW5jYnZR?oc=5
+
+### 215. Anthropic additional Claude tools for lawyers
+
+- 来源标题：Anthropic unveils additional Claude tools for lawyers
+- 产品名称状态：明确产品名
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Anthropic+additional+Claude+tools+for+lawyers%22+Anthropic)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Reuters
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Reuters公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbFBaWDBVa3BKM0dEcGpjZldpYXlJb1pZdDYtMFFOaDJpMEtjWkVyaGMtVHhGd0pwZDRLLUJhNnlveHJwZHNsckY1STlMZXBuc1Z4SUpiSEJVTFlWR0I5d1o3X3ZabkRNMkE0TDRTaVNiVnRzS0o4S1JTcllTVUVPZ1JXOFI1bFV2dm1JaE00YzluSGZwY2V4NDk1aVB3c1RTX2pFZUk5SzQ?oc=5
+
+### 216. Business Insider 未公开名称AI产品
+
+- 来源标题：We're getting an idea of how much Anthropic stock will be available for retail investors
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=We%27re+getting+an+idea+of+how+much+Anthropic+stock+will+be+available+for+retail+investors)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Business Insider
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Business Insider公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ1ZBdUZ2MmJwMWxMRTNfdTUtbGxYckpzODhjOTEzR2tUeGNMSHJXajlTWldDSmdfWDJwRkNEYjI4RnI1RjN3Vzl2NGUyc1ZLT1hTMjZBU0t4XzM4VU1ZWDN5ekdYZ2NKam53QXk2OHczUHZUYlR5dXFYU29uLWFmUFgwalN3OXg5bjloMWxuV0dvUQ?oc=5
+
+### 217. Microsoft 未公开名称AI产品
+
+- 来源标题：Press Release & Webcast
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Press+Release+%26+Webcast)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Microsoft
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Microsoft公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiigFBVV95cUxPaXNEUTdVWndDS3RFQS13VmtYUjYya2J6NTJvOU5rX29OY25MVjd0ZDFrakZJanZ6TXpmYnduckNrQ2FkaUFRaXlaR1ktNXhwdEozTUVGcVUwRDRLa3BjdkUyNDU1Skk3cnA1NnlxQWFBWG5JRUNlNU9UQjFueDM1V2pla21XZmFfWUE?oc=5
+
+### 218. Reuters 未公开名称AI产品
+
+- 来源标题：Meta delays indefinitely its rollout of new commercial terms after publishers' concerns
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Meta+delays+indefinitely+its+rollout+of+new+commercial+terms+after+publishers%27+concerns)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Reuters
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Reuters公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMizgFBVV95cUxOYmxxX0JFWUowUGY3OXdUSDhwZkkyampiYmZUbnNVOF8tVXNMdExmTWp1TVBFTmQxQkluZUp5UHg2QTZTS1JkSlMxV0VWRURtSlZZai1COUFOYUF6RHo3aDZfMUJ1Y2NWSFI1QXQ5cExYUlgyQ1VUWkFYSkZmNlJjWFZYR01sYjVhOFFUb1RMc0hVUXBDSDh3QkN2OUk2U2FoUnFLVjhxOGFzaWNWZHYzZVFKR2Z3eC1xMWRSX1QxTzZoR2NGaWNJR1laMHBuZw?oc=5 · https://news.google.com/rss/articles/CBMirwFBVV95cUxPMkZfVDVDbmFDck9kX01zd2dmenZzb1IxOGwzRTFFeXI2ekxicmRXMW5WTFYwMHRIUEdZZ1lxWWpaRThtdlBrVWZOUlExbjE2bHNuWlZsQVp2U0dudWhqVnl6czEtcVNzckI5Wjl5NVZJT2UweG1LZWc1eTdYN3RPZmJHRXhjbWJfTkU0UFFWNVpwWFQ2UHdwSTdRR2xFOFJiY2RLRUdpdGUxM3M3YzN3?oc=5
+
+### 219. 24/7 Wall St. 未公开名称AI产品
+
+- 来源标题：Meta’s Muse Suite Rollout Makes the Recent Pullback a Buying Opportunity
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Meta%E2%80%99s+Muse+Suite+Rollout+Makes+the+Recent+Pullback+a+Buying+Opportunity)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：24/7 Wall St.
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据24/7 Wall St.公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMitgFBVV95cUxQSV8tRVNnX0drLW5UOUJJWHdUZEpZT0MySFpVVk5jcmZHM1ZuMllLWUExdFJiUGJUMDhXTDlXMzdpN3hEa1FjeF9IendiLVZQcFM0M0xvQnNQb0ptUkdOMEhsRk9WTGFBaDlpZENVQWozZk9Fb0c2VEV6S1ZSM3dndFRLRUR6T0VmVnpqelN6NzZibEUxUVAxcWd3VFNvMjdlX0VFV3M5WGdGaDZfVW1QS2xjaHI2dw?oc=5
+
+### 220. FourWeekMBA 未公开名称AI产品
+
+- 来源标题：Google-Backed Aura Glasses Launch at $1,099, $200 Under Meta
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Google-Backed+Aura+Glasses+Launch+at+%241%2C099%2C+%24200+Under+Meta)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：FourWeekMBA
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据FourWeekMBA公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijAFBVV95cUxNdGNhRnBBMjRUS0dlQjd5Wm5pVG5pQTFZS1g1R3hHbDY3YkhvVzdiQ3VhTVFmNWNCTnVRazYyTUF2aUtGVk9mNjlRMUd1bDBuaGtJWk9rUWdrTE8yb3QyNk45clB1Q3AtZ2FxMTI3MVpuc1B3V3hpSUctcmVSSGtNWVlCNDVDX05SQXBCSA?oc=5
+
+### 221. Cloudera Cloudera Blueprints
 
 - 来源标题：Cloudera Launches Cloudera Blueprints, Bringing NVIDIA Agent Toolkit to Enterprise Data Anywhere
 - 产品名称状态：明确产品名
@@ -1128,104 +4026,338 @@
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：22/100；审核状态：needs_review
-- 发布者：CXOToday.com
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据CXOToday.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：HPCwire
+- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据HPCwire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMizAFBVV95cUxNMV9GN2gta1dLanFuT0s2Z05GZWVLb1hKT2k3VW9vSzBqeFd5Qmd2Q2NGMzFsUlFyRVBlOHppd0N3Vl9EdHFHcFNTcWt5MHRVTy00cnR3WkJvdzJXZTNqSDRVX2F2blpzeFRsZkJnSHd3LUZWNW5ia2lkTnNxWDc4WTVwNEoyNzFWTUlKNVgtQlF3MGNmTEhFSWwzRnZ0X1p5VUdqVlJjT0xXRmM0bFYzZmVUVzJJRXBHbVVTOC1BX3pjSTYzT0ZkN1hCNDM?oc=5
+- 证据：https://news.google.com/rss/articles/CBMi3gFBVV95cUxQUVN3aUZFTXo2OExPRllGV3VBYzhneXlERHEyZFVkakw3QV9OX0ZTckdGLXY1YWh5SU1PR3g2VkJKV1lZZ2lvX0VzQWRjMzBSYS1paFNXWmJTT2ZzSkl6QUJBX0c1dVBMaFR5TzlENl9Rdng2WGpsdVowMDZNMk10WElONWp3eEpzVHpPZnIyUnR6V04zT3NhZV9mekdCRFB6blA0SFRnenhKX3NxWG1CQU1BNDZFdWNwN0ZtRjk1RGFsWjM3bnZhTHRYeWZOclh2cWtQUm94N3VJNWN4eWc?oc=5
 
-### 61. Kraken bitcoin and ether options in Europe
+### 222. IBM Newsroom 未公开名称AI产品
 
-- 来源标题：Kraken launches bitcoin and ether options in Europe
+- 来源标题：USTA and IBM Announce Five-Year Renewal of Longstanding Partnership
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=USTA+and+IBM+Announce+Five-Year+Renewal+of+Longstanding+Partnership)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：IBM Newsroom
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据IBM Newsroom公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMipgFBVV95cUxQNVBGTEtNZkVwQktndkN6SUFUUHBvajBXN245MzVaZnU1OS01dVp4WllFVGlNa25vYU10YzQ3MnRmaGNOOHJGVklzd1YtT2RlcDFYYzBpY0NKWjBtekNjbjE1d01Mc1MwazdMRkMtRmY0aFM3Qm5yeFF3RGNocTQyN0hlWjNmYjVUekpNc080TTRZMGNqd3ZKRXdRT005M1pjQnptNVFB?oc=5 · https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tbVR4cmlRVUpJYUtlSC1PcmJ0QWFaVlVQYThOSFF1VmJNQkI4MV9WTS16ZDVDZm9CS3dLcERadDVadG1YLWhHeTRMWWFxbkN1blJwUUFn?oc=5 · https://news.google.com/rss/articles/CBMiogFBVV95cUxQRTRUUjBzTWFmUjl0Q3lQYlg2UEs5RWJubHBnNDU1Y2lhbFFObzgwbUc4cjU2UERQU1NFZmxhR3p0UHFJZzdTeUdVc3hPSDRqb3BoSWo3enE0a0xPZDVyY0tzWVNvUnRlS0FPaERWcmR3QkljQTJNSkNVX1FWcUhRSDBYS05jWmFQQ2JyNF9kRmNKbEVlRlhxTkZXbFVuZF9OQlE?oc=5
+
+### 223. TechTarget 未公开名称AI产品
+
+- 来源标题：Snowflake data cloud adds Python, multi-cloud collaboration
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Snowflake+data+cloud+adds+Python%2C+multi-cloud+collaboration)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：TechTarget
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据TechTarget公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMinwFBVV95cUxNb2dkeEgzYS1HUmwxeVlCYWtjcWRSNTZMVVZRNFVhQ01wQ1ktWTR1VWl2ZGdxVE9Mc1JNam1SRXNRazN3SzhodURXR2JjSlZKSHlQbnBZb0xhaXNONGs3dEJlSkpiS2xRcnVjRm1vQ2ZKNEtQUTVWVkkzemRzX0FsZ2lQc0RmTF9rLUxINlBsd2JjSFFtYWtZbzJPeExlRUk?oc=5
+
+### 224. Yahoo Finance Singapore 未公开名称AI产品
+
+- 来源标题：MITTI LABS & SALESFORCE PARTNER TO SCALE WATER-SAVING RICE FARMING PRACTICES THAT REDUCE METHANE EMISSIONS
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=MITTI+LABS+%26+SALESFORCE+PARTNER+TO+SCALE+WATER-SAVING+RICE+FARMING+PRACTICES+THAT+REDUCE+METHANE+EMISSIONS)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Yahoo Finance Singapore
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Yahoo Finance Singapore公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMijAFBVV95cUxNZVZmMGtCNW4zbXN1Y2ltVU4yV0xsZldpa2tHRzVnb0M4LThKTTF2a0YtS3hnbU5ZVkNsWmVxRlUyX2ZpSS1BaXdaaFQ4azN3ZkpIVXlRWHdFOU5UWTNNS3dBVXJyQnY2Rl9vMUpKQnBOV0xiOFA3bU5NdEVrYlgzbjNpcEFYdlk2ZGRMaQ?oc=5 · https://news.google.com/rss/articles/CBMimAJBVV95cUxNMnFxTFBQNFhwTnBrbGZ6X1lyQkluZ1pYNmZiMFVsbGpoZmxXZ2QzanBuMy0yZGYzX0lQUE85dkhoaDd5d0JTSGcyWU00MHBtRjRMOHBPUUJvVy1nbWp1NW50WVV2dU0zeVo0NnZDSGU0Z011Q21nYjk1U1JBQ1FucGdhNDVsS3EySlhpWHlhTENzT3ZxdW10dmFkbGptNjAycjctaHBCWHREb19qRXBJM296eTQ0YU0wSmNZNjlYNjlkSFRvVXN0MjlJdVJ2UFFWSzVkV1hLeURoS0FFMVRfLWdRM2ZkRHZEWHd5dU12NE5GbXlTRzUzbGJKMVJ1VkpJZVRDRXU4Wnd5X3JLOXMzQm82dUJXbG850gGYAkFVX3lxTE0ycXFMUFA0WHBOcGtsZnpfWXJCSW5nWlg2ZmIwVWxsamhmbFdnZDNqcG4zLTJkZjNfSVBQTzl2SGhoN3l3QlNIZzJZTTQwcG1GNEw4cE9RQm9XLWdtanU1bnRZVXZ1TTN5WjQ2dkNIZTRnTXVDbWdiOTVTUkFDUW5wZ2E0NWxLcTJKWGlYeWFMQ3NPdnF1bXR2YWRsam02MDJyNy1ocEJYdERvX2pFcEkzb3p5NDRhTTBKY1k2OVg2OWRIVG9Vc3QyOUl1UnZQUVZLNWRXWEt5RGhLQUUxVF8tZ1EzZmREdkRYd3l1TXY0TkZteVNHNTNsYkoxUnVWSkllVENFdThad3lfcks5czNCbzZ1Qldsbzk?oc=5
+
+### 225. Global Government Forum 未公开名称AI产品
+
+- 来源标题：UK’s HMRC awards Salesforce £2.4bn contract to ‘modernise’ customer services
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=UK%E2%80%99s+HMRC+awards+Salesforce+%C2%A32.4bn+contract+to+%E2%80%98modernise%E2%80%99+customer+services)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Global Government Forum
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Global Government Forum公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMisAFBVV95cUxNcXBFR25uYklOR1FocnFyaTZwcDJzQVFGVFNVa3lwLUpQTU1fY0taSWtqcEZieFJYbVFzUlFMb2tPcTJ6dGw0TjUtVTc1UjZ0RkotTUc5UjcxM2F3OGh3RUJ4V2d6S3BRazlJNHVqcnhYVi1OZlRHdnd1cjdWaGo0XzJNMy1LUkZIZ09UdDhyYWRfUmxYaXAtMnZ4RV93WkQ5UXZDaktRd01RcUxZV2RkRg?oc=5
+
+### 226. THE ELEC, Korea Electronics Industry Media 未公开名称AI产品
+
+- 来源标题：Intel, Oracle Strengthen Alliance With Expanded Long-Term Server CPU Supply Partnership
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Intel%2C+Oracle+Strengthen+Alliance+With+Expanded+Long-Term+Server+CPU+Supply+Partnership)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：THE ELEC, Korea Electronics Industry Media
+- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据THE ELEC, Korea Electronics Industry Media公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xaDAtd2o4NVNTSHBxc1JvY3ZSTDhRWDVMLTR6bWRVVnNYQnJOc0FKVkUyY2ttcHJCRnJ1RUh1aFFzaDZFNUxHWkNsNm13TmRRSFZvS3RrVFpjZFVTQ0RRVXdjMDdZNE0?oc=5
+
+### 227. Yahoo Finance 未公开名称AI产品
+
+- 来源标题：F5 and Oracle Plan Cloud Security Integration to Protect Applications and APIs Against Cyber Threats
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（integration），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=F5+and+Oracle+Plan+Cloud+Security+Integration+to+Protect+Applications+and+APIs+Against+Cyber+Threats)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMimAFBVV95cUxQeDhhaENXTzlEVjc4THJpZmtfblQtWUhXUkNnQXlrbnh2U2tndEJFRGNZV0JzZVpxRldRVXFqR19MOHBBX1NhRTlJSVVsOUgwRzRoU0oydGd5cmMydV8wbXJQdmt2X2RwNFJMbnpnVlNPUXFDTG5oSTdyWC1CSVpXZ0owUC14MGdBVTQ3R19HWUwxRGlNc3k5Tg?oc=5
+
+### 228. Scale AI 未公开名称AI产品
+
+- 来源标题：Scale Expands in Qatar With a Long-Term Home at The Pearl
+- 产品名称状态：名称未公开
+- 产品分类：其他金融场景
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Scale+Expands+in+Qatar+With+a+Long-Term+Home+at+The+Pearl)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M5 / scale
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Scale AI
+- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Scale AI公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMia0FVX3lxTE0yMXc5NE44SXRUR3RlYm5VZzB1SHFPWDVGbmJEdXdHd2FPckM4RkdTV1lHMGxnYnFQOFFjQnFYSWJ2UWdfdF9CTlZrS3RwUDZpY1E0NFlPTnEyQVFta21HOFMwMGxiaE1HQVpF?oc=5
+
+### 229. Yahoo Finance 未公开名称AI产品
+
+- 来源标题：Will Growing Stablecoin Adoption Strengthen Coinbase's Prospects?
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Will+Growing+Stablecoin+Adoption+Strengthen+Coinbase%27s+Prospects%3F)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及金融科技，被识别为客户部署，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxOLVNtZV9jblpvQXp3cUE5RGtuQ3k0R3AzSWlGZW1Kd0U1dC1hNENFbGlIdlhsNC0xV1FUT2hQVThMaWE1UjlpbmlJWXFodDFsbkZQVDVpRm1oQ05Gc3lOZjhVLXE0VGlvbHJZeGlqRW1yNmxGWnoyb3BjaEctY2toczdwZ043eFhodURZd3ptSkpnZUd0aGNaWlQ5NnZnMDZYWDlQVXh4OVZJWWlqczB5R1plQQ?oc=5
+
+### 230. The Cryptonomist 未公开名称AI产品
+
+- 来源标题：Ripple USD Stablecoin Expands Access with Coinbase Integration
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（integration），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Ripple+USD+Stablecoin+Expands+Access+with+Coinbase+Integration)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
+- 相关度：22/100；审核状态：needs_review
+- 发布者：The Cryptonomist
+- 摘要：该候选涉及金融科技，被识别为客户部署，成熟度暂定M3。当前判断依据The Cryptonomist公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMieEFVX3lxTE9fcmFuaXpONkc0NkRPb2ZWWjlCS012UF9YM1ZXVndqNGYtV1BodEFQYWVVamhaM3JtOV9MbHdSR2UtRkZtaVlaUjQ0cE1Ta0FMOVRQS2lMZFZSMWpsend4YnNYRlJyOWJYLVNnRzRZZnF0R21lVFBkag?oc=5
+
+### 231. Yahoo Finance 未公开名称AI产品
+
+- 来源标题：Coinbase Customer Data Hit in Analytics Vendor Breach, Funds ‘Not Impacted’
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Coinbase+Customer+Data+Hit+in+Analytics+Vendor+Breach%2C+Funds+%E2%80%98Not+Impacted%E2%80%99)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Yahoo Finance
+- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiowFBVV95cUxOOC1EYkd0VU1oT1EyTVJCX01fLTFnb1lOMnh4SjdEREZHQXNNRk5MX3dMd2l0WlpySDBZMGpNNUstNjFBV1BYYmhlRW5wYS10OU5kMF9aNkluWWQxM1lyZTFKT2dOaVNjRzF6SjE4NjgwTVRiOVE2bmZVX2Y5M3pTS1VJUFhVa0lVcEZySm1aS0NkV2FybGotaldJeVh6RjZIQVRN?oc=5 · https://news.google.com/rss/articles/CBMibkFVX3lxTE1IQ3YzOXRLNTNYbHVDcHRSQ3JhT3dYUGRGamhNTE1fZlItczdpWUxHVHk3TUd2RmRJSnhMX3hSMlNXdUZGaFRFTU1fTGRqMHdXLXpMMUpabWpib1JBQjFoc2NYbWFhZjFUTmdmRmxB0gFzQVVfeXFMUGJncXVyYlFPWlh6cGszaHZXUTBDaGg2WlVqdVRWNkZaMVFWV0ZLOWRTeVVENTE2S1JrNDhNSTVZYnF0THVGQTlBelRJeUtxeEpNSFRNQjFteVhwaTRkeE16YWxOc2N2aFB3SFMyWUZ4OXRBVQ?oc=5
+
+### 232. eGamers.io 未公开名称AI产品
+
+- 来源标题：Amplitude breach exposes contact data for some Coinbase customers, exchange says funds are safe
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Amplitude+breach+exposes+contact+data+for+some+Coinbase+customers%2C+exchange+says+funds+are+safe)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：eGamers.io
+- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据eGamers.io公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlRpR2FJcFQ0QnFiOE50TW42bkFmUmY2NmVvTkJUb1pCVHkxM2Z4OFhnXy1mUGxIVzc2RFdKT2xkMDRRMTdaYXNJcDYtdUJBVkdEODEzZU45bnVlcHpnMi1talRQa0x5TjhTZmNaNXd1S0VtOWV0c0hGZTJTQ3VWTkR5WGRoM0NXWnhrUWNFZDVraDJCdlhTdUotOTdVOVhDbDNnZFV0U29PVnYyLWRwVFg3Z0g?oc=5
+
+### 233. The Crypto Times 未公开名称AI产品
+
+- 来源标题：Circle Says Kraken’s USDC AUC Grew 30% Since September 2025 Partnership
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Circle+Says+Kraken%E2%80%99s+USDC+AUC+Grew+30%25+Since+September+2025+Partnership)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：The Crypto Times
+- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据The Crypto Times公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMirAFBVV95cUxPX3plWVVqbHBXbHdlMkdmX1U2RlJzTnI3LXM4c2tOZEJoUTRtdkYycWpteWpoVmJOTHNqdGljeWJpSEVLSTVhTzBsR05FaFd1eG4tTWpacGtoaElXX3FqNF9hRU1lSS0yRTZpeWNoQUFiZ1NQS0dVVUw1UFhNOUVuQmZzb0ptVEFoUG5mT1I2NVdxT0VaZFBZLVV0Xzh5a0VYejFLMlltTDY4T2Uw?oc=5
+
+### 234. Crypto.com crypto perpetual futures in the US
+
+- 来源标题：Crypto.com brings crypto perpetual contracts to US traders with up to 5x leverage
 - 产品名称状态：明确产品名
 - 产品分类：金融科技基础设施
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Kraken+bitcoin+and+ether+options+in+Europe%22+Kraken)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Crypto.com+crypto+perpetual+futures+in+the+US%22+Crypto.com)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M2 / commercial_agreement
+- 相关度：22/100；审核状态：needs_review
+- 发布者：The Cryptonomist
+- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据The Cryptonomist公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMid0FVX3lxTE56bjZoU2xINXItMmg0MHRHZ0pJZGZNUHMxb2lCbDBBSkEyem9tbk9VSUNOSnFIaFRtT2d0MlFIdEJiUzFyaTZTU2FEVXhEMTFXU1VOTGpPZUk0bWUxQ3Q1SkVFUmpjQTV5OXRoNmFpYjhKNEVmajBZ?oc=5 · https://news.google.com/rss/articles/CBMipwFBVV95cUxPLXppaW9NaXlBN2lSQmdzU2hCT2k3TmZBeGlLb0o5UFVKM2NZZlpDVmJkT2pNS0xOb0t4TTg2TEhOYUFOZVppVzhjM2M0ajYtNjlVc1h2S2Nvc180aXpPSDFEZUhFY1dBT3puSjBnWkVqYmhnaUtRUC1OckIxTWh2Q3RPWjB4OHV1bk4wSkdaT3E0cW9OQXFHZVE2WHFhdHdsR1hDMDBSYw?oc=5 · https://news.google.com/rss/articles/CBMijgFBVV95cUxPakY3LUR2ZUtlN0pGQUJiQl9OY0lqT3dBUFQzLW0tTHdPTnJDZXBPREthU0dMN1Z0WUE0SnpwYzFmam5jeTItZUxWUnduZzhzcUNBMUZQNzFjbS1LR0Z2d1dBVGE4d2pTc0tBSW9PTl9feExiX3VpNUNCYlJpRFd5WjRSajFZLW1SYnRER0hn?oc=5
+
+### 235. Westcon-Comstor Partner Growth Circle
+
+- 来源标题：Westcon-Comstor launches Partner Growth Circle with Palo Alto Networks to accelerate EMEA channel growth
+- 产品名称状态：明确产品名
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Westcon-Comstor+Partner+Growth+Circle%22+Westcon-Comstor)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
 - 相关度：22/100；审核状态：needs_review
-- 发布者：디지털투데이
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据디지털투데이公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Lifestyle & Tech
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Lifestyle & Tech公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMimAFBVV95cUxOaFlxWldIYkFlcjBQWnFJTTRCV1lub3dfcUhrOXY5dUp3WW5PWHI4UVdoakttdkpuN1p4TjhKTG9yT1FVX3liUGk5b3hTLS1LdExNVU9OWTNUTnpDN2JHaUFzbFc5Wl94Q3ZxckpQZkVaWjV6c25PTGdxaEtpYlFHbnp2MXdCX2ZyVDR0d3Etcnd3S2IyVkU1Yg?oc=5
+- 证据：https://news.google.com/rss/articles/CBMi9gFBVV95cUxON1JvVXNDUHp0clF4UkpaeXktZkNvV0JDeWxOMk9PZEVrSHhTZ3ZEMlJLYVdGcXMtYlRWWE5VSEJyclFJT2R2TmNFVkx2TWNqRHVISlBaVXRWd1VNWElBUW5xX3FHaUR1V28yajM1LVhsUmJSMFBzOUZES2QwamdFSmVJZXVQY0F4YjNoT01rSGJmcUpYbmVYVDZheTJsM2VCSWlEVTJrazlTY2xHRjVDU3ZYclFWSFR0WDVCTHhjblV3YXBkWnNnX256Ymtzc09wNDk3aXNHanRFVURVY1ctMXJER0lsNFVva2hfejNqSTAwbXNtbnc?oc=5
 
-### 62. Crypto Briefing 未公开名称AI产品
+### 236. Ripple Treasury Always-On Corporate Treasury Platform
 
-- 来源标题：HYPE token rises 5% as Kraken’s parent plans US perpetuals market launch
-- 产品名称状态：名称未公开
+- 来源标题：Ripple Treasury Introduces Always-On Corporate Treasury Platform to Modernize Corporate Cash Management
+- 产品名称状态：明确产品名
 - 产品分类：金融科技基础设施
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=HYPE+token+rises+5%25+as+Kraken%E2%80%99s+parent+plans+US+perpetuals+market+launch)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Ripple+Treasury+Always-On+Corporate+Treasury+Platform%22+Ripple+Treasury)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
+- 相关度：22/100；审核状态：needs_review
+- 发布者：Financial IT
+- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Financial IT公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
+- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUTZqVWJLMFZRQUFUS2pxT2lMRXNsUDRZbzE0dm84aHRhc2g4Z1hrZ0M5TTctV3RFUjdKalRHcm9PdFFwTTN3Y3VLcFJCcUNJeVhGNTdScG9uamNKWmhQZXhGQ0tGYnZNLUR0QlZoM2prd3NRbVBjSFd4LU0yUzZIRzF2SHhnM2J3dk81X1k2eFNvMHVOUlE1Ry1tSTl2NW1hODdQVXJjcVNTQ1VDc1FES2s3RjlGYk9FdFZXdTZQSzhVZw?oc=5
+
+### 237. Crypto Briefing 未公开名称AI产品
+
+- 来源标题：Ripple targets $900M annualized revenue as institutional adoption triples in 2026
+- 产品名称状态：名称未公开
+- 产品分类：金融科技基础设施
+- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Ripple+targets+%24900M+annualized+revenue+as+institutional+adoption+triples+in+2026)
+- 官方地址：暂未确认
+- 有效时间：2026-10-28（media_report，置信度 0.65）
+- 阶段/事件：M3 / customer_deployment
 - 相关度：22/100；审核状态：needs_review
 - 发布者：Crypto Briefing
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Crypto Briefing公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 摘要：该候选涉及金融科技，被识别为客户部署，成熟度暂定M3。当前判断依据Crypto Briefing公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMinwFBVV95cUxOLUlKRngzVV93M2xEMUR1ZlA5NmhnaHdYUy0wYVB4dlVEZ0FLOGtFLWFNa3Y0Wi1MWlhXMk5MVk8zNHVGRjdvLW01bDZIYmZ2RFhaOW5YQ3RNeFdaN0VtazdXRy1CUG54a29WRUE0UEFnajdnTEhIWjdZUUxPMU9PZzdhVzVWVzNiRWEzZlVYMDBVVzg5R21WeTJfcUprcEU?oc=5
+- 证据：https://news.google.com/rss/articles/CBMieEFVX3lxTE5Dd1hHVGNSaU5Ka3VSQ2tpNVQwME9HS0tPdkNCTGljeE1Wbm9mQ2t3R2w5NEZVZnRTb2NFdk1NcGZlbVh6aXFhRlRxb01mYWxYQTc5YnhjcnBFOGVWdGRURzlXUTZzVXVYT3hHNGpLd2dNdVNRbTVxeg?oc=5
 
-### 63. www.tokenpost.com 未公开名称AI产品
+### 238. Stock Titan 未公开名称AI产品
 
-- 来源标题：Fireblocks Says Tokenization Pilots Are Growing as Revenue Remains a Hurdle
+- 来源标题：An affiliate proposes selling 1,650 shares of Grayscale Filecoin Trust (FILG).
 - 产品名称状态：名称未公开
 - 产品分类：金融科技基础设施
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Fireblocks+Says+Tokenization+Pilots+Are+Growing+as+Revenue+Remains+a+Hurdle)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=An+affiliate+proposes+selling+1%2C650+shares+of+Grayscale+Filecoin+Trust+%28FILG%29.)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
+- 阶段/事件：M5 / scale
 - 相关度：22/100；审核状态：needs_review
-- 发布者：www.tokenpost.com
-- 摘要：该候选涉及金融科技，被识别为试点，成熟度暂定M2。当前判断依据www.tokenpost.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Stock Titan
+- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据Stock Titan公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oWnNtUGJfS0RSbXoyaGhXNFBBXzRMNThrcVF5NTAzMHpLMERUa3ZtWk9wMjNaUER5VzE4UzhMY2E3TUVKbVBRRFBCd1ZCLW04SE5tUlg5WmY?oc=5
+- 证据：https://news.google.com/rss/articles/CBMiqAFBVV95cUxOanFKQWZPMEwyNzZwSDFUcEZ5cDNxaVlCS09DQ2d4TVZfX0RpYXZzTUItNHFQTUw1ZTFKZTgydEt3cU9mQ1ZVMVRpVnFzZlROU2ttb05MSUtpYUZaZ2hScV9wUWJHSDB0cU1hQnJ3SUlYYUlwLWl0dDFDNU1kMXJuNU1nQ0J0MHJ2V2laT1pyT29CMkVMUjAxUzFmWERtZ3I5aW1HRk95b3U?oc=5
 
-### 64. Vmake Labs Halloween Social Video Toolkit
+### 239. Blockchain News 未公开名称AI产品
 
-- 来源标题：Vmake Labs Launches Halloween Social Video Toolkit
-- 产品名称状态：明确产品名
+- 来源标题：Grayscale ZCSH: $2.1M Daily Inflow
+- 产品名称状态：名称未公开
 - 产品分类：金融科技基础设施
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Vmake+Labs+Halloween+Social+Video+Toolkit%22+Vmake+Labs)
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Grayscale+ZCSH%3A+%242.1M+Daily+Inflow)
 - 官方地址：暂未确认
 - 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
+- 阶段/事件：M5 / scale
 - 相关度：22/100；审核状态：needs_review
-- 发布者：The Clarion-Ledger
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据The Clarion-Ledger公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 发布者：Blockchain News
+- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据Blockchain News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
 - 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
 - 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMirAFBVV95cUxPOWU4MDR1S19KazlaX2hYUDNwSy1ER3g2UGxKLU56YktkZlhqT19XWWYwRGg4dGZnOWVZQVNtQWlIYnI3dEd5VjBtVVIta29LNHJXM2RjaDVQamV0R0paMkNCektwQnRzRHZUUnRQbGNSMWxsWTdONW5lbV9HekhHQ0pUMlpaaEJySmxscER0SldhYm1wUjg0dWFHNGVyMURjb3BTOU5NUkdZUjNK?oc=5
+- 证据：https://news.google.com/rss/articles/CBMidEFVX3lxTE5pQjRsM24wZlZGYmwxTG9BYXduNi1KU25NWWV1dzNEY0dvQmxaTFRrRElhU2NnaU0zV1JrSXpwTUIycExTaG11QVVRQUZZbG5hRDlkR0E5eWhfd1FuandHMHFXS3FPemQ1Rl9DYjduVDNiV3J5?oc=5
 
-### 65. Polymarket US 5-Minute Bitcoin
-
-- 来源标题：Polymarket US Launches 5-Minute Bitcoin, Ethereum, Solana, and XRP Predictions
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Polymarket+US+5-Minute+Bitcoin%22+Polymarket+US)
-- 官方地址：暂未确认
-- 有效时间：2026-10-28（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Coinpedia
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Coinpedia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOXVNcFFuYWk1RC1jWWxKd2JRYXhaNzV3dXREM1pNX2hkbXZZTnpIRGhabWFNZEtDcWhiaFoyR0pGMlhFVTA1ZWhRYXFrZDlaeVlEeGtvUkpZek5PMnZtbkwyWlEtU1ZWQU14eVdjUjlBMnhOQmhySGV3cUhPUl9fV0plMDg2RVoyZ1NmZzV0UUJNZjctNUFtT1JTY1hHOWMtaHBhcGFxb2JPYTTSAasBQVVfeXFMTjl1TXBRbmFpNUQtY1lsSndiUWF4Wjc1d3V0RDNaTV9oZG12WU56SERoWm1hTWRLQ3FoYmhaMkdKRjJYRVUwNWVoUWFxa2Q5WnlZRHhrb1JKWXpOTzJ2bW5MMlpRLVNWVkFNeHlXY1I5QTJ4TkJockhld3FIT1JfX1dKZTA4NkVaMmdTZmc1dFFCTWY3LTVBbU9SU2NYRzljLWhwYXBhcW9iT2E0?oc=5
-
-### 66. TechBullion 未公开名称AI产品
+### 240. TechBullion 未公开名称AI产品
 
 - 来源标题：Crypto Price Prediction: CLARITY Act Stalls as BTC, XRP and Remittix's November Launch Take Focus
 - 产品名称状态：名称未公开
@@ -1243,97 +4375,25 @@
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
 - 证据：https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd1ppSlhxVTBRWF93cTFrcThEUEZKUGdPQ0xLbjlDWWl1TzRoXy1CVEJzZGFyUWtIV0xXVkF4QW5UMHIxMWxsTkpvXy05TWVPNHBxNk9TcVFyQlVQbVRPQklPVzlaM2RCQmdEaDV3TXJnVWNyd3pfZXZxaWN1Q3JXbEcwbG5kdW5YVVVKd2dheU1ST2ctcjY4OWswTU5odVk0azdJVzM4OEFQeG12NG9IY19WdHdYRkZkVEtB?oc=5
 
-### 67. Traders Union 未公开名称Agentic AI系统
+### 241. AOL 未公开名称AI产品
 
-- 来源标题：Simon Taylor: Instinct lets AI agents manage stablecoin balances with Visa payment option
+- 来源标题：Financial Services Increases AI Investment Faster Than Wider Market, While Maturity Remains Level
 - 产品名称状态：名称未公开
-- 产品分类：支付与钱包
+- 产品分类：保险、投资理财与资本市场、金融科技基础设施
 - 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Simon+Taylor%3A+Instinct+lets+AI+agents+manage+stablecoin+balances+with+Visa+payment+option)
-- 官方地址：[https://www.visa.com/](https://www.visa.com/)（官方机构主页，非产品专页）
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Financial+Services+Increases+AI+Investment+Faster+Than+Wider+Market%2C+While+Maturity+Remains+Level)
+- 官方地址：暂未确认
 - 有效时间：2026-10-27（media_report，置信度 0.65）
 - 阶段/事件：M3 / product_launch
-- 相关度：98/100；审核状态：needs_review
-- 发布者：Traders Union
-- 摘要：该候选涉及金融机构、支付，被识别为产品发布，成熟度暂定M3。当前判断依据Traders Union公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。
-- 预期作用与价值：预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMiiwFBVV95cUxQS3dRcHQxdmRPdWRrTkRiYWxSbjBNNWcxNW0weUI3WjZqemtvZHN5YU9pcWh4aDNwdzNnd2lEVndJSFdya2c0V18wSG5lWVVvY0tUSWpCb1JKdy1WSU1yRng2R190aEo3Si1NNW1ocUNfOWhDUzhXaWd1bjFRUW9sVTZjM2M5WUczaENv?oc=5
-
-### 68. Crypto Briefing 未公开名称Agentic AI系统
-
-- 来源标题：Brickken CEO calls for stricter AI agent permissions following Mastercard’s AI payment pilot
-- 产品名称状态：名称未公开
-- 产品分类：支付与钱包
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Brickken+CEO+calls+for+stricter+AI+agent+permissions+following+Mastercard%E2%80%99s+AI+payment+pilot)
-- 官方地址：[https://www.mastercard.com/](https://www.mastercard.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
-- 相关度：98/100；审核状态：needs_review
-- 发布者：Crypto Briefing
-- 摘要：该候选涉及金融机构、支付，被识别为试点，成熟度暂定M2。当前判断依据Crypto Briefing公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：面向AI智能体的支付场景，使智能体能够在授权、身份和风控约束下调用支付服务或完成交易。
-- 预期作用与价值：预期降低智能体完成商业交易的系统接入成本；是否实现端到端自主支付仍需核查产品权限和风控边界。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMic0FVX3lxTE8yNE1Wcm1WT0dNV0stckZfcUtUc0N5UFktdEZtbzZTUmVoVUNHeGFYVDZfSEY2U1pZUENsUVFnMjZ1b1h0b3U2VjRkV1h1ZzIxZkc5RVQ4M19WXzM1Zl9qWXFTSkFOanV2RG9GME45MGpJV0U?oc=5
-
-### 69. Business Wire 未公开名称AI产品
-
-- 来源标题：NTT DATA Expands AI Factory Footprint Globally to Help Clients Scale AI from Pilots to Production
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=NTT+DATA+Expands+AI+Factory+Footprint+Globally+to+Help+Clients+Scale+AI+from+Pilots+to+Production)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：86/100；审核状态：needs_review
-- 发布者：Business Wire
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Business Wire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
+- 相关度：96/100；审核状态：needs_review
+- 发布者：AOL
+- 摘要：该候选涉及金融科技、保险、财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据AOL公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
+- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcUt2U3p3WmVTUjlmTGpFNzhpNFJ4WnNRMzFiR1FWUjFHdjNRNWdsbzY5cGxUcE44Vl8wSHVvMlRQd3pZQTdJazJmdG1XbUprbktyOVhkYXVQM2hQOENxOGtmSHUzYlgzLTdEZGdVb0NPRDVPR1NfQjhkWU5reXhnclg1Y25vRk1qQWhFQWhjcU9NbHhtMzlvYU1jVkZlTkhFVWxBS0ZnLXZVZVVqLUtDSG5iOFZfZzU4WUJ6NUxjQUMyLWVVSHo3Y0Eyel9FeXlqb1M4eV9HNDM2T2NkWENhVXQ1Q2xYWVFaYnc?oc=5
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3bb67a480da8cc10cac5b7ba4e&url=https%3a%2f%2fwww.aol.com%2farticles%2ffinancial-services-increases-ai-investment-085600000.html&c=8550879912417643590&mkt=en-us
 
-### 70. 富途牛牛 未公开名称AI产品
-
-- 来源标题：Oracle AI Cloud Expands Chip Portfolio: Cerebras Deployment Scheduled for First Half of 2027, NVIDIA Partnership Scales to Multi-Gigawatt Level
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+AI+Cloud+Expands+Chip+Portfolio%3A+Cerebras+Deployment+Scheduled+for+First+Half+of+2027%2C+NVIDIA+Partnership+Scales+to+Multi-Gigawatt+Level)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：86/100；审核状态：needs_review
-- 发布者：富途牛牛
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据富途牛牛公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitgFBVV95cUxQZ1MteGFlZDZqVFA4dHZ3WkN5QXR3cnFTemRxUm9BWWhkNm9FYXg4eWlZOE4xMGNOWGhXbF9MVnFDZ2lEU0l0TGpzQWtYNHpHZ3N5dUpxZ0dLVndVU1lMdEp3YzRQOElQUDV1RG1EdzczZlpzS19nV3pMcXc0cTdxdlhtUmtpWDhWaXFHcm9INjRRUnFSQVB5QUpYaV93TDVmbmEyVUZsNEZDOWt6OWx6b3F2OGZldw?oc=5 · https://news.google.com/rss/articles/CBMif0FVX3lxTE1fSEZJVy14S2pWNDF5YkZJNTNRTjRYNHphYW0xVVBYTGo1UHhRc3phUy1GQzZQWlE4RkNFbGc1NUxhYVNNYk5SVnVucm8tSXVCcVdiaDhFRW84NzhSOVZyZmNuS2ZPSWxfdDh0ZEU2cVVtdG84OXFTUEFldmJycWM?oc=5 · https://news.google.com/rss/articles/CBMijAFBVV95cUxQSXhGOU11NjBVNGd0bUxuRmV5blBvXzUwZ1YwYlhhakNTOGI1dVdfc3ZaVW1LSm5PanlHVGYwYWs1R1ZsbmNjQ1hoRnpCX19lc1IzWEx1V05ZN3ZhWk9pbG9kUjJFcEwtcGtuZDQ1Smc4UUl0cDZMRVpnM0VTZE91Y0NfcldxMmIzcXRGSA?oc=5 · https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLWx6Nnk3bzUyVDJfcjBEZnltTmVaTWhVdTlhNXBtM0RZMXJJRGRFSGNLbDNUakh5ODlTQTR2bFd1R1FfNEtON2UzRnVvajNuUm1DeWNjZXB6VEplUHgzOFotWDQ3dWpRSVctbTA0ZzF4NXRRN0N3ZmxmeUNZTEdoSE16RWpMR1MtYXRV?oc=5 · https://news.google.com/rss/articles/CBMiekFVX3lxTE1KSTU4TlN2Z1JZeGtBUkhtZWdKd3g2NzcxY2VMSncyd0tuaVQ5am52eF85YlYzS0xNb1Q0R1BZTm5DTE5qb2s3b01WeGttSnQxTnU4Z0kzWXF3LV9YYm9hWTA0UUZJRzNlbGhnQnlZZEZlZmlQOEN3N1hn?oc=5
-
-### 71. Oracle’s agentic AI outpacing customers’ ability to 未公开名称Agentic AI系统
-
-- 来源标题：Oracle’s agentic AI outpacing customers’ ability to adopt it
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle%E2%80%99s+agentic+AI+outpacing+customers%E2%80%99+ability+to+adopt+it)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M4 / commercial_agreement
-- 相关度：84/100；审核状态：needs_review
-- 发布者：TechTarget
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M4。当前判断依据TechTarget公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
-- 证据：https://news.google.com/rss/articles/CBMinwFBVV95cUxPekx6VHdhYkNEYzg1SUs1ZEJjc2s1ZGkxVlJQZTZsREdHdExYc2RqSXc4QlhMWFlWSE15UmVnVTRNVjQ2dlJvUWszeVczREFyUUxCS1JyeVJnOExRVjlVazE5cjZ0OTVITG5uUzh3cVVENDNzM1VRWlBKTFZzMUNTZ3R0dm02aDhxcV8tUW1FQUI4SXlVX0tQZ3hhbU44RDA?oc=5
-
-### 72. Backbase AI-Powered Delivery Factory
+### 242. Backbase AI-Powered Delivery Factory
 
 - 来源标题：Backbase Launches AI-Powered Delivery Factory to Double Banking Software Implementation Speed
 - 产品名称状态：明确产品名
@@ -1351,7 +4411,7 @@
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
 - 证据：https://news.google.com/rss/articles/CBMinwFBVV95cUxQNjVUd2RaYjc3S1ZhMGR5RHR1YzF0OEJLR2txS2xQSFZWQTZXVHF4SDBpd0RhMXM1b18xX2IzWTByTnM0bnFPWjJmSE5FazlLV3RORk5NSkJBSENRalR4NFVsbHljb05ZRllGM256S1FhS0R5YWo3enR1YTM3NndzV045YVdFb3loWjZWYUtRZ0RhaWpsdFp1N1lsTVB3cTg?oc=5 · https://news.google.com/rss/articles/CBMiogFBVV95cUxPSEtZU0RHMU1tZ1NtMWctVXZkd25FYkwwcWJJQWdvUVFodGhsZW42aldycndZTEZBTjctNDBTd2pBaHNnTzdfSEdIY0s3MmktN1hWcHZiRXRjRkc3eEJYYWJ1X1VaUk5lOGtyVm95dmhwSGRZR2hmaEw3ZlRQdWh3dWp0eV9US29lOUFPZWFNdHZSYmFwLTNqZGZySVVaYlh5U2c?oc=5 · https://news.google.com/rss/articles/CBMigwFBVV95cUxOVGs4N0NRbTNOZXNkOGJsTlhtajhic1hFZi1kSTV1Qko2YWpLVmdhQlljUEFwdDdOX3ZmcmRqSml3Ujk1OXZFSmRLWXQ2UVFrRHY5WTdDeWtURWNLV041d29RX012SlcwLTF1bVNNWkk2clRPRmNoNjNnaG9YZDYxcVNFOA?oc=5
 
-### 73. CXO Digitalpulse 未公开名称AI产品
+### 243. CXO Digitalpulse 未公开名称AI产品
 
 - 来源标题：Indian Bank CEOs Call for AI Deployment to Move Beyond Pilot Projects
 - 产品名称状态：名称未公开
@@ -1369,25 +4429,7 @@
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
 - 证据：https://news.google.com/rss/articles/CBMipAFBVV95cUxOSm9tOWdZT1JWQlhPdmtzVXlkT3ZSMmFTT2V2MXl0cjlNdUYyQzIyVmVmVUxoMFJEald0X2p1VDM1V08yNHNnc2luRlVzbXJiYjJUT2VNaXlUcXgtMHFoV1FjLVU1cjFQb1lBekJZb29TTWFjcHBEckM3OG5IZThLMmxkeW1uTmxTMm9uSUlXN181VHRuUVI3ODFIVkhWTnE1cDc0eg?oc=5
 
-### 74. Webull Corporation (BULL) AI Assistant Trading Integration in Canada
-
-- 来源标题：Webull Corporation (BULL) Launches AI Assistant Trading Integration in Canada
-- 产品名称状态：明确产品名
-- 产品分类：投资理财与资本市场
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（integration），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Webull+Corporation+%28BULL%29+AI+Assistant+Trading+Integration+in+Canada%22+Webull+Corporation+%28BULL%29)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：82/100；审核状态：needs_review
-- 发布者：TradingView
-- 摘要：该候选涉及财富管理与资本市场，被识别为客户部署，成熟度暂定M3。当前判断依据TradingView公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
-- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRmRxX1VjVktibWNWbWxqb1U5V1F1U1U1VDh0emMzcW9JRXc0cWVCU3JwVmhVSnRyemR2dnM1cG9VNWZseHZTcjNtS2hpYnJSRS1XSEJrRHd3bmQtdWFQcTNYRl9SQ2FyZGNaeUVFUlMzS2NuU01sWWtqTDdTa0Z2MlhHSlN6clFPd2hRbloyYzM2WTI1WnBRYjdzdE5UdWVITlNpeHFEcXNXMkIyeU1kRzhVeEMtMUdRMEUtOGp2bzQ3VXYwT0loUnZWV1dDbnZ4OTAw?oc=5
-
-### 75. Socure Agent Intelligence
+### 244. Socure Agent Intelligence
 
 - 来源标题：Socure launches Agent Intelligence to verify who’s behind AI agents
 - 产品名称状态：明确产品名
@@ -1403,9 +4445,9 @@
 - 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
 - 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
 - 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1c51aa0fe4a54985065c8eb12793d&url=https%3a%2f%2fwww.biometricupdate.com%2f202610%2fsocure-launches-agent-intelligence-to-verify-whos-behind-ai-agents&c=4491994102359759035&mkt=en-us
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3ab4254c12b9d6359118927397&url=https%3a%2f%2fwww.biometricupdate.com%2f202610%2fsocure-launches-agent-intelligence-to-verify-whos-behind-ai-agents&c=4491994102359759035&mkt=en-us
 
-### 76. TechCrunch 未公开名称AI产品
+### 245. TechCrunch 未公开名称AI产品
 
 - 来源标题：Bank of America kindly asks that you don’t share your banking password with your AI assistant
 - 产品名称状态：名称未公开
@@ -1421,9 +4463,9 @@
 - 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
 - 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
 - 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1c51cb8b64509a3ccc6e057655162&url=https%3a%2f%2ftechcrunch.com%2f2026%2f10%2f27%2fbank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant%2f&c=11062381395636787640&mkt=en-us · https://news.google.com/rss/articles/CBMiaEFVX3lxTFBoYkhKMnZHVXR6LWpPUDgyVV9XQndGSktNclNvSXlkZXZrdjJ6N3NINTd2RzU2QkVRTDV1S3JVWGdOSTZWYXdKTHlCREYzYk4wTDJReHBfVVV4STVkVGtEMjd4M0RVZ1Qw?oc=5
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3bbb014cfbaddb9a5c81d396ca&url=https%3a%2f%2ftechcrunch.com%2f2026%2f10%2f27%2fbank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant%2f&c=11062381395636787640&mkt=en-us · https://news.google.com/rss/articles/CBMiogFBVV95cUxNSmdFZHRpSVNOdjFoY2p2LUNoZnNjVW5ibVdEZ2NHSmR0WWNOcWd2SFp5U1BYSjJKY1g4VTRfVlRUNm40Z0JXWUh4Z3ZXOGRlTjFIdV91RDg5aFFJcndOQzlWMTNyY2FlVmxEdFZkdGlhbGdmMEJMQmlNQlJBLTdJUlYycGlET01hUC1SeXFMeXE0dmZBZkxwbmpQNk5uOUFROWc?oc=5
 
-### 77. Backbase Helps Banks 未公开名称Agentic AI系统
+### 246. Backbase Helps Banks 未公开名称Agentic AI系统
 
 - 来源标题：Backbase Helps Banks Deploy Agentic AI With Delivery Factory
 - 产品名称状态：名称未公开
@@ -1441,97 +4483,25 @@
 - 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
 - 证据：https://news.google.com/rss/articles/CBMiugFBVV95cUxQSFZIVkN6TkotcmdGRDd5Y204bHJaaG1Ga05YbElCbVF2VnFfb2dZSWVhd08wZDY3MGR1TDZ6NS0tNExQVnRlLUlYY09SV25ZNU1OX2Z2aERXSXdUNGV3N3NnVjduSVNJeHVEampyMkxlOFB0YkVPWkZpU3Z1RDhXTzZKZXBrWVFrM0s4M1hmNm9TLUhTY2JfZDRRRE9mb3o1eVpjaUNaVHgtS3F3RmVFUGxfTTNPUzd1cXc?oc=5
 
-### 78. unchainedcrypto.com 未公开名称Agentic AI系统
+### 247. FinTech Magazine 未公开名称AI产品
 
-- 来源标题：Jim Bianco Says Banks Blocking AI Agents Are Protecting Their Profits, Not Customers
+- 来源标题：Fintech Strategy in 2026: AI, Stablecoins and Compliance
 - 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Jim+Bianco+Says+Banks+Blocking+AI+Agents+Are+Protecting+Their+Profits%2C+Not+Customers)
+- 产品分类：风险合规与反欺诈、金融科技基础设施
+- 客户类型：TO B。公开标题或摘要出现机构侧信号（compliance、integration），暂判为TO B。
+- Google 检索：[搜索该产品](https://www.google.com/search?q=Fintech+Strategy+in+2026%3A+AI%2C+Stablecoins+and+Compliance)
 - 官方地址：暂未确认
 - 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：80/100；审核状态：needs_review
-- 发布者：unchainedcrypto.com
-- 摘要：该候选涉及银行业务，被识别为商业合作，成熟度暂定M2。当前判断依据unchainedcrypto.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMisgFBVV95cUxQT1R1YW85MzhYRmdOb2lfNFhra2JlMThKeHRiTy1UUmZ1c0NoSFhLd0QxMWJYX0tPanFWYzJVLXpObmxTM09yQUhSQ3RzY2xzQ2MzMGxlUXVzNDk4bXR1aXFOVFhPTUROZVR3TXVlRm4xaEoxZ2dhQ0stN3IwelVqa2JNLTlTbW40M2tuRVVEVzlLQUd4WTBWWDdKNmI5UWtoRkJUSE9zLTJLaTVvSFFJTVl3?oc=5
-
-### 79. Insurtech Lemonade agentic AI insurance platform for personal AI agents
-
-- 来源标题：Insurtech Lemonade introduces agentic AI insurance platform for personal AI agents
-- 产品名称状态：描述性名称
-- 产品分类：保险
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Insurtech+Lemonade+agentic+AI+insurance+platform+for+personal+AI+agents%22+Insurtech+Lemonade)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：80/100；审核状态：needs_review
-- 发布者：Beinsure
-- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据Beinsure公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
-- 证据：https://news.google.com/rss/articles/CBMiggFBVV95cUxNYlJiSXEtZ3ljUDcyTGhkRmtaeUtPUzdCcm82bmNqUjVfc05ucEg1Q3pXekRNVkFIcFg1OU9iTmctSUY1UUhNdHJmdWIwZXo1Ulo5cHNpNlpSQjBtT2FmdGVXYWJCUExQNkxDS01UdkU2MWl1alBWYnZvdUpwVnhsRDln?oc=5
-
-### 80. Seoul Economic Daily 未公开名称Agentic AI系统
-
-- 来源标题：U.S. Banks Warn Customers Against Sharing Passwords With AI Agents
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=U.S.+Banks+Warn+Customers+Against+Sharing+Passwords+With+AI+Agents)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：80/100；审核状态：needs_review
-- 发布者：Seoul Economic Daily
-- 摘要：该候选涉及银行业务，被识别为商业合作，成熟度暂定M2。当前判断依据Seoul Economic Daily公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQTUySXpuenBjbi1wTmVDV0tHT3Fod2J3cnlnb0o4QnI3eWdyQkM2M1BFbHhLOUUyanpjVXk1SG5pTlJNMTI4Vm1WSVFBVEo3emYta3cyUHM0MDdSa2g5TGRucHdhRGVQNHZSVmpUR1QwU2JYR2RHY3h0Tm90N3BPMFRsbnQtYlRCVzVHbXVOS2xSM3JjUVdxQS15cjRqTVNJYTRnR2VNNmY?oc=5 · https://news.google.com/rss/articles/CBMidkFVX3lxTE8yTlI5aWtldDNnR3JEaVREdHg5QWFpYTZneTc1V2dKVXFlejVkc0hjcXM2LWJ1TTF3U2RTaXFMdXVnaXJySDRkUUZoWDBkRGF2S3NmYUs5V09BanRXaFlYRko1NkdQaTBCempSU0xYS285dzVVMHc?oc=5
-
-### 81. TechNewsWorld 未公开名称Agentic AI系统
-
-- 来源标题：Banks Restrict AI Agents Amid Customer Account Security Concerns
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Banks+Restrict+AI+Agents+Amid+Customer+Account+Security+Concerns)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：80/100；审核状态：needs_review
-- 发布者：TechNewsWorld
-- 摘要：该候选涉及银行业务，被识别为商业合作，成熟度暂定M2。当前判断依据TechNewsWorld公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMisgFBVV95cUxNREdpcHJQYlpPX0dUQkdoaVJCWEFqVjJ0M29CWjNFa0w5ckV3ZUdNM01iUFBPM0hnZHpoSXBNR29RY29QeGtpRjVuSVNEcHFyUllfblY0akpaMWVPUzk4YlNYczVfZzFZWFRpZFVwcjdpZjV6emtIUFR2VE44UnczakVIb2ljWE1FVktNMWx4VDQySWxyNlZsOWtfSGFVNWpoVDdCQWtUUmY5dDR3ZGlwUDh3?oc=5
-
-### 82. Senaro Personal Finance
-
-- 来源标题：Senaro Personal Finance
-- 产品名称状态：明确产品名
-- 产品分类：信贷与融资、金融科技基础设施
-- 客户类型：TO C。公开标题或摘要出现个人用户信号（personal finance），暂判为TO C。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Senaro+Personal+Finance%22+ai.senaro)
-- 官方地址：[https://senaro.ai](https://senaro.ai)（官方产品页或代码库）
-- 有效时间：2026-10-27（marketplace_listing，置信度 0.85）
-- 阶段/事件：M3 / product_launch
+- 阶段/事件：M3 / customer_deployment
 - 相关度：78/100；审核状态：needs_review
-- 发布者：ai.senaro
-- 摘要：该候选涉及金融科技、信贷，被识别为产品发布，成熟度暂定M3。当前判断依据ai.senaro公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
-- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://senaro.ai
+- 发布者：FinTech Magazine
+- 摘要：该候选涉及金融科技、风险与合规，被识别为客户部署，成熟度暂定M3。当前判断依据FinTech Magazine公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
+- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
+- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
+- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
+- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae31b3ab4b144188e4dc4b94a8a3607&url=https%3a%2f%2ffintechmagazine.com%2farticles%2ffintech-strategy-in-2026-ai-stablecoins-and-compliance&c=15681161218863702900&mkt=en-us
 
-### 83. FF News 未公开名称AI产品
+### 248. FF News 未公开名称AI产品
 
 - 来源标题：Zafin to Acquire Naehas to Scale AI-Driven Offer Management and Compliance for Banks
 - 产品名称状态：名称未公开
@@ -1549,367 +4519,7 @@
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
 - 证据：https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNU9sTjZPamhpT1VWYlduWW9rZHhBXzhfbllZZUJJaTRiWkMxY1QzUk5XUmFtOTN6TmlKejZkTENkRDRNaVB6ZXh2WERqWGhzellPR2VFbzZBb1R2NC1rMlRwMnQ1SndRbXFWdzV0QXE2ZEh0ZlpyVl9aS2FQbXJMT2tkQ3Fvd3lWd25B?oc=5
 
-### 84. Crypto Briefing 未公开名称AI产品
-
-- 来源标题：Robinhood says about 200,000 customers have opened AI-powered trading accounts
-- 产品名称状态：名称未公开
-- 产品分类：投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Robinhood+says+about+200%2C000+customers+have+opened+AI-powered+trading+accounts)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：78/100；审核状态：needs_review
-- 发布者：Crypto Briefing
-- 摘要：该候选涉及金融机构、财富管理与资本市场，被识别为商业合作，成熟度暂定M2。当前判断依据Crypto Briefing公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
-- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMifEFVX3lxTFBYb1I3M1RvbzNXcWJFbVFzQnFCMWlPekpOZDl4eTNDbnBLVk82aWU5X3N5ZnlyM3NkVl9ZbmlOakMzOVZxMEl3bmJRRWFFMEU2Z28zcDB6dmNYem5mNEs2TXluSl9jWUlQME92bldaNm1iU0o2LU9lRzJHb2Y?oc=5
-
-### 85. Mastercard AI and Tokenization
-
-- 来源标题：Mastercard Introduces AI and Tokenization to Enhance Digital Payment Security in Ethiopia
-- 产品名称状态：明确产品名
-- 产品分类：支付与钱包
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Mastercard+AI+and+Tokenization%22+Mastercard)
-- 官方地址：[https://www.mastercard.com/](https://www.mastercard.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：78/100；审核状态：needs_review
-- 发布者：2Merkato.com
-- 摘要：该候选涉及金融机构、支付，被识别为产品发布，成熟度暂定M3。当前判断依据2Merkato.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构、支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi3AFBVV95cUxQQmlQTi02cTctSmRTRTRQQVhWdzZOTTZodG1tSlNKU25yaEQyMllQTU9GNDZBWTNyVnpLOURyUkJ5SzRtVmhsbnhWNkpSVlpfU0I0UUM5ai1xYlkyTk5kNm1XVTBZNGJqWFZKU3pBSDM0LVh0OUptNi1LXzRSS2ZESEFoRGNVRF9VUS1TTVdkMjRLUkVXZGRnR3pKT294ZkVtQzFpdm5STXpjYTNIX29UQ1J4NERrSWcyTlVQZFVBWXB6SzV5UXZtd2RLUFYtZHNGM1JoWGNqTnBaNl96?oc=5
-
-### 86. Oracle AI Services Practice Powered by OpenAI Technology
-
-- 来源标题：Oracle partners with OpenAI on enterprise AI integration
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise、integration），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+AI+Services+Practice+Powered+by+OpenAI+Technology%22+Oracle)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M4 / commercial_agreement
-- 相关度：64/100；审核状态：needs_review
-- 发布者：Investing.com
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M4。当前判断依据Investing.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxQaUJ6Z080aGhaLWIzWFJQdm5RZFZ2d2Jsa3VGdzlaV3czMG5TM0o3bzhrTnBMd29NQmRwVHlPYkhNcEJpdVBvbXpsTXEwVzVkaFppdDRlVnh2Y1V2QmQ5dzNpYktGTHpNWEJrTGMteU10dnRiQTNfX1VfZHhCUG5pREZYVFRYVHVfVkk3ZlduNDk1ckk0RGU2NHlQNFd5NHI4dnR1MWVzNGxhb2xYWVJNSHZjQQ?oc=5 · https://news.google.com/rss/articles/CBMizAFBVV95cUxPeFo2QVFCWlZ3RkFBSlBBYlZTUWR3U3lKLWxZeVBVNl9nNWJqZUdUZlhFTUZFa3dMaVRTcE8zT1U2M2pxbzZaZi1xaWFLenlVN2xRY1ZET01QYV9TZXVLQmJ5ZmpRdzVqTEtPVTNpb2wtam5JbHgydTl2bDFKMGJuV08wNmtHT2FmY0R1ZGo5RXgwcks0WUtzTHJxeUFvd1ZxLU1Pc3RCcUFrYTdGcTNDM0NUc1QzNi04M1VWVlk4WV9Db2d1b2JGOFljVUI?oc=5 · https://news.google.com/rss/articles/CBMikwFBVV95cUxNbndEUGdQR0dTMFNQTWxTVTdpV1VxYWt6UV9QREtOQmdqbUlOX05ZTFFzRVB5Z1NwRXZKeDlyYmRQWTFycmRVNXpIYUx1NjR1MHIyMHN5bUhaa0hfa05RdzlaVHY4U0xLTWVqb0pZRW1Dc3pFNDBzdG5BcDdwb2tWczJYMEVrTjdmczA3TGdUckk3cWM?oc=5 · https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbXdtUUFrQ3Z2aVJienZRVDlCZWVsMUpEb0lPNDBTcDlHbmVmX1BqNTc2WFhZZFlFOHBNd3F1V0hubzJDV0cwOUduRTdYT2tyT1NPcDhlVUV5UFhSU0hldW5OZ2ttSlFadHRONVlCbktGQ2lnQS1ieTg3dlB2dmcxZHFtSnd0UXJ5Q0RnOEU5aTVyR1BzbDFJcGtUWWViRks4S2hndDJRUWUyd0FoekxCNTBsaFVPblFfUFd1VFdsQVFiYjRqNDA1aHBDbUdpTWRSSDhaSmZwR0pLUWxSVV9FSlVrMmzSAeoBQVVfeXFMUDd3eEZXYXRid1hWcTBwREVDdjRvUWFubU5kcWRlTXE1dXJ2RUhKN3VGVU1kSVRSelBDdzJYUm1BcExtWHB3VmhuTDFGVi1Kd3hxMlJTTW9ZRkJzNUdBbmhUVVBPWEdJbkdqZWxZQV81QklmZXhBckpfVE9GLWdWeW9sMm1scUlVNjVaajg5Mll1Vm12a0xVTFZaYldDb1lsei1xaDJqUTJBMXZGM19nWTZ0a0ZBSkc1MUxheTJ1MzhTYUN3VlB1WHNjTEkteGNjTnRUQnhCUlRpMjJlNG1WTl84QjIzS3VIWElB?oc=5 · https://news.google.com/rss/articles/CBMi9wFBVV95cUxPNzQ5R2FFRWduaUhaTHh6VXhxRXE0UXd5WDBacEZjeDFtM1NEMGlyTkEyX1dkM3ZmbjVmWHpocEZOcE5qTkhtWEFDYTdPWGd2M1ZHeGFSR3pUcVQtWWR6R1U5V1hyLVdYWGdaa1NwcVdpY2R4Ynl0aUhlNkdmb2lGVkc2WEE3NWFBOWNSZVFLRWJwaFRMVFdIOURvSWJ4YXF4M01yYk1aeUttel9UUUI1bEQ2NXkyY1k5VHdza2ExTjlRMklNeGRHNldla3VjMm5EV25tMTJHV0p5VkZySVIwemt1c2Q4MWlfbXZaTDMyVGZvWG9MNnZj?oc=5
-
-### 87. Oracle AI-Driven Streaming Video Content Production Platform
-
-- 来源标题：Oracle Launches AI-Driven Streaming Video Content Production Platform
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+AI-Driven+Streaming+Video+Content+Production+Platform%22+Oracle)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：64/100；审核状态：needs_review
-- 发布者：Media Play News
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Media Play News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiogFBVV95cUxOZjY1QXVLUzRnN3g5alNlQW45eHFsRkVpNFVreUZ1U3pLczBaeFBLc0l3V0JNUS1iYjNuM0RHbmF2TDE0Tk1ONFAzQ19PT3d4cEJDb1lTeFI5RjZ4aGg4OXc4bGhoTmFnWWZaSllPNUZUWnNnazRRWDVzRDJHM0lUY2s2azZoSndWMTlxdDZzV0htNk9qckpzejNMcl9iY2RaU2c?oc=5 · https://news.google.com/rss/articles/CBMilwFBVV95cUxPU1VLd3VVQ1VNcUM5cmpwdTFWdlN6OXlWLUwwR3RKMEFZTkNjMjJMNEY3X1U1RGtTMVNLOEVUT0VsRXJ5WEswMFpNRll3d0V6VUQ3dy10bVBIVkVmSnV1clJkSE9jV3BRWUM5WkdSNTRySmZJWlJmZVVPS0twMktwc0otd0pxeXVGYUJXQVFhNjJ6Y3dHSk9j?oc=5
-
-### 88. Reuters 未公开名称AI产品
-
-- 来源标题：Privacy group files complaints against Scale AI over alleged worker surveillance
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Privacy+group+files+complaints+against+Scale+AI+over+alleged+worker+surveillance)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：64/100；审核状态：needs_review
-- 发布者：Reuters
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Reuters公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQ0QzdElNcDhKWkJYRldiRUp4RmE4Z2t6aXdxZjNPM3Q1VEpMb1djS2QyVUdBRWozV0R3QXg1bUdkcDJkeXJsbV9oTmFaaHQtaHMwYzVLNFZaY0Rld3EtckUtSkxyYlZldVV4Unh0VzVkbzF5cHFPUy04aThFbEt2LXJtb1NmSUZZN1A2eHBXYXkyb1hWajliWVdPTTJWNnRaRV9DaHU1MXJpNFNXMjFfVG9SdmhwUFNyaFJqTEVzR0dwaG8?oc=5 · https://news.google.com/rss/articles/CBMilwFBVV95cUxNVmpSTlFtRlZMTFkyYkQ0clFNTHdlb0JMbDAzSkdEVlk0eWx3M0ZhSllCeElJS0tJS1ZQcWVTOTE4S3ExdjRiRDVjWTdtNTRWVHlHTVlkMDNXdUJadkZORE9VTkc2MW9xUGJLX1lxMzQyanNLekVZTDMwWDdGdjgwRW5uN0JBQjBLQWRrWlZBdFp2Vm5hYmtv?oc=5
-
-### 89. TradingView 未公开名称AI产品
-
-- 来源标题：ARC Cloud and Compal Forge Strategic Partnership to Accelerate Large-Scale AI Infrastructure
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=ARC+Cloud+and+Compal+Forge+Strategic+Partnership+to+Accelerate+Large-Scale+AI+Infrastructure)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：64/100；审核状态：needs_review
-- 发布者：TradingView
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据TradingView公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi6AFBVV95cUxONUZVS3pxeFN2aFNvMDRULXNyOHduS3dRX0NsQmRVNVZpNjFLVU1SQTQ4enN6NVZ3RHNWNUlOelNQQ1BYT0VSTHJaY0tHUWhIZjJSSzdQb0kwMXU2VUVfamRXMm9OUGtIcXdZdDJnTlNzb0Y4SWtfZ3pNQURRbU9WREpJN1B2VEdCOEd6N0FuZENGZEdsWjJvdW9vdUl2NUtrYjRJQTJFV01GMTlZOFRfUExqa29TWUdjbklFSjdvaHZKQVh2S3lrWTdtelFYaldVTE5NM2Rhd2NKZkRuT0JzOXJ4RXlLQ1JD?oc=5 · https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVUx0UHpsUXRSQndQeWtEUWZQQ3Z4bkgwMEVmR1hzbW9WR0pReVNfa09YeDFaYVczT0JKSS1hNmgwZGdYSm5Gdno3dDlrUnVzRWFPR05tUGpaTzQxZndMNmw2OTZvUlRLRDRDQWdlU3RkWUpjRjQ2c3FLYmpQbndDSGR6UXFxS045b09Tc3htVVV1dmxqYl96TndMdTA4U21CVTA5dzNLMU1lZ1VyRlB1Qzd4UTVqaW9FN2d2ZnpPX0VOWTFBZGljdlItVUhZaFYxczFv?oc=5
-
-### 90. The Times of India 未公开名称AI产品
-
-- 来源标题：Scale AI’s Outlier has more than 900,000 freelancers; a privacy group alleges up to 19 trackers monitor w
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Scale+AI%E2%80%99s+Outlier+has+more+than+900%2C000+freelancers%3B+a+privacy+group+alleges+up+to+19+trackers+monitor+w)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：64/100；审核状态：needs_review
-- 发布者：The Times of India
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据The Times of India公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi4wJBVV95cUxNenlMNlVRU2JuSWpPZmk3ZTlZdFY5dnpGZlBNX1d5MG9YOG84RTdxN1BkMFZ3WkQ5NTQ5RmM3YW5XMkNLcmFuWWRfd3Q2c2tjYXhGMkowRm5sSWxfbWx0N3BqaDYzNnJNZmh1dTdtMWRISWo5YnEtenNKcVZ0SGFnX1IwZEFZUm5seXMxOHdkX1dsOVJOWEJqUnVELXlkTWFjcTlOXzh5eWJKU2xSUlpFU2I2OFY0dFBwaEM4aktaMTlKWlhHcUdjVmtwbXo5VjNUenVXWTJhQXdocXA2RS1sUk1RTlNRT0NYRXNWNmFYVHBUYUptVElpR05CZ2JaTFE4VnR3bFJmNE5EVkhob3RuT0lDRmpleEFUNWY0RnpqSVVjd1lkX1FibTg0V1ZIYmZ5N3UzcWxGOEpUdm9ScWxTaXg2cXlTVHFhTldYY0xoSXlfNUpjUGFLcUdpZzUzdlRsNk1J0gHoAkFVX3lxTE1DSmxlNDFaMEpfMXcxX1lHcVRveWRsTU81N0hSc1JjMElVVUhIWTVldzktWDk1VnJkbTZ5MFdqdHRVMmhDUnB6ZWZobF9ISjR2bjR0OU5GaGIxT0hRZEdnRF8zVlBJcnhVYmhadmNxVm5GVUkxTV82TmhvVHZvSkh3cVVYY1FBMkx0LTdHNEM4b0k4RW9yblNibEpQZEZGWWtGek05a0VjQ1FPNWNmbFo0M1kwUUVGNHc2WGswdkFYemFRWGZvMTFSRFRZX2JVQlJoWEp6dWs2SVBITmRfR1BVdzI2ZTNLQmxqcTlDblpPNmN6c3RRVjludTk4ZkVwLVhqZENkNENiLUZ5RkFMWFFRaDd2QWpVaEE3cGpTRnNydkEwQ1JPbUJFdXlUdUdqVENabWhocG1nVF84cFMyTGNpaDEyLXJraFJwNlZBeVNNRlFNZGFTUjUwNW84RWRpZGJrVXpmSlhQWg?oc=5
-
-### 91. news.lavx.hu 未公开名称AI产品
-
-- 来源标题：EU privacy advocates accuse Scale AI of tracking contractors
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=EU+privacy+advocates+accuse+Scale+AI+of+tracking+contractors)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：64/100；审核状态：needs_review
-- 发布者：news.lavx.hu
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据news.lavx.hu公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikwFBVV95cUxOdU02Z2NzRXFVLTRHM1pBRmtTbnYyX0ZyTlk3V3Z1eFNVWEpFVGRkQndIVGM3Zk55d2Y4NWprbXBKT0NWcUlmZ0padkd4VmVXNk56SDRYX21YUnRkTTBCUVBWUFVndjlUcXhiX29SRVROTFNxeXE5R3RNQ1lWaXVsZW5LZVVEUWdXaHpfa3lFaGV6WnM?oc=5
-
-### 92. Inshorts 未公开名称AI产品
-
-- 来源标题：Privacy group accuses Scale AI of illegally monitoring freelancers | Meta owns 49% of Scale AI | Inshorts
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Privacy+group+accuses+Scale+AI+of+illegally+monitoring+freelancers+%7C+Meta+owns+49%25+of+Scale+AI+%7C+Inshorts)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：64/100；审核状态：needs_review
-- 发布者：Inshorts
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Inshorts公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxOeTBkMGNnbEp2ZXFjSHZMcmtOSkdFd1E2V2xHMm9qbm5ZN215cmJ3ek5sd29XR3oxc2czOUR1TkQ4ZXZEbmpmS2NITGJzVnFINnFDMHoxNTdFaEpnMlp1U1BBUXV5eV9nZkJqakFWSmgtVHBoWmdZb293YVhrNnhEbU1KUzFFZHRkRHo3aENjaU9KNnVlRi1NSDNpOEVmNVlyaHp6all1LWE1d09Sb0HSAbMBQVVfeXFMTXlITzdnUzk4RXpSMk1HUGFmeVRzLWo4QkExTjNOOFIyaGE4QjJaaHZfY0h4dzdPNjk0cXczUDdUSU05WEtsQUsybVhhVmw5MjJzeTFLNjJNM2thVm4ta2FkWmZIUzVCdXpwcEFrMGFWQTdady0wX0VBOXE1b1ljb2JuVnJNTEZjQjZ4eVVyelhTQTNLS0staG9jX05kSi1MVXpTczRYTjVNd2lEOFROUkl1cFE?oc=5
-
-### 93. India's News.Net 未公开名称AI产品
-
-- 来源标题：From AI Pilots to Enterprise-Wide Impact: IIT Roorkee Programme Prepares Leaders to Govern and Scale AI
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=From+AI+Pilots+to+Enterprise-Wide+Impact%3A+IIT+Roorkee+Programme+Prepares+Leaders+to+Govern+and+Scale+AI)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：64/100；审核状态：needs_review
-- 发布者：India's News.Net
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据India's News.Net公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi3AFBVV95cUxObXItNEw0Um9BMHQwY25fOHhaaWtySVRfUlpaUHNEajA4c2V4VGFxYUxLVmtiZGZfRU5BdjlzZkowNzJUUk9ieVVFSWxJVVlkTURsRHZ4eTVVOENSTmZzcFFVbVptTVB3TFd2a0dwTjlpbDBFZ2JBLW9UNTMtc01VWURXNkZ3cWRHUkhfcWs4dXR5dDd3R2ViSWVhTFVCN3Q4ZWcyNjhUN0JMOUVwdlo0aWZmemh6T1BGam1BZmZVLVZnR0dXUUZWVkp5REluOGxrS3RTTXNTOXZHQWt0?oc=5
-
-### 94. Ripple 未公开名称AI产品
-
-- 来源标题：Ripple Partners with Robinhood to Scale RLSUD Stablecoin
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Ripple+Partners+with+Robinhood+to+Scale+RLSUD+Stablecoin)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：62/100；审核状态：needs_review
-- 发布者：The Tech Buzz
-- 摘要：该候选涉及金融机构，被识别为规模化应用，成熟度暂定M5。当前判断依据The Tech Buzz公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikwFBVV95cUxNdXZwYWRXaTRRajY3MndsWkRvQTBrWHZTX3NwZjN5SnNJMlhRT3liZTRtclhJcS1DQTBZdkNkOXJyMlF2OVI2djFVVEQ2UkloM08zcmpkZkFlbmxnRk1EaVptbEF4S2Y4ckJMeVhpZFVKNHd1bVhTYXpwRnR0U0ZaaGEwei0td0pGdlpoOGlLaVRnWHc?oc=5 · https://news.google.com/rss/articles/CBMipgFBVV95cUxPRXRNRDUtMGZmR0tLeUtNXzhZX09vN0x0SjVnSjJmNE5FRlJCeW51d041ZmtUTEFJVUxwOGRxNjB5dGEyU3UweVBnOUt0UkRUT2ppczJmZlBmMDlKbFhjV0dieTBhM0ctMURCNllwS1A0SFVITlpDeE05WUE0Z3AxWjFJWEpTbUwxQTZnR290bDdtc3BrTS0wbFNubm1sMjcwb3hLLS1n?oc=5
-
-### 95. آي-فون إسلام 未公开名称AI产品
-
-- 来源标题：Apple prepares to launch a new device leasing program in collaboration with Klarna by the end of July
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Apple+prepares+to+launch+a+new+device+leasing+program+in+collaboration+with+Klarna+by+the+end+of+July)
-- 官方地址：[https://www.klarna.com/](https://www.klarna.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：62/100；审核状态：needs_review
-- 发布者：آي-فون إسلام
-- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据آي-فون إسلام公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNGlGX0UtdllzQUIyLWNCLWtBTTQxLVI3RkFkY1N5Q3V4ZFJtdjlCWWtkQ1MxSGN5S0Z6Wi1Vbm00cWZPS0pGZWdlUUJNQnJfOEtFXzQ4azRjVlpJajhRclNGT1ozeVhyaXY1Tk02c04yX09qeUN6d25WWUdpdHhna1paejhZVldOaEtwVEV3ZHc1eFNwUDRidmVJSnA5Vy12ZkJ0VFBGSFVucW96dHh4eVd4MFVpaU9OOUxQb1Q2UFp3eDduQ290RDQyLVV0cHliV01ZVm1zaVltcGdPbDhIYVRkYWpjZTA?oc=5
-
-### 96. Yahoo Finance 未公开名称AI产品
-
-- 来源标题：Azure and Copilot Reacceleration Reinforce Microsoft’s (MSFT) AI Leadership
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Azure+and+Copilot+Reacceleration+Reinforce+Microsoft%E2%80%99s+%28MSFT%29+AI+Leadership)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
-- 相关度：62/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://news.google.com/rss/articles/CBMisgFBVV95cUxOYVZFOW9xRzZMN1JXSzNHLVZlU3pfbllDN2E5THFwcjhDemxPR2h5Z0YtUGFyQ2RheUpDTHh0S1ZWUFdjWVE3Z1ZWaUx3ejUwNEJZQk5kdUI2QXVNT0VjZHVpa3RJeHQxNXF0MnJjM3pBRzk0OVgwLWM3eEpScDZiR2FPVVdlcjUxZWtKRUlYOWRzeHFCVGVMd1BaNkp6UnhkWEtkeWM1a0NuX1dON2xkRlln?oc=5
-
-### 97. Computerworld 未公开名称AI产品
-
-- 来源标题：Microsoft offers exits to thousands of employees, including staff on AI and Copilot teams
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Microsoft+offers+exits+to+thousands+of+employees%2C+including+staff+on+AI+and+Copilot+teams)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
-- 相关度：62/100；审核状态：needs_review
-- 发布者：Computerworld
-- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据Computerworld公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://news.google.com/rss/articles/CBMiygFBVV95cUxOQ1A0aERBTW5yeDd4OFYyNVlHdVpTbFRqdUFTZmtaV2k3R1UtdGdLRkJHT2hibDVRVGJOWDRERWoyX3hnQkZjbjJkZlFaUk5SN25mOFB0SHFoNnNDb1d3REZuaDZHYmNMaFNSd01aMFJqVUMyNFlpTG15TmZnMmE3bUJabkRLUWNtNmhial9aY1g0Y2pHT3RvMWJaSk5OZGZmU0VxcldpeGIxVTFCQzZ4eE9zaUhITk5Vak5Od0s3c1pobDlPUzlJMzl3?oc=5
-
-### 98. IBM governance and control systems for AI agents within enterprises
-
-- 来源标题：IBM releases new governance and control systems for AI agents within enterprises
-- 产品名称状态：描述性名称
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22IBM+governance+and+control+systems+for+AI+agents+within+enterprises%22+IBM)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：62/100；审核状态：needs_review
-- 发布者：Seeking Alpha
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Seeking Alpha公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMiugFBVV95cUxQTU51ZXlLRE1pQTBKWi1uREg0MURPTmJoTVh3ZnpnbHVjelJkNlB5N0VCeERvMFh3Q2Vjb3BxNFpzMGhxUUxHc20zNURlWWZfc290bmtRYlhtMi1ycFpzWFAzWDhXMHR4UWpyVlpPX3pZNUJ0NDBwbjVWQmt4VlNPU1IyeUJFRVdfNnFhaFh5dEhsVDRXYjRmUWNVREtoTjhXMklOdVVPMWtsTGk1MjZDSENJcGRHUGRGU3c?oc=5
-
-### 99. IBM AI agent management tools in watsonx Orchestrate
-
-- 来源标题：IBM unveils new AI agent management tools in watsonx Orchestrate
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22IBM+AI+agent+management+tools+in+watsonx+Orchestrate%22+IBM)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：62/100；审核状态：needs_review
-- 发布者：StreetInsider
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据StreetInsider公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbjctN1E3YVJIQkZIZ21JUGJVNGNOdWZ4dUlsNXZOLURCc040WmhJWVRQR3J0Vml4UmpueXN1bV8wUXZYeEF5ellaTXNOdmtIM1BvWEhMYUpGT3FoWFRVdkZBSEozNzN6dGFVeVc3SXdKeC1UalBLQnNxSGstcml1NHlBQWJKeFNaLWZIRnlxTG1JUjdlSlpfdHpGUWtaZzJZMVpqMDd2WXNJa3IwSHZiMnhkYWdQV2FraUF2SFVYd3g?oc=5
-
-### 100. IBM Identity and Control for AI Agents
-
-- 来源标题：IBM Introduces Identity and Control for AI Agents, Securing Frontier Intelligence for the Enterprise
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22IBM+Identity+and+Control+for+AI+Agents%22+IBM)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：62/100；审核状态：needs_review
-- 发布者：ACROFAN USA
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据ACROFAN USA公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMiXEFVX3lxTE90X1k0MjR1WU52c1hrN2NBN1F4ckEtczlTX1pOeU1pWFBFX2haR2JEVGZVU0FRSDFsbUNxNDhjOHRUMjR3N1I4cW5fSUdyNmhpb2EtT1JXZTM4ZlNa?oc=5
-
-### 101. Yahoo Finance 未公开名称Agentic AI系统
-
-- 来源标题：ServiceNow, Google Cloud Expand Partnership to Cover Agentic AI
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=ServiceNow%2C+Google+Cloud+Expand+Partnership+to+Cover+Agentic+AI)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：62/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
-- 证据：https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVDRqLWlsb2N0d1U2ZlZMdTRfWjhpNVN5MGNZZ282Z29FLVZBU05vUkhnekRuY3BaOUVXOXB3TFd6bTQwNHFza2lNWnJYQWIyeVZLRVIydGRiM29NMENUcDVHV19nV25MTy1FeDA0aV8tNkFfNEV6LXBhczlCWkc1Q25wN2RaaDQ0SHRpSUlVclZOa3JneThOV0pmNHh1QVY4aDhwcHE2WF9xZw?oc=5 · https://news.google.com/rss/articles/CBMitgFBVV95cUxQOGNIdHJxRmF2Wjc3MGZoaTBjZUxkT25mZWJOeG9zbTVkVHRnZm5UM09lX1BxU0ExSHU0SEt4VkxzQUhKc090RUpSckFIMzBhdFpYM0pXdmNpYmtEYmRZazdTdzNwbEFyYVpEQlJ5ckcwZ0pPVWFJTUVGS2ZtMDBCcjY3S0wwT1FOTTZjM18zZVpsUjl0cmxKclpJRXR3UDV6cXBQX0UzMF9QS0w5alNmeFB1alJMUQ?oc=5 · https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb2tZODVzaEtlVDVjb2FrRmZESzF2cDJQZVIydndRRVRqbTluNVI2VkdUeUdFSVlXb1Bhdmh4bVhqRkU1M0tackktcmt4YUZFQUdTa1RabXZxY2xUdDVwYTZLeVBvaTJ0d3g0V1FFcVBLdnBsRW9RV0RpeUV1VURIcjlISFVNNkQxUld6SHBBRHYxbmhueFZmVHQtLThSQkF0SUkxQU8tUkNkb3gyV0lsWE5NMFNHZDJEWjFOV1hod3Y?oc=5 · https://news.google.com/rss/articles/CBMitAFBVV95cUxPM2RwNkVTN2hPSXQ3YVRGTkxvbXU1MEdUWVFBRENSWlpmejZKM2Y3bHNaam5hckd4N2tWMDVVaEdDV3ZoeWJZcjU0ZXBuX2tFT3JzY2ItWjhqWmIzLUx4czdxQzBQZ0I5bG1sYmtWRzhXNjhSWjBoZDAxVmtvOVVoU25haGRhZktpcGtpSUlGWWZoQnhWTGN5ZXhzTHFzREpIdzhNZGJYVFNpUTlHYkJWVFpxUms?oc=5
-
-### 102. Pulse 2.0 未公开名称Agentic AI系统
-
-- 来源标题：Omnichat Raises $10 Million Series A Led By Openspace Capital To Scale AI Agent Platform
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Omnichat+Raises+%2410+Million+Series+A+Led+By+Openspace+Capital+To+Scale+AI+Agent+Platform)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：62/100；审核状态：needs_review
-- 发布者：Pulse 2.0
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Pulse 2.0公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWTRiZzk2RTV6dnBaaWpPdVhuN0hGaGN5QWh2ZFl4ejVaTl9BMHZneHF1Nk9ObnRieWRNWjlyUzRvaW9QX20tLVFFNTdONXZ0SGZ2QUVQX3NFVnVVdnVYNE80Q3U5NVhfY0V5XzZVYWd0alVubVljWW51VXkzcXlaamZtWDhsS05YeFR6YXBtUGlxTEZMekRqdTRSNmFPUktnNVExUzNTdXpqRWM?oc=5 · https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUG1pX0UwTkJEQ2hwUTgyRURRaG5NN1pTTVNtcEFxSXhwWllsWVBSMTNZUkstWThKZjcxSzkyMUhmLXUtLTQ5dkNlTFJRMEl4SEpMREZjZWg2c3JZQUFvWWtJRFZTZW5fRFVVM0N0bzE0WWJvWFVJUXRXMHZGY2lRbmY0VC00NWdaUXpBbmdoUzV5ZVpUVWRsd0ZkdnBpSjVLczVjZGR1ZTgyNFEzWkVQV2gwVXltazlESDVhOGIyUjAzYmdHUzNmN0lmY2lVbWhrU3pfV3BUWWtXc1Y2Um91dg?oc=5
-
-### 103. Traders Union 未公开名称Agentic AI系统
-
-- 来源标题：Companies need operating rules to scale AI agents
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Companies+need+operating+rules+to+scale+AI+agents)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：62/100；审核状态：needs_review
-- 发布者：Traders Union
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Traders Union公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMijgFBVV95cUxNR3RST1N6UTdZZnZ0aTJLTXhkbHNPcjlnN0J1UHJFcTEzajBLQktEVWZQbnVBRlhGYk4wWHNuRklqeGZWcm91M3VHdmFLSUg1TGprNFVzbGNLcC16UlRLOFVmZTZJM1VsdUY3TW5wUU8ySnlUU1BlVU5aN1BiU2tJQXYzQnMtTnBiYngzNVpn?oc=5
-
-### 104. Dellows News 未公开名称AI产品
+### 249. Dellows News 未公开名称AI产品
 
 - 来源标题：足利銀行がナレッジワークAI商談記録を導入 日常業務での生成AI活用へ
 - 产品名称状态：名称未公开
@@ -1927,7 +4537,7 @@
 - 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
 - 证据：https://news.google.com/rss/articles/CBMiRkFVX3lxTE9sU081RGt4eXZfNlVDMmlWQWRMMll0aC1tRkNLT3hVWmxKVEMxUnBFcEVxZnpmZjhOZXhnYWhZUXRXRTBFTHc?oc=5
 
-### 105. DwellQuote
+### 250. DwellQuote
 
 - 来源标题：DwellQuote
 - 产品名称状态：明确产品名
@@ -1944,2613 +4554,3 @@
 - 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
 - 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
 - 证据：https://www.dwellquote.com
-
-### 106. Tandems Hamilton AI Assistant For Advisors
-
-- 来源标题：Tandems Launches Hamilton AI Assistant For Advisors
-- 产品名称状态：明确产品名
-- 产品分类：投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Tandems+Hamilton+AI+Assistant+For+Advisors%22+Tandems)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Wealth Management
-- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据Wealth Management公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1c51be30e4c62a208a7cc0c2fc4b5&url=https%3a%2f%2fwww.wealthmanagement.com%2fartificial-intelligence%2ftandems-launches-hamilton-ai-assistant-for-advisors&c=15300150058303566967&mkt=en-us · https://news.google.com/rss/articles/CBMilAFBVV95cUxOLWRvLXZhUTVUeUJnU1dQNzg3c3VXMWNmZUdwczU3azI4OTA1NjBKcERIMTVVWWV1TzNzWU5ndWgtZEhyQ0QwV1ZqaWZvMjJMNlgyMWxCdUVIbWctaFp1bUx5bkZEYUl0QkNkb2lZaGZrWmloNWhESjFRVkJvUloyNExEcTVkcEZBaVVvMkJXS1M5R0lI?oc=5 · https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOFVDNDN0UmluTXMzU3lWTVhhY180SWliZjBpMzJCeF9TQk85QVFGcmNFY1h0UThVN2JPWjkxVGFGZ3VadGJpWW1tSTU0NjFtdUgzalNlRVNMbWlpTkRzcVhkSnM1clVqOFVZbzlVNjFzcWdXUTdiRmNZVFhIZXBZUVFCNjJlS1Z5TGpnS2FxRUxrVi1jY0FCWmFQc1l1V2s5N0hKODlLckE?oc=5 · https://news.google.com/rss/articles/CBMibEFVX3lxTE9WS0RtZHVYVjdTY0ZKWk5ieE9JcWFpQU1fbWZOSW1EbGV0TzlVUmhYU21HV0xXYnJIMkl3ZVlzaHhUcE5KNC1jMGUxOGMtcTlrLUd5QTlmb1RMSUR3cmJKR3QxUjdOVEJYUER2Ug?oc=5
-
-### 107. NDTV on MSN 未公开名称AI产品
-
-- 来源标题：Analysis: India needs sector-specific AI rules, not omnibus law
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Analysis%3A+India+needs+sector-specific+AI+rules%2C+not+omnibus+law)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：60/100；审核状态：needs_review
-- 发布者：NDTV on MSN
-- 摘要：该候选涉及金融科技，被识别为客户部署，成熟度暂定M3。当前判断依据NDTV on MSN公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1c51cbfd44ae6bfe7005557e89e65&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fanalysis-india-needs-sector-specific-ai-rules-not-omnibus-law%2far-AA2gcQMx&c=17690386845628109868&mkt=en-us
-
-### 108. IIIT Hyderabad 未公开名称AI产品
-
-- 来源标题：IIIT Hyderabad partners with NPCI for cybersecurity, develops AI navigation for robots
-- 产品名称状态：名称未公开
-- 产品分类：支付与钱包
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=IIIT+Hyderabad+partners+with+NPCI+for+cybersecurity%2C+develops+AI+navigation+for+robots)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：60/100；审核状态：needs_review
-- 发布者：News9Live on MSN
-- 摘要：该候选涉及支付，被识别为商业合作，成熟度暂定M2。当前判断依据News9Live on MSN公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：http://www.bing.com/news/apiclick.aspx?ref=FexRss&aid=&tid=6ae1c51c8fd147ef92684976ae78caa5&url=https%3a%2f%2fwww.msn.com%2fen-in%2fnews%2fother%2fiiit-hyderabad-partners-with-npci-for-cybersecurity-develops-ai-navigation-for-robots%2far-AA2gahD2&c=7287661903820926244&mkt=en-us
-
-### 109. IBS Intelligence 未公开名称AI产品
-
-- 来源标题：AI adoption in UK finance reaches 86%, study shows
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=AI+adoption+in+UK+finance+reaches+86%25%2C+study+shows)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：60/100；审核状态：needs_review
-- 发布者：IBS Intelligence
-- 摘要：该候选涉及金融科技，被识别为客户部署，成熟度暂定M3。当前判断依据IBS Intelligence公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikAFBVV95cUxQcmJhMUk2cWl5SGtla3Y5TTJoZWY0MFZ0OHFuZGU2YjZLUm9BVjU1QUlBS1FTZERab1NZdXVEOEh4YllVZHh6YW9PV0lvc0xMdHBWNW16N0M4clFLZ1poTWJpMUpCQjlRdXRfSkZJVm9kd3duaUF1M2t2SVZ5Z3VaVXk3ZDlMaktQMmZMTDFrRlA?oc=5
-
-### 110. FF News 未公开名称AI产品
-
-- 来源标题：BOB AI Secures $5.5M Seed Funding to Launch Autonomous AI Finance Employee for Small Businesses
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（employee），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=BOB+AI+Secures+%245.5M+Seed+Funding+to+Launch+Autonomous+AI+Finance+Employee+for+Small+Businesses)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：FF News
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：应用设计创新。创新点主要在应用设计：让AI从给出建议进一步连接受控的交易或执行流程；自主程度和安全边界仍需核验。
-- 证据：https://news.google.com/rss/articles/CBMipAFBVV95cUxPUG5sWXd2M1FBcVp6VnoxWUlhMTZ2bjVlZGJWaFdRbmtVeHItOEQ5bUo4ZkR4cnEzZjRLazZTNWxySDJreXJlc1B5VktLMEdINHNrRW1YaWl2VkFLU3pYWE1nSnVZQUVra2NUcmJqckE2T29NVExudHM1b0RaX3VNNmNmLWJhSUljYzNXRkhObXhvLXViLWxyZmhrd0hJZk1DWGlBWQ?oc=5
-
-### 111. Guidewire Platform Approach
-
-- 来源标题：Guidewire Launches Platform Approach to Agentic Insurance
-- 产品名称状态：明确产品名
-- 产品分类：保险
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Guidewire+Platform+Approach%22+Guidewire)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Unite.AI
-- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据Unite.AI公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMihgFBVV95cUxOcGpFbXlvRFBsMG1hUkUzdHpyTXJqYjE0UVpPZV8xTTZDOVpUcmVSTWJKcnpteGVhdmJlanl6UURTYnN5a0QzZHVWQk90Z0wtZy05a3pFeUE0UVlYdTgzWWJ6X2FEME42RlM3WTBJa0VYOEk3RU96YW9wUmZHNG1oTlhEQ2hQdw?oc=5
-
-### 112. Hong Kong: HK Insurance Hub AI content optimisation strategy
-
-- 来源标题：Hong Kong: HK Insurance Hub launches AI content optimisation strategy
-- 产品名称状态：描述性名称
-- 产品分类：保险
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Hong+Kong%3A+HK+Insurance+Hub+AI+content+optimisation+strategy%22+Hong+Kong%3A+HK+Insurance+Hub)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Asia Insurance Review
-- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据Asia Insurance Review公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi4gFBVV95cUxObUFKc2hPbmFRRU9hZFNKZEFjTTdLQ1d1OWhxNU1IeXhWRTJabkRKS3NvS3NQM29QQ0JLZHBreTVyaktEWF9acmtYRWJQOGpaRVdJWF85MlBhcWlPbXVEaXhvb0xkalBRb2JFenA0bHBFV2JOVXlZb1hveTR4Z0pfUk1fbjdCV3dMekM0UWVQaDFDcmRWcW9idThLUG56VTI3NjJTZktEZlRsQlg1TDctSmgxM2ozMzVKUmRJWHlXS0VyaFc1UmV0cFdvSk16bW85T2kyVlVIb0FBRUN2bFNDV1Vn?oc=5
-
-### 113. Tokio Marine AI robot insurance. Tokio Marine stock has JPY 16.5 trillion market value
-
-- 来源标题：Tokio Marine launches AI robot insurance. Tokio Marine stock has JPY 16.5 trillion market value
-- 产品名称状态：明确产品名
-- 产品分类：保险
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Tokio+Marine+AI+robot+insurance.+Tokio+Marine+stock+has+JPY+16.5+trillion+market+value%22+Tokio+Marine)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：ad-hoc-news.de
-- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据ad-hoc-news.de公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi7gFBVV95cUxNaVk4QWdDMEpYMzV0dDhXY2tGU21ObnJvX0pQNUF2LXhwc1lGSVA0eTRsXzk0anJ1WjBIY3ZqbVdaa0JxQWFuNDRkYTV5U0RGRGRqMm5zY2hNdnJBZGVhWWw2VGlHQ0Y5Z0ZiS0tHbEhHWXJCNjB0WGZqSVAxZmRaU2JuV3loREpvNFEya0hEZkFkdlFzQjdTbnk5TDlTZEJEb2JxSHVvd2c1dm1zXzl0RDg0czdyQ1Y1VkhSMU0yLXFDd01IUDl5MXhWMENOM0dLdE1pYnJkM0lFVlRHSGdWbVAwdHBOUVBvQUY4Ujhn?oc=5
-
-### 114. Niural AI Global Workforce and Payment Infrastructure for AI Post-Training and Expert Evaluation
-
-- 来源标题：Niural AI Launches Global Workforce and Payment Infrastructure for AI Post-Training and Expert Evaluation
-- 产品名称状态：明确产品名
-- 产品分类：支付与钱包
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Niural+AI+Global+Workforce+and+Payment+Infrastructure+for+AI+Post-Training+and+Expert+Evaluation%22+Niural+AI)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：AI Insider
-- 摘要：该候选涉及支付，被识别为产品发布，成熟度暂定M3。当前判断依据AI Insider公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWFhNMXFfLWVTdTN1OGZUZU16UEM0blA1djY4a24wdGt1REswdFVLZjVVZFVqZ1JycG43REJoQlg4eHpBS0J2NmVhdUp0TXUweC0xNmdyMGFMYWpjSldFWXY1ZEJaLW1MWmp4LU5rRlBEbGxsMDQzTldfdlA5eFdzOEhOWGlWM3lnMklSSW9BOUdnbjEwNXNfZm1nU2d1empweUFzLS1jcTE0c2VhNWpjQnJsaHFNY0I0N3kzcHVlVnZrdGxhN2pSMTdSVXhCVFZoRGVNY0UtYTFJOUk?oc=5
-
-### 115. TheWealthNet - AI-driven wealth manager in Hong Kong
-
-- 来源标题：TheWealthNet - AI-driven wealth manager launches in Hong Kong
-- 产品名称状态：明确产品名
-- 产品分类：投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22TheWealthNet+-+AI-driven+wealth+manager+in+Hong+Kong%22+TheWealthNet+-+AI-driven+wealth+manager)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Pam Insight
-- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据Pam Insight公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMijAFBVV95cUxPS1p1NkJLQlFoTUZsVnhVdEh2a1lIMndjRnBDbFp2QlNEVmphWDJmNGUweEZJMUV4ZXdsdjVMR0c1VTVQaFdLb0xydnJTWXhNbjY3MEJPQ01ZeUdrZ1Rtek9TbUNlWDlEQmRjRnhETW9FdmQ2aVdKeHVIU3BNNjUxSENsUGZtUFRKSmFJRA?oc=5
-
-### 116. Advyzon Industry’s Only Natively Built
-
-- 来源标题：Advyzon Launches the Industry’s Only Natively Built, AI-Powered Cash Flow Planning Experience Within a Unified Wealth Management Platform
-- 产品名称状态：明确产品名
-- 产品分类：投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Advyzon+Industry%E2%80%99s+Only+Natively+Built%22+Advyzon)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Business Wire
-- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据Business Wire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMinAJBVV95cUxOSDRNTTNrNWFmUWJxaXNvUzBvTDFINEk5b0dwTUV2cWd6b2ZWU1Z6Rkpva045U0w1bGNqT1h3eEpOUmhodWMxRUxGUGRwZ0RLRVdlbG1iNTFRcWg0OVZKNE5rbzdaUE4zeU5Kd0VCSzQ0UzliX3NEN1FERFFjR2U3N3Q5c25sZlRrZUpVcUYwbXdQLXF1YVBKSmlPeXIxMlY3MTAxOHBHU0dGbFNyZUdQSU5vc05sYjNvejJsSXJQa1VMSjlZcDV2V29JeHZjNTFWVTRLTFNWOXJRRS1rbl8xaTJ0ZGMxLWJpOVMtUHRuZ0ViaUgyV2MzZGJYUi1VdmNKbkJQWUhobG5VbjhOQnZrNWFzRkNIcnJtbTFEaA?oc=5
-
-### 117. OMS 未公开名称AI产品
-
-- 来源标题：OMS Integrates Keychain to Deliver AI-Powered Mortgage Onboarding for Brokers
-- 产品名称状态：名称未公开
-- 产品分类：信贷与融资
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=OMS+Integrates+Keychain+to+Deliver+AI-Powered+Mortgage+Onboarding+for+Brokers)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：60/100；审核状态：needs_review
-- 发布者：FF News
-- 摘要：该候选涉及信贷，被识别为客户部署，成熟度暂定M3。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
-- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMibkFVX3lxTE5FZlZtejB4aEZBUUIyTW1PYWFRU3pfdjliOVhiYU42REZkc29ONkhfc3gyQVVwbkRhc0xnVlhVYUNtcHl6cllkZTlfYWNERFpmRWR5d2NvU09WVzB6b0FiSUpMS3MzYWJ4Q05sNk13?oc=5
-
-### 118. STARCOMPLIANCE AI-POWERED ANALYTICS FOR CONNECTED DATA AND INSTANT
-
-- 来源标题：STARCOMPLIANCE RELEASES NEW AI-POWERED ANALYTICS FOR CONNECTED DATA AND INSTANT, DEEP COMPLIANCE INTELLIGENCE
-- 产品名称状态：明确产品名
-- 产品分类：风险合规与反欺诈
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（compliance），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22STARCOMPLIANCE+AI-POWERED+ANALYTICS+FOR+CONNECTED+DATA+AND+INSTANT%22+STARCOMPLIANCE)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Press Release Hub
-- 摘要：该候选涉及风险与合规，被识别为产品发布，成熟度暂定M3。当前判断依据Press Release Hub公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi8gFBVV95cUxQMEVmMW95QVZFd3JjUzJPTmt6UjFpMzFLOC1vWE5temRBYVJOOWV2ZzVERkJuV1c1endBaS1RdzFVTXVJS0dtQWdxMW45QjNhdWNaakFoX0VBbUEzbWJiZVlpdWJUbzJwNGJxRWQySmdyYmpWNHdneW45MUYwcl9xX3RFRmhGbmJFaC1veWFQcUFKY0VRdTN5TXpCcFFtd1B1cTFhdFhGX1VHSWM4aC1ISW1iVC1Kcks2TzFGTFRUZTlxSW5qNzctMGZvVGNlcXViYTdqMExYZGpVQlY4emQtNVhVNjNaWk5qaVA2N1d3dEgzdw?oc=5
-
-### 119. JEMS of Insurance Group 未公开名称Agentic AI系统
-
-- 来源标题：JEMS of Insurance Group Partners with Integrity for AI-Powered Innovations to Expand Agent Capabilities and Deepen Client Relationships
-- 产品名称状态：名称未公开
-- 产品分类：保险
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=JEMS+of+Insurance+Group+Partners+with+Integrity+for+AI-Powered+Innovations+to+Expand+Agent+Capabilities+and+Deepen+Client+Relationships)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：60/100；审核状态：needs_review
-- 发布者：PR Newswire
-- 摘要：该候选涉及保险，被识别为商业合作，成熟度暂定M2。当前判断依据PR Newswire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMimwJBVV95cUxNY0dYVmNXcExkNFI3R1NWclZoOElJMHVMcURETzZKMzAyRmpNTzVBLWV0QUZ5MTZjVDROZVc2NVM0czQ3RGZKTDdNcmdxV1J3Q1lqemFCNzgzdEJEdDdEUEdxLXYxVDRLNTBHZThKME9CSS1FSElocWRUZFJhYXNUTDJJZFQ0a2ZIWU5HRHR3eWRRZHpiODhuMFhtdGJOQzRXbWd6ZmRSY2tJYVNzMzQ5X2liblpWbmllRFlQRU90M3hmTVctZlg3cEJnMGVPbnBoRlkyNTVFZWhGYV9KWEQzWHU0Z1BMNFJfV1JlaHpRYmYwU3psQzM0V2xkSE9DZWc1eUZNamxZQy1qQjBLM0lUQmFyQnZrcTIyeTRR?oc=5
-
-### 120. FinTech Global 未公开名称AI产品
-
-- 来源标题：Nevis raises $70m Series B to scale AI for wealth firms
-- 产品名称状态：名称未公开
-- 产品分类：投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Nevis+raises+%2470m+Series+B+to+scale+AI+for+wealth+firms)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：60/100；审核状态：needs_review
-- 发布者：FinTech Global
-- 摘要：该候选涉及财富管理与资本市场，被识别为规模化应用，成熟度暂定M5。当前判断依据FinTech Global公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikwFBVV95cUxPa2JzWE1kNzE2aWpFN1VYN3M2ZDQ0ZWpmLWRkTWpZVGFhTWJzb09Zcjk4TFgtQlJuaEo3Wml5LWFtU2lzcklrUExDWjF6eERHWTEwMFRFdURVcFQzOFlLVjhsVDhBSDZydWl1OVhET2E4MzNEcjdJaDRXS2h2a2g0ZWV5Tkg4ajJxS05KOHVCUW9zNEk?oc=5
-
-### 121. NewsBytes 未公开名称AI产品
-
-- 来源标题：Bank of America warns customers: avoid sharing passwords with AI
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Bank+of+America+warns+customers%3A+avoid+sharing+passwords+with+AI)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：60/100；审核状态：needs_review
-- 发布者：NewsBytes
-- 摘要：该候选涉及银行业务，被识别为商业合作，成熟度暂定M2。当前判断依据NewsBytes公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMirwFBVV95cUxOWi1DWG5qNHVmRlhJcDRqeW1RdDd6VWhfMkN3SHRfZ3JXNEhFYjI0dWNOSHI2ckprdTQyekRwS3BxVXN2RGRFUXp3SFNtUEY0YzRYVkhCczdEYk5BVlVkXzVqYXhLNllvSUxxd2hRMGtzLUFmVTQtQnhsWnBaX0tQTGJuRzQyamNYcmtzZjRuUExSMlpwLUU0TFB2cFZ2LVBZNTlXMG85bS05MVUtX3Fn?oc=5 · https://news.google.com/rss/articles/CBMilgFBVV95cUxQYTZtd3FSRUE4OXZEY0tzejhTVzdTZzdOXzh3bm1PSXVmVjEwUE5LNGdJZG5QV1gzajBtYU9DUk9nUmE0VktrUnNlU201c0NjVkRxRlgxNHdTR3J1cWRPd1c4VGltTDNJMVNtemZaNWtMcl9RRDhINGhjN3pJcWg5MmhlejN2akpXZEpodWhTaW5UVlozWEE?oc=5 · https://news.google.com/rss/articles/CBMirAFBVV95cUxOVFRsczlfZWMwS2ZWMzdZaENIajlFaUM2bGVvZk1jY3BRNnhSeEJybTFtWWJUUm00MjQyM0p4aG9adjB6cjF2dndHa2xJdnEySDM3WmNlNU1jYVBha3NBMlVfWFF2b2wzTnpqMHZCSUpXd003U0N1MlJhd3JGTExZOEpFMk1BLVlfTVYyTTdLSFRpQlRRMXBPVmxpLWY3a0E1bkxlNy1FX2Rscl9K?oc=5
-
-### 122. Apple MacBook Pro Ahead Of November Launch
-
-- 来源标题：Apple Unveils New MacBook Pro Ahead Of November Launch — HSBC Sees Strong iPhone Demand, Potential AI-Driven Upgrade Cycle
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Apple+MacBook+Pro+Ahead+Of+November+Launch%22+Apple)
-- 官方地址：[https://www.hsbc.com/](https://www.hsbc.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Stocktwits
-- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据Stocktwits公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikwJBVV95cUxPTWhWeG52Y014QVAwdm9Ta3NRUC10aEpqYXQ0UXcwN1lKY1B5MWdNVDlHbjNBNWFYUnFkVVNIamwwX2lDdUNnSjVlbHR4NmxZVVdvTEF3QVdvZEtLTWtlZzlTUVhwZDlJLW1jR1hYendINm53ckNFQi10NUJvRXdXZkJyQ19mT0hwMG9IVFd3ZFJLRHZCREhNbmF2NXVXXzVmMVI5aFh0eVV5d3N6UzV1dXEyclh0TEtKaDNlWG5ubXZqamh4amF0aU5ORVpEWG1weUEtOUJWYW45U0xUaVE3MW1PeURsUHhTX1FpYnlUUWZmOUFoU1VLeXhDRFFEaVRteDdKVDBORENzUl8tdDI1bjlFTQ?oc=5 · https://news.google.com/rss/articles/CBMilwFBVV95cUxOM1I3RW44Y3QzakM5b0Q2a3dlV2s2VUxBTlhjczUtYkFtRnJpZ2REVGRDck5PclpocWRUV3p5RDdabHNOdUdGck5YTE9ROVF4Tmo5N085eVltN01uSHBOeWREU1VJRnY2VmJIWWRhM3FITnpOc3c3SHU4NlRjWVRXU29xMklDT1hjNklLZmc2amZITkNXV2Zz?oc=5
-
-### 123. Microsoft 未公开名称Agentic AI系统
-
-- 来源标题：Canada Goose transforms global finance and builds an agentic future with Dynamics 365 and Microsoft Copilot Studio
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Canada+Goose+transforms+global+finance+and+builds+an+agentic+future+with+Dynamics+365+and+Microsoft+Copilot+Studio)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Microsoft
-- 摘要：该候选涉及金融科技，被识别为试点，成熟度暂定M2。当前判断依据Microsoft公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://news.google.com/rss/articles/CBMijAFBVV95cUxPWmg3SDNxRHF3WHZ4T0E1Q3l5cDk3NTNURHhHX2oyeFIwUUdGcUdWZVJ4SXdkZjdSeDRBcW9WUXJMTmVEWVFTM2lJZHo2bUxxY3g5NTlucXJqbU9NeUZ1blNGZFdhQkhZWUo2V0FVcExENTBhVnNSNUx4ZVVBS1FrWmpUcUlYTElUU1EwRg?oc=5
-
-### 124. The National CIO Review 未公开名称AI产品
-
-- 来源标题：Microsoft Balances AI Investment With Buyout Offers to 60,000 Employees
-- 产品名称状态：名称未公开
-- 产品分类：投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Microsoft+Balances+AI+Investment+With+Buyout+Offers+to+60%2C000+Employees)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：The National CIO Review
-- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据The National CIO Review公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiywFBVV95cUxNcURXOGhCdXBGT191UGJETVBsQ0JfSHBfc2NPall4R3VKcXhkR0dVbFA0VWZoWmR5dWJscEU0cnFGbF9hejM4X2tyYVFtYkptVVlBak82Q0hNVFVOME5KeVJKWDY1cjNYWDNZVkZISTZsWmN4SzBtVE0tN1JucG5jSFBFQXR1X05FLU53UEhWcWIwRnZycTNpLXpTVWlxVFpYU2c4elBYT3lheWdvUS1vVjJ4elZfS1VaclJvX0xxeXNHRzdOTVlzSHRfMA?oc=5
-
-### 125. Microsoft image AI model
-
-- 来源标题：Microsoft unveils new image AI model, MAI Image 2.7 (MSFT:NASDAQ)
-- 产品名称状态：描述性名称
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Microsoft+image+AI+model%22+Microsoft)
-- 官方地址：[https://www.nasdaq.com/](https://www.nasdaq.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Seeking Alpha
-- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据Seeking Alpha公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikgFBVV95cUxQbFpIUnJRQkt2eWdzMHplZERDb0lmSmkwWjQyLTRDamNCNUxiS3pBZ2NxTWlRLVM5Tk1qNlAwa0FDelU3ZzRBSVBZUGFKc3hoX0JnYUg1LWZjakNUYzM0ZlUtZmdiLWxUZnlRUjdJQkp3QVNuVm5kNHFJMWtDQmNyNEtoWGhRVS1YVncyMFFrOTJ4UQ?oc=5 · https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTjgxYVAzSlZzVkVCa0F6MFdURm5TVnV4NHRWZEQ2dXlnMTZPTHpLZmxRV3gydlUzT2F4MTdyX2lWU2JjNFBPX2RXSGtXd24wM0JDNjNncDljbUFFWG1OR1NfdjdFcXJCbXVHWHd5aDBkcVJpazhmLWo2b1dOakFTWXBnYlhCWXlZeFRXQ3ZDWnNYVnphOFJfMmxmclFtV0xGTVlRY3dxT1ZHTUU?oc=5
-
-### 126. Yahoo Finance 未公开名称AI产品
-
-- 来源标题：Nvidia (NASDAQ:NVDA) to Invest $3 Billion in Meta (NASDAQ:META) Share Offering as AI Partnership Expands
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景、投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Nvidia+%28NASDAQ%3ANVDA%29+to+Invest+%243+Billion+in+Meta+%28NASDAQ%3AMETA%29+Share+Offering+as+AI+Partnership+Expands)
-- 官方地址：[https://www.nasdaq.com/](https://www.nasdaq.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilgFBVV95cUxPa3p2ZDNFSE9sdnIwSWVWN1hTX2JaUzV0am9lNlNzS3VKbEpBbDRaWjRORlVOUjNSam9jdjF1anE1eVkzZlFUWTc5X0Y4VHJqaVd2anVKS09CQWNVSHliMUFkNERSbU1sOTZ2OUxOSW8tVmZlVEhrNjYwLUhUZVFVLVpxUmFkaXdyMVhlYU5jVk45NEY1VXc?oc=5 · https://news.google.com/rss/articles/CBMikAFBVV95cUxOSzZtNXBpbTlaNVJlbTl2TXRKZGtDSEFJY1c2UUYtRTR4YlpwOFZ6UWw0LUR0S1ltMWk5d1ZlR0Z2ZkNFZjFsV1dQYW9WQ2RDTE5nRjNlTlNSZ3VSX2RSRV9nYkV5Q0NzMFZVS0tGV3JkTjhtaWxKeFVvdnptc3QxQ3RTX2FYbDY3dzdnUUtTdng?oc=5 · https://news.google.com/rss/articles/CBMikgFBVV95cUxPVDFRaFdjWmM0emZvWHhiTGN0OWFkZGxZTEVGNXVsRGxqUXZ1TnJYNzFlYnhkLVgzaGxOSDZJZ1pMVHRSNHJyV1d3RVg3Z2h3NTF3TFdwRTJGWTBfR3NKSEtjY2JZbFppNnhMU3hPVHJXRkhBaWV1RGJVZGZIbFRpbXZEalhybGdfLXg4dG9LSGkyUQ?oc=5 · https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWE1JcXoyRmctWURydkx1LWV4dm5oS3ljNFctMzhRbFNfUUFLNFhzajlCSGRKekF6Tk1BWTZ2RGpJSnhtc2tXTjJjbmQyT1E1aGRIamxSYzlDWWJsWVl3S3dwckU4RnNkSk9CWkw1LVdWbVpneXJOUUQ2OExhYkRkcWc4cjBpMFljTjJLQlZ5T1g4TEpFUXBBQWVtODNLa2gyZ3BYTWJOblRNTS10cnMwd01TcFpMbmhXbHBvWTJubHdpamZrQy0xdTJCbUh1bG0yUlMxNw?oc=5 · https://news.google.com/rss/articles/CBMilwFBVV95cUxQSm5UR0RoZlhwTWF0MEIxWmgzTEc3TXpjVnUwd2F1c2JON21PNldDb3NXV0RiS2l0TlpWRTBfQ29lam1UT2dCc1RCLWFQdnZDMzhBWUY2RXhzMzRJMjNaaUtZRVMyWnFGNmNsRjZrb1gzT2RGSGoyZDVpcWs0d0lZd29KRWd0SVdiWTJRNWY3UkJJS1dUTDhB?oc=5 · https://news.google.com/rss/articles/CBMikgFBVV95cUxPMVZONEsxU01Pa2dLUzZQWFFrM0VMQzJLWFQ1UzVkNW5zS0VIeDNCUDFYbmZMSWVnODBFWkJhLWVfWGNabFlTWEpicjYxcjItbHV5OE9pMkp2dzBKLUh3dFdGT0c5V19wWTBXQmVUQ3doNGRwa3BqalozWUx0M0lsVE9vdERua2Q1aGN2VWZzaVc3Zw?oc=5 · https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUUNYWGNnb3JkWU9jQm5pVk5vbjBRS2QySl9UWDQzU0FOM0M1U2xNTHRtZ1JxLVlHNHVLRFpELUVaeFJwdFIzMnRYTTFEdVJsZEF4Z3NrYW51QVZHYjlfNXg4Si1SRHJFQ1F2UExLUmZOZnlsczJfNmhuZ0pfaGt1V29sdHNmYmVFS1c2eVduS21pMG5BTGJUV0dMcGEtMjBpaXNBRUM0ZnFjX2gzZkFPNUNiWEVHdGpJOHd5TVhyRUgyOUVBQXJMWkczb3FQc3lF?oc=5 · https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ0ktLVExNEprQkYycVV0Y0lET0pXbjZBcXNDeGhaTHNnLVotanh5NDZOdm5GQVh4X2k3bExwR2Y4aW5wbndmcWIxcy1wSnVBVkFrZzRwMW1RdnI3Vk9uZTlxRjAxdFItNE4yZU1aQnY5NzRfNzNmUUtXNmh4WFpJR1k2aS1MNmRNT3FxYXJ5THRDZzIteTUyUQ?oc=5 · https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYXhUa2ZsVFNnb1d2Yzh6cXc0WlJJVUdNdkE1WG5Gb1hua0ZXN2xQdDFyMm4wczBhZWdLQzRvZ05Xd3FrMzNzYUtsMUlqRzRJcFp0RmxHTnE5TmV4cHpzSFFBR0pNTllVZEVCNmN3Z3NzN3BrT1BCNFB4UlRwV0p0b09UVTE5ZHN4SkZfamp1VDlXallNYkpRRG5leE5id3dHWFBqdzZkdk51S2s4dnk5bEd1bUJqczFa0gG-AUFVX3lxTE5YcUZvT1hmajZsbVFtTUViT2MtUVFQMDdkOTdHT3dicGI1OXFrRENqRHBDMFdZSXBXR0xWblhXVS02WVFOZUxjeXJYc0RiaERUVWRuZzVBOE5XWGxrWUZxVUlXbWk0c2Vxd3RxczBhRVpZaThpTHdBWnRxYk5XOXpjUTBhaXNDRmp6R2E3SFJleFNUTDcwUk1NVVF3Q2Z6LUFoYjF5R3dSNU9TYjl4dWMxYjl2UUl6Ul9yRnczcGc?oc=5 · https://news.google.com/rss/articles/CBMiugFBVV95cUxPWFVwN1hfQVhaWm9LZkY0bERYY0JtOVBtR2dSSHV4T1c0eU91TjN6WXAwTHNvZmhnQlpkUENkSGhYT21aNWlBWjM0dXNFSHp5andOeTlKRzhDN3NremU5QzhTdDlRMThvMGZFck02ZnUtRWIybmloSTJPVnktWlVSRWdOZ1c3QWY3bk1GVUN1YWx4aExfRnJ4b2VtNlFia0wtVWNQZE5mcl9Ld2JUT3g5X1FRT1lYSUVpVWc?oc=5
-
-### 127. Tom's Hardware 未公开名称AI产品
-
-- 来源标题：Nvidia is bankrolling AI accelerator supply chain buildout to reserve production capacity
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Nvidia+is+bankrolling+AI+accelerator+supply+chain+buildout+to+reserve+production+capacity)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Tom's Hardware
-- 摘要：该候选涉及银行业务，被识别为客户部署，成熟度暂定M3。当前判断依据Tom's Hardware公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilANBVV95cUxQSGZheUpEUC1EN2c5VFB0NEp1TldOUmhTVnZCMnRNdmZGVmIxa01nMndWUUFKM3hXblczTklSWE9WVDJSZ0dNMnN3Tm1XaW1LZVAzODdMV2FsTjh1d011ZUJ6S3BKWFdiS0lad1VLOHJPTFZDRV8zYjl1blNhTVV0X1VnZ2IzVXgtLV9feXFkX0pBV2xscmhjb0c2b2daWTIyRUtaMW5jQkZpbjdkeGNJNXBNZVJOR2N5d2k4NnZfNUI2OHI4alFHc1g4dXk2OHJ6bC1xbDZpLVVXVFNfYmxUeW9mRHBQV3RJZ2JpVUVpN201N2dtcHpha2NIOF8wbTl4cGRuZDF0YjdtRXpTWVp5RG5tOGFGV092SDRKSkl5QmU5WV9oamdxdWJXWFNSay1haVRiakxpQ3Ewc1RhS0ZJblRRNDhRRWNHZVkxdG95U1FUZjZXZnNybUhGVDN0a2JUTTByU1ZudWNXX2R3WmhHSUttYXVpbVRqdzBpVUt0VHBTbExWVUlhazhnUEYyQ0RyY1F2Yg?oc=5
-
-### 128. Dallas Investment Firm $10 Billion Tech Fund
-
-- 来源标题：Dallas Investment Firm Launches $10 Billion Tech Fund With Focus On AI And Defense
-- 产品名称状态：明确产品名
-- 产品分类：投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Dallas+Investment+Firm+%2410+Billion+Tech+Fund%22+Dallas+Investment+Firm)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Dallas Express
-- 摘要：该候选涉及财富管理与资本市场，被识别为产品发布，成熟度暂定M3。当前判断依据Dallas Express公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiwwFBVV95cUxPYWpGc2ZCZjFXMjgyQU9QdlBwT1JiWjBmQW1BUktQOFNXR21VeUFyLXpOUHVuN2RnZzY1RVFLT0s4cDVSa0xFamZOd1UzZWlOMERWcHlvb1JjZWJRZ09JSk4yNE5HRkVfWXhEdy16OFRZU1F6TUZWUHVXbWRtT2UwVmQ1a2hHU0lkOXpLcW11dE8xTXRteWY4a0YwVDVEVnI0SWFfai1ETjk1U1ZLd2ZVRkc2Q2xmTUFyUUhlYWFRcW5lb2M?oc=5
-
-### 129. Calix Universal Communications Language Model on Hugging Face While Calix Gems Will Bring Right-Sized
-
-- 来源标题：Calix Releases Universal Communications Language Model on Hugging Face While Calix Gems Will Bring Right-Sized, Specialized AI to Network and Subscriber Endpoints
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Calix+Universal+Communications+Language+Model+on+Hugging+Face+While+Calix+Gems+Will+Bring+Right-Sized%22+Calix)
-- 官方地址：[https://www.ubs.com/](https://www.ubs.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMisgFBVV95cUxQZGFvVy13MnZJTTF1MS1nRmFoT0ZjQnZUUGhnaWdfdGdFREtwMDRtWUdBZnltd2N5LUxjd1E0UTZVQTl6MVNCMXJ5cmdiN19FQThzUWtPdUlPcnNzRnJuODhobHh3REZFMW5fZHByNjV2VTFGVTktVUpPeTlKeC11OW92YlRqUlJsYUhia1FXemd6UENtUGRwQ01EaDdiSXY3YWhUME8zUkV0a1B6MmJQRkp3?oc=5 · https://news.google.com/rss/articles/CBMivwJBVV95cUxNUkZzNHo2YUtqcTdVazIyTWt4WEpHcnk2VEhlaEtRcmlNMmJYRUVIX1lzMUFpR1AyZzRzMU5DMGtlbFdhNTJaUDROYU5CTzRPbFR1OE8wQ3c2LXF2QUp1OFFyVTQ3U2NBa3I3R3VNb3RDakloR29CMUFWVnd4TFVIVnNkMGZFSlVNVFAxREx2b0lpbS1SMkxEa2dycksyVWc3ZXZ1eGxtMmRHQ251S2prMHVIOEV1QmxHX0tzeHVLa3ZqMDY0azZqNG9sRnJXbWx3eUJvbExnUWlZR2dKaXgxR3p2Z0VlUk54aDRtdnhQMF9GaHVReUxUcVdnRFJlNDlqb3J3cFNJZm56Mm4tQ0dfR2pYbjdPS09zWUZMdVc0NERBUHRoVVRsUlhVRzJVOURxZ010dkNJR3BFbU1GOU1B?oc=5 · https://news.google.com/rss/articles/CBMirgFBVV95cUxQWkZrZ2ZPcEEzcnBQWjIxdDBQN05mQ3JIQ1hQZnZuM19JRGQ1THk3TUN3N2N4QVFjaFVmREdpSDlpTm5DWUVBMEN3cUNnTE55cnY5VWlXdk5YTWZGbzNlc2tPSU92RGFKeWUwbVlDOHNHMlhGY01lNWdYd2RNazFQZGxRbTVsbHFNaUN0OHVUeVIzNnBGNGZHcWU0STgyYkRzamd1VV90WTlOajJ2cUE?oc=5
-
-### 130. Bitcoin Magazine 未公开名称AI产品
-
-- 来源标题：Bitcoin Mining Firm Luxor Raises $16 Million To Scale AI Compute Trading And Hardware
-- 产品名称状态：名称未公开
-- 产品分类：投资理财与资本市场、其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Bitcoin+Mining+Firm+Luxor+Raises+%2416+Million+To+Scale+AI+Compute+Trading+And+Hardware)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Bitcoin Magazine
-- 摘要：该候选涉及财富管理与资本市场，被识别为规模化应用，成熟度暂定M5。当前判断依据Bitcoin Magazine公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
-- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMieEFVX3lxTFB5b1d3a3YzbGNmSUwtZjFrVUNNcW5kWm9WWmN2dG1aRzVGUTVILS1TSmpJTlA4M3JRNmRUWmkySDBxWGRuQUdvQVdmbEJaRlZxOGFKc05fbnN3LTRoOFhtdm1TQ1ZvelUwX2hFVENySjQ0LU5TbmNQaQ?oc=5 · https://news.google.com/rss/articles/CBMi-gFBVV95cUxNczhiTHZLSDVyZi1naWR2MDFwdXFfblVueWRqLU04eFhiSDk1bVV6aW45dU5lQzdrUWN5bF9Mdld2MlFTNEQzZ1JEcmczRXFCUUpIVVJuLU9pNl9ja3VqclBkQ0ktUkVUcldpRXdxaVFIOVZVNjk4VEZObnFWUHlTemJ4Q3BNVjltSmFsTlVQVERnSUNzOTFYbEJfMmhJbUpUaHNZVXRxUXlnMlVVT2k5NUs1azY2bFY3V1lFVjlMRzBQOC1CRWcta1lwRk5HVUl6aXYyLXE1OU5FYVJ6R1lDS2FaRVFFWklNa1Z4WFo5OHNNcHg3ZUZKLW5B?oc=5 · https://news.google.com/rss/articles/CBMihwFBVV95cUxPazV2Ykdld2VHVEpVSjdzbkdaeHBKT0R2bXhTU2tBRzNQQWZudHlGR0RwdHVkWTN6R3FFTEJLV2p1VkFsdUh1WVAtMEdKSmZBVXpidTAyYTd2T2M5ODJicnBod3RhYXNVZDVNdy1HT2Q1MWZ0dnV0Znh5bHJEUnBlODJRMXhYMlk?oc=5
-
-### 131. Briefs Finance 未公开名称Agentic AI系统
-
-- 来源标题：Hyphenate Raises $45M to Scale AI Finance Agents
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Hyphenate+Raises+%2445M+to+Scale+AI+Finance+Agents)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Briefs Finance
-- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据Briefs Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTEp2X2RnMFFLMHhfbTczdjJMNFktV0laV2lCclY5NE1nRHBkNVNYYzhyZV9XNFdvNlN0LWhrQzBOTXRuc2R1YngxZ1Z3d1JmYnhSeFJ4WkNkOE5Ca09sR1NSa01qNlE5VUFJeklVMi01d1JqbWU2eWd4NDZvLWNCNjVab2hGRTA5?oc=5
-
-### 132. Dealroom 未公开名称AI产品
-
-- 来源标题：EIB backs Impress with €40M venture debt loan to scale AI orthodontics across Europe
-- 产品名称状态：名称未公开
-- 产品分类：信贷与融资
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=EIB+backs+Impress+with+%E2%82%AC40M+venture+debt+loan+to+scale+AI+orthodontics+across+Europe)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Dealroom
-- 摘要：该候选涉及信贷，被识别为规模化应用，成熟度暂定M5。当前判断依据Dealroom公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
-- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcHNvSUh2ZnU4VmhNck5HXy11MXFBWGpUelE1d2VHSjM5ZThJY29sczZ0Mkg2eHZGWHhJY3lXdG9OUnRqYjFTREU5M1p0NTYtSmJSWllpQlpJVDhKMXFZY19CanBOT3JtMVlwbHc4QV94VHFjUU9FeGpiemVrYVFiQUw0d2dxZDAwVS1YdTRNVGNxZmx5TTNSRVdUSm1iWWlxRUdOTFdWVTdNbDBvdnpVeExTTlNyZnEw?oc=5
-
-### 133. Coin Gabbar 未公开名称AI产品
-
-- 来源标题：XRP News Today: Ripple Announces Bank Approval and AI Treasury Launch
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=XRP+News+Today%3A+Ripple+Announces+Bank+Approval+and+AI+Treasury+Launch)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Coin Gabbar
-- 摘要：该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据Coin Gabbar公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMif0FVX3lxTE9WMTk0NlZsS0NWUDljNzlUeHBtZVNDd0MtV3BRdTRVQXkwdmhDdld2aFVtOXRpUk8tMTYteUhPVGR3LUpzNWV6S01FbW0zYnNUUENfMWFfZzliMzFyeVctU0F5bGlFRjgxZzB1MGtnOXhKYVdlTk9zNjNhcmplelE?oc=5
-
-### 134. Rillet Brand Identity
-
-- 来源标题：Rillet Launches New Brand Identity, Zero-Day Close Infrastructure, and Powerful New Agentic Finance Capabilities for the Modern Enterprise Finance Team
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Rillet+Brand+Identity%22+Rillet)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Business Wire
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Business Wire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://news.google.com/rss/articles/CBMirwJBVV95cUxPQTN0OHdUMHlmaVE1VTFIdERHbmJsLVVCNGJjdDRXM3dGYU91WkF3aEhjUFFaWnFXSzUzZVo1aUdTOTNpOVBnSHdURnJ2WGRia0NnMnZUVWpkMjBLMW5JcTFXdlVfWDJMUl83aDlsQ1lHQnBSZEZibm5CNnoyb2ZLUGQ4cEp4cHE3am1oblAtOEVzcUp3RG9ZVjhQaGttWWhzZnBGR1JPUVR3cGlOYzNPcXNscGtJYnkwUnB6VkpjY2sybTZ2SWp6QzhZMEtCVUhYZWk2dEJ6RFhZT3B1WVY3SnZ6TjR0elprTl9WYjlicmFLaldLc3BkM3AxVDJJUnRobUJYTFlrRlF1YjBtV3FqVHI3Y0FhTEJvWkpwRy1wNGdYd2dwUFpXRDVmNmUtcms?oc=5 · https://news.google.com/rss/articles/CBMioAFBVV95cUxQR3NWaDE4UkZwWDk1cUM0d3BLSlhrdHR5eFlOS0NNcTFPcVBDMGpVMTBCUXduUHpZT1hqUFV2dWRCX2F5ZDVUM0FRZ0p6blAyTXdkZXFlTElsVF9hR0tGM3RPcm5YeHhWRFFHUXFXV25ZUjRtX25HdGVXNFdrSEEyM2tDd0VhY1ljR0dxaWhhTHZub3BYWFRtVXp0TTFRaTlr?oc=5
-
-### 135. TheBanker.com 未公开名称AI产品
-
-- 来源标题：HSBC shares fall despite 32% Q3 profit rise; Revolut faces Bank of England review over new product launches
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=HSBC+shares+fall+despite+32%25+Q3+profit+rise%3B+Revolut+faces+Bank+of+England+review+over+new+product+launches)
-- 官方地址：[https://www.revolut.com/](https://www.revolut.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：58/100；审核状态：needs_review
-- 发布者：TheBanker.com
-- 摘要：该候选涉及银行业务、金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据TheBanker.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiekFVX3lxTE16SmRSNUNhVXRRb3RwYzdMRFB6NUhFQ2VkZ09SbDhvVGhQUl83WGhWbzVXUktJSUVUY1ZYcmhPN3hqY2dUWjZjZWNvQzVYZ2t1SXlmWVlGcUJMMmNhVk81SFk1OXBYbHRMLVVnVlNjMXByOHB1OG9KejZR?oc=5
-
-### 136. PayPal Holdings, Inc. (PYPL) Latest Press & Corporate News
-
-- 来源标题：PayPal Holdings, Inc. (PYPL) Latest Press Releases & Corporate News - Yahoo Finance
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22PayPal+Holdings%2C+Inc.+%28PYPL%29+Latest+Press+%26+Corporate+News%22+PayPal+Holdings%2C+Inc.+%28PYPL%29+Latest+Press)
-- 官方地址：[https://www.paypal.com/](https://www.paypal.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：58/100；审核状态：needs_review
-- 发布者：Yahoo! Finance Canada
-- 摘要：该候选涉及金融机构、金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Yahoo! Finance Canada公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构、金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiZkFVX3lxTE01cnk0N0dRU2ZvX0pfSkxIRkVsMnplMkFIMkJ3d3JKWlJGeDJhV0NTeXFVT25QM0JEaExrUVE5cUk3RkwxUmFuaUpPazY3aEpDYTVqWlBQOU9VOXpVY01pYnltN09PZw?oc=5 · https://news.google.com/rss/articles/CBMiZEFVX3lxTE5aOGRmNFJnUTlWNlF1bEx0SXFTTDlUeTBMMTZ2TFJSZW1UM1FOLWJIRE5tZFVSWUwzemttUGt1Si1qNWlYRFJNaktIX2UyWV8yRTh5a01hMnF1ZGtvbWF4UEw4VzU?oc=5 · https://news.google.com/rss/articles/CBMiZkFVX3lxTE9wZXFiSHgyR0NlWDRzckptbFlLZlRpb25zR2FEM2FpcWRqanlVa3E0aDN6MHBpSERYSF9MVTRJSXNuMlhLT2dzTFlhSVVQUnJ3NUtxMFlJZ2xVRlBVWnFUME5IMGh6Zw?oc=5
-
-### 137. Manulife Bank Visa cards. Target for Manulife stock stands
-
-- 来源标题：Manulife Bank launches Visa cards. Target for Manulife stock stands at CAD 68.00
-- 产品名称状态：明确产品名
-- 产品分类：银行运营与客户服务
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Manulife+Bank+Visa+cards.+Target+for+Manulife+stock+stands%22+Manulife+Bank)
-- 官方地址：[https://www.visa.com/](https://www.visa.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：58/100；审核状态：needs_review
-- 发布者：ad-hoc-news.de
-- 摘要：该候选涉及银行业务、金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据ad-hoc-news.de公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV2NEWTJkX1F2SGN4bDZXdlZPQ1BlcjM0WEc5Z1NlQzRtd3hsYXVpdV9ySnpvSjlfc0ttSDhSLXlKbWNEazZTMExTYmlTSFFqMTRnWjNUNFFPZERIQjdLZW5fZWxhbG5IbW4wMDJLa0VKWjVzdDNjVnNFbHRUR0F6UUZLSlR4cE5ZZVYzY3kxVG5MZkdSSHpjVUIyMUZRVmZiRFNRSVVfemZnUkRfMk9mbTdkS2o2b2ZHXzVFZV84bFdtdHFTcUV4bFFXUkZHSEFHV1E?oc=5
-
-### 138. UCB sticker payment card
-
-- 来源标题：UCB launches sticker payment card with Mastercard, GP
-- 产品名称状态：描述性名称
-- 产品分类：支付与钱包
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22UCB+sticker+payment+card%22+UCB)
-- 官方地址：[https://www.mastercard.com/](https://www.mastercard.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：58/100；审核状态：needs_review
-- 发布者：The Daily Star
-- 摘要：该候选涉及金融机构、支付，被识别为产品发布，成熟度暂定M3。当前判断依据The Daily Star公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构、支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitwFBVV95cUxQb1FrUjlsbmJNVU5NWDJjSG5hUFJ0ZXplbk8wX1NJNjVvdldiQkI3ZExyWWlLQjl0YzZoRTNuSFI5LUtVYVU1anplUVJRYnhuYW1zNVAyU3ZRZUF4TnhTQlVJYXhEU3VqQjRNUmliRjUydXRHR0xzU3haTElaSDhSOUdVT1BVNFZTd1JjOE9HOGxKNDJ3UTFBbXhVeDE4WXc0NXRYYXJiSEFaTjdET1BNYXV2d0twd2s?oc=5
-
-### 139. TradingKey 未公开名称AI产品
-
-- 来源标题：Ripple and Robinhood Announce Strategic Finance Partnership
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施、其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Ripple+and+Robinhood+Announce+Strategic+Finance+Partnership)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：58/100；审核状态：needs_review
-- 发布者：TradingKey
-- 摘要：该候选涉及金融机构、金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据TradingKey公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构、金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMia0FVX3lxTE1YUG85aHZ6WC1mV255anlyNFlQaUNVZ2VxVDBvdjB3WDZwekY1eG1oQ2R0ZjJiMG1PNDZ1Z0pDNUY0TUZZMWNYTEdjRVo4RXBsOG96dmp2clRkdEo1UHpFb2Y4QlpnQ2RuWFZv?oc=5 · https://news.google.com/rss/articles/CBMiWEFVX3lxTE1pTUs5R21MSkJIZmpsa1k3cWh1X19XeF81WDY1MnVFbXJuZG1idktXdzJvLUlseWppU202RXJNNUxNb2hUdjFuZkowRU5taWxBMkhhRjJlZ3o?oc=5 · https://news.google.com/rss/articles/CBMigAFBVV95cUxNVk96VTY3ZU5keFhRY3BYZk9jdjhRaEN0aVdqV1NoTEg1OHJQZzVGbXZWSFU4bkdka1Q0cWZSdlFlUmNTaTM2d0VucTRlYlZOQXNlQTdRTndpdmVFLXpLc0ZwaUlKTWlZUEtneHl2R3RpN1ZtR0JkZXRMNGk0MWdtLQ?oc=5
-
-### 140. Stocktwits 未公开名称AI产品
-
-- 来源标题：GCPU: Grayscale Funds Trust - Grayscale AI Compute ETF Latest Stock Price, Analysis, News and Trading Ideas
-- 产品名称状态：名称未公开
-- 产品分类：投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=GCPU%3A+Grayscale+Funds+Trust+-+Grayscale+AI+Compute+ETF+Latest+Stock+Price%2C+Analysis%2C+News+and+Trading+Ideas)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：46/100；审核状态：needs_review
-- 发布者：Stocktwits
-- 摘要：该候选涉及财富管理与资本市场，被识别为规模化应用，成熟度暂定M5。当前判断依据Stocktwits公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于交易研究与执行工作流，让交易员或AI智能体调用行情、分析能力，并在有权限的情况下连接交易执行。
-- 预期作用与价值：预期缩短从信息分析到交易决策的时间；对收益率、风险和执行质量的影响尚无可核验结论。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiSkFVX3lxTE1PS19IcW5Cb3V0UmhVRjhUSktWS1hrWFhhQmUtX3FEQ1RwRk9mclVEWjEwb21tTlpCX3RBWDdWU2VROG5QdGhhYVhB?oc=5
-
-### 141. Intel 未公开名称AI产品
-
-- 来源标题：Intel and Oracle expand OCI partnership to scale enterprise and...
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Intel+and+Oracle+expand+OCI+partnership+to+scale+enterprise+and...)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：44/100；审核状态：needs_review
-- 发布者：Intel
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Intel公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMivwFBVV95cUxPZHBQWFRVeGoyYW9mNXRXazlNTDB4VlZwcEpQR2xRMHNzTE9vejRJcC1oNklwM2ppekVvMFNUdUhCVjR6MDYwV21fLTlISUNEMnZZWmM5SGduOHl6TDZ6WHZqZWJWdExHNVRwZ1RDT0MyWFpib3I4U19vSGlCSXdGYzVlU1pHdkdfSE5ZYTg2N3F1cEVIcEZONWlBQkhab19kakQtVWNnSzBwLTZnZ2RGQWxHMVlCTTVWRVhPN0VoWQ?oc=5 · https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZ0hka2xDYmJGNWVmcDQ0RjVXNHd1ZGpXLU92aU9WTlhPY0RYZGpkYzBHM2haN3ZJbk9TZDh3a0tlMjdOd0VXdGNfWUJyLWdWalRJQ3k4d1ZmRmltMVJYdV9zQ2dab2VHNER5WXBVSUU1UkFvb2I2NmZhSnZvUFN6cks5VXVOeE9F?oc=5 · https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEZTNZaGRUZWdPSDRtWl94U2tYb3ZmQlEtWmJGWFdxV0wzNk8wcW1SWXVXcmlfcHVINzQ4QkZBLVg3MjVrbksxMXFfTV8yM0djNzdN?oc=5
-
-### 142. Yahoo Finance 未公开名称AI产品
-
-- 来源标题：Nvidia and Meta expand their AI partnership: What to know
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Nvidia+and+Meta+expand+their+AI+partnership%3A+What+to+know)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMipgFBVV95cUxQNkxOemR4dE42SnpudUtqODVaLTJOOVpUR0JYdWZSQ2l5c01qSmNIRU5iYnpWeTJXWmk0bW1iQkVHdnlNenNfNUlzbHdjRkY5MXVXSHVFQURNTXhpVnFkTUpQMWFIazZTbmpkNHBOZmZ5cDB2ampYbDBsdS0weW9oNHI3MlhoY2FLQXMxMkUtUVN5OHYtUUxRb1JrS0xJMGFxNlp1XzZn?oc=5
-
-### 143. Webull Canada AI-Powered Investing That Lets You Trade Using Plain Language
-
-- 来源标题：Webull Canada Introduces AI-Powered Investing That Lets You Trade Using Plain Language
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Webull+Canada+AI-Powered+Investing+That+Lets+You+Trade+Using+Plain+Language%22+Webull+Canada)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVlYtYmJwUU9UWkpORTRyNDJYR2ZtNHNPSjV6UmpmUWpENHZZdlZJU0JqaDVORjViUjdaMVJ1V19senhFeWdqWEpmUFJyMDQ5anRMemVWTXJVd2w0anFRREJNWFVTbU9fOTV4NWo1MlBGcjRrcFNMS1NhRDF3OVlXOWppRTk2Zm15?oc=5 · https://news.google.com/rss/articles/CBMiygFBVV95cUxNOUxKSTA2blVOcld2RXkzUGZkUl9rOFoyRXFDYllrc19PUGhZeXZXdUpKWnJQY21VSFJtZkpZQ1VGeldkMUcyRm5ZSHQ3d1l0aUlHZjFabEFPWTIzcUl1TWQ4cjhCb0FlT2RVWHpJelcta21wUnowMGt5T0dyODhJOThCN0NoU2xHZEk4R2pmTG9BMFlBbmtHNmdLRlFnaEZTZ3pHNlpyY0FuYk8zWlpydlFtZmR3b0VZaFpBY1RwQzQzLXBfSnFXb0pB?oc=5
-
-### 144. Oracle Cloud Networking Innovations for AI
-
-- 来源标题：Oracle Unveils New Cloud Networking Innovations for AI
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+Cloud+Networking+Innovations+for+AI%22+Oracle)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Finansavisen
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Finansavisen公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdFhsUHRxb2xkcGtPUnJoRThfZ3A2TTBTNExkX2tmY3VEZEtyNmt6QV80TzZlQXJKYkQyai1uNmFkSlpJcmo3NVdxTlZxT2VEN1liZlN4em05My1ZUjlWMy1QVzJ4dUxPUzdDM3pWbWduYkVHZE1XQzJoMmlKRE52cjZpY0M0eE5wenY1bDRqQll1X3l2N3VWeml1YTVyWWl0OE5aZjBsRjF0QlVxZ2FZdXowSnR1Ml8tcnhwUDVVdzV2c094N0Y3MWVtVklLUVRCb2l1cEhVZXNobHJUNElR?oc=5 · https://news.google.com/rss/articles/CBMivwFBVV95cUxOcHg5cnJCODAwbFJJbHVJcDBuc0U4RTNfbmRIalhpY1Z2UU9NUU01N0Vla3NkV29JWFpyX0k1eUw1VW1RVzZzR29oMFY2TWhLYmhXQWpPRTBRdjFIRmdHQTlJLTJyWUI5aDRXSWpQVTBYdlBDZDl0dVhKZnhYRVN2MDlPNm1BWk82UnV6MUxiWE1mRXViTjk1WFF4bm9xRjdIalBxVnFyOFFnUm1VTTJCVUJQY2lvU3hqem5xby1HNA?oc=5
-
-### 145. CIO Dive 未公开名称AI产品
-
-- 来源标题：How to create a scale-ready AI mandate
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=How+to+create+a+scale-ready+AI+mandate)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：CIO Dive
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据CIO Dive公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiakFVX3lxTE1GdlNxSHBfOWlCaEZvaE9pTFB0Y3NNVFh3N2F4M1BYN3JoU3pyWHUyOUdpYndMd3R2X2p2UHRNYUJraFM3Z0VZdWQ0amhCZUY0WWRTVnhrdHl0S0tEeVdtZW9lTTNld1BGRkE?oc=5
-
-### 146. FinTech Global 未公开名称AI产品
-
-- 来源标题：Overwatch Data raises $15m to fight AI-scale cyber attacks
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Overwatch+Data+raises+%2415m+to+fight+AI-scale+cyber+attacks)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：FinTech Global
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据FinTech Global公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxNUkNPeFNxekczSmZjRTh6cy01Z0xnU3U3WHJHRVZfamx1Q3h6OUpDTlhzYVFoOGlacWVYZ3NZXzhrMEZlSDY1ZHlxT21qMVJKNEVka091X2NpdHZURzU4WXFfQTVQNzhXY2IwOF9yQmZhOU82b0d3VGRyamQzNmFmNHJ2YXRrS3lCSzRsYkpOYWNIazhKZjlN?oc=5
-
-### 147. RTVE Telerín
-
-- 来源标题：RTVE launches 'Telerín', a free Artificial Intelligence to discover the secrets of TVE's early years
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22RTVE+Teler%C3%ADn%22+RTVE)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：El Constitucional
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据El Constitucional公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTExnVXRva1ZrMTVudUdRR2RxbWFmZ2VKSFUzUGJqYl9IRlRieC1qQ3NEb2ZpNjIxd0RhUEw4RTdGVHRfalVDNGlqQ1ZtUWNyTGEyQmdOT3FrMUZ3WEEya2tSQnFJcEN0WUV6eXlFWVF2YVdnODNENzFkQk5wdi14Qk5wWXpFRmJ1MTNGcFFqZERCV2Z2aDNLSnFvWndFRnV4ZnNPazZTWW1OcE9BTUM4U0xXS2VNb3BKaW9adElyZFpfdFFFRHY0X1ViRFJNMUZtSnpiZWVEOWtRU2RrUWNHa2FEek9oQVVZNWc?oc=5
-
-### 148. The Information 未公开名称AI产品
-
-- 来源标题：OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=OpenAI%2C+a+Longtime+Nvidia+Customer%2C+Plans+to+Buy+Google%E2%80%99s+AI+Chips)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：42/100；审核状态：needs_review
-- 发布者：The Information
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据The Information公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHVUUUdOMmpGd3dxdWhJS0t6c3FlVmh1eXg1ckptWEFhX2JGbVByMGozdHZRQks4YUV0dzM2dWI0Tm05cmlXcG53Q09IYXNJYlFab3BjV0NSVnNoR05TQXFLQ2thQlV0OVFWdDJyM2wzOFVCdG13X0hsSHVQNFRTQ2hGNThFeFJjeWhqMlZLTW1RQ1RUNVU4UnBtMU93eEk?oc=5
-
-### 149. The National 未公开名称AI产品
-
-- 来源标题：OpenAI’s Sam Altman urges companies to focus on AI security threat as GPT-6 adoption soars
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=OpenAI%E2%80%99s+Sam+Altman+urges+companies+to+focus+on+AI+security+threat+as+GPT-6+adoption+soars)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：42/100；审核状态：needs_review
-- 发布者：The National
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据The National公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZFpHRE1yTWxEaldibEJzTHBZaTFYaE9IQ0ktTVFGRDJhU3o5cm9oVXJXbEUyRWNWX3phc2VFbHRPVFNZR1pzdmhTTUdFQ1c1a0dFN2FXQXFjUzE0cng1UElaYlhwaHRlT2VaVWh0ZENDYzZ6enpzYXR3NTVCRm5QOGpqTkJHTHhUbllUdDFsd0VNN25KaTJ6WHdRLUVuVUlNbENxbTNFOVFKcHIxR1dNUGQxM1hFV2dpRUtzUFpTS1oxWXFnNkUxaXFfWlFMV0phakxOOU9zOWFNZw?oc=5
-
-### 150. The Register 未公开名称AI产品
-
-- 来源标题：Big Red gets cozy with Google to offer TPUs to AI customers
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Big+Red+gets+cozy+with+Google+to+offer+TPUs+to+AI+customers)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：42/100；审核状态：needs_review
-- 发布者：The Register
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据The Register公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitwFBVV95cUxQeVljVnpFS3Ficm9zaUhDcHo1UktWb1N6YzNUTkVlajc1WEVmVmRvT2NoN2N1Mm8xOUYwZnEyWENQYVp4R1JXdzVfQ0pKMXNsLXVWc2lneWxPM2lFMmRsYXlSd2tXcmRhQU5feGVxbGREVll5WEt4NnlGZ2FUeFlyaFdCb2tKVGphQWtXUkhUeEtXMzFNcTd4Q2pBX0hhZm02MEoxb0hLNFBCU2s2YlptVG5XVk5pNDA?oc=5
-
-### 151. Oracle AI security mesh powered by OpenAI models
-
-- 来源标题：Oracle launches AI security mesh powered by OpenAI models
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+AI+security+mesh+powered+by+OpenAI+models%22+Oracle)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Investing.com
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Investing.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitAFBVV95cUxQR2NVNktFbE9qMDdnX1B5dXBsS2RoRF9TMmUwZlVEcVBIamFmalNsc05lNWZIYWsyanpaSzFRNkphWW4tRHNMS2FucW9udWdKakhZWDNWX3I1YkJZajJwVmplUnF6QWRfT010eDMwQ2d6VW1Ob3NqZm1FQmRwLWNLUnVnTGZOVVQtdDZLUE5sNFhOYXJzUzlNeU9Dd0t6N3Z6czhzUmdrZUwtN0szeTIwRkRQd3k?oc=5
-
-### 152. Google Genie 4 world model powered by Gemini AI models
-
-- 来源标题：Google DeepMind is unveiling Genie 4, its most realistic AI world model yet
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Google+Genie+4+world+model+powered+by+Gemini+AI+models%22+Google)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Quartz
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Quartz公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMicEFVX3lxTFBmSUx1cW1BWnBETElWNmlYMjdTY3VBZFJmRkx2eVNOcktkWXhiUlVBQUd5eEE2ZUt0YWJMTGRNejV2MTlpUDlnM1hTVVZHd0RKY3hXOTQtd0hyX2dHbFdRd1p3eVRKVmVtdFVzaVp5bHM?oc=5 · https://news.google.com/rss/articles/CBMixgFBVV95cUxNeEliaWpqUENzek1mbFUtN2JOVHgtVzhVZHduYXllRVViZVFhYXhzb1ZVQks5TUh6OTBtd0gtLUw5R0l3amdBRzhSRnZzRWZ2Y1AxUzRlZG81WmZtNWhnX2NpZ3RIYW81czJKamdiLWZCemxEdUE2bmVqR3AyOFVHbXN2ZnAyazNHYWVrazR2LXJDNWlQWTdrdzhwZVB6LXlNcGJweUJZR1N0TFVNZktqeG4xcjdsOHRqYXg0eUVRSWJyRW5QNmfSAcwBQVVfeXFMT2xEUFZ6SjNLQXFNcW02a3NKXzdTWjY3bTJkSlhVVW15MXIwempQeFJMVEhtUTZXN3FYMWl0WlZ3S0NRRk85b0p5MEMtQWNLR3FEMWpoZDdaaURJUnhHYm9GOVlCZkhyQmRzaHNvRDBsa01wMkRLVzl2SUhzMjFqdHB6S0JzOXU0Ry1LYWFUNENVTEQzTklPTGJVMml4U0F5N1BBRGJ2a2ZiZjc2N0xyMWo5dE52MEZsSWxPaFRPT1d3a21LOGJPTzRGNzVZ?oc=5 · https://news.google.com/rss/articles/CBMikAFBVV95cUxPcHN4SmZSeVRRQkVWMjFxdVAtTnd1MzRJSFZXbE9Cenc3U2RCeTFnZjRWeFo5RGpaZUxwZEV5ZW9vaHBkRUFMS19HVFUtdEhmcV9YQ1A1MHI0UWlxNENHNE5DaEI5VzRsOTdCejZBNlFaTlh0VkNQRGhxTnBRa1lTUlhTX0lyemlHNWxwMExsZ1E?oc=5 · https://news.google.com/rss/articles/CBMivgFBVV95cUxPQzhhVHhOcWFHTWVOU0ZPYUswRERZWXg4SFJFRV82RGdNbWY1YlZocVlwN2tNVGFkY2ZjOGd3dHpPV3Ywa0RRRklvM1pSSmQzS3FJUkc2UzdCVTF0YnJCQjEwQkROR2FYSWNNbVRWb0RsVjctdW90blVnY1ZzUWpweXZHR1ZMMElpeTVDYUdERUNhV0lRUWhaeGdndlFnMXFiRS1kNGxxd19YNmZKVXIyNDVwc1hjamt2ckFSWDVR?oc=5 · https://news.google.com/rss/articles/CBMidkFVX3lxTE40aE5mRmVpZkUyRmNpd1NrYm9NeGdSYXZucWFJYmtzMzZTMkg2M0lnNFFIUHppQmNSMG5mSnlaUi15TTZuZkZwSU12eUJYUDdGdGNtNDRha3ZOcTVUZWNOSGthM281M3hrVmRPZ0x6X29JU3JVTnc?oc=5 · https://news.google.com/rss/articles/CBMikAFBVV95cUxNVkkzRVhWTXotV0wwRWt6VnFrMmhvOHZYTS1zblhGRGcxWk92VG5LQzNsN05kNHBfb3lKcm01a2p4aDM5aUlsVmMyNFFPQWJJX1h0dTNtNV9Nb2h2ZnpWTVRRc3JPZUotVWNrYW9Qc0tTZUlPVG05eDNVNDlvRUdvRmRNeFN6bFFqekdoMVMwTVQ?oc=5 · https://news.google.com/rss/articles/CBMitgFBVV95cUxPazNOM3ZGNkN3dkVfS0Vwdk5qM25fZTV1ZUJEYy1GRFN1N1JyVVdtUjJ4ZDdqQnJzSTlXYjNMcXN4aHU3TmQtWUMzeVFsNkJxS1c2T3JaaG1GVnpOeGdBaXlMREpYMU1hZU82T0RVcVR1VkxHVF9KSWlpbnBRUk5zYkdxNm5QbUE4UXdXVlVNUVVnZkxQWko1NVRROWtETjhRQXRZRFRnck9rb3laYXNpN3doNmNidw?oc=5 · https://news.google.com/rss/articles/CBMiO0FVX3lxTE5zdHlJa0V6eldvZHdvWHphR1dqbGZPWkY1MmtNeWJhUzlCRU91VkQ0azhLbVpjZk0xeHlR?oc=5
-
-### 153. Google (GOOGL.US) has Genie 4
-
-- 来源标题：Google (GOOGL.US) has released Genie 4, a next-generation AI world model that can generate interactive virtual worlds in real time, potentially ushering in transformative changes for the gaming industry.
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Google+%28GOOGL.US%29+has+Genie+4%22+Google+%28GOOGL.US%29+has)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Moomoo
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Moomoo公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiogFBVV95cUxOUGVpemg3Rld5SW1IdXVRNXNDYjEzMkgyUm9IVm1UQUF1R1JvbTMyS21XNmpmUUoxMlVBZk1EelpRdnU0Z09Va0kwX2xVSmlocXcyZjVMLUZzd2FYdVYydzhkOTNCTkl1bGhaMjdJS2szZTFacEUxS0FFcW4wVVR2ZVc3RExNSGQ0cVNMWXVaSjBMbFp0OGxrRUNXMDIwOXd3cFE?oc=5 · https://news.google.com/rss/articles/CBMixAFBVV95cUxNWl9YZEZQSjloUWs5TW9LMjhNVzlaRnVQcXVJbDFKYTc1bDBjR1VnRTlucG85NzR1am9USGZBS3MxN25nanlicEl0T25rWndWVENRWWFaVFBJaWd0YldWUXdQWTh6VlhKbWtWbHZ3aEtKaGhtYVpCWWNnbGtDMDlLQlZZb2lJcnZIbHRBd2V0T3hqNC1WOW95bjYtQkhsb0t6eHhFb2FxZmt2OGk3dnV0eUJQN2pqa3F3VDk5eVNrM284Tlpp0gHKAUFVX3lxTE01NnhFWkphVHpBNk96Wnc2SEZYaDNDVjVmenZ3MGNvb05ZY1pqb1V2cWV0UkswbTJTMzFicmRRb0xvM0tDN1NOQVVyY19CVFA2YjlaQXZvdEpzYmYwVnlwT2dDVVI4b1lJYnFWSzZMMnk4WlRRLXg1ejQ4THphLW41V1JvMWIxSlU1dXVtOG4yYU5Fb1VfTDhhenNCa3lUbzE3NlpEWG13bHc2QWVzbjdpMkRnWHlVZ0d0TWJsYy15NnFjX1l3R3J0Vmc?oc=5
-
-### 154. Google Ads AI Translation Tool for Campaigns (2026)
-
-- 来源标题：Google Ads Rolls Out AI Translation Tool for Campaigns (2026)
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Google+Ads+AI+Translation+Tool+for+Campaigns+%282026%29%22+Google+Ads)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：ALM Corp
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据ALM Corp公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikAFBVV95cUxPWFdza1hteHZUSWZFR3FRSE5BckpLLUlBOGZnMmszNjNpZXV5SmhNeV9qRGFRZGhmTXpUcnJmZkxpV0gwb2tWOEgxRDJNbVQ2ZEtXTWpmMWlUUG4wSUw4UElrZnRwZ3lOZ0dvLVdBenBKeXRvMDVidTYwT0ZZSmNxcUlYVTFmeS1MTFp6dTFpM0w?oc=5
-
-### 155. Windows Central 未公开名称AI产品
-
-- 来源标题：Microsoft pushed Copilot hard in Edge, now some users can't access it in the Sidebar
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Microsoft+pushed+Copilot+hard+in+Edge%2C+now+some+users+can%27t+access+it+in+the+Sidebar)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Windows Central
-- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据Windows Central公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：增量改进。现有信息更像把成熟的对话式AI嵌入既有金融流程，属于增量体验或效率改进；未发现新的AI技术证据。
-- 证据：https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSVpsQmZ1dXFSVUdDTmFXVHZVNGowZzA4RkQyZ0xJQjRzYjRVeHNkYjMzVURnOFBILS13cnFIWF94eDF4NEREM2dNTXpnV3BRTExhQWY4U0VGcVpHZ0tkVl90X3FsVmRsemdrOXVXcjlSa2FmVWJ3N0t2aUhnWnJYdFdfWlVvdHl0Z3Z1blNYbmlhZDdzcXVFWUx5VS16R2ZxM0ZJQ1plaUNUd2h4TDVXVnJrRUctTWswSl9GX3NCMnF2QzV6blcyZGoxanRZblA4TWx4Z2tqRm5qclF2YWRFVEFnYUJFQzhnRzJuTERpejhNRmVXLWE4?oc=5
-
-### 156. Yahoo Finance 未公开名称AI产品
-
-- 来源标题：Azure Growth and Enterprise AI Adoption Drive Microsoft Corp. (MSFT) Higher
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（enterprise），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Azure+Growth+and+Enterprise+AI+Adoption+Drive+Microsoft+Corp.+%28MSFT%29+Higher)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiogFBVV95cUxQbW1JZHlpTVNJWVhuLVBaRnJuR0luVVRHaXhqMFU4SDdxeWVzZVNEZ19QWWRVWkF1R1IxcVFWcWxyRmlsRnM5ZlFZZ1RnSGduaTBBb3VGT3FiTVFVcTJOYVZIRm5OZnJOakhzVEJPdGVtM3d6dmdDYmlRd3pUcjgxVnlwWFNjYngyVVZIN3ptS05KMEs1cm1WQW5NdjNLYjJqUXc?oc=5
-
-### 157. Indian American ex-Meta AI director Rohit Patel startup
-
-- 来源标题：Indian American ex-Meta AI director Rohit Patel launches startup to challenge Microsoft, Google
-- 产品名称状态：描述性名称
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Indian+American+ex-Meta+AI+director+Rohit+Patel+startup%22+Indian+American+ex-Meta+AI+director+Rohit+Patel)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：The American Bazaar
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据The American Bazaar公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi3wFBVV95cUxONE9IZVFmbnBCZEpIQXZ4LUJldEluNnVTR2ZneEpLWGllY0RGWEgyOUsySWNOWFdaMEgzc3dkd1JmRV9HQ2N2ZHQyRnlnOTRvcDhOVVhDWFlnVzNFYnNYY1lFb0FiM2NfVW44Wk5SOW02Nk9qVm9pa3hJNFlnLV9pQm1QekNIOHZhSlBLeTVfQnpYZjMtcnl1UkxKLXFjdTFtMlJURjBIeEo1V0NocXFucEJweHgxOElHSWU0UlVSTU93cVhxWDJWNkR3V0RfXzFxQ3RKNVVRLU5QNVZNa2pv?oc=5 · https://news.google.com/rss/articles/CBMifkFVX3lxTE5IQ1QxVlQ1OU9vWnkzSWxkakR3dk01UHVrclNlNFZxX0c4MXJCcjc3Y3pkc1Z6dmxQUHF0Tm9TLVNzZEVHR0Y5ZHltMXUySlBDczEySGtYNHo3VkFfWDFibHpDZXNnSDlZTU9tTy1XY2lYekdweVlkdVhPY2RWUQ?oc=5 · https://news.google.com/rss/articles/CBMi9AFBVV95cUxNTkJxaTJNa3N1UHNJYk5qZXpQZDJtanR5OFlrejluaHpneExNNFZQemJmWUJWOUFRajNIVmZZWUN1Mm0zRmE3M3hxenZJb09TZ3VvVk16Y1ZBaWtGY1NhTUZkU1VSSGZkSDhxbDJ0NFJRRWJLQkg1amVsSjVQU0c4bWd4eWVac2VpcDg3ak9zc3B6enAxaVAxbkR3ZjlTQUNpczItaVRDN0xITURnLVItUHN0OFNOTUdlaW0yb2F4QmtaaHNKeFRNY19tV05nY2U3bno3UkxUaG1NTklnTmNGTnp0cFo4a094UFFteGlnN1JoYVJB0gH6AUFVX3lxTFA5eFlwRjFfTmVHclBlbzNjcHpaRDdFUEJlOGcwUjRHY1BJenpSNXM3bkQ1d2NwTEhmSjYydWwxZWp3QXRzSnoyWjYxczhZT0R5ek5MS2NtNGtVQWNjaFRtTVQ4bWNYcjhzQU56QXA1QXBTbXFsMDRWcDN2eGxJNFgxYmVNeVdQcHh4clRkaWxlVkNRRzBnWnBkT2VKZ2J1Z1E0bDUzMzVqd1ltaG9teGhWUlRqYUlvdFl3VE1aVkVEc2RibnR6N3BxSzBkbmtzUm5lS0VEeGRCQzgxazdQMnJZbHF5dkRPQjhVMXlvQXQ2RER4WUNHRFRYamc?oc=5 · https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSVVSLWZ2ZWdxM2pPSTJseTYtd3VfM1hVMXM1OEtscE55WDlJQ3NuLVZqY0xRbU9yTDVLbUNmVVNza0JtT00tT2Rfc3BycU9kVUY2Mnl6R2Jla21VV0pOS09YVHRRSjJCZkNfdGZaWUlMZU5Sdk02bWRXTjM3TnNseG05OHpaQ3Znb05aSnRFdnNfUUZtRWxQT2Z2Y3lkd2o4OFlNMHRGRWhYQ1drb2VSU2pNWnhnRjhiLVhzanpod1EzLUVoWkU4UGdCUjVLZ3hP?oc=5 · https://news.google.com/rss/articles/CBMi6gFBVV95cUxNOW0zSFpHelEza09tX3IzNTVqMGJiTldQMjhrQXdnMWFKczVFQVQ1QTc3ZS1BcDR4Sm83QUFyb1MwTzJEcEllbVluWmJrZ2RKcDNoS3R2VGwtOWoyZ0dmU0dIdFdzbkd3VzZhdHNvVURMMGYxUXY1UDZjd2syUVhha2phRkxvRXdTZVE5S2dvdTlucG5IbWwwSnNXOWI2akJjVmdULXZVb01raWhDd0lYbTBGZmRtYVN1QTVzaENIMXVxR1VndnpZaUtQX2JGQUJVMTkwVUdGTHBCZGgwYUJZWlhMZEFTb2d3Y1HSAe8BQVVfeXFMUHAzbldxWUloRkM2RGxLczdvLXlmay1ZM3FzSXJsUnFzYloxUVRKUVpSSmZfbjJYME91YTRpUTN1OXRDMC14aE5yTDFKSldXb05oLXhaUG8yZWVyb2R2aUxKeHpHYXhHd2xpU2QxaFNHMXZVN18yeGFlcWt0ZTVuVDJxMFBoZ3pRTWRzR1VmN3drZjkxZUdOVVQteTBLZFNRS21nc1p3YUdIdGNfZHk4a2pmX3NwVWtiWW91V2F0ZWdmdWtvX2MwdWN0TXhCcWlaejNfLXdaM1Y5VXU5UHBjWk5RWU8tZ0lqZEVvTUEzRGc?oc=5
-
-### 158. The AI economy, Apple's iPhone Duo issues, and Meta 未公开名称AI产品
-
-- 来源标题：The AI economy, Apple's iPhone Duo issues, and Meta partners with Nvidia
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=The+AI+economy%2C+Apple%27s+iPhone+Duo+issues%2C+and+Meta+partners+with+Nvidia)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitwFBVV95cUxPZVdtM1BsblBIUjBJUG84eXI1Z0RNRnFSWTU1LVdXaFFlTzBBZWhIVHVJNUVDR0ZwRFRCd0tBMlphSkdNNU5vZG1KSXc3MHRXSG5xV2l2N0JKc2hJVzVieXRGRHZQMGttZkZwVm5DWnc5bldwUE9oR1ZzVi1raUxZdXkxVHBfVm9lSmduOF8yWTh3NjdKSjhKMFVBeHVKUUZYc29PQ25yV0FZaEc4MHg2dmM5NS1PanM?oc=5
-
-### 159. The Motley Fool 未公开名称AI产品
-
-- 来源标题：Nvidia’s New $3 Billion AI Bet Is on One of Its Own Customers
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Nvidia%E2%80%99s+New+%243+Billion+AI+Bet+Is+on+One+of+Its+Own+Customers)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：42/100；审核状态：needs_review
-- 发布者：The Motley Fool
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据The Motley Fool公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMipAFBVV95cUxQMS1rOWJqeXdBVWd4M0V6T21RcTRWZGQ5U3ZWUUVib0Z6dzJGR3RpTGRMa092ckpTanNHelVtQ1BJaDVKOTFRWDhNZWpRQjJfdjdqdVdqenJiWVJLMmdRYm1kaS01ZTZsTk5oWVYxTTRlNTNEeFV1dm5HbkNrVG5OaUVIajYtSWdYYjYxVV9JTEg4TzdJUTZMNVRXX28yNUJ4MnQ0aA?oc=5 · https://news.google.com/rss/articles/CBMikAFBVV95cUxQR3llTkxNaWxNc1hqa3J6UEJQbXlTelByVXhXRlFrNWJLX0ZJN2NTY3p5bWRCU3otdzhoN3lWYXI4TEgxMkd6Yl9pNGNobFJ2RXZiSTFSekRFY0FsOTRuMjhzdVBIY3V0UlRxYUNhWG0xTmVQMFV2ZEpDSHFCMjBYY0lVYXE0bmt1ejdmMF9BSFI?oc=5
-
-### 160. Yahoo Finance 未公开名称AI产品
-
-- 来源标题：Meta and Nvidia's AI Partnership and breaking down Anthropic's IPO
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Meta+and+Nvidia%27s+AI+Partnership+and+breaking+down+Anthropic%27s+IPO)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMisAFBVV95cUxPdm1lQlRrNUZfV0VzcmFNSW1fMURyNGMzenJWanM2WkFyUnctckRwYW0xSzZONVNUcFZsVFpNcXhKN1ZXTnlLZTktNmJOZlI1SWdvak1odXV4bVBXTGh6Q1JPclE0RmFwb2FoU01Fa3lOUWx5QWQ1LXpyS3NMSVgzV1BuVmRGbTYtb1hRVnVaQ2ktRUR6ek5FWlBwZVhManlxYUkyajI2RWNhbUU1TWp0dg?oc=5
-
-### 161. ASUS Liquid-Cooled NVIDIA HGX Rubin Servers for AI Data Centers
-
-- 来源标题：ASUS Introduces Liquid-Cooled NVIDIA HGX Rubin Servers for AI Data Centers
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22ASUS+Liquid-Cooled+NVIDIA+HGX+Rubin+Servers+for+AI+Data+Centers%22+ASUS)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Refindustry
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Refindustry公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMipwFBVV95cUxQaHhobmlKWVZTZ3NkSUhwZVhtZGRreUFFdjEwb0poRGU2czBKR1k3cVN3OENZRHZQSW9mc2M3TGp1bThHUkgzRG9XM2FKbHQ0c21RYlJXUVMtSmV2UHVnX1B3UUFMQkN5TlZDQUt4UV9JenVacGpDMTQ4bkZsTmJaUXg3b1Q1Nk9sZWxPSHBzVlR3TUM3alVXd0hYbE40THFiOG1TczFhQQ?oc=5
-
-### 162. I-Connect007 未公开名称AI产品
-
-- 来源标题：Siemens Expands NVIDIA AI Collaboration for 3D IC Power and Thermal Challenges
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Siemens+Expands+NVIDIA+AI+Collaboration+for+3D+IC+Power+and+Thermal+Challenges)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：42/100；审核状态：needs_review
-- 发布者：I-Connect007
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据I-Connect007公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMixwFBVV95cUxOcVp1WmVTLTFOdVY5UGVMX00ySGlkeEI0WjZCc1BVaGxMcm93cFNqMEMxaldlNDNSOEFzNk9MUmdWUm9xdlJVdnBidDl1bDVzMHlLYmpNeUNDcjBNdHA0aW5XOF9nVFl3anJReUkwdm5najRVY2g3czhDbUlZbHBvRGZfRjRpVmFOSkZLdWxla2dkOF9SWEJ5eF9abGVKYkQwYlFONXpYNXRKaklGWFJ5WFBaT2I4dl83TmxFRUVKcXNCMEl3MTVv?oc=5
-
-### 163. The Cool Down 未公开名称AI产品
-
-- 来源标题：Elon Musk's grand plan for AI-generated movie faces reality check after Grok releases 7 minutes
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Elon+Musk%27s+grand+plan+for+AI-generated+movie+faces+reality+check+after+Grok+releases+7+minutes)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：The Cool Down
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据The Cool Down公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiggFBVV95cUxOTlFsV1NhSkx5aGxSN1JFaldYdDFSVUhPVi12QXV4eW5UU3VJeEZZOFRtUDBTdlNQRkZvc1lWeXZ0WjBDX1lhRUVOMFFzRFU3SGNyOXBJSldnUzdGa0VYSWpSaGJ4RDlzYm80XzlVb0tIWnBHTlY3MEg1eUlISzVEcnRB?oc=5
-
-### 164. Dealroom 未公开名称AI产品
-
-- 来源标题：Sovereign AI, GPU fleets and an IPO in the next few years: Mensch on Mistral's vertical-integration bet
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（integration），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Sovereign+AI%2C+GPU+fleets+and+an+IPO+in+the+next+few+years%3A+Mensch+on+Mistral%27s+vertical-integration+bet)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Dealroom
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据Dealroom公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaHRNQ0FhTUJ4U054NEstNGItaE00NHNJLUROd3J2NWNDQ01rdllMeEJGR21qQTZFa2NmbzZ0NDdGb0g2SGJ4d1FxLWcxTk1QZWdicDF0WEpKMzFLNDVKTkNIVnpaVlp4azNPUW1Za2FiQ0NJZG9BQm0xbnRvTXlydU03ZTdudGhQUU95SHVoakxiR2RYbWcwcVRZSmZFSW1RS1ZYcXNRTDFxc1dNb0xsZnJkMHNOWVVOdmlSUlpvVzJ2S3lpcGZyREcyUWFZT3ZO?oc=5
-
-### 165. INDIA New England News 未公开名称AI产品
-
-- 来源标题：IBM India Chief Praises India’s Balanced Approach to AI Regulation and Innovation
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=IBM+India+Chief+Praises+India%E2%80%99s+Balanced+Approach+to+AI+Regulation+and+Innovation)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：INDIA New England News
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据INDIA New England News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxNQzJxR0FDNTZ0VkpfbnlhRjF2dnlnMGV5NkZoVDBfTlExc010R3d1YVB0eWxsRU1qS2pBaVBxOEpMSVBOa0dhTzduTmlaLU9LLWxrOG02ZlY5a0lqLUhlUlNPM1VzWlRRNDZwSlJ5Z2pkWlRpYl8tdmlsc2E2d0o0MFRPU0hsV0lXbzhucjh5b2V2TTVoaG12S0lkTGU5dG9VZVpUcHFaOW9tNlJRdGc?oc=5
-
-### 166. IBM 未公开名称AI产品
-
-- 来源标题：IBM Consulting collaborates with Google Cloud to help open new paths for Oracle clients to modernize and scale AI
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=IBM+Consulting+collaborates+with+Google+Cloud+to+help+open+new+paths+for+Oracle+clients+to+modernize+and+scale+AI)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：IBM
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据IBM公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQklzODdmQVI1R0dtdFY3dERibXNUUFBvZEROTGx3dU1RcGMya19obTN0OHVPWnBzOUh0c0prRzhPT3FUVUUyVi1WR0JGZTNkQU0ybG1TanNGVWNDcDJhSFFZV1hQVDR1WTh6ZzAteTVzcXBEV0Q0QnVNejRDNWJHdGF4QVMySE9CU2ZBQ0dhcGRuZzlkNVhHdkNhcVRwNkV3dXg0aEthM05aWGV2a1BDVVZnNktrTS05akY4MjVrbndFNDJZMVRCYlhwMlNHM2dTVkxLLXh3THVqUE5NOFhvWkZ6NElZUQ?oc=5
-
-### 167. IBM Advanced AI Governance Systems
-
-- 来源标题：IBM Launches Advanced AI Governance Systems, Enhancing Enterpris
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22IBM+Advanced+AI+Governance+Systems%22+IBM)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：GuruFocus
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据GuruFocus公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMixwFBVV95cUxQeENpYVpjbGJXSXhuc3R5R193UkhzT0tpc1FNNGtaYlhnUThnU1M2QmpHWVh6eVdGeFM2ZTJ4emdWOUJGUzh4RjluNG5tN0VNOGNUXzZ0b0ZOaHN5WWh6VmpEaTB0eXZmeXB3VmtBMFRuUlNUbFJ6cV9tMnM2a3hWZmdIT2lFWlAxTjRpR2h3bzlsbXRxanpCX1hlZVVuSGp5ZnYta1lBOWRjT3pSQUNEcHZCYjdFM0kzbXZTWFJKTHM1NUdnNjBR?oc=5
-
-### 168. Snowflake auto industry-specific AI capabilities
-
-- 来源标题：Snowflake launches auto industry-specific AI capabilities
-- 产品名称状态：描述性名称
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Snowflake+auto+industry-specific+AI+capabilities%22+Snowflake)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：TechTarget
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据TechTarget公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMingFBVV95cUxQTE1GMkFrS2FsVVZSSFpoUEloc0xkdzRmV3pHa2llNDg3MThtWWtkSHVKeW9mSWpfZFg5cjZEa0ZnOVpvR1ozM01xYkRJblAzMzBfNUl0ZDlETUlEOC05d0VHQUNjeVR0RGJIMTZDa0FFS1EwSVBrNWtjeTVPZzBHZ013N1dQRFNyTm9NUldnME9Yd01UWXZBZ2VEZUV2UQ?oc=5
-
-### 169. Oracle (ORCL) Snowflake AI Data Cloud on Oracle Cloud I
-
-- 来源标题：Oracle (ORCL) Launches Snowflake AI Data Cloud on Oracle Cloud I
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Oracle+%28ORCL%29+Snowflake+AI+Data+Cloud+on+Oracle+Cloud+I%22+Oracle+%28ORCL%29)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：GuruFocus
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据GuruFocus公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitAFBVV95cUxQNzllaWY0Y24yMTZfLW1qZmlhNlRBZ2hrbUVuWTZzUWZQZTIxQkE0aVE3SmtOejhyeWc5THN2ZUJrbmxGWXBUZ1FGRTJSNEtCdjA2NE9ta3NoQ1loUUNDVGpDSWJCXzEtRWVCeEFHd0JBaWNuLW9LUkJBWkxKT2ZMYXJoTHc5TzRyNVJja05UcWlTd2dMb2NTSEp1Vi1zWEdwNlB0Nkh3MlpuMVlGbjAtZTl3NUI?oc=5 · https://news.google.com/rss/articles/CBMilwFBVV95cUxQd3F1QVNxaFVldGlUdWUybXpOUDJLdnNtbXV0ZVRlUUxMeld6S1c5dkJYMFJfNElMbU1udk1RRXp3NXlKSTBVZWtUTmxITXpaRERfZjlscGNyM2R4Mmx2UlprbFUyUmN0Ti1mSHFlYWQwdHdEUDdUQ3htWFk0YnRjalNNN3Q2bXBCVDNkZHhZaHp4Yk4tb2ZZ?oc=5
-
-### 170. JadeOrbit OmniLens AI as a Native App on Snowflake Marketplace
-
-- 来源标题：JadeOrbit OmniLens AI Launched as a Native App on Snowflake Marketplace
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22JadeOrbit+OmniLens+AI+as+a+Native+App+on+Snowflake+Marketplace%22+JadeOrbit+OmniLens+AI)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiowFBVV95cUxQNHRsZVludWVtek5kTXl6TkI3LXo3U2tlWkt3TmhrZmFwajFJREhYTlc3NGI1Q0ktTjB1RTh1VDNwc0xKWXA2dG5ZazZBQnU4c1c3UDJFRlpNdXpOWnFHVF8taWNtczFBYmdPakJoOTJSMmRSTU5ndmc3N2ZZb2d4bEYwZlhhaU9sdjVIY2k4ZE5kcHlkUHJDbnYwWlBOWGFjY2dj?oc=5
-
-### 171. Salesforce Advanced AI Control Features
-
-- 来源标题：Salesforce Unveils Advanced AI Control Features to Enhance Oversight and Cost Management
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Salesforce+Advanced+AI+Control+Features%22+Salesforce)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Small Business Trends
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Small Business Trends公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitwFBVV95cUxNZU11bmFmYzBsTzd6RmpWRW1tbzlKRnJGWllQZUtFNTJhRVZSaVVvZ2YydVdfVHBBZHNNNXlDcHByd0hfb2lieGhXb2t6RHRPR2FoMVNIZ1NIbzkzR0xWeEh4RFMyS0EtN1p5TXp5d1p3MEcxUTl4MWdyakJscThsZDlSQXlUZHNvQVpvak5hT1NhdE1DdlBFaU11cGR6dTBJdzBQSkx1Y2s5NzlyekNKRzlhNVhMcG8?oc=5
-
-### 172. MarTech Cube 未公开名称AI产品
-
-- 来源标题：Thrive scales CX with ServiceNow AI, achieving 73% first-contact resolution
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Thrive+scales+CX+with+ServiceNow+AI%2C+achieving+73%25+first-contact+resolution)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：MarTech Cube
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据MarTech Cube公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMipAFBVV95cUxQMlNjY2lnSUZyNXprLWtZbF9RdVp5MUxac1d5T3pOc0VfT0FsNWNpcE1EZk1fVFV5MWVoUjZrRkFhXzFBMzVacnd0cGZzeHNEZXVqNElpWUdQMmpuTzBIQzVlSTRpRFNFU25oNEVyYl9WRkYzd0RBQWg5V2RNMjkxYnhuZHBjZzhMVzh2YUo4TGJmQW9YWWFRUjdVaG1YMzNDS0VaWA?oc=5
-
-### 173. ad-hoc-news.de 未公开名称AI产品
-
-- 来源标题：ServiceNow's AI Pitch Now Hinges on Whether Customers Pay for Control
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=ServiceNow%27s+AI+Pitch+Now+Hinges+on+Whether+Customers+Pay+for+Control)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：42/100；审核状态：needs_review
-- 发布者：ad-hoc-news.de
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据ad-hoc-news.de公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX2ZRSmhmMFNwNmFOZFBwODNQTTVjY3VobndveG5aaXp6b1NlVnY1SFRyMklfNk9jV19jWXhVb19xdmdNa3FHejhGa2hnVEdSTWo0Q0NsZFV1eDdaLUpyRTV5MlNEczJ1ckRWalpfVUNWVEx5Z0FVWGtwOU1MRFItZEFxLXRCWVZ0M0tkVTZMcU1KZDFQR1ozcUdyTW5HWVZHNEs0c2N1UlF6Z2pWRy1RcnppQmgyRWd1VDgyRXNfYkUwNjlnclZsWEZaSlFncm1qX1hjLUV6ZGE?oc=5
-
-### 174. Oracle Blogs 未公开名称AI产品
-
-- 来源标题：First Principles: Oracle Acceleron Networking for AI at Scale
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=First+Principles%3A+Oracle+Acceleron+Networking+for+AI+at+Scale)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Oracle Blogs
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Oracle Blogs公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMijwFBVV95cUxPRF9TMUZQaDdsQXptbDJwczFLQ2lTLXU3M0xKNDczOENTNTNYdEMwcTBTUm9wVnBFRTVCeVppbkVjTExySGdLZE95UE4tWkZIMkFKdGhNNmplNHV0NktwVjc0UUllWnZFdUVoc08wamx2N2FXMjhySXdBamVzdzA2QzAxNUtSNG9IQVc0WkQtVQ?oc=5
-
-### 175. Oracle Blogs 未公开名称AI产品
-
-- 来源标题：Oracle Cloud Infrastructure and AMD Helios™ Build an Open Foundation for AI at Scale
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+Cloud+Infrastructure+and+AMD+Helios%E2%84%A2+Build+an+Open+Foundation+for+AI+at+Scale)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Oracle Blogs
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Oracle Blogs公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMihAFBVV95cUxNdWtUUzhIa2JWRUo1ZUtLOFZUNU5PTFlsaUtyXzk4UkQ0a1NETHN0MG9vaTFUUnVXMFQ0Q3ROaC13emtucFhCcWFYYUpONnBwV25iLTBhXzZaWUZodzJZZ1E2S09Ub1N2NE5qazlnTjczSVlKd1pjbXVSYkpQZnNFeVpjOF8?oc=5
-
-### 176. Oracle Blogs 未公开名称AI产品
-
-- 来源标题：Positron Atlas on OCI: Efficient AI Inference at Scale
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Positron+Atlas+on+OCI%3A+Efficient+AI+Inference+at+Scale)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Oracle Blogs
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Oracle Blogs公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMigwFBVV95cUxQc3VCZG5Pb0t5UXJKb3BwSFY4S3ZQakxNU0dWTl91Z1JCVVlUeVBWYW8zWlhzaGhCckpYcVVmdnp4SjZNZnBzcERJM3c3d21QSHMxTkl0dVNCa00yb2tGYmpORHNwZ2o0RFcxYWYxYjdEQ052a29RTE54WUZJQ1VXNXk3RQ?oc=5
-
-### 177. dev.ua 未公开名称AI产品
-
-- 来源标题：Canadian researchers say Chinese AI model Qwen attempted to bypass sandbox protection and send data to Beijing
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Canadian+researchers+say+Chinese+AI+model+Qwen+attempted+to+bypass+sandbox+protection+and+send+data+to+Beijing)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
-- 相关度：42/100；审核状态：needs_review
-- 发布者：dev.ua
-- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据dev.ua公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMipAFBVV95cUxQaDVVd2h5dU9scUkwUzF1c1lfaE9CeGlmdVo3LTBPYllUbjVyYmY4U3ExMVoyNjZsc1Q3NnM5bnkwaWdjR1NDSFlBM2I4RkxWb1pjWHNnVWpSMUphel9JdVI4SDlIU3RaQmRScXlvTnJfczE4dmt0MHdFVXMxQXVmWWdvU2E0TWtOMGJGMHg1Z1FSMTZsWGhyOG8wdEEtdnFqcVpfcA?oc=5
-
-### 178. Euronews.com 未公开名称AI产品
-
-- 来源标题：Why should Big Tech see your tasks? Scale AI accused of spying
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Why+should+Big+Tech+see+your+tasks%3F+Scale+AI+accused+of+spying)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Euronews.com
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Euronews.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSWJDZFVoRnZySFFab1lWOEgyOS1feWlZdVpZajZaN0E0aXZsZ3lITmhvNEJNaFdxQjNreldHQUQ2eUZUZzNCZXVyMzI4bF94eWZoS2g0alBXZ0pxellPRi0wQVpJUUJKRlJpRHpvUHpVbmFMTVBPZzZfLTFNU0VzREJ2RDd6NmE5ZVRUWHZyc3g2UTY0eDd5YVFkWVQyeC1ESGFQTGhXeXR2WERJZG9yR3F2TVg2QXJ0SWFjQVpsNFFWUQ?oc=5
-
-### 179. The Independent 未公开名称AI产品
-
-- 来源标题：'First instance of large-scale AI interference' in government consultation
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%27First+instance+of+large-scale+AI+interference%27+in+government+consultation)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：The Independent
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据The Independent公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiogFBVV95cUxQVmlCVi0tNEpaR3RFd1hNWm9CdmxsSUNIY192MEVQX05RSG5CZlc4NVBxOWowTTU4LTltekU1S0RTenFjNl81a3BnR3NsZDF6eHowcGJIX0FQVHZITldQdHpFYy12OVhjVjhxUU9QYVM3cUZvVUlldmVFTlN4M3g2OTRWb1JPVnQzMFl0YXFkZlFtaXNhb08wNEtoQ1BTMjFGRlE?oc=5
-
-### 180. SDxCentral 未公开名称AI产品
-
-- 来源标题：SDx Studio: Wafer-scale AI hardware and infrastructure with Andy Hock, Cerebras
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=SDx+Studio%3A+Wafer-scale+AI+hardware+and+infrastructure+with+Andy+Hock%2C+Cerebras)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：SDxCentral
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据SDxCentral公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMivwFBVV95cUxQUTB1NzZ5NEpFM0ppUGlnQmIyMHIwczhDVVJTSmpTY0pCR0k3dFZaNFduYXZBZUpDUlFoZjNCWlZkUWJKYjBCd0VBVlp1ZG1ocUpvd25FaFQtRU5iUnBTZjhLczV6a1FwUVk0UGd1YUZ0cmNXak9uRXJzSy1pb1JTZGw0b09jaGY1NUpWMzRaZFh0LXNUZk5JckdkUU52V0YtZFdZRVd6bDQ0UHdtaXc5ZlMxeVJ1enh2OHBycVN6OA?oc=5
-
-### 181. PropTech Connect 未公开名称AI产品
-
-- 来源标题：Lette Raises $6.5M to Scale AI Automation For UK Rental Operators
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Lette+Raises+%246.5M+to+Scale+AI+Automation+For+UK+Rental+Operators)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：PropTech Connect
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据PropTech Connect公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxQWWVqS2wzYW50WHE0RmpBV3lmc3Q3eGJHV1RTbEk3MVBXVGdJc3RJay1oS3pjVGsxUDZjSjdLMThLallRWW9zYnViTjN6Q01PWjNlV3RTS2xsSGdzMUlJNVBSLUk4RmhpdXhDLXY0Yjd1c24tSzg2UU9KZEktUU5kWEdIdHZRMFRvRWg1RzUybnVLVnppZEhn?oc=5 · https://news.google.com/rss/articles/CBMijAFBVV95cUxOSGd6NC1XZjliUDhfM2h6V1hNUDR2VTBXaWlOTFp5QzdSVWlsR0o2bXhVWnR3Vm0wbTlLeWRCeWtKYmhnRGlhVnotY1pqckFrTWsyX1JwNDNqT2NPZEU4OFR5RFZsMzJaQVAzR0xscVBJSGh3UHZXQUphdnR0V0NrbU9VSHZSVXpOV1NNcA?oc=5 · https://news.google.com/rss/articles/CBMilgFBVV95cUxQUWtjNDdxb2hWUGRfT2lvakhHYWRjR1M0bU5sYmJ2X3R2MnAtcEhJS2JKQWZuTnZxbW1GSXl5ZUVrUlQzdFpmUzJmaXFBT0FJV1djdFJsQ2g0TWJLbnJ6S3FxUnRtU1JBeld0VHBOTlFiUnJBSXQzLUQ4MDNCMlR0MUxGWHp6ZkNZMm1SYldZbTE4dVR1cWc?oc=5
-
-### 182. Inc42 未公开名称AI产品
-
-- 来源标题：Live2.ai Raises ₹130 Cr To Scale AI Marketing SaaS Platform
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Live2.ai+Raises+%E2%82%B9130+Cr+To+Scale+AI+Marketing+SaaS+Platform)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Inc42
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Inc42公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilgFBVV95cUxNdkdCcm1wSEVyOEUzQ0U2Wk9LT1R4VDM4Tzl1ZHFxRjE3VjlrRFZjUENKREQ3dnNGSVNuSGkwbnNDc1dIQU9MbDMzeUV2eEF4eUwzc0RtRkJGaUJ4SzRtMFNWelBNM3J2VlB3TGNBaDFFYUNBek5Pa0ZFTkVDZVhIeUZldGNIbUdOYUpvT1VjYzFZamVfV0E?oc=5 · https://news.google.com/rss/articles/CBMiggFBVV95cUxOb1diTHJ3Z0tVd0Frb3ZUMks1cnJxUXhlRTBGQWppN0J3NEhpVURzXzJweXBVYm4yV0h4cElucW5EZC05LWg0MmxBQkFuU0JaNG1RdWs5R21wcXVwNFFUNFZMWEE5dnpnblc4ZFZfSm8wRTNHTmk0d0swUnhUU1k2ckZR?oc=5
-
-### 183. EnergyNow 未公开名称AI产品
-
-- 来源标题：DATA CENTRES: Alberta May See ‘Gigawatt-Scale’ AI Data Centres Under Construction This Year
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=DATA+CENTRES%3A+Alberta+May+See+%E2%80%98Gigawatt-Scale%E2%80%99+AI+Data+Centres+Under+Construction+This+Year)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：EnergyNow
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据EnergyNow公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVHVkaGNLYmRZZ2NqUm1DakVZNjltZDVsaGJjNGtzai1jaWVxY2lYMjlpRndMNWItdHdPeEJyelFSMU1KTlJ1OTVWUE1TYW00N0NpNXZTZlNyZVZBTkpBa0F6T0JWS2JnRWJmVnJxNG4wV3dhNVcxZjBvaU0tbEpCTk5YY3huQklCN09DdzdwWnBsd0RfcUtjMDBLeU5HcHNQX1ZqZEdWeDE?oc=5
-
-### 184. eHealth Magazine 未公开名称AI产品
-
-- 来源标题：Practo Founder's Cent Raises $15 Million to Scale AI-Led Preventive Health Scans, Acquires Medsee
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Practo+Founder%27s+Cent+Raises+%2415+Million+to+Scale+AI-Led+Preventive+Health+Scans%2C+Acquires+Medsee)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：eHealth Magazine
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据eHealth Magazine公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMivwFBVV95cUxQbVpXeTdpOVdUN0VzWG5xRHFMQ21ZS29vMWhQQ1JReVc5RmhHUnZvZDgzZjluaUNWdEFlTjYxZFJwWC0tNjJQeExZQzIyeXBvQ0gtelRPTC1uWWV5V2I5WEtxdUxNZjFLRWRzNmdSY1k1UnBhaVAxWENjUE9jSmdMNnpORGNVQzk4Mk45MDFMSmk3UzZ0RmRJcU1sVEV6bWpkN05QMmdoTEFrSHg5OS1HM0o5bGpVT1BaazN4dnNhNA?oc=5
-
-### 185. Crypto Economy 未公开名称AI产品
-
-- 来源标题：Luxor Raises $16M Led By CMT Digital To Scale AI Compute Operations
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Luxor+Raises+%2416M+Led+By+CMT+Digital+To+Scale+AI+Compute+Operations)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Crypto Economy
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Crypto Economy公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMimgFBVV95cUxQTjJaVGlPTmU1SE1MeE9wZzdxdzBwSGQtSDN1M2xUbjRHT0d6WXE4MmNTeUg4bnZsSVZoMGJxTEg1M2VGWEhma2twYkVLVWdlbGtVME1zUFM2cGtSZUFQR0pwaVowWkV6UVEtNFZsSEJYV2lJSWlOZVd3NjFMRWsxOU5HazlkZzFBTE9oMEppLWh6Z2JXWTZZWk9R?oc=5
-
-### 186. Analytics Insight 未公开名称AI产品
-
-- 来源标题：Scale AI Accused of Tracking Keystrokes and Mouse Movements of AI Trainers
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Scale+AI+Accused+of+Tracking+Keystrokes+and+Mouse+Movements+of+AI+Trainers)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Analytics Insight
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Analytics Insight公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMisgFBVV95cUxPT19PRU1IQ3FoZTdpR2w1b2VJTklzU0c4X2NXYVRrSXVZNkNFVzNfU21rTnJ0aDgyY1pIZTdBSkdYU1RQcGwyMTVFLWNpQ3NfTmt3ZzJwaHpWTW9XaTRJeC1rRTZ2UnZNaEdYanhIaHZjSHQ3aTdwQzYyOFhKM0JDLVc4MndzdUdCcHIwMWNUb2ZqNjNoRkVwOVB3RzZ6bDRfLW1PTGduTkExR3Rvd2wxUjlB0gG_AUFVX3lxTFBoWk96NzRzQkI1SzgxcTBoTW1fZFRmak1JaUVBMFNWWW55aElja2xLZnNhYjh0eE1qM253VXVXaXlKTXR0MHEyanlVLW5GS2w4b2dJUHk0NFpxSEhpbDF5ZG0wcDZXa0dDN2p3dzNKY0xxX2xfU0RSYWgyMWlkZF9MdEdwcDcycHNpZDlSanJDajFvRHJ0c2tJbDlnZDQ5RmFhMFVtNVZZUzZrUW1uRDRzbVFtYkJqS3RIQUdRN2FZ?oc=5
-
-### 187. Ripple 24/7 AI-Powered Treasury Platform
-
-- 来源标题：Ripple Launches 24/7 AI-Powered Treasury Platform
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Ripple+24%2F7+AI-Powered+Treasury+Platform%22+Ripple)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：NFT Evening
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据NFT Evening公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMifEFVX3lxTE9kTUl0MWp5QTFyMzIxYy13eHhNNzJEckZVRWN2MllWQTBBd1ZpV090R0J1UWtyazFVRHVMd1NiSFkwSk9ZWThIcV9vTWVRWnpWVFc1MmlxMnJjRW1MVlhlV2hHeDZpRTh0S25UeGgtSmRnNVZoeDBaV3lWQnk?oc=5 · https://news.google.com/rss/articles/CBMikgFBVV95cUxOV1FGVW0wWkFMV3FQZzl1NVA0UkRrbm1hNmtLMVJMWHFJRXNWYzlMNmVjM0pQb3dKakZvR3FrVjZFOE1IUE5IU184QlFNM3FPUmw4TmF5UzR0TF9WU2lKMWxXWGNwVW5nUHdPcE95VFQ5V0N0SE8tX0YwOXRmcjVFRFEzdTJUQVVXTks3YS14N09odw?oc=5 · https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUWoybkFoT1FrNEg1Vy1xc0psLURFdTNjU2ZtVHZ3UWpTTW5LLWNhOG1rVkFFNm8yWWNFYzJCT2RhM2NKUU5yV2lCaWtmSUNZN3JaNVFCU0JOZjdmVkhTZml5TEM5T3RDUl9FNktDbnhVazJvX3M1b0lNVkE1bEJDNkZxbExCaUlqOXd1ZnpFb0pPM0lwWHdjNDRwNFJqSEFnQTAtRVRDcWJJelE?oc=5 · https://news.google.com/rss/articles/CBMitgFBVV95cUxPbDAxbm1ncFlGcEhYSGh5M2xqUEJtMzVuM3VjMmFkb2tDR1NMZjVmMVhMQnJLVmwwOEJCa2g4TVhRNU81dlduMlZrY0JrU2loZFVhcHQzWkE5WXRMR1V1dEZ3YllJbUJLb1FvZ1Y4a1hhNy1xZVR3d29SNGg1WUc0QTdMQm1hUWw0TGlHZW10NWxWQlVwSDd4V1h2djdZOTJJS0g1V0NTc1dYeUxra1lTX3dqRnVEUQ?oc=5
-
-### 188. Coinpedia 未公开名称AI产品
-
-- 来源标题：Grayscale AI Compute ETF GCPU Eyes a Bounce as AI Infrastructure Demand Grows
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Grayscale+AI+Compute+ETF+GCPU+Eyes+a+Bounce+as+AI+Infrastructure+Demand+Grows)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Coinpedia
-- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据Coinpedia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxQcFVsSU16OWZJNkdKa29VQkUxVmJ0bVNsUDRrX1FZRXZ2TWZHMkdXSE42UXNmaUd2Qi02ZUxULTF0VlZQQ1pHVkR1LURtUlZOM3BNbkM2WGZjQXNlbjN2d2s3a0s3cHBKdnZCSUUyQVZobTNzYURRM3NPX3JMclRSVENWN29oYU9TV1NiMFVIOVFqMEhNRVhpbkVUNTc5US1weVV0ZllPckNJcnRPRkHSAa4BQVVfeXFMUHBVbElNejlmSTZHSmtvVUJFMVZidG1TbFA0a19RWUV2dk1mRzJHV0hONlFzZmlHdkItNmVMVC0xdFZWUENaR1ZEdS1EbVJWTjNwTW5DNlhmY0FzZW4zdndrN2tLN3BwSnZ2QklFMkFWaG0zc2FEUTNzT19yTHJUUlRDVjdvaGFPU1dTYjBVSDlRajBITUVYaW5FVDU3OVEtcHlVdGZZT3JDSXJ0T0ZB?oc=5 · https://news.google.com/rss/articles/CBMiWEFVX3lxTE5KZU1MMUQ3X1VQYlgyeE1hR2FnNUZCVW1wSFM4dnlIWHNUWlVMNzRQclgtS255NlB4Y0VJQU1KNG11UEo5cVRucmVBdFVlZDc3MDkyNnZKVXA?oc=5
-
-### 189. NEAR Protocol Confidential Pre-IPO Futures for AI Giant Anthropic
-
-- 来源标题：NEAR Protocol Launches Confidential Pre-IPO Futures for AI Giant Anthropic
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22NEAR+Protocol+Confidential+Pre-IPO+Futures+for+AI+Giant+Anthropic%22+NEAR+Protocol)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：U.Today
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据U.Today公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：可能存在实质创新。公开文字明确提到面向智能体的协议或跨系统接口，属于可能的基础设施创新；开放程度和实际采用情况仍需核验。
-- 证据：https://news.google.com/rss/articles/CBMilAFBVV95cUxORTdYS0oyUjhmc19nbnpCMWM0eVJGU0lnNnJZdlp0VVNiSmVxbnJWczROQ2w5NnJlcE52Z2VNaGNaTmliWlhlczEyNHdLM1FibHBfai1abjd3b1lmSDRNTjlHVlJjdG5zM2lwd2xzOGs2ZU50OFA4ZDNvLURRZlJYd3g2UUVFakRYRF9JWVN6MWNrLU9h0gGaAUFVX3lxTE5YVEQ0RTkta3AzYWVpUm1sM3BFZlktazJxeGpWSHBZWWJHeXNtSzdFZDk1VExwRXQ4TjVzWTlGa3M1c2hUTUMyQVVTNkhHVF9iSTc0aEdTY21iNFVkRzhwQkx0ZlA2c2lUUnQzVmo0MUNycEJvc0JudEVuazBWeklwUTRpVWxER0lXWEZNand0SHZlX1gydUdPSXc?oc=5
-
-### 190. Yahoo Finance 未公开名称AI产品
-
-- 来源标题：Bitcoin Outperforms Grayscale’s AI Compute ETF As AI Cloud Stocks Slide
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Bitcoin+Outperforms+Grayscale%E2%80%99s+AI+Compute+ETF+As+AI+Cloud+Stocks+Slide)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiqAFBVV95cUxORFFURVROTm1DUDFCamREQTI1MjhPdzJLNzY5TVlLTW5TQzRPOUFILWg2ZUZscEFNMkJlbUJnZXI3SEpnWGpUaUNMTUg5TWZUM1R6R0JsZHctWUtESmIwREcyNmFJUWh5Y3oyS2E5QWZtVWtxMVJMcC1RRGQ3ZXJna2x4WjFUX2hZWl9oZ2VhMlN5YmhXOVRrY3lXTzMweGtYUFNBR0VSVXE?oc=5 · https://news.google.com/rss/articles/CBMi0AFBVV95cUxPa29jMHR2bVVFalBha1lQMFg5WGJWSlJ3MWp1YURaQXdpSzg2ajk4d0VTLTQ3dnZQTktraHRHbXRNQ1pVLXV3RDBlWURoYlpwZHc1ZnlFYTdSRlJJNlYzYW9tRHpLM1pBb20xSXZQSXU3d0dHbHVFNmFvTkl3dmlBMlRYYjUxUUdfNTNTcFQzWkxiWlV5VVZZSXIxZ1RhcG5nR2M4M0FvMjNwTUNScWJXYWEyeFczdVFSUkNINXNycHdoZzF3cmt1WVI5d0prcVIy?oc=5
-
-### 191. bloomingbit 未公开名称AI产品
-
-- 来源标题：Grayscale AI Computing ETF Invests in Infrastructure Companies Including CoreWeave, Nebius
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Grayscale+AI+Computing+ETF+Invests+in+Infrastructure+Companies+Including+CoreWeave%2C+Nebius)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：42/100；审核状态：needs_review
-- 发布者：bloomingbit
-- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据bloomingbit公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpN0s2MXVEcWVRU2VBUml0NG9xQ0hRUlNzWTVhRllhU0FHdXk5SU5mN05KNy1za0RUeExXaUZ3Mndic2RPbDRfV3JNUnhOTHJPMkhlUg?oc=5
-
-### 192. Oracle 未公开名称AI产品
-
-- 来源标题：Oracle AI Database@Google Cloud Now Available in Mexico
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+AI+Database%40Google+Cloud+Now+Available+in+Mexico)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：Oracle
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Oracle公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNG5DT1ZJTWNxUFY2dWRKWklkcXNOMUtsRk9uNW1OUVZPaEFtZ0k4U2FDRHdMMWJkNWFtY3JEVkY3aTVCckNSVWhDZjdidEllU1lrVWNOb1duTV9LUjFsT0JBamxuZHpxY2x5Y3Y1SEcxTWZEMUtESUFDQkJtVnZaU2RrcWpudDBhTlJ2LTJjQ0s1NkNKd0ZtMW5jalFJOUFhczlyS3JLTEdjYURRY3pmMHZMRnUzY3NU?oc=5 · https://news.google.com/rss/articles/CBMixwFBVV95cUxPYmFHdjgxSllxUXBrQTBJSEJXWXdqLUYzcHM1TTRkZEpMeEwxMHZmVGNkd0hCMVlHb0VrdHhwUzJLQnEydFBvLTZvcVU1TVdaVlFVUllxQ2NQM1pmY24yRFRubjViLU9ONkpDUEhPVUMyU0pRX1hBRzVrOWtrTXFCRDZkcDl1Nnp0bmVqT0NTMGxZYVZ4Z29WSmh3V1A3NGRsYzBDWTNSVm9leV80cTlnYk9Ib2JQX3RzRlB6dUVNUGtUZVM1NThz?oc=5
-
-### 193. La Opinión de Murcia 未公开名称AI产品
-
-- 来源标题：CaixaBank lanza una aplicación en ChatGPT para consultar y comparar productos financieros
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=CaixaBank+lanza+una+aplicaci%C3%B3n+en+ChatGPT+para+consultar+y+comparar+productos+financieros)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：40/100；审核状态：needs_review
-- 发布者：La Opinión de Murcia
-- 摘要：该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据La Opinión de Murcia公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMisgFBVV95cUxPTDdnSmZLVVBKSUpjY0lQekYxdlhGUmVTZVJZZGhtcFlvSGVDT3c4RXgzamRZQU12VV80ME5QZXdsY0ozY0tRbEtONndlTEVJUFBLeGhteG1hdUJwTG1ybmxOTlJYQ0p2YTUtaEc5bmJxQzh5RVJmQmFGZ2VmY3YzRkFQSWJLSXhvX1RQY2JsZmpEWHZLMmVQMkM2b2VRNXNhNzlyR2NCR1MxUW5ZR1hPTjlR0gG3AUFVX3lxTE90MjVIX0UzcHRkUXpvUjBxOTdzNDhIcWM1NWRJZEpjVEdTUzhNa2NkSUpDMzA3d3czVVNCM2VDZ2lKOENjUVNQOEZQRHRnYWdPSEhOZ1VuU1ZJZmZfdnhkVENQZUlVYW9YOFVnVFVLVDdTd2VuV3RFcWRUWUpWbl9HQ0NWTDFtbkxPMUU2QnJYcUFKV2kySzI1UVFYNG1oc1VVdHMwcUdKbHZsTVFfaXhXOWJiUElzZw?oc=5 · https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLWZ1SWpuaEYxV05qR3JUTF8xZGk3Nkc0bGtwVG1fNTBHNHFKeFJBaUJHZ25za1VqVGk2c2VRdktqOWpaelRNcG4yQlR3WmluWEhUdEtrMS1XbFNINGVRQzJCMEhXcmdCSTlWbVBTcFdwTEFVUDR5R3Z1bVNJaGhMQUNWT0RITHgtblZHdl92T0daa3d6a3AwdzNtc1B0bEtUdHNlbGNadHRPOEtOZjBYOFlKbHQza2c0?oc=5
-
-### 194. The Paypers 未公开名称AI产品
-
-- 来源标题：Revolut to launch Revolut Ventures with Carne Group in 2027
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Revolut+to+launch+Revolut+Ventures+with+Carne+Group+in+2027)
-- 官方地址：[https://www.revolut.com/](https://www.revolut.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：40/100；审核状态：needs_review
-- 发布者：The Paypers
-- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据The Paypers公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMimwFBVV95cUxPQTN5LUFsTVFmNVhfYVFyQlhSa0JkWDJ4V1dwR0hobVYwNEJFRWRTektEQ2lfVF8wWGxVeXBwMGtFeXE4Y2FPdlJ1OElMZ2N3RUFvOHk3MmRDemZMRzRwOXU0UUtDWmtaalNfZjRxYlFvOEZjNVJjb1BlWndDSlRmSnktOEI3blVfOGRFS0RtX1NuMWotYXc3YjRwbw?oc=5
-
-### 195. AMWatch 未公开名称AI产品
-
-- 来源标题：Revolut to launch VC fund next year
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Revolut+to+launch+VC+fund+next+year)
-- 官方地址：[https://www.revolut.com/](https://www.revolut.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：40/100；审核状态：needs_review
-- 发布者：AMWatch
-- 摘要：该候选涉及金融机构，被识别为产品发布，成熟度暂定M3。当前判断依据AMWatch公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMib0FVX3lxTFA0VG9oX1gzd1M0bHhMaFBtUk5RY2VBU0dxUF9tYlIxdmpuWXQ5eXpZRXZ2bHltbnBoT1NZc2NCRm9jWXA4TTlpWWZYOVJnRTI2dVRFRnNMUEtqMm01cWt5ZHgxNDFnZkxYVExnXzRUNA?oc=5
-
-### 196. Adclear MCP
-
-- 来源标题：Adclear Launches MCP to Integrate Marketing Compliance into Claude and ChatGPT
-- 产品名称状态：明确产品名
-- 产品分类：风险合规与反欺诈
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（compliance），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Adclear+MCP%22+Adclear)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：40/100；审核状态：needs_review
-- 发布者：FF News
-- 摘要：该候选涉及风险与合规，被识别为产品发布，成熟度暂定M3。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
-- 创新判断：可能存在实质创新。公开文字明确提到面向智能体的协议或跨系统接口，属于可能的基础设施创新；开放程度和实际采用情况仍需核验。
-- 证据：https://news.google.com/rss/articles/CBMiggFBVV95cUxNOHFyMkVtSWNaalNPRTQ5TXAzcy1DZ3lfVm5NYWZ0TUpaLUwzN3o2cEpuVm1iRW1RUWhCdkxSUk5aT1ZLYkFxdzlvU3dhaFo5Sjl0WGdsLVd3QkFkTDQ4ZDFYYU1kVTFrbk4xNHltSWM5ckxMU3hRUTNUTjRUdHZob3d3?oc=5
-
-### 197. Lemonade, Inc. (LMND) Renters Insurance in Idaho
-
-- 来源标题：Lemonade, Inc. (LMND) Launches Renters Insurance in Idaho
-- 产品名称状态：明确产品名
-- 产品分类：保险
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Lemonade%2C+Inc.+%28LMND%29+Renters+Insurance+in+Idaho%22+Lemonade%2C+Inc.+%28LMND%29)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：40/100；审核状态：needs_review
-- 发布者：TradingView
-- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据TradingView公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitgFBVV95cUxPeTRUM3hsYzNRZEVxajlucFpWNjVVZmpZcU9WXzc5eFRPeWtYal9iR3ZXVlVScU85OFJIN3dzUDlDdHZkYVhrYUVuQ0pPQ1JfOXVRT1ljVFhGclFzaFo5d1V5RzYwdkdaZGk2Sk1iRWg0X2lfSS1BZFpFNVBaZzNrcjMwRElERlc3SlQ4LXNvaDRxbmNIeDBIdUJjV1VXU1ZvbWhvWUo0MS1nZzNIWERBeGd1aGk5QQ?oc=5
-
-### 198. Small Business Trends 未公开名称AI产品
-
-- 来源标题：Oracle and OpenAI Unveil $12,000 Cloud Credit Bundle for Small Businesses
-- 产品名称状态：名称未公开
-- 产品分类：信贷与融资
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+and+OpenAI+Unveil+%2412%2C000+Cloud+Credit+Bundle+for+Small+Businesses)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：40/100；审核状态：needs_review
-- 发布者：Small Business Trends
-- 摘要：该候选涉及信贷，被识别为产品发布，成熟度暂定M3。当前判断依据Small Business Trends公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
-- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMioAFBVV95cUxQWTJwSU5FZWNSTHR6VDZKVFRNd3FaUEtBM3lncXR5eGhRNFNCSmRaWThzQWdJdjNOS3VvbnpiekMxcHZreTNsYW1RRDAxY2dXSzJhSEEyMVlvU0FZNjFSZ2w2Q2hudmNuaWI4X0lSSGotcFhYNmRqamM4c29acHJpbmNTSkZWQkFBSFpuUUtzalFxMDdZQnJzYkdYWHVrNXZU?oc=5
-
-### 199. Quartz 未公开名称AI产品
-
-- 来源标题：Ripple won final OCC approval to launch a national trust bank
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Ripple+won+final+OCC+approval+to+launch+a+national+trust+bank)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：40/100；审核状态：needs_review
-- 发布者：Quartz
-- 摘要：该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据Quartz公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE1TaXRVRUpSTjk3aWZLLUVvc19mX1phTkZmdTBma3FydXhzM3hMbnNjNWd2MVd1STFDcEU5NHVCNXFPVklpWG5Jek9FVGFrR2tLQ1JscHRySFVhNmNyczQ3VnJKenFLQVAzcU9xRTJfa3RfOXNobHc?oc=5
-
-### 200. Zcash Zillions Browser Wallet
-
-- 来源标题：Zcash Launches Zillions Browser Wallet with Ledger Support and Fast Shielded Transfers
-- 产品名称状态：明确产品名
-- 产品分类：支付与钱包
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Zcash+Zillions+Browser+Wallet%22+Zcash)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：40/100；审核状态：needs_review
-- 发布者：KuCoin
-- 摘要：该候选涉及支付，被识别为产品发布，成熟度暂定M3。当前判断依据KuCoin公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于支付中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMivAFBVV95cUxPSnhSa0JBSkRRZEJkdEdDM1RQWEdFdEhjRm9WOG9CbHM2cGdyZjhzQV9CZ3NtZ2plUWk2MDJMdmVGMkdmdzc2alplMjlhX2haWEI0TGM5eEZjQjB2cHlqTTI0T0I4RzZqM1QtOThlcTB3Ry1EMG1Ed3lZT1MzTk9rWlpiME1peVNoQVY3QVhqQ1dndFpsSEN4WEgyQnhwOXFGSmY5QzJsWHBGM2tnOG9KNTBaSzVUbGs4Vjk1NQ?oc=5
-
-### 201. Mercados.press 未公开名称AI产品
-
-- 来源标题：Google lanza nuevas herramientas de Gemini para pequeñas empresas
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Google+lanza+nuevas+herramientas+de+Gemini+para+peque%C3%B1as+empresas)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Mercados.press
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Mercados.press公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMimAFBVV95cUxPY2Q3amRtamJKb0F3WTl6eXhqODhSdWJpcW5kSDJubEp4Ym1FTnNBc2hNTy0waVNqbUdDVDRlUkl6N1haYWZ1UEZ2R3FDMFNvalRQYzhmSlVudUpMR3I3TGxIdHhMTV9jODVwVWNwR21TaEU5c0NYdC1WR2EtdmJyVlVmOG12Vk1nYVFtYnVpTkNsUDdPVGF3SNIBmAFBVV95cUxPY2Q3amRtamJKb0F3WTl6eXhqODhSdWJpcW5kSDJubEp4Ym1FTnNBc2hNTy0waVNqbUdDVDRlUkl6N1haYWZ1UEZ2R3FDMFNvalRQYzhmSlVudUpMR3I3TGxIdHhMTV9jODVwVWNwR21TaEU5c0NYdC1WR2EtdmJyVlVmOG12Vk1nYVFtYnVpTkNsUDdPVGF3SA?oc=5
-
-### 202. TechBullion 未公开名称AI产品
-
-- 来源标题：Best Crypto to Buy in October 2026: XRP Near $1.29 or Remittix Before Its November 24 Launch?
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Best+Crypto+to+Buy+in+October+2026%3A+XRP+Near+%241.29+or+Remittix+Before+Its+November+24+Launch%3F)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：TechBullion
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据TechBullion公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitgFBVV95cUxPVTRvdFM4OENQYzMxV0E2UjdBWHgwZnJ0MmhNMVQ2TW9JV0ZMbkxuUG1oUFJQTWh5cFE1eEw3U2MxTmVOcXd1VC1rRlg0QkpzeUZmT2k2NDh6Mkl0Ul9zM01QcEVwUGw4Q1p2MjczQTQtVWs0N25qSDJMSU5OeDVDM05GZ0dlaEl2dm1TbzJlUE9mU0JiMG1ZZUc4cll5d0N5dTNwbV9PanNLSkxsa3ZPcm1oaElYZw?oc=5
-
-### 203. Crypto News: SoFi 4.40% Tokenized Dollars
-
-- 来源标题：Crypto News: SoFi Launches 4.40% Tokenized Dollars as Remittix Invites 100 Earn Testers With Weekly Payouts
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Crypto+News%3A+SoFi+4.40%25+Tokenized+Dollars%22+Crypto+News%3A+SoFi)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：TechBullion
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据TechBullion公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiygFBVV95cUxQelNRanp5OWJLeFd6Mm01d2pZdVJjdHdWZkg4OGwyUU9zdzZfU08tSjZqNlhxOTJadDU4WTJjOG1PTDJJTzJILUxuNkNVR3JHOXh4SmVYbGtSd1AwV2VGRUxEVldYM3gyU1FLTVM1ZUZmNnZGVXpEak5LazhBWWI2ODVNS0lsS1B2SURlNy1GX0J2bTJCQlVLU28ya3UtdXY1RUo0TndGLVFjc211MU5xanI5MFJXSEhKa1VxaG1QYl9pejAxT1NoeVNR?oc=5
-
-### 204. Yahoo Finance 未公开名称AI产品
-
-- 来源标题：AMD and Meta Advance Strategic Partnership to Power Meta’s Superintelligence Infrastructure
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=AMD+and+Meta+Advance+Strategic+Partnership+to+Power+Meta%E2%80%99s+Superintelligence+Infrastructure)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMipAFBVV95cUxQOFlPRmdNTDBfVERDTFVuSjRWdGhRR0gya2dURjBFSjZ3UGtBZlVUN3V0TmFBZHlJT2NHdENCNTc1Zks4ejlocEh2MllQMk9MNU8zUm5kYTRoMzNzUTVDT21HTEdEbVpGaVgwMXhKMVR6dnBEeGdWdjdsSUp6dkdONTMwY01QRWt4b2tZeXI2RUlrWG5iREE3bkRZTVhMUHRjQi1BRA?oc=5
-
-### 205. B2PRIME Read-Only Claude Connector for B2TRADER
-
-- 来源标题：B2PRIME Launches Read-Only Claude Connector for B2TRADER
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22B2PRIME+Read-Only+Claude+Connector+for+B2TRADER%22+B2PRIME)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：FinanceFeeds
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据FinanceFeeds公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilAFBVV95cUxOamJnSFQ3ZkVzM1lWRlZ5VHZlc0l3Q3lnandzWmJXaUZtVmJTZ0xMeHRuNzRZQ19EZmloLWJKc3l1Q1o0NjZxQXRVR2pvblFNMmJ6YXlWWjQyXzc2Ynl2Q3FPXzNBdHNFYTJKQ3VQSVdncE5XMHNMN0lCSmxoVXFZMllXRjF5MWhtVW9PS254NHlZc0x1?oc=5
-
-### 206. TIKR.com 未公开名称AI产品
-
-- 来源标题：Microsoft Reports October 28 With Hyperscalers Down a Quarter Since May. Cash Flow Is the Test
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Microsoft+Reports+October+28+With+Hyperscalers+Down+a+Quarter+Since+May.+Cash+Flow+Is+the+Test)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：22/100；审核状态：needs_review
-- 发布者：TIKR.com
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据TIKR.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMivAFBVV95cUxPNDJLMXVBay1OZGR5aktsYV9XSDdUbnl6eDlqSG40bGl2QUNwYUlBZ1p5MmtxMDhrbmowZ2EtOHd6SXdnekdQdHRZMXZfaFNhalMwUnp6X0F4ekQtRmRzZzQ3MFZ6d215TjBzdWhpT1lnblpzTFJuVFZGR1RFQWhOTnVvel8way1pRF93NURqUjZEUVUwdG53ZEFqc0Q0LTMxa2ZxMG1VVEVPRlM0QkIwZDEtQjJPT01Lei11Vg?oc=5
-
-### 207. Investor's Business Daily 未公开名称AI产品
-
-- 来源标题：Oracle Stock Climbs On OpenAI, Google Partnership Expansions. Here's The Next Test.
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+Stock+Climbs+On+OpenAI%2C+Google+Partnership+Expansions.+Here%27s+The+Next+Test.)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Investor's Business Daily
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Investor's Business Daily公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilAFBVV95cUxPamR4UWktbEc5ajhJR2tmRTk3OU52ZUtBTkpuaWdCNGY0V3BTMmhnWUc5RUR1ZzBOYXJtYTFCSmQyNmtlM2xtUDRZWjZvUGMwXzNtZFFWNXptdmw1aGNJN3VFNlJoUkxZNC1FSVczZXg1aXlMUG5xZEJBRmFKVy1MaXpTYTlybi00XzBEVktLVGZDT2RI?oc=5
-
-### 208. Insulet (PODD) Omnipod Discover Nationwide
-
-- 来源标题：Insulet (PODD) Rolls Out Omnipod Discover Nationwide, Is It 11% Below Fair Value?
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Insulet+%28PODD%29+Omnipod+Discover+Nationwide%22+Insulet+%28PODD%29)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Simply Wall Street
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Simply Wall Street公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMixgFBVV95cUxNMzhCSUFxUDVQbG1aU3MyR1FsZU9yWmRUTTUyb2FkZGlqZGJjWElGdmxqTVdpRi1XWmxpSkpXd0dlYTl4Tkpua3JHSTRWbjE0a29ncVotV2U3SC1wSUVpcVltUEkyX29OaXdpUmRIS1VxUmNKX3dwSlJ2V1FtOWVGb0xMc0JlX2FWWEpZUExqMUZ1bk1uR0FTUDN4WkEySncxTWpNbl8tMGpsVnl6aFFScHZ4SjNVQ3hlY2E5NGtvTkdIQ1E5WXfSAcsBQVVfeXFMT002czVWMHdfT0o0MVJ0bGxjbGthcjNkRFNLUGFEZmc3TGE2NUtOclcxSUFjQnd1QjN3TUdlR3NuanZ2eHdGMWg3cTNvT0w3RUZPLTBBVTdya0FremUwMlZlR1k4Rk16S3JRcWZ0N3hRR2ZFU0ZJUWhuclRER1p3b1RFWjBYUTY5V0lWT18wMllaX3JUcHIzeWR0MFlsbFV4VnpjU055dUFMeGdSR1dwMXBRVFltb3llaVRGOUlidXNLMko0a01ianZUV2c?oc=5
-
-### 209. OpenAI 未公开名称AI产品
-
-- 来源标题：OpenAI expands partnership with Oracle to bring its apps to ChatGPT
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=OpenAI+expands+partnership+with+Oracle+to+bring+its+apps+to+ChatGPT)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：OpenAI
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据OpenAI公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Ca1otcHJaQVN6SUk5ck9iOTRENVdhWW82Q3o4aW9DTjZIaXhhUngxSDFQNXAtbVRkSGh0a1M5OFp4LVM4Qm5HaXJCbHYxMjU2WEVPZG1KZVlLWjhY?oc=5 · https://news.google.com/rss/articles/CBMiggFBVV95cUxNLXNOakpZUWg2elFlZ2k0VXcxVHlybzUtYTJxWmZIUEw1QmM4a0xiRmdrdjZFZGloUU5HZG1DTFp0Ry1FcC1PMFVrY2gxYmlrb0E2dUFaaHF6Z2NGSV9mRW5wVkh2TTI4Yy1ZeU42X003YjdrZjhaem1XOEh4eXk5MTVn0gGHAUFVX3lxTE1aMnIwbG5ZZUoxd1NqT0hCeS1hdFdCbnVzWVdBUkUyb1lzZzVQRXU5WHNJTEhUOXd1eG11RGVZajFHazZnaWZ1MS03eHNCVUlPaTl1dXN0WW50Q0w4ZERuR3hOd25TRmV0VEYtckN3TmlIZ2dFdkhueFN6dy1lWVlDd2FQTmMxRQ?oc=5
-
-### 210. Yahoo Finance 未公开名称AI产品
-
-- 来源标题：Oracle Expands Cloud Infrastructure Arsenal With Google, OpenAI, And Cerebras Partnerships
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+Expands+Cloud+Infrastructure+Arsenal+With+Google%2C+OpenAI%2C+And+Cerebras+Partnerships)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdDU3bGNqR3dyemtNTG5ucDNRUGo0UlFPNS13QV9ScUk5RFE0TW1PckFYVjVoMUFBMjV3RnRwd1NQX21FNURXN1Bkcm83WnpxT2RrN0xZN0U3aFRoUHhjeExZdVk5YlF4dEFiMjZqQnItNGVQZW1BWDZSTHl3UW1Hb3dwUWdUWnFrSUlHOUpfN3VocmNSbThGV1N0V2E1a05yb1djSXVONi0wVHM?oc=5 · https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTTlQX3NsT0l3VmxOWGFUeGtZb3pjSUdvTW1wU1RoUTNxWXJlb01vVEhvXzNOMWg4bWpzbWZ5ekRSVTg3NDE1aklJQ1VPdnVWYWt6Uk9vdkRlYWIyLWVXZ25MMmtLcFdldmN1R25jbnJUV2FvVXdqRGYxLXNLSXpuQjViU3VTN1NJTTJOQl8zcko2U3JMRXdjbFhFS2RyZm9QamxWYmJfQ1FmWjBxbmYxcXZ6NmptdTE0WnU0eWY2TzFGWGZSWk9hcE1UaHJZbDF3R0p4TzFyRzZ6V0tPcU5FZFpSN2p3T2k2?oc=5
-
-### 211. Quartz 未公开名称AI产品
-
-- 来源标题：OpenAI is launching cheaper mid-tier GPT-6.1 Terra for computer work
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=OpenAI+is+launching+cheaper+mid-tier+GPT-6.1+Terra+for+computer+work)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Quartz
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Quartz公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMickFVX3lxTFB3YlE3Z0lnYjRpMndEUXJ5VUIzZ1gwWjcyMnZsR19CeWFLQjM2bC1MQlNZV1JaTThTcDhqeUViaXNhMFNkSGVGMkNPWTFMM000S2s0bDBzbDNsT196dlhNTUFQSHRvRzVySDVQYUp4WGhQZw?oc=5
-
-### 212. Computer Weekly 未公开名称AI产品
-
-- 来源标题：OpenAI’s Altman: Only way out of patch apocalypse is through
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=OpenAI%E2%80%99s+Altman%3A+Only+way+out+of+patch+apocalypse+is+through)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / pilot
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Computer Weekly
-- 摘要：该候选涉及待确认金融场景，被识别为试点，成熟度暂定M2。当前判断依据Computer Weekly公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMipwFBVV95cUxQckFZZ3NtbG4za0h0bEJhS0tMQW9GQ3FGcFl3RjFWT08yR0tkVGs0cy1iUEE3Q1VmY3owbVBub3JmaUtfUHphNlFCRXhuRHFiVFo1Sm9YUmxUWTF1MmJ2TDV1eVo4bGlkY3cxeEtFV0Y0UUtNNGxodVRUOGowWFV3eFZSZ0xtWHVOZXpXT3lFVE1iUHpHbl9lWEdhOTVBWXc5Sk9wTi01Yw?oc=5
-
-### 213. FedScoop 未公开名称AI产品
-
-- 来源标题：GSA expands OneGov agreement with Anthropic, touting steep discounts
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=GSA+expands+OneGov+agreement+with+Anthropic%2C+touting+steep+discounts)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：FedScoop
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据FedScoop公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiZEFVX3lxTE50MnRrUWwyYUg2azNuWVBkYUdxeGxnVjJqVm43NThxQ2d0eGVrZUZTTHdIVngyWmVFRXdfUEFGcXVGMmFKRWxKVTc1Q2x3TDBSQ1pwY0NLUEphNUZwNk5nc2lSYlg?oc=5
-
-### 214. SiliconANGLE 未公开名称AI产品
-
-- 来源标题：Oracle brings Google’s TPUs to its cloud, adds ChatGPT integrations
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Oracle+brings+Google%E2%80%99s+TPUs+to+its+cloud%2C+adds+ChatGPT+integrations)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：22/100；审核状态：needs_review
-- 发布者：SiliconANGLE
-- 摘要：该候选涉及待确认金融场景，被识别为客户部署，成熟度暂定M3。当前判断依据SiliconANGLE公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMipAFBVV95cUxPZV84dGI1Y3JZLTBRTUhWNGxzb3pvRmpSblFlNWRrTzU2MHptY0NwMm0yd2VXMDBQdFBnUnM2MFNhNHZLa0g0VGs1b3l3bVNINTNtYWRENjlkVTMwMi14dkRkM0RENUM2UGJjbjFQUUFRekdRMjNoWFZGRWROVjZ6bFRuQnZtT3RFUWxzWTVucEdrWmFRVGJaWExsX09wTTNCOTdiVg?oc=5
-
-### 215. NVIDIA Investor Relations 未公开名称AI产品
-
-- 来源标题：NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=NVIDIA+and+Meta+to+Expand+Collaboration+on+Muse+and+Muse+Family+of+Models+Amid+Robust+Growth)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：NVIDIA Investor Relations
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据NVIDIA Investor Relations公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZnZOWXpBamZMc3RjS1R6MmxueUY5ZTYxM0E2dFR3MjVjS0ZSbjQ3SmZfa0EzVnQybkdlQ3RQOXNHbGt0YTRPNEJFeFdfbEFNTnZINExCVjAxUHJ1dG53MG8yMFZjUTl2ZUZidkppcWRSR3JIUGpaRHI0N0x5elFYcUNncHF4dDR5VWVJSk41MHptRnVuMEk0QXpHZUVIZFdsV2NNM05EZktIdnNJV01RWGZKYmRIRDVXam8wb3BfVTU5UVpMRnU2ZDFKdDlhcTh0VkZydUlZUmliTDdfUzJhTW9ScHg1b3JuVEo1Y3RjaWN4RjRhVmNBdA?oc=5
-
-### 216. Data Center Dynamics 未公开名称AI产品
-
-- 来源标题：Nvidia Vera Rubin and Vera CPUs now generally available on Oracle
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Nvidia+Vera+Rubin+and+Vera+CPUs+now+generally+available+on+Oracle)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Data Center Dynamics
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Data Center Dynamics公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMirgFBVV95cUxPZExmMUs5T2pCQkdfNzVjVUEwVDlQbmpqMl9BYWQtTnQ1NUFYLWUzajBPLV9VaXRCOFRKUmk5MnRFN3I4MTdZTDhHaE15MzdwQ2F0YU5nVm5nWXpTTEZhNk9uSllsakUyRE54NWU3VEI0WjE3WGQzUTB5c2NxaWYyZ1NqN0FmZXBPZ2pJaG1MYmswek4xbk9OU3A5Z1pSbURLd2pyVWVuU2V1SHV0eUE?oc=5
-
-### 217. TechTarget 未公开名称AI产品
-
-- 来源标题：Amazon to launch $10B data center upgrade in North Carolina
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Amazon+to+launch+%2410B+data+center+upgrade+in+North+Carolina)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：TechTarget
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据TechTarget公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMinwFBVV95cUxQdFM3Q2swTXlFNG1fYklzUHhNUlR1Wkt2eWNXcFJvalk4Qmx4YnFCNXlrR1JrTlN6cUYyZ3RxX1lCYV9RUGYtSk1WQXRmZHUxdWdBbGpsVFBBNnRLRWJZVDdlS1F0dEhWLUp6SUduNWYxLVc5RHlXX2dzV2tOVnFlYU5rdUFBY0k4V1BnQzhWY1djaW85andrMEdkTlVLM3c?oc=5
-
-### 218. As Corporate Giants Threaten Local Vet Clinics, Cebron Walker #1 Amazon Best Seller Giving Independent Practices the Blueprint
-
-- 来源标题：As Corporate Giants Threaten Local Vet Clinics, Cebron Walker Releases #1 Amazon Best Seller Giving Independent Practices the Blueprint to Fill Their Appointment Calendars
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22As+Corporate+Giants+Threaten+Local+Vet+Clinics%2C+Cebron+Walker+%231+Amazon+Best+Seller+Giving+Independent+Practices+the+Blueprint%22+As+Corporate+Giants+Threaten+Local+Vet+Clinics%2C+Cebron+Walker)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：The Globe and Mail
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据The Globe and Mail公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi9gJBVV95cUxNVkh6MVNZVW1VRXNrQUNmaG90eXpiNE5SX1JZbWlVVjZ2RE10ZklnYmJ4bEdHWEVkMDh2aEFseHBUUk1iZkR2MGdvYXptUHREYnFSYzBJMTYwMzQwNDBoZ2ZKcDdkRkNFcFJTU0JtOGZldEtnS1FSVkVFVzNQVEhkRXJDUWtFRF9FdmRmWnRoanZCamVHS21tNWZXd3RlZUkwLW04V1h6VVhhczVGWFJYS1V0LUNqX1Q0Ykp2RThLaEY1QTc3X1VHQS11ME8wbWdzNlo0Z0dBcFp1SXV3SHBKZDhjcF9ZWTAwdDV3SnhrVkR3ZHo0UGpCZV9SR0lWZGd1RDYyWGdDVm4xSWlJNVV6R1d0anloU0RkWjZSLXZEcmQzcUJnSmxBVElrM0huRzVoR3RaN09WazdYeWFrTkVKMmxERjRIb05HZm05bzJMTnphWkxOZDdQMWJvaXhNS1hFd3FUUmE4ZnFOd3A1bEgzVm5ITmx2UQ?oc=5
-
-### 219. Google Genie 4
-
-- 来源标题：Google unveils Genie 4, the world model with native audio and live dialogue
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Google+Genie+4%22+Google)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Pasquale Pillitteri
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Pasquale Pillitteri公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxQOHVqUER1M3pLaEpENFYza0tjVlYybmV4dy1VTWlBODhyQVdqdUFGOHBSOGt0NkNGUktQRF9WRG8xRXZvR29xS0J2RFh3cHNKSGRBMTJ1cjB0SVA4eDBVX1hEU1NEVDAyWjI4M0NHVkpoZElvQndpVGlpVFJVSkE5WGFyS1FOWUNGWllOU1Q5cVJ3NVoxVDRJ?oc=5
-
-### 220. IBM Research 未公开名称AI产品
-
-- 来源标题：IBM and Kaggle launch leaderboard for Java framework migration
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=IBM+and+Kaggle+launch+leaderboard+for+Java+framework+migration)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：IBM Research
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据IBM Research公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxQRmp4dnJzVTBTdHVPb2hfNTVYcEsycm9EaGtoMHN4YVNFOGV2M0hsZ20tU0VXdFNhelFMSzNSTW1SV3NjWkJYRkY4QTZxX29sbE5PY2szZHE0LUgwRnUxaUIxNWNUb3JRcFhPRlN3SS0zZGZkLVkzZ3ppZDlLR3ZnTFJfWGZKaVAwZWFSM0xZZWVNRDVhT093?oc=5
-
-### 221. Databricks first industry-specific lakehouse
-
-- 来源标题：Databricks unveils first industry-specific lakehouse
-- 产品名称状态：描述性名称
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Databricks+first+industry-specific+lakehouse%22+Databricks)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：TechTarget
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据TechTarget公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxQTm9VUEFIMXVuZm1BT3lvWDZ4a2w5UmRvWEdjTlVJbXBlQU45Y3ZBWEtuVG1jbTVOdzZtaXpLemNGMWVwZVRiQnFEZkJxaDdfemJ0dV9FbERabndPTlcxd0swQkF4azRwaVNWUk5EaWJKTDZadjExTEFQVDI4UFVXRE9xV0gtVlBOQzJoVVpSVm9DLUtEbEpJ?oc=5
-
-### 222. Snowflake 未公开名称Agentic AI系统
-
-- 来源标题：Benchmarking Coding Agents at Scale
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Benchmarking+Coding+Agents+at+Scale)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Snowflake
-- 摘要：该候选涉及待确认金融场景，被识别为规模化应用，成熟度暂定M5。当前判断依据Snowflake公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMifkFVX3lxTE5jaDVqVV9kR3lWNThVWUlSMkd0b19qSVZrZGM1NDR3VGRjblI2SXRWSFl3cXBYNFlQblRVMTY5cTRhM0xyMEh1RVlIZXdTTHJRVlRhdkhOcVB3NnIzdEk1QkR2OURUTXdLcmFCSmQzYk8xaE5wZEs0Q1kxOGZZUQ?oc=5
-
-### 223. Salesforce 未公开名称AI产品
-
-- 来源标题：Salesforce Signs Definitive Agreement to Acquire Braze
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Salesforce+Signs+Definitive+Agreement+to+Acquire+Braze)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Salesforce
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Salesforce公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitwFBVV95cUxQcGRfeHJSOXBEQjdJa3RGVTN6QnRfS1Ayeldzd0EwY2xSZWU3Z3h6SFNIaDBoU1hFT2ZFU3EwZ3JHbjhJbHhtd0NQa1pwR1lBVGN6RTVLUERiMzFQWU1VSmQxVUhEX3FwcGpRbkN2QWpIaGZKTXpfT2lRMU01WDNYUGVaUWhRVklscEdMTXRoOThpTUU3QUVuMFhDWUtyNHdqX2U3ZEl0VTk4MmNnUlZGc1c4bEREazQ?oc=5
-
-### 224. Oracle Blogs 未公开名称AI产品
-
-- 来源标题：EBS 12.2 Certified with 23.26.4 (October 2026) Database Release Update for Base Database Service — Commercial Cloud
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=EBS+12.2+Certified+with+23.26.4+%28October+2026%29+Database+Release+Update+for+Base+Database+Service+%E2%80%94+Commercial+Cloud)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Oracle Blogs
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据Oracle Blogs公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi6gFBVV95cUxQOExvTm1CN2xkamxiazBQOVlBajVFU1hhRnpRQm12LUcwU2xvRFZvOXM0WG5TWll0bG1MNEZmUktmbGhxMDNvX3pRNy1tUEFCSVBlN3V5VU9zOGdFc09icjR4VjNVekphSDN1MDVPRG5WN09CNW1iZGMwZldndW1CUFF4R2thb3ZXaUt2c2hNWXBXSjVKWEduQ3UyVU1EYW50STVnek1rRjBoaEJuSHFkanJoZnByT3cxcXcwX2dYRTJTUElHUEQzTGFLMFlQMHZ3T3U4R1lqeEdEYlRJODExUHVybkc4X1pyMXc?oc=5
-
-### 225. BigGo Finance 未公开名称AI产品
-
-- 来源标题：Alibaba, Tencent, ByteDance Seek 10-Year DRAM Long-Term Contracts with Samsung Electronics, SK Hynix
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Alibaba%2C+Tencent%2C+ByteDance+Seek+10-Year+DRAM+Long-Term+Contracts+with+Samsung+Electronics%2C+SK+Hynix)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：BigGo Finance
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据BigGo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE1uVEdzV3hSUW1WemNxRlI5Y244N1ZFNmc4cTNYMWplQzNqbUM2aEQzVXRvcFFTbjdQTVJWeGJabXlEY2Y1elN5bVo4LXVUejhyM3NKWDJySmhVVlpudXRyWUdES0ZldXNyUElTVlFsYmdfX1FEd2c?oc=5
-
-### 226. The Crypto Times 未公开名称AI产品
-
-- 来源标题：Coinbase to Convert 14 Crypto Assets for EEA Customers Under MiCA
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Coinbase+to+Convert+14+Crypto+Assets+for+EEA+Customers+Under+MiCA)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：The Crypto Times
-- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据The Crypto Times公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMipwFBVV95cUxPNU9TMTlCWC1PNXNSTlJCU3I4a3g1NEVRVkJUb2dEd0E3TmNvaVZxV2VOT29LWDBVUHVnTUZ3dkcwNmdsTXZVSWRZcUY2dWZsd0lzemNqUDRudFNCLTAzVlhlTjdCUUFpeTJJb1p3RjNYV0QzRVp6aVpjTkdxbDhxQWdnd056RDJjcjlDcmNvdmhrX1d3Q1hRS1B0YWNKQkIzVXE1c1pOOA?oc=5
-
-### 227. Flap Agent ID Token Issuance Feature
-
-- 来源标题：Flap Launches Agent ID Token Issuance Feature, Starting With Binance Agent ID
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Flap+Agent+ID+Token+Issuance+Feature%22+Flap)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：TOKENPOST
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据TOKENPOST公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SZ0dXTEw0bWJCVzZ3T2RLampMNkMxWGZuaFEwM1BOYnVpbDBtUU5UOUJ0WWJPZFJ5NG9BeHNIU0lfa2V2eU9IWlJWQy1ZeGlaYkZYZnpmRVhDd0U?oc=5
-
-### 228. Hyperliquid HIP-3 Upgrade
-
-- 来源标题：Hyperliquid Unveils HIP-3 Upgrade as Kraken Parent Eyes Regulated US Futures
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Hyperliquid+HIP-3+Upgrade%22+Hyperliquid)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：The Coin Republic
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据The Coin Republic公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMmU5eFQwMTFzaDhaRmF2YnRRY2lZSDM0ajRsSjRGb0tSMF9BRG1EU0lMYnRMNWdxLVhBY25zUFdGT0lhd0xKLUdmNklCNlZoblU4SmJVd2YzMjR2a21VMmlQYW1NOGdOeVVsaWRINDF3bUdmWkxEdkxXZGFZdUVzdFVhZGU0cnozZ0k2V1BhbFFJWnBUNEx0UnB5MGxRMTcxTEswVjdHRTNtTkZIanluRy1lZFZzVmx3LVIwaWRrLUZwZ9IBwgFBVV95cUxPMmU5eFQwMTFzaDhaRmF2YnRRY2lZSDM0ajRsSjRGb0tSMF9BRG1EU0lMYnRMNWdxLVhBY25zUFdGT0lhd0xKLUdmNklCNlZoblU4SmJVd2YzMjR2a21VMmlQYW1NOGdOeVVsaWRINDF3bUdmWkxEdkxXZGFZdUVzdFVhZGU0cnozZ0k2V1BhbFFJWnBUNEx0UnB5MGxRMTcxTEswVjdHRTNtTkZIanluRy1lZFZzVmx3LVIwaWRrLUZwZw?oc=5
-
-### 229. BeInCrypto 未公开名称AI产品
-
-- 来源标题：US Cashed Out FTX-Linked Anthropic Stake for $627 Million. Who Got Paid?
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=US+Cashed+Out+FTX-Linked+Anthropic+Stake+for+%24627+Million.+Who+Got+Paid%3F)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：BeInCrypto
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据BeInCrypto公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiakFVX3lxTE1yX1RlWVJGbDczUVRrSU9nVDZtZlBveVVLMmNWUGtrcWdPTlE4N2Rtay1oMDVzSWhHaXo1NEFIdVJSSEVlY0M2MC1DUHJiYURqaGdyQ0hTVmFEMm8zTzIxS2NFV0oyNjd1RVE?oc=5
-
-### 230. Crypto.com Regulated Crypto Perpetuals for US Traders
-
-- 来源标题：OG.com and Crypto.com Expand Derivatives Offering with Launch of Regulated Crypto Perpetuals for the US Market
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Crypto.com+Regulated+Crypto+Perpetuals+for+US+Traders%22+Crypto.com)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Crypto.com
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Crypto.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi2wFBVV95cUxPV2hxcndLeFdZQW5EdGlFRUI5a0M2Yzk3b1hKMk0xMHBhRlV3cEtGUFNUaU9RMV9RODVuZmhiUmgtX2NZZUt5YUVrWDdDMnlIZFMtQmQtTXdkQTRfQzd3M09hLWVpWHMxbXp4b0Z2djB4MWlucWpnUzZQb0szQm1tRFhEVWRvTXVvR09hTngyd3hHSjFVUzZQams0SVZaaHNaRlJhQnFSZm5vWEtQWVg5X01TTUNFdmoxQTltS1N1UUhzWTdUUzRvV2ZMal9NVHltcUN3cVVvSENLc1E?oc=5 · https://news.google.com/rss/articles/CBMiowFBVV95cUxOeWZyaFlBMHB1ZHVlbjdkNWlNem4xYW1NUXdtSXNMY2NwNmJRUUVRYVRkVmxNSEZ1OEM3eFBwbUdXbWxLWkF4RWVjb0R1NVhUMlRjZ25PbklyTlNPTm85dkpIWkxoZkdBOEs3cFlQRUQ3RElVbndOaFJLY3Atd0hNdHdGNG5WMllHV0IzcEN4XzhXWkN3cUFFaEFNRFFmc3FESlRF?oc=5 · https://news.google.com/rss/articles/CBMiowFBVV95cUxOVTd2U3dubjFld2c0bE5DNDB1R1F4SEE2SUxrY2ozb1IydXlUN3NnRTlMMWMzQjcxWVJkeWF6MWhYM0tFaktYdGh4OW42c01xcmpQamI5S2xSY1V6MU9tNEstcF84YzdSelVGWHRCVHhiSGJWcGF0VWRtV0p3UEpmblRpVTRkcTZDbEtsa0I4RVZoVDNYQzB4dWJhNWNpWU1wUnhB?oc=5
-
-### 231. Crypto.com Perpetual Futures in US
-
-- 来源标题：Crypto.com and OG.com launch US crypto perps with up to 5x leverage
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Crypto.com+Perpetual+Futures+in+US%22+Crypto.com)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：The Block
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据The Block公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiswFBVV95cUxPRHl3WTVQcF82LVB4dzZqUTQ4NWdwRGNWOFNCLWphemR4QjFELXhUNHZFV3JkRktabjBfaC1jTkpnWTZEWE1XN2xIV2ZCenFCaGp3SnBLUmFUb2xmb1pMdVZJUFMtOE40S0NJdVp2WUVBLU1sb2RaYXhFM2d5blFUN0pLTERlMjRUckhFa2RxZzVjMFZ3Vmp6Q3pHMnBQejlCWDV0bVpXMEVpZDJTb28yOEFYbw?oc=5 · https://news.google.com/rss/articles/CBMidkFVX3lxTE9Sc2tHM0RGYUFOV0JLZndTXzExNWpoSExmc2YtdTZaTU9MeHJDVWNtaTB4bmg0RVlGZ0tHbERaZlJCX1FtY2VKZEYwU05jbGxOVkNuUHNyTThzMHBtR2VfUlBST2RPZjRBSGYyOHN3ZGZCNWtpQlE?oc=5
-
-### 232. Crypto.com U.S. crypto perpetual futures
-
-- 来源标题：Crypto.com rolls out U.S. crypto perpetual futures with OG.com
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Crypto.com+U.S.+crypto+perpetual+futures%22+Crypto.com)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Traders Union
-- 摘要：该候选涉及金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Traders Union公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMingFBVV95cUxQS2lHbHQ0NEpld2dlWTlEQ29Jdklwb3d4NTAtQXJJeVZQX3lGMHlrR3NOS1BDUGtieklGZWN3OWluWmp4VHRZdUtIX1h2UXlZNVlZUGtDcEFPWHlQYkNIbmljc1dyano5TVA1MWFLMlpEY2FidmVuMjVYZk40dS1uTDJGQTRHeXpoZHZJWjgybHVRUENqWmJSYndfX0Nxdw?oc=5
-
-### 233. Dealroom 未公开名称AI产品
-
-- 来源标题：TEKenable doubles Salesforce customers after Tether buy
-- 产品名称状态：名称未公开
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=TEKenable+doubles+Salesforce+customers+after+Tether+buy)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Dealroom
-- 摘要：该候选涉及待确认金融场景，被识别为商业合作，成熟度暂定M2。当前判断依据Dealroom公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMikwFBVV95cUxNdjVXbEdjVlB0Vy1rUVA0Y3hUMUVQUXBWZFJCYjYwaFVMY2lOVnVsbkRJVFVCQzBpMXQ4cGt3UDR0MVRHQVRqX3VpanRfVGdhbHRVMDBfUGdDRjZXLUVXMEphcmdEbllOajQyVjBRYkZPY3B5UF9qY3lCeVpqdjlhMUVWN2NBMjBBVGFKT2w0YmxwZXM?oc=5 · https://news.google.com/rss/articles/CBMimAFBVV95cUxOQVZYTFlWVXhrSWEtSjR6VGhrcXZSdVhMOG5ocHpmTnAzVVd0cVFQYTdubTN5aW44SDJxcGVXemlnUl9EOEJmaVBoMFFVMmNLSjFla2JmdG1uV212TGd5ajcxVkJaRXgwY0FfaFN3Qk1Lblg2bTFWaTFIdXBURTJDT1pTMzdyaDZ4dnc1QzA0bFZuNUNMT2ZqTtIBmAFBVV95cUxOQVZYTFlWVXhrSWEtSjR6VGhrcXZSdVhMOG5ocHpmTnAzVVd0cVFQYTdubTN5aW44SDJxcGVXemlnUl9EOEJmaVBoMFFVMmNLSjFla2JmdG1uV212TGd5ajcxVkJaRXgwY0FfaFN3Qk1Lblg2bTFWaTFIdXBURTJDT1pTMzdyaDZ4dnc1QzA0bFZuNUNMT2ZqTg?oc=5
-
-### 234. Benzinga 未公开名称AI产品
-
-- 来源标题：Ripple Expands BNY Partnership as XRP Jumps 2%
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Ripple+Expands+BNY+Partnership+as+XRP+Jumps+2%25)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：22/100；审核状态：needs_review
-- 发布者：Benzinga
-- 摘要：该候选涉及金融科技，被识别为商业合作，成熟度暂定M2。当前判断依据Benzinga公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV0dpYUl1OG41RGlSSmE1ZDlIYlNMalRwRC1CZUJXN09JbmFRazZBRGgxTXJjWWt4OC1VT3FXV2htbkhoenl0bE13bHh4YUd5ODV1c1J1VEI2M0JXanRYYWlPYk5RckMyZllXQ3FiMm50NEhJcUFUdFE2N01rLWxKWE5vQ0NLcWZDSlFaelRsZnBid0Rwb3VjRm5jbnBjS3JEdTN2NUdqMHo?oc=5 · https://news.google.com/rss/articles/CBMirAFBVV95cUxNT0hLZWQ4NC1jTnZIMG95SzE0YWJ4V2ZIdGNaUTFvUkRSQ3pxdmpraGVNaUdYZnhYOGVXX2VFcmQ5b0dKLWVVN0QxWksyeDFNTmZCbEJtR0FTZ1NJLWhMT2VZazNXTVJRbkVWMXdGSUJ2bG5mWk5wdFRDQk9hNzVRM1VoU29qMHJTWmtpdWhEdlhYbHVYSHE1UkJWdlY3b09zMDNTR0RIR0VybnZS?oc=5
-
-### 235. finance.biggo.com 未公开名称AI产品
-
-- 来源标题：Zcash Marks 10 Years as 20% Block Reward Dev Fund Draws Grayscale Praise
-- 产品名称状态：名称未公开
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Zcash+Marks+10+Years+as+20%25+Block+Reward+Dev+Fund+Draws+Grayscale+Praise)
-- 官方地址：暂未确认
-- 有效时间：2026-10-27（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：22/100；审核状态：needs_review
-- 发布者：finance.biggo.com
-- 摘要：该候选涉及金融科技，被识别为规模化应用，成熟度暂定M5。当前判断依据finance.biggo.com公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMidkFVX3lxTE5UTG1WZi1VcXlMNkQ5S2NLU1lpU3FEU09IcFhLbHZSZWFiSUtmQjR1Y0JGQl9lVlRzWTI2aUtpc3ZrZVh0eF9XWWJERklGTTVrZEYwcXFZVFk4LUx0d3ZuclM4SDdhUFRSeHhuZ0VHWl96SkRaUUE?oc=5
-
-### 236. Lloyds Banking Group 未公开名称Agentic AI系统
-
-- 来源标题：Lloyds Banking Group Deploys Agentic AI to Boost Fraud Detection Accuracy Beyond 90%
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务、风险合规与反欺诈
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Lloyds+Banking+Group+Deploys+Agentic+AI+to+Boost+Fraud+Detection+Accuracy+Beyond+90%25)
-- 官方地址：暂未确认
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：98/100；审核状态：needs_review
-- 发布者：FF News
-- 摘要：该候选涉及银行业务、风险与合规，被识别为客户部署，成熟度暂定M3。当前判断依据FF News公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
-- 创新判断：应用设计创新。创新点可能在智能体工作流设计，而非新的底层模型；是否显著优于常规自动化仍需产品细节或生产指标证明。
-- 证据：https://news.google.com/rss/articles/CBMiowFBVV95cUxPQy1ma29xdFEwcHBpNVlraUhCNXhuRVRTeDRBeWR1bEFWYWdvZk1vTjU3MnI2cnlkU0hkSEVzWEQ0dXJ3UW9nb0Y5cEd0S3JMa1dJaERrc1d3YmVXbThpbTBHbnFWbTlKckVpa2JaVGFoSU5YaDFTaWVoS3RKOFVOQzVjbkRXVDhyVnVrZlJDLVdmcFNtRHZTZEZMaHhxYUFtb1Mw?oc=5
-
-### 237. MyChesCo 未公开名称AI产品
-
-- 来源标题：Customers Bank Taps Palantir AI to Scale Deposit Growth
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Customers+Bank+Taps+Palantir+AI+to+Scale+Deposit+Growth)
-- 官方地址：暂未确认
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M5 / scale
-- 相关度：82/100；审核状态：needs_review
-- 发布者：MyChesCo
-- 摘要：该候选涉及银行业务，被识别为规模化应用，成熟度暂定M5。当前判断依据MyChesCo公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMingFBVV95cUxOT1hKQVRkYURCOWJEVlQ4dGFfZ2pOSm56YmJVT2trbW0tazk4cTROa2NCSG01MUdjbm41RWxrSVYyV3FxdkpwVl9iMlNHSFBqTW15VUdqV2hpbEY5MU52ZjRqdXVrdWI0WlFsZW1MX2twQWZsZ2NmWGQ4Rjg4eDZ0dTJ6dklXYngxOGxRNmQyby1SQjdhZFRnZ096VG1WUQ?oc=5
-
-### 238. Revolut personal loans for UK customers
-
-- 来源标题：Revolut launches personal loans for UK customers
-- 产品名称状态：明确产品名
-- 产品分类：信贷与融资
-- 客户类型：TO C。公开标题或摘要出现个人用户信号（personal loan），暂判为TO C。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Revolut+personal+loans+for+UK+customers%22+Revolut)
-- 官方地址：[https://www.revolut.com/](https://www.revolut.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：80/100；审核状态：needs_review
-- 发布者：The Paypers
-- 摘要：该候选涉及金融机构、信贷，被识别为产品发布，成熟度暂定M3。当前判断依据The Paypers公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
-- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMigwFBVV95cUxPVnE2YjFfU011a21BYWgxU0VkQUk4aWx6TUVDcWpSWERQSHhYcGxvMURwQzBZQTBRd01xYjNiNGN5dXlmWTNGUnJ1Q3pfQzRWQlZrWWJyS0l2RjdoUkUzOHhrYVhhZTh1eVRHaGJSTjI3R3BwbUQ1U2pqVV9vbVpaVzFGZw?oc=5
-
-### 239. Yahoo Finance 未公开名称AI产品
-
-- 来源标题：Bank of America, Blackstone, Citi and Morgan Stanley Announce Landmark $63 Billion Financing Structure to Enable AI Compute Capacity in Partnership with Broadcom
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（bank），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Bank+of+America%2C+Blackstone%2C+Citi+and+Morgan+Stanley+Announce+Landmark+%2463+Billion+Financing+Structure+to+Enable+AI+Compute+Capacity+in+Partnership+with+Broadcom)
-- 官方地址：[https://www.morganstanley.com/](https://www.morganstanley.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：78/100；审核状态：needs_review
-- 发布者：Yahoo Finance
-- 摘要：该候选涉及银行业务、金融机构，被识别为商业合作，成熟度暂定M2。当前判断依据Yahoo Finance公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMioAFBVV95cUxPcjhubU96UWx6M2ZpQVNkNXVhYzBjMlFubFRXbXNNdksySU92NmszbTVUai11YXFFZlVENC1uWVRDeTdGajJ1b2VHWG5rZldCVW5oYmNtZGhlcWZZbmlGWk5mNlp4aml4SHp1WmxNRHJKRnVvcFpxSUhXbGFrN2k0MWNCTmpVdWhhSnR2eTJLRUx5WjNGMVRXV3RvUHZaT0ht?oc=5
-
-### 240. AIM Media House 未公开名称AI产品
-
-- 来源标题：Customers Bancorp Cut Loan Underwriting Time by 95% With AI
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务、信贷与融资
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Customers+Bancorp+Cut+Loan+Underwriting+Time+by+95%25+With+AI)
-- 官方地址：暂未确认
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：78/100；审核状态：needs_review
-- 发布者：AIM Media House
-- 摘要：该候选涉及银行业务、信贷，被识别为商业合作，成熟度暂定M2。当前判断依据AIM Media House公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于信贷流程中的客户筛选、信用分析、授信辅助或贷后管理，具体环节以原始产品资料为准。
-- 预期作用与价值：预期提高信贷处理效率和风险识别能力；现有自动证据不足以证明审批质量或坏账率改善。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMilwFBVV95cUxOYm0xRlNDTUYwZzN1RnlSd0tOUUMxOS1YX3VrTzlKM0k3Ry1zUnNKbzVpd0o1M0h0NVFnSU9rdERSUGhFbUU3WkZtZ2YwTTN4S0pRcXd3Z19oUVpmcDdoTXpWLW1reG1ET1dQVTliTHJTcWkzWTZWV1R5d2lZTGFiWTBaZGFna0t6RVhxWkd2OERvZXp3cm5B?oc=5
-
-### 241. Enable Banking
-
-- 来源标题：Enable Banking
-- 产品名称状态：明确产品名
-- 产品分类：银行运营与客户服务
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Enable+Banking%22+com.foreverworks)
-- 官方地址：[https://foreverworks.github.io/mcps/servers/enable-banking/](https://foreverworks.github.io/mcps/servers/enable-banking/)（官方产品页或代码库）
-- 有效时间：2026-10-26（marketplace_listing，置信度 0.85）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：com.foreverworks
-- 摘要：该候选涉及银行业务，被识别为产品发布，成熟度暂定M3。当前判断依据com.foreverworks公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://foreverworks.github.io/mcps/servers/enable-banking/
-
-### 242. Insurance Denials
-
-- 来源标题：Insurance Denials
-- 产品名称状态：明确产品名
-- 产品分类：保险
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（insurer），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Insurance+Denials%22+io.github.pipeworx-io)
-- 官方地址：[https://pipeworx.io/packs/insurance-denials](https://pipeworx.io/packs/insurance-denials)（官方产品页或代码库）
-- 有效时间：2026-10-26（marketplace_listing，置信度 0.85）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：io.github.pipeworx-io
-- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据io.github.pipeworx-io公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://pipeworx.io/packs/insurance-denials
-
-### 243. Finextra Research 未公开名称AI产品
-
-- 来源标题：Which banks lead and which are falling behind in AI deployment success?
-- 产品名称状态：名称未公开
-- 产品分类：银行运营与客户服务
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=Which+banks+lead+and+which+are+falling+behind+in+AI+deployment+success%3F)
-- 官方地址：暂未确认
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M3 / customer_deployment
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Finextra Research
-- 摘要：该候选涉及银行业务，被识别为客户部署，成熟度暂定M3。当前判断依据Finextra Research公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于银行内部运营或客户业务流程，通过AI分析信息、辅助员工或执行受控的流程任务。
-- 预期作用与价值：预期减少重复操作和跨系统查询时间；具体业务效果需由部署范围和生产指标证明。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMitAFBVV95cUxQbG9xalp3SldGZWxTNWphMW00LWFaRkEtOUxud3dqZVFGNVUzZjBIOVJCZXlMQVhaMjdhMVUxNEJnLWxJT3Bnc2dPM3V4Q3NILVVsZDlLZXV1YlRmRVZSUHhRRjUtNE1oOHZKd1pRRE1Ka0g3UEdaODlzVk9hZXB5QXk3a3RZd1BWM1BSVDlmMzFJeUN4VnB2RlJOQVQyLVhyUUhBR3FhZmR2MFNzVndBOTZINmw?oc=5
-
-### 244. Vertex AI-powered tax compliance platform Vertex Sōl
-
-- 来源标题：Vertex launches AI-powered tax compliance platform Vertex Sōl
-- 产品名称状态：明确产品名
-- 产品分类：风险合规与反欺诈
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（compliance），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Vertex+AI-powered+tax+compliance+platform+Vertex+S%C5%8Dl%22+Vertex)
-- 官方地址：暂未确认
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：StreetInsider
-- 摘要：该候选涉及风险与合规，被识别为产品发布，成熟度暂定M3。当前判断依据StreetInsider公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUFV1dkZTU2hOUllqVGhXV2IyanlQbEJUeVB1c3F0WHgyNjhHd0pfRGNDRzMyZDhsX2tTSS1WLW1iSHNPR0VqRDlJTHNVOHlKaTVTMTZVOWFULW9mbVlzT3NtU054UGIyN1ZscmQ4c3FYLU5iZ0ZvVFVUYXhWV21FRFR4R1Z2NGNBOTRUVGNTU2tob3NEYzJPa3E5djRldHRmU0RuZ2NmQnNQbU5PcU1qeTVteU9IVkhyMW9FTldFWENaazQ?oc=5
-
-### 245. Greenboard GreenboardGo2.0
-
-- 来源标题：Greenboard Launches GreenboardGo2.0, the First AI Harness Built for SEC & FINRA Compliance
-- 产品名称状态：明确产品名
-- 产品分类：风险合规与反欺诈
-- 客户类型：TO B。公开标题或摘要出现机构侧信号（compliance），暂判为TO B。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Greenboard+GreenboardGo2.0%22+Greenboard)
-- 官方地址：暂未确认
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：Business Wire
-- 摘要：该候选涉及风险与合规，被识别为产品发布，成熟度暂定M3。当前判断依据Business Wire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于合规、反洗钱、欺诈或审计检查，辅助识别异常、整理证据并生成待人工复核的结果。
-- 预期作用与价值：预期降低重复审查工作量并缩短调查时间；不能据此认定系统可替代合规责任人。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQmtXSVdRLVBwaXl1cWx6Q0Z2TThOTmY2MFhMQVBDY1F3RE5MU3R6NUVCbzR5VVBmSU5SaVVlSFJjMTFrdGljenBTSEYzSXVsVjBwOUVxREdzX1VMWDJsTlM1YlFReVY2dzRUQ1FieE5McU10aGpyc3lWczFiLVRzYWNQWmhpMENReHZkOWJZb2FiLXlTM3pUVnN1QjlFX21RSVBOSmx3TzJVb2Z6Uk1xa2ZmbVhSMnlqSm5QQnJIT2NQb0g1RVhESGVBNzRBUzlJQTBKTXgwM3JKbHFW?oc=5
-
-### 246. Meta $35B Stock Offering
-
-- 来源标题：AMD Details Meta AI Infrastructure Collaboration, Plans $1B Investment
-- 产品名称状态：明确产品名
-- 产品分类：投资理财与资本市场
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Meta+%2435B+Stock+Offering%22+Meta)
-- 官方地址：暂未确认
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M2 / commercial_agreement
-- 相关度：60/100；审核状态：needs_review
-- 发布者：HPCwire
-- 摘要：该候选涉及财富管理与资本市场，被识别为商业合作，成熟度暂定M2。当前判断依据HPCwire公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于财富管理与资本市场中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMisAFBVV95cUxQVjJsOURpSGRla290YUs5eFRPTFBZSE80d1ltcmVxcUUwa2RSQ0tlZ3ZGREg0dEN5S2g2M25hN3lOZXlxZDU1TE90R3RJdjlhQXpReWZ5UURfVV9XVnRqYVc2V0xza0NmUGxGSHA0SWF6NHp4UTFvbU5YaVpaR3hwLUNWNTRCb29HSG1GNzNTUmNFZU5LeEhHdzBULWVxMk80a1k2S2lPVE1pUzgzZUl3eQ?oc=5 · https://news.google.com/rss/articles/CBMingFBVV95cUxPRUZTaHN0QlFyYk9uM1pRZWtkcWV4T19femtzQ3FwWXpGQnhDZDh0WFdQUU1EREtESlhjeUVKRUpfTkxfUjVhVGFFNFFnSUJ6NEc4RWNoUkJqZ19WdlNUNDZMb3U3N3RKUzZKa24zaTd0dkM0R0VLdThfUThyM1lIU2NOdlRXSHJTVXJyeUxfS1AtUnZqaVotNElVakI2QQ?oc=5
-
-### 247. Visa's Busy Money 20/20 Week Highlights Last Week's Fintech Product And Announcements
-
-- 来源标题：Visa's Busy Money 20/20 Week Highlights Last Week's Fintech Product Releases And Announcements
-- 产品名称状态：明确产品名
-- 产品分类：金融科技基础设施
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Visa%27s+Busy+Money+20%2F20+Week+Highlights+Last+Week%27s+Fintech+Product+And+Announcements%22+Visa%27s+Busy+Money+20%2F20+Week+Highlights+Last+Week%27s+Fintech+Product)
-- 官方地址：[https://www.visa.com/](https://www.visa.com/)（官方机构主页，非产品专页）
-- 有效时间：2026-10-26（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：58/100；审核状态：needs_review
-- 发布者：Crowdfund Insider
-- 摘要：该候选涉及金融机构、金融科技，被识别为产品发布，成熟度暂定M3。当前判断依据Crowdfund Insider公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融机构、金融科技中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMi2AFBVV95cUxPREZHTkVRV245REhhN2RoTnpEd0Nrb2lkb1pGVEJkOEZTZXRqbTNRbU1ZR1JtRkZyY0h5MzgxcWliYW9seHozbGthaXkydGk2ekE4LTc5cjRqZ3NlT09ZM2hGNFBmTlE4S0xxTlk5cW1DT2w5N0FhdDY1OFlsZUxFQjFSekQzeFBUZzVSMUVCRkZCOC1HR2Q2Wm5pZUVSTTJXbFYzMWRscWlYY0thMFF0THFpUV93WjBYTTRtZkFxek9QcHphN21GY1lCa2pnTVdTNzNwUnI4WGY?oc=5
-
-### 248. Jerry Insurance
-
-- 来源标题：Jerry Insurance
-- 产品名称状态：明确产品名
-- 产品分类：保险
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Jerry+Insurance%22+ai.jerry)
-- 官方地址：[https://mcp.jerry.ai/docs](https://mcp.jerry.ai/docs)（官方产品页或代码库）
-- 有效时间：2026-10-25（marketplace_listing，置信度 0.85）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：ai.jerry
-- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据ai.jerry公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://mcp.jerry.ai/docs
-
-### 249. Checko — travel insurance comparison
-
-- 来源标题：Checko — travel insurance comparison
-- 产品名称状态：明确产品名
-- 产品分类：保险
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Checko+%E2%80%94+travel+insurance+comparison%22+il.co.checko)
-- 官方地址：[https://checko.co.il](https://checko.co.il)（官方产品页或代码库）
-- 有效时间：2026-10-25（marketplace_listing，置信度 0.85）
-- 阶段/事件：M3 / product_launch
-- 相关度：60/100；审核状态：needs_review
-- 发布者：il.co.checko
-- 摘要：该候选涉及保险，被识别为产品发布，成熟度暂定M3。当前判断依据il.co.checko公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于保险销售、承保、保单服务或理赔流程中的信息处理与任务辅助，具体环节需结合产品原文确认。
-- 预期作用与价值：预期缩短服务响应和材料处理时间；现有证据不足以确认承保或理赔指标改善。
-- 创新判断：未证明有实质创新。虽然使用了“智能体/Agent”表述，但现有信息没有说明自主规划、工具调用或闭环执行等差异，暂未证明存在实质创新。
-- 证据：https://checko.co.il · https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVWIwc0xPeHN6ZGptbHV1V053U01GSUpfcGVhVWZOTTh2QWx5WlZROGpoVHk0cEh1S29ldlROQlV5R1d5SHhsMG5Ld3c1V19uX2FHMURqNC1ReERrMWsxU29HSDJPaWVFNmRSSFNsbmxLRE1sYXp1a1NFemxpMmdBaFN6SEpCc2Zn?oc=5
-
-### 250. Gemini 4 Argon
-
-- 来源标题：エクサベース AI、 Google最新モデル「Gemini 4 Argon」を提供開始 ～ 長時間の複雑な作業でも深い推論を保ち、法務・金融など専門性の高い業務にも対応
-- 产品名称状态：明确产品名
-- 产品分类：其他金融场景
-- 客户类型：不公开。现有公开标题和摘要没有说明直接客户或使用者类型，标记为不公开。
-- Google 检索：[搜索该产品](https://www.google.com/search?q=%22Gemini+4+Argon%22+%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%82%A8%E3%82%AF%E3%82%B5%E3%82%A6%E3%82%A3%E3%82%B6%E3%83%BC%E3%82%BA)
-- 官方地址：暂未确认
-- 有效时间：2026-10-25（media_report，置信度 0.65）
-- 阶段/事件：M3 / product_launch
-- 相关度：42/100；审核状态：needs_review
-- 发布者：株式会社エクサウィザーズ
-- 摘要：该候选涉及待确认金融场景，被识别为产品发布，成熟度暂定M3。当前判断依据株式会社エクサウィザーズ公开的标题或短摘要；业务事件时间、产品能力和应用效果仍需原始来源核验。
-- 产品应用场景：用于金融业务中的信息分析或流程辅助；当前公开标题和摘要不足以确定更具体的使用环节。
-- 预期作用与价值：现有证据只能确认AI与金融业务有关，尚不能可靠判断实际效果或商业价值。
-- 创新判断：未证明有实质创新。现有公开标题和摘要未显示新的AI技术或明显不同的应用设计，先按常规AI功能发布处理，不为其补写创新故事。
-- 证据：https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tV3ZOTWIxSDIwYjIzV3Vtd2VpYWR1d1c4N1BFYUhlNTlLRFo5YnBzWW1mZWs5NGU4ajB4eXZ0X2VCeEYxWVBrOVc5N29Rbnc?oc=5
