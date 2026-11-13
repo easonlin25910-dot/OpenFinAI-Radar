@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-12T11:30:04.908348+00:00",
+  "generated_at": "2026-11-13T11:14:41.783271+00:00",
   "window": {
     "days": 30,
-    "start": "2026-10-14",
-    "end": "2026-11-12"
+    "start": "2026-10-15",
+    "end": "2026-11-13"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,49 +12,43 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 2672,
-    "items_in_window": 2503,
-    "accepted_candidates": 358,
+    "raw_items": 2661,
+    "items_in_window": 2490,
+    "accepted_candidates": 365,
     "reported_candidates": 250,
-    "deduplicated_items": 121,
-    "below_threshold": 2024,
-    "source_success_rate": 83.3,
-    "sources_ok": 9,
+    "deduplicated_items": 125,
+    "below_threshold": 2000,
+    "source_success_rate": 91.7,
+    "sources_ok": 10,
     "sources_partial": 1,
     "sources_total": 12,
-    "watchlist_candidates": 179,
-    "new_candidates": 176,
+    "watchlist_candidates": 187,
+    "new_candidates": 191,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
       "status": "ok",
-      "items": 47,
+      "items": 57,
       "errors": []
     },
     {
       "id": "gdelt-news",
       "status": "partial",
-      "items": 46,
+      "items": 9,
       "errors": [
-        "bank artificial intelligence: HTTP Error 429: Too Many Requests",
         "fintech generative AI: Expecting value: line 1 column 1 (char 0)",
-        "payments AI: HTTP Error 429: Too Many Requests",
+        "insurance artificial intelligence: HTTP Error 429: Too Many Requests",
+        "payments AI: Expecting value: line 1 column 1 (char 0)",
         "lending AI: Expecting value: line 1 column 1 (char 0)"
       ]
     },
     {
       "id": "github-repos",
-      "status": "error",
-      "items": 0,
-      "errors": [
-        "fintech ai: HTTP Error 403: rate limit exceeded",
-        "finance llm: HTTP Error 403: rate limit exceeded",
-        "trading ai: HTTP Error 403: rate limit exceeded",
-        "banking ai: HTTP Error 403: rate limit exceeded",
-        "payments ai: HTTP Error 403: rate limit exceeded"
-      ]
+      "status": "ok",
+      "items": 68,
+      "errors": []
     },
     {
       "id": "google-news-en",
@@ -65,37 +59,37 @@
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 30,
+      "items": 27,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 41,
+      "items": 43,
       "errors": []
     },
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 93,
+      "items": 92,
       "errors": []
     },
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 72,
+      "items": 76,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 13,
+      "items": 5,
       "errors": []
     },
     {
       "id": "official-mcp-registry",
       "status": "ok",
-      "items": 221,
+      "items": 218,
       "errors": []
     },
     {
@@ -109,35 +103,34 @@
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 1833,
+      "items": 1790,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M5": 27,
-      "M3": 180,
-      "M2": 42,
-      "M4": 1
+      "M3": 165,
+      "M2": 51,
+      "M5": 34
     },
     "event_type": {
-      "scale": 27,
-      "product_launch": 156,
-      "commercial_agreement": 33,
-      "pilot": 10,
-      "customer_deployment": 24
+      "product_launch": 144,
+      "customer_deployment": 21,
+      "commercial_agreement": 39,
+      "scale": 34,
+      "pilot": 12
     },
     "relevance": {
-      "90-100": 9,
-      "75-89": 32,
-      "60-74": 80,
-      "<60": 129
+      "90-100": 13,
+      "75-89": 29,
+      "60-74": 64,
+      "<60": 144
     },
     "innovation": {
-      "incremental": 16,
-      "not_demonstrated": 218,
-      "application_design": 10,
-      "substantive": 6
+      "not_demonstrated": 222,
+      "substantive": 9,
+      "incremental": 9,
+      "application_design": 10
     }
   }
 }
