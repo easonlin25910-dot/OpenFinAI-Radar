@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-17T12:05:37.886141+00:00",
+  "generated_at": "2026-11-18T11:57:11.369896+00:00",
   "window": {
     "days": 30,
-    "start": "2026-10-19",
-    "end": "2026-11-17"
+    "start": "2026-10-20",
+    "end": "2026-11-18"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,59 +12,54 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 2758,
-    "items_in_window": 2578,
-    "accepted_candidates": 348,
+    "raw_items": 2873,
+    "items_in_window": 2695,
+    "accepted_candidates": 364,
     "reported_candidates": 250,
-    "deduplicated_items": 103,
-    "below_threshold": 2127,
-    "source_success_rate": 83.3,
-    "sources_ok": 7,
-    "sources_partial": 3,
+    "deduplicated_items": 195,
+    "below_threshold": 2136,
+    "source_success_rate": 91.7,
+    "sources_ok": 10,
+    "sources_partial": 1,
     "sources_total": 12,
-    "watchlist_candidates": 187,
-    "new_candidates": 191,
+    "watchlist_candidates": 193,
+    "new_candidates": 212,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
-      "status": "partial",
-      "items": 51,
-      "errors": [
-        "AI banking goes live: parse error not well-formed (invalid token): line 1, column 41"
-      ]
+      "status": "ok",
+      "items": 55,
+      "errors": []
     },
     {
       "id": "gdelt-news",
-      "status": "error",
-      "items": 0,
+      "status": "partial",
+      "items": 25,
       "errors": [
-        "bank artificial intelligence: HTTP Error 429: Too Many Requests",
-        "fintech generative AI: HTTP Error 429: Too Many Requests",
+        "fintech generative AI: Expecting value: line 1 column 1 (char 0)",
+        "insurance artificial intelligence: HTTP Error 429: Too Many Requests",
         "payments AI: Expecting value: line 1 column 1 (char 0)",
-        "wealth management artificial intelligence: HTTP Error 429: Too Many Requests",
         "lending AI: HTTP Error 429: Too Many Requests"
       ]
     },
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 62,
+      "items": 97,
       "errors": []
     },
     {
       "id": "google-news-en",
-      "status": "partial",
-      "items": 262,
-      "errors": [
-        "AI financial services partnership: HTTP Error 429: Too Many Requests"
-      ]
+      "status": "ok",
+      "items": 273,
+      "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 33,
+      "items": 39,
       "errors": []
     },
     {
@@ -76,7 +71,7 @@
     {
       "id": "google-news-ja",
       "status": "ok",
-      "items": 94,
+      "items": 95,
       "errors": []
     },
     {
@@ -88,13 +83,13 @@
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 8,
+      "items": 2,
       "errors": []
     },
     {
       "id": "official-mcp-registry",
       "status": "ok",
-      "items": 220,
+      "items": 216,
       "errors": []
     },
     {
@@ -107,37 +102,36 @@
     },
     {
       "id": "watchlist-news",
-      "status": "partial",
-      "items": 1912,
-      "errors": [
-        "Charles Schwab: HTTP Error 429: Too Many Requests"
-      ]
+      "status": "ok",
+      "items": 1955,
+      "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M5": 41,
+      "M2": 53,
       "M3": 161,
-      "M2": 48
+      "M4": 1,
+      "M5": 35
     },
     "event_type": {
-      "scale": 41,
-      "customer_deployment": 25,
-      "product_launch": 136,
-      "commercial_agreement": 36,
-      "pilot": 12
+      "commercial_agreement": 43,
+      "customer_deployment": 27,
+      "scale": 35,
+      "product_launch": 134,
+      "pilot": 11
     },
     "relevance": {
-      "90-100": 9,
-      "75-89": 41,
-      "60-74": 71,
-      "<60": 129
+      "90-100": 8,
+      "75-89": 39,
+      "60-74": 69,
+      "<60": 134
     },
     "innovation": {
-      "not_demonstrated": 222,
-      "application_design": 8,
-      "substantive": 7,
-      "incremental": 13
+      "not_demonstrated": 219,
+      "incremental": 19,
+      "substantive": 4,
+      "application_design": 8
     }
   }
 }
