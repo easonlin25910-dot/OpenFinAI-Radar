@@ -1,10 +1,10 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-11-20T11:55:22.568068+00:00",
+  "generated_at": "2026-11-21T11:24:33.480667+00:00",
   "window": {
     "days": 30,
-    "start": "2026-10-22",
-    "end": "2026-11-20"
+    "start": "2026-10-23",
+    "end": "2026-11-21"
   },
   "time_policy": {
     "business_event_preferred": true,
@@ -12,60 +12,61 @@
     "warning": "Evidence publication time is not necessarily product release time."
   },
   "metrics": {
-    "raw_items": 3145,
-    "items_in_window": 2972,
-    "accepted_candidates": 392,
+    "raw_items": 2822,
+    "items_in_window": 2645,
+    "accepted_candidates": 349,
     "reported_candidates": 250,
-    "deduplicated_items": 165,
-    "below_threshold": 2415,
+    "deduplicated_items": 110,
+    "below_threshold": 2186,
     "source_success_rate": 91.7,
     "sources_ok": 10,
     "sources_partial": 1,
     "sources_total": 12,
-    "watchlist_candidates": 194,
-    "new_candidates": 203,
+    "watchlist_candidates": 153,
+    "new_candidates": 152,
     "hot_candidates": 0
   },
   "source_health": [
     {
       "id": "bing-news-en",
       "status": "ok",
-      "items": 57,
+      "items": 59,
       "errors": []
     },
     {
       "id": "gdelt-news",
       "status": "partial",
-      "items": 169,
+      "items": 22,
       "errors": [
-        "fintech generative AI: HTTP Error 429: Too Many Requests",
+        "fintech generative AI: Expecting value: line 1 column 1 (char 0)",
         "insurance artificial intelligence: HTTP Error 429: Too Many Requests",
         "payments AI: HTTP Error 429: Too Many Requests",
+        "wealth management artificial intelligence: HTTP Error 429: Too Many Requests",
         "lending AI: HTTP Error 429: Too Many Requests"
       ]
     },
     {
       "id": "github-repos",
       "status": "ok",
-      "items": 98,
+      "items": 64,
       "errors": []
     },
     {
       "id": "google-news-en",
       "status": "ok",
-      "items": 281,
+      "items": 363,
       "errors": []
     },
     {
       "id": "google-news-es",
       "status": "ok",
-      "items": 68,
+      "items": 35,
       "errors": []
     },
     {
       "id": "google-news-fr",
       "status": "ok",
-      "items": 42,
+      "items": 41,
       "errors": []
     },
     {
@@ -77,19 +78,19 @@
     {
       "id": "google-news-zh",
       "status": "ok",
-      "items": 77,
+      "items": 73,
       "errors": []
     },
     {
       "id": "hacker-news",
       "status": "ok",
-      "items": 3,
+      "items": 9,
       "errors": []
     },
     {
       "id": "official-mcp-registry",
       "status": "ok",
-      "items": 216,
+      "items": 217,
       "errors": []
     },
     {
@@ -103,35 +104,35 @@
     {
       "id": "watchlist-news",
       "status": "ok",
-      "items": 2054,
+      "items": 1859,
       "errors": []
     }
   ],
   "distributions": {
     "maturity": {
-      "M5": 30,
-      "M3": 145,
-      "M2": 71,
-      "M4": 4
+      "M2": 53,
+      "M3": 163,
+      "M5": 32,
+      "M4": 2
     },
     "event_type": {
-      "scale": 30,
+      "pilot": 10,
+      "product_launch": 137,
+      "commercial_agreement": 45,
       "customer_deployment": 26,
-      "product_launch": 119,
-      "pilot": 16,
-      "commercial_agreement": 59
+      "scale": 32
     },
     "relevance": {
-      "90-100": 8,
-      "75-89": 41,
-      "60-74": 69,
-      "<60": 132
+      "90-100": 15,
+      "75-89": 63,
+      "60-74": 75,
+      "<60": 97
     },
     "innovation": {
-      "not_demonstrated": 225,
-      "substantive": 5,
-      "incremental": 13,
-      "application_design": 7
+      "not_demonstrated": 221,
+      "substantive": 9,
+      "application_design": 11,
+      "incremental": 9
     }
   }
 }
